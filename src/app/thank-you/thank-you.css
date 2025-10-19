@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.thank-you-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('/nightsky.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.content {
+  text-align: center;
+  z-index: 10;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+.message {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin: 0;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+}
+
+.sub-message {
+  color: #67bed9;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+}
+
+.email-link {
+  color: inherit;
+  text-decoration: underline;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.email-link:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(103, 190, 217, 0.8);
+  text-decoration: underline;
+}
+
+.email-link:visited {
+  color: inherit;
+}
+
+/* Cloud animations */
+.cloud {
+  position: absolute;
+  width: 220px;
+  height: auto;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.cloud-1 {
+  top: 10%;
+  left: 5%;
+  animation: gentle-float-1 8s ease-in-out infinite;
+}
+
+.cloud-2 {
+  top: 15%;
+  right: 8%;
+  animation: gentle-float-2 10s ease-in-out infinite;
+}
+
+.cloud-3 {
+  bottom: 15%;
+  left: 8%;
+  animation: gentle-float-3 12s ease-in-out infinite;
+}
+
+.cloud-4 {
+  bottom: 10%;
+  right: 5%;
+  animation: gentle-float-4 9s ease-in-out infinite;
+}
+
+@keyframes gentle-float-1 {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(10px, -5px);
+  }
+  50% {
+    transform: translate(-8px, 8px);
+  }
+  75% {
+    transform: translate(5px, -10px);
+  }
+}
+
+@keyframes gentle-float-2 {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-7px, 10px);
+  }
+  50% {
+    transform: translate(12px, -6px);
+  }
+  75% {
+    transform: translate(-10px, 8px);
+  }
+}
+
+@keyframes gentle-float-3 {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(8px, -12px);
+  }
+  50% {
+    transform: translate(-10px, 6px);
+  }
+  75% {
+    transform: translate(12px, -8px);
+  }
+}
+
+@keyframes gentle-float-4 {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-12px, -8px);
+  }
+  50% {
+    transform: translate(6px, 10px);
+  }
+  75% {
+    transform: translate(-8px, -6px);
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .message {
+    font-size: 2rem;
+  }
+  
+  .content {
+    padding: 1rem;
+  }
+  
+  .cloud {
+    width: 150px;
+  }
+}

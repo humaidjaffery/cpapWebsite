@@ -1,0 +1,45 @@
+<div class="hero-container">
+  <!-- Black overlay -->
+  <div class="overlay"></div>
+  
+  <!-- Floating clouds -->
+  <!-- <img src="cloud_png.png" alt="Cloud" class="cloud cloud-1">
+  <img src="cloud_png.png" alt="Cloud" class="cloud cloud-2">
+  <img src="cloud_png.png" alt="Cloud" class="cloud cloud-3">
+  <img src="cloud_png.png" alt="Cloud" class="cloud cloud-4"> -->
+  
+  <!-- Main content -->
+  <div class="content">
+    <!-- Logo -->
+    <img src="dreamseal_logo.png" alt="DreamSeal Logo" class="logo">
+    
+    <!-- Title -->
+    <h1 class="title">DreamSeal</h1>
+    
+    <!-- Subtitle -->
+    <h2 class="subtitle">A Better way to Sleep</h2>
+    
+    <!-- Description paragraphs -->
+    <div class="description-container">
+        <p class="description">Order <span class="blue-text">Hyper-personalized custom fit</span> Cpap masks</p>
+        <p class="description">from the comfort of your phone</p>
+    </div>
+        
+    <!-- Email input and button -->
+    <div class="input-section">
+      <input 
+        type="text" 
+        placeholder="Enter your email or phone number" 
+        class="email-input"
+        [(ngModel)]="emailOrPhone">
+      <button 
+        class="waitlist-btn" 
+        (click)="joinWaitlist()">
+        Join the waitlist
+      </button>
+    </div>
+
+    <p class="waitlist-text">Join the waitlist to be the first to receive the mask with discounted pricing!!</p>
+
+  </div>
+</div>
