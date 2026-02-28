@@ -1,45 +1,356 @@
-<div class="hero-container">
-  <!-- Black overlay -->
-  <div class="overlay"></div>
-  
-  <!-- Floating clouds -->
-  <!-- <img src="cloud_png.png" alt="Cloud" class="cloud cloud-1">
-  <img src="cloud_png.png" alt="Cloud" class="cloud cloud-2">
-  <img src="cloud_png.png" alt="Cloud" class="cloud cloud-3">
-  <img src="cloud_png.png" alt="Cloud" class="cloud cloud-4"> -->
-  
-  <!-- Main content -->
-  <div class="content">
-    <!-- Logo -->
-    <img src="dreamseal_logo.png" alt="DreamSeal Logo" class="logo">
-    
-    <!-- Title -->
-    <h1 class="title">DreamSeal</h1>
-    
-    <!-- Subtitle -->
-    <h2 class="subtitle">A Better way to Sleep</h2>
-    
-    <!-- Description paragraphs -->
-    <div class="description-container">
-        <p class="description">Order <span class="blue-text">Hyper-personalized custom fit</span> Cpap masks</p>
-        <p class="description">from the comfort of your phone</p>
-    </div>
-        
-    <!-- Email input and button -->
-    <div class="input-section">
-      <input 
-        type="text" 
-        placeholder="Enter your email or phone number" 
-        class="email-input"
-        [(ngModel)]="emailOrPhone">
-      <button 
-        class="waitlist-btn" 
-        (click)="joinWaitlist()">
-        Join the waitlist
-      </button>
-    </div>
+<div class="export-wrapper">
+  <div class="bg-decoration">
+        <div class="bg-circle bg-circle-1"></div>
+        <div class="bg-circle bg-circle-2"></div>
+        <div class="bg-line bg-line-1"></div>
+        <!-- <div class="bg-line bg-line-2"></div> -->
+        <!-- <div class="bg-line bg-line-3"></div> -->
+      </div>
 
-    <p class="waitlist-text">Join the waitlist to be the first to receive the mask with discounted pricing!!</p>
+      <div class="page-wrapper">
+        <!-- HERO / ABOVE THE FOLD -->
+        <section class="hero-section" id="hero">
+          <header class="header" [class.show-gradient]="showHeaderInput">
+            <div class="header-left">
+              <div class="logo-mark">
+                <img
+                  src="/dreamseal_logo.png"
+                  alt="DreamSeal logo"
+                  width="48"
+                  height="48"
+                />
+              </div>
+              <div class="logo-text-block">
+                <div class="logo-title">DreamSeal</div>
+              </div>
+            </div>
 
-  </div>
-</div>
+            <div class="header-actions">
+              <input
+                class="header-waitlist-input"
+                [class.visible]="showHeaderInput"
+                type="text"
+                [(ngModel)]="emailOrPhone"
+                name="emailOrPhone"
+                placeholder="Email or Phone Number"
+                aria-label="Email or phone number"
+              />
+              <button 
+                class="btn btn-primary" 
+                [class.visible]="showHeaderInput"
+                data-media-type="banani-button"
+              >
+                Join the waitlist
+              </button>
+              <button
+                class="btn btn-outline-gradient"
+                [class.visible]="showHeaderInput"
+                type="button"
+                (click)="scrollToContact()"
+              >
+                <span class="btn-outline-gradient-inner">Contact us</span>
+              </button>
+            </div>
+          </header>
+
+          <!-- Mobile-only logo section -->
+          <div class="mobile-logo-section">
+            <div class="mobile-logo-container">
+              <div class="logo-mark">
+                <img
+                  src="/dreamseal_logo.png"
+                  alt="DreamSeal logo"
+                  width="48"
+                  height="48"
+                />
+              </div>
+              <div class="logo-text-block">
+                <div class="logo-title">DreamSeal</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-main">
+            <div
+              class="hero-left"
+              style="
+                max-width: 720px;
+                margin: 0 auto;
+                align-items: center;
+                text-align: center;
+              "
+            >
+              <div class="hero-title-block" style="align-items: center">
+                <h1 class="hero-heading" style="font-size: 46px">
+                  You deserve better sleep
+                </h1>
+                <h1 class="hero-heading-accent" style="font-size: 64px">
+                  You deserve a CPAP mask that's actually made for you.
+                </h1>
+                <p class="hero-subnote">We are creating hyper-personalized masks based on facial scan and survey questions all from the comfort of your iPhone.</p>
+              </div>
+
+              <div
+                class="waitlist-form"
+                style="
+                  align-items: center;
+                  max-width: 520px;
+                  width: 100%;
+                  margin-top: 8px;
+                "
+              >
+                <div
+                  class="waitlist-row"
+                  style="justify-content: center; height: 60px; width: 100%"
+                >
+                  <input
+                    #waitInput
+                    class="waitlist-input"
+                    type="text"
+                    [(ngModel)]="emailOrPhone"
+                    name="emailOrPhone"
+                    placeholder="Email or Phone Number"
+                    aria-label="Email or phone number"
+                    style="
+                      font-size: 16px;
+                      max-width: 420px;
+                    "
+                  />
+                  <button
+                    class="btn btn-primary"
+                    data-media-type="banani-button"
+                    style="font-size: 15px; padding: 0 28px"
+                  >
+                    Join the waitlist
+                  </button>
+                </div>
+                <p
+                  class="waitlist-helper"
+                  style="text-align: center; font-size: 14px; max-width: none"
+                >
+                  Join the waitlist to be the first to receive your ideal mask
+                  with a discount
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- BELOW THE FOLD SECTION -->
+        <section class="section-below" id="story">
+          <div class="section-heading-block section-heading-centered">
+            <h2 class="section-main-heading" style="font-size: 40px; white-space: nowrap">
+              No more leaks, No more irritation,
+              <br class="mobile-break">
+              <span>Reclaim your sleep </span>
+            </h2>
+            <p class="section-subtext-large" style="font-size: 22px">
+              You are
+              <span
+                class="emphasis-accent"
+                style="
+                  background: linear-gradient(
+                    120deg,
+                    var(--primary),
+                    var(--secondary)
+                  );
+                  -webkit-background-clip: text;
+                  background-clip: text;
+                  color: transparent;
+                  -webkit-text-fill-color: transparent;
+                  font-weight: 700;
+                "
+                >unique</span
+              >, your mask should be too
+            </p>
+          </div>
+
+          <div class="phone-row phone-row-centered">
+            <img 
+              src="/photo1.png" 
+              alt="CPAP Scanner App - Photo 1" 
+              class="phone-image phone-side"
+            />
+            <img 
+              src="/photo2.png" 
+              alt="CPAP Scanner App - Photo 2" 
+              class="phone-image phone-center"
+            />
+            <img 
+              src="/photo3.png" 
+              alt="CPAP Scanner App - Photo 3" 
+              class="phone-image phone-side"
+            />
+          </div>
+
+          <div class="section-heading-block section-heading-centered">
+            <h2 class="section-main-heading">
+              Achieve full customizability through our easy app.
+            </h2>
+          </div>
+
+          <div class="steps-grid">
+            <div class="step-card">
+              <div class="step-icon-column">
+                <iconify-icon icon="lucide:clipboard-list"></iconify-icon>
+              </div>
+              <div class="step-content-column">
+                <div class="step-header-row">
+                  <div class="step-number-circle">1</div>
+                  <div class="step-title">
+                    Answer our research-backed survey questions
+                  </div>
+                </div>
+                <div class="step-description">
+                  Share how you sleep, your comfort preferences, and what hasn't
+                  worked before so we can design around you.
+                </div>
+              </div>
+            </div>
+
+            <div class="step-card">
+              <div class="step-icon-column">
+                <iconify-icon icon="lucide:scan-face"></iconify-icon>
+              </div>
+              <div class="step-content-column">
+                <div class="step-header-row">
+                  <div class="step-number-circle">2</div>
+                  <div class="step-title">Scan your face</div>
+                </div>
+                <div class="step-description">
+                  Use a simple guided scan to capture every contour of your face
+                  with medical-grade precision.
+                </div>
+              </div>
+            </div>
+
+            <div class="step-card">
+              <div class="step-icon-column">
+                <iconify-icon icon="lucide:sparkles"></iconify-icon>
+              </div>
+              <div class="step-content-column">
+                <div class="step-header-row">
+                  <div class="step-number-circle">3</div>
+                  <div class="step-title">
+                    Receive your ideal mask and customize 
+                  </div>
+                </div>
+                <div class="step-description">
+                  See your personalized mask options, then fine-tune materials,
+                  strap styles, and finishes to match your comfort and
+                  aesthetic.
+                </div>
+              </div>
+            </div>
+
+            <div class="step-card">
+              <div class="step-icon-column">
+                <iconify-icon icon="lucide:shopping-bag"></iconify-icon>
+              </div>
+              <div class="step-content-column">
+                <div class="step-header-row">
+                  <div class="step-number-circle">4</div>
+                  <div class="step-title">
+                    Buy your ideal mask in one click and automatically set up
+                    refills
+                  </div>
+                </div>
+                <div class="step-description">
+                  Complete your purchase in a tap and set effortless refills
+                  every 6 months so you can simply sleep.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="section-below"
+            id="contact-section"
+            style="
+              border-top: none;
+              padding-top: 32px;
+              margin-top: 32px;
+              border-radius: var(--radius-xl);
+              background: linear-gradient(
+                135deg,
+                rgba(106, 13, 173, 0.06),
+                rgba(230, 196, 106, 0.14)
+              );
+              padding-bottom: 32px;
+              border: 1px solid var(--foreground);
+            "
+          >
+            <div class="section-heading-block section-heading-centered">
+              <h2 class="section-main-heading" style="color: var(--foreground)">
+                Contact us
+              </h2>
+            </div>
+            <div
+              style="
+                display: flex;
+                justify-content: center;
+                gap: 96px;
+                align-items: center;
+                margin-top: 20px;
+                flex-wrap: nowrap;
+              "
+            >
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 12px;
+                  color: var(--foreground);
+                "
+              >
+                <div
+                  class="step-icon-wrapper"
+                  style="
+                    background: rgba(255, 255, 255, 0.9);
+                    border: 1px solid var(--foreground);
+                  "
+                >
+                  <iconify-icon
+                    icon="lucide:mail"
+                    style="font-size: 20px; color: var(--foreground)"
+                  ></iconify-icon>
+                </div>
+                <p
+                  class="section-subtext-large"
+                  style="font-size: 18px; color: var(--foreground)"
+                >
+                  dreamsealcpap@gmail.com
+                </p>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 12px;
+                  color: var(--foreground);
+                "
+              >
+                <div
+                  class="step-icon-wrapper"
+                  style="
+                    background: rgba(255, 255, 255, 0.9);
+                    border: 1px solid var(--foreground);
+                  "
+                >
+                  <iconify-icon
+                    icon="lucide:phone"
+                    style="font-size: 20px; color: var(--foreground)"
+                  ></iconify-icon>
+                </div>
+                <p
+                  class="section-subtext-large"
+                  style="font-size: 18px; color: var(--foreground)"
+                >
+                  480-202-3073
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
