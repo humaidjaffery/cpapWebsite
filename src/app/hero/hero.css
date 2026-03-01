@@ -198,6 +198,10 @@ body {
   padding: 60px 20px 40px;
   max-width: 700px;
   margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-headline {
@@ -1238,7 +1242,7 @@ body {
   display: flex;
   gap: 32px;
   margin: 20px auto 0;
-  width: 90%;
+  width: 80%;
   justify-content: space-evenly;
   align-items: flex-end;
 }
@@ -1296,6 +1300,26 @@ body {
 
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
+  /* Remove all default margins and padding */
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .page-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+  }
+  
+  .export-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+  }
+  
   /* Completely hide header on mobile */
   .header {
     display: none !important;
@@ -1336,26 +1360,30 @@ body {
   
   /* Mobile hero text sizing */
   .hero-heading {
-    font-size: 28px !important;
-    line-height: 1.2;
-    margin-bottom: 16px;
+    /* display: none !important; Hide "You deserve better sleep" */
+    font-size: 30px !important; /* Decreased from 56px */
   }
   
-  .hero-heading-accent {
-    font-size: 36px !important;
-    line-height: 1.3;
+  .hero-heading-accent{
+    font-size: 42px !important; /* Increased from 36px */
+    line-height: 1.2;
   }
   
   .hero-subnote {
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 16px !important; /* Decreased from 16px */
+    line-height: 1.4;
     margin-bottom: 24px;
+    padding: 0 10%;
   }
   
   /* Mobile waitlist form - stacked layout */
   .waitlist-form {
     max-width: 100% !important;
-    padding: 0 20px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
   }
   
   .waitlist-row {
@@ -1363,27 +1391,41 @@ body {
     height: auto !important;
     gap: 16px;
     width: 100% !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
   
   .waitlist-input {
-    width: 90% !important;
-    max-width: none !important;
+    width: 80% !important;
+    min-height: 55px !important;
+    height: 55px !important;
     font-size: 16px !important;
-    height: 50px;
-    margin: 0;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    padding: 0 16px !important;
+    border-radius: var(--radius-md) !important;
+    border: 1px solid #000000 !important;
+    background: var(--input) !important;
+    flex: none !important;
   }
   
   .btn.btn-primary {
-    width: 90% !important;
-    height: 50px;
+    width: 80% !important;
+    max-width: 80% !important;
+    height: 55px !important;
+    min-height: 55px !important;
     font-size: 16px !important;
     padding: 0 !important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    flex: none !important;
   }
   
   .waitlist-helper {
     font-size: 14px !important;
     margin-top: 12px;
-    padding: 0 10px;
+    padding: 0 5%;
   }
   
   /* Mobile section headings */
@@ -1430,8 +1472,8 @@ body {
   
   .phone-side,
   .phone-center {
-    width: 80%;
-    max-width: 200px;
+    width: 70%;
+    max-width: 220px; /* Same size as center phone on desktop */
     transform: none !important;
   }
   
@@ -1439,36 +1481,52 @@ body {
   .steps-grid {
     grid-template-columns: 1fr !important;
     gap: 24px;
-    padding: 0 20px;
+    padding: 0 0; /* Use percentage instead of vw */
+    width: 100%;
   }
   
   .step-card {
     padding: 20px;
+    width: 80% !important; /* Changed to 80% as requested */
+    max-width: 80% !important; /* Fixed: was 1% which caused narrow cards */
+    box-sizing: border-box;
+    margin: 0 auto; /* Center the card */
+    display: flex;
+    flex-direction: column;
   }
   
+  /* Hide icon column on mobile */
   .step-icon-column {
-    margin-bottom: 16px;
+    display: none !important;
   }
   
   .step-content-column {
     width: 100%;
   }
   
+  /* Number and heading on same row */
   .step-header-row {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
+    flex-direction: row !important; /* Changed from column to row */
+    align-items: center !important; /* Center align items */
+    gap: 16px !important; /* Space between number and title */
     margin-bottom: 12px;
+    width: 100%;
+  }
+  
+  .step-number-circle {
+    flex-shrink: 0; /* Prevent the circle from shrinking */
   }
   
   .step-title {
     font-size: 18px;
     line-height: 1.3;
+    flex: 1; /* Take up remaining space */
   }
   
   .step-description {
     font-size: 14px;
     line-height: 1.5;
+    width: 100%;
   }
   
   /* Mobile contact section - vertical stack */
@@ -1476,33 +1534,117 @@ body {
     flex-direction: column !important;
     gap: 24px !important;
     align-items: center !important;
-    padding: 0 20px;
+    padding: 0 !important; /* Removed padding that was causing left margin */
+    width: 100% !important;
+    margin: 0 !important;
   }
   
   .section-below div[style*="display: flex"][style*="align-items: center"][style*="gap: 12px"] {
-    justify-content: center;
-    text-align: center;
-    width: 100%;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
   
-  /* Mobile padding adjustments */
+  /* Ensure contact section container uses full width */
+  .section-below#contact-section {
+    width: 100% !important;
+    margin: 40px 0 0 0 !important; /* Added top margin for spacing */
+    padding: 20px 0 !important; /* Only top/bottom padding, no side padding */
+    box-sizing: border-box !important;
+    /* Override desktop positioning styles that cause offset */
+    left: auto !important;
+    right: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    position: static !important;
+  }
+  
+  /* Mobile padding adjustments - Remove all side padding for full width */
   .hero-section {
     padding-top: 0;
-    min-height: auto;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    min-height: 100vh !important;
+    height: 100vh !important;
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
   
   .hero-main,
   .section-below {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex: 1 !important;
+    gap: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    left: auto !important;
+    right: auto !important;
+    position: static !important;
+    box-sizing: border-box !important;
   }
   
   .hero-left {
     max-width: 100% !important;
-    padding: 0 10px;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 24px !important;
   }
   
   .section-heading-block {
-    padding: 0 10px;
+    padding: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 40px !important; /* Added vertical margin */
+    margin-bottom: 40px !important; /* Added vertical margin */
+    width: 100%;
+  }
+  
+  /* Also ensure the mobile logo section takes full width and is centered */
+  .mobile-logo-section {
+    padding: 0 !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    position: absolute !important;
+    top: 15vh !important; /* Moved higher up to avoid overlapping with content */
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  .mobile-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 0 !important;
+  }
+  
+  /* Make waitlist form use more width */
+  .waitlist-form {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
   }
 }

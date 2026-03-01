@@ -1,6 +1,8 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA, AfterViewInit, OnDestroy, ViewChild, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { initializeApp } from 'firebase/app';
+import { getFirestore, collection, addDoc, Timestamp } from 'firebase/firestore';
 
 @Component({
   selector: 'app-hero',
@@ -13,8 +15,23 @@ import { FormsModule } from '@angular/forms';
 export class Hero implements AfterViewInit, OnDestroy {
   emailOrPhone: string = '';
   showHeaderInput: boolean = false;
+  private db;
 
-  constructor(private router: Router) {}
+  constructor(private router: Router) {
+    // Initialize Firebase
+    const firebaseConfig = {
+      apiKey: "AIzaSyDyslULYzP1gVHknT0fY4AoP_kaLyQM0gk",
+      authDomain: "cpapwebsite.firebaseapp.com",
+      projectId: "cpapwebsite",
+      storageBucket: "cpapwebsite.firebasestorage.app",
+      messagingSenderId: "353137119721",
+      appId: "1:353137119721:web:896b61ac3b1431bb587b78",
+      measurementId: "G-JDXC6M682N"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    this.db = getFirestore(app);
+  }
 
   @ViewChild('waitInput') waitInput!: ElementRef<HTMLInputElement>;
 
@@ -72,9 +89,29 @@ export class Hero implements AfterViewInit, OnDestroy {
     this.observer?.disconnect();
   }
 
-  joinWaitlist() {
-    // Navigate to thank you page
-    this.router.navigate(['/thank-you']);
+  async joinWaitlist() {
+    // Validate email/phone input
+    if (!this.emailOrPhone || this.emailOrPhone.trim() === '') {
+      alert('Please enter your email or phone number');
+      return;
+    }
+
+    try {
+      // Save to Firebase Firestore
+      const docRef = await addDoc(collection(this.db, 'waitlist'), {
+        emailOrPhone: this.emailOrPhone.trim(),
+        timestamp: Timestamp.now(),
+        userAgent: navigator.userAgent
+      });
+
+      console.log('Document written with ID: ', docRef.id);
+      
+      // Navigate to thank you page
+      this.router.navigate(['/thank-you']);
+    } catch (error) {
+      console.error('Error adding document: ', error);
+      alert('There was an error joining the waitlist. Please try again.');
+    }
   }
 
   scrollToContact() {

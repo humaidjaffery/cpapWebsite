@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+/* CSS Variables for consistent colors */
+:root {
+  --primary: #6A0DAD;
+  --secondary: #C6A646;
+  --foreground: #1a1a1a;
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --gradient-purple-gold: linear-gradient(135deg, #8B5CF6 0%, #F59E0B 100%);
+}
+
 .thank-you-container {
   position: fixed;
   top: 0;
@@ -8,26 +17,82 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url('/nightsky.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-family: var(--font-family);
+  background-color: #ffffff;
 }
 
-.overlay {
+/* Background Decoration Styles */
+.bg-decoration {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 1;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.bg-circle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+
+.bg-circle-1 {
+  width: 600px;
+  height: 600px;
+  background: var(--secondary);
+  top: -120px;
+  right: -120px;
+  filter: blur(80px);
+}
+
+.bg-circle-2 {
+  width: 520px;
+  height: 520px;
+  background: var(--primary);
+  top: calc(100vh - 260px);
+  left: -260px;
+  filter: blur(90px);
+}
+
+.bg-line {
+  position: absolute;
+  height: 1px;
+  width: 120%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--secondary),
+    var(--primary),
+    transparent
+  );
+  opacity: 0.3;
+}
+
+.bg-line-1 {
+  top: 100vh;
+  left: -10%;
+  transform: rotate(-3deg);
+}
+
+.bg-line-2 {
+  top: 50%;
+  left: -10%;
+  transform: rotate(4deg);
+  opacity: 0.1;
+}
+
+.bg-line-3 {
+  top: 78%;
+  left: -5%;
+  transform: rotate(-2deg);
+  opacity: 0.16;
 }
 
 .content {
@@ -38,45 +103,44 @@
 }
 
 .message {
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 2.5rem;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-family: var(--font-family);
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-weight: 700;
   margin: 0;
-  line-height: 1.4;
-  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+  /* Same gradient as hero page main text */
+  background: linear-gradient(120deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .sub-message {
-  color: #B08D2F;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 1rem;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-  margin-top: 0.5rem;
-  line-height: 1.4;
-  letter-spacing: 0.05em;
+  color: var(--foreground);
+  font-family: var(--font-family);
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
 }
 
 .email-link {
-  color: inherit;
+  color: var(--foreground);
   text-decoration: underline;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 .email-link:hover {
-  color: #ffffff;
-  text-shadow: 0 0 8px rgba(176, 141, 47, 0.8);
+  color: var(--primary);
   text-decoration: underline;
 }
 
 .email-link:visited {
-  color: inherit;
+  color: var(--foreground);
 }
 
 /* Cloud animations */
