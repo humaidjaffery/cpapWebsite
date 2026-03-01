@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, Timestamp } from 'firebase/firestore';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-hero',
@@ -18,18 +19,8 @@ export class Hero implements AfterViewInit, OnDestroy {
   private db;
 
   constructor(private router: Router) {
-    // Initialize Firebase
-    const firebaseConfig = {
-      apiKey: "AIzaSyDyslULYzP1gVHknT0fY4AoP_kaLyQM0gk",
-      authDomain: "cpapwebsite.firebaseapp.com",
-      projectId: "cpapwebsite",
-      storageBucket: "cpapwebsite.firebasestorage.app",
-      messagingSenderId: "353137119721",
-      appId: "1:353137119721:web:896b61ac3b1431bb587b78",
-      measurementId: "G-JDXC6M682N"
-    };
-
-    const app = initializeApp(firebaseConfig);
+    // Initialize Firebase using environment config
+    const app = initializeApp(environment.firebase);
     this.db = getFirestore(app);
   }
 
