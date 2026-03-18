@@ -1337,6 +1337,9 @@ body {
     display: block;
     padding: 20px 20px 0;
     width: 100%;
+    position: relative; /* Ensure normal document flow */
+    z-index: 1;
+    background: transparent;
   }
   
   .mobile-logo-container {
@@ -1345,6 +1348,7 @@ body {
     justify-content: center;
     gap: 12px;
     margin-bottom: 32px;
+    position: relative;
   }
   
   .mobile-logo-container .logo-mark img {
@@ -1581,6 +1585,7 @@ body {
   .section-below {
     padding-left: 0 !important;
     padding-right: 0 !important;
+    padding-top: 20px !important; /* Ensure no top padding since mobile logo is now in normal flow */
     width: 100% !important;
     display: flex !important;
     flex-direction: column !important;
@@ -1619,17 +1624,15 @@ body {
   
   /* Also ensure the mobile logo section takes full width and is centered */
   .mobile-logo-section {
-    padding: 0 !important;
+    padding: 20px 0 !important;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 !important;
-    position: absolute !important;
-    top: 15vh !important; /* Moved higher up to avoid overlapping with content */
-    left: 0;
-    right: 0;
+    position: relative !important; /* Changed from absolute to relative */
     z-index: 10;
+    background: transparent;
   }
   
   .mobile-logo-container {

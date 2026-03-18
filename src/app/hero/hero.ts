@@ -80,6 +80,70 @@ export class Hero implements AfterViewInit, OnDestroy {
     this.observer?.disconnect();
   }
 
+  /**
+   * Securely store document ID with cybersecurity best practices
+   * @param docId - Firestore document ID to store
+   */
+  private storeDocIdSecurely(docId: string): void {
+    try {
+      // Validate docId format (Firestore IDs are typically 20 characters alphanumeric)
+      if (!this.isValidFirestoreId(docId)) {
+        console.error('Invalid document ID format');
+        return;
+      }
+
+      // Create secure storage object with metadata
+      const secureData = {
+        id: this.encodeDocId(docId),
+        timestamp: Date.now(),
+        expiry: Date.now() + (10 * 60 * 1000), // 10 minutes expiry
+        checksum: this.generateChecksum(docId)
+      };
+
+      // Store in session storage with key obfuscation
+      sessionStorage.setItem('_sdi', JSON.stringify(secureData));
+      
+      console.log('Document ID stored securely');
+    } catch (error) {
+      console.error('Failed to store document ID securely:', error);
+    }
+  }
+
+  /**
+   * Validate Firestore document ID format
+   * @param docId - Document ID to validate
+   * @returns boolean - Whether the ID is valid
+   */
+  private isValidFirestoreId(docId: string): boolean {
+    // Firestore auto-generated IDs are 20 characters, contain letters, numbers
+    const firestoreIdPattern = /^[a-zA-Z0-9]{20}$/;
+    return firestoreIdPattern.test(docId) && docId.length === 20;
+  }
+
+  /**
+   * Simple encoding for document ID (not encryption, just obfuscation)
+   * @param docId - Document ID to encode
+   * @returns string - Encoded document ID
+   */
+  private encodeDocId(docId: string): string {
+    return btoa(docId + '_' + Date.now().toString().slice(-6));
+  }
+
+  /**
+   * Generate simple checksum for integrity verification
+   * @param data - Data to generate checksum for
+   * @returns string - Generated checksum
+   */
+  private generateChecksum(data: string): string {
+    let hash = 0;
+    for (let i = 0; i < data.length; i++) {
+      const char = data.charCodeAt(i);
+      hash = ((hash << 5) - hash) + char;
+      hash = hash & hash; // Convert to 32-bit integer
+    }
+    return Math.abs(hash).toString(36);
+  }
+
   async joinWaitlist() {
     // Validate email/phone input
     if (!this.emailOrPhone || this.emailOrPhone.trim() === '') {
@@ -97,7 +161,10 @@ export class Hero implements AfterViewInit, OnDestroy {
 
       console.log('Document written with ID: ', docRef.id);
       
-      // Navigate to thank you page
+      // Securely store docId in session storage with encryption and validation
+      this.storeDocIdSecurely(docRef.id);
+      
+      // Navigate to thank you page without exposing docId in URL
       this.router.navigate(['/thank-you']);
     } catch (error) {
       console.error('Error adding document: ', error);

@@ -1,19 +1,261 @@
-<div class="thank-you-container">
-  <!-- Background decoration -->
-  <div class="bg-decoration">
-    <div class="bg-circle bg-circle-1"></div>
-    <div class="bg-circle bg-circle-2"></div>
-    <div class="bg-line bg-line-1"></div>
-    <div class="bg-line bg-line-2"></div>
-    <div class="bg-line bg-line-3"></div>
-  </div>
+<div
+  class="export-wrapper"
+  style="
+    width: 1440px;
+    min-height: 812px;
+    position: relative;
+    font-family: var(--font-family-body);
+    background-color: var(--background);
+  "
+>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900&family=Geist:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900&family=PT+Serif:wght@400;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Shantell+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>DreamSeal - Thank You</title>
+      <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+      <link rel="stylesheet" href="thank-you.css" />
+    </head>
+    <body>
+      <div class="bg-decoration">
+        <div class="bg-circle bg-circle-1"></div>
+        <div class="bg-circle bg-circle-2"></div>
+        <div class="bg-line bg-line-1"></div>
+        <div class="bg-line bg-line-2"></div>
+      </div>
 
-  <!-- Black overlay -->
-  <div class="overlay"></div>
-  
-  <!-- Main content -->
-  <div class="content">
-    <h1 class="message">Thank you for signing up, you will be the first to know when we launch!!</h1>
-    <h1 class="sub-message">Questions, concerns, comments? Contact us at <a href="mailto:dreamsealcpap@gmail.com" class="email-link"><strong>dreamsealcpap@gmail.com</strong></a> </h1>
-  </div>
+      <div class="page-wrapper">
+        <div class="thank-you-header">
+          <h1 class="title">Thank You for joining the waitlist!</h1>
+        </div>
+
+        <p class="intro-text">
+          Please answer the following questions so we can understand you and best help you!
+        </p>
+
+        <div class="completion-message" id="completionMessage" style="display: none;">
+          <h1 class="completion-title">Thank you for completing the survey!</h1>
+          <p class="completion-subtitle">We will be in contact with you shortly</p>
+        </div>
+
+        <form class="survey-container" id="surveyForm">
+          <div class="question-block">
+            <div class="question-label">
+              Are you or have you ever used a CPAP mask?
+            </div>
+            <div class="radio-group">
+              <div class="radio-option" data-value="yes">
+                Yes
+              </div>
+              <div class="radio-option" data-value="no">
+                No
+              </div>
+            </div>
+            <input type="hidden" name="usedCpap" id="usedCpap">
+          </div>
+
+          <div class="question-block">
+            <label class="question-label" for="cpapDuration">How long have you used CPAP for?</label>
+            <input 
+              type="text" 
+              id="cpapDuration"
+              name="cpapDuration"
+              class="input-field" 
+              placeholder="e.g., 2 years, 6 months..."
+            />
+          </div>
+
+          <div class="question-block">
+            <label class="question-label" for="masksUsed">What mask(s) have you used?</label>
+            <input 
+              type="text" 
+              id="masksUsed"
+              name="masksUsed"
+              class="input-field" 
+              placeholder="List previous masks..."
+            />
+          </div>
+
+          <div class="question-block">
+            <div class="question-label">
+              On a scale 1-10, how satisfied are you with your current mask?
+            </div>
+            <div class="scale-group">
+              <label class="scale-option">
+                <input type="radio" name="satisfaction" value="1" style="display: none;">
+                1
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="satisfaction" value="2" style="display: none;">
+                2
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="satisfaction" value="3" style="display: none;">
+                3
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="satisfaction" value="4" style="display: none;">
+                4
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="satisfaction" value="5" style="display: none;">
+                5
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="satisfaction" value="6" style="display: none;">
+                6
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="satisfaction" value="7" style="display: none;">
+                7
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="satisfaction" value="8" style="display: none;">
+                8
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="satisfaction" value="9" style="display: none;">
+                9
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="satisfaction" value="10" style="display: none;">
+                10
+              </label>
+            </div>
+            <div class="scale-labels">
+              <span>Not Satisfied</span>
+              <span>Very Satisfied</span>
+            </div>
+          </div>
+
+          <div class="question-block">
+            <label class="question-label" for="improvements">
+              <b>If you had full control in designing your ideal CPAP mask, what would like to see improved or added specifically for you? </b> (this can be anything from fit, shape, material, even color or design, etc.)
+            </label>
+            <textarea
+              id="improvements"
+              name="improvements"
+              class="input-field"
+              style="height: 120px; resize: vertical; font-family: inherit;"
+              placeholder="Type your answer here..."
+            ></textarea>
+          </div>
+
+          <div class="question-block">
+            <label class="question-label" for="userName">Name (optional)</label>
+            <input 
+              type="text" 
+              id="userName"
+              name="userName"
+              class="input-field" 
+              placeholder="Enter your name..."
+            />
+          </div>
+
+          <div class="question-block">
+            <label class="question-label" for="userAge">Age (optional)</label>
+            <input 
+              type="number" 
+              id="userAge"
+              name="userAge"
+              class="input-field" 
+              placeholder="Enter your age..."
+              min="1"
+              max="120"
+            />
+          </div>
+
+          <div class="question-block">
+            <label class="question-label" for="userCity">City (optional)</label>
+            <input 
+              type="text" 
+              id="userCity"
+              name="userCity"
+              class="input-field" 
+              placeholder="Enter your city..."
+            />
+          </div>
+
+          <div class="question-block">
+            <label class="question-label" for="annualMaskCost">How much do you pay out-of-pocket for CPAP masks per year? (masks only, not the machine)</label>
+            <input 
+              type="text" 
+              id="annualMaskCost"
+              name="annualMaskCost"
+              class="input-field" 
+              placeholder="e.g., $100, $500, etc..."
+            />
+          </div>
+
+          <div class="question-block">
+            <label class="question-label" for="insuranceCoverage">How much of that does insurance cover?</label>
+            <input 
+              type="text" 
+              id="insuranceCoverage"
+              name="insuranceCoverage"
+              class="input-field" 
+              placeholder="e.g., $100, 80%, none, etc..."
+            />
+          </div>
+
+          <div class="question-block">
+            <label class="question-label" for="maxOutOfPocket">What is the maximum you would be willing to pay out of pocket if you had a custom designed mask made for you?</label>
+            <input 
+              type="text" 
+              id="maxOutOfPocket"
+              name="maxOutOfPocket"
+              class="input-field" 
+              placeholder="e.g., $100, $500, $1000, etc..."
+            />
+          </div>
+
+          <div class="question-block">
+            <div class="question-label">
+              Where did you hear about us?
+            </div>
+            <div class="source-group">
+              <div class="source-option" data-value="instagram">
+                Instagram
+              </div>
+              <div class="source-option" data-value="tiktok">
+                TikTok
+              </div>
+              <div class="source-option" data-value="reddit">
+                Reddit
+              </div>
+              <div class="source-option" data-value="google-search">
+                Google Search
+              </div>
+              <div class="source-option" data-value="word-of-mouth">
+                Word of Mouth
+              </div>
+              <div class="source-option" data-value="other">
+                Other
+              </div>
+            </div>
+            <input type="hidden" name="hearAboutUs" id="hearAboutUs">
+            <div class="other-input-container" id="otherInputContainer" style="display: none; margin-top: 12px;">
+              <input 
+                type="text" 
+                id="otherSource"
+                name="otherSource"
+                class="input-field" 
+                placeholder="Please specify..."
+              />
+            </div>
+          </div>
+
+          <button type="submit" class="btn-submit">
+            Submit Answers
+          </button>
+        </form>
+      </div>
+    </body>
+  </html>
 </div>
