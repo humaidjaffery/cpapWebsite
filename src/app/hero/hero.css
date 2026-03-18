@@ -1335,9 +1335,9 @@ body {
   /* Mobile logo section */
   .mobile-logo-section {
     display: block;
-    padding: 20px 20px 0;
+    padding: 0; /* Remove padding to bunch with content */
     width: 100%;
-    position: relative; /* Ensure normal document flow */
+    position: relative;
     z-index: 1;
     background: transparent;
   }
@@ -1347,7 +1347,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 12px;
-    margin-bottom: 32px;
+    margin-bottom: 16px; /* Reduced margin for tighter spacing */
     position: relative;
   }
   
@@ -1567,7 +1567,7 @@ body {
     position: static !important;
   }
   
-  /* Mobile padding adjustments - Remove all side padding for full width */
+  /* Mobile padding adjustments - Center everything vertically as a group */
   .hero-section {
     padding-top: 0;
     padding-left: 0 !important;
@@ -1579,19 +1579,20 @@ body {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
+    position: relative !important;
   }
   
   .hero-main,
   .section-below {
     padding-left: 0 !important;
     padding-right: 0 !important;
-    padding-top: 20px !important; /* Ensure no top padding since mobile logo is now in normal flow */
+    padding-top: 0 !important; /* Remove top padding to bunch with logo */
     width: 100% !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
-    flex: 1 !important;
+    flex: none !important; /* Changed from flex: 1 to flex: none */
     gap: 0 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -1610,7 +1611,7 @@ body {
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
-    gap: 24px !important;
+    gap: 20px !important; /* Reduced gap for tighter spacing */
   }
   
   .section-heading-block {
@@ -1624,13 +1625,13 @@ body {
   
   /* Also ensure the mobile logo section takes full width and is centered */
   .mobile-logo-section {
-    padding: 20px 0 !important;
+    padding: 0 !important; /* Remove all padding */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 !important;
-    position: relative !important; /* Changed from absolute to relative */
+    position: relative !important;
     z-index: 10;
     background: transparent;
   }
@@ -1643,11 +1644,39 @@ body {
     margin: 0 !important;
   }
   
+  /* Create a container that groups logo + content together and centers them */
+  .hero-section > * {
+    flex-shrink: 0; /* Prevent flex items from shrinking */
+  }
+  
+  /* Adjust hero title spacing */
+  .hero-title-block {
+    margin: 0 !important;
+    text-align: center;
+  }
+  
   /* Make waitlist form use more width */
   .waitlist-form {
     max-width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
     width: 100%;
+  }
+
+  /* Reduce background circle sizes for mobile */
+  .bg-circle-1 {
+    width: 400px !important; /* Reduced from 600px */
+    height: 400px !important; /* Reduced from 600px */
+    top: -80px !important; /* Adjusted position */
+    right: -80px !important; /* Adjusted position */
+    filter: blur(60px) !important; /* Slightly reduced blur */
+  }
+
+  .bg-circle-2 {
+    width: 350px !important; /* Reduced from 520px */
+    height: 350px !important; /* Reduced from 520px */
+    top: calc(100vh - 175px) !important; /* Adjusted for new size */
+    left: -175px !important; /* Adjusted for new size */
+    filter: blur(70px) !important; /* Slightly reduced blur */
   }
 }
