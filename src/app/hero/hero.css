@@ -312,6 +312,40 @@ body {
   padding: 40px 20px 60px;
 }
 
+/* ==================== Social icons (contact section) ==================== */
+.social-row {
+  display: flex;
+  width: 100%;
+  justify-content: center; /* center the row horizontally */
+  align-items: center;
+  gap: 18px; /* spacing between icons */
+  margin-top: 18px;
+}
+
+.social-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  transition: transform 0.12s ease, background 0.12s ease;
+  color: #000000; /* make icons black */
+}
+
+.social-button:hover {
+  transform: translateY(-3px);
+  background: rgba(0,0,0,0.04);
+}
+
+.social-button iconify-icon {
+  color: inherit; /* ensure the icon adopts the link color */
+}
+
+
 .phone-mockups-container {
   display: flex;
   justify-content: center;

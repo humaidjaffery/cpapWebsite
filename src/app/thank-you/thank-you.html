@@ -47,7 +47,7 @@
         <form class="survey-container" id="surveyForm">
           <div class="question-block">
             <div class="question-label">
-              Are you or have you ever used a CPAP mask?
+              Are you currently using a CPAP mask?
             </div>
             <div class="radio-group">
               <div class="radio-option" data-value="yes">
@@ -72,7 +72,7 @@
           </div>
 
           <div class="question-block">
-            <label class="question-label" for="masksUsed">What mask(s) have you used?</label>
+            <label class="question-label" for="masksUsed">What mask(s) have you used and what has been your biggest painpoint with them?</label>
             <input 
               type="text" 
               id="masksUsed"
@@ -136,7 +136,7 @@
 
           <div class="question-block">
             <label class="question-label" for="improvements">
-              <b>If you had full control in designing your ideal CPAP mask, what would like to see improved or added specifically for you? </b> (this can be anything from fit, shape, material, even color or design, etc.)
+              <b>If you had full control in building your ideal CPAP mask, what would it look like? </b> (this can be anything from fit, shape, material, new concepts, etc., let your imagination run wild)
             </label>
             <textarea
               id="improvements"
@@ -146,6 +146,66 @@
               placeholder="Type your answer here..."
             ></textarea>
           </div>
+
+          <!-- New section: Mask custom art -->
+          <div class="question-block">
+            <label class="question-label" for="maskArtIdeas">
+              <div style="font-weight: 400; margin-top:6px;">If you could customize your mask with any design directly on the mask itself, what are some things you might like?</div>
+            </label>
+            <textarea
+              id="maskArtIdeas"
+              name="maskArtIdeas"
+              class="input-field"
+              style="height: 120px; resize: vertical; font-family: inherit;"
+              placeholder="flowers, a certain flag of a country, any tv show/character, custom text like a name, quote,verse,etc)"
+            ></textarea>
+          </div>
+
+          <div class="question-block">
+            <div class="question-label">
+              How interested would you be in having custom design options for your mask?
+            </div>
+            <div class="scale-group" style="margin-top:8px;">
+              <label class="scale-option">
+                <input type="radio" name="maskArtInterest" value="1" style="display: none;">
+                1
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="maskArtInterest" value="2" style="display: none;">
+                2
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="maskArtInterest" value="3" style="display: none;">
+                3
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="maskArtInterest" value="4" style="display: none;">
+                4
+              </label>
+              <label class="scale-option">
+                <input type="radio" name="maskArtInterest" value="5" style="display: none;">
+                5
+              </label>
+            </div>
+            <div class="scale-labels" style="margin-top:8px;">
+              <span>Not interested</span>
+              <span>Very interested</span>
+            </div>
+
+            <div style="margin-top:12px;">
+              <label class="question-label" for="maskArtExtra">Would you be willing to pay extra for this custom design feature? If so, how much?</label>
+              <input
+                type="text"
+                id="maskArtExtra"
+                name="maskArtExtra"
+                class="input-field"
+                placeholder=""
+                style="margin-top:8px;"
+              />
+            </div>
+          </div>
+
+          
 
           <div class="question-block">
             <label class="question-label" for="userName">Name (optional)</label>
