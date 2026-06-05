@@ -164,8 +164,8 @@ export class Hero implements AfterViewInit, OnDestroy {
       // Securely store docId in session storage with encryption and validation
       this.storeDocIdSecurely(docRef.id);
       
-      // Navigate to thank you page without exposing docId in URL
-      this.router.navigate(['/thank-you']);
+      // Navigate to survey page without exposing docId in URL
+      this.router.navigate(['/survey']);
     } catch (error) {
       console.error('Error adding document: ', error);
       alert('There was an error joining the waitlist. Please try again.');
