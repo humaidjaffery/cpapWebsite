@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "slug": "react-health-ascend-nasal",
+  "name": "React Health Ascend Nasal",
+  "catalogOrder": 101,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 4,
+    "eligibleReviews": 4,
+    "processedShare": 1.0,
+    "retailerCount": 2,
+    "reviewDateStart": "2019-03-10",
+    "reviewDateEnd": "2026-06-01"
+  },
+  "overall": {
+    "compositeScore": null,
+    "ratingComponent": {
+      "average": 2.75,
+      "score": 55,
+      "reviewCount": 4,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": null,
+      "score": null,
+      "reviewCount": 0,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [],
+  "aspects": [],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 3,
+      "averageRating": 2.67,
+      "ratingCount": 3,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/ascend-nasal-cpap-mask-fit-pack"
+    },
+    {
+      "retailer": "DirectHomeMedical",
+      "reviewCount": 1,
+      "averageRating": 3.0,
+      "ratingCount": 1,
+      "evidenceStrength": "limited",
+      "productUrl": "https://directhomemedical.com/products/ascend-nasal-cpap-mask-with-headgear"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "I like the sizing",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/ascend-nasal-cpap-mask-fit-pack"
+      },
+      {
+        "text": "Easy to fit",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/ascend-nasal-cpap-mask-fit-pack"
+      },
+      {
+        "text": "Great if back sleeper",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/ascend-nasal-cpap-mask-with-headgear"
+      }
+    ],
+    "negative": [
+      {
+        "text": "there are no type of clips",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/ascend-nasal-cpap-mask-fit-pack"
+      },
+      {
+        "text": "It didn’t work for me",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/ascend-nasal-cpap-mask-fit-pack"
+      },
+      {
+        "text": "The mask tends to create leaks",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/ascend-nasal-cpap-mask-with-headgear"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

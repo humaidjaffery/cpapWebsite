@@ -1,0 +1,4609 @@
+{
+  "schemaVersion": 2,
+  "slug": "bleep-eclipse",
+  "name": "Bleep Eclipse",
+  "catalogOrder": 51,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 97,
+    "eligibleReviews": 97,
+    "processedShare": 1.0,
+    "retailerCount": 6,
+    "reviewDateStart": "2019-03-18",
+    "reviewDateEnd": "2026-05-28"
+  },
+  "overall": {
+    "compositeScore": 87,
+    "ratingComponent": {
+      "average": 4.3,
+      "score": 86,
+      "reviewCount": 97,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 8.9,
+      "score": 89,
+      "reviewCount": 54,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 69,
+      "averageSentiment": 6.9,
+      "reviewCount": 46,
+      "reviewShare": 0.4742,
+      "positiveReviews": 32,
+      "mixedReviews": 1,
+      "negativeReviews": 13,
+      "positiveShare": 0.6957,
+      "negativeShare": 0.2826,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 8
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 7
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 3
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 2
+        },
+        {
+          "id": "adapter",
+          "label": "Adapter",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "anxiety",
+          "label": "Anxiety",
+          "reviewCount": 1
+        },
+        {
+          "id": "claustrophobia",
+          "label": "Claustrophobia",
+          "reviewCount": 1
+        },
+        {
+          "id": "deviated_septum",
+          "label": "Deviated Septum",
+          "reviewCount": 1
+        },
+        {
+          "id": "recliner_sleeping",
+          "label": "Recliner Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 10
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 3
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 3
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I forget Im wearing it!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "I can say that all those worries were unfounded and it’s very uncomfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I used the mask that goes over my ears and it was horrible",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "The metal smashed my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "fit-and-sizing",
+      "label": "Fit & sizing",
+      "score": 60,
+      "averageSentiment": 6.0,
+      "reviewCount": 28,
+      "reviewShare": 0.2887,
+      "positiveReviews": 16,
+      "mixedReviews": 2,
+      "negativeReviews": 10,
+      "positiveShare": 0.5714,
+      "negativeShare": 0.3571,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 4
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 4
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 3
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "large_nose",
+          "label": "Large Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 2
+        },
+        {
+          "id": "facial_hair",
+          "label": "Facial Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 7
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 3
+        },
+        {
+          "id": "beard_area",
+          "label": "Beard Area",
+          "reviewCount": 1
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "being sealed right up to my nostrils",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        },
+        {
+          "text": "constantly having to tighten headgear",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Too difficult to place halos",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "I used the mask that goes over my ears and it was horrible",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "seal-and-leaks",
+      "label": "Seal & leaks",
+      "score": 78,
+      "averageSentiment": 7.8,
+      "reviewCount": 45,
+      "reviewShare": 0.4639,
+      "positiveReviews": 35,
+      "mixedReviews": 1,
+      "negativeReviews": 9,
+      "positiveShare": 0.7778,
+      "negativeShare": 0.2,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 5
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 3
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 2
+        },
+        {
+          "id": "adapter",
+          "label": "Adapter",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        },
+        {
+          "id": "deviated_septum",
+          "label": "Deviated Septum",
+          "reviewCount": 1
+        },
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "hot_sleeper",
+          "label": "Hot Sleeper",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 7
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 2
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 2
+        },
+        {
+          "id": "beard_area",
+          "label": "Beard Area",
+          "reviewCount": 1
+        },
+        {
+          "id": "lips",
+          "label": "Lips",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "No leaks!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "No leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Poor Adhesive",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "leaked all night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "sleep-compatibility",
+      "label": "Sleep compatibility",
+      "score": 60,
+      "averageSentiment": 6.0,
+      "reviewCount": 33,
+      "reviewShare": 0.3402,
+      "positiveReviews": 18,
+      "mixedReviews": 1,
+      "negativeReviews": 14,
+      "positiveShare": 0.5455,
+      "negativeShare": 0.4242,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 6
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 4
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 4
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 2
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 6
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "lips",
+          "label": "Lips",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Can roll around to my hearts content",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "I can sleep in about any position and never have any leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "my medium length hair getting tangled up in headgear at night with other mask systems",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "Hose fitting wouldn't stay connected",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "ease-of-use",
+      "label": "Ease of use",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 49,
+      "reviewShare": 0.5052,
+      "positiveReviews": 29,
+      "mixedReviews": 9,
+      "negativeReviews": 11,
+      "positiveShare": 0.5918,
+      "negativeShare": 0.2245,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 9
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 8
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 5
+        },
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 4
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 4
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 8
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Bleep is the easiest cpap setup I've ever used",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "constantly having to tighten headgear",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "unless you spend a lot of time trimming them to fit right",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "the little adhesive connectors were very difficult in wearing",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "airflow-and-noise",
+      "label": "Airflow & noise",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 14,
+      "reviewShare": 0.1443,
+      "positiveReviews": 9,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.6429,
+      "negativeShare": 0.3571,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 2
+        },
+        {
+          "id": "exhaust_port",
+          "label": "Exhaust Port",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I have had no noise",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "Finally a quiet mask!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "My air pressure is 13 and this mask is loud!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        },
+        {
+          "text": "was very loud and distracting",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "skin-and-pain",
+      "label": "Skin & pain",
+      "score": 54,
+      "averageSentiment": 5.4,
+      "reviewCount": 28,
+      "reviewShare": 0.2887,
+      "positiveReviews": 12,
+      "mixedReviews": 3,
+      "negativeReviews": 13,
+      "positiveShare": 0.4286,
+      "negativeShare": 0.4643,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 4
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 3
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        },
+        {
+          "id": "adapter",
+          "label": "Adapter",
+          "reviewCount": 1
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "deviated_septum",
+          "label": "Deviated Septum",
+          "reviewCount": 1
+        },
+        {
+          "id": "oily_skin",
+          "label": "Oily Skin",
+          "reviewCount": 1
+        },
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 10
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 8
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 6
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 2
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I have sensitive skin and the Halos do not bother me at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "No nasal irritation of any sort",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "my nose and surrounding skin was extremely raw",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "I could not stand the strap going across my cheeks",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "durability",
+      "label": "Durability",
+      "score": 56,
+      "averageSentiment": 5.6,
+      "reviewCount": 15,
+      "reviewShare": 0.1546,
+      "positiveReviews": 7,
+      "mixedReviews": 1,
+      "negativeReviews": 7,
+      "positiveShare": 0.4667,
+      "negativeShare": 0.4667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 7
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        },
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 2
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "no straps",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "Strapless",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Adhesion always failed under 2 hours",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "After 6 weeks the plastic parts are warped",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "label": "Value",
+      "score": 39,
+      "averageSentiment": 3.9,
+      "reviewCount": 16,
+      "reviewShare": 0.1649,
+      "positiveReviews": 3,
+      "mixedReviews": 3,
+      "negativeReviews": 10,
+      "positiveShare": 0.1875,
+      "negativeShare": 0.625,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 7
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "narrow_face",
+          "label": "Narrow Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "but it’s worth it!!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        },
+        {
+          "text": "It’s absolutely worth every single penny!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-replacement-patches"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I even use cover-roll tape with alcohol wipe all around it and it can still fail",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "Big waste of money",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "therapy-experience",
+      "label": "Therapy experience",
+      "score": 81,
+      "averageSentiment": 8.1,
+      "reviewCount": 35,
+      "reviewShare": 0.3608,
+      "positiveReviews": 31,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.8857,
+      "negativeShare": 0.1143,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 2
+        },
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "congestion",
+          "label": "Congestion",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_switching",
+          "label": "Mask Switching",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_passages",
+          "label": "Nasal Passages",
+          "reviewCount": 1
+        },
+        {
+          "id": "sinuses",
+          "label": "Sinuses",
+          "reviewCount": 1
+        },
+        {
+          "id": "under_nose",
+          "label": "Under Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It made the difference between successful CPAP use and giving up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "my AHI has dropped from 4.2 to under 1",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Not going to use it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "my wife says I am way more restless",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ]
+    }
+  ],
+  "aspects": [
+    {
+      "id": "overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 89,
+      "averageSentiment": 8.9,
+      "reviewCount": 54,
+      "reviewShare": 0.5567,
+      "positiveReviews": 49,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.9074,
+      "negativeShare": 0.0926,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 4
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 4
+        },
+        {
+          "id": "adapter",
+          "label": "Adapter",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 2
+        },
+        {
+          "id": "easy_on_off_need",
+          "label": "Easy On Off Need",
+          "reviewCount": 1
+        },
+        {
+          "id": "hot_sleeper",
+          "label": "Hot Sleeper",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_switching",
+          "label": "Mask Switching",
+          "reviewCount": 1
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Gamechanging!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "Life saver",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Not for me.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "it didn’t work out",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "seal_leak",
+      "label": "Seal Leak",
+      "score": 78,
+      "averageSentiment": 7.8,
+      "reviewCount": 45,
+      "reviewShare": 0.4639,
+      "positiveReviews": 35,
+      "mixedReviews": 1,
+      "negativeReviews": 9,
+      "positiveShare": 0.7778,
+      "negativeShare": 0.2,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 5
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 3
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 2
+        },
+        {
+          "id": "adapter",
+          "label": "Adapter",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        },
+        {
+          "id": "deviated_septum",
+          "label": "Deviated Septum",
+          "reviewCount": 1
+        },
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "hot_sleeper",
+          "label": "Hot Sleeper",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_breathing",
+          "label": "Nasal Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 7
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 2
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 2
+        },
+        {
+          "id": "beard_area",
+          "label": "Beard Area",
+          "reviewCount": 1
+        },
+        {
+          "id": "lips",
+          "label": "Lips",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "No leaks!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "No leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Poor Adhesive",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "leaked all night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 81,
+      "averageSentiment": 8.1,
+      "reviewCount": 32,
+      "reviewShare": 0.3299,
+      "positiveReviews": 27,
+      "mixedReviews": 1,
+      "negativeReviews": 4,
+      "positiveShare": 0.8438,
+      "negativeShare": 0.125,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 8
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 4
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "anxiety",
+          "label": "Anxiety",
+          "reviewCount": 1
+        },
+        {
+          "id": "claustrophobia",
+          "label": "Claustrophobia",
+          "reviewCount": 1
+        },
+        {
+          "id": "deviated_septum",
+          "label": "Deviated Septum",
+          "reviewCount": 1
+        },
+        {
+          "id": "recliner_sleeping",
+          "label": "Recliner Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 5
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 3
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I forget Im wearing it!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "I can say that all those worries were unfounded and it’s very uncomfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I used the mask that goes over my ears and it was horrible",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "Ir is painful to wear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "ease_of_use",
+      "label": "Ease Of Use",
+      "score": 70,
+      "averageSentiment": 7.0,
+      "reviewCount": 27,
+      "reviewShare": 0.2784,
+      "positiveReviews": 19,
+      "mixedReviews": 2,
+      "negativeReviews": 6,
+      "positiveShare": 0.7037,
+      "negativeShare": 0.2222,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 4
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 4
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 3
+        },
+        {
+          "id": "adapter",
+          "label": "Adapter",
+          "reviewCount": 2
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Bleep is the easiest cpap setup I've ever used",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "Very simple",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Not sure if I can keep going with the hassle factor",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "the little adhesive connectors were very difficult in wearing",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "stability",
+      "label": "Stability",
+      "score": 58,
+      "averageSentiment": 5.8,
+      "reviewCount": 24,
+      "reviewShare": 0.2474,
+      "positiveReviews": 12,
+      "mixedReviews": 1,
+      "negativeReviews": 11,
+      "positiveShare": 0.5,
+      "negativeShare": 0.4583,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 6
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 3
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "hot_sleeper",
+          "label": "Hot Sleeper",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "lips",
+          "label": "Lips",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "don't like feeling pinned down",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        },
+        {
+          "text": "Holds great",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Hose fitting wouldn't stay connected",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "Kept coming unhooked",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "fit",
+      "label": "Fit",
+      "score": 55,
+      "averageSentiment": 5.5,
+      "reviewCount": 21,
+      "reviewShare": 0.2165,
+      "positiveReviews": 10,
+      "mixedReviews": 3,
+      "negativeReviews": 8,
+      "positiveShare": 0.4762,
+      "negativeShare": 0.381,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 2
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "large_nose",
+          "label": "Large Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "facial_hair",
+          "label": "Facial Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 6
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 3
+        },
+        {
+          "id": "beard_area",
+          "label": "Beard Area",
+          "reviewCount": 1
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "being sealed right up to my nostrils",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        },
+        {
+          "text": "easy to fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Too difficult to place halos",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "I used the mask that goes over my ears and it was horrible",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "sleep_quality",
+      "label": "Sleep Quality",
+      "score": 80,
+      "averageSentiment": 8.0,
+      "reviewCount": 14,
+      "reviewShare": 0.1443,
+      "positiveReviews": 12,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "congestion",
+          "label": "Congestion",
+          "reviewCount": 1
+        },
+        {
+          "id": "recliner_sleeping",
+          "label": "Recliner Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "sinuses",
+          "label": "Sinuses",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Best sleep I have has since starting cpap!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "Best Night Sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "my wife says I am way more restless",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "I could not see how I could sleep that way",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "therapy_effectiveness",
+      "label": "Therapy Effectiveness",
+      "score": 87,
+      "averageSentiment": 8.7,
+      "reviewCount": 13,
+      "reviewShare": 0.134,
+      "positiveReviews": 13,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "congestion",
+          "label": "Congestion",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_switching",
+          "label": "Mask Switching",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "sinuses",
+          "label": "Sinuses",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "my AHI has dropped from 4.2 to under 1",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "Works great!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "noise",
+      "label": "Noise",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 11,
+      "reviewShare": 0.1134,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.6364,
+      "negativeShare": 0.3636,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I have had no noise",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "Finally a quiet mask!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "My air pressure is 13 and this mask is loud!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        },
+        {
+          "text": "was very loud and distracting",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "adjustment",
+      "label": "Adjustment",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 10,
+      "reviewShare": 0.1031,
+      "positiveReviews": 6,
+      "mixedReviews": 1,
+      "negativeReviews": 3,
+      "positiveShare": 0.6,
+      "negativeShare": 0.3,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 2
+        },
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "constantly having to tighten headgear",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        },
+        {
+          "text": "Side sleeping is comfortable as no head gear to adjust",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "unless you spend a lot of time trimming them to fit right",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "tweaked it every way I could",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "therapy_compliance",
+      "label": "Therapy Compliance",
+      "score": 72,
+      "averageSentiment": 7.2,
+      "reviewCount": 10,
+      "reviewShare": 0.1031,
+      "positiveReviews": 7,
+      "mixedReviews": 1,
+      "negativeReviews": 2,
+      "positiveShare": 0.7,
+      "negativeShare": 0.2,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It made the difference between successful CPAP use and giving up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "Wouldn’t be able to use my cpap machine without bleep!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Not going to use it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "I don’t see how someone could do this for a long time",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "label": "Weight",
+      "score": 64,
+      "averageSentiment": 6.4,
+      "reviewCount": 10,
+      "reviewShare": 0.1031,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.6,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 2
+        },
+        {
+          "id": "short_tube",
+          "label": "Short Tube",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Its super light on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "so lightweight",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The weight from the hose pulling on my nose was very uncomfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "Heavy",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "pain",
+      "label": "Pain",
+      "score": 34,
+      "averageSentiment": 3.4,
+      "reviewCount": 9,
+      "reviewShare": 0.0928,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.2222,
+      "negativeShare": 0.7778,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "adapter",
+          "label": "Adapter",
+          "reviewCount": 1
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "deviated_septum",
+          "label": "Deviated Septum",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "neck",
+          "label": "Neck",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "no face pain from silicone pressing on it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "The Bleep DreamPort solves the pain issues I was having",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The metal smashed my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "other masks I have tried hurt my neck",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "label": "Value",
+      "score": 46,
+      "averageSentiment": 4.6,
+      "reviewCount": 9,
+      "reviewShare": 0.0928,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.4444,
+      "negativeShare": 0.5556,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "but it’s worth it!!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        },
+        {
+          "text": "It’s absolutely worth every single penny!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-replacement-patches"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I even use cover-roll tape with alcohol wipe all around it and it can still fail",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "Big waste of money",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "appearance",
+      "label": "Appearance",
+      "score": 79,
+      "averageSentiment": 7.9,
+      "reviewCount": 8,
+      "reviewShare": 0.0825,
+      "positiveReviews": 7,
+      "mixedReviews": 1,
+      "negativeReviews": 0,
+      "positiveShare": 0.875,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "bed_partner",
+          "label": "Bed Partner",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It doesn't mess with my hair which I love due to no straps",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        },
+        {
+          "text": "I love not having lines on ly face from headgear!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Yes, I look like I have a pig nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "face_marks",
+      "label": "Face Marks",
+      "score": 82,
+      "averageSentiment": 8.2,
+      "reviewCount": 8,
+      "reviewShare": 0.0825,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.875,
+      "negativeShare": 0.125,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 7
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "no marks on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "no mask lines on face for hours in the morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "left huge creases running across my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "learning_curve",
+      "label": "Learning Curve",
+      "score": 67,
+      "averageSentiment": 6.7,
+      "reviewCount": 7,
+      "reviewShare": 0.0722,
+      "positiveReviews": 5,
+      "mixedReviews": 2,
+      "negativeReviews": 0,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "There is some learning curve to using the halos",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "It takes a little getting use to",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/eclipse-cpap-mask-starter-kit-bleep"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "previous_mask_comparison",
+      "label": "Previous Mask Comparison",
+      "score": 70,
+      "averageSentiment": 7.0,
+      "reviewCount": 7,
+      "reviewShare": 0.0722,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Absolute night and day change from my prior failed attempts",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "Bleep actually improved on a product I believed to be nearly flawless",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I could not stand wearing a traditional mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "I thought this would be an upgrade from the original plastic ports",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "label": "Price",
+      "score": 33,
+      "averageSentiment": 3.3,
+      "reviewCount": 7,
+      "reviewShare": 0.0722,
+      "positiveReviews": 0,
+      "mixedReviews": 1,
+      "negativeReviews": 6,
+      "positiveShare": 0.0,
+      "negativeShare": 0.8571,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 4
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "$38 on replacement filters and trapeeze",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "the replacement parts can be pricey",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "cleaning",
+      "label": "Cleaning",
+      "score": 67,
+      "averageSentiment": 6.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0619,
+      "positiveReviews": 3,
+      "mixedReviews": 3,
+      "negativeReviews": 0,
+      "positiveShare": 0.5,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 4
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        },
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I also love that I am getting a fresh nasal mask each night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "The parts disassemble easily for cleaning",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "replacement_frequency",
+      "label": "Replacement Frequency",
+      "score": 53,
+      "averageSentiment": 5.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0619,
+      "positiveReviews": 2,
+      "mixedReviews": 1,
+      "negativeReviews": 3,
+      "positiveShare": 0.3333,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 4
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 1
+        },
+        {
+          "id": "packaging",
+          "label": "Packaging",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I like the packaging.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "you can clean/replace the filter with the diffuser",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I was only sent a 30 day supply of connectors",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "you’re supposed to replace the stick ons every night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "skin_reaction",
+      "label": "Skin Reaction",
+      "score": 58,
+      "averageSentiment": 5.8,
+      "reviewCount": 6,
+      "reviewShare": 0.0619,
+      "positiveReviews": 3,
+      "mixedReviews": 1,
+      "negativeReviews": 2,
+      "positiveShare": 0.5,
+      "negativeShare": 0.3333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 4
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I have sensitive skin and the Halos do not bother me at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "I emailed Bleep and got tape samples to try on my skin and had no reactions at all after a week",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "my nose and surrounding skin was extremely raw",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "the adhesive was hard on my skin",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "putting_on",
+      "label": "Putting On",
+      "score": 50,
+      "averageSentiment": 5.0,
+      "reviewCount": 5,
+      "reviewShare": 0.0515,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.2,
+      "negativeShare": 0.8,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "easy to put on",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "It does have a learning curve for getting the \"stickers\" on",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "More inconvenient to put on",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "skin_breakdown",
+      "label": "Skin Breakdown",
+      "score": 52,
+      "averageSentiment": 5.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0515,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.6,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "adapter",
+          "label": "Adapter",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "oily_skin",
+          "label": "Oily Skin",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "scalp",
+          "label": "Scalp",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "damage to my hair",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "the balding spot on the top of my head from using the dreamwear has started to go away",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it left two red blisters on the side that burn when I touch them",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "I have very oily skin that breaks down the adhesive",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "sleep_position_compatibility",
+      "label": "Sleep Position Compatibility",
+      "score": 76,
+      "averageSentiment": 7.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0515,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8,
+      "negativeShare": 0.2,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 4
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I can sleep in about any position and never have any leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "Side sleeping is comfortable as no head gear to adjust",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Not good for side sleepers",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "label": "Travel",
+      "score": 88,
+      "averageSentiment": 8.8,
+      "reviewCount": 5,
+      "reviewShare": 0.0515,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "frequent_travel",
+          "label": "Frequent Travel",
+          "reviewCount": 2
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I travel a lot for work",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "if you travel, it’s compact, easy to pack",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": []
+    }
+  ],
+  "parts": [
+    {
+      "id": "replacement_part",
+      "label": "Replacement Part",
+      "score": 57,
+      "averageSentiment": 5.7,
+      "reviewCount": 21,
+      "reviewShare": 0.2165,
+      "positiveReviews": 10,
+      "mixedReviews": 3,
+      "negativeReviews": 8,
+      "positiveShare": 0.4762,
+      "negativeShare": 0.381,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 21
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 2
+        },
+        {
+          "id": "facial_hair",
+          "label": "Facial Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "narrow_face",
+          "label": "Narrow Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 2
+        },
+        {
+          "id": "beard_area",
+          "label": "Beard Area",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I have had no noise",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "The sticky part that you apply to your nose sticks well as long as you do the proper prep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "I emailed Bleep and got tape samples to try on my skin and had no reactions at all after a week",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Annoyed with myself for having purchased extra halos",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "$38 on replacement filters and trapeeze",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "which I cannot remove",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "headgear",
+      "label": "Headgear",
+      "score": 75,
+      "averageSentiment": 7.5,
+      "reviewCount": 18,
+      "reviewShare": 0.1856,
+      "positiveReviews": 14,
+      "mixedReviews": 1,
+      "negativeReviews": 3,
+      "positiveShare": 0.7778,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 18
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 3
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 2
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Life saver",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "I absolutely love having no head gear to sleep now",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "Finally no more strap marks!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I used the mask that goes over my ears and it was horrible",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "my medium length hair getting tangled up in headgear at night with other mask systems",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "there is no headgear to keep it stable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "praisedAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "score": 79,
+          "averageSentiment": 7.9,
+          "reviewCount": 8,
+          "reviewShare": 0.0825,
+          "positiveReviews": 7,
+          "mixedReviews": 0,
+          "negativeReviews": 1,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "I absolutely love having no head gear to sleep now",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+            },
+            {
+              "text": "Love the fact I don't need anything around my head",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "I used the mask that goes over my ears and it was horrible",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+            }
+          ]
+        }
+      ],
+      "criticizedAspects": []
+    },
+    {
+      "id": "mask_body",
+      "label": "Mask Body",
+      "score": 60,
+      "averageSentiment": 6.0,
+      "reviewCount": 15,
+      "reviewShare": 0.1546,
+      "positiveReviews": 8,
+      "mixedReviews": 1,
+      "negativeReviews": 6,
+      "positiveShare": 0.5333,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 15
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 2
+        },
+        {
+          "id": "hot_sleeper",
+          "label": "Hot Sleeper",
+          "reviewCount": 1
+        },
+        {
+          "id": "large_nose",
+          "label": "Large Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 5
+        },
+        {
+          "id": "lips",
+          "label": "Lips",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I travel a lot for work",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "no straps, no masks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "Excellent Product.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The metal smashed my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "Too difficult to place halos",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "These just wouldn't stick well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "strap",
+      "label": "Strap",
+      "score": 63,
+      "averageSentiment": 6.3,
+      "reviewCount": 9,
+      "reviewShare": 0.0928,
+      "positiveReviews": 5,
+      "mixedReviews": 1,
+      "negativeReviews": 3,
+      "positiveShare": 0.5556,
+      "negativeShare": 0.3333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 9
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "no straps",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "It doesn't mess with my hair which I love due to no straps",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        },
+        {
+          "text": "No straps to contend with",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I could not stand the strap going across my cheeks",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        },
+        {
+          "text": "pain in the back of the head from the straps",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "even though I tried satin strap covers and a satin bonnet",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "magnetic_clip",
+      "label": "Magnetic Clip",
+      "score": 71,
+      "averageSentiment": 7.1,
+      "reviewCount": 8,
+      "reviewShare": 0.0825,
+      "positiveReviews": 6,
+      "mixedReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.75,
+      "negativeShare": 0.125,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 8
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the magnets wouldn’t hold during sleep but they held with no issues",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "The magnets hold very well",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "The magnets in the mask that attach to you nose are strong",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "you can actually knock the magnets off if you accidentally brush your arm over the breathing tube while sleeping",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "the magnets are too powerful",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "connector",
+      "label": "Connector",
+      "score": 44,
+      "averageSentiment": 4.4,
+      "reviewCount": 7,
+      "reviewShare": 0.0722,
+      "positiveReviews": 1,
+      "mixedReviews": 3,
+      "negativeReviews": 3,
+      "positiveShare": 0.1429,
+      "negativeShare": 0.4286,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "this new version with magnets is so easy to use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "I finally called the manufacturer and talked to a guy named Stewart",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Kept coming unhooked",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "the little adhesive connectors were very difficult in wearing",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "Felt like it was going to pull my nose off while laying on my side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "cushion",
+      "label": "Cushion",
+      "score": 71,
+      "averageSentiment": 7.1,
+      "reviewCount": 7,
+      "reviewShare": 0.0722,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "oily_skin",
+          "label": "Oily Skin",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 2
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "No nasal irritation of any sort",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "I get very low leaks with this mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "The adhesive is sufficiently strong and holds on through a night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the adhesive was hard on my skin",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "I have very oily skin that breaks down the adhesive",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "nasal_pillows",
+      "label": "Nasal Pillows",
+      "score": 71,
+      "averageSentiment": 7.1,
+      "reviewCount": 7,
+      "reviewShare": 0.0722,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "being sealed right up to my nostrils",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        },
+        {
+          "text": "I literally have 0% leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "the nasal tapes stay in place",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The stickers with the nasal rings are super uncomfortable to wear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "struggle with keeping the pillows in your nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    }
+  ],
+  "partAspectMatrix": [
+    {
+      "id": "headgear|comfort",
+      "label": "Headgear · Comfort",
+      "score": 79,
+      "averageSentiment": 7.9,
+      "reviewCount": 8,
+      "reviewShare": 0.0825,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "I absolutely love having no head gear to sleep now",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I used the mask that goes over my ears and it was horrible",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ],
+      "partId": "headgear",
+      "partLabel": "Headgear",
+      "aspectId": "comfort",
+      "aspectLabel": "Comfort"
+    },
+    {
+      "id": "magnetic_clip|stability",
+      "label": "Magnetic Clip · Stability",
+      "score": 73,
+      "averageSentiment": 7.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0619,
+      "positiveReviews": 4,
+      "mixedReviews": 1,
+      "negativeReviews": 1,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "the magnets wouldn’t hold during sleep but they held with no issues",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "you can actually knock the magnets off if you accidentally brush your arm over the breathing tube while sleeping",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ],
+      "partId": "magnetic_clip",
+      "partLabel": "Magnetic Clip",
+      "aspectId": "stability",
+      "aspectLabel": "Stability"
+    },
+    {
+      "id": "cushion|seal_leak",
+      "label": "Cushion · Seal Leak",
+      "score": 76,
+      "averageSentiment": 7.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0515,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "I get very low leaks with this mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I have very oily skin that breaks down the adhesive so it would leak a little air",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+        }
+      ],
+      "partId": "cushion",
+      "partLabel": "Cushion",
+      "aspectId": "seal_leak",
+      "aspectLabel": "Seal Leak"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "active-sleepers",
+      "label": "Active or restless sleepers",
+      "score": 51,
+      "averageSentiment": 5.1,
+      "reviewCount": 7,
+      "reviewShare": 0.0722,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.4286,
+      "negativeShare": 0.5714,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 4
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 2
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I'm a pretty active sleeper",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "I've been trying for nearly a year to find a mask that works with my need to move throughout the night.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "you can actually knock the magnets off if you accidentally brush your arm over the breathing tube while sleeping",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "my wife says I am way more restless",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "sourceContexts": [
+        "active_sleeping",
+        "restless_sleeping",
+        "tossing_turning"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": true
+    },
+    {
+      "id": "side-sleepers",
+      "label": "Side sleepers",
+      "score": 77,
+      "averageSentiment": 7.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0619,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 6
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "No more leaks with the Bleep system",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "It’s very comfortable for me since I’m a side sleeper",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Not good for side sleepers",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "sourceContexts": [
+        "side_sleeping"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": true
+    },
+    {
+      "id": "travelers",
+      "label": "Travel and AirMini users",
+      "score": 83,
+      "averageSentiment": 8.3,
+      "reviewCount": 5,
+      "reviewShare": 0.0515,
+      "positiveReviews": 4,
+      "mixedReviews": 1,
+      "negativeReviews": 0,
+      "positiveShare": 0.8,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 4
+        },
+        {
+          "id": "frequent_travel",
+          "label": "Frequent Travel",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I travel a lot for work",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "Doesn’t slip",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "only suitable as a travel mask due to the prohibitive costs",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "sourceContexts": [
+        "frequent_travel",
+        "travel_use"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": true
+    }
+  ],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [
+    {
+      "id": "nose",
+      "label": "Nose",
+      "score": 54,
+      "averageSentiment": 5.4,
+      "reviewCount": 28,
+      "reviewShare": 0.2887,
+      "positiveReviews": 13,
+      "mixedReviews": 2,
+      "negativeReviews": 13,
+      "positiveShare": 0.4643,
+      "negativeShare": 0.4643,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 5
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 4
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 4
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "adapter",
+          "label": "Adapter",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "large_nose",
+          "label": "Large Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "deviated_septum",
+          "label": "Deviated Septum",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose_lift_use",
+          "label": "Hose Lift Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_breathing",
+          "label": "Nasal Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 28
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "No nasal irritation of any sort",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "Bleep is the easiest cpap setup I've ever used",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        },
+        {
+          "text": "I literally have 0% leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "my nose and surrounding skin was extremely raw",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        },
+        {
+          "text": "it left two red blisters on the side that burn when I touch them",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        },
+        {
+          "text": "The metal smashed my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ],
+      "complaintReviews": 14,
+      "complaintShare": 0.1443,
+      "complaintSeverity": 25,
+      "complaintAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 3
+        },
+        {
+          "id": "pain",
+          "label": "Pain",
+          "reviewCount": 3
+        },
+        {
+          "id": "stability",
+          "label": "Stability",
+          "reviewCount": 3
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 2
+        },
+        {
+          "id": "hose_tugging",
+          "label": "Hose Tugging",
+          "reviewCount": 2
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 2
+        },
+        {
+          "id": "adapter",
+          "label": "Adapter",
+          "reviewCount": 1
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        }
+      ]
+    }
+  ],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [
+    {
+      "id": "|||overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 93,
+      "averageSentiment": 9.3,
+      "reviewCount": 43,
+      "reviewShare": 0.4433,
+      "positiveReviews": 41,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.9535,
+      "negativeShare": 0.0465,
+      "evidenceStrength": "moderate",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Gamechanging!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Not for me.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "|||seal_leak",
+      "label": "Seal Leak",
+      "score": 85,
+      "averageSentiment": 8.5,
+      "reviewCount": 24,
+      "reviewShare": 0.2474,
+      "positiveReviews": 21,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.875,
+      "negativeShare": 0.125,
+      "evidenceStrength": "moderate",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "No leaks!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "they leaked",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "|||comfort",
+      "label": "Comfort",
+      "score": 92,
+      "averageSentiment": 9.2,
+      "reviewCount": 15,
+      "reviewShare": 0.1546,
+      "positiveReviews": 15,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I forget Im wearing it!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "|||sleep_quality",
+      "label": "Sleep Quality",
+      "score": 92,
+      "averageSentiment": 9.2,
+      "reviewCount": 9,
+      "reviewShare": 0.0928,
+      "positiveReviews": 9,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Best sleep I have has since starting cpap!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "|||therapy_effectiveness",
+      "label": "Therapy Effectiveness",
+      "score": 87,
+      "averageSentiment": 8.7,
+      "reviewCount": 9,
+      "reviewShare": 0.0928,
+      "positiveReviews": 9,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "my AHI has dropped from 4.2 to under 1",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "|||ease_of_use",
+      "label": "Ease Of Use",
+      "score": 78,
+      "averageSentiment": 7.8,
+      "reviewCount": 10,
+      "reviewShare": 0.1031,
+      "positiveReviews": 8,
+      "mixedReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.8,
+      "negativeShare": 0.1,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Very simple",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Practiced using it in the morning before trying to sleep with it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "|||therapy_compliance",
+      "label": "Therapy Compliance",
+      "score": 79,
+      "averageSentiment": 7.9,
+      "reviewCount": 7,
+      "reviewShare": 0.0722,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "It made the difference between successful CPAP use and giving up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Not going to use it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    },
+    {
+      "id": "|face||face_marks",
+      "label": "Face · Face Marks",
+      "score": 83,
+      "averageSentiment": 8.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0619,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 6
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "no marks on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "left huge creases running across my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+        }
+      ]
+    },
+    {
+      "id": "|||noise",
+      "label": "Noise",
+      "score": 80,
+      "averageSentiment": 8.0,
+      "reviewCount": 6,
+      "reviewShare": 0.0619,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Finally a quiet mask!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "there was too much noise, turbulent air flow noise",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+        }
+      ]
+    }
+  ],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "RespShop",
+      "reviewCount": 30,
+      "averageRating": 4.67,
+      "ratingCount": 30,
+      "evidenceStrength": "moderate",
+      "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+    },
+    {
+      "retailer": "CPAP.com",
+      "reviewCount": 28,
+      "averageRating": 4.0,
+      "ratingCount": 28,
+      "evidenceStrength": "moderate",
+      "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+    },
+    {
+      "retailer": "DirectHomeMedical",
+      "reviewCount": 22,
+      "averageRating": 4.0,
+      "ratingCount": 22,
+      "evidenceStrength": "moderate",
+      "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 10,
+      "averageRating": 4.3,
+      "ratingCount": 10,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit"
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "reviewCount": 5,
+      "averageRating": 4.8,
+      "ratingCount": 5,
+      "evidenceStrength": "limited",
+      "productUrl": "https://cpapsupplies.com/bleep-eclipse-starter-kit"
+    },
+    {
+      "retailer": "CPAP Ninja",
+      "reviewCount": 2,
+      "averageRating": 5.0,
+      "ratingCount": 2,
+      "evidenceStrength": "limited",
+      "productUrl": "https://www.cpapninja.com/products/eclipse-cpap-mask-starter-kit-bleep"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "No leaks!",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+      },
+      {
+        "text": "I have had no noise",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+      },
+      {
+        "text": "Gamechanging!",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+      },
+      {
+        "text": "Life saver",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+      },
+      {
+        "text": "Bleep is a true WINNER!",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+      },
+      {
+        "text": "This is the best cpap mask I have ever used",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/100598-bleep-eclipse-mask-starter-kit"
+      }
+    ],
+    "negative": [
+      {
+        "text": "Poor Adhesive",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+      },
+      {
+        "text": "Big waste of money",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+      },
+      {
+        "text": "leaked all night",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+      },
+      {
+        "text": "I used the mask that goes over my ears and it was horrible",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+      },
+      {
+        "text": "my nose and surrounding skin was extremely raw",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/bleep-eclipse-starter-kit-cpap-mask?variant=49040324821308"
+      },
+      {
+        "text": "Big waist of time and money!",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/bleep-eclipse-cpap-mask-starter-kit"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

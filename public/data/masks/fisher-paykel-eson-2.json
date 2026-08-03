@@ -1,0 +1,4755 @@
+{
+  "schemaVersion": 2,
+  "slug": "fisher-paykel-eson-2",
+  "name": "Fisher & Paykel Eson 2",
+  "catalogOrder": 42,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 178,
+    "eligibleReviews": 178,
+    "processedShare": 1.0,
+    "retailerCount": 7,
+    "reviewDateStart": "2016-11-20",
+    "reviewDateEnd": "2026-05-26"
+  },
+  "overall": {
+    "compositeScore": 84,
+    "ratingComponent": {
+      "average": 4.34,
+      "score": 87,
+      "reviewCount": 178,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 8.0,
+      "score": 80,
+      "reviewCount": 91,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 70,
+      "averageSentiment": 7.0,
+      "reviewCount": 63,
+      "reviewShare": 0.3539,
+      "positiveReviews": 46,
+      "mixedReviews": 3,
+      "negativeReviews": 14,
+      "positiveShare": 0.7302,
+      "negativeShare": 0.2222,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 10
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 4
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 3
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 3
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillow_preference",
+          "label": "Nasal Pillow Preference",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 6
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 5
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "upper_lip",
+          "label": "Upper Lip",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This is so comfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "It is comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I can’t get over breathing into a mask for 8+ hours a night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "it was still painful",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "fit-and-sizing",
+      "label": "Fit & sizing",
+      "score": 65,
+      "averageSentiment": 6.5,
+      "reviewCount": 70,
+      "reviewShare": 0.3933,
+      "positiveReviews": 43,
+      "mixedReviews": 4,
+      "negativeReviews": 23,
+      "positiveShare": 0.6143,
+      "negativeShare": 0.3286,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 9
+        },
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 8
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 5
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 5
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 3
+        },
+        {
+          "id": "caucasian_nose_shape",
+          "label": "Caucasian Nose Shape",
+          "reviewCount": 2
+        },
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "chin_strap_use",
+          "label": "Chin Strap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "mustache",
+          "label": "Mustache",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 6
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I didn't know a mask could fit this well",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "It fit perfectly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Didn’t fit well",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "Poor fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "seal-and-leaks",
+      "label": "Seal & leaks",
+      "score": 68,
+      "averageSentiment": 6.8,
+      "reviewCount": 52,
+      "reviewShare": 0.2921,
+      "positiveReviews": 33,
+      "mixedReviews": 5,
+      "negativeReviews": 14,
+      "positiveShare": 0.6346,
+      "negativeShare": 0.2692,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 6
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 5
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 4
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 2
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "facial_hair",
+          "label": "Facial Hair",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "does not leak no matter what position you sleep in",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "The nose piece seals like magic",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Massive leaking",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "especially whenever I rolled to my sides",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "sleep-compatibility",
+      "label": "Sleep compatibility",
+      "score": 73,
+      "averageSentiment": 7.3,
+      "reviewCount": 29,
+      "reviewShare": 0.1629,
+      "positiveReviews": 22,
+      "mixedReviews": 2,
+      "negativeReviews": 5,
+      "positiveShare": 0.7586,
+      "negativeShare": 0.1724,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 4
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 6
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 4
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The only mask I didn't have to re-position during the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "she doesn't hear any air at all when I'm sleeping",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "does not stay in position",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        },
+        {
+          "text": "moves around and folds on itself",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+        }
+      ]
+    },
+    {
+      "id": "ease-of-use",
+      "label": "Ease of use",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 50,
+      "reviewShare": 0.2809,
+      "positiveReviews": 33,
+      "mixedReviews": 1,
+      "negativeReviews": 16,
+      "positiveShare": 0.66,
+      "negativeShare": 0.32,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 9
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 4
+        },
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 3
+        },
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 3
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 2
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "FOR THE FIRST TIME EVER, I DID NOT HAVE TO READJUST AND TIGHTEN THE MASK TO CREATE A SEAL",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        },
+        {
+          "text": "The clip on system is very well designed to make it easy to do",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I tried changing the adjustments to no avail",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "while putting the strap on my head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "airflow-and-noise",
+      "label": "Airflow & noise",
+      "score": 71,
+      "averageSentiment": 7.1,
+      "reviewCount": 24,
+      "reviewShare": 0.1348,
+      "positiveReviews": 18,
+      "mixedReviews": 1,
+      "negativeReviews": 5,
+      "positiveShare": 0.75,
+      "negativeShare": 0.2083,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 9
+        },
+        {
+          "id": "exhaust_port",
+          "label": "Exhaust Port",
+          "reviewCount": 3
+        },
+        {
+          "id": "quiet_vent",
+          "label": "Quiet Vent",
+          "reviewCount": 3
+        },
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 2
+        },
+        {
+          "id": "elbow",
+          "label": "Elbow",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "bed_partner",
+          "label": "Bed Partner",
+          "reviewCount": 1
+        },
+        {
+          "id": "dry_eye_prone",
+          "label": "Dry Eye Prone",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "has an ever quieter (really, silent) \"exhaust\"",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "extreme quiet",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The elbow exhaust is the noisiest I have used yet",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+        },
+        {
+          "text": "reducing my airflow enough to trigger a panic attack",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "skin-and-pain",
+      "label": "Skin & pain",
+      "score": 50,
+      "averageSentiment": 5.0,
+      "reviewCount": 17,
+      "reviewShare": 0.0955,
+      "positiveReviews": 6,
+      "mixedReviews": 2,
+      "negativeReviews": 9,
+      "positiveShare": 0.3529,
+      "negativeShare": 0.5294,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 3
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "first_week",
+          "label": "First Week",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillow_preference",
+          "label": "Nasal Pillow Preference",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 5
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 3
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 2
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "There are no pressure points that press against the gums",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        },
+        {
+          "text": "The less pressure means I don't gets flattened hair",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "caused a serious rash",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "I got sores on my face from the pressure the first night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "durability",
+      "label": "Durability",
+      "score": 49,
+      "averageSentiment": 4.9,
+      "reviewCount": 24,
+      "reviewShare": 0.1348,
+      "positiveReviews": 11,
+      "mixedReviews": 0,
+      "negativeReviews": 13,
+      "positiveShare": 0.4583,
+      "negativeShare": 0.5417,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 3
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Tha quality of product is exceptional",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "the headgear is long lasting",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "this is the fifth time I have had to replace this piece",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "the plastic piece holding the upper strap on the first one broke while adjusting the strap on my head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "label": "Value",
+      "score": 65,
+      "averageSentiment": 6.5,
+      "reviewCount": 13,
+      "reviewShare": 0.073,
+      "positiveReviews": 9,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.6923,
+      "negativeShare": 0.3077,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 1
+        },
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "couldn't be happier with this price",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "price was great",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "you can't change it once it wears off or gets dirty",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "Cost is a big issue, $18 for one vs $12.50 for the diffuser with 10 disposable filters",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ]
+    },
+    {
+      "id": "therapy-experience",
+      "label": "Therapy experience",
+      "score": 78,
+      "averageSentiment": 7.8,
+      "reviewCount": 34,
+      "reviewShare": 0.191,
+      "positiveReviews": 29,
+      "mixedReviews": 1,
+      "negativeReviews": 4,
+      "positiveShare": 0.8529,
+      "negativeShare": 0.1176,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 2
+        },
+        {
+          "id": "dental_problems",
+          "label": "Dental Problems",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I can finally sleep!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "I had the best night's sleep!!!!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "making it difficult to breath",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "poor sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    }
+  ],
+  "aspects": [
+    {
+      "id": "overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 80,
+      "averageSentiment": 8.0,
+      "reviewCount": 91,
+      "reviewShare": 0.5112,
+      "positiveReviews": 76,
+      "mixedReviews": 2,
+      "negativeReviews": 13,
+      "positiveShare": 0.8352,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 6
+        },
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 2
+        },
+        {
+          "id": "elbow",
+          "label": "Elbow",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 4
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 2
+        },
+        {
+          "id": "chin_strap_use",
+          "label": "Chin Strap Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Exceptional redesign",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "The Best.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "painful experience",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "Do not purchase this mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 76,
+      "averageSentiment": 7.6,
+      "reviewCount": 52,
+      "reviewShare": 0.2921,
+      "positiveReviews": 42,
+      "mixedReviews": 3,
+      "negativeReviews": 7,
+      "positiveShare": 0.8077,
+      "negativeShare": 0.1346,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 9
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 4
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This is so comfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "It is comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I can’t get over breathing into a mask for 8+ hours a night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "the mask and head gear was uncomfortable",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        }
+      ]
+    },
+    {
+      "id": "seal_leak",
+      "label": "Seal Leak",
+      "score": 68,
+      "averageSentiment": 6.8,
+      "reviewCount": 52,
+      "reviewShare": 0.2921,
+      "positiveReviews": 33,
+      "mixedReviews": 5,
+      "negativeReviews": 14,
+      "positiveShare": 0.6346,
+      "negativeShare": 0.2692,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 6
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 5
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 4
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 2
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "facial_hair",
+          "label": "Facial Hair",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "does not leak no matter what position you sleep in",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "The nose piece seals like magic",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Massive leaking",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "especially whenever I rolled to my sides",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "fit",
+      "label": "Fit",
+      "score": 71,
+      "averageSentiment": 7.1,
+      "reviewCount": 50,
+      "reviewShare": 0.2809,
+      "positiveReviews": 38,
+      "mixedReviews": 0,
+      "negativeReviews": 12,
+      "positiveShare": 0.76,
+      "negativeShare": 0.24,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 3
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 2
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 3
+        },
+        {
+          "id": "caucasian_nose_shape",
+          "label": "Caucasian Nose Shape",
+          "reviewCount": 2
+        },
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "chin_strap_use",
+          "label": "Chin Strap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "mustache",
+          "label": "Mustache",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 5
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I didn't know a mask could fit this well",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "It fit perfectly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Didn’t fit well",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "Poor fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "adjustment",
+      "label": "Adjustment",
+      "score": 57,
+      "averageSentiment": 5.7,
+      "reviewCount": 21,
+      "reviewShare": 0.118,
+      "positiveReviews": 10,
+      "mixedReviews": 0,
+      "negativeReviews": 11,
+      "positiveShare": 0.4762,
+      "negativeShare": 0.5238,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 5
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 3
+        },
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "top_strap",
+          "label": "Top Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "FOR THE FIRST TIME EVER, I DID NOT HAVE TO READJUST AND TIGHTEN THE MASK TO CREATE A SEAL",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        },
+        {
+          "text": "The headgear adjustments gave me the perfect fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I tried changing the adjustments to no avail",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "Could not adjust enough to stop leaks",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        }
+      ]
+    },
+    {
+      "id": "ease_of_use",
+      "label": "Ease Of Use",
+      "score": 71,
+      "averageSentiment": 7.1,
+      "reviewCount": 21,
+      "reviewShare": 0.118,
+      "positiveReviews": 16,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.7619,
+      "negativeShare": 0.2381,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 3
+        },
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 3
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "IT SEEMS TO SEAMLESSLY FLOAT ON MY FACE",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        },
+        {
+          "text": "The clip on system is very well designed to make it easy to do",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "while putting the strap on my head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "I had to scrape off the filter a bit because of it's density",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "sleep_quality",
+      "label": "Sleep Quality",
+      "score": 81,
+      "averageSentiment": 8.1,
+      "reviewCount": 21,
+      "reviewShare": 0.118,
+      "positiveReviews": 19,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.9048,
+      "negativeShare": 0.0952,
+      "evidenceStrength": "moderate",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I can finally sleep!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "I had the best night's sleep!!!!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "poor sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "it takes me a bit longer to fall asleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ]
+    },
+    {
+      "id": "previous_mask_comparison",
+      "label": "Previous Mask Comparison",
+      "score": 65,
+      "averageSentiment": 6.5,
+      "reviewCount": 20,
+      "reviewShare": 0.1124,
+      "positiveReviews": 12,
+      "mixedReviews": 4,
+      "negativeReviews": 4,
+      "positiveShare": 0.6,
+      "negativeShare": 0.2,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 2
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "This mask is a much better version of the original",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+        },
+        {
+          "text": "I used to use to cheaper $33 ones, but will never go back",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I've used mostly nasal pillows in the past to general disgust because I can't maintain connection with latex equivalent of tissue paper (editorial comment)",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "does not seem to fit nearly as well as the previous version",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "noise",
+      "label": "Noise",
+      "score": 77,
+      "averageSentiment": 7.7,
+      "reviewCount": 18,
+      "reviewShare": 0.1011,
+      "positiveReviews": 15,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 5
+        },
+        {
+          "id": "exhaust_port",
+          "label": "Exhaust Port",
+          "reviewCount": 3
+        },
+        {
+          "id": "quiet_vent",
+          "label": "Quiet Vent",
+          "reviewCount": 3
+        },
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 2
+        },
+        {
+          "id": "elbow",
+          "label": "Elbow",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "has an ever quieter (really, silent) \"exhaust\"",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "extreme quiet",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The elbow exhaust is the noisiest I have used yet",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+        },
+        {
+          "text": "I hear a slight \"hiss\" on every breath I take in",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ]
+    },
+    {
+      "id": "stability",
+      "label": "Stability",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 17,
+      "reviewShare": 0.0955,
+      "positiveReviews": 12,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.7059,
+      "negativeShare": 0.2941,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 4
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "top_strap",
+          "label": "Top Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "mustache",
+          "label": "Mustache",
+          "reviewCount": 1
+        },
+        {
+          "id": "static_sleeping",
+          "label": "Static Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The strap over the top of the head keeps everything in position without leaving an imprint",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "simple ability to stay on",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "does not stay in position",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        },
+        {
+          "text": "moves around and folds on itself",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+        }
+      ]
+    },
+    {
+      "id": "durability",
+      "label": "Durability",
+      "score": 51,
+      "averageSentiment": 5.1,
+      "reviewCount": 15,
+      "reviewShare": 0.0843,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 8,
+      "positiveShare": 0.4667,
+      "negativeShare": 0.5333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 1
+        },
+        {
+          "id": "top_strap",
+          "label": "Top Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the headgear is long lasting",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "These masks last a very long time",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I have had to replace 2 mask already due to same problem",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "I had only had first one for a few months",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "sizing",
+      "label": "Sizing",
+      "score": 55,
+      "averageSentiment": 5.5,
+      "reviewCount": 12,
+      "reviewShare": 0.0674,
+      "positiveReviews": 5,
+      "mixedReviews": 1,
+      "negativeReviews": 6,
+      "positiveShare": 0.4167,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I did not have to worry about what size would be the best for me as all three sizes of cushions came with it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "with all the cushion sizes",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Had to return first face mask as I ordered wrong size",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "I don't know if i took a mask with a cushion to big",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "therapy_effectiveness",
+      "label": "Therapy Effectiveness",
+      "score": 87,
+      "averageSentiment": 8.7,
+      "reviewCount": 12,
+      "reviewShare": 0.0674,
+      "positiveReviews": 12,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "My mask works great!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "Works very well",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "material_quality",
+      "label": "Material Quality",
+      "score": 47,
+      "averageSentiment": 4.7,
+      "reviewCount": 10,
+      "reviewShare": 0.0562,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.4,
+      "negativeShare": 0.6,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose_connection",
+          "label": "Hose Connection",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Tha quality of product is exceptional",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "superior head gear material",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Top plastic on forehead is very delicate plastic",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "they need to be closed to strengthen them",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "cleaning",
+      "label": "Cleaning",
+      "score": 73,
+      "averageSentiment": 7.3,
+      "reviewCount": 9,
+      "reviewShare": 0.0506,
+      "positiveReviews": 7,
+      "mixedReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.7778,
+      "negativeShare": 0.1111,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "This mask is easy to clean",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "the strap is easy to wash and keep clean",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the filter is a gray color and it is hard to tell when is dirty or if you did a good job when you cleaned…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "label": "Weight",
+      "score": 85,
+      "averageSentiment": 8.5,
+      "reviewCount": 8,
+      "reviewShare": 0.0449,
+      "positiveReviews": 8,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It is very light",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "very light",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "movement_compatibility",
+      "label": "Movement Compatibility",
+      "score": 77,
+      "averageSentiment": 7.7,
+      "reviewCount": 7,
+      "reviewShare": 0.0393,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "elbow",
+          "label": "Elbow",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 3
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The only mask I didn't have to re-position during the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "I can move around and it stays where it is suppose to",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "It is little inconvenient if you move around in your bed",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "sleep_position_compatibility",
+      "label": "Sleep Position Compatibility",
+      "score": 81,
+      "averageSentiment": 8.1,
+      "reviewCount": 7,
+      "reviewShare": 0.0393,
+      "positiveReviews": 6,
+      "mixedReviews": 1,
+      "negativeReviews": 0,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "front_hose_connection",
+          "label": "Front Hose Connection",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "It is perfect for someone who sleeps on their side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "the seal holds when I am only my back sleeping",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "This mask has the inlet at the front and as such does not lend itself to those who might toss and turn during the night",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        }
+      ]
+    },
+    {
+      "id": "breakage",
+      "label": "Breakage",
+      "score": 13,
+      "averageSentiment": 1.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0337,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose_connection",
+          "label": "Hose Connection",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 2
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "this is the fifth time I have had to replace this piece",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "the plastic piece holding the upper strap on the first one broke while adjusting the strap on my head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "face_marks",
+      "label": "Face Marks",
+      "score": 58,
+      "averageSentiment": 5.8,
+      "reviewCount": 6,
+      "reviewShare": 0.0337,
+      "positiveReviews": 3,
+      "mixedReviews": 1,
+      "negativeReviews": 2,
+      "positiveShare": 0.5,
+      "negativeShare": 0.3333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "first_week",
+          "label": "First Week",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 4
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 2
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The less pressure means I don't gets flattened hair",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "I don't have to deal with marks on the sides of my face or on my forehead in the morning anymore either",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "painful marks the first night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "leaves a mark in my head",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "label": "Price",
+      "score": 75,
+      "averageSentiment": 7.5,
+      "reviewCount": 6,
+      "reviewShare": 0.0337,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "couldn't be happier with this price",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "price was great",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Cost is a big issue, $18 for one vs $12.50 for the diffuser with 10 disposable filters",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "label": "Value",
+      "score": 62,
+      "averageSentiment": 6.2,
+      "reviewCount": 6,
+      "reviewShare": 0.0337,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.6667,
+      "negativeShare": 0.3333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "this was a reasonable price",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "a great price",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I have now have a fairly expense product",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "Yes, I paid three times more for this mask than I did for my usual, go to, one when it is on sale",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ]
+    },
+    {
+      "id": "assembly",
+      "label": "Assembly",
+      "score": 58,
+      "averageSentiment": 5.8,
+      "reviewCount": 5,
+      "reviewShare": 0.0281,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.6,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "top_strap",
+          "label": "Top Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Easy to assemble",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+        },
+        {
+          "text": "Easy to install and use",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Broken mask assembly strap connection.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "My mask failures start with assembly.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "pain",
+      "label": "Pain",
+      "score": 48,
+      "averageSentiment": 4.8,
+      "reviewCount": 5,
+      "reviewShare": 0.0281,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.4,
+      "negativeShare": 0.6,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 1
+        },
+        {
+          "id": "gums",
+          "label": "Gums",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "There are no pressure points that press against the gums",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        },
+        {
+          "text": "it also doesn't dig or cut in at any of the edges like some others do as well",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it was still painful",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "Pinches around the bridge of my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "therapy_compliance",
+      "label": "Therapy Compliance",
+      "score": 59,
+      "averageSentiment": 5.9,
+      "reviewCount": 5,
+      "reviewShare": 0.0281,
+      "positiveReviews": 2,
+      "mixedReviews": 1,
+      "negativeReviews": 2,
+      "positiveShare": 0.4,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "dental_problems",
+          "label": "Dental Problems",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "It has made it so I now use my cpap machine every night with no problems!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+        },
+        {
+          "text": "I have been trying to use my cpap machine now for 2 years!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "had to return it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "Didn’t Work For Me",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "headgear",
+      "label": "Headgear",
+      "score": 70,
+      "averageSentiment": 7.0,
+      "reviewCount": 26,
+      "reviewShare": 0.1461,
+      "positiveReviews": 18,
+      "mixedReviews": 3,
+      "negativeReviews": 5,
+      "positiveShare": 0.6923,
+      "negativeShare": 0.1923,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 26
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Excellent mask and headgear",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "excellent headgear",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "The clip on system is very well designed to make it easy to do",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the piece of plastic that goes over the bridge of the nose breaks after awhile if you pull too hard on the head harness",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "the mask and head gear was uncomfortable",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        },
+        {
+          "text": "Did not like the headgear it felt too confined",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "praisedAspects": [
+        {
+          "id": "overall_satisfaction",
+          "label": "Overall Satisfaction",
+          "score": 80,
+          "averageSentiment": 8.0,
+          "reviewCount": 6,
+          "reviewShare": 0.0337,
+          "positiveReviews": 5,
+          "mixedReviews": 0,
+          "negativeReviews": 1,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "Excellent mask and headgear",
+              "retailer": "CPAPsupplies.com",
+              "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+            },
+            {
+              "text": "That's a win, win!",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "I am not crazy about the headgear and the clips",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+            }
+          ]
+        }
+      ],
+      "criticizedAspects": []
+    },
+    {
+      "id": "cushion",
+      "label": "Cushion",
+      "score": 64,
+      "averageSentiment": 6.4,
+      "reviewCount": 12,
+      "reviewShare": 0.0674,
+      "positiveReviews": 6,
+      "mixedReviews": 3,
+      "negativeReviews": 3,
+      "positiveShare": 0.5,
+      "negativeShare": 0.25,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 12
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 5
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The nose piece seals like magic",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "Very comfortable.",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        },
+        {
+          "text": "the cushion does not irritate my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Cushion smelled bad after one night.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "The latest cushion material is very flimsy",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "to keep air from leaking out",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "forehead_support",
+      "label": "Forehead Support",
+      "score": 50,
+      "averageSentiment": 5.0,
+      "reviewCount": 10,
+      "reviewShare": 0.0562,
+      "positiveReviews": 4,
+      "mixedReviews": 1,
+      "negativeReviews": 5,
+      "positiveShare": 0.4,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 10
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 4
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Service with CPAP is great !!!! outstanding !",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "the forehead bar really helps to keep the cushion in place",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+        },
+        {
+          "text": "The new design of the clear plastic piece that runs from the forehead and down the bridge of my nose is angled a little different…",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the piece that holds the mask head gear to the forehead had broken",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "Top plastic on forehead is very delicate plastic",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "It is the piece of plastic at the top of the nose piece that touches the forhead",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "mask_body",
+      "label": "Mask Body",
+      "score": 70,
+      "averageSentiment": 7.0,
+      "reviewCount": 10,
+      "reviewShare": 0.0562,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.7,
+      "negativeShare": 0.3,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 10
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Wow...and another Wow!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "a “silencer” over the air that flows out making it very a quiet environment for sleeping!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "It is very light",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "My mask failures start with assembly.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "I probably ordered the nasal mask in a large",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        },
+        {
+          "text": "My last one was worn out",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "fit_pack",
+      "label": "Fit Pack",
+      "score": 74,
+      "averageSentiment": 7.4,
+      "reviewCount": 9,
+      "reviewShare": 0.0506,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7778,
+      "negativeShare": 0.2222,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 9
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "the fit pack is great",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "I did not have to worry about what size would be the best for me as all three sizes of cushions came with it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "able to get this mask with all sizes",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "bought Nasal Mask with Fitpack that didn't fit well",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        },
+        {
+          "text": "You receive small, medium, and large cushions",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "strap",
+      "label": "Strap",
+      "score": 52,
+      "averageSentiment": 5.2,
+      "reviewCount": 9,
+      "reviewShare": 0.0506,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.4444,
+      "negativeShare": 0.5556,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 9
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I still use 1/4 of a sports headband to slide over each of the side straps on my cheeks like I've done for over a…",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "the strap is easy to wash and keep clean",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "I use those velco pads and wrap them around the head straps, but not on the face straps and that seems to prevent any marks…",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the mask’s straps would end up riding up my face and would end up next to my eyes",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "I have to tighten the straps too tight",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        },
+        {
+          "text": "I had to readjust the straps for the second night to the loosest option",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "vent",
+      "label": "Vent",
+      "score": 83,
+      "averageSentiment": 8.3,
+      "reviewCount": 9,
+      "reviewShare": 0.0506,
+      "positiveReviews": 8,
+      "mixedReviews": 1,
+      "negativeReviews": 0,
+      "positiveShare": 0.8889,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 9
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "bed_partner",
+          "label": "Bed Partner",
+          "reviewCount": 2
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "has an ever quieter (really, silent) \"exhaust\"",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "The headgear adjustments gave me the perfect fit so now I do not have mask leaks to contend with",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "a filter on the outflow of a mask greatly decreases, and nearly eliminates, air flowing out and blowing onto the user or their partner",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I hear a slight \"hiss\" on every breath I take in",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "nasal_cushion",
+      "label": "Nasal Cushion",
+      "score": 58,
+      "averageSentiment": 5.8,
+      "reviewCount": 8,
+      "reviewShare": 0.0449,
+      "positiveReviews": 4,
+      "mixedReviews": 1,
+      "negativeReviews": 3,
+      "positiveShare": 0.5,
+      "negativeShare": 0.375,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 8
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "first_week",
+          "label": "First Week",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "more quiet seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "Eson 2 excellent nasal mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+        },
+        {
+          "text": "The nasal cushion is much better then the nasal pillow mask that I've tried in the past",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "caused a serious rash",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "the nasal piece didn't fit well",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "after I washed the large nasal part it became a loser fit",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "cushion_seal",
+      "label": "Cushion Seal",
+      "score": 69,
+      "averageSentiment": 6.9,
+      "reviewCount": 7,
+      "reviewShare": 0.0393,
+      "positiveReviews": 5,
+      "mixedReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        },
+        {
+          "id": "dry_eye_prone",
+          "label": "Dry Eye Prone",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It holds a very nice seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        },
+        {
+          "text": "a better seal around your nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "good seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The escape air flow hits my eyes causing Dry Eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        },
+        {
+          "text": "seal on nasal mask was interrupted",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "clip",
+      "label": "Clip",
+      "score": 44,
+      "averageSentiment": 4.4,
+      "reviewCount": 5,
+      "reviewShare": 0.0281,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.4,
+      "negativeShare": 0.6,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The easy clip hooks are great",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "Comfortable and easy to adjust",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the plastic piece holding the upper strap on the first one broke while adjusting the strap on my head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "the plastic piece holding the upper strap broke while putting the strap on my head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "I am not crazy about the headgear and the clips",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "diffuser",
+      "label": "Diffuser",
+      "score": 74,
+      "averageSentiment": 7.4,
+      "reviewCount": 5,
+      "reviewShare": 0.0281,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8,
+      "negativeShare": 0.2,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "the diffuser didn't think they could make a better product, but they did!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "the defuser is quiet.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "The diffuser clip works great to prevent whistling",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Cost is a big issue, $18 for one vs $12.50 for the diffuser with 10 disposable filters",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    }
+  ],
+  "partAspectMatrix": [
+    {
+      "id": "headgear|comfort",
+      "label": "Headgear · Comfort",
+      "score": 64,
+      "averageSentiment": 6.4,
+      "reviewCount": 9,
+      "reviewShare": 0.0506,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "excellent headgear",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the mask and head gear was uncomfortable",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        }
+      ],
+      "partId": "headgear",
+      "partLabel": "Headgear",
+      "aspectId": "comfort",
+      "aspectLabel": "Comfort"
+    },
+    {
+      "id": "cushion|seal_leak",
+      "label": "Cushion · Seal Leak",
+      "score": 72,
+      "averageSentiment": 7.2,
+      "reviewCount": 6,
+      "reviewShare": 0.0337,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "The nose piece seals like magic",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "to keep air from leaking out",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        }
+      ],
+      "partId": "cushion",
+      "partLabel": "Cushion",
+      "aspectId": "seal_leak",
+      "aspectLabel": "Seal Leak"
+    },
+    {
+      "id": "headgear|overall_satisfaction",
+      "label": "Headgear · Overall Satisfaction",
+      "score": 80,
+      "averageSentiment": 8.0,
+      "reviewCount": 6,
+      "reviewShare": 0.0337,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "Excellent mask and headgear",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I am not crazy about the headgear and the clips",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "partId": "headgear",
+      "partLabel": "Headgear",
+      "aspectId": "overall_satisfaction",
+      "aspectLabel": "Overall Satisfaction"
+    },
+    {
+      "id": "cushion_seal|seal_leak",
+      "label": "Cushion Seal · Seal Leak",
+      "score": 77,
+      "averageSentiment": 7.7,
+      "reviewCount": 5,
+      "reviewShare": 0.0281,
+      "positiveReviews": 4,
+      "mixedReviews": 1,
+      "negativeReviews": 0,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "It holds a very nice seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "seal on nasal mask was interrupted",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "partId": "cushion_seal",
+      "partLabel": "Cushion Seal",
+      "aspectId": "seal_leak",
+      "aspectLabel": "Seal Leak"
+    },
+    {
+      "id": "headgear|adjustment",
+      "label": "Headgear · Adjustment",
+      "score": 76,
+      "averageSentiment": 7.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0281,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "The headgear adjustments gave me the perfect fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The headgear takes more adjustment than I like",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "partId": "headgear",
+      "partLabel": "Headgear",
+      "aspectId": "adjustment",
+      "aspectLabel": "Adjustment"
+    },
+    {
+      "id": "vent|noise",
+      "label": "Vent · Noise",
+      "score": 76,
+      "averageSentiment": 7.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0281,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "has an ever quieter (really, silent) \"exhaust\"",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I hear a slight \"hiss\" on every breath I take in",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "partId": "vent",
+      "partLabel": "Vent",
+      "aspectId": "noise",
+      "aspectLabel": "Noise"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "side-sleepers",
+      "label": "Side sleepers",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 11,
+      "reviewShare": 0.0618,
+      "positiveReviews": 6,
+      "mixedReviews": 2,
+      "negativeReviews": 3,
+      "positiveShare": 0.5455,
+      "negativeShare": 0.2727,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 11
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It is perfect for someone who sleeps on their side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "staying in place",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "especially whenever I rolled to my sides",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "As a side sleeper, I have a challenge keeping the mask on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "sourceContexts": [
+        "side_sleeping"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": false
+    },
+    {
+      "id": "active-sleepers",
+      "label": "Active or restless sleepers",
+      "score": 63,
+      "averageSentiment": 6.3,
+      "reviewCount": 10,
+      "reviewShare": 0.0562,
+      "positiveReviews": 5,
+      "mixedReviews": 1,
+      "negativeReviews": 4,
+      "positiveShare": 0.5,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        },
+        {
+          "id": "front_hose_connection",
+          "label": "Front Hose Connection",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 7
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I can move around and it stays where it is suppose to",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+        },
+        {
+          "text": "without leaking",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "seal on nasal mask was interrupted",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "This mask has the inlet at the front and as such does not lend itself to those who might toss and turn during the night",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+        }
+      ],
+      "sourceContexts": [
+        "active_sleeping",
+        "restless_sleeping",
+        "tossing_turning"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": false
+    },
+    {
+      "id": "long-term-users",
+      "label": "Long-term CPAP users",
+      "score": 80,
+      "averageSentiment": 8.0,
+      "reviewCount": 8,
+      "reviewShare": 0.0449,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.875,
+      "negativeShare": 0.125,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 8
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The Best.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "been on CPAP 20 years",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "caused a serious rash",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "sourceContexts": [
+        "long_term_cpap_user"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": true
+    },
+    {
+      "id": "facial-hair",
+      "label": "People with facial hair",
+      "score": 77,
+      "averageSentiment": 7.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0337,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 3
+        },
+        {
+          "id": "mustache",
+          "label": "Mustache",
+          "reviewCount": 2
+        },
+        {
+          "id": "facial_hair",
+          "label": "Facial Hair",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I have facial hair.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        },
+        {
+          "text": "Finally a full face for bearded users!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "moves around and folds on itself",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+        }
+      ],
+      "sourceContexts": [
+        "beard",
+        "facial_hair",
+        "mustache"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": true
+    }
+  ],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [
+    {
+      "id": "face",
+      "label": "Face",
+      "score": 55,
+      "averageSentiment": 5.5,
+      "reviewCount": 10,
+      "reviewShare": 0.0562,
+      "positiveReviews": 5,
+      "mixedReviews": 1,
+      "negativeReviews": 4,
+      "positiveShare": 0.5,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "caucasian_nose_shape",
+          "label": "Caucasian Nose Shape",
+          "reviewCount": 1
+        },
+        {
+          "id": "first_week",
+          "label": "First Week",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 10
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the sheer comfort I get from the Eson2",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "I believed that it had fallen off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        },
+        {
+          "text": "less need to adjust the mask on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "painful marks the first night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "Didn’t fit well",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "try to adjust how mask fits on my face but does not stay in position",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "complaintReviews": 5,
+      "complaintShare": 0.0281,
+      "complaintSeverity": 20,
+      "complaintAspects": [
+        {
+          "id": "face_marks",
+          "label": "Face Marks",
+          "reviewCount": 2
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 2
+        },
+        {
+          "id": "bulk",
+          "label": "Bulk",
+          "reviewCount": 1
+        },
+        {
+          "id": "pain",
+          "label": "Pain",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin_breakdown",
+          "label": "Skin Breakdown",
+          "reviewCount": 1
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        }
+      ]
+    },
+    {
+      "id": "nose",
+      "label": "Nose",
+      "score": 62,
+      "averageSentiment": 6.2,
+      "reviewCount": 13,
+      "reviewShare": 0.073,
+      "positiveReviews": 7,
+      "mixedReviews": 2,
+      "negativeReviews": 4,
+      "positiveShare": 0.5385,
+      "negativeShare": 0.3077,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 5
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "nasal_pillow_preference",
+          "label": "Nasal Pillow Preference",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 13
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The nose piece seals like magic",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "the cushion does not irritate my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "each nose piece just pops on and off",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "reducing my airflow enough to trigger a panic attack",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        },
+        {
+          "text": "my nose was getting sore",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        },
+        {
+          "text": "it don't stuck on my nose correctly",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "complaintReviews": 5,
+      "complaintShare": 0.0281,
+      "complaintSeverity": 27,
+      "complaintAspects": [
+        {
+          "id": "soreness",
+          "label": "Soreness",
+          "reviewCount": 2
+        },
+        {
+          "id": "airflow_restriction",
+          "label": "Airflow Restriction",
+          "reviewCount": 1
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 1
+        },
+        {
+          "id": "material_quality",
+          "label": "Material Quality",
+          "reviewCount": 1
+        },
+        {
+          "id": "sizing",
+          "label": "Sizing",
+          "reviewCount": 1
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        }
+      ]
+    }
+  ],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [
+    {
+      "id": "|||overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 81,
+      "averageSentiment": 8.1,
+      "reviewCount": 74,
+      "reviewShare": 0.4157,
+      "positiveReviews": 63,
+      "mixedReviews": 2,
+      "negativeReviews": 9,
+      "positiveShare": 0.8514,
+      "negativeShare": 0.1216,
+      "evidenceStrength": "moderate",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Exceptional redesign",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "painful experience",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "|||comfort",
+      "label": "Comfort",
+      "score": 82,
+      "averageSentiment": 8.2,
+      "reviewCount": 35,
+      "reviewShare": 0.1966,
+      "positiveReviews": 32,
+      "mixedReviews": 1,
+      "negativeReviews": 2,
+      "positiveShare": 0.9143,
+      "negativeShare": 0.0571,
+      "evidenceStrength": "moderate",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "It is comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I can’t get over breathing into a mask for 8+ hours a night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "|||fit",
+      "label": "Fit",
+      "score": 79,
+      "averageSentiment": 7.9,
+      "reviewCount": 24,
+      "reviewShare": 0.1348,
+      "positiveReviews": 21,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.875,
+      "negativeShare": 0.125,
+      "evidenceStrength": "moderate",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I didn't know a mask could fit this well",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Poor fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "|||sleep_quality",
+      "label": "Sleep Quality",
+      "score": 82,
+      "averageSentiment": 8.2,
+      "reviewCount": 19,
+      "reviewShare": 0.1067,
+      "positiveReviews": 17,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.8947,
+      "negativeShare": 0.1053,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I can finally sleep!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "poor sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    },
+    {
+      "id": "|||therapy_effectiveness",
+      "label": "Therapy Effectiveness",
+      "score": 87,
+      "averageSentiment": 8.7,
+      "reviewCount": 10,
+      "reviewShare": 0.0562,
+      "positiveReviews": 10,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "My mask works great!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "|||ease_of_use",
+      "label": "Ease Of Use",
+      "score": 84,
+      "averageSentiment": 8.4,
+      "reviewCount": 7,
+      "reviewShare": 0.0393,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "IT SEEMS TO SEAMLESSLY FLOAT ON MY FACE",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "|||weight",
+      "label": "Weight",
+      "score": 83,
+      "averageSentiment": 8.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0337,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "very light",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "headgear|||overall_satisfaction",
+      "label": "Headgear · Overall Satisfaction",
+      "score": 80,
+      "averageSentiment": 8.0,
+      "reviewCount": 6,
+      "reviewShare": 0.0337,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Excellent mask and headgear",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I am not crazy about the headgear and the clips",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+        }
+      ]
+    }
+  ],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "CPAP.com",
+      "reviewCount": 70,
+      "averageRating": 4.21,
+      "ratingCount": 70,
+      "evidenceStrength": "moderate",
+      "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 27,
+      "averageRating": 4.44,
+      "ratingCount": 27,
+      "evidenceStrength": "moderate",
+      "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+    },
+    {
+      "retailer": "DirectHomeMedical",
+      "reviewCount": 24,
+      "averageRating": 4.5,
+      "ratingCount": 24,
+      "evidenceStrength": "moderate",
+      "productUrl": "https://directhomemedical.com/products/eson-2-nasal-cpap-mask-fisher-paykel-healthcare"
+    },
+    {
+      "retailer": "RespShop",
+      "reviewCount": 22,
+      "averageRating": 4.36,
+      "ratingCount": 22,
+      "evidenceStrength": "moderate",
+      "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "reviewCount": 19,
+      "averageRating": 4.68,
+      "ratingCount": 19,
+      "evidenceStrength": "limited",
+      "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+    },
+    {
+      "retailer": "Lofta",
+      "reviewCount": 12,
+      "averageRating": 3.92,
+      "ratingCount": 12,
+      "evidenceStrength": "limited",
+      "productUrl": "https://lofta.com/collections/cpap-masks/products/f-p-eson-2-nasal-mask-with-fitpack"
+    },
+    {
+      "retailer": "CPAP Ninja",
+      "reviewCount": 4,
+      "averageRating": 4.5,
+      "ratingCount": 4,
+      "evidenceStrength": "limited",
+      "productUrl": "https://www.cpapninja.com/products/eson-2-nasal-cpap-mask-fisher-paykel"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "does not leak no matter what position you sleep in",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+      },
+      {
+        "text": "The Best.",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+      },
+      {
+        "text": "Everything is perfect!",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/eson-2-nasal-cpap-mask-by-fisher-paykel"
+      },
+      {
+        "text": "The nose piece seals like magic",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+      },
+      {
+        "text": "I can finally sleep!",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+      },
+      {
+        "text": "The Eson 2 mask is the best",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask"
+      }
+    ],
+    "negative": [
+      {
+        "text": "this is the fifth time I have had to replace this piece",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-2-nasal-cpap-mask"
+      },
+      {
+        "text": "The elbow exhaust is the noisiest I have used yet",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/eson-2-nasal-cpap-mask-all-size-fit-pack"
+      },
+      {
+        "text": "caused a serious rash",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+      },
+      {
+        "text": "the plastic piece holding the upper strap on the first one broke while adjusting the strap on my head",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+      },
+      {
+        "text": "the plastic piece holding the upper strap broke while putting the strap on my head",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+      },
+      {
+        "text": "the piece that holds the mask head gear to the forehead had broken",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/eson-2-nasal-cpap-mask?variant=49671904461116"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

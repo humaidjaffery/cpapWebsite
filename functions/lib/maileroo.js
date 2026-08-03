@@ -21,6 +21,7 @@ async function sendMailerooTemplateEmail(params) {
             waitlist_doc_id: params.templateData.waitlist_doc_id,
         },
         reference_id: params.referenceId,
+        scheduled_at: params.scheduledAt,
     };
     if (params.replyToAddress) {
         body.reply_to = {

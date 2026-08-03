@@ -1,0 +1,3293 @@
+{
+  "schemaVersion": 2,
+  "slug": "circadiance-sleepweaver-anew",
+  "name": "Circadiance SleepWeaver Anew",
+  "catalogOrder": 54,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 83,
+    "eligibleReviews": 83,
+    "processedShare": 1.0,
+    "retailerCount": 3,
+    "reviewDateStart": "2013-09-18",
+    "reviewDateEnd": "2026-03-11"
+  },
+  "overall": {
+    "compositeScore": 56,
+    "ratingComponent": {
+      "average": 2.83,
+      "score": 57,
+      "reviewCount": 83,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 5.5,
+      "score": 55,
+      "reviewCount": 36,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 61,
+      "averageSentiment": 6.1,
+      "reviewCount": 45,
+      "reviewShare": 0.5422,
+      "positiveReviews": 25,
+      "mixedReviews": 7,
+      "negativeReviews": 13,
+      "positiveShare": 0.5556,
+      "negativeShare": 0.2889,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 10
+        },
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "soft_frame",
+          "label": "Soft Frame",
+          "reviewCount": 2
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 1
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 5
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It's so much more comfortable than the other two masks I have used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "I love the soft fabric",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Leaves raw nose in the morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "My nose, however is sore every morning after wearing the Sleepweaver over night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "fit-and-sizing",
+      "label": "Fit & sizing",
+      "score": 38,
+      "averageSentiment": 3.8,
+      "reviewCount": 39,
+      "reviewShare": 0.4699,
+      "positiveReviews": 7,
+      "mixedReviews": 6,
+      "negativeReviews": 26,
+      "positiveShare": 0.1795,
+      "negativeShare": 0.6667,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 5
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 3
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 3
+        },
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        },
+        {
+          "id": "congestion",
+          "label": "Congestion",
+          "reviewCount": 1
+        },
+        {
+          "id": "glasses_use",
+          "label": "Glasses Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 2
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_passages",
+          "label": "Nasal Passages",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "it conforms well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "I love the soft fabric and fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "ill-fitting",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "I could not adjust the mask to stop the excessive leakage",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "seal-and-leaks",
+      "label": "Seal & leaks",
+      "score": 28,
+      "averageSentiment": 2.8,
+      "reviewCount": 57,
+      "reviewShare": 0.6867,
+      "positiveReviews": 7,
+      "mixedReviews": 2,
+      "negativeReviews": 48,
+      "positiveShare": 0.1228,
+      "negativeShare": 0.8421,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 6
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 6
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 5
+        },
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 2
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "dry_eye_prone",
+          "label": "Dry Eye Prone",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 9
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 3
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "beard_area",
+          "label": "Beard Area",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "little or NO leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "I ordered a small, and it fits perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I could not get a good seal no matter what",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Mask leaks excessively up the sides of nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "sleep-compatibility",
+      "label": "Sleep compatibility",
+      "score": 46,
+      "averageSentiment": 4.6,
+      "reviewCount": 15,
+      "reviewShare": 0.1807,
+      "positiveReviews": 5,
+      "mixedReviews": 1,
+      "negativeReviews": 9,
+      "positiveShare": 0.3333,
+      "negativeShare": 0.6,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "hard_frame",
+          "label": "Hard Frame",
+          "reviewCount": 2
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 1
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "soft_frame",
+          "label": "Soft Frame",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 4
+        },
+        {
+          "id": "bed_partner",
+          "label": "Bed Partner",
+          "reviewCount": 2
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I can now sleep on my side with no marks and no leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "it moves with me",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-anew-soft-cloth-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "It moved around when I moved and woke me up numerous times",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "It just pulled off his nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "ease-of-use",
+      "label": "Ease of use",
+      "score": 48,
+      "averageSentiment": 4.8,
+      "reviewCount": 29,
+      "reviewShare": 0.3494,
+      "positiveReviews": 8,
+      "mixedReviews": 8,
+      "negativeReviews": 13,
+      "positiveShare": 0.2759,
+      "negativeShare": 0.4483,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 3
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "plastic_frame",
+          "label": "Plastic Frame",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "reading_in_bed",
+          "label": "Reading In Bed",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "jaw",
+          "label": "Jaw",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I don't feel like I have a mask on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "easy to maintain",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "very hard to fit mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "I could not adjust the mask to stop the excessive leakage",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "airflow-and-noise",
+      "label": "Airflow & noise",
+      "score": 30,
+      "averageSentiment": 3.0,
+      "reviewCount": 17,
+      "reviewShare": 0.2048,
+      "positiveReviews": 2,
+      "mixedReviews": 1,
+      "negativeReviews": 14,
+      "positiveShare": 0.1176,
+      "negativeShare": 0.8235,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 2
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "eye_mask_use",
+          "label": "Eye Mask Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "keeps it from whistling and burping",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "With closed eyes its not an issue though",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "noisy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "VERY NOISY",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "skin-and-pain",
+      "label": "Skin & pain",
+      "score": 39,
+      "averageSentiment": 3.9,
+      "reviewCount": 21,
+      "reviewShare": 0.253,
+      "positiveReviews": 5,
+      "mixedReviews": 2,
+      "negativeReviews": 14,
+      "positiveShare": 0.2381,
+      "negativeShare": 0.6667,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 1
+        },
+        {
+          "id": "dry_eye_prone",
+          "label": "Dry Eye Prone",
+          "reviewCount": 1
+        },
+        {
+          "id": "mustache",
+          "label": "Mustache",
+          "reviewCount": 1
+        },
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 13
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I can now sleep on my side with no marks and no leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "doesn't leave a red mark on my face",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-anew-soft-cloth-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Leaves raw nose in the morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "My nose, however is sore every morning after wearing the Sleepweaver over night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "durability",
+      "label": "Durability",
+      "score": 45,
+      "averageSentiment": 4.5,
+      "reviewCount": 11,
+      "reviewShare": 0.1325,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.4545,
+      "negativeShare": 0.5455,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose_connection",
+          "label": "Hose Connection",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "philtrum",
+          "label": "Philtrum",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Great mask-especially if you have a silicone allergy.",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-anew-soft-cloth-full-face-cpap-mask"
+        },
+        {
+          "text": "soft fabric feel of the mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Securing ring around hose entering mask broke 5 nights after purchasing",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Poorly made",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "therapy-experience",
+      "label": "Therapy experience",
+      "score": 43,
+      "averageSentiment": 4.3,
+      "reviewCount": 27,
+      "reviewShare": 0.3253,
+      "positiveReviews": 10,
+      "mixedReviews": 1,
+      "negativeReviews": 16,
+      "positiveShare": 0.3704,
+      "negativeShare": 0.5926,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "compliance_struggle",
+          "label": "Compliance Struggle",
+          "reviewCount": 1
+        },
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_opens_during_sleep",
+          "label": "Mouth Opens During Sleep",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "this is the only mask I can use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "It is an solution for anyone who is struggling with other masks as I have done",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Waste of Time.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Can’t use it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    }
+  ],
+  "aspects": [
+    {
+      "id": "seal_leak",
+      "label": "Seal Leak",
+      "score": 27,
+      "averageSentiment": 2.7,
+      "reviewCount": 57,
+      "reviewShare": 0.6867,
+      "positiveReviews": 7,
+      "mixedReviews": 2,
+      "negativeReviews": 48,
+      "positiveShare": 0.1228,
+      "negativeShare": 0.8421,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 6
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 6
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 5
+        },
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 2
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "dry_eye_prone",
+          "label": "Dry Eye Prone",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 9
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 3
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "beard_area",
+          "label": "Beard Area",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "little or NO leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "I ordered a small, and it fits perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I could not get a good seal no matter what",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Mask leaks excessively up the sides of nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 55,
+      "averageSentiment": 5.5,
+      "reviewCount": 36,
+      "reviewShare": 0.4337,
+      "positiveReviews": 17,
+      "mixedReviews": 0,
+      "negativeReviews": 19,
+      "positiveShare": 0.4722,
+      "negativeShare": 0.5278,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 1
+        },
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Best mask for Beards",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-anew-full-face-cloth-mask"
+        },
+        {
+          "text": "FABULOUS FULL FACE MASK",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "This product is garbage",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "So for me, this mask is useless",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 68,
+      "averageSentiment": 6.8,
+      "reviewCount": 34,
+      "reviewShare": 0.4096,
+      "positiveReviews": 24,
+      "mixedReviews": 2,
+      "negativeReviews": 8,
+      "positiveShare": 0.7059,
+      "negativeShare": 0.2353,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 8
+        },
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "soft_frame",
+          "label": "Soft Frame",
+          "reviewCount": 2
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 1
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "philtrum",
+          "label": "Philtrum",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It's so much more comfortable than the other two masks I have used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "I love the soft fabric",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "too uncomfortable to use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "the fit is not comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "fit",
+      "label": "Fit",
+      "score": 42,
+      "averageSentiment": 4.2,
+      "reviewCount": 24,
+      "reviewShare": 0.2892,
+      "positiveReviews": 7,
+      "mixedReviews": 2,
+      "negativeReviews": 15,
+      "positiveShare": 0.2917,
+      "negativeShare": 0.625,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 3
+        },
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        },
+        {
+          "id": "congestion",
+          "label": "Congestion",
+          "reviewCount": 1
+        },
+        {
+          "id": "glasses_use",
+          "label": "Glasses Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 2
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_passages",
+          "label": "Nasal Passages",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "it conforms well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "I love the soft fabric and fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "ill-fitting",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Since I am an occasional mouth-breather, nasal masks were not an option",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "adjustment",
+      "label": "Adjustment",
+      "score": 35,
+      "averageSentiment": 3.5,
+      "reviewCount": 15,
+      "reviewShare": 0.1807,
+      "positiveReviews": 0,
+      "mixedReviews": 5,
+      "negativeReviews": 10,
+      "positiveShare": 0.0,
+      "negativeShare": 0.6667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "very hard to fit mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "I could not adjust the mask to stop the excessive leakage",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "noise",
+      "label": "Noise",
+      "score": 28,
+      "averageSentiment": 2.8,
+      "reviewCount": 14,
+      "reviewShare": 0.1687,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 12,
+      "positiveShare": 0.1429,
+      "negativeShare": 0.8571,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Wife states it is much quieter then my Quatro mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "I adjust it so it is quiet",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "noisy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "VERY NOISY",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "sleep_quality",
+      "label": "Sleep Quality",
+      "score": 42,
+      "averageSentiment": 4.2,
+      "reviewCount": 12,
+      "reviewShare": 0.1446,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 8,
+      "positiveShare": 0.3333,
+      "negativeShare": 0.6667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "After two years of horrible nights, finally I can sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "good sleep!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-anew-full-face-cloth-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Leaks so much you can’t sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Being a restless sleeper, I was constantly being woken up by the noise of the mask leaking",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-anew-soft-cloth-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "therapy_compliance",
+      "label": "Therapy Compliance",
+      "score": 53,
+      "averageSentiment": 5.3,
+      "reviewCount": 10,
+      "reviewShare": 0.1205,
+      "positiveReviews": 5,
+      "mixedReviews": 1,
+      "negativeReviews": 4,
+      "positiveShare": 0.5,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "compliance_struggle",
+          "label": "Compliance Struggle",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "this is the only mask I can use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "It’s not perfect but I can sleep!! And breathe!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Waste of Time.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Can’t use it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "ease_of_use",
+      "label": "Ease Of Use",
+      "score": 57,
+      "averageSentiment": 5.7,
+      "reviewCount": 9,
+      "reviewShare": 0.1084,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.5556,
+      "negativeShare": 0.4444,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "plastic_frame",
+          "label": "Plastic Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "jaw",
+          "label": "Jaw",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "easy to maintain",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "easy too",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The clip attachments are very had to work for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "jawbone clips are cumbersome to take on and off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "label": "Weight",
+      "score": 72,
+      "averageSentiment": 7.2,
+      "reviewCount": 9,
+      "reviewShare": 0.1084,
+      "positiveReviews": 8,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8889,
+      "negativeShare": 0.1111,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "soft_frame",
+          "label": "Soft Frame",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It is lightweight",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-anew-soft-cloth-full-face-cpap-mask"
+        },
+        {
+          "text": "The mask is light and comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "even the extra light hose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "material_quality",
+      "label": "Material Quality",
+      "score": 49,
+      "averageSentiment": 4.9,
+      "reviewCount": 8,
+      "reviewShare": 0.0964,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.5,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "philtrum",
+          "label": "Philtrum",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Great mask-especially if you have a silicone allergy.",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-anew-soft-cloth-full-face-cpap-mask"
+        },
+        {
+          "text": "soft fabric feel of the mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "This product is cheaply made",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Poorly made",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "face_marks",
+      "label": "Face Marks",
+      "score": 53,
+      "averageSentiment": 5.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0723,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.5,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 6
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I do not get lines on my face in the morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "No more dent marks on your face!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it leaves marks on my face every single morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Left marks on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "previous_mask_comparison",
+      "label": "Previous Mask Comparison",
+      "score": 58,
+      "averageSentiment": 5.8,
+      "reviewCount": 6,
+      "reviewShare": 0.0723,
+      "positiveReviews": 3,
+      "mixedReviews": 2,
+      "negativeReviews": 1,
+      "positiveShare": 0.5,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "mask_switching",
+          "label": "Mask Switching",
+          "reviewCount": 3
+        },
+        {
+          "id": "chin_strap_use",
+          "label": "Chin Strap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Can't imagine myself ever going back to a plastic mask",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-anew-soft-cloth-full-face-cpap-mask"
+        },
+        {
+          "text": "the other two masks I have used: mouth-only mask and full face Quadro mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "So, back to the silicone masks",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-anew-full-face-cloth-mask"
+        }
+      ]
+    },
+    {
+      "id": "sizing",
+      "label": "Sizing",
+      "score": 32,
+      "averageSentiment": 3.2,
+      "reviewCount": 6,
+      "reviewShare": 0.0723,
+      "positiveReviews": 0,
+      "mixedReviews": 1,
+      "negativeReviews": 5,
+      "positiveShare": 0.0,
+      "negativeShare": 0.8333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "I first ordered a medium size, which was too large",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "I used the size guide before getting this mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "soreness",
+      "label": "Soreness",
+      "score": 32,
+      "averageSentiment": 3.2,
+      "reviewCount": 6,
+      "reviewShare": 0.0723,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.1667,
+      "negativeShare": 0.8333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "sore nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Leaves raw nose in the morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "My nose, however is sore every morning after wearing the Sleepweaver over night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "overtightening",
+      "label": "Overtightening",
+      "score": 18,
+      "averageSentiment": 1.8,
+      "reviewCount": 5,
+      "reviewShare": 0.0602,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "tightening straps so tight they leave marks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "resulting in over-tightening",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "sleep_position_compatibility",
+      "label": "Sleep Position Compatibility",
+      "score": 67,
+      "averageSentiment": 6.7,
+      "reviewCount": 5,
+      "reviewShare": 0.0602,
+      "positiveReviews": 3,
+      "mixedReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.6,
+      "negativeShare": 0.2,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "hard_frame",
+          "label": "Hard Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "soft_frame",
+          "label": "Soft Frame",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 4
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I can now sleep on my side with no marks and no leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "As a side sleeper I love my mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I knew hard masks would never work for me.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "I don’t think it’s good for a stomach sleeper, it’s not rigid",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-anew-full-face-cloth-mask"
+        }
+      ]
+    },
+    {
+      "id": "stability",
+      "label": "Stability",
+      "score": 20,
+      "averageSentiment": 2.0,
+      "reviewCount": 5,
+      "reviewShare": 0.0602,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "hard_frame",
+          "label": "Hard Frame",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "It moved around when I moved and woke me up numerous times",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "It just pulled off his nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "therapy_effectiveness",
+      "label": "Therapy Effectiveness",
+      "score": 42,
+      "averageSentiment": 4.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0602,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.4,
+      "negativeShare": 0.6,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "It is an solution for anyone who is struggling with other masks as I have done",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "otherwise it's great",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-anew-full-face-cloth-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I tried all the things I've learned over 30 years with Bi-Pap and nothing worked",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "TOO HIGH APNEA COUNT",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "mask_body",
+      "label": "Mask Body",
+      "score": 46,
+      "averageSentiment": 4.6,
+      "reviewCount": 17,
+      "reviewShare": 0.2048,
+      "positiveReviews": 6,
+      "mixedReviews": 2,
+      "negativeReviews": 9,
+      "positiveShare": 0.3529,
+      "negativeShare": 0.5294,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 17
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 2
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 3
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        },
+        {
+          "id": "philtrum",
+          "label": "Philtrum",
+          "reviewCount": 1
+        },
+        {
+          "id": "upper_lip",
+          "label": "Upper Lip",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "it moves with me",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-anew-soft-cloth-full-face-cpap-mask"
+        },
+        {
+          "text": "I cannot tolerate hard masks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "much kinder to my face, not causing heavy marks on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "It did not work",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Leaves raw nose in the morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "when the air pressure is high, there is a lot of air escaping around the mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "cushion",
+      "label": "Cushion",
+      "score": 18,
+      "averageSentiment": 1.8,
+      "reviewCount": 6,
+      "reviewShare": 0.0723,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "fails to seal.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "does not seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "it did not seal on my husbands nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": [
+        {
+          "id": "seal_leak",
+          "label": "Seal Leak",
+          "score": 17,
+          "averageSentiment": 1.7,
+          "reviewCount": 6,
+          "reviewShare": 0.0723,
+          "positiveReviews": 0,
+          "mixedReviews": 0,
+          "negativeReviews": 6,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [],
+          "negativeEvidence": [
+            {
+              "text": "fails to seal.",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+            },
+            {
+              "text": "does not seal",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cushion_seal",
+      "label": "Cushion Seal",
+      "score": 19,
+      "averageSentiment": 1.9,
+      "reviewCount": 6,
+      "reviewShare": 0.0723,
+      "positiveReviews": 0,
+      "mixedReviews": 1,
+      "negativeReviews": 5,
+      "positiveShare": 0.0,
+      "negativeShare": 0.8333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "Can not keep it sealed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Couldn't get a seal over my beard",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Leaks all night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": [
+        {
+          "id": "seal_leak",
+          "label": "Seal Leak",
+          "score": 18,
+          "averageSentiment": 1.8,
+          "reviewCount": 6,
+          "reviewShare": 0.0723,
+          "positiveReviews": 0,
+          "mixedReviews": 0,
+          "negativeReviews": 6,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [],
+          "negativeEvidence": [
+            {
+              "text": "Can not keep it sealed",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+            },
+            {
+              "text": "Couldn't get a seal over my beard",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partAspectMatrix": [
+    {
+      "id": "mask_body|comfort",
+      "label": "Mask Body · Comfort",
+      "score": 58,
+      "averageSentiment": 5.8,
+      "reviewCount": 8,
+      "reviewShare": 0.0964,
+      "positiveReviews": 4,
+      "mixedReviews": 1,
+      "negativeReviews": 3,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "I cannot tolerate hard masks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "too uncomfortable to use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "partId": "mask_body",
+      "partLabel": "Mask Body",
+      "aspectId": "comfort",
+      "aspectLabel": "Comfort"
+    },
+    {
+      "id": "cushion_seal|seal_leak",
+      "label": "Cushion Seal · Seal Leak",
+      "score": 18,
+      "averageSentiment": 1.8,
+      "reviewCount": 6,
+      "reviewShare": 0.0723,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "Can not keep it sealed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "partId": "cushion_seal",
+      "partLabel": "Cushion Seal",
+      "aspectId": "seal_leak",
+      "aspectLabel": "Seal Leak"
+    },
+    {
+      "id": "cushion|seal_leak",
+      "label": "Cushion · Seal Leak",
+      "score": 17,
+      "averageSentiment": 1.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0723,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "fails to seal.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "partId": "cushion",
+      "partLabel": "Cushion",
+      "aspectId": "seal_leak",
+      "aspectLabel": "Seal Leak"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "side-sleepers",
+      "label": "Side sleepers",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 8,
+      "reviewShare": 0.0964,
+      "positiveReviews": 5,
+      "mixedReviews": 1,
+      "negativeReviews": 2,
+      "positiveShare": 0.625,
+      "negativeShare": 0.25,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "soft_frame",
+          "label": "Soft Frame",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 8
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth_corners",
+          "label": "Mouth Corners",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I can now sleep on my side with no marks and no leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "As a side sleeper I love my mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "on the sides of my mouth if I lay my head sideways on the pillow",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Some nights i have no leaks, some nights i have many leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "sourceContexts": [
+        "side_sleeping"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": true
+    },
+    {
+      "id": "facial-hair",
+      "label": "People with facial hair",
+      "score": 51,
+      "averageSentiment": 5.1,
+      "reviewCount": 6,
+      "reviewShare": 0.0723,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.5,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 6
+        },
+        {
+          "id": "mustache",
+          "label": "Mustache",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "beard_area",
+          "label": "Beard Area",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Best mask for Beards",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-anew-full-face-cloth-mask"
+        },
+        {
+          "text": "Works with my beard",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I have a beard.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Couldn't get a seal over my beard",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "sourceContexts": [
+        "beard",
+        "mustache"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": true
+    },
+    {
+      "id": "mouth-breathers",
+      "label": "Mouth breathers",
+      "score": 60,
+      "averageSentiment": 6.0,
+      "reviewCount": 5,
+      "reviewShare": 0.0602,
+      "positiveReviews": 3,
+      "mixedReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.6,
+      "negativeShare": 0.2,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 3
+        },
+        {
+          "id": "mouth_opens_during_sleep",
+          "label": "Mouth Opens During Sleep",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I am new to the C-pap experience and am a mouth breather",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "as a full face mask it solves the problem of my mouth opening slightly when sleeping in a hammock",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-anew-full-face-cloth-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Since I am an occasional mouth-breather, nasal masks were not an option",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "sourceContexts": [
+        "mouth_breathing",
+        "mouth_opens_during_sleep"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": true
+    }
+  ],
+  "contextAspectMatrix": [
+    {
+      "id": "facial-hair|seal_leak",
+      "label": "People with facial hair · Seal Leak",
+      "score": 56,
+      "averageSentiment": 5.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0602,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "best mask I have found for my beard, by far!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-anew-full-face-cloth-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I have a beard.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "contextId": "facial-hair",
+      "contextLabel": "People with facial hair",
+      "aspectId": "seal_leak",
+      "aspectLabel": "Seal Leak"
+    }
+  ],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [
+    {
+      "id": "nose",
+      "label": "Nose",
+      "score": 31,
+      "averageSentiment": 3.1,
+      "reviewCount": 15,
+      "reviewShare": 0.1807,
+      "positiveReviews": 3,
+      "mixedReviews": 1,
+      "negativeReviews": 11,
+      "positiveShare": 0.2,
+      "negativeShare": 0.7333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mustache",
+          "label": "Mustache",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 15
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "With my Roman nose and sensitive skin they cause pressure sores",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "once my nose is in correctly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "sore nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Mask leaks excessively up the sides of nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "fails to seal.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Can't stop mask from leaking air around my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "complaintReviews": 12,
+      "complaintShare": 0.1446,
+      "complaintSeverity": 19,
+      "complaintAspects": [
+        {
+          "id": "seal_leak",
+          "label": "Seal Leak",
+          "reviewCount": 9
+        },
+        {
+          "id": "soreness",
+          "label": "Soreness",
+          "reviewCount": 3
+        },
+        {
+          "id": "airflow",
+          "label": "Airflow",
+          "reviewCount": 1
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 1
+        },
+        {
+          "id": "irritation",
+          "label": "Irritation",
+          "reviewCount": 1
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "label": "Face",
+      "score": 53,
+      "averageSentiment": 5.3,
+      "reviewCount": 16,
+      "reviewShare": 0.1928,
+      "positiveReviews": 8,
+      "mixedReviews": 0,
+      "negativeReviews": 8,
+      "positiveShare": 0.5,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "soft_frame",
+          "label": "Soft Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 16
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I can now sleep on my side with no marks and no leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "doesn't leave a red mark on my face",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-anew-soft-cloth-full-face-cpap-mask"
+        },
+        {
+          "text": "I do not get lines on my face in the morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "There was no way that I could get this mask to seal on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "tightening straps so tight they leave marks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        },
+        {
+          "text": "Made sores on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "complaintReviews": 8,
+      "complaintShare": 0.0964,
+      "complaintSeverity": 21,
+      "complaintAspects": [
+        {
+          "id": "face_marks",
+          "label": "Face Marks",
+          "reviewCount": 3
+        },
+        {
+          "id": "seal_leak",
+          "label": "Seal Leak",
+          "reviewCount": 3
+        },
+        {
+          "id": "soreness",
+          "label": "Soreness",
+          "reviewCount": 2
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 1
+        },
+        {
+          "id": "overtightening",
+          "label": "Overtightening",
+          "reviewCount": 1
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ]
+    }
+  ],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [
+    {
+      "id": "|||comfort",
+      "label": "Comfort",
+      "score": 71,
+      "averageSentiment": 7.1,
+      "reviewCount": 16,
+      "reviewShare": 0.1928,
+      "positiveReviews": 13,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.8125,
+      "negativeShare": 0.1875,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "It's so much more comfortable than the other two masks I have used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the fit is not comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "|||weight",
+      "label": "Weight",
+      "score": 77,
+      "averageSentiment": 7.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0723,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "It is lightweight",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-anew-soft-cloth-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    }
+  ],
+  "concerns": [
+    {
+      "id": "|||seal_leak",
+      "label": "Seal Leak",
+      "score": 28,
+      "averageSentiment": 2.8,
+      "reviewCount": 23,
+      "reviewShare": 0.2771,
+      "positiveReviews": 3,
+      "mixedReviews": 1,
+      "negativeReviews": 19,
+      "positiveShare": 0.1304,
+      "negativeShare": 0.8261,
+      "evidenceStrength": "moderate",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "little or NO leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I could not get a good seal no matter what",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "|||adjustment",
+      "label": "Adjustment",
+      "score": 36,
+      "averageSentiment": 3.6,
+      "reviewCount": 11,
+      "reviewShare": 0.1325,
+      "positiveReviews": 0,
+      "mixedReviews": 4,
+      "negativeReviews": 7,
+      "positiveShare": 0.0,
+      "negativeShare": 0.6364,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "I could not adjust the mask to stop the excessive leakage",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "|||noise",
+      "label": "Noise",
+      "score": 32,
+      "averageSentiment": 3.2,
+      "reviewCount": 9,
+      "reviewShare": 0.1084,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.2222,
+      "negativeShare": 0.7778,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Wife states it is much quieter then my Quatro mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "VERY NOISY",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+        }
+      ]
+    }
+  ],
+  "retailers": [
+    {
+      "retailer": "DirectHomeMedical",
+      "reviewCount": 71,
+      "averageRating": 2.63,
+      "ratingCount": 71,
+      "evidenceStrength": "moderate",
+      "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 7,
+      "averageRating": 3.86,
+      "ratingCount": 7,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/sleepweaver-anew-full-face-cloth-mask"
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "reviewCount": 5,
+      "averageRating": 4.2,
+      "ratingCount": 5,
+      "evidenceStrength": "limited",
+      "productUrl": "https://cpapsupplies.com/sleepweaver-anew-soft-cloth-full-face-cpap-mask"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "Best mask for Beards",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/sleepweaver-anew-full-face-cloth-mask"
+      },
+      {
+        "text": "FABULOUS FULL FACE MASK",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+      },
+      {
+        "text": "Best mask I have ever found in over 15 years of CPAP!!",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/sleepweaver-anew-soft-cloth-full-face-cpap-mask"
+      },
+      {
+        "text": "Great mask-especially if you have a silicone allergy.",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/sleepweaver-anew-soft-cloth-full-face-cpap-mask"
+      },
+      {
+        "text": "Best mask ever fuhgedaboutit",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+      },
+      {
+        "text": "LOVE LOVE LOVE",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+      }
+    ],
+    "negative": [
+      {
+        "text": "I could not get a good seal no matter what",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+      },
+      {
+        "text": "This product is garbage",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+      },
+      {
+        "text": "fails to seal.",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+      },
+      {
+        "text": "Can not keep it sealed",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+      },
+      {
+        "text": "I have a beard.",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+      },
+      {
+        "text": "i could never get the mask to stop leaking",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F62PTFES61"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-F62PTFES61');
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DreamSeal</title>
@@ -42,8 +51,8 @@
                   type="text"
                   [(ngModel)]="emailOrPhone"
                   name="emailOrPhone"
-                  placeholder="Email or Phone Number"
-                  aria-label="Email or phone number"
+                  placeholder="Enter your Email"
+                  aria-label="Email"
                 />
                 <button 
                   class="btn btn-primary" 
@@ -95,7 +104,7 @@
                     You deserve a custom fit mask
                   </h1>
                   <h1 class="hero-heading-accent" style="font-size: 64px">
-                    You deserve a CPAP mask that's actually made for you.
+                    You deserve a CPAP experience that's actually made for you.
                   </h1>
                   <p class="hero-subnote">We are creating hyper-personalized masks from a facial scan and <br> survey questions all from the comfort of your iPhone.</p>
                 </div>
@@ -119,8 +128,8 @@
                       type="text"
                       [(ngModel)]="emailOrPhone"
                       name="emailOrPhone"
-                      placeholder="Email or Phone Number"
-                      aria-label="Email or phone number"
+                      placeholder="Email"
+                      aria-label="Enter your Email"
                       style="
                         font-size: 16px;
                         max-width: 420px;
@@ -136,11 +145,10 @@
                     </button>
                   </div>
                   <p
-                    class="waitlist-helper"
+                    class="waitlist-helper waitlist-prize"
                     style="text-align: center; font-size: 14px; max-width: none"
                   >
-                    Join the waitlist to be the first to receive your ideal mask
-                    with a discount
+                    Enter to Win FREE custom masks for life!
                   </p>
                 </div>
               </div>

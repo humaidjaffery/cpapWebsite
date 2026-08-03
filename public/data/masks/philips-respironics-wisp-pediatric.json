@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 2,
+  "slug": "philips-respironics-wisp-pediatric",
+  "name": "Philips Respironics Wisp Pediatric",
+  "catalogOrder": 91,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 7,
+    "eligibleReviews": 7,
+    "processedShare": 1.0,
+    "retailerCount": 3,
+    "reviewDateStart": "2016-10-15",
+    "reviewDateEnd": "2025-12-17"
+  },
+  "overall": {
+    "compositeScore": null,
+    "ratingComponent": {
+      "average": 4.86,
+      "score": 97,
+      "reviewCount": 7,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 9.2,
+      "score": 92,
+      "reviewCount": 4,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [],
+  "aspects": [],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 3,
+      "averageRating": 4.67,
+      "ratingCount": 3,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/wisp-pediatric-nasal-cpap-mask-fit-pack"
+    },
+    {
+      "retailer": "RespShop",
+      "reviewCount": 3,
+      "averageRating": 5.0,
+      "ratingCount": 3,
+      "evidenceStrength": "limited",
+      "productUrl": "https://www.respshop.com/products/philips-wisp-pediatric-nasal-cpap-mask"
+    },
+    {
+      "retailer": "CPAP.com",
+      "reviewCount": 1,
+      "averageRating": 5.0,
+      "ratingCount": 1,
+      "evidenceStrength": "limited",
+      "productUrl": "https://www.cpap.com/products/wisp-pediatric-nasal-cpap-mask-with-headgear-fit-pack?variant=49041050698044"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "Best pediatric mask we have",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/wisp-pediatric-nasal-cpap-mask-with-headgear-fit-pack?variant=49041050698044"
+      },
+      {
+        "text": "The headgear is very adjustable",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/wisp-pediatric-nasal-cpap-mask-fit-pack"
+      },
+      {
+        "text": "Finally found a mask for my little one",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/wisp-pediatric-nasal-cpap-mask-fit-pack"
+      },
+      {
+        "text": "The soft nasal pillow was comfortable",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-wisp-pediatric-nasal-cpap-mask"
+      },
+      {
+        "text": "Great that it came with 3 different cushion sizes",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/wisp-pediatric-cpap-mask-frame"
+      },
+      {
+        "text": "Excellent product",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-wisp-pediatric-nasal-cpap-mask"
+      }
+    ],
+    "negative": []
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

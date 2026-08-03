@@ -9,7 +9,6 @@ export interface SanitizedSurvey {
   masksUsed: string | null;
   satisfaction: string | null;
   improvements: string | null;
-  maskArtIdeas: string | null;
   maskArtInterest: string | null;
   maskArtExtra: string | null;
 }
@@ -46,7 +45,6 @@ export function sanitizeSurvey(data: SurveyDocument): SanitizedSurvey {
     masksUsed: optionalText(data.masksUsed, 500),
     satisfaction: optionalText(data.satisfaction, 20),
     improvements: optionalText(data.improvements, 1200),
-    maskArtIdeas: optionalText(data.maskArtIdeas, 800),
     maskArtInterest: optionalText(data.maskArtInterest, 20),
     maskArtExtra: optionalText(data.maskArtExtra, 120),
   };

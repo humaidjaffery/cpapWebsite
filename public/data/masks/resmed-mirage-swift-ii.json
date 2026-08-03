@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "slug": "resmed-mirage-swift-ii",
+  "name": "ResMed Mirage Swift II",
+  "catalogOrder": 121,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 1,
+    "eligibleReviews": 1,
+    "processedShare": 1.0,
+    "retailerCount": 1,
+    "reviewDateStart": "2026-04-25",
+    "reviewDateEnd": "2026-04-25"
+  },
+  "overall": {
+    "compositeScore": null,
+    "ratingComponent": {
+      "average": 5.0,
+      "score": 100,
+      "reviewCount": 1,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 10.0,
+      "score": 100,
+      "reviewCount": 1,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [],
+  "aspects": [],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 1,
+      "averageRating": 5.0,
+      "ratingCount": 1,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/mirage-swift-ii-nasal-pillow-cpap-mask-kit"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "Awesome product",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/mirage-swift-ii-nasal-pillow-cpap-mask-kit"
+      }
+    ],
+    "negative": []
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "slug": "resmed-airfit-n10",
+  "name": "ResMed AirFit N10",
+  "catalogOrder": 123,
+  "coverage": {
+    "status": "unavailable",
+    "processedReviews": 0,
+    "eligibleReviews": 0,
+    "processedShare": 0,
+    "retailerCount": 0,
+    "reviewDateStart": null,
+    "reviewDateEnd": null
+  },
+  "overall": {
+    "compositeScore": null,
+    "ratingComponent": {
+      "average": null,
+      "score": null,
+      "reviewCount": 0,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": null,
+      "score": null,
+      "reviewCount": 0,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [],
+  "aspects": [],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [],
+  "evidence": {
+    "positive": [],
+    "negative": []
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

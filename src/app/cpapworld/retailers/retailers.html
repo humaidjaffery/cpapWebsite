@@ -1,0 +1,170 @@
+<main class="retailers-page">
+  <header class="retailers-header">
+    <a class="brand" href="/" aria-label="DreamSeal home">
+      <img src="/dreamseal_logo.png" alt="" width="44" height="44" />
+      <span>DreamSeal</span>
+    </a>
+    <a class="back-link" routerLink="/cpapworld">← Explore masks</a>
+  </header>
+
+  <section class="retailers-hero" aria-labelledby="retailers-title">
+    <p class="eyebrow">Retailer intelligence</p>
+    <h1 id="retailers-title">Know the store before you buy the mask.</h1>
+    <p class="hero-copy">
+      Compare return rules, prescriptions, insurance options, shipping, and what mask buyers said
+      about each retailer's service.
+    </p>
+    @if (verifiedOn()) {
+      <div class="verification-note">
+        <span aria-hidden="true">✓</span>
+        Policies checked against official retailer pages on {{ formatDate(verifiedOn()) }}.
+        Confirm terms before ordering.
+      </div>
+    }
+  </section>
+
+  @if (loading()) {
+    <p class="page-state">Loading retailer profiles…</p>
+  } @else if (loadError()) {
+    <p class="page-state page-state-error">
+      Retailer profiles could not be loaded. Please try again shortly.
+    </p>
+  } @else {
+    <section class="comparison-strip" aria-label="Retailer evidence overview">
+      <div><strong>{{ profiles().length }}</strong><span>retailers compared</span></div>
+      <div><strong>{{ formatNumber(serviceReviewTotal()) }}</strong><span>reviews with service claims</span></div>
+      <div><strong>4</strong><span>policy areas per retailer</span></div>
+    </section>
+
+    <nav class="retailer-jump-list" aria-label="Jump to a retailer">
+      @for (profile of profiles(); track profile.slug) {
+        <a [href]="'#' + profile.slug">
+          <span>{{ profile.name }}</span>
+          <small>{{ formatNumber(profile.reviewEvidence.processedReviewCount) }} reviews</small>
+        </a>
+      }
+    </nav>
+
+    <section class="profile-list" aria-label="Retailer profiles">
+      @for (profile of profiles(); track profile.slug) {
+        <article class="retailer-profile" [id]="profile.slug">
+          <div class="profile-heading">
+            <div>
+              <p class="eyebrow">Retailer profile</p>
+              <h2>{{ profile.name }}</h2>
+            </div>
+            <a class="store-link" [href]="profile.websiteUrl" target="_blank" rel="noopener noreferrer">
+              Visit retailer <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+
+          <div class="evidence-stats" aria-label="Review evidence summary">
+            <div>
+              <span>Mask-review rating</span>
+              <strong>{{ formatRating(profile.reviewEvidence.averageRating) }}<small>/5</small></strong>
+              <small>{{ formatNumber(profile.reviewEvidence.ratingCount) }} ratings</small>
+            </div>
+            <div>
+              <span>Service evidence score</span>
+              <strong>
+                @if (profile.reviewEvidence.serviceScore !== null) {
+                  {{ profile.reviewEvidence.serviceScore }}<small>/100</small>
+                } @else {
+                  —
+                }
+              </strong>
+              <small>Context, not a universal grade</small>
+            </div>
+            <div>
+              <span>Reviews analyzed</span>
+              <strong>{{ formatNumber(profile.reviewEvidence.processedReviewCount) }}</strong>
+              <small>{{ profile.reviewEvidence.maskCount }} mask products</small>
+            </div>
+            <div>
+              <span>Service-claim reviews</span>
+              <strong>{{ formatNumber(profile.reviewEvidence.serviceClaimReviewCount) }}</strong>
+              <small>{{ profile.reviewEvidence.evidenceStrength }} evidence</small>
+            </div>
+          </div>
+
+          <section class="profile-section" [attr.aria-labelledby]="'service-' + profile.slug">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Scraped review evidence</p>
+                <h3 [id]="'service-' + profile.slug">What mask buyers said about service</h3>
+              </div>
+              <p>Service claims are kept separate from mask comfort and fit findings.</p>
+            </div>
+
+            <div class="service-grid">
+              @for (aspect of profile.serviceAspects.slice(0, 6); track aspect.aspect) {
+                <div class="service-card">
+                  <div class="service-card-heading">
+                    <h4>{{ aspect.label }}</h4>
+                    <span>{{ aspect.score }}/100</span>
+                  </div>
+                  <p>
+                    {{ formatNumber(aspect.reviewCount) }} reviews · {{ aspect.positiveReviews }} positive ·
+                    {{ aspect.negativeReviews }} negative
+                  </p>
+                  @if (aspect.positiveEvidence[0]; as evidence) {
+                    <blockquote>“{{ evidence.text }}”</blockquote>
+                    <small>
+                      Review excerpt@if (evidence.maskName) { · {{ evidence.maskName }}}
+                    </small>
+                  }
+                </div>
+              }
+            </div>
+          </section>
+
+          <section class="profile-section" [attr.aria-labelledby]="'policies-' + profile.slug">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Official retailer information</p>
+                <h3 [id]="'policies-' + profile.slug">Policies and buying details</h3>
+              </div>
+              <p>Summaries link to the source pages used for verification.</p>
+            </div>
+
+            <div class="policy-grid">
+              @for (policy of profile.policies; track policy.key) {
+                <section class="policy-card">
+                  <h4>{{ policy.title }}</h4>
+                  <p>{{ policy.summary }}</p>
+                  <dl>
+                    @for (fact of policy.facts; track fact.label) {
+                      <div><dt>{{ fact.label }}</dt><dd>{{ fact.value }}</dd></div>
+                    }
+                  </dl>
+                  <div class="policy-sources">
+                    @for (source of policy.sources; track source.url) {
+                      <a [href]="source.url" target="_blank" rel="noopener noreferrer">
+                        {{ source.title }} <span aria-hidden="true">↗</span>
+                      </a>
+                    }
+                  </div>
+                </section>
+              }
+            </div>
+          </section>
+
+          <a class="top-link" href="#retailers-title">Back to top ↑</a>
+        </article>
+      }
+    </section>
+
+    @if (methodology(); as methods) {
+      <section class="methodology" aria-labelledby="methodology-title">
+        <p class="eyebrow">How to read this page</p>
+        <h2 id="methodology-title">Methodology and limits</h2>
+        <div>
+          <p><strong>Reviews.</strong> {{ methods.reviews }}</p>
+          <p><strong>Service evidence.</strong> {{ methods.serviceClaims }}</p>
+          <p><strong>Score.</strong> {{ methods.serviceScore }}</p>
+          <p><strong>Policies.</strong> {{ methods.policies }}</p>
+        </div>
+      </section>
+    }
+  }
+</main>

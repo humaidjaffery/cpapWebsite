@@ -1054,6 +1054,18 @@ body {
   line-height: 1.5;
 }
 
+.waitlist-prize {
+  background: var(--gradient-purple-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  filter: drop-shadow(0 0 8px rgba(139, 92, 246, 0.35));
+  font-size: 16px !important;
+  font-weight: 700;
+  -webkit-text-stroke: 0.3px #000;
+}
+
 .hero-image-card {
   position: absolute;
   border-radius: 24px;

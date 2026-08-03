@@ -1,0 +1,542 @@
+{
+  "schemaVersion": 2,
+  "slug": "fisher-paykel-zest-q",
+  "name": "Fisher & Paykel Zest Q",
+  "catalogOrder": 73,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 29,
+    "eligibleReviews": 29,
+    "processedShare": 1.0,
+    "retailerCount": 3,
+    "reviewDateStart": "2013-11-21",
+    "reviewDateEnd": "2025-09-19"
+  },
+  "overall": {
+    "compositeScore": 85,
+    "ratingComponent": {
+      "average": 4.38,
+      "score": 88,
+      "reviewCount": 29,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 8.1,
+      "score": 81,
+      "reviewCount": 14,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 75,
+      "averageSentiment": 7.5,
+      "reviewCount": 6,
+      "reviewShare": 0.2069,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "foam_cushion",
+          "label": "Foam Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead_pad",
+          "label": "Forehead Pad",
+          "reviewCount": 1
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "This is a very light mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-q-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "day 2 had sore on bridge of nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        }
+      ]
+    },
+    {
+      "id": "fit-and-sizing",
+      "label": "Fit & sizing",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 7,
+      "reviewShare": 0.2414,
+      "positiveReviews": 4,
+      "mixedReviews": 2,
+      "negativeReviews": 1,
+      "positiveShare": 0.5714,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "foam_cushion",
+          "label": "Foam Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "fits great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it fits extremely well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The nose foam is half the size",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The petite nasal masks are very hard to find",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        }
+      ]
+    },
+    {
+      "id": "airflow-and-noise",
+      "label": "Airflow & noise",
+      "score": 57,
+      "averageSentiment": 5.7,
+      "reviewCount": 7,
+      "reviewShare": 0.2414,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.5714,
+      "negativeShare": 0.4286,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 1
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Very Quiet!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "This mask is very quiet",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-q-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Really loud",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it has a new exhaust vent that is incredibly noisy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        }
+      ]
+    }
+  ],
+  "aspects": [
+    {
+      "id": "overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 81,
+      "averageSentiment": 8.1,
+      "reviewCount": 14,
+      "reviewShare": 0.4828,
+      "positiveReviews": 13,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.9286,
+      "negativeShare": 0.0714,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Love these masks..",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Great CPAP Mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Disappointed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        }
+      ]
+    },
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 73,
+      "averageSentiment": 7.3,
+      "reviewCount": 6,
+      "reviewShare": 0.2069,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "foam_cushion",
+          "label": "Foam Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead_pad",
+          "label": "Forehead Pad",
+          "reviewCount": 1
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 1
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the foam cushion makes it very comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-q-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "not much of cushion for comfort",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        }
+      ]
+    },
+    {
+      "id": "noise",
+      "label": "Noise",
+      "score": 62,
+      "averageSentiment": 6.2,
+      "reviewCount": 6,
+      "reviewShare": 0.2069,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.6667,
+      "negativeShare": 0.3333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 1
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Very Quiet!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "This mask is very quiet",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-q-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Really loud",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it has a new exhaust vent that is incredibly noisy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [
+    {
+      "id": "|||overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 81,
+      "averageSentiment": 8.1,
+      "reviewCount": 12,
+      "reviewShare": 0.4138,
+      "positiveReviews": 11,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.9167,
+      "negativeShare": 0.0833,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Love these masks..",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Disappointed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+        }
+      ]
+    }
+  ],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "DirectHomeMedical",
+      "reviewCount": 22,
+      "averageRating": 4.41,
+      "ratingCount": 22,
+      "evidenceStrength": "moderate",
+      "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 5,
+      "averageRating": 4.4,
+      "ratingCount": 5,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/zest-q-nasal-cpap-mask"
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "reviewCount": 2,
+      "averageRating": 4.0,
+      "ratingCount": 2,
+      "evidenceStrength": "limited",
+      "productUrl": "https://cpapsupplies.com/zest-nasal-cpap-mask-by-fisher-paykel"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "Love these masks..",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "fits great",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "it fits extremely well",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "Very Quiet!",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "excellent mask",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "This is a very light mask",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/zest-q-nasal-cpap-mask"
+      }
+    ],
+    "negative": [
+      {
+        "text": "Really loud",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "it has a new exhaust vent that is incredibly noisy",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "day 2 had sore on bridge of nose",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "force the air directly up my nose",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/zest-nasal-cpap-mask-by-fisher-paykel"
+      },
+      {
+        "text": "The petite nasal masks are very hard to find",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/zest-q-nasal-cpap-mask-fisher-paykel"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

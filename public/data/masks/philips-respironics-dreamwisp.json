@@ -1,0 +1,5635 @@
+{
+  "schemaVersion": 2,
+  "slug": "philips-respironics-dreamwisp",
+  "name": "Philips Respironics DreamWisp",
+  "catalogOrder": 43,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 175,
+    "eligibleReviews": 175,
+    "processedShare": 1.0,
+    "retailerCount": 5,
+    "reviewDateStart": "2019-04-09",
+    "reviewDateEnd": "2026-06-07"
+  },
+  "overall": {
+    "compositeScore": 84,
+    "ratingComponent": {
+      "average": 4.17,
+      "score": 83,
+      "reviewCount": 175,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 8.4,
+      "score": 84,
+      "reviewCount": 77,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 69,
+      "averageSentiment": 6.9,
+      "reviewCount": 69,
+      "reviewShare": 0.3943,
+      "positiveReviews": 49,
+      "mixedReviews": 3,
+      "negativeReviews": 17,
+      "positiveShare": 0.7101,
+      "negativeShare": 0.2464,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 7
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 6
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 5
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 4
+        },
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 3
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 3
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "congestion",
+          "label": "Congestion",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 6
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 4
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 4
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 3
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 3
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the most comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I am very comfortable using it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "the magnetic closures on the sides by the jawline",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "fit-and-sizing",
+      "label": "Fit & sizing",
+      "score": 62,
+      "averageSentiment": 6.2,
+      "reviewCount": 58,
+      "reviewShare": 0.3314,
+      "positiveReviews": 30,
+      "mixedReviews": 8,
+      "negativeReviews": 20,
+      "positiveShare": 0.5172,
+      "negativeShare": 0.3448,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 6
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 6
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 5
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 5
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 2
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "dry_eye_prone",
+          "label": "Dry Eye Prone",
+          "reviewCount": 1
+        },
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        },
+        {
+          "id": "high_nose_bridge",
+          "label": "High Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 13
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 4
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 4
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "fit perfectly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Tried this dreamwisp mask with the M cushion, and it's perfect",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the product did not achieve the fit that was required",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Cushion sized incorrectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "seal-and-leaks",
+      "label": "Seal & leaks",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 30,
+      "reviewShare": 0.1714,
+      "positiveReviews": 19,
+      "mixedReviews": 2,
+      "negativeReviews": 9,
+      "positiveShare": 0.6333,
+      "negativeShare": 0.3,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 4
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 2
+        },
+        {
+          "id": "low_nose_bridge",
+          "label": "Low Nose Bridge",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I’ve had no air leaking problems at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I never have any problems air escaping under the mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it to have a great deal of leakage",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Leaks,",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "sleep-compatibility",
+      "label": "Sleep compatibility",
+      "score": 77,
+      "averageSentiment": 7.7,
+      "reviewCount": 45,
+      "reviewShare": 0.2571,
+      "positiveReviews": 38,
+      "mixedReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.8444,
+      "negativeShare": 0.1556,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 6
+        },
+        {
+          "id": "top_hose_connection",
+          "label": "Top Hose Connection",
+          "reviewCount": 6
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 5
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 3
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 3
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 14
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 6
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 5
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 4
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 4
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 3
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This mask is perfect for side sleepers",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Never slips or pulls",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Air hose popped off mask twice during the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "the headgear slips up your head at night",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamwisp-nasal-cpap-mask-by-respironics"
+        }
+      ]
+    },
+    {
+      "id": "ease-of-use",
+      "label": "Ease of use",
+      "score": 68,
+      "averageSentiment": 6.8,
+      "reviewCount": 35,
+      "reviewShare": 0.2,
+      "positiveReviews": 23,
+      "mixedReviews": 4,
+      "negativeReviews": 8,
+      "positiveShare": 0.6571,
+      "negativeShare": 0.2286,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 6
+        },
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 5
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 3
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 3
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "reading_in_bed",
+          "label": "Reading In Bed",
+          "reviewCount": 1
+        },
+        {
+          "id": "watching_tv_in_bed",
+          "label": "Watching Tv In Bed",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "don’t even notice I have it on",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "so I'm not waking up constantly to adjust it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I had to stop wearing earrings",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "makes it difficult to put on",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        }
+      ]
+    },
+    {
+      "id": "airflow-and-noise",
+      "label": "Airflow & noise",
+      "score": 44,
+      "averageSentiment": 4.4,
+      "reviewCount": 18,
+      "reviewShare": 0.1029,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 11,
+      "positiveShare": 0.3889,
+      "negativeShare": 0.6111,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 4
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "sinuses",
+          "label": "Sinuses",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the vented air doesn't ever blow directly into my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "very quiet airflow from the vents",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Made horrible screeching sound all night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "made loud whistling noises",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "skin-and-pain",
+      "label": "Skin & pain",
+      "score": 29,
+      "averageSentiment": 2.9,
+      "reviewCount": 28,
+      "reviewShare": 0.16,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 24,
+      "positiveShare": 0.1429,
+      "negativeShare": 0.8571,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 6
+        },
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 4
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "congestion",
+          "label": "Congestion",
+          "reviewCount": 1
+        },
+        {
+          "id": "dry_mouth_prone",
+          "label": "Dry Mouth Prone",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 9
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 6
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 5
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 4
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "do not irritate my skin",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "it started irritating my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "serious chaffing on the bridge of my nose that have turned in to scabs",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the magnetic closures on the sides by the jawline",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "durability",
+      "label": "Durability",
+      "score": 51,
+      "averageSentiment": 5.1,
+      "reviewCount": 19,
+      "reviewShare": 0.1086,
+      "positiveReviews": 9,
+      "mixedReviews": 2,
+      "negativeReviews": 8,
+      "positiveShare": 0.4737,
+      "negativeShare": 0.4211,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "excellent quality",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Comes with exactly what you need",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The nasal pillow tore apart the top of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "the way that it was shipped ruined the mask that was attached to the headgear!!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "label": "Value",
+      "score": 77,
+      "averageSentiment": 7.7,
+      "reviewCount": 13,
+      "reviewShare": 0.0743,
+      "positiveReviews": 11,
+      "mixedReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.8462,
+      "negativeShare": 0.0769,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "inexpensive masks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "This was a great bargain",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "My usual local provider stopped accepting my insurance",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "A little pricy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "therapy-experience",
+      "label": "Therapy experience",
+      "score": 58,
+      "averageSentiment": 5.8,
+      "reviewCount": 37,
+      "reviewShare": 0.2114,
+      "positiveReviews": 21,
+      "mixedReviews": 1,
+      "negativeReviews": 15,
+      "positiveShare": 0.5676,
+      "negativeShare": 0.4054,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 1
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "congestion",
+          "label": "Congestion",
+          "reviewCount": 1
+        },
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "sinuses",
+          "label": "Sinuses",
+          "reviewCount": 2
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "works extremely well as advertised",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I’ve never slept better",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I was awake the rest of the night",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        },
+        {
+          "text": "I am not using it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    }
+  ],
+  "aspects": [
+    {
+      "id": "overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 84,
+      "averageSentiment": 8.4,
+      "reviewCount": 77,
+      "reviewShare": 0.44,
+      "positiveReviews": 67,
+      "mixedReviews": 4,
+      "negativeReviews": 6,
+      "positiveShare": 0.8701,
+      "negativeShare": 0.0779,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "top_hose_connection",
+          "label": "Top Hose Connection",
+          "reviewCount": 3
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose_connection",
+          "label": "Hose Connection",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_switching",
+          "label": "Mask Switching",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I Have Finally Found the Right Mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Very Happy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "This mask has some of the worst design flaws I’ve ever seen",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Very unhappy with this particular mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 78,
+      "averageSentiment": 7.8,
+      "reviewCount": 57,
+      "reviewShare": 0.3257,
+      "positiveReviews": 48,
+      "mixedReviews": 3,
+      "negativeReviews": 6,
+      "positiveShare": 0.8421,
+      "negativeShare": 0.1053,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 6
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 4
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 4
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 3
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 2
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "higher_on_nose",
+          "label": "Higher On Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the most comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I am very comfortable using it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "are very uncomfortable by the middle of the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "fit",
+      "label": "Fit",
+      "score": 68,
+      "averageSentiment": 6.8,
+      "reviewCount": 44,
+      "reviewShare": 0.2514,
+      "positiveReviews": 28,
+      "mixedReviews": 6,
+      "negativeReviews": 10,
+      "positiveShare": 0.6364,
+      "negativeShare": 0.2273,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 5
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 2
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 2
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "dry_eye_prone",
+          "label": "Dry Eye Prone",
+          "reviewCount": 1
+        },
+        {
+          "id": "high_nose_bridge",
+          "label": "High Nose Bridge",
+          "reviewCount": 1
+        },
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 8
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 4
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "fit perfectly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Tried this dreamwisp mask with the M cushion, and it's perfect",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the product did not achieve the fit that was required",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The bridge if my nose must be the wrong shape?",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "seal_leak",
+      "label": "Seal Leak",
+      "score": 68,
+      "averageSentiment": 6.8,
+      "reviewCount": 28,
+      "reviewShare": 0.16,
+      "positiveReviews": 18,
+      "mixedReviews": 2,
+      "negativeReviews": 8,
+      "positiveShare": 0.6429,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 4
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 2
+        },
+        {
+          "id": "low_nose_bridge",
+          "label": "Low Nose Bridge",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I’ve had no air leaking problems at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I never have any problems air escaping under the mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it to have a great deal of leakage",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Leaks,",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "stability",
+      "label": "Stability",
+      "score": 75,
+      "averageSentiment": 7.5,
+      "reviewCount": 22,
+      "reviewShare": 0.1257,
+      "positiveReviews": 18,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.8182,
+      "negativeShare": 0.1818,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 5
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 3
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 2
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 2
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 2
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 3
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Never slips or pulls",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        },
+        {
+          "text": "The mask stays put at night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Air hose popped off mask twice during the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "how easy everything pops out such as the top connection and the nose piece",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/dreamwisp-nasal-cpap-mask-philips"
+        }
+      ]
+    },
+    {
+      "id": "sleep_position_compatibility",
+      "label": "Sleep Position Compatibility",
+      "score": 85,
+      "averageSentiment": 8.5,
+      "reviewCount": 21,
+      "reviewShare": 0.12,
+      "positiveReviews": 20,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.9524,
+      "negativeShare": 0.0476,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 2
+        },
+        {
+          "id": "air_channel_frame",
+          "label": "Air Channel Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 1
+        },
+        {
+          "id": "top_hose_connection",
+          "label": "Top Hose Connection",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 10
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 5
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 4
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This mask is perfect for side sleepers",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "It allows me to change positions",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "when you lay on your side",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "previous_mask_comparison",
+      "label": "Previous Mask Comparison",
+      "score": 66,
+      "averageSentiment": 6.5,
+      "reviewCount": 20,
+      "reviewShare": 0.1143,
+      "positiveReviews": 13,
+      "mixedReviews": 3,
+      "negativeReviews": 4,
+      "positiveShare": 0.65,
+      "negativeShare": 0.2,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 2
+        },
+        {
+          "id": "full_face_mask_preference",
+          "label": "Full Face Mask Preference",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_switching",
+          "label": "Mask Switching",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillow_preference",
+          "label": "Nasal Pillow Preference",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "It's much nicer than the full-face mask I've used in the past",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamwisp-nasal-cpap-mask-by-respironics"
+        },
+        {
+          "text": "The DreamWisp was the perfect combination of the two",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "went back to nasal pillow",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "as opposed to my former full face mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "sleep_quality",
+      "label": "Sleep Quality",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 17,
+      "reviewShare": 0.0971,
+      "positiveReviews": 12,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.7059,
+      "negativeShare": 0.2941,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I’ve never slept better",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "we get a good nights sleep",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I was awake the rest of the night",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        },
+        {
+          "text": "to keep me safe while sleeping",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "ease_of_use",
+      "label": "Ease Of Use",
+      "score": 79,
+      "averageSentiment": 7.9,
+      "reviewCount": 15,
+      "reviewShare": 0.0857,
+      "positiveReviews": 14,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.9333,
+      "negativeShare": 0.0667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 2
+        },
+        {
+          "id": "chin_strap",
+          "label": "Chin Strap",
+          "reviewCount": 1
+        },
+        {
+          "id": "top_hose_connection",
+          "label": "Top Hose Connection",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 2
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        },
+        {
+          "id": "watching_tv_in_bed",
+          "label": "Watching Tv In Bed",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "easy to wear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Easy to Use!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I have to get up in the night sometimes and this mask is a struggle",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        }
+      ]
+    },
+    {
+      "id": "sizing",
+      "label": "Sizing",
+      "score": 41,
+      "averageSentiment": 4.1,
+      "reviewCount": 14,
+      "reviewShare": 0.08,
+      "positiveReviews": 3,
+      "mixedReviews": 1,
+      "negativeReviews": 10,
+      "positiveShare": 0.2143,
+      "negativeShare": 0.7143,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "large_nose",
+          "label": "Large Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "wide_face",
+          "label": "Wide Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 5
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The fit pack guarantees you get the right fit the first time",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the different sizes made the mask fit so much",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Cushion sized incorrectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Tried two different sizes medium and large-both with same results",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "adjustment",
+      "label": "Adjustment",
+      "score": 51,
+      "averageSentiment": 5.1,
+      "reviewCount": 12,
+      "reviewShare": 0.0686,
+      "positiveReviews": 4,
+      "mixedReviews": 2,
+      "negativeReviews": 6,
+      "positiveShare": 0.3333,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 3
+        },
+        {
+          "id": "back_strap",
+          "label": "Back Strap",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "so I'm not waking up constantly to adjust it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Headgear straps are easy to adjust and secure.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "no matter how I tried to adjust it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Full face mask I was adjusting all night long",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "movement_compatibility",
+      "label": "Movement Compatibility",
+      "score": 80,
+      "averageSentiment": 8.0,
+      "reviewCount": 12,
+      "reviewShare": 0.0686,
+      "positiveReviews": 11,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.9167,
+      "negativeShare": 0.0833,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "top_hose_connection",
+          "label": "Top Hose Connection",
+          "reviewCount": 3
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 2
+        },
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 4
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 3
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "For a person that moves around while sleeping",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        },
+        {
+          "text": "The top of the head attachment with swivel makes movements easy when you turn",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Sleeping on my side di flatten the tube",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "durability",
+      "label": "Durability",
+      "score": 55,
+      "averageSentiment": 5.5,
+      "reviewCount": 11,
+      "reviewShare": 0.0629,
+      "positiveReviews": 6,
+      "mixedReviews": 1,
+      "negativeReviews": 4,
+      "positiveShare": 0.5455,
+      "negativeShare": 0.3636,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "velcro",
+          "label": "Velcro",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Been using the same mask model for years",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I have used this mask for over a year now",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the way that it was shipped ruined the mask that was attached to the headgear!!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "started to become discolored in only a few weeks of useage",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "hose_management",
+      "label": "Hose Management",
+      "score": 88,
+      "averageSentiment": 8.8,
+      "reviewCount": 11,
+      "reviewShare": 0.0629,
+      "positiveReviews": 11,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "top_hose_connection",
+          "label": "Top Hose Connection",
+          "reviewCount": 9
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "front_hose_connection",
+          "label": "Front Hose Connection",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I love the hose on top of my head and away from my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "loved the top of the head hose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "noise",
+      "label": "Noise",
+      "score": 49,
+      "averageSentiment": 4.9,
+      "reviewCount": 11,
+      "reviewShare": 0.0629,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.4545,
+      "negativeShare": 0.5455,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 4
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "very quiet airflow from the vents",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "very quiet",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Made horrible screeching sound all night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I can hear it all night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "therapy_effectiveness",
+      "label": "Therapy Effectiveness",
+      "score": 74,
+      "averageSentiment": 7.5,
+      "reviewCount": 10,
+      "reviewShare": 0.0571,
+      "positiveReviews": 8,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.8,
+      "negativeShare": 0.2,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "works extremely well as advertised",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "works great",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "It hasn't yet been a total success",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "It doesn't work perfectly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "breathing_support",
+      "label": "Breathing Support",
+      "score": 44,
+      "averageSentiment": 4.4,
+      "reviewCount": 8,
+      "reviewShare": 0.0457,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.375,
+      "negativeShare": 0.625,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "sinuses",
+          "label": "Sinuses",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I’m able to breathe without issue",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "No struggling to breathe",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Can’t breathe through this mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I am not getting good air",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        }
+      ]
+    },
+    {
+      "id": "irritation",
+      "label": "Irritation",
+      "score": 35,
+      "averageSentiment": 3.5,
+      "reviewCount": 8,
+      "reviewShare": 0.0457,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.25,
+      "negativeShare": 0.75,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 5
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "do not irritate my skin",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "it started irritating my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "serious chaffing on the bridge of my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The nose cover has severely irritated the nose and left serious indentation and red marks on bridge of nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "therapy_compliance",
+      "label": "Therapy Compliance",
+      "score": 41,
+      "averageSentiment": 4.1,
+      "reviewCount": 8,
+      "reviewShare": 0.0457,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.375,
+      "negativeShare": 0.625,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "congestion",
+          "label": "Congestion",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "sinuses",
+          "label": "Sinuses",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I’ve not been able to wear my cpap device for years because I just couldn’t sleep with it on",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamwisp-nasal-cpap-mask-by-respironics"
+        },
+        {
+          "text": "hated my cpap untill I started useing this mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I am not using it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I quit using it after the first night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "label": "Value",
+      "score": 84,
+      "averageSentiment": 8.4,
+      "reviewCount": 8,
+      "reviewShare": 0.0457,
+      "positiveReviews": 8,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "inexpensive masks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "This was a great bargain",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "pain",
+      "label": "Pain",
+      "score": 17,
+      "averageSentiment": 1.7,
+      "reviewCount": 7,
+      "reviewShare": 0.04,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 3
+        },
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "congestion",
+          "label": "Congestion",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 3
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "jaw",
+          "label": "Jaw",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "the magnetic closures on the sides by the jawline",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "the bottom straps pushing up into and absolutely crushing my earlobes",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "access_to_face",
+      "label": "Access To Face",
+      "score": 73,
+      "averageSentiment": 7.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0343,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 1
+        },
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "top_hose_connection",
+          "label": "Top Hose Connection",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "reading_in_bed",
+          "label": "Reading In Bed",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "don’t even notice I have it on",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the tubing not in my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I had to stop wearing earrings",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "label": "Price",
+      "score": 73,
+      "averageSentiment": 7.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0343,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "this cost less than half of what it would have cost me to pay out of pocket to them",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the price was right",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "A little pricy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "red_marks",
+      "label": "Red Marks",
+      "score": 32,
+      "averageSentiment": 3.2,
+      "reviewCount": 6,
+      "reviewShare": 0.0343,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.1667,
+      "negativeShare": 0.8333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "higher_on_nose",
+          "label": "Higher On Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I firmly believe the key to not getting those red face marks is proper adjustment of the strap tightness",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The nose cover has severely irritated the nose and left serious indentation and red marks on bridge of nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "side straps were leaving 1/2-day-long marks on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "label": "Weight",
+      "score": 78,
+      "averageSentiment": 7.8,
+      "reviewCount": 6,
+      "reviewShare": 0.0343,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It is light weight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "looking for something lightweight",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it is very heavy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "cleaning",
+      "label": "Cleaning",
+      "score": 76,
+      "averageSentiment": 7.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0286,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8,
+      "negativeShare": 0.2,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "velcro",
+          "label": "Velcro",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Easy to clean",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "effortless to keep clean",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "You have to take the velco off everyday to clean",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "soreness",
+      "label": "Soreness",
+      "score": 18,
+      "averageSentiment": 1.8,
+      "reviewCount": 5,
+      "reviewShare": 0.0286,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 4
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "now I have a sore on my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Nasal mask left a sore on the bridge of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "top_hose_connection",
+      "label": "Top Hose Connection",
+      "score": 87,
+      "averageSentiment": 8.7,
+      "reviewCount": 17,
+      "reviewShare": 0.0971,
+      "positiveReviews": 17,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "top_hose_connection",
+          "label": "Top Hose Connection",
+          "reviewCount": 17
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 2
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I would absolutely recommend this mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I love the hose on top of my head and away from my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Best set I’ve tried!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [],
+      "praisedAspects": [
+        {
+          "id": "hose_management",
+          "label": "Hose Management",
+          "score": 90,
+          "averageSentiment": 9.0,
+          "reviewCount": 9,
+          "reviewShare": 0.0514,
+          "positiveReviews": 9,
+          "mixedReviews": 0,
+          "negativeReviews": 0,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "I love the hose on top of my head and away from my face",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+            },
+            {
+              "text": "loved the top of the head hose",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+            }
+          ],
+          "negativeEvidence": []
+        }
+      ],
+      "criticizedAspects": []
+    },
+    {
+      "id": "headgear",
+      "label": "Headgear",
+      "score": 71,
+      "averageSentiment": 7.1,
+      "reviewCount": 16,
+      "reviewShare": 0.0914,
+      "positiveReviews": 13,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.8125,
+      "negativeShare": 0.1875,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 16
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Headgear straps are easy to adjust and secure.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Excellent headgear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Easy to put on and take off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Its too much stuff on my head",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the headgear slips up your head at night",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamwisp-nasal-cpap-mask-by-respironics"
+        },
+        {
+          "text": "I even tried tightening the headgear",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "praisedAspects": [
+        {
+          "id": "stability",
+          "label": "Stability",
+          "score": 90,
+          "averageSentiment": 9.0,
+          "reviewCount": 5,
+          "reviewShare": 0.0286,
+          "positiveReviews": 5,
+          "mixedReviews": 0,
+          "negativeReviews": 0,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "Headgear straps are easy to adjust and secure.",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+            },
+            {
+              "text": "Stays put",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+            }
+          ],
+          "negativeEvidence": []
+        }
+      ],
+      "criticizedAspects": []
+    },
+    {
+      "id": "nasal_cushion",
+      "label": "Nasal Cushion",
+      "score": 46,
+      "averageSentiment": 4.6,
+      "reviewCount": 14,
+      "reviewShare": 0.08,
+      "positiveReviews": 4,
+      "mixedReviews": 2,
+      "negativeReviews": 8,
+      "positiveShare": 0.2857,
+      "negativeShare": 0.5714,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 14
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        },
+        {
+          "id": "wide_face",
+          "label": "Wide Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 5
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 3
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the vented air doesn't ever blow directly into my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "It is the most comfortable mask for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I am using the medium nose mask, which fits great",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the nasal mask leaves horrible raw sores on/under/around my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "broken skin after that",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Nasal mask left a sore on the bridge of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "cushion",
+      "label": "Cushion",
+      "score": 58,
+      "averageSentiment": 5.8,
+      "reviewCount": 12,
+      "reviewShare": 0.0686,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.5,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 12
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "low_nose_bridge",
+          "label": "Low Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 3
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "higher_on_nose",
+          "label": "Higher On Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Tried this dreamwisp mask with the M cushion, and it's perfect",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "for those who find pillows and cushion uncomfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The fit and seal around the nose is wonderful, especially for low bridges.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The nose cover has severely irritated the nose and left serious indentation and red marks on bridge of nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Cushion sized incorrectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The cheek pads slip and need positioning",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "mask_body",
+      "label": "Mask Body",
+      "score": 62,
+      "averageSentiment": 6.2,
+      "reviewCount": 10,
+      "reviewShare": 0.0571,
+      "positiveReviews": 6,
+      "mixedReviews": 1,
+      "negativeReviews": 3,
+      "positiveShare": 0.6,
+      "negativeShare": 0.3,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 10
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        },
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Love this mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The mask works well too, no problems with leakage",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The mask stays put at night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Made horrible screeching sound all night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "the way that it was shipped ruined the mask that was attached to the headgear!!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "started to become discolored in only a few weeks of useage",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "nasal_pillows",
+      "label": "Nasal Pillows",
+      "score": 64,
+      "averageSentiment": 6.3,
+      "reviewCount": 10,
+      "reviewShare": 0.0571,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.6,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 10
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_nose_bridge",
+          "label": "High Nose Bridge",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "for those who find pillows and cushion uncomfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "It doesn’t leak on my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "these small nose piece that works perfect",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/dreamwisp-nasal-cpap-mask-philips"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The nasal pillow tore apart the top of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "the nose piece",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/dreamwisp-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "im a side sleeper i dont feel like im getting as much air as my current mask",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/dreamwisp-nasal-cpap-mask-philips"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "magnetic_clip",
+      "label": "Magnetic Clip",
+      "score": 56,
+      "averageSentiment": 5.6,
+      "reviewCount": 9,
+      "reviewShare": 0.0514,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.5556,
+      "negativeShare": 0.4444,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 9
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 3
+        },
+        {
+          "id": "jaw",
+          "label": "Jaw",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I can quickly release myself from the headgear using the magnetic clips",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The magnetic clips are great!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Easy to take off too since you can just open up the magnetic clasps",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the magnetic closures on the sides by the jawline",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The magnetic clips sit directly on my earlobes, effectively crushing them",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The one problem I have is the strap with the magnets on it",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamwisp-nasal-cpap-mask-by-respironics"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "strap",
+      "label": "Strap",
+      "score": 51,
+      "averageSentiment": 5.1,
+      "reviewCount": 9,
+      "reviewShare": 0.0514,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.4444,
+      "negativeShare": 0.5556,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 9
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This is perfect for side sleepers",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the straps are really convenient and easy to adjust",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the actual harness and fit on the back of the head",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/dreamwisp-nasal-cpap-mask-philips"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the bottom straps pushing up into and absolutely crushing my earlobes",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the mask straps have to be painfully tight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "side straps were leaving 1/2-day-long marks on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "connector",
+      "label": "Connector",
+      "score": 60,
+      "averageSentiment": 6.0,
+      "reviewCount": 7,
+      "reviewShare": 0.04,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.5714,
+      "negativeShare": 0.4286,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "wide_face",
+          "label": "Wide Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The connector fits the heated tube I use and love",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "this with the toggle on top makes it so much easier",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/dreamwisp-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "having this mask attach at the swivel n top of my head",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "air did not flow through it easily",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "how easy everything pops out such as the top connection and the nose piece",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/dreamwisp-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "the top tube connection part is pretty rigid",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "hose",
+      "label": "Hose",
+      "score": 69,
+      "averageSentiment": 6.9,
+      "reviewCount": 7,
+      "reviewShare": 0.04,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 3
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "as I often sleep on my side",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the tubing not in my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The frame design with the hose connector at the top works great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Air hose popped off mask twice during the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Sleeping on my side di flatten the tube",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "cushion_seal",
+      "label": "Cushion Seal",
+      "score": 53,
+      "averageSentiment": 5.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0343,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.5,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "seals comfortably without pressure marks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "with an excellent seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The seal on the cushion was great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "damaged / bruised the bridge of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Leaks,",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "In order to keep the leak under control < 30",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "frame",
+      "label": "Frame",
+      "score": 78,
+      "averageSentiment": 7.8,
+      "reviewCount": 6,
+      "reviewShare": 0.0343,
+      "positiveReviews": 5,
+      "mixedReviews": 1,
+      "negativeReviews": 0,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "i love the hollow frame",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Excellent mask for stomach sleepers",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "you can sleep however you want",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "fit_pack",
+      "label": "Fit Pack",
+      "score": 72,
+      "averageSentiment": 7.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0286,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8,
+      "negativeShare": 0.2,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Comes with exactly what you need",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        },
+        {
+          "text": "since you can try all three sizes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I bought the fit pack so I swapped the cushion out and found a good one",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I had the fit pack so I tried all the sizes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    }
+  ],
+  "partAspectMatrix": [
+    {
+      "id": "top_hose_connection|hose_management",
+      "label": "Top Hose Connection · Hose Management",
+      "score": 90,
+      "averageSentiment": 9.0,
+      "reviewCount": 9,
+      "reviewShare": 0.0514,
+      "positiveReviews": 9,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "I love the hose on top of my head and away from my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [],
+      "partId": "top_hose_connection",
+      "partLabel": "Top Hose Connection",
+      "aspectId": "hose_management",
+      "aspectLabel": "Hose Management"
+    },
+    {
+      "id": "cushion|comfort",
+      "label": "Cushion · Comfort",
+      "score": 67,
+      "averageSentiment": 6.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0343,
+      "positiveReviews": 3,
+      "mixedReviews": 1,
+      "negativeReviews": 2,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "for those who find pillows and cushion uncomfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Could be more padding for bridge of nose area",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamwisp-nasal-cpap-mask-by-respironics"
+        }
+      ],
+      "partId": "cushion",
+      "partLabel": "Cushion",
+      "aspectId": "comfort",
+      "aspectLabel": "Comfort"
+    },
+    {
+      "id": "cushion|fit",
+      "label": "Cushion · Fit",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0286,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "Tried this dreamwisp mask with the M cushion, and it's perfect",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Tried two different sizes medium and large-both with same results",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "partId": "cushion",
+      "partLabel": "Cushion",
+      "aspectId": "fit",
+      "aspectLabel": "Fit"
+    },
+    {
+      "id": "headgear|stability",
+      "label": "Headgear · Stability",
+      "score": 90,
+      "averageSentiment": 9.0,
+      "reviewCount": 5,
+      "reviewShare": 0.0286,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "Headgear straps are easy to adjust and secure.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [],
+      "partId": "headgear",
+      "partLabel": "Headgear",
+      "aspectId": "stability",
+      "aspectLabel": "Stability"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "side-sleepers",
+      "label": "Side sleepers",
+      "score": 74,
+      "averageSentiment": 7.4,
+      "reviewCount": 19,
+      "reviewShare": 0.1086,
+      "positiveReviews": 15,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.7895,
+      "negativeShare": 0.2105,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 3
+        },
+        {
+          "id": "top_hose_connection",
+          "label": "Top Hose Connection",
+          "reviewCount": 3
+        },
+        {
+          "id": "air_channel_frame",
+          "label": "Air Channel Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 19
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "jaw",
+          "label": "Jaw",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This mask is perfect for side sleepers",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "loved the top of the head hose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the magnetic closures on the sides by the jawline",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "you also get excess air blowing into your eye causing dry eye",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "sourceContexts": [
+        "side_sleeping"
+      ],
+      "classification": "favorable",
+      "limitedEvidence": false
+    },
+    {
+      "id": "active-sleepers",
+      "label": "Active or restless sleepers",
+      "score": 71,
+      "averageSentiment": 7.1,
+      "reviewCount": 12,
+      "reviewShare": 0.0686,
+      "positiveReviews": 9,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.75,
+      "negativeShare": 0.25,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "top_hose_connection",
+          "label": "Top Hose Connection",
+          "reviewCount": 3
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 7
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 5
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "For a person that moves around while sleeping",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        },
+        {
+          "text": "the top-of-head tubing design keeps the hose out of the way",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the headgear slips up your head at night",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamwisp-nasal-cpap-mask-by-respironics"
+        },
+        {
+          "text": "it tends to move off my nostrils while sleeping",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "sourceContexts": [
+        "active_sleeping",
+        "restless_sleeping",
+        "tossing_turning"
+      ],
+      "classification": "favorable",
+      "limitedEvidence": false
+    },
+    {
+      "id": "combination-sleepers",
+      "label": "Combination sleepers",
+      "score": 87,
+      "averageSentiment": 8.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0343,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "top_hose_connection",
+          "label": "Top Hose Connection",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 6
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "It allows me to change positions",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "This allows rolling over without dragging the hose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [],
+      "sourceContexts": [
+        "combination_sleeping"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": true
+    },
+    {
+      "id": "long-term-users",
+      "label": "Long-term CPAP users",
+      "score": 72,
+      "averageSentiment": 7.2,
+      "reviewCount": 6,
+      "reviewShare": 0.0343,
+      "positiveReviews": 4,
+      "mixedReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.6667,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 6
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I would say this is the best choice I ever made",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I had been wearing another nasal pillow mask for years",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I have been (trying) to use CPAP for about five months",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "sourceContexts": [
+        "long_term_cpap_user"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": true
+    }
+  ],
+  "contextAspectMatrix": [
+    {
+      "id": "side-sleepers|sleep_position_compatibility",
+      "label": "Side sleepers · Sleep Position Compatibility",
+      "score": 83,
+      "averageSentiment": 8.3,
+      "reviewCount": 10,
+      "reviewShare": 0.0571,
+      "positiveReviews": 9,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "This mask is perfect for side sleepers",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "when you lay on your side",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "contextId": "side-sleepers",
+      "contextLabel": "Side sleepers",
+      "aspectId": "sleep_position_compatibility",
+      "aspectLabel": "Sleep Position Compatibility"
+    },
+    {
+      "id": "active-sleepers|movement_compatibility",
+      "label": "Active or restless sleepers · Movement Compatibility",
+      "score": 85,
+      "averageSentiment": 8.5,
+      "reviewCount": 6,
+      "reviewShare": 0.0343,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "For a person that moves around while sleeping",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        }
+      ],
+      "negativeEvidence": [],
+      "contextId": "active-sleepers",
+      "contextLabel": "Active or restless sleepers",
+      "aspectId": "movement_compatibility",
+      "aspectLabel": "Movement Compatibility"
+    },
+    {
+      "id": "combination-sleepers|sleep_position_compatibility",
+      "label": "Combination sleepers · Sleep Position Compatibility",
+      "score": 86,
+      "averageSentiment": 8.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0286,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "It allows me to change positions",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [],
+      "contextId": "combination-sleepers",
+      "contextLabel": "Combination sleepers",
+      "aspectId": "sleep_position_compatibility",
+      "aspectLabel": "Sleep Position Compatibility"
+    }
+  ],
+  "bestFor": [
+    "side-sleepers",
+    "active-sleepers"
+  ],
+  "mayNotSuit": [],
+  "bodySites": [
+    {
+      "id": "nose",
+      "label": "Nose",
+      "score": 48,
+      "averageSentiment": 4.8,
+      "reviewCount": 27,
+      "reviewShare": 0.1543,
+      "positiveReviews": 10,
+      "mixedReviews": 1,
+      "negativeReviews": 16,
+      "positiveShare": 0.3704,
+      "negativeShare": 0.5926,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 5
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 4
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "large_nose",
+          "label": "Large Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "wide_face",
+          "label": "Wide Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 27
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "hanging off my nose any more",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "It doesn’t leak on my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The nose piece fits so much better",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/dreamwisp-nasal-cpap-mask-philips"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the nasal mask leaves horrible raw sores on/under/around my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "now I have a sore on my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "broken skin after that",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "complaintReviews": 17,
+      "complaintShare": 0.0971,
+      "complaintSeverity": 22,
+      "complaintAspects": [
+        {
+          "id": "sizing",
+          "label": "Sizing",
+          "reviewCount": 4
+        },
+        {
+          "id": "soreness",
+          "label": "Soreness",
+          "reviewCount": 3
+        },
+        {
+          "id": "airflow",
+          "label": "Airflow",
+          "reviewCount": 2
+        },
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 2
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 2
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 4
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "tubing",
+          "label": "Tubing",
+          "reviewCount": 1
+        }
+      ]
+    },
+    {
+      "id": "nose_bridge",
+      "label": "Nose Bridge",
+      "score": 25,
+      "averageSentiment": 2.5,
+      "reviewCount": 12,
+      "reviewShare": 0.0686,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 11,
+      "positiveShare": 0.0833,
+      "negativeShare": 0.9167,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 2
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_nose_bridge",
+          "label": "High Nose Bridge",
+          "reviewCount": 1
+        },
+        {
+          "id": "low_nose_bridge",
+          "label": "Low Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 12
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The fit and seal around the nose is wonderful, especially for low bridges.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "serious chaffing on the bridge of my nose that have turned in to scabs",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "damaged / bruised the bridge of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The nose cover has severely irritated the nose and left serious indentation and red marks on bridge of nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "complaintReviews": 11,
+      "complaintShare": 0.0629,
+      "complaintSeverity": 17,
+      "complaintAspects": [
+        {
+          "id": "irritation",
+          "label": "Irritation",
+          "reviewCount": 5
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 3
+        },
+        {
+          "id": "skin_breakdown",
+          "label": "Skin Breakdown",
+          "reviewCount": 2
+        },
+        {
+          "id": "soreness",
+          "label": "Soreness",
+          "reviewCount": 2
+        },
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 1
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 2
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ]
+    },
+    {
+      "id": "ears",
+      "label": "Ears",
+      "score": 31,
+      "averageSentiment": 3.1,
+      "reviewCount": 6,
+      "reviewShare": 0.0343,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.1667,
+      "negativeShare": 0.8333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 3
+        },
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 1
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 6
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the frame with the straps above n below the ear maintain a good fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the bottom straps pushing up into and absolutely crushing my earlobes",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the clasps hurt ears",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "my ear",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "complaintReviews": 5,
+      "complaintShare": 0.0286,
+      "complaintSeverity": 19,
+      "complaintAspects": [
+        {
+          "id": "pain",
+          "label": "Pain",
+          "reviewCount": 3
+        },
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 2
+        },
+        {
+          "id": "access_to_face",
+          "label": "Access To Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "irritation",
+          "label": "Irritation",
+          "reviewCount": 1
+        },
+        {
+          "id": "sleep_quality",
+          "label": "Sleep Quality",
+          "reviewCount": 1
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 3
+        },
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "label": "Face",
+      "score": 62,
+      "averageSentiment": 6.2,
+      "reviewCount": 10,
+      "reviewShare": 0.0571,
+      "positiveReviews": 5,
+      "mixedReviews": 1,
+      "negativeReviews": 4,
+      "positiveShare": 0.5,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "large_face",
+          "label": "Large Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 10
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Fits my face perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I switched to the Dream Wisp mask last night and I LOVE it!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "as I often sleep on my side",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "side straps were leaving 1/2-day-long marks on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        },
+        {
+          "text": "marks on face",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+        },
+        {
+          "text": "I had to struggle for about 10 minutes every night to make it feel just right on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "complaintReviews": 5,
+      "complaintShare": 0.0286,
+      "complaintSeverity": 30,
+      "complaintAspects": [
+        {
+          "id": "face_marks",
+          "label": "Face Marks",
+          "reviewCount": 2
+        },
+        {
+          "id": "adjustment",
+          "label": "Adjustment",
+          "reviewCount": 1
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 1
+        },
+        {
+          "id": "red_marks",
+          "label": "Red Marks",
+          "reviewCount": 1
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ]
+    }
+  ],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [
+    {
+      "id": "|||overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 83,
+      "averageSentiment": 8.3,
+      "reviewCount": 65,
+      "reviewShare": 0.3714,
+      "positiveReviews": 56,
+      "mixedReviews": 3,
+      "negativeReviews": 6,
+      "positiveShare": 0.8615,
+      "negativeShare": 0.0923,
+      "evidenceStrength": "moderate",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I Have Finally Found the Right Mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "This mask has some of the worst design flaws I’ve ever seen",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "|||comfort",
+      "label": "Comfort",
+      "score": 84,
+      "averageSentiment": 8.4,
+      "reviewCount": 33,
+      "reviewShare": 0.1886,
+      "positiveReviews": 32,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.9697,
+      "negativeShare": 0.0303,
+      "evidenceStrength": "moderate",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "the most comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "|||fit",
+      "label": "Fit",
+      "score": 75,
+      "averageSentiment": 7.5,
+      "reviewCount": 15,
+      "reviewShare": 0.0857,
+      "positiveReviews": 12,
+      "mixedReviews": 1,
+      "negativeReviews": 2,
+      "positiveShare": 0.8,
+      "negativeShare": 0.1333,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "fit perfectly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the product did not achieve the fit that was required",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "|||seal_leak",
+      "label": "Seal Leak",
+      "score": 74,
+      "averageSentiment": 7.4,
+      "reviewCount": 10,
+      "reviewShare": 0.0571,
+      "positiveReviews": 8,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.8,
+      "negativeShare": 0.2,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I’ve had no air leaking problems at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it to have a great deal of leakage",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "|||therapy_effectiveness",
+      "label": "Therapy Effectiveness",
+      "score": 74,
+      "averageSentiment": 7.4,
+      "reviewCount": 9,
+      "reviewShare": 0.0514,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7778,
+      "negativeShare": 0.2222,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "works extremely well as advertised",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "It hasn't yet been a total success",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "||side_sleeping|sleep_position_compatibility",
+      "label": "Side Sleeping · Sleep Position Compatibility",
+      "score": 81,
+      "averageSentiment": 8.1,
+      "reviewCount": 8,
+      "reviewShare": 0.0457,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.875,
+      "negativeShare": 0.125,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 8
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "This mask is perfect for side sleepers",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "when you lay on your side",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "|||value",
+      "label": "Value",
+      "score": 84,
+      "averageSentiment": 8.4,
+      "reviewCount": 7,
+      "reviewShare": 0.04,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "inexpensive masks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "|||durability",
+      "label": "Durability",
+      "score": 70,
+      "averageSentiment": 7.0,
+      "reviewCount": 6,
+      "reviewShare": 0.0343,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Been using the same mask model for years",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "lasted about an hour before I had to change",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "|||price",
+      "label": "Price",
+      "score": 73,
+      "averageSentiment": 7.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0343,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "this cost less than half of what it would have cost me to pay out of pocket to them",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "A little pricy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "|||ease_of_use",
+      "label": "Ease Of Use",
+      "score": 84,
+      "averageSentiment": 8.4,
+      "reviewCount": 5,
+      "reviewShare": 0.0286,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "easy to wear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": []
+    }
+  ],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "RespShop",
+      "reviewCount": 77,
+      "averageRating": 4.3,
+      "ratingCount": 77,
+      "evidenceStrength": "moderate",
+      "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+    },
+    {
+      "retailer": "DirectHomeMedical",
+      "reviewCount": 72,
+      "averageRating": 4.03,
+      "ratingCount": 72,
+      "evidenceStrength": "moderate",
+      "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+    },
+    {
+      "retailer": "Lofta",
+      "reviewCount": 12,
+      "averageRating": 4.08,
+      "ratingCount": 12,
+      "evidenceStrength": "limited",
+      "productUrl": "https://lofta.com/collections/cpap-masks/products/respironics-dreamwisp-nasal-mask-with-headgear-fit-pack"
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "reviewCount": 8,
+      "averageRating": 4.75,
+      "ratingCount": 8,
+      "evidenceStrength": "limited",
+      "productUrl": "https://cpapsupplies.com/dreamwisp-nasal-cpap-mask-by-respironics"
+    },
+    {
+      "retailer": "CPAP Ninja",
+      "reviewCount": 6,
+      "averageRating": 3.67,
+      "ratingCount": 6,
+      "evidenceStrength": "limited",
+      "productUrl": "https://www.cpapninja.com/products/dreamwisp-nasal-cpap-mask-philips"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "I Have Finally Found the Right Mask",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+      },
+      {
+        "text": "Very Happy",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+      },
+      {
+        "text": "Best Ever",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+      },
+      {
+        "text": "the most comfortable",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+      },
+      {
+        "text": "love it",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+      },
+      {
+        "text": "This mask is perfect for side sleepers",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+      }
+    ],
+    "negative": [
+      {
+        "text": "serious chaffing on the bridge of my nose that have turned in to scabs",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+      },
+      {
+        "text": "Uncomfortable",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+      },
+      {
+        "text": "the magnetic closures on the sides by the jawline",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+      },
+      {
+        "text": "the bottom straps pushing up into and absolutely crushing my earlobes",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-dreamwisp-nasal-cpap-mask"
+      },
+      {
+        "text": "damaged / bruised the bridge of my nose",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+      },
+      {
+        "text": "Made horrible screeching sound all night",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/dreamwisp-nasal-cpap-mask-respironics"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

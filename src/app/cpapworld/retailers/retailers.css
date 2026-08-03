@@ -1,0 +1,487 @@
+:host {
+  display: block;
+}
+
+.retailers-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 10% 8%, rgba(106, 13, 173, 0.09), transparent 28rem),
+    radial-gradient(circle at 92% 14%, rgba(230, 196, 106, 0.1), transparent 26rem),
+    #fdfafb;
+  color: #252029;
+}
+
+.retailers-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 76px;
+  padding: 14px max(24px, calc((100vw - 1180px) / 2));
+  border-bottom: 1px solid rgba(106, 13, 173, 0.12);
+  background: rgba(255, 255, 255, 0.84);
+  backdrop-filter: blur(18px);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #64218c;
+  font-size: 25px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.brand img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.back-link,
+.store-link {
+  color: #64218c;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.retailers-hero {
+  width: min(900px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 90px 0 54px;
+  text-align: center;
+}
+
+.eyebrow {
+  color: #7b3ba1;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.retailers-hero h1 {
+  margin-top: 12px;
+  font-size: clamp(42px, 6.5vw, 72px);
+  font-weight: 900;
+  letter-spacing: -0.055em;
+  line-height: 0.98;
+}
+
+.hero-copy {
+  max-width: 720px;
+  margin: 24px auto 0;
+  color: #62596a;
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+.verification-note {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 28px;
+  padding: 11px 16px;
+  border: 1px solid rgba(66, 122, 79, 0.17);
+  border-radius: 999px;
+  background: #f2faf4;
+  color: #315f3b;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.comparison-strip,
+.retailer-jump-list,
+.profile-list,
+.methodology,
+.page-state {
+  width: min(1180px, calc(100% - 40px));
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.comparison-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
+  border: 1px solid rgba(38, 27, 44, 0.08);
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 16px 44px rgba(47, 22, 61, 0.07);
+}
+
+.comparison-strip div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 27px 30px;
+  text-align: center;
+}
+
+.comparison-strip div + div {
+  border-left: 1px solid rgba(38, 27, 44, 0.08);
+}
+
+.comparison-strip strong {
+  color: #64218c;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.comparison-strip span {
+  color: #6d6472;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.retailer-jump-list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  padding: 42px 0 68px;
+}
+
+.retailer-jump-list a {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 4px;
+  padding: 17px 18px;
+  border: 1px solid rgba(106, 13, 173, 0.12);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.78);
+  color: #312a35;
+  text-decoration: none;
+  transition: transform 160ms ease, border-color 160ms ease;
+}
+
+.retailer-jump-list a:hover,
+.retailer-jump-list a:focus-visible {
+  border-color: #9a60bc;
+  outline: 0;
+  transform: translateY(-2px);
+}
+
+.retailer-jump-list span {
+  overflow-wrap: anywhere;
+  font-weight: 850;
+}
+
+.retailer-jump-list small {
+  color: #756b7a;
+}
+
+.profile-list {
+  display: grid;
+  gap: 34px;
+}
+
+.retailer-profile {
+  scroll-margin-top: 96px;
+  padding: clamp(24px, 4vw, 52px);
+  border: 1px solid rgba(38, 27, 44, 0.08);
+  border-radius: 28px;
+  background: #fff;
+  box-shadow: 0 18px 54px rgba(47, 22, 61, 0.08);
+}
+
+.profile-heading,
+.section-heading,
+.service-card-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.profile-heading h2 {
+  margin-top: 7px;
+  font-size: clamp(34px, 5vw, 54px);
+  letter-spacing: -0.045em;
+  line-height: 1;
+}
+
+.store-link {
+  display: inline-flex;
+  min-height: 44px;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 8px;
+  padding: 0 17px;
+  border-radius: 12px;
+  background: #f2eaf7;
+}
+
+.evidence-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  margin-top: 35px;
+  overflow: hidden;
+  border: 1px solid #eee9f0;
+  border-radius: 18px;
+  background: #eee9f0;
+}
+
+.evidence-stats > div {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px;
+  background: #fcfafc;
+}
+
+.evidence-stats span,
+.evidence-stats small {
+  color: #776d7d;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.evidence-stats strong {
+  color: #2c2430;
+  font-size: 28px;
+}
+
+.evidence-stats strong small {
+  margin-left: 2px;
+  color: #5f5664;
+  font-size: 13px;
+}
+
+.profile-section {
+  margin-top: 50px;
+  padding-top: 45px;
+  border-top: 1px solid #eee9f0;
+}
+
+.section-heading h3 {
+  margin-top: 6px;
+  font-size: clamp(25px, 3vw, 34px);
+  letter-spacing: -0.025em;
+}
+
+.section-heading > p {
+  max-width: 370px;
+  color: #786e7e;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.service-grid,
+.policy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.service-card,
+.policy-card {
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid #ebe5ed;
+  border-radius: 16px;
+  background: #fdfbfd;
+}
+
+.service-card-heading h4,
+.policy-card h4 {
+  font-size: 17px;
+}
+
+.service-card-heading span {
+  padding: 5px 8px;
+  border-radius: 7px;
+  background: #efe5f5;
+  color: #64218c;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.service-card > p {
+  margin-top: 9px;
+  color: #756b7a;
+  font-size: 12px;
+}
+
+.service-card blockquote {
+  margin: 17px 0 8px;
+  color: #403647;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.service-card > small {
+  color: #887e8d;
+  font-size: 11px;
+}
+
+.policy-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.policy-card > p {
+  margin-top: 10px;
+  color: #675d6d;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.policy-card dl {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.policy-card dl div {
+  display: grid;
+  grid-template-columns: minmax(100px, 0.42fr) 1fr;
+  gap: 14px;
+  padding-top: 10px;
+  border-top: 1px solid #eee9f0;
+}
+
+.policy-card dt {
+  color: #766b7c;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.policy-card dd {
+  margin: 0;
+  color: #382f3d;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.policy-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 19px;
+}
+
+.policy-sources a,
+.top-link {
+  color: #6b268f;
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.top-link {
+  display: block;
+  width: fit-content;
+  margin: 30px 0 0 auto;
+}
+
+.methodology {
+  margin-top: 48px;
+  margin-bottom: 80px;
+  padding: clamp(24px, 4vw, 44px);
+  border-radius: 22px;
+  background: #2e2035;
+  color: #fff;
+}
+
+.methodology .eyebrow {
+  color: #e6c46a;
+}
+
+.methodology h2 {
+  margin-top: 8px;
+  font-size: 30px;
+}
+
+.methodology div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px 30px;
+  margin-top: 24px;
+}
+
+.methodology p {
+  color: #e5dfe8;
+  font-size: 13px;
+  line-height: 1.65;
+}
+
+.methodology strong {
+  color: #fff;
+}
+
+.page-state {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.page-state-error {
+  color: #963726;
+}
+
+@media (max-width: 900px) {
+  .retailer-jump-list,
+  .evidence-stats,
+  .service-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .retailers-header {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+
+  .retailers-hero {
+    padding-top: 64px;
+  }
+
+  .verification-note {
+    align-items: flex-start;
+    border-radius: 14px;
+    text-align: left;
+  }
+
+  .comparison-strip,
+  .retailer-jump-list,
+  .evidence-stats,
+  .service-grid,
+  .policy-grid,
+  .methodology div {
+    grid-template-columns: 1fr;
+  }
+
+  .comparison-strip div + div {
+    border-top: 1px solid rgba(38, 27, 44, 0.08);
+    border-left: 0;
+  }
+
+  .retailer-jump-list {
+    padding-bottom: 48px;
+  }
+
+  .profile-heading,
+  .section-heading {
+    flex-direction: column;
+  }
+
+  .section-heading > p {
+    max-width: none;
+  }
+
+  .store-link {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .policy-card dl div {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+}

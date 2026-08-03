@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 2,
+  "slug": "3b-medical-viva-nasal",
+  "name": "3B Medical Viva Nasal",
+  "catalogOrder": 97,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 4,
+    "eligibleReviews": 4,
+    "processedShare": 1.0,
+    "retailerCount": 1,
+    "reviewDateStart": "2019-03-10",
+    "reviewDateEnd": "2025-10-05"
+  },
+  "overall": {
+    "compositeScore": null,
+    "ratingComponent": {
+      "average": 3.25,
+      "score": 65,
+      "reviewCount": 4,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 7.7,
+      "score": 77,
+      "reviewCount": 3,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [],
+  "aspects": [],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 4,
+      "averageRating": 3.25,
+      "ratingCount": 4,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/viva-nasal-cpap-mask-fit-pack"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "love that it doesn't push against my head too hard",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/viva-nasal-cpap-mask-fit-pack"
+      },
+      {
+        "text": "Durable and comfortable",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/viva-nasal-cpap-mask-fit-pack"
+      }
+    ],
+    "negative": [
+      {
+        "text": "Mask leaks",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/viva-nasal-cpap-mask-fit-pack"
+      },
+      {
+        "text": "caused irritation",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/viva-nasal-cpap-mask-fit-pack"
+      },
+      {
+        "text": "i will probably stick to my old mask going forward",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/viva-nasal-cpap-mask-fit-pack"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

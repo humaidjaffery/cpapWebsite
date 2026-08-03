@@ -1,0 +1,470 @@
+{
+  "schemaVersion": 2,
+  "slug": "fisher-paykel-oracle-452",
+  "name": "Fisher & Paykel Oracle 452",
+  "catalogOrder": 84,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 13,
+    "eligibleReviews": 13,
+    "processedShare": 1.0,
+    "retailerCount": 2,
+    "reviewDateStart": "2018-05-11",
+    "reviewDateEnd": "2026-01-17"
+  },
+  "overall": {
+    "compositeScore": 86,
+    "ratingComponent": {
+      "average": 4.23,
+      "score": 85,
+      "reviewCount": 13,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 8.9,
+      "score": 89,
+      "reviewCount": 8,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 63,
+      "averageSentiment": 6.3,
+      "reviewCount": 9,
+      "reviewShare": 0.6923,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.5556,
+      "negativeShare": 0.4444,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 5
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "throat",
+          "label": "Throat",
+          "reviewCount": 3
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I USED TO GET BREAKDOWN AND SORES ON MY NOSE",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Great for mouth breathers",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Too stiff to get comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-kit"
+        },
+        {
+          "text": "The only down side was a sore throat",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-kit"
+        }
+      ]
+    },
+    {
+      "id": "skin-and-pain",
+      "label": "Skin & pain",
+      "score": 55,
+      "averageSentiment": 5.5,
+      "reviewCount": 8,
+      "reviewShare": 0.6154,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.375,
+      "negativeShare": 0.625,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 5
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "throat",
+          "label": "Throat",
+          "reviewCount": 3
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I USED TO GET BREAKDOWN AND SORES ON MY NOSE",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+        },
+        {
+          "text": "the seal being in my mouth took away all my pain on the bridge of my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "you develop face denting",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+        },
+        {
+          "text": "irritation around your mouth from the mouth insert",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-kit"
+        }
+      ]
+    }
+  ],
+  "aspects": [
+    {
+      "id": "overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 89,
+      "averageSentiment": 8.9,
+      "reviewCount": 8,
+      "reviewShare": 0.6154,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.875,
+      "negativeShare": 0.125,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Great mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+        },
+        {
+          "text": "I love this mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Not for me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "oral_cushion",
+      "label": "Oral Cushion",
+      "score": 65,
+      "averageSentiment": 6.5,
+      "reviewCount": 5,
+      "reviewShare": 0.3846,
+      "positiveReviews": 2,
+      "mixedReviews": 2,
+      "negativeReviews": 1,
+      "positiveShare": 0.4,
+      "negativeShare": 0.2,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 2
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "throat",
+          "label": "Throat",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I love this mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-kit"
+        },
+        {
+          "text": "Great for mouth breathers",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+        },
+        {
+          "text": "the seal being in my mouth took away all my pain on the bridge of my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "you develop face denting",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+        },
+        {
+          "text": "irritation around your mouth from the mouth insert",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-kit"
+        },
+        {
+          "text": "The only down side was a sore throat",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    }
+  ],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [
+    {
+      "id": "|||overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 85,
+      "averageSentiment": 8.5,
+      "reviewCount": 6,
+      "reviewShare": 0.4615,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Great mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Not for me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+        }
+      ]
+    }
+  ],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 12,
+      "averageRating": 4.17,
+      "ratingCount": 12,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "reviewCount": 1,
+      "averageRating": 5.0,
+      "ratingCount": 1,
+      "evidenceStrength": "limited",
+      "productUrl": "https://cpapsupplies.com/oracle-452-oral-cpap-mask-by-fisher-paykel"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "Great mask",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+      },
+      {
+        "text": "I love this mask",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-kit"
+      },
+      {
+        "text": "Best CPAP mask I’ve ever",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+      },
+      {
+        "text": "this is a perfect mask",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/oracle-452-oral-cpap-mask-by-fisher-paykel"
+      },
+      {
+        "text": "This mask is the best thing in the world",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-kit"
+      },
+      {
+        "text": "I USED TO GET BREAKDOWN AND SORES ON MY NOSE",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+      }
+    ],
+    "negative": [
+      {
+        "text": "Not for me",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+      },
+      {
+        "text": "Too stiff to get comfortable",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-kit"
+      },
+      {
+        "text": "mask leaks at the max air flow setting",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+      },
+      {
+        "text": "you develop face denting",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+      },
+      {
+        "text": "I have a severe deviated septum and hard to use CPAP",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-with-headgear"
+      },
+      {
+        "text": "you need something in or on your nose to block air",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/oracle-452-oral-cpap-mask-by-fisher-paykel"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

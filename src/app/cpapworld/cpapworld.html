@@ -1,0 +1,82 @@
+<main class="cpapworld-page">
+  <div class="background-decoration" aria-hidden="true">
+    <div class="background-circle background-circle-gold"></div>
+    <div class="background-circle background-circle-purple"></div>
+  </div>
+
+  <header class="cpapworld-header">
+    <a class="brand" href="/" aria-label="DreamSeal home">
+      <span class="logo-mark">
+        <img src="/dreamseal_logo.png" alt="DreamSeal logo" width="48" height="48" />
+      </span>
+      <span class="logo-text-block">
+        <span class="logo-title">DreamSeal</span>
+      </span>
+    </a>
+
+    <nav class="header-actions" aria-label="CPAP World navigation">
+      <a class="retailer-guide-link" routerLink="/cpapworld/retailers">Compare retailers</a>
+      <a class="header-cta" routerLink="/">Win Lifetime Free Custom Masks!</a>
+    </nav>
+  </header>
+
+  <section class="hero-panel" aria-labelledby="cpapworld-title">
+    <h1 id="cpapworld-title">Find Your Perfect Mask</h1>
+    <p>The definitive guide to CPAP comfort. No more guessing, just better sleep.</p>
+
+    <form class="search-panel" aria-label="Search CPAP masks">
+      <label class="search-field">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" />
+          <path d="m16 16 4 4" />
+        </svg>
+        <span class="sr-only">Search masks</span>
+        <input type="search" placeholder="Search masks by model, brand, or feature..." />
+      </label>
+      <button type="submit">Explore</button>
+    </form>
+
+    <div class="filter-chips" aria-label="Popular mask categories">
+      <button type="button">Side Sleeper</button>
+      <button type="button">Heavy Breather</button>
+      <button type="button">Nasal Only</button>
+      <button type="button">Full Face</button>
+      <button type="button">Active Sleep</button>
+    </div>
+  </section>
+
+  <section class="mask-catalog" aria-labelledby="mask-catalog-title">
+    <h2 id="mask-catalog-title">Explore Every Mask</h2>
+
+    <div class="mask-grid">
+      @for (mask of masks(); track mask.slug) {
+        <a class="mask-card" [routerLink]="['/cpapworld/masks', mask.slug]">
+          <div class="mask-media" aria-hidden="true">
+            @if (mask.overall.compositeScore !== null) {
+              <span class="catalog-score">{{ mask.overall.compositeScore }}</span>
+              <span class="catalog-score-label">review evidence score</span>
+            } @else {
+              <span>Detailed analysis coming soon</span>
+            }
+          </div>
+
+          <div class="mask-card-content">
+            <div>
+              <h3>{{ mask.name }}</h3>
+              <p>{{ coverageLabel(mask) }}</p>
+            </div>
+            <span class="mask-card-arrow" aria-hidden="true">&rarr;</span>
+          </div>
+        </a>
+      }
+    </div>
+
+    @if (catalogLoading()) {
+      <p class="catalog-state">Loading mask evidence…</p>
+    } @else if (catalogError()) {
+      <p class="catalog-state catalog-state-error">
+        The mask catalog could not be loaded. Please try again shortly.
+      </p>
+    }
+  </section>
+</main>

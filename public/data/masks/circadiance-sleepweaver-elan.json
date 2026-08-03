@@ -1,0 +1,5701 @@
+{
+  "schemaVersion": 2,
+  "slug": "circadiance-sleepweaver-elan",
+  "name": "Circadiance SleepWeaver Elan",
+  "catalogOrder": 45,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 150,
+    "eligibleReviews": 150,
+    "processedShare": 1.0,
+    "retailerCount": 2,
+    "reviewDateStart": "2012-06-25",
+    "reviewDateEnd": "2026-06-03"
+  },
+  "overall": {
+    "compositeScore": 79,
+    "ratingComponent": {
+      "average": 3.95,
+      "score": 79,
+      "reviewCount": 150,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 7.9,
+      "score": 79,
+      "reviewCount": 81,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 76,
+      "averageSentiment": 7.6,
+      "reviewCount": 86,
+      "reviewShare": 0.5733,
+      "positiveReviews": 69,
+      "mixedReviews": 4,
+      "negativeReviews": 13,
+      "positiveShare": 0.8023,
+      "negativeShare": 0.1512,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 17
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 6
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 5
+        },
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 4
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 3
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 2
+        },
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 1
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        },
+        {
+          "id": "claustrophobia",
+          "label": "Claustrophobia",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 10
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 7
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 3
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 2
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "it has been the most comfortable mask I have ever tried",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Most comfortable mask I have ever owned",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Cut my nose..",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the hard plastic tubing in the front was pressing too hard on the end of your nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "fit-and-sizing",
+      "label": "Fit & sizing",
+      "score": 48,
+      "averageSentiment": 4.8,
+      "reviewCount": 60,
+      "reviewShare": 0.4,
+      "positiveReviews": 16,
+      "mixedReviews": 12,
+      "negativeReviews": 32,
+      "positiveShare": 0.2667,
+      "negativeShare": 0.5333,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 9
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 9
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 8
+        },
+        {
+          "id": "velcro",
+          "label": "Velcro",
+          "reviewCount": 4
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 3
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 2
+        },
+        {
+          "id": "large_nose",
+          "label": "Large Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        },
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 12
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 2
+        },
+        {
+          "id": "under_nose",
+          "label": "Under Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "with no need to pull it tight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "without having to be uncomfortably tight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "DIDN'T LIKE THE FIT AT ALL",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "When I have the strap tightened enough so that it stays on, it hurts my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "seal-and-leaks",
+      "label": "Seal & leaks",
+      "score": 44,
+      "averageSentiment": 4.4,
+      "reviewCount": 61,
+      "reviewShare": 0.4067,
+      "positiveReviews": 19,
+      "mixedReviews": 3,
+      "negativeReviews": 39,
+      "positiveShare": 0.3115,
+      "negativeShare": 0.6393,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 13
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 5
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "lower_strap",
+          "label": "Lower Strap",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 4
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 7
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 4
+        },
+        {
+          "id": "beard_area",
+          "label": "Beard Area",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "upper_lip",
+          "label": "Upper Lip",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I have no air leakage",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "This mask seals perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I was unable to figure out a way to get it to seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Couldn't get it to seal at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "sleep-compatibility",
+      "label": "Sleep compatibility",
+      "score": 44,
+      "averageSentiment": 4.4,
+      "reviewCount": 33,
+      "reviewShare": 0.22,
+      "positiveReviews": 8,
+      "mixedReviews": 5,
+      "negativeReviews": 20,
+      "positiveShare": 0.2424,
+      "negativeShare": 0.6061,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 7
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 6
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 3
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 3
+        },
+        {
+          "id": "tubing",
+          "label": "Tubing",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 10
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 7
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I am mostly a side sleeper",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "Works great for side sleeping",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I ended up tossing it on the floor in the middle of the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "The plastic piece that connects to the hose falls out of the nylon mask very easily",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "ease-of-use",
+      "label": "Ease of use",
+      "score": 48,
+      "averageSentiment": 4.8,
+      "reviewCount": 55,
+      "reviewShare": 0.3667,
+      "positiveReviews": 16,
+      "mixedReviews": 9,
+      "negativeReviews": 30,
+      "positiveShare": 0.2909,
+      "negativeShare": 0.5455,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 10
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 8
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 5
+        },
+        {
+          "id": "velcro",
+          "label": "Velcro",
+          "reviewCount": 5
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 3
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 4
+        },
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "glasses_use",
+          "label": "Glasses Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_switching",
+          "label": "Mask Switching",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "easy to use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I could sleep on my side or on my back and wear my glasses",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "You have to wake up, get up, and rethread the gear into the headgear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "its pain to put back together",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "airflow-and-noise",
+      "label": "Airflow & noise",
+      "score": 37,
+      "averageSentiment": 3.7,
+      "reviewCount": 16,
+      "reviewShare": 0.1067,
+      "positiveReviews": 3,
+      "mixedReviews": 1,
+      "negativeReviews": 12,
+      "positiveShare": 0.1875,
+      "negativeShare": 0.75,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 4
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 2
+        },
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 3
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It’s totally silent",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "It doesn't \"fart\" all night",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "blowing cold air in your eye al night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "When I loosen the straps, air comes out of the top into my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "skin-and-pain",
+      "label": "Skin & pain",
+      "score": 52,
+      "averageSentiment": 5.2,
+      "reviewCount": 35,
+      "reviewShare": 0.2333,
+      "positiveReviews": 14,
+      "mixedReviews": 4,
+      "negativeReviews": 17,
+      "positiveShare": 0.4,
+      "negativeShare": 0.4857,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 5
+        },
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 2
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 5
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 8
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 8
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 6
+        },
+        {
+          "id": "under_nose",
+          "label": "Under Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "DOES NOT TEAR UP MY FACE",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "This is the only mask material that doesn’t cause my skin to break out!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I was having so much burning and itching where the silicone touched my face",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "Cut my nose..",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "durability",
+      "label": "Durability",
+      "score": 54,
+      "averageSentiment": 5.4,
+      "reviewCount": 40,
+      "reviewShare": 0.2667,
+      "positiveReviews": 16,
+      "mixedReviews": 9,
+      "negativeReviews": 15,
+      "positiveShare": 0.4,
+      "negativeShare": 0.375,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 15
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 6
+        },
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 4
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 3
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 4
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 4
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "lips",
+          "label": "Lips",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        },
+        {
+          "id": "upper_lip",
+          "label": "Upper Lip",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "THE Answer when you're allergic to Latex",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "The new Elan soft cloth is great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The headgear that falls apart",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the elastic over the forehead would stretch",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "label": "Value",
+      "score": 62,
+      "averageSentiment": 6.2,
+      "reviewCount": 10,
+      "reviewShare": 0.0667,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.7,
+      "negativeShare": 0.3,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "short_tube",
+          "label": "Short Tube",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "this website offers just the mask part for sale",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "I am so happy to see them available here so readily",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "too expensive",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "to bad Medicare doesn’t pay for them anymore",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "therapy-experience",
+      "label": "Therapy experience",
+      "score": 65,
+      "averageSentiment": 6.5,
+      "reviewCount": 32,
+      "reviewShare": 0.2133,
+      "positiveReviews": 21,
+      "mixedReviews": 2,
+      "negativeReviews": 9,
+      "positiveShare": 0.6562,
+      "negativeShare": 0.2812,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 1
+        },
+        {
+          "id": "apap_use",
+          "label": "Apap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "best sleep ever",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Can not sleep worth a darn without it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I just could not use it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Was woke up frequently to adjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    }
+  ],
+  "aspects": [
+    {
+      "id": "overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 79,
+      "averageSentiment": 7.9,
+      "reviewCount": 81,
+      "reviewShare": 0.54,
+      "positiveReviews": 63,
+      "mixedReviews": 3,
+      "negativeReviews": 15,
+      "positiveShare": 0.7778,
+      "negativeShare": 0.1852,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 8
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 6
+        },
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 1
+        },
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        },
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Best mask ever",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Very Comfortable-Amazing",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I did not like this mask at all!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "horrible design",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 81,
+      "averageSentiment": 8.1,
+      "reviewCount": 74,
+      "reviewShare": 0.4933,
+      "positiveReviews": 67,
+      "mixedReviews": 2,
+      "negativeReviews": 5,
+      "positiveShare": 0.9054,
+      "negativeShare": 0.0676,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 15
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 5
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 4
+        },
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 2
+        },
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 1
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        },
+        {
+          "id": "claustrophobia",
+          "label": "Claustrophobia",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 6
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "it has been the most comfortable mask I have ever tried",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Most comfortable mask I have ever owned",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Very uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "adds to my frustration of having to strap something to my face to sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "seal_leak",
+      "label": "Seal Leak",
+      "score": 44,
+      "averageSentiment": 4.4,
+      "reviewCount": 61,
+      "reviewShare": 0.4067,
+      "positiveReviews": 19,
+      "mixedReviews": 3,
+      "negativeReviews": 39,
+      "positiveShare": 0.3115,
+      "negativeShare": 0.6393,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 13
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 5
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "lower_strap",
+          "label": "Lower Strap",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 4
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "facial_hair",
+          "label": "Facial Hair",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 7
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 4
+        },
+        {
+          "id": "beard_area",
+          "label": "Beard Area",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "upper_lip",
+          "label": "Upper Lip",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I have no air leakage",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "This mask seals perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I was unable to figure out a way to get it to seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Couldn't get it to seal at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "fit",
+      "label": "Fit",
+      "score": 50,
+      "averageSentiment": 5.0,
+      "reviewCount": 38,
+      "reviewShare": 0.2533,
+      "positiveReviews": 14,
+      "mixedReviews": 3,
+      "negativeReviews": 21,
+      "positiveShare": 0.3684,
+      "negativeShare": 0.5526,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 7
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 5
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 2
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "large_nose",
+          "label": "Large Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "full_face_mask_preference",
+          "label": "Full Face Mask Preference",
+          "reviewCount": 1
+        },
+        {
+          "id": "large_face",
+          "label": "Large Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 11
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 2
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I keep my mouth closed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "It inflates to fit snuggly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "DIDN'T LIKE THE FIT AT ALL",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Worst fitting mask I've EVER tried",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "adjustment",
+      "label": "Adjustment",
+      "score": 40,
+      "averageSentiment": 4.0,
+      "reviewCount": 24,
+      "reviewShare": 0.16,
+      "positiveReviews": 3,
+      "mixedReviews": 5,
+      "negativeReviews": 16,
+      "positiveShare": 0.125,
+      "negativeShare": 0.6667,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 5
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 5
+        },
+        {
+          "id": "velcro",
+          "label": "Velcro",
+          "reviewCount": 4
+        },
+        {
+          "id": "lower_strap",
+          "label": "Lower Strap",
+          "reviewCount": 3
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 2
+        },
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Just remember to adjust it using the tab at the base or at the tabs at the sides where it connects to the head gear",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "I just pull the lower straps down and get a seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the adjustments of the headgear makes no difference",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Hard to grip the velcro straps to asjusr especially in the dark after a mid sleep bathroom run",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "durability",
+      "label": "Durability",
+      "score": 50,
+      "averageSentiment": 5.0,
+      "reviewCount": 24,
+      "reviewShare": 0.16,
+      "positiveReviews": 10,
+      "mixedReviews": 3,
+      "negativeReviews": 11,
+      "positiveShare": 0.4167,
+      "negativeShare": 0.4583,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 9
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 4
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 4
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I’ve been using this for several years now",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "this is the 6th one I have had over a period of several years",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The headgear that falls apart",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "it will have a blow out around your lip",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "stability",
+      "label": "Stability",
+      "score": 37,
+      "averageSentiment": 3.7,
+      "reviewCount": 19,
+      "reviewShare": 0.1267,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 16,
+      "positiveShare": 0.1579,
+      "negativeShare": 0.8421,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 4
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 3
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 3
+        },
+        {
+          "id": "tubing",
+          "label": "Tubing",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 4
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The new straps, positioned to hold the mask on a horizontal axis is exactly what I was hoping for",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "At times I had to check to see if I was still wearing it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I ended up tossing it on the floor in the middle of the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "The plastic piece that connects to the hose falls out of the nylon mask very easily",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "previous_mask_comparison",
+      "label": "Previous Mask Comparison",
+      "score": 60,
+      "averageSentiment": 6.0,
+      "reviewCount": 16,
+      "reviewShare": 0.1067,
+      "positiveReviews": 9,
+      "mixedReviews": 3,
+      "negativeReviews": 4,
+      "positiveShare": 0.5625,
+      "negativeShare": 0.25,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 1
+        },
+        {
+          "id": "gel_cushion",
+          "label": "Gel Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_switching",
+          "label": "Mask Switching",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "This is a 100% improvement over the original model",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I've been a loyal fan of the original Sleep Weaver for a couple of years",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I will never go back to the old gel cushion type mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I gave up and went back to my previous mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "sleep_quality",
+      "label": "Sleep Quality",
+      "score": 79,
+      "averageSentiment": 7.9,
+      "reviewCount": 16,
+      "reviewShare": 0.1067,
+      "positiveReviews": 14,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.875,
+      "negativeShare": 0.125,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "humidifier_use",
+          "label": "Humidifier Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "best sleep ever",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Can not sleep worth a darn without it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "was not able to get an extended period of sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "it begins to squeel on the corners and awakens me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "weight",
+      "label": "Weight",
+      "score": 80,
+      "averageSentiment": 8.0,
+      "reviewCount": 15,
+      "reviewShare": 0.1,
+      "positiveReviews": 13,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.8667,
+      "negativeShare": 0.1333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 4
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "it is weightless",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "Light as a feather, too!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the hose was to heavy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "It does hang off the front of your face a bit heavier and more awkward",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "material_quality",
+      "label": "Material Quality",
+      "score": 61,
+      "averageSentiment": 6.1,
+      "reviewCount": 14,
+      "reviewShare": 0.0933,
+      "positiveReviews": 6,
+      "mixedReviews": 3,
+      "negativeReviews": 5,
+      "positiveShare": 0.4286,
+      "negativeShare": 0.3571,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 5
+        },
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 4
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "soft_frame",
+          "label": "Soft Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 4
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "THE Answer when you're allergic to Latex",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "The new Elan soft cloth is great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the fabric started digging into my face at the stress points",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the material/construction was unsatisfactory",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "ease_of_use",
+      "label": "Ease Of Use",
+      "score": 65,
+      "averageSentiment": 6.5,
+      "reviewCount": 13,
+      "reviewShare": 0.0867,
+      "positiveReviews": 9,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.6923,
+      "negativeShare": 0.3077,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 2
+        },
+        {
+          "id": "glasses_use",
+          "label": "Glasses Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "easy to use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "easy to fit using straps",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "You have to wake up, get up, and rethread the gear into the headgear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "or if you got up in the middle of the night for anything",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "sleep_position_compatibility",
+      "label": "Sleep Position Compatibility",
+      "score": 68,
+      "averageSentiment": 6.8,
+      "reviewCount": 13,
+      "reviewShare": 0.0867,
+      "positiveReviews": 9,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.6923,
+      "negativeShare": 0.3077,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 5
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 9
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I am mostly a side sleeper",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "Works great for side sleeping",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the cloth billows out on either side of your nose so that every time I awakened on my side the cloth was smashed in and…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I tried many positions during the night (back, right side, left side)",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "sizing",
+      "label": "Sizing",
+      "score": 47,
+      "averageSentiment": 4.7,
+      "reviewCount": 11,
+      "reviewShare": 0.0733,
+      "positiveReviews": 3,
+      "mixedReviews": 2,
+      "negativeReviews": 6,
+      "positiveShare": 0.2727,
+      "negativeShare": 0.5455,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I take a very large hat size, and have a large nose for a woman, and the Regular fits me just fine",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I decided to switch to the larger one and now it seal great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I bought all three nose pillow sizes -- regular, extra large, and \"THAT'S a nose!??\" small",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I purchased the starter kit that comes with all three sizes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "therapy_effectiveness",
+      "label": "Therapy Effectiveness",
+      "score": 79,
+      "averageSentiment": 7.9,
+      "reviewCount": 10,
+      "reviewShare": 0.0667,
+      "positiveReviews": 9,
+      "mixedReviews": 1,
+      "negativeReviews": 0,
+      "positiveShare": 0.9,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 1
+        },
+        {
+          "id": "apap_use",
+          "label": "Apap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "The Sleepweaver Elan mask is what allows me to use a CPAP at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "without having any apnea events",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "irritation",
+      "label": "Irritation",
+      "score": 49,
+      "averageSentiment": 4.9,
+      "reviewCount": 8,
+      "reviewShare": 0.0533,
+      "positiveReviews": 3,
+      "mixedReviews": 1,
+      "negativeReviews": 4,
+      "positiveShare": 0.375,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 2
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "philtrum",
+          "label": "Philtrum",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "does not irritate my skin",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "it doesn't irritate my sensitive skin",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I could NOT use any other type of mask without irritation to my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the edges to be quite sharp",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "noise",
+      "label": "Noise",
+      "score": 40,
+      "averageSentiment": 4.0,
+      "reviewCount": 8,
+      "reviewShare": 0.0533,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.25,
+      "negativeShare": 0.75,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 2
+        },
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "It’s totally silent",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "It doesn't \"fart\" all night",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it begins to squeel on the corners and awakens me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "it inflates and deflates with each breath causing more noise then the typical mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "pain",
+      "label": "Pain",
+      "score": 49,
+      "averageSentiment": 4.9,
+      "reviewCount": 8,
+      "reviewShare": 0.0533,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.375,
+      "negativeShare": 0.625,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "THE NOSE BRIDGE PAIN IS NO MORE!!!!!!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "does not pinch or cause pain",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Cut my nose..",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the hard plastic tubing in the front was pressing too hard on the end of your nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "assembly",
+      "label": "Assembly",
+      "score": 37,
+      "averageSentiment": 3.7,
+      "reviewCount": 7,
+      "reviewShare": 0.0467,
+      "positiveReviews": 1,
+      "mixedReviews": 1,
+      "negativeReviews": 5,
+      "positiveShare": 0.1429,
+      "negativeShare": 0.7143,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose_connection",
+          "label": "Hose Connection",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Easy to assembly",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "its pain to put back together",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "put the mask back together a dozen time a night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "overtightening",
+      "label": "Overtightening",
+      "score": 49,
+      "averageSentiment": 4.9,
+      "reviewCount": 7,
+      "reviewShare": 0.0467,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.4286,
+      "negativeShare": 0.5714,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 4
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "under_nose",
+          "label": "Under Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "with no need to pull it tight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "without having to be uncomfortably tight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "When I have the strap tightened enough so that it stays on, it hurts my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Do not pull the straps tight, like you do on the traditional nasal masks, as that causes leaks with this one",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "skin_reaction",
+      "label": "Skin Reaction",
+      "score": 50,
+      "averageSentiment": 5.0,
+      "reviewCount": 7,
+      "reviewShare": 0.0467,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.4286,
+      "negativeShare": 0.5714,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 3
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        },
+        {
+          "id": "under_nose",
+          "label": "Under Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This is the only mask material that doesn’t cause my skin to break out!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "produced an allergic skin reaction",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I was having so much burning and itching where the silicone touched my face",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "I also get alot of redness under my nose from the silicone type nasal redness",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "therapy_compliance",
+      "label": "Therapy Compliance",
+      "score": 24,
+      "averageSentiment": 2.4,
+      "reviewCount": 7,
+      "reviewShare": 0.0467,
+      "positiveReviews": 0,
+      "mixedReviews": 1,
+      "negativeReviews": 6,
+      "positiveShare": 0.0,
+      "negativeShare": 0.8571,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "I just could not use it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Was woke up frequently to adjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "learning_curve",
+      "label": "Learning Curve",
+      "score": 40,
+      "averageSentiment": 4.0,
+      "reviewCount": 6,
+      "reviewShare": 0.04,
+      "positiveReviews": 0,
+      "mixedReviews": 2,
+      "negativeReviews": 4,
+      "positiveShare": 0.0,
+      "negativeShare": 0.6667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mask_switching",
+          "label": "Mask Switching",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "I read the directions and tried and tried to make it work but it just wouldn't",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "It *is* quite hard to learn to use so that it does not leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "red_marks",
+      "label": "Red Marks",
+      "score": 57,
+      "averageSentiment": 5.7,
+      "reviewCount": 5,
+      "reviewShare": 0.0333,
+      "positiveReviews": 2,
+      "mixedReviews": 1,
+      "negativeReviews": 2,
+      "positiveShare": 0.4,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "under_nose",
+          "label": "Under Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "no more \"mask marks\" on my morning face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "It does not leave marks on my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "left my nose red and wounded",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "had a red mark across under my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "soreness",
+      "label": "Soreness",
+      "score": 36,
+      "averageSentiment": 3.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0333,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.2,
+      "negativeShare": 0.8,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "upper_lip",
+          "label": "Upper Lip",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "or a sore nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "my nose is get very sore from my nose mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "cause my lip to get sore from wearing",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "label": "Value",
+      "score": 78,
+      "averageSentiment": 7.8,
+      "reviewCount": 5,
+      "reviewShare": 0.0333,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 2
+        },
+        {
+          "id": "short_tube",
+          "label": "Short Tube",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I now purchase them in bulk and always have new ones on hand",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "I am so happy to see them available here so readily",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": []
+    }
+  ],
+  "parts": [
+    {
+      "id": "mask_body",
+      "label": "Mask Body",
+      "score": 61,
+      "averageSentiment": 6.1,
+      "reviewCount": 37,
+      "reviewShare": 0.2467,
+      "positiveReviews": 15,
+      "mixedReviews": 11,
+      "negativeReviews": 11,
+      "positiveShare": 0.4054,
+      "negativeShare": 0.2973,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 37
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "bed_partner",
+          "label": "Bed Partner",
+          "reviewCount": 1
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 8
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 3
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 2
+        },
+        {
+          "id": "upper_lip",
+          "label": "Upper Lip",
+          "reviewCount": 2
+        },
+        {
+          "id": "beard_area",
+          "label": "Beard Area",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "My Favorite Mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "Wife's favorite mask!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the SleepWeaver is the superior product on the market today",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "blowing cold air in your eye al night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "marked my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I was being attacked be a face hugger alien",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "praisedAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "score": 87,
+          "averageSentiment": 8.7,
+          "reviewCount": 15,
+          "reviewShare": 0.1,
+          "positiveReviews": 15,
+          "mixedReviews": 0,
+          "negativeReviews": 0,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "This is the most comfortable mask I have ever used",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+            },
+            {
+              "text": "Most comfortable mask!",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+            }
+          ],
+          "negativeEvidence": []
+        },
+        {
+          "id": "overall_satisfaction",
+          "label": "Overall Satisfaction",
+          "score": 78,
+          "averageSentiment": 7.8,
+          "reviewCount": 8,
+          "reviewShare": 0.0533,
+          "positiveReviews": 6,
+          "mixedReviews": 0,
+          "negativeReviews": 2,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "My Favorite Mask",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+            },
+            {
+              "text": "Wife's favorite mask!",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "Product needs more work",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+            },
+            {
+              "text": "2 Stars-Poor is my rating for now",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+            }
+          ]
+        }
+      ],
+      "criticizedAspects": [
+        {
+          "id": "durability",
+          "label": "Durability",
+          "score": 36,
+          "averageSentiment": 3.6,
+          "reviewCount": 9,
+          "reviewShare": 0.06,
+          "positiveReviews": 2,
+          "mixedReviews": 0,
+          "negativeReviews": 7,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "long life without having to replace the “cushion,”",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+            },
+            {
+              "text": "I've had this mask for well over a year",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "it will have a blow out around your lip",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+            },
+            {
+              "text": "seems likely to tear",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "headgear",
+      "label": "Headgear",
+      "score": 45,
+      "averageSentiment": 4.5,
+      "reviewCount": 19,
+      "reviewShare": 0.1267,
+      "positiveReviews": 5,
+      "mixedReviews": 4,
+      "negativeReviews": 10,
+      "positiveShare": 0.2632,
+      "negativeShare": 0.5263,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 19
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Featherweight CPAP mask and headgear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Just remember to adjust it using the tab at the base or at the tabs at the sides where it connects to the head gear",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "easy to fit using straps",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The headgear that falls apart",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the lower strap tends to fold up my earlobes",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "Comes off when you are sleeping",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "strap",
+      "label": "Strap",
+      "score": 40,
+      "averageSentiment": 4.0,
+      "reviewCount": 13,
+      "reviewShare": 0.0867,
+      "positiveReviews": 2,
+      "mixedReviews": 2,
+      "negativeReviews": 9,
+      "positiveShare": 0.1538,
+      "negativeShare": 0.6923,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 13
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "under_nose",
+          "label": "Under Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The new straps, positioned to hold the mask on a horizontal axis is exactly what I was hoping for",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Once the straps are adjusted properly, the mask sits lightly on the face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "The elastic straps don't have to be especially tight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "When I have the strap tightened enough so that it stays on, it hurts my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the elastic over the forehead would stretch",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "Do not pull the straps tight, like you do on the traditional nasal masks, as that causes leaks with this one",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "fabric_headgear",
+      "label": "Fabric Headgear",
+      "score": 58,
+      "averageSentiment": 5.8,
+      "reviewCount": 10,
+      "reviewShare": 0.0667,
+      "positiveReviews": 5,
+      "mixedReviews": 1,
+      "negativeReviews": 4,
+      "positiveShare": 0.5,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 10
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        },
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        },
+        {
+          "id": "philtrum",
+          "label": "Philtrum",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The new Elan soft cloth is great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I keep my mouth closed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "It is very comfortable to wear and sleep in",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it scraped the skin after only 3 hours",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I could NOT use any other type of mask without irritation to my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the fabric started digging into my face at the stress points",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "hose",
+      "label": "Hose",
+      "score": 32,
+      "averageSentiment": 3.2,
+      "reviewCount": 9,
+      "reviewShare": 0.06,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 8,
+      "positiveShare": 0.1111,
+      "negativeShare": 0.8889,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 9
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "you have to use a short light tube between the mask and the regular tubing",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "rather than pull on the hose which can pull the hose out",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "the weight of the hose pulls the mask down",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Can't adjust properly with the hose attached",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "cloth_liner",
+      "label": "Cloth Liner",
+      "score": 76,
+      "averageSentiment": 7.6,
+      "reviewCount": 8,
+      "reviewShare": 0.0533,
+      "positiveReviews": 6,
+      "mixedReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.75,
+      "negativeShare": 0.125,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 8
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "no_humidifier",
+          "label": "No Humidifier",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "not feel like a mask at all!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I love it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "MADE A CLOTH MASK",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I prefer my cloth ones I buy from you",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "praisedAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "score": 88,
+          "averageSentiment": 8.8,
+          "reviewCount": 5,
+          "reviewShare": 0.0333,
+          "positiveReviews": 5,
+          "mixedReviews": 0,
+          "negativeReviews": 0,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "not feel like a mask at all!",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+            },
+            {
+              "text": "It is the most comfortable mask I ahve ever used",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+            }
+          ],
+          "negativeEvidence": []
+        }
+      ],
+      "criticizedAspects": []
+    },
+    {
+      "id": "cushion",
+      "label": "Cushion",
+      "score": 54,
+      "averageSentiment": 5.4,
+      "reviewCount": 7,
+      "reviewShare": 0.0467,
+      "positiveReviews": 2,
+      "mixedReviews": 3,
+      "negativeReviews": 2,
+      "positiveShare": 0.2857,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the least likelihood of leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I decided to switch to the larger one and now it seal great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "being I have a silicone allergy, not able to use them",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I wasn't able to get any of them to work for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "there was so much air escaping",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "kept getting an air leak toward my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "connector",
+      "label": "Connector",
+      "score": 47,
+      "averageSentiment": 4.7,
+      "reviewCount": 6,
+      "reviewShare": 0.04,
+      "positiveReviews": 2,
+      "mixedReviews": 1,
+      "negativeReviews": 3,
+      "positiveShare": 0.3333,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 3
+        },
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "supporting the featherweight* connecting tube with a couple of fingers so that the weight of the tube does not distort the not yet fully inflated…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "it is so much nicer to move around while I sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The plastic piece that connects to the hose falls out of the nylon mask very easily",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "The part that attaches to the tubing is hard plastic, very uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the air inlet kept pulling out",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "cushion_seal",
+      "label": "Cushion Seal",
+      "score": 17,
+      "averageSentiment": 1.7,
+      "reviewCount": 6,
+      "reviewShare": 0.04,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "I was unable to figure out a way to get it to seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Couldn't get it to seal at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "poor seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": [
+        {
+          "id": "seal_leak",
+          "label": "Seal Leak",
+          "score": 12,
+          "averageSentiment": 1.2,
+          "reviewCount": 5,
+          "reviewShare": 0.0333,
+          "positiveReviews": 0,
+          "mixedReviews": 0,
+          "negativeReviews": 5,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [],
+          "negativeEvidence": [
+            {
+              "text": "I was unable to figure out a way to get it to seal",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+            },
+            {
+              "text": "Couldn't get it to seal at all",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nasal_pillows",
+      "label": "Nasal Pillows",
+      "score": 34,
+      "averageSentiment": 3.4,
+      "reviewCount": 6,
+      "reviewShare": 0.04,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.1667,
+      "negativeShare": 0.8333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I dont have rubber tubes in my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Worst fitting mask I've EVER tried",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "With the traditional nasal pillow (in-nostril) design I was getting repeat infections from the irritation",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Constant tugging at the nasal pillow to asjustcevery time I rolled to my side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "tubing",
+      "label": "Tubing",
+      "score": 45,
+      "averageSentiment": 4.5,
+      "reviewCount": 5,
+      "reviewShare": 0.0333,
+      "positiveReviews": 1,
+      "mixedReviews": 1,
+      "negativeReviews": 3,
+      "positiveShare": 0.2,
+      "negativeShare": 0.6,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "tubing",
+          "label": "Tubing",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the tubing is now above my head",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the hard plastic tubing in the front was pressing too hard on the end of your nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the cloth part of the mask will disconnect from the tubing if pulled on while shifting around",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the way the tubing is held with that soft strap",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "velcro",
+      "label": "Velcro",
+      "score": 36,
+      "averageSentiment": 3.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0333,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.2,
+      "negativeShare": 0.8,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "velcro",
+          "label": "Velcro",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I do not take the Velcro off every time i need take off or put on",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Hard to grip the velcro straps to asjusr especially in the dark after a mid sleep bathroom run",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the velcro needs to be stronger",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "have to too often be adjusted",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    }
+  ],
+  "partAspectMatrix": [
+    {
+      "id": "mask_body|comfort",
+      "label": "Mask Body · Comfort",
+      "score": 87,
+      "averageSentiment": 8.7,
+      "reviewCount": 15,
+      "reviewShare": 0.1,
+      "positiveReviews": 15,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "This is the most comfortable mask I have ever used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [],
+      "partId": "mask_body",
+      "partLabel": "Mask Body",
+      "aspectId": "comfort",
+      "aspectLabel": "Comfort"
+    },
+    {
+      "id": "mask_body|seal_leak",
+      "label": "Mask Body · Seal Leak",
+      "score": 45,
+      "averageSentiment": 4.5,
+      "reviewCount": 13,
+      "reviewShare": 0.0867,
+      "positiveReviews": 4,
+      "mixedReviews": 1,
+      "negativeReviews": 8,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "I didn't have air leaks !!!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "leak along the nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "partId": "mask_body",
+      "partLabel": "Mask Body",
+      "aspectId": "seal_leak",
+      "aspectLabel": "Seal Leak"
+    },
+    {
+      "id": "mask_body|durability",
+      "label": "Mask Body · Durability",
+      "score": 36,
+      "averageSentiment": 3.6,
+      "reviewCount": 9,
+      "reviewShare": 0.06,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 7,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "long life without having to replace the “cushion,”",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it will have a blow out around your lip",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "partId": "mask_body",
+      "partLabel": "Mask Body",
+      "aspectId": "durability",
+      "aspectLabel": "Durability"
+    },
+    {
+      "id": "mask_body|overall_satisfaction",
+      "label": "Mask Body · Overall Satisfaction",
+      "score": 78,
+      "averageSentiment": 7.8,
+      "reviewCount": 8,
+      "reviewShare": 0.0533,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "My Favorite Mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Product needs more work",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "partId": "mask_body",
+      "partLabel": "Mask Body",
+      "aspectId": "overall_satisfaction",
+      "aspectLabel": "Overall Satisfaction"
+    },
+    {
+      "id": "mask_body|fit",
+      "label": "Mask Body · Fit",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 7,
+      "reviewShare": 0.0467,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "It inflates to fit snuggly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I think the fabric hole is too large",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "partId": "mask_body",
+      "partLabel": "Mask Body",
+      "aspectId": "fit",
+      "aspectLabel": "Fit"
+    },
+    {
+      "id": "cloth_liner|comfort",
+      "label": "Cloth Liner · Comfort",
+      "score": 88,
+      "averageSentiment": 8.8,
+      "reviewCount": 5,
+      "reviewShare": 0.0333,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "not feel like a mask at all!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [],
+      "partId": "cloth_liner",
+      "partLabel": "Cloth Liner",
+      "aspectId": "comfort",
+      "aspectLabel": "Comfort"
+    },
+    {
+      "id": "cushion_seal|seal_leak",
+      "label": "Cushion Seal · Seal Leak",
+      "score": 12,
+      "averageSentiment": 1.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0333,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "I was unable to figure out a way to get it to seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "partId": "cushion_seal",
+      "partLabel": "Cushion Seal",
+      "aspectId": "seal_leak",
+      "aspectLabel": "Seal Leak"
+    },
+    {
+      "id": "headgear|adjustment",
+      "label": "Headgear · Adjustment",
+      "score": 36,
+      "averageSentiment": 3.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0333,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "Just remember to adjust it using the tab at the base or at the tabs at the sides where it connects to the head gear",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the adjustments of the headgear makes no difference",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "partId": "headgear",
+      "partLabel": "Headgear",
+      "aspectId": "adjustment",
+      "aspectLabel": "Adjustment"
+    },
+    {
+      "id": "headgear|fit",
+      "label": "Headgear · Fit",
+      "score": 39,
+      "averageSentiment": 3.9,
+      "reviewCount": 5,
+      "reviewShare": 0.0333,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "fits well",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the lower strap tends to fold up my earlobes",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "partId": "headgear",
+      "partLabel": "Headgear",
+      "aspectId": "fit",
+      "aspectLabel": "Fit"
+    },
+    {
+      "id": "mask_body|material_quality",
+      "label": "Mask Body · Material Quality",
+      "score": 52,
+      "averageSentiment": 5.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0333,
+      "positiveReviews": 1,
+      "mixedReviews": 1,
+      "negativeReviews": 3,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "THE Answer when you're allergic to Latex",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the material/construction was unsatisfactory",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "partId": "mask_body",
+      "partLabel": "Mask Body",
+      "aspectId": "material_quality",
+      "aspectLabel": "Material Quality"
+    },
+    {
+      "id": "mask_body|sleep_position_compatibility",
+      "label": "Mask Body · Sleep Position Compatibility",
+      "score": 72,
+      "averageSentiment": 7.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0333,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "I can sleep on my side while wearing it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the cloth billows out on either side of your nose so that every time I awakened on my side the cloth was smashed in and…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "partId": "mask_body",
+      "partLabel": "Mask Body",
+      "aspectId": "sleep_position_compatibility",
+      "aspectLabel": "Sleep Position Compatibility"
+    },
+    {
+      "id": "strap|adjustment",
+      "label": "Strap · Adjustment",
+      "score": 42,
+      "averageSentiment": 4.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0333,
+      "positiveReviews": 0,
+      "mixedReviews": 2,
+      "negativeReviews": 3,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "Both my husband and I have had trouble getting the tabs to fit properly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "partId": "strap",
+      "partLabel": "Strap",
+      "aspectId": "adjustment",
+      "aspectLabel": "Adjustment"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "active-sleepers",
+      "label": "Active or restless sleepers",
+      "score": 34,
+      "averageSentiment": 3.4,
+      "reviewCount": 18,
+      "reviewShare": 0.12,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 15,
+      "positiveShare": 0.1667,
+      "negativeShare": 0.8333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 3
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 1
+        },
+        {
+          "id": "hose_connection",
+          "label": "Hose Connection",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 10
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 4
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 4
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "wouldn't leak if my head made just the slightest movement",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "moves easily with the wearer throughout the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "as I turned",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "which will fall out again when you turn over in bed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "sourceContexts": [
+        "active_sleeping",
+        "restless_sleeping",
+        "tossing_turning"
+      ],
+      "classification": "unfavorable",
+      "limitedEvidence": false
+    },
+    {
+      "id": "side-sleepers",
+      "label": "Side sleepers",
+      "score": 64,
+      "averageSentiment": 6.4,
+      "reviewCount": 13,
+      "reviewShare": 0.0867,
+      "positiveReviews": 8,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.6154,
+      "negativeShare": 0.3846,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 3
+        },
+        {
+          "id": "hose",
+          "label": "Hose",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 13
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I'm a side sleeper and this is the most comfortable mask I've used in the passed 10 years",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I am mostly a side sleeper",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Constant tugging at the nasal pillow to asjustcevery time I rolled to my side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the cloth billows out on either side of your nose so that every time I awakened on my side the cloth was smashed in and…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "sourceContexts": [
+        "side_sleeping"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": false
+    },
+    {
+      "id": "long-term-users",
+      "label": "Long-term CPAP users",
+      "score": 85,
+      "averageSentiment": 8.5,
+      "reviewCount": 12,
+      "reviewShare": 0.08,
+      "positiveReviews": 11,
+      "mixedReviews": 1,
+      "negativeReviews": 0,
+      "positiveShare": 0.9167,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 12
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "best one i ever used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "A long-time user is continually grateful.",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [],
+      "sourceContexts": [
+        "long_term_cpap_user"
+      ],
+      "classification": "favorable",
+      "limitedEvidence": false
+    },
+    {
+      "id": "sensitive-skin",
+      "label": "People with sensitive skin",
+      "score": 74,
+      "averageSentiment": 7.4,
+      "reviewCount": 7,
+      "reviewShare": 0.0467,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 6
+        },
+        {
+          "id": "dry_eye_prone",
+          "label": "Dry Eye Prone",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 5
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This is the only mask material that doesn’t cause my skin to break out!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "produced an allergic skin reaction",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it scraped the skin after only 3 hours",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I have chronic dry eye as well and this didn’t last an entire night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "sourceContexts": [
+        "dry_eye_prone",
+        "sensitive_skin"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": true
+    }
+  ],
+  "contextAspectMatrix": [
+    {
+      "id": "side-sleepers|sleep_position_compatibility",
+      "label": "Side sleepers · Sleep Position Compatibility",
+      "score": 69,
+      "averageSentiment": 6.9,
+      "reviewCount": 9,
+      "reviewShare": 0.06,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "I am mostly a side sleeper",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the cloth billows out on either side of your nose so that every time I awakened on my side the cloth was smashed in and…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "contextId": "side-sleepers",
+      "contextLabel": "Side sleepers",
+      "aspectId": "sleep_position_compatibility",
+      "aspectLabel": "Sleep Position Compatibility"
+    },
+    {
+      "id": "active-sleepers|stability",
+      "label": "Active or restless sleepers · Stability",
+      "score": 28,
+      "averageSentiment": 2.8,
+      "reviewCount": 6,
+      "reviewShare": 0.04,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "which will fall out again when you turn over in bed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "contextId": "active-sleepers",
+      "contextLabel": "Active or restless sleepers",
+      "aspectId": "stability",
+      "aspectLabel": "Stability"
+    },
+    {
+      "id": "long-term-users|overall_satisfaction",
+      "label": "Long-term CPAP users · Overall Satisfaction",
+      "score": 95,
+      "averageSentiment": 9.5,
+      "reviewCount": 6,
+      "reviewShare": 0.04,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "best one i ever used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [],
+      "contextId": "long-term-users",
+      "contextLabel": "Long-term CPAP users",
+      "aspectId": "overall_satisfaction",
+      "aspectLabel": "Overall Satisfaction"
+    }
+  ],
+  "bestFor": [
+    "long-term-users"
+  ],
+  "mayNotSuit": [
+    "active-sleepers"
+  ],
+  "bodySites": [
+    {
+      "id": "nose",
+      "label": "Nose",
+      "score": 44,
+      "averageSentiment": 4.4,
+      "reviewCount": 27,
+      "reviewShare": 0.18,
+      "positiveReviews": 8,
+      "mixedReviews": 5,
+      "negativeReviews": 14,
+      "positiveShare": 0.2963,
+      "negativeShare": 0.5185,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 8
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 3
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 1
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "large_nose",
+          "label": "Large Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "large_face",
+          "label": "Large Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "no_humidifier",
+          "label": "No Humidifier",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 27
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "or a sore nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "It does not leave marks on my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I take a very large hat size, and have a large nose for a woman, and the Regular fits me just fine",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "When I have the strap tightened enough so that it stays on, it hurts my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Cut my nose..",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Worst fitting mask I've EVER tried",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "complaintReviews": 17,
+      "complaintShare": 0.1133,
+      "complaintSeverity": 20,
+      "complaintAspects": [
+        {
+          "id": "seal_leak",
+          "label": "Seal Leak",
+          "reviewCount": 6
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 4
+        },
+        {
+          "id": "pain",
+          "label": "Pain",
+          "reviewCount": 3
+        },
+        {
+          "id": "pressure",
+          "label": "Pressure",
+          "reviewCount": 2
+        },
+        {
+          "id": "soreness",
+          "label": "Soreness",
+          "reviewCount": 2
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 4
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 3
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        },
+        {
+          "id": "tubing",
+          "label": "Tubing",
+          "reviewCount": 1
+        }
+      ]
+    },
+    {
+      "id": "eyes",
+      "label": "Eyes",
+      "score": 40,
+      "averageSentiment": 4.0,
+      "reviewCount": 11,
+      "reviewShare": 0.0733,
+      "positiveReviews": 3,
+      "mixedReviews": 1,
+      "negativeReviews": 7,
+      "positiveShare": 0.2727,
+      "negativeShare": 0.6364,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "glasses_use",
+          "label": "Glasses Use",
+          "reviewCount": 2
+        },
+        {
+          "id": "dry_eye_prone",
+          "label": "Dry Eye Prone",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 11
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It also allows me to see unhindered",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "like that it doesn't have anything between my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the Mask fits perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I was unable to figure out a way to get it to seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "blowing cold air in your eye al night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "When I loosen the straps, air comes out of the top into my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "complaintReviews": 8,
+      "complaintShare": 0.0533,
+      "complaintSeverity": 21,
+      "complaintAspects": [
+        {
+          "id": "seal_leak",
+          "label": "Seal Leak",
+          "reviewCount": 4
+        },
+        {
+          "id": "airflow_direction",
+          "label": "Airflow Direction",
+          "reviewCount": 2
+        },
+        {
+          "id": "cold_airflow",
+          "label": "Cold Airflow",
+          "reviewCount": 1
+        },
+        {
+          "id": "sleep_duration",
+          "label": "Sleep Duration",
+          "reviewCount": 1
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ]
+    },
+    {
+      "id": "face",
+      "label": "Face",
+      "score": 58,
+      "averageSentiment": 5.8,
+      "reviewCount": 16,
+      "reviewShare": 0.1067,
+      "positiveReviews": 9,
+      "mixedReviews": 1,
+      "negativeReviews": 6,
+      "positiveShare": 0.5625,
+      "negativeShare": 0.375,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "glasses_use",
+          "label": "Glasses Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "no_humidifier",
+          "label": "No Humidifier",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 16
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "DOES NOT TEAR UP MY FACE",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "no more \"mask marks\" on my morning face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "leaves practically no marks on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I was having so much burning and itching where the silicone touched my face",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        },
+        {
+          "text": "marked my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I could NOT use any other type of mask without irritation to my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "complaintReviews": 7,
+      "complaintShare": 0.0467,
+      "complaintSeverity": 25,
+      "complaintAspects": [
+        {
+          "id": "pain",
+          "label": "Pain",
+          "reviewCount": 2
+        },
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 1
+        },
+        {
+          "id": "face_marks",
+          "label": "Face Marks",
+          "reviewCount": 1
+        },
+        {
+          "id": "irritation",
+          "label": "Irritation",
+          "reviewCount": 1
+        },
+        {
+          "id": "material_quality",
+          "label": "Material Quality",
+          "reviewCount": 1
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ]
+    }
+  ],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [
+    {
+      "id": "|||overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 77,
+      "averageSentiment": 7.7,
+      "reviewCount": 60,
+      "reviewShare": 0.4,
+      "positiveReviews": 46,
+      "mixedReviews": 2,
+      "negativeReviews": 12,
+      "positiveShare": 0.7667,
+      "negativeShare": 0.2,
+      "evidenceStrength": "moderate",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Best mask ever",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I did not like this mask at all!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "|||comfort",
+      "label": "Comfort",
+      "score": 82,
+      "averageSentiment": 8.2,
+      "reviewCount": 38,
+      "reviewShare": 0.2533,
+      "positiveReviews": 35,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.9211,
+      "negativeShare": 0.0789,
+      "evidenceStrength": "moderate",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Most comfortable mask I have ever owned",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Very uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "mask_body|||comfort",
+      "label": "Mask Body · Comfort",
+      "score": 88,
+      "averageSentiment": 8.8,
+      "reviewCount": 12,
+      "reviewShare": 0.08,
+      "positiveReviews": 12,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 12
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "This is the most comfortable mask I have ever used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "|||sleep_quality",
+      "label": "Sleep Quality",
+      "score": 83,
+      "averageSentiment": 8.3,
+      "reviewCount": 11,
+      "reviewShare": 0.0733,
+      "positiveReviews": 10,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.9091,
+      "negativeShare": 0.0909,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "best sleep ever",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "was not able to get an extended period of sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "|||weight",
+      "label": "Weight",
+      "score": 89,
+      "averageSentiment": 8.9,
+      "reviewCount": 7,
+      "reviewShare": 0.0467,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Light as a feather, too!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "mask_body|||overall_satisfaction",
+      "label": "Mask Body · Overall Satisfaction",
+      "score": 78,
+      "averageSentiment": 7.8,
+      "reviewCount": 8,
+      "reviewShare": 0.0533,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.75,
+      "negativeShare": 0.25,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 8
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "My Favorite Mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Product needs more work",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "||long_term_cpap_user|overall_satisfaction",
+      "label": "Long Term CPAP User · Overall Satisfaction",
+      "score": 95,
+      "averageSentiment": 9.5,
+      "reviewCount": 6,
+      "reviewShare": 0.04,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 6
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "best one i ever used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "|||therapy_effectiveness",
+      "label": "Therapy Effectiveness",
+      "score": 83,
+      "averageSentiment": 8.3,
+      "reviewCount": 6,
+      "reviewShare": 0.04,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "without having any apnea events",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "cloth_liner|||comfort",
+      "label": "Cloth Liner · Comfort",
+      "score": 92,
+      "averageSentiment": 9.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0333,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "not feel like a mask at all!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": []
+    }
+  ],
+  "concerns": [
+    {
+      "id": "mask_body|||durability",
+      "label": "Mask Body · Durability",
+      "score": 36,
+      "averageSentiment": 3.6,
+      "reviewCount": 9,
+      "reviewShare": 0.06,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.2222,
+      "negativeShare": 0.7778,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 9
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "long life without having to replace the “cushion,”",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it will have a blow out around your lip",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+        }
+      ]
+    }
+  ],
+  "retailers": [
+    {
+      "retailer": "DirectHomeMedical",
+      "reviewCount": 132,
+      "averageRating": 3.85,
+      "ratingCount": 132,
+      "evidenceStrength": "strong",
+      "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 18,
+      "averageRating": 4.67,
+      "ratingCount": 18,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "Best mask ever",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+      },
+      {
+        "text": "it has been the most comfortable mask I have ever tried",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+      },
+      {
+        "text": "Most comfortable mask I have ever owned",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+      },
+      {
+        "text": "The new Elan is even better",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+      },
+      {
+        "text": "Fantastic!",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+      },
+      {
+        "text": "best one i ever used",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+      }
+    ],
+    "negative": [
+      {
+        "text": "DIDN'T LIKE THE FIT AT ALL",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+      },
+      {
+        "text": "When I have the strap tightened enough so that it stays on, it hurts my nose",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+      },
+      {
+        "text": "I was having so much burning and itching where the silicone touched my face",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/sleepweaver-elan-cloth-cpap-mask"
+      },
+      {
+        "text": "I was unable to figure out a way to get it to seal",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+      },
+      {
+        "text": "Couldn't get it to seal at all",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+      },
+      {
+        "text": "it just leaks no matter what",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

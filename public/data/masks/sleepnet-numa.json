@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 2,
+  "slug": "sleepnet-numa",
+  "name": "SleepNet Numa",
+  "catalogOrder": 89,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 9,
+    "eligibleReviews": 9,
+    "processedShare": 1.0,
+    "retailerCount": 2,
+    "reviewDateStart": "2019-04-10",
+    "reviewDateEnd": "2023-02-13"
+  },
+  "overall": {
+    "compositeScore": 62,
+    "ratingComponent": {
+      "average": 3.33,
+      "score": 67,
+      "reviewCount": 9,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 5.4,
+      "score": 54,
+      "reviewCount": 6,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [
+    {
+      "id": "ease-of-use",
+      "label": "Ease of use",
+      "score": 46,
+      "averageSentiment": 4.7,
+      "reviewCount": 5,
+      "reviewShare": 0.5556,
+      "positiveReviews": 1,
+      "mixedReviews": 2,
+      "negativeReviews": 2,
+      "positiveShare": 0.2,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        },
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "velcro",
+          "label": "Velcro",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        },
+        {
+          "id": "returning_cpap_user",
+          "label": "Returning CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the mask position keeps my mouth closed",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
+        },
+        {
+          "text": "Easily replaceable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "requiring the user to hook the headgear into place",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+        },
+        {
+          "text": "I tried various tension on the straps",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+        }
+      ]
+    }
+  ],
+  "aspects": [
+    {
+      "id": "overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 54,
+      "averageSentiment": 5.4,
+      "reviewCount": 6,
+      "reviewShare": 0.6667,
+      "positiveReviews": 3,
+      "mixedReviews": 1,
+      "negativeReviews": 2,
+      "positiveShare": 0.5,
+      "negativeShare": 0.3333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I think I found the best mask for me!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+        },
+        {
+          "text": "Love the headgear and mask combo!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Very Poor Design",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+        },
+        {
+          "text": "it SUCKS!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 6,
+      "averageRating": 3.0,
+      "ratingCount": 6,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+    },
+    {
+      "retailer": "CPAP.com",
+      "reviewCount": 3,
+      "averageRating": 4.0,
+      "ratingCount": 3,
+      "evidenceStrength": "limited",
+      "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "I think I found the best mask for me!",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+      },
+      {
+        "text": "Love the headgear and mask combo!",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+      },
+      {
+        "text": "Now, I sleep comfortably",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
+      },
+      {
+        "text": "Easily replaceable",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+      },
+      {
+        "text": "it has less straps than the Simplus",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
+      }
+    ],
+    "negative": [
+      {
+        "text": "it also left me with a skin abrasion on my cheek - raw and sore where the plastic pushed into my cheek all night",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
+      },
+      {
+        "text": "requiring the user to hook the headgear into place",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+      },
+      {
+        "text": "Horrible fit",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+      },
+      {
+        "text": "would wake with a dry mouth",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

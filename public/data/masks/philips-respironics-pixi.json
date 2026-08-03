@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 2,
+  "slug": "philips-respironics-pixi",
+  "name": "Philips Respironics Pixi",
+  "catalogOrder": 100,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 4,
+    "eligibleReviews": 4,
+    "processedShare": 1.0,
+    "retailerCount": 1,
+    "reviewDateStart": "2012-08-29",
+    "reviewDateEnd": "2026-03-14"
+  },
+  "overall": {
+    "compositeScore": null,
+    "ratingComponent": {
+      "average": 4.25,
+      "score": 85,
+      "reviewCount": 4,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 9.0,
+      "score": 90,
+      "reviewCount": 3,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [],
+  "aspects": [],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "CPAP.com",
+      "reviewCount": 4,
+      "averageRating": 4.25,
+      "ratingCount": 4,
+      "evidenceStrength": "limited",
+      "productUrl": "https://www.cpap.com/products/pixi-pediatric-cpap-mask?variant=49040690839868"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "Pixi is a MUST for Pedi Patients",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/pixi-pediatric-cpap-mask?variant=49040690839868"
+      },
+      {
+        "text": "Great mask",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/pixi-pediatric-mask-assembly-kit?variant=49040689725756"
+      },
+      {
+        "text": "Good",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/pixi-pediatric-cpap-mask?variant=49040690839868"
+      }
+    ],
+    "negative": [
+      {
+        "text": "Hose pops out of port",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/pixi-pediatric-cpap-mask?variant=49040690839868"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

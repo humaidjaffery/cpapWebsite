@@ -8,10 +8,11 @@ export interface MailerooTemplateEmailParams {
   toName: string;
   subject: string;
   referenceId: string;
+  scheduledAt: string;
   templateData: {
     first_name: string;
-    personalized_snippet: string;
-    site_url: string;
+    user_suggestion: string;
+    user_past_experience: string;
     waitlist_doc_id: string;
   };
 }
@@ -47,6 +48,7 @@ export async function sendMailerooTemplateEmail(
       waitlist_doc_id: params.templateData.waitlist_doc_id,
     },
     reference_id: params.referenceId,
+    scheduled_at: params.scheduledAt,
   };
 
   if (params.replyToAddress) {

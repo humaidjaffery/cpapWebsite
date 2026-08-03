@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 2,
+  "slug": "resmed-airtouch-n20-for-her",
+  "name": "ResMed AirTouch N20 For Her",
+  "catalogOrder": 92,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 5,
+    "eligibleReviews": 5,
+    "processedShare": 1.0,
+    "retailerCount": 1,
+    "reviewDateStart": "2020-09-24",
+    "reviewDateEnd": "2025-06-24"
+  },
+  "overall": {
+    "compositeScore": null,
+    "ratingComponent": {
+      "average": 5.0,
+      "score": 100,
+      "reviewCount": 5,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 9.2,
+      "score": 92,
+      "reviewCount": 2,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 88,
+      "averageSentiment": 8.8,
+      "reviewCount": 5,
+      "reviewShare": 1.0,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "foam_cushion",
+          "label": "Foam Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 2
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Most comfortable mask I've found",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
+        },
+        {
+          "text": "It is so light",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
+        }
+      ],
+      "negativeEvidence": []
+    }
+  ],
+  "aspects": [],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 5,
+      "averageRating": 5.0,
+      "ratingCount": 5,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "Most comfortable mask I've found",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
+      },
+      {
+        "text": "Wonderful mask for her",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
+      },
+      {
+        "text": "I have very sensitive skin",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask-kit"
+      },
+      {
+        "text": "Very Comfortable and Adjustable Product",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
+      },
+      {
+        "text": "The mask is held very securely on my face at night and doesn't seem to move at all",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
+      }
+    ],
+    "negative": []
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

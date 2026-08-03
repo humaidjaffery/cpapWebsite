@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 2,
+  "slug": "sleepnet-mojo-gel",
+  "name": "SleepNet Mojo Gel",
+  "catalogOrder": 111,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 2,
+    "eligibleReviews": 2,
+    "processedShare": 1.0,
+    "retailerCount": 1,
+    "reviewDateStart": "2020-05-05",
+    "reviewDateEnd": "2020-05-05"
+  },
+  "overall": {
+    "compositeScore": null,
+    "ratingComponent": {
+      "average": 1.5,
+      "score": 30,
+      "reviewCount": 2,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 3.0,
+      "score": 30,
+      "reviewCount": 1,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [],
+  "aspects": [],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 2,
+      "averageRating": 1.5,
+      "ratingCount": 2,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/mojo-gel-full-cpap-mask-with-headgear"
+    }
+  ],
+  "evidence": {
+    "positive": [],
+    "negative": [
+      {
+        "text": "Not worth the price",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/mojo-gel-full-cpap-mask-with-headgear"
+      },
+      {
+        "text": "difficult to use if you suffer from claustrophobia",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/mojo-gel-full-cpap-mask-with-headgear"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

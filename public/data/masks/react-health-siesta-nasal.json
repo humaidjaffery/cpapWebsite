@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 2,
+  "slug": "react-health-siesta-nasal",
+  "name": "React Health Siesta Nasal",
+  "catalogOrder": 82,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 15,
+    "eligibleReviews": 15,
+    "processedShare": 1.0,
+    "retailerCount": 2,
+    "reviewDateStart": "2021-11-11",
+    "reviewDateEnd": "2026-03-31"
+  },
+  "overall": {
+    "compositeScore": 83,
+    "ratingComponent": {
+      "average": 4.33,
+      "score": 87,
+      "reviewCount": 15,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 7.8,
+      "score": 78,
+      "reviewCount": 8,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [],
+  "aspects": [
+    {
+      "id": "overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 78,
+      "averageSentiment": 7.8,
+      "reviewCount": 8,
+      "reviewShare": 0.5333,
+      "positiveReviews": 6,
+      "mixedReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.75,
+      "negativeShare": 0.125,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I am very happy with it !",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-nasal-cpap-mask-system"
+        },
+        {
+          "text": "I love this",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "This mask is not for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
+        }
+      ]
+    }
+  ],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "DirectHomeMedical",
+      "reviewCount": 11,
+      "averageRating": 4.45,
+      "ratingCount": 11,
+      "evidenceStrength": "limited",
+      "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 4,
+      "averageRating": 4.0,
+      "ratingCount": 4,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/siesta-nasal-cpap-mask-system"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "I am very happy with it !",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/siesta-nasal-cpap-mask-system"
+      },
+      {
+        "text": "I love this",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
+      },
+      {
+        "text": "This is my favorite mask!",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
+      },
+      {
+        "text": "It's all good -",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
+      },
+      {
+        "text": "Very Good for the money",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
+      },
+      {
+        "text": "Comfy headgear",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
+      }
+    ],
+    "negative": [
+      {
+        "text": "Not comfortable",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/siesta-nasal-cpap-mask-system"
+      },
+      {
+        "text": "I couldn't get the headgear to fit well",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
+      },
+      {
+        "text": "Too big",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
+      },
+      {
+        "text": "Before I had the full facial covering mouth and nose",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

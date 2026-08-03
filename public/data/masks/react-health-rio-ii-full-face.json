@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 2,
+  "slug": "react-health-rio-ii-full-face",
+  "name": "React Health Rio II Full Face",
+  "catalogOrder": 115,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 2,
+    "eligibleReviews": 2,
+    "processedShare": 1.0,
+    "retailerCount": 1,
+    "reviewDateStart": "2025-07-09",
+    "reviewDateEnd": "2026-04-24"
+  },
+  "overall": {
+    "compositeScore": null,
+    "ratingComponent": {
+      "average": 5.0,
+      "score": 100,
+      "reviewCount": 2,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 9.0,
+      "score": 90,
+      "reviewCount": 1,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [],
+  "aspects": [],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "DirectHomeMedical",
+      "reviewCount": 2,
+      "averageRating": 5.0,
+      "ratingCount": 2,
+      "evidenceStrength": "limited",
+      "productUrl": "https://directhomemedical.com/products/react-rio-ii-full-face-cpap-bipap-mask"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "Excellent",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/react-rio-ii-full-face-cpap-bipap-mask"
+      },
+      {
+        "text": "The mask fit snugly",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/react-rio-ii-full-face-cpap-bipap-mask"
+      }
+    ],
+    "negative": []
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

@@ -1,0 +1,2625 @@
+{
+  "schemaVersion": 2,
+  "slug": "resmed-ultra-mirage",
+  "name": "ResMed Ultra Mirage",
+  "catalogOrder": 49,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 121,
+    "eligibleReviews": 121,
+    "processedShare": 1.0,
+    "retailerCount": 2,
+    "reviewDateStart": "2012-03-28",
+    "reviewDateEnd": "2025-02-27"
+  },
+  "overall": {
+    "compositeScore": 74,
+    "ratingComponent": {
+      "average": 3.88,
+      "score": 78,
+      "reviewCount": 121,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 7.0,
+      "score": 70,
+      "reviewCount": 47,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 34,
+      "averageSentiment": 3.4,
+      "reviewCount": 23,
+      "reviewShare": 0.1901,
+      "positiveReviews": 4,
+      "mixedReviews": 2,
+      "negativeReviews": 17,
+      "positiveShare": 0.1739,
+      "negativeShare": 0.7391,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 4
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "forehead_pad",
+          "label": "Forehead Pad",
+          "reviewCount": 1
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 3
+        },
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        },
+        {
+          "id": "static_sleeping",
+          "label": "Static Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 7
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "it is very comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "First mask that fit comfortably",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "left sore place on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Extremely Bulky",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "fit-and-sizing",
+      "label": "Fit & sizing",
+      "score": 60,
+      "averageSentiment": 6.0,
+      "reviewCount": 28,
+      "reviewShare": 0.2314,
+      "positiveReviews": 17,
+      "mixedReviews": 2,
+      "negativeReviews": 9,
+      "positiveShare": 0.6071,
+      "negativeShare": 0.3214,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 1
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "large_face",
+          "label": "Large Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Perfect fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "easy to adjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The mask doesn't fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "could not get adjusted",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "seal-and-leaks",
+      "label": "Seal & leaks",
+      "score": 40,
+      "averageSentiment": 4.0,
+      "reviewCount": 23,
+      "reviewShare": 0.1901,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 16,
+      "positiveShare": 0.3043,
+      "negativeShare": 0.6957,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 3
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "best seal of them all",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Good seals",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Poor seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "does not seal well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "sleep-compatibility",
+      "label": "Sleep compatibility",
+      "score": 26,
+      "averageSentiment": 2.6,
+      "reviewCount": 8,
+      "reviewShare": 0.0661,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.125,
+      "negativeShare": 0.875,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        },
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "the top strap doesn't slip out",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the seal gives way at the slightest movement",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "the mask was very uncomfortable in every sleep position",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "ease-of-use",
+      "label": "Ease of use",
+      "score": 44,
+      "averageSentiment": 4.4,
+      "reviewCount": 17,
+      "reviewShare": 0.1405,
+      "positiveReviews": 5,
+      "mixedReviews": 3,
+      "negativeReviews": 9,
+      "positiveShare": 0.2941,
+      "negativeShare": 0.5294,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 3
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 3
+        },
+        {
+          "id": "limited_dexterity",
+          "label": "Limited Dexterity",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "easy to adjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "What I like is the clips for attachment",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I'm on day five getting up every night re assembling this mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Impossible to fasten",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "airflow-and-noise",
+      "label": "Airflow & noise",
+      "score": 22,
+      "averageSentiment": 2.2,
+      "reviewCount": 7,
+      "reviewShare": 0.0579,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "exhaust_port",
+          "label": "Exhaust Port",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 1
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "air blows out very noisy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "This mask makes a of noise",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "skin-and-pain",
+      "label": "Skin & pain",
+      "score": 34,
+      "averageSentiment": 3.4,
+      "reviewCount": 14,
+      "reviewShare": 0.1157,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 11,
+      "positiveShare": 0.2143,
+      "negativeShare": 0.7857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "dry_mouth_prone",
+          "label": "Dry Mouth Prone",
+          "reviewCount": 1
+        },
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 7
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 3
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I've had problems with a lot of masks causing skin irritation/infection on my nose due to excess pressure from the mask, but not from this…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "does not leak or rub the bridge of my nose raw",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "left sore place on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "This mask is the only one I couldn't wear.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "durability",
+      "label": "Durability",
+      "score": 51,
+      "averageSentiment": 5.1,
+      "reviewCount": 28,
+      "reviewShare": 0.2314,
+      "positiveReviews": 13,
+      "mixedReviews": 3,
+      "negativeReviews": 12,
+      "positiveShare": 0.4643,
+      "negativeShare": 0.4286,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 5
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 4
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 2
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 5
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "the most durable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "very durable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The cushions are so thin, they may as well not exist",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "This mask separated right were the plastic piece swivels",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "label": "Value",
+      "score": 64,
+      "averageSentiment": 6.4,
+      "reviewCount": 16,
+      "reviewShare": 0.1322,
+      "positiveReviews": 10,
+      "mixedReviews": 2,
+      "negativeReviews": 4,
+      "positiveShare": 0.625,
+      "negativeShare": 0.25,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Great value!!!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "I can purchase JUST THE CUSHION when a replacement is needed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "High Cost isn't always a better product..",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "it is expensive when you have no insurance coverage for cpap supplies",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "therapy-experience",
+      "label": "Therapy experience",
+      "score": 57,
+      "averageSentiment": 5.7,
+      "reviewCount": 24,
+      "reviewShare": 0.1983,
+      "positiveReviews": 15,
+      "mixedReviews": 0,
+      "negativeReviews": 9,
+      "positiveShare": 0.625,
+      "negativeShare": 0.375,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 3
+        },
+        {
+          "id": "first_week",
+          "label": "First Week",
+          "reviewCount": 2
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 2
+        },
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "This is only mask that I know will work",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "I have never been able to tolerate CPAP",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "couldn't breath with it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "I never got one night of use out of it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    }
+  ],
+  "aspects": [
+    {
+      "id": "overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 70,
+      "averageSentiment": 7.0,
+      "reviewCount": 47,
+      "reviewShare": 0.3884,
+      "positiveReviews": 35,
+      "mixedReviews": 1,
+      "negativeReviews": 11,
+      "positiveShare": 0.7447,
+      "negativeShare": 0.234,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 4
+        },
+        {
+          "id": "bed_partner",
+          "label": "Bed Partner",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Excellent",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Best one I have ever used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Very hard",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Didn't like the mask at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "seal_leak",
+      "label": "Seal Leak",
+      "score": 40,
+      "averageSentiment": 4.0,
+      "reviewCount": 23,
+      "reviewShare": 0.1901,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 16,
+      "positiveShare": 0.3043,
+      "negativeShare": 0.6957,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 3
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "best seal of them all",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Good seals",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Poor seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "does not seal well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "fit",
+      "label": "Fit",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 22,
+      "reviewShare": 0.1818,
+      "positiveReviews": 16,
+      "mixedReviews": 1,
+      "negativeReviews": 5,
+      "positiveShare": 0.7273,
+      "negativeShare": 0.2273,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "fit_pack",
+          "label": "Fit Pack",
+          "reviewCount": 1
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "large_face",
+          "label": "Large Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Perfect fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Fits great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The mask doesn't fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Large too small for my face shape",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 37,
+      "averageSentiment": 3.7,
+      "reviewCount": 16,
+      "reviewShare": 0.1322,
+      "positiveReviews": 3,
+      "mixedReviews": 2,
+      "negativeReviews": 11,
+      "positiveShare": 0.1875,
+      "negativeShare": 0.6875,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "forehead_pad",
+          "label": "Forehead Pad",
+          "reviewCount": 1
+        },
+        {
+          "id": "forehead_support",
+          "label": "Forehead Support",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_liner",
+          "label": "Mask Liner",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "static_sleeping",
+          "label": "Static Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 5
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "it is very comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "First mask that fit comfortably",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "can't wear this",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Not impressed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "durability",
+      "label": "Durability",
+      "score": 64,
+      "averageSentiment": 6.4,
+      "reviewCount": 14,
+      "reviewShare": 0.1157,
+      "positiveReviews": 10,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 5
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "the most durable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "very durable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Didn’t even last me a week",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "the cushion goes bad fast",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "label": "Price",
+      "score": 64,
+      "averageSentiment": 6.4,
+      "reviewCount": 13,
+      "reviewShare": 0.1074,
+      "positiveReviews": 9,
+      "mixedReviews": 1,
+      "negativeReviews": 3,
+      "positiveShare": 0.6923,
+      "negativeShare": 0.2308,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "absolutely best price around",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Price is excellent",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "High Cost isn't always a better product..",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "it is expensive when you have no insurance coverage for cpap supplies",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "therapy_effectiveness",
+      "label": "Therapy Effectiveness",
+      "score": 71,
+      "averageSentiment": 7.1,
+      "reviewCount": 13,
+      "reviewShare": 0.1074,
+      "positiveReviews": 11,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.8462,
+      "negativeShare": 0.1538,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 3
+        },
+        {
+          "id": "bipap_use",
+          "label": "Bipap Use",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "This is only mask that I know will work",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Works exactly the way I need it to",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "did not work with res med sense 10 cpap",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "it’s almost ineffective",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "previous_mask_comparison",
+      "label": "Previous Mask Comparison",
+      "score": 52,
+      "averageSentiment": 5.2,
+      "reviewCount": 12,
+      "reviewShare": 0.0992,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.5,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "nasal_pillow_preference",
+          "label": "Nasal Pillow Preference",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "They have tried to give me others to try out but this one is better by far for me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Before this I had only tried nasal pillow masks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Tried this instead of usual resumed mirage quattro",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "prefers the nose only type mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "ease_of_use",
+      "label": "Ease Of Use",
+      "score": 41,
+      "averageSentiment": 4.1,
+      "reviewCount": 10,
+      "reviewShare": 0.0826,
+      "positiveReviews": 3,
+      "mixedReviews": 1,
+      "negativeReviews": 6,
+      "positiveShare": 0.3,
+      "negativeShare": 0.6,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "clip",
+          "label": "Clip",
+          "reviewCount": 3
+        },
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        },
+        {
+          "id": "travel_use",
+          "label": "Travel Use",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "What I like is the clips for attachment",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Great for putting a cover over the silicone that I need",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Impossible to fasten",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Head gear is a nightmare to use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "material_quality",
+      "label": "Material Quality",
+      "score": 50,
+      "averageSentiment": 5.0,
+      "reviewCount": 9,
+      "reviewShare": 0.0744,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.5556,
+      "negativeShare": 0.4444,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "the equipment was good quality",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "good quality",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The cushions are so thin, they may as well not exist",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "the plastic used is to thin",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "noise",
+      "label": "Noise",
+      "score": 20,
+      "averageSentiment": 2.0,
+      "reviewCount": 6,
+      "reviewShare": 0.0496,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 1
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "air blows out very noisy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "This mask makes a of noise",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "pain",
+      "label": "Pain",
+      "score": 17,
+      "averageSentiment": 1.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0496,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 4
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "This mask is the only one I couldn't wear.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "This mask hurts your face to wear it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "therapy_compliance",
+      "label": "Therapy Compliance",
+      "score": 42,
+      "averageSentiment": 4.2,
+      "reviewCount": 6,
+      "reviewShare": 0.0496,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.3333,
+      "negativeShare": 0.6667,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "first_week",
+          "label": "First Week",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I have never been able to tolerate CPAP",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "having a comfortable, trouble free mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Give up after first night!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "could not use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "adjustment",
+      "label": "Adjustment",
+      "score": 66,
+      "averageSentiment": 6.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0413,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8,
+      "negativeShare": 0.2,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "easy to adjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "The swivel on the Ultra is better than the Quatro they gave me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "could not get adjusted",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "breakage",
+      "label": "Breakage",
+      "score": 22,
+      "averageSentiment": 2.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0413,
+      "positiveReviews": 0,
+      "mixedReviews": 1,
+      "negativeReviews": 4,
+      "positiveShare": 0.0,
+      "negativeShare": 0.8,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "connector",
+          "label": "Connector",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "quick_release",
+          "label": "Quick Release",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "This mask separated right were the plastic piece swivels",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "breaks apart easily while you are sleeping",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "sleep_quality",
+      "label": "Sleep Quality",
+      "score": 44,
+      "averageSentiment": 4.4,
+      "reviewCount": 5,
+      "reviewShare": 0.0413,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.4,
+      "negativeShare": 0.6,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I finally know how how it feels to say I cant sleep without my CPAP",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "I was able to sleep without waking up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Terrible sleeping experience with the mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "I've gotten very little sleep using it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "stability",
+      "label": "Stability",
+      "score": 32,
+      "averageSentiment": 3.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0413,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.2,
+      "negativeShare": 0.8,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        },
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 1
+        },
+        {
+          "id": "top_strap",
+          "label": "Top Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "the top strap doesn't slip out",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the seal gives way at the slightest movement",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "the swivel adapter was not correctly seated together",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "headgear",
+      "label": "Headgear",
+      "score": 46,
+      "averageSentiment": 4.5,
+      "reviewCount": 10,
+      "reviewShare": 0.0826,
+      "positiveReviews": 2,
+      "mixedReviews": 4,
+      "negativeReviews": 4,
+      "positiveShare": 0.2,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 10
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The mask and headgear fits better than any he's had!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "I was so happy to find this mask and head gear at a reasonable cost",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "The wider Ultra Mirage head gear is superior",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Head gear is a nightmare to use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "the head piece is to big",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "I didn't like the the headgear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "cushion",
+      "label": "Cushion",
+      "score": 31,
+      "averageSentiment": 3.1,
+      "reviewCount": 8,
+      "reviewShare": 0.0661,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.125,
+      "negativeShare": 0.875,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 8
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I did like the cushion on the Airfit though",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The cushions are so thin, they may as well not exist",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "the cushion is shallow and thus the pressure on you face from the hard plastic base of the cushion can actually cut your skin",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "the cushion is so thin",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "mask_body",
+      "label": "Mask Body",
+      "score": 40,
+      "averageSentiment": 4.0,
+      "reviewCount": 7,
+      "reviewShare": 0.0579,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.2857,
+      "negativeShare": 0.7143,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Best Full Mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "This mask is one of the only mask with an adjustable section at the nose to ease the pressure",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Mask seems to work pretty good",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I'm on day five getting up every night re assembling this mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "the plastic used is to thin",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Too hard on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    }
+  ],
+  "partAspectMatrix": [],
+  "contexts": [
+    {
+      "id": "long-term-users",
+      "label": "Long-term CPAP users",
+      "score": 76,
+      "averageSentiment": 7.6,
+      "reviewCount": 9,
+      "reviewShare": 0.0744,
+      "positiveReviews": 8,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8889,
+      "negativeShare": 0.1111,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 9
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It's is the best mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Used them for over 25 they are great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "This mask is the only one I couldn't wear.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "sourceContexts": [
+        "long_term_cpap_user"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": true
+    }
+  ],
+  "contextAspectMatrix": [
+    {
+      "id": "long-term-users|durability",
+      "label": "Long-term CPAP users · Durability",
+      "score": 78,
+      "averageSentiment": 7.8,
+      "reviewCount": 5,
+      "reviewShare": 0.0413,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "Used them for over 25",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [],
+      "contextId": "long-term-users",
+      "contextLabel": "Long-term CPAP users",
+      "aspectId": "durability",
+      "aspectLabel": "Durability"
+    }
+  ],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [
+    {
+      "id": "face",
+      "label": "Face",
+      "score": 32,
+      "averageSentiment": 3.1,
+      "reviewCount": 10,
+      "reviewShare": 0.0826,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 8,
+      "positiveShare": 0.2,
+      "negativeShare": 0.8,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_liner",
+          "label": "Mask Liner",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "large_face",
+          "label": "Large Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "stomach_sleeping",
+          "label": "Stomach Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 10
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I love my face mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "First mask that fit comfortably",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "left sore place on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Not impressed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        },
+        {
+          "text": "Very uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "complaintReviews": 8,
+      "complaintShare": 0.0661,
+      "complaintSeverity": 16,
+      "complaintAspects": [
+        {
+          "id": "pain",
+          "label": "Pain",
+          "reviewCount": 4
+        },
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 3
+        },
+        {
+          "id": "face_marks",
+          "label": "Face Marks",
+          "reviewCount": 2
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 1
+        },
+        {
+          "id": "irritation",
+          "label": "Irritation",
+          "reviewCount": 1
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ]
+    }
+  ],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [
+    {
+      "id": "|||price",
+      "label": "Price",
+      "score": 70,
+      "averageSentiment": 7.0,
+      "reviewCount": 10,
+      "reviewShare": 0.0826,
+      "positiveReviews": 8,
+      "mixedReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.8,
+      "negativeShare": 0.1,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "absolutely best price around",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "High Cost isn't always a better product..",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "|||therapy_effectiveness",
+      "label": "Therapy Effectiveness",
+      "score": 70,
+      "averageSentiment": 7.0,
+      "reviewCount": 7,
+      "reviewShare": 0.0579,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Works exactly the way I need it to",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "did not work with res med sense 10 cpap",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "||long_term_cpap_user|durability",
+      "label": "Long Term CPAP User · Durability",
+      "score": 78,
+      "averageSentiment": 7.8,
+      "reviewCount": 5,
+      "reviewShare": 0.0413,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 5
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Used them for over 25",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    }
+  ],
+  "concerns": [
+    {
+      "id": "|||seal_leak",
+      "label": "Seal Leak",
+      "score": 40,
+      "averageSentiment": 4.0,
+      "reviewCount": 14,
+      "reviewShare": 0.1157,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 10,
+      "positiveShare": 0.2857,
+      "negativeShare": 0.7143,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "best seal of them all",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "It leaked air all night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "|||comfort",
+      "label": "Comfort",
+      "score": 37,
+      "averageSentiment": 3.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0496,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.1667,
+      "negativeShare": 0.8333,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "it is very comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+        }
+      ]
+    }
+  ],
+  "retailers": [
+    {
+      "retailer": "DirectHomeMedical",
+      "reviewCount": 117,
+      "averageRating": 3.85,
+      "ratingCount": 117,
+      "evidenceStrength": "strong",
+      "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 4,
+      "averageRating": 4.75,
+      "ratingCount": 4,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/ultra-mirage-full-face-cpap-mask"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "Excellent",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+      },
+      {
+        "text": "Perfect fit",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+      },
+      {
+        "text": "Best one I have ever used",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+      },
+      {
+        "text": "I love the new mask",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+      },
+      {
+        "text": "the most durable",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/ultra-mirage-full-face-cpap-mask"
+      },
+      {
+        "text": "This is only mask that I know will work",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+      }
+    ],
+    "negative": [
+      {
+        "text": "left sore place on my face",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+      },
+      {
+        "text": "Extremely Bulky",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+      },
+      {
+        "text": "Not impressed",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+      },
+      {
+        "text": "Poor seal",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+      },
+      {
+        "text": "Mask didn’t match my hose connection",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+      },
+      {
+        "text": "does not seal well",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/resmed-ultra-mirage-full-face-cpap-mask"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

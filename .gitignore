@@ -45,3 +45,5 @@ Thumbs.db
 # Environment files (contains sensitive Firebase config)
 src/environments/environment*.ts
 !src/environments/environment.example.ts
+functions/.env*
+functions/.npm-cache/

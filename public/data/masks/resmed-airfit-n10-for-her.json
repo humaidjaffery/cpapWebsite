@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "slug": "resmed-airfit-n10-for-her",
+  "name": "ResMed AirFit N10 For Her",
+  "catalogOrder": 86,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 10,
+    "eligibleReviews": 10,
+    "processedShare": 1.0,
+    "retailerCount": 1,
+    "reviewDateStart": "2018-05-11",
+    "reviewDateEnd": "2023-02-16"
+  },
+  "overall": {
+    "compositeScore": null,
+    "ratingComponent": {
+      "average": 4.4,
+      "score": 88,
+      "reviewCount": 10,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 8.8,
+      "score": 88,
+      "reviewCount": 4,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [],
+  "aspects": [],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 10,
+      "averageRating": 4.4,
+      "ratingCount": 10,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/airfit-n10-for-her-cpap-mask-kit"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "It is the best mask for me",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airfit-n10-for-her-cpap-mask-kit"
+      },
+      {
+        "text": "very light and comfortable",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airfit-n10-for-her-nasal-cpap-mask"
+      },
+      {
+        "text": "comfortable",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airfit-n10-for-her-cpap-mask-kit"
+      },
+      {
+        "text": "the head gear and the mask itself is very comfortable",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airfit-n10-for-her-nasal-cpap-mask"
+      },
+      {
+        "text": "does not shift even with changing positions during the night",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airfit-n10-for-her-cpap-mask-kit"
+      }
+    ],
+    "negative": [
+      {
+        "text": "the air vent on this mask is very noisy",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airfit-n10-for-her-nasal-cpap-mask"
+      },
+      {
+        "text": "having to find one that fits and works for me is extremely hard and causes me panic attacks",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airfit-n10-for-her-cpap-mask-kit"
+      },
+      {
+        "text": "getting used to a mask is difficult",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airfit-n10-for-her-nasal-cpap-mask"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

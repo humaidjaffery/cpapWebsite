@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 2,
+  "slug": "resmed-airfit-f30i-x30i",
+  "name": "ResMed AirFit F30i / X30i",
+  "catalogOrder": 96,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 5,
+    "eligibleReviews": 5,
+    "processedShare": 1.0,
+    "retailerCount": 1,
+    "reviewDateStart": "2021-10-14",
+    "reviewDateEnd": "2024-01-11"
+  },
+  "overall": {
+    "compositeScore": null,
+    "ratingComponent": {
+      "average": 4.4,
+      "score": 88,
+      "reviewCount": 5,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 8.5,
+      "score": 85,
+      "reviewCount": 2,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [],
+  "aspects": [],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "CPAPsupplies.com",
+      "reviewCount": 5,
+      "averageRating": 4.4,
+      "ratingCount": 5,
+      "evidenceStrength": "limited",
+      "productUrl": "https://cpapsupplies.com/airfit-f30i-frame-only-by-resmed"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "Excellent system",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/airfit-f30i-frame-only-by-resmed"
+      },
+      {
+        "text": "Happy with the product",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/airfit-f30i-frame-only-by-resmed"
+      }
+    ],
+    "negative": [
+      {
+        "text": "still leaking badly",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/airfit-f30i-frame-only-by-resmed"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

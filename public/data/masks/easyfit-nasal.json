@@ -1,0 +1,630 @@
+{
+  "schemaVersion": 2,
+  "slug": "easyfit-nasal",
+  "name": "EasyFit Nasal",
+  "catalogOrder": 81,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 15,
+    "eligibleReviews": 15,
+    "processedShare": 1.0,
+    "retailerCount": 1,
+    "reviewDateStart": "2018-05-11",
+    "reviewDateEnd": "2024-06-20"
+  },
+  "overall": {
+    "compositeScore": 86,
+    "ratingComponent": {
+      "average": 4.4,
+      "score": 88,
+      "reviewCount": 15,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 8.3,
+      "score": 83,
+      "reviewCount": 9,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 68,
+      "averageSentiment": 6.8,
+      "reviewCount": 8,
+      "reviewShare": 0.5333,
+      "positiveReviews": 5,
+      "mixedReviews": 2,
+      "negativeReviews": 1,
+      "positiveShare": 0.625,
+      "negativeShare": 0.125,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Especially like the cushion, very comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        },
+        {
+          "text": "comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "i got a pressure sore on the bridge of the nose after the first night",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        },
+        {
+          "text": "discomfort on the bridge of the nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "fit-and-sizing",
+      "label": "Fit & sizing",
+      "score": 69,
+      "averageSentiment": 6.9,
+      "reviewCount": 9,
+      "reviewShare": 0.6,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7778,
+      "negativeShare": 0.2222,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "great fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        },
+        {
+          "text": "Great automatic fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I believe there is an inherent flaw in the design of the mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        },
+        {
+          "text": "as i have small features [between child & adult size]",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "seal-and-leaks",
+      "label": "Seal & leaks",
+      "score": 85,
+      "averageSentiment": 8.5,
+      "reviewCount": 6,
+      "reviewShare": 0.4,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "sealed brilliantly",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        },
+        {
+          "text": "seal.",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "ease-of-use",
+      "label": "Ease of use",
+      "score": 76,
+      "averageSentiment": 7.6,
+      "reviewCount": 8,
+      "reviewShare": 0.5333,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.875,
+      "negativeShare": 0.125,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "easy to use",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        },
+        {
+          "text": "Easy to use and clean",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "had to remove it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ]
+    }
+  ],
+  "aspects": [
+    {
+      "id": "overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 83,
+      "averageSentiment": 8.3,
+      "reviewCount": 9,
+      "reviewShare": 0.6,
+      "positiveReviews": 8,
+      "mixedReviews": 1,
+      "negativeReviews": 0,
+      "positiveShare": 0.8889,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I love this mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        },
+        {
+          "text": "Great Mask!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "fit",
+      "label": "Fit",
+      "score": 69,
+      "averageSentiment": 6.9,
+      "reviewCount": 8,
+      "reviewShare": 0.5333,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.75,
+      "negativeShare": 0.25,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "great fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        },
+        {
+          "text": "Great automatic fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I believe there is an inherent flaw in the design of the mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        },
+        {
+          "text": "as i have small features [between child & adult size]",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 83,
+      "averageSentiment": 8.3,
+      "reviewCount": 6,
+      "reviewShare": 0.4,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Especially like the cushion, very comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        },
+        {
+          "text": "comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "seal_leak",
+      "label": "Seal Leak",
+      "score": 85,
+      "averageSentiment": 8.5,
+      "reviewCount": 6,
+      "reviewShare": 0.4,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "sealed brilliantly",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        },
+        {
+          "text": "seal.",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "ease_of_use",
+      "label": "Ease Of Use",
+      "score": 85,
+      "averageSentiment": 8.5,
+      "reviewCount": 5,
+      "reviewShare": 0.3333,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "easy to use",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        },
+        {
+          "text": "Easy to use and clean",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    }
+  ],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [
+    {
+      "id": "|||overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 83,
+      "averageSentiment": 8.3,
+      "reviewCount": 9,
+      "reviewShare": 0.6,
+      "positiveReviews": 8,
+      "mixedReviews": 1,
+      "negativeReviews": 0,
+      "positiveShare": 0.8889,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I love this mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "|||ease_of_use",
+      "label": "Ease Of Use",
+      "score": 86,
+      "averageSentiment": 8.6,
+      "reviewCount": 5,
+      "reviewShare": 0.3333,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "easy to use",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "|||fit",
+      "label": "Fit",
+      "score": 82,
+      "averageSentiment": 8.2,
+      "reviewCount": 5,
+      "reviewShare": 0.3333,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "great fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    }
+  ],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 15,
+      "averageRating": 4.4,
+      "ratingCount": 15,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "I love this mask",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+      },
+      {
+        "text": "Great Mask!",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+      },
+      {
+        "text": "easy to use",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+      },
+      {
+        "text": "easy life",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+      },
+      {
+        "text": "sealed brilliantly",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+      },
+      {
+        "text": "seal.",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+      }
+    ],
+    "negative": [
+      {
+        "text": "If you are leaving marks on your skin after use, the mask is too tight",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+      },
+      {
+        "text": "i got a pressure sore on the bridge of the nose after the first night",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+      },
+      {
+        "text": "discomfort on the bridge of the nose",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+      },
+      {
+        "text": "Looks big and bulky",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+      },
+      {
+        "text": "Clunky looking",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

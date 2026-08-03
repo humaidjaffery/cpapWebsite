@@ -1,10 +1,11 @@
+import { randomInt } from "crypto";
 import { initializeApp } from "firebase-admin/app";
-import { FieldValue, getFirestore } from "firebase-admin/firestore";
+import { FieldValue, getFirestore, Timestamp } from "firebase-admin/firestore";
 import { onDocumentUpdated } from "firebase-functions/v2/firestore";
 import { defineSecret, defineString } from "firebase-functions/params";
 import { logger } from "firebase-functions";
 import { sendMailerooTemplateEmail } from "./maileroo";
-import { generatePersonalizedSnippet } from "./openai";
+import { generateEmailPhrases } from "./openai";
 import {
   errorToMessage,
   extractEmail,
@@ -19,16 +20,17 @@ initializeApp();
 const OPENAI_API_KEY = defineSecret("OPENAI_API_KEY");
 const MAILEROO_API_KEY = defineSecret("MAILEROO_API_KEY");
 
-const OPENAI_MODEL = defineString("OPENAI_MODEL", { default: "gpt-4.1-mini" });
-const MAILEROO_TEMPLATE_ID = defineString("MAILEROO_TEMPLATE_ID", { default: "" });
+const OPENAI_MODEL = defineString("OPENAI_MODEL", { default: "gpt-5.4-mini" });
+const MAILEROO_TEMPLATE_ID = defineString("MAILEROO_TEMPLATE_ID", { default: "7779" });
 const MAILEROO_FROM_ADDRESS = defineString("MAILEROO_FROM_ADDRESS", {
-  default: "hello@dreamseals.com",
+  default: "shaheer@dreamseals.com",
 });
-const MAILEROO_FROM_NAME = defineString("MAILEROO_FROM_NAME", { default: "DreamSeal" });
-const MAILEROO_REPLY_TO_ADDRESS = defineString("MAILEROO_REPLY_TO_ADDRESS", { default: "" });
-const PUBLIC_SITE_URL = defineString("PUBLIC_SITE_URL", { default: "https://dreamseals.com" });
+const MAILEROO_FROM_NAME = defineString("MAILEROO_FROM_NAME", { default: "Shaheer Rehman" });
+const MAILEROO_REPLY_TO_ADDRESS = defineString("MAILEROO_REPLY_TO_ADDRESS", { default: "shaheerkr77@gmail.com" });
 
-const EMAIL_SUBJECT = "Thanks for sharing your CPAP mask preferences";
+const EMAIL_SUBJECT_PREFIX = "Your CPAP survey: ";
+const MIN_EMAIL_SEND_DELAY_MINUTES = 10;
+const MAX_EMAIL_SEND_DELAY_MINUTES = 20;
 
 export const sendSurveyFollowupEmail = onDocumentUpdated(
   {
@@ -69,7 +71,11 @@ export const sendSurveyFollowupEmail = onDocumentUpdated(
         return null;
       }
 
-      if (current.emailStatus === "generating" || current.emailStatus === "sending") {
+      if (
+        current.emailStatus === "generating" ||
+        current.emailStatus === "sending" ||
+        current.emailStatus === "scheduled"
+      ) {
         return null;
       }
 
@@ -104,15 +110,19 @@ export const sendSurveyFollowupEmail = onDocumentUpdated(
       const templateId = parseTemplateId(MAILEROO_TEMPLATE_ID.value());
       const firstName = getFirstName(claim.data.userName);
       const referenceId = makeMailerooReferenceId(docId);
-      const generated = await generatePersonalizedSnippet({
+      const emailSchedule = createRandomEmailSchedule();
+      const generated = await generateEmailPhrases({
         apiKey: OPENAI_API_KEY.value(),
         model: OPENAI_MODEL.value(),
         survey: sanitizeSurvey(claim.data),
       });
+      const emailSubject = `${EMAIL_SUBJECT_PREFIX}${generated.emailSubject}`;
 
       await ref.update({
         emailStatus: "sending",
-        generatedEmailSnippet: generated.personalizedSnippet,
+        generatedUserSuggestion: generated.userSuggestion,
+        generatedUserPastExperience: generated.userPastExperience,
+        generatedEmailSubject: emailSubject,
         openaiResponseId: generated.responseId || FieldValue.delete(),
         emailLastAttemptAt: FieldValue.serverTimestamp(),
       });
@@ -125,26 +135,30 @@ export const sendSurveyFollowupEmail = onDocumentUpdated(
         replyToAddress: normalizedOptionalParam(MAILEROO_REPLY_TO_ADDRESS.value()),
         toAddress: claim.email,
         toName: firstName,
-        subject: EMAIL_SUBJECT,
+        subject: emailSubject,
         referenceId,
+        scheduledAt: emailSchedule.scheduledAtIso,
         templateData: {
           first_name: firstName,
-          personalized_snippet: generated.personalizedSnippet,
-          site_url: PUBLIC_SITE_URL.value(),
+          user_suggestion: generated.userSuggestion,
+          user_past_experience: generated.userPastExperience,
           waitlist_doc_id: docId,
         },
       });
 
       await ref.update({
-        emailStatus: "sent",
-        emailSentAt: FieldValue.serverTimestamp(),
+        emailStatus: "scheduled",
+        emailScheduledFor: Timestamp.fromDate(emailSchedule.scheduledFor),
+        emailScheduleDelayMinutes: emailSchedule.delayMinutes,
         emailLastAttemptAt: FieldValue.serverTimestamp(),
         mailerooReferenceId: maileroo.referenceId,
         emailError: FieldValue.delete(),
       });
 
-      logger.info("Sent survey follow-up email", {
+      logger.info("Scheduled survey follow-up email", {
         docId,
+        scheduledAt: emailSchedule.scheduledAtIso,
+        delayMinutes: emailSchedule.delayMinutes,
         mailerooReferenceId: maileroo.referenceId,
       });
     } catch (error) {
@@ -175,4 +189,22 @@ function parseTemplateId(value: string): number {
 function normalizedOptionalParam(value: string): string | null {
   const trimmed = value.trim();
   return trimmed || null;
+}
+
+function createRandomEmailSchedule(): {
+  delayMinutes: number;
+  scheduledAtIso: string;
+  scheduledFor: Date;
+} {
+  const delayMinutes = randomInt(
+    MIN_EMAIL_SEND_DELAY_MINUTES,
+    MAX_EMAIL_SEND_DELAY_MINUTES + 1,
+  );
+  const scheduledFor = new Date(Date.now() + delayMinutes * 60 * 1000);
+
+  return {
+    delayMinutes,
+    scheduledAtIso: scheduledFor.toISOString(),
+    scheduledFor,
+  };
 }

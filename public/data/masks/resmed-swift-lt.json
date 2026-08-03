@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 2,
+  "slug": "resmed-swift-lt",
+  "name": "ResMed Swift LT",
+  "catalogOrder": 107,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 3,
+    "eligibleReviews": 3,
+    "processedShare": 1.0,
+    "retailerCount": 1,
+    "reviewDateStart": "2026-04-20",
+    "reviewDateEnd": "2026-05-29"
+  },
+  "overall": {
+    "compositeScore": null,
+    "ratingComponent": {
+      "average": 5.0,
+      "score": 100,
+      "reviewCount": 3,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 9.5,
+      "score": 95,
+      "reviewCount": 2,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [],
+  "aspects": [],
+  "parts": [],
+  "partAspectMatrix": [],
+  "contexts": [],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [],
+  "concerns": [],
+  "retailers": [
+    {
+      "retailer": "1800CPAP.COM",
+      "reviewCount": 3,
+      "averageRating": 5.0,
+      "ratingCount": 3,
+      "evidenceStrength": "limited",
+      "productUrl": "https://1800cpap.com/products/swift-lt-nasal-pillow-cpap-mask"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "EASY!!!!!!",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/swift-lt-nasal-pillow-cpap-mask"
+      },
+      {
+        "text": "Very happy with the product and the service.",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/swift-lt-nasal-pillow-cpap-mask"
+      },
+      {
+        "text": "a great mask",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/swift-lt-nasal-pillow-cpap-mask"
+      }
+    ],
+    "negative": []
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}

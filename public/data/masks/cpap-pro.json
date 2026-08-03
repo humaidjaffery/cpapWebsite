@@ -1,0 +1,3022 @@
+{
+  "schemaVersion": 2,
+  "slug": "cpap-pro",
+  "name": "CPAP PRO",
+  "catalogOrder": 61,
+  "coverage": {
+    "status": "complete",
+    "processedReviews": 60,
+    "eligibleReviews": 60,
+    "processedShare": 1.0,
+    "retailerCount": 1,
+    "reviewDateStart": "2012-04-27",
+    "reviewDateEnd": "2024-12-26"
+  },
+  "overall": {
+    "compositeScore": 78,
+    "ratingComponent": {
+      "average": 3.83,
+      "score": 77,
+      "reviewCount": 60,
+      "weight": 0.6
+    },
+    "textSatisfactionComponent": {
+      "averageSentiment": 8.0,
+      "score": 80,
+      "reviewCount": 36,
+      "weight": 0.4
+    }
+  },
+  "dimensions": [
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 54,
+      "averageSentiment": 5.4,
+      "reviewCount": 32,
+      "reviewShare": 0.5333,
+      "positiveReviews": 14,
+      "mixedReviews": 5,
+      "negativeReviews": 13,
+      "positiveShare": 0.4375,
+      "negativeShare": 0.4062,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 9
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 4
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "plastic_frame",
+          "label": "Plastic Frame",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "claustrophobia",
+          "label": "Claustrophobia",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 7
+        },
+        {
+          "id": "teeth",
+          "label": "Teeth",
+          "reviewCount": 4
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "jaw",
+          "label": "Jaw",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "without a doubt the most comfortable that I have owned",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "no band around my head",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Teeth hurt after 2 hours",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "I absolutely could not wear that headgear!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "fit-and-sizing",
+      "label": "Fit & sizing",
+      "score": 44,
+      "averageSentiment": 4.4,
+      "reviewCount": 22,
+      "reviewShare": 0.3667,
+      "positiveReviews": 5,
+      "mixedReviews": 4,
+      "negativeReviews": 13,
+      "positiveShare": 0.2273,
+      "negativeShare": 0.5909,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 8
+        },
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 6
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        },
+        {
+          "id": "tubing",
+          "label": "Tubing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 2
+        },
+        {
+          "id": "small_mouth",
+          "label": "Small Mouth",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "teeth",
+          "label": "Teeth",
+          "reviewCount": 4
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 3
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 2
+        },
+        {
+          "id": "gums",
+          "label": "Gums",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Fits perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "keep the pillows pressed inward perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Poor design and fitting",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Mouthpiece was too small",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "seal-and-leaks",
+      "label": "Seal & leaks",
+      "score": 35,
+      "averageSentiment": 3.5,
+      "reviewCount": 8,
+      "reviewShare": 0.1333,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.25,
+      "negativeShare": 0.75,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 3
+        },
+        {
+          "id": "tubing",
+          "label": "Tubing",
+          "reviewCount": 2
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "have had to put up with leakage",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Keeps my mouth closed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Unable to get the nasal pillows to seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Impossible to stop leaking around nasal pillows",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "sleep-compatibility",
+      "label": "Sleep compatibility",
+      "score": 49,
+      "averageSentiment": 4.9,
+      "reviewCount": 20,
+      "reviewShare": 0.3333,
+      "positiveReviews": 8,
+      "mixedReviews": 0,
+      "negativeReviews": 12,
+      "positiveShare": 0.4,
+      "negativeShare": 0.6,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 8
+        },
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 4
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 5
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "bed_partner",
+          "label": "Bed Partner",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 3
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "teeth",
+          "label": "Teeth",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This no mask mask solves that problem",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "No sliding",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Never went more than 3 hours before a nose pillow would pop out and wake me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Would not stay in place",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "ease-of-use",
+      "label": "Ease of use",
+      "score": 55,
+      "averageSentiment": 5.5,
+      "reviewCount": 18,
+      "reviewShare": 0.3,
+      "positiveReviews": 7,
+      "mixedReviews": 4,
+      "negativeReviews": 7,
+      "positiveShare": 0.3889,
+      "negativeShare": 0.3889,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "tubing",
+          "label": "Tubing",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 2
+        },
+        {
+          "id": "first_week",
+          "label": "First Week",
+          "reviewCount": 1
+        },
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        },
+        {
+          "id": "limited_dexterity",
+          "label": "Limited Dexterity",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "gums",
+          "label": "Gums",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Followed the directions",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "If you have a problem using your machine due to ALL the straps, this is the answer for your problem",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "there are too many adjustments needed to fit properly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "the tubes need to adjusted constantly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "airflow-and-noise",
+      "label": "Airflow & noise",
+      "score": 35,
+      "averageSentiment": 3.5,
+      "reviewCount": 10,
+      "reviewShare": 0.1667,
+      "positiveReviews": 2,
+      "mixedReviews": 1,
+      "negativeReviews": 7,
+      "positiveShare": 0.2,
+      "negativeShare": 0.7,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 1
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This unit is silent",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Also nice and quiet",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The diffusers are also very noisy, much louder than may current mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "the unit is extremely loud",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "skin-and-pain",
+      "label": "Skin & pain",
+      "score": 51,
+      "averageSentiment": 5.1,
+      "reviewCount": 22,
+      "reviewShare": 0.3667,
+      "positiveReviews": 10,
+      "mixedReviews": 0,
+      "negativeReviews": 12,
+      "positiveShare": 0.4545,
+      "negativeShare": 0.5455,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 3
+        },
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 12
+        },
+        {
+          "id": "teeth",
+          "label": "Teeth",
+          "reviewCount": 4
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 3
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 2
+        },
+        {
+          "id": "chin",
+          "label": "Chin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "finally a morning with no strap marks!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "those awful lines on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Teeth hurt after 2 hours",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "made my skin itch",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "durability",
+      "label": "Durability",
+      "score": 39,
+      "averageSentiment": 3.9,
+      "reviewCount": 5,
+      "reviewShare": 0.0833,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.2,
+      "negativeShare": 0.8,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "tubing",
+          "label": "Tubing",
+          "reviewCount": 2
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "have now used it for more than a decade",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I melted the mouth guard several times",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "last night one of them split open",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "label": "Value",
+      "score": 34,
+      "averageSentiment": 3.4,
+      "reviewCount": 16,
+      "reviewShare": 0.2667,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 13,
+      "positiveShare": 0.1875,
+      "negativeShare": 0.8125,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 2
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        },
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "i would spend three times for it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Great price",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Not worth the $",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "the money and time I wasted on this thing",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "therapy-experience",
+      "label": "Therapy experience",
+      "score": 60,
+      "averageSentiment": 6.0,
+      "reviewCount": 21,
+      "reviewShare": 0.35,
+      "positiveReviews": 11,
+      "mixedReviews": 3,
+      "negativeReviews": 7,
+      "positiveShare": 0.5238,
+      "negativeShare": 0.3333,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "compliance_struggle",
+          "label": "Compliance Struggle",
+          "reviewCount": 1
+        },
+        {
+          "id": "first_week",
+          "label": "First Week",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "had my best sleep last night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "I no longer dread bedtime",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "You need to bite down constantly or the cpap pro is useless",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "I could not wear it for more than 1 very uncomfortable hour",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    }
+  ],
+  "aspects": [
+    {
+      "id": "overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 80,
+      "averageSentiment": 8.0,
+      "reviewCount": 36,
+      "reviewShare": 0.6,
+      "positiveReviews": 29,
+      "mixedReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.8056,
+      "negativeShare": 0.1944,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 2
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "teeth",
+          "label": "Teeth",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Finally--perfect solution for me!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Thank you so much for this product",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The concept is good but it was a miserable failure",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Very disappointed in this product",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "comfort",
+      "label": "Comfort",
+      "score": 59,
+      "averageSentiment": 5.9,
+      "reviewCount": 22,
+      "reviewShare": 0.3667,
+      "positiveReviews": 12,
+      "mixedReviews": 2,
+      "negativeReviews": 8,
+      "positiveShare": 0.5455,
+      "negativeShare": 0.3636,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 5
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 3
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "claustrophobia",
+          "label": "Claustrophobia",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 4
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "lips",
+          "label": "Lips",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "without a doubt the most comfortable that I have owned",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "no band around my head",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I absolutely could not wear that headgear!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "impossible mouthpiece",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "stability",
+      "label": "Stability",
+      "score": 48,
+      "averageSentiment": 4.8,
+      "reviewCount": 16,
+      "reviewShare": 0.2667,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 10,
+      "positiveShare": 0.375,
+      "negativeShare": 0.625,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 6
+        },
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 4
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 2
+        },
+        {
+          "id": "static_sleeping",
+          "label": "Static Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 3
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 2
+        },
+        {
+          "id": "teeth",
+          "label": "Teeth",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "No sliding",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "movement",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Never went more than 3 hours before a nose pillow would pop out and wake me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Would not stay in place",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "fit",
+      "label": "Fit",
+      "score": 52,
+      "averageSentiment": 5.2,
+      "reviewCount": 15,
+      "reviewShare": 0.25,
+      "positiveReviews": 7,
+      "mixedReviews": 1,
+      "negativeReviews": 7,
+      "positiveShare": 0.4667,
+      "negativeShare": 0.4667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 5
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 3
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "small_mouth",
+          "label": "Small Mouth",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "teeth",
+          "label": "Teeth",
+          "reviewCount": 4
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 2
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Fits perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "keep the pillows pressed inward perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Poor design and fitting",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "I think it goes too far back",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "sleep_quality",
+      "label": "Sleep Quality",
+      "score": 75,
+      "averageSentiment": 7.5,
+      "reviewCount": 11,
+      "reviewShare": 0.1833,
+      "positiveReviews": 9,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.8182,
+      "negativeShare": 0.1818,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "compliance_struggle",
+          "label": "Compliance Struggle",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "had my best sleep last night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "I no longer dread bedtime",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "would pop out and wake me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "disturbed by sleep far worse than apnea!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "face_marks",
+      "label": "Face Marks",
+      "score": 54,
+      "averageSentiment": 5.4,
+      "reviewCount": 10,
+      "reviewShare": 0.1667,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.5,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 9
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "those awful lines on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "no marks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "left terrible marks on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Lines on my face lasting throughout the day",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "value",
+      "label": "Value",
+      "score": 34,
+      "averageSentiment": 3.4,
+      "reviewCount": 10,
+      "reviewShare": 0.1667,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 8,
+      "positiveShare": 0.2,
+      "negativeShare": 0.8,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "swivel",
+          "label": "Swivel",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "i would spend three times for it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Great price",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Not worth the $",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "the money and time I wasted on this thing",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "noise",
+      "label": "Noise",
+      "score": 32,
+      "averageSentiment": 3.2,
+      "reviewCount": 9,
+      "reviewShare": 0.15,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.2222,
+      "negativeShare": 0.7778,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "diffuser",
+          "label": "Diffuser",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This unit is silent",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Also nice and quiet",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The diffusers are also very noisy, much louder than may current mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "the unit is extremely loud",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "adjustment",
+      "label": "Adjustment",
+      "score": 39,
+      "averageSentiment": 3.9,
+      "reviewCount": 8,
+      "reviewShare": 0.1333,
+      "positiveReviews": 2,
+      "mixedReviews": 1,
+      "negativeReviews": 5,
+      "positiveShare": 0.25,
+      "negativeShare": 0.625,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "tubing",
+          "label": "Tubing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "gums",
+          "label": "Gums",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "a small elastic hair tie was all that was needed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Adjusting the fit was fairly easy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "there are too many adjustments needed to fit properly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "the tubes need to adjusted constantly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "pain",
+      "label": "Pain",
+      "score": 39,
+      "averageSentiment": 3.9,
+      "reviewCount": 8,
+      "reviewShare": 0.1333,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.25,
+      "negativeShare": 0.75,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "teeth",
+          "label": "Teeth",
+          "reviewCount": 3
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "chin",
+          "label": "Chin",
+          "reviewCount": 1
+        },
+        {
+          "id": "jaw",
+          "label": "Jaw",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "No more straps attached to my head and chin that were giving me headaches",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "every time I rolled over, I thought my nose was going to be ripped off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Teeth hurt after 2 hours",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "burned the roof of my mouth",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "therapy_compliance",
+      "label": "Therapy Compliance",
+      "score": 46,
+      "averageSentiment": 4.6,
+      "reviewCount": 8,
+      "reviewShare": 0.1333,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.375,
+      "negativeShare": 0.625,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [
+        {
+          "id": "compliance_struggle",
+          "label": "Compliance Struggle",
+          "reviewCount": 1
+        },
+        {
+          "id": "first_week",
+          "label": "First Week",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "if I didn’t have this I would not use any",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "I am a mouth breather",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I could not wear it for more than 1 very uncomfortable hour",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "I gave this almost a year and am tired of the work involved",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "ease_of_use",
+      "label": "Ease Of Use",
+      "score": 74,
+      "averageSentiment": 7.4,
+      "reviewCount": 7,
+      "reviewShare": 0.1167,
+      "positiveReviews": 6,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "limited_dexterity",
+          "label": "Limited Dexterity",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Followed the directions",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "If you have a problem using your machine due to ALL the straps, this is the answer for your problem",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "My arms are very limited in usage so I was really makaing every effort for it to work",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "seal_leak",
+      "label": "Seal Leak",
+      "score": 27,
+      "averageSentiment": 2.7,
+      "reviewCount": 7,
+      "reviewShare": 0.1167,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.1429,
+      "negativeShare": 0.8571,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 3
+        },
+        {
+          "id": "tubing",
+          "label": "Tubing",
+          "reviewCount": 2
+        },
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "have had to put up with leakage",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Unable to get the nasal pillows to seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Impossible to stop leaking around nasal pillows",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "label": "Price",
+      "score": 35,
+      "averageSentiment": 3.5,
+      "reviewCount": 6,
+      "reviewShare": 0.1,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.1667,
+      "negativeShare": 0.8333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 2
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The price is a bargain as far as I am concerned",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it is extraordinarily expensive",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "too expensive",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "previous_mask_comparison",
+      "label": "Previous Mask Comparison",
+      "score": 62,
+      "averageSentiment": 6.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0833,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.6,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "compliance_struggle",
+          "label": "Compliance Struggle",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I tried all kinds of masks before finding the CPAP Pro",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "This a great alternative to head straps or full face masks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "What I hated most about previous masks were they'd always slip around and leave those awful marks on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "compared to my mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "sizing",
+      "label": "Sizing",
+      "score": 40,
+      "averageSentiment": 4.0,
+      "reviewCount": 5,
+      "reviewShare": 0.0833,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.2,
+      "negativeShare": 0.8,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 4
+        },
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It comes with medium size, but I order large size",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Mouthpiece was too small",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "the large nasal pillows",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "nasal_pillows",
+      "label": "Nasal Pillows",
+      "score": 37,
+      "averageSentiment": 3.7,
+      "reviewCount": 20,
+      "reviewShare": 0.3333,
+      "positiveReviews": 4,
+      "mixedReviews": 2,
+      "negativeReviews": 14,
+      "positiveShare": 0.2,
+      "negativeShare": 0.7,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 20
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 4
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The CPAP Nasal Pillows, non-mask Mask is comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "This unit is silent",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "I really like that I wake up without mask and headband marks on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Unable to get the nasal pillows to seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "You need to bite down constantly or the cpap pro is useless",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Impossible to stop leaking around nasal pillows",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": [
+        {
+          "id": "stability",
+          "label": "Stability",
+          "score": 25,
+          "averageSentiment": 2.5,
+          "reviewCount": 6,
+          "reviewShare": 0.1,
+          "positiveReviews": 0,
+          "mixedReviews": 0,
+          "negativeReviews": 6,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [],
+          "negativeEvidence": [
+            {
+              "text": "Never went more than 3 hours before a nose pillow would pop out and wake me",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+            },
+            {
+              "text": "The left nasal pillow kept falling off",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oral_cushion",
+      "label": "Oral Cushion",
+      "score": 35,
+      "averageSentiment": 3.5,
+      "reviewCount": 12,
+      "reviewShare": 0.2,
+      "positiveReviews": 2,
+      "mixedReviews": 2,
+      "negativeReviews": 8,
+      "positiveShare": 0.1667,
+      "negativeShare": 0.6667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 12
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "small_mouth",
+          "label": "Small Mouth",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 10
+        },
+        {
+          "id": "teeth",
+          "label": "Teeth",
+          "reviewCount": 3
+        },
+        {
+          "id": "jaw",
+          "label": "Jaw",
+          "reviewCount": 2
+        },
+        {
+          "id": "lips",
+          "label": "Lips",
+          "reviewCount": 1
+        },
+        {
+          "id": "tongue",
+          "label": "Tongue",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Once you get the mouthpiece done correctly this is the best",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "I have a very small mouth and have no trouble with the mouthpiece",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "It is firm and secure and does not come out of my mouth throughout the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Teeth hurt after 2 hours",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "impossible mouthpiece",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "The mouthpiece is not comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "headgear",
+      "label": "Headgear",
+      "score": 54,
+      "averageSentiment": 5.4,
+      "reviewCount": 8,
+      "reviewShare": 0.1333,
+      "positiveReviews": 4,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.5,
+      "negativeShare": 0.5,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 8
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 2
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Love no mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "no band around my head",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "I really like that I wake up without mask and headband marks on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I absolutely could not wear that headgear!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Hair always a mess",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Disappointed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    },
+    {
+      "id": "strap",
+      "label": "Strap",
+      "score": 65,
+      "averageSentiment": 6.5,
+      "reviewCount": 5,
+      "reviewShare": 0.0833,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.6,
+      "negativeShare": 0.4,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Excellent.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Best there is if you don't like straps!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "leaves no strap marks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "could not tolerate the straps",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "they mark up my face for several hours after I get up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "praisedAspects": [],
+      "criticizedAspects": []
+    }
+  ],
+  "partAspectMatrix": [
+    {
+      "id": "nasal_pillows|stability",
+      "label": "Nasal Pillows · Stability",
+      "score": 25,
+      "averageSentiment": 2.5,
+      "reviewCount": 6,
+      "reviewShare": 0.1,
+      "positiveReviews": 0,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "Never went more than 3 hours before a nose pillow would pop out and wake me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "partId": "nasal_pillows",
+      "partLabel": "Nasal Pillows",
+      "aspectId": "stability",
+      "aspectLabel": "Stability"
+    },
+    {
+      "id": "oral_cushion|comfort",
+      "label": "Oral Cushion · Comfort",
+      "score": 24,
+      "averageSentiment": 2.4,
+      "reviewCount": 5,
+      "reviewShare": 0.0833,
+      "positiveReviews": 0,
+      "mixedReviews": 1,
+      "negativeReviews": 4,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "impossible mouthpiece",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "partId": "oral_cushion",
+      "partLabel": "Oral Cushion",
+      "aspectId": "comfort",
+      "aspectLabel": "Comfort"
+    },
+    {
+      "id": "oral_cushion|fit",
+      "label": "Oral Cushion · Fit",
+      "score": 46,
+      "averageSentiment": 4.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0833,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 3,
+      "evidenceStrength": "limited",
+      "positiveEvidence": [
+        {
+          "text": "Once you get the mouthpiece done correctly this is the best",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I think it goes too far back",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "partId": "oral_cushion",
+      "partLabel": "Oral Cushion",
+      "aspectId": "fit",
+      "aspectLabel": "Fit"
+    }
+  ],
+  "contexts": [
+    {
+      "id": "active-sleepers",
+      "label": "Active or restless sleepers",
+      "score": 46,
+      "averageSentiment": 4.6,
+      "reviewCount": 9,
+      "reviewShare": 0.15,
+      "positiveReviews": 3,
+      "mixedReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.3333,
+      "negativeShare": 0.6667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 4
+        },
+        {
+          "id": "tubing",
+          "label": "Tubing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 6
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This no mask mask solves that problem",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "i tossed and turn and it never comes out",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the tubes need to adjusted constantly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "It would not stay once I went to sleep and turned",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "sourceContexts": [
+        "active_sleeping",
+        "restless_sleeping",
+        "tossing_turning"
+      ],
+      "classification": "mixed",
+      "limitedEvidence": true
+    }
+  ],
+  "contextAspectMatrix": [],
+  "bestFor": [],
+  "mayNotSuit": [],
+  "bodySites": [
+    {
+      "id": "mouth",
+      "label": "Mouth",
+      "score": 39,
+      "averageSentiment": 3.9,
+      "reviewCount": 14,
+      "reviewShare": 0.2333,
+      "positiveReviews": 4,
+      "mixedReviews": 2,
+      "negativeReviews": 8,
+      "positiveShare": 0.2857,
+      "negativeShare": 0.5714,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 10
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "small_mouth",
+          "label": "Small Mouth",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 14
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Keeps my mouth closed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "Once you get the mouthpiece done correctly this is the best",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "I have a very small mouth and have no trouble with the mouthpiece",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I also gag trying to put it in my mouth",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "You need to bite down constantly or the cpap pro is useless",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "burned the roof of my mouth",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "complaintReviews": 8,
+      "complaintShare": 0.1333,
+      "complaintSeverity": 17,
+      "complaintAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 3
+        },
+        {
+          "id": "stability",
+          "label": "Stability",
+          "reviewCount": 2
+        },
+        {
+          "id": "gagging",
+          "label": "Gagging",
+          "reviewCount": 1
+        },
+        {
+          "id": "pain",
+          "label": "Pain",
+          "reviewCount": 1
+        },
+        {
+          "id": "sizing",
+          "label": "Sizing",
+          "reviewCount": 1
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 6
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ]
+    },
+    {
+      "id": "teeth",
+      "label": "Teeth",
+      "score": 27,
+      "averageSentiment": 2.7,
+      "reviewCount": 6,
+      "reviewShare": 0.1,
+      "positiveReviews": 0,
+      "mixedReviews": 1,
+      "negativeReviews": 5,
+      "positiveShare": 0.0,
+      "negativeShare": 0.8333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "teeth",
+          "label": "Teeth",
+          "reviewCount": 6
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "Teeth hurt after 2 hours",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "too hard on the bottom teeth",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        },
+        {
+          "text": "I molded it to my teeth as directed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "complaintReviews": 5,
+      "complaintShare": 0.0833,
+      "complaintSeverity": 22,
+      "complaintAspects": [
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 3
+        },
+        {
+          "id": "pain",
+          "label": "Pain",
+          "reviewCount": 3
+        },
+        {
+          "id": "stability",
+          "label": "Stability",
+          "reviewCount": 2
+        },
+        {
+          "id": "overall_satisfaction",
+          "label": "Overall Satisfaction",
+          "reviewCount": 1
+        },
+        {
+          "id": "soreness",
+          "label": "Soreness",
+          "reviewCount": 1
+        }
+      ],
+      "involvedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ]
+    }
+  ],
+  "interactionSummary": [],
+  "interactionInsights": [],
+  "strengths": [
+    {
+      "id": "|||overall_satisfaction",
+      "label": "Overall Satisfaction",
+      "score": 83,
+      "averageSentiment": 8.3,
+      "reviewCount": 27,
+      "reviewShare": 0.45,
+      "positiveReviews": 23,
+      "mixedReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.8519,
+      "negativeShare": 0.1481,
+      "evidenceStrength": "moderate",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Finally--perfect solution for me!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The concept is good but it was a miserable failure",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "|||sleep_quality",
+      "label": "Sleep Quality",
+      "score": 79,
+      "averageSentiment": 7.9,
+      "reviewCount": 9,
+      "reviewShare": 0.15,
+      "positiveReviews": 8,
+      "mixedReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8889,
+      "negativeShare": 0.1111,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "had my best sleep last night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the no sleep nights",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "|||comfort",
+      "label": "Comfort",
+      "score": 70,
+      "averageSentiment": 7.0,
+      "reviewCount": 9,
+      "reviewShare": 0.15,
+      "positiveReviews": 7,
+      "mixedReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7778,
+      "negativeShare": 0.2222,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "I love the no mask thing",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "overall, it was awkward and awful",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "|||ease_of_use",
+      "label": "Ease Of Use",
+      "score": 82,
+      "averageSentiment": 8.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0833,
+      "positiveReviews": 5,
+      "mixedReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Followed the directions",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": []
+    }
+  ],
+  "concerns": [
+    {
+      "id": "|||value",
+      "label": "Value",
+      "score": 36,
+      "averageSentiment": 3.6,
+      "reviewCount": 9,
+      "reviewShare": 0.15,
+      "positiveReviews": 2,
+      "mixedReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.2222,
+      "negativeShare": 0.7778,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "i would spend three times for it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Not worth the $",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    },
+    {
+      "id": "|||noise",
+      "label": "Noise",
+      "score": 28,
+      "averageSentiment": 2.8,
+      "reviewCount": 6,
+      "reviewShare": 0.1,
+      "positiveReviews": 1,
+      "mixedReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.1667,
+      "negativeShare": 0.8333,
+      "evidenceStrength": "limited",
+      "associatedParts": [],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Also nice and quiet",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the unit is extremely loud",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+        }
+      ]
+    }
+  ],
+  "retailers": [
+    {
+      "retailer": "DirectHomeMedical",
+      "reviewCount": 60,
+      "averageRating": 3.83,
+      "ratingCount": 60,
+      "evidenceStrength": "moderate",
+      "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+    }
+  ],
+  "evidence": {
+    "positive": [
+      {
+        "text": "Finally--perfect solution for me!",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+      },
+      {
+        "text": "without a doubt the most comfortable that I have owned",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+      },
+      {
+        "text": "Love no mask",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+      },
+      {
+        "text": "Best CPAP",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+      },
+      {
+        "text": "Great product..",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+      },
+      {
+        "text": "Excellent.",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+      }
+    ],
+    "negative": [
+      {
+        "text": "Unable to get the nasal pillows to seal",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+      },
+      {
+        "text": "Teeth hurt after 2 hours",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+      },
+      {
+        "text": "You need to bite down constantly or the cpap pro is useless",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+      },
+      {
+        "text": "I absolutely could not wear that headgear!",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+      },
+      {
+        "text": "impossible mouthpiece",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+      },
+      {
+        "text": "Impossible to stop leaking around nasal pillows",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup"
+      }
+    ]
+  },
+  "methodology": {
+    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
+    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "minimumEvidence": "Findings require at least five distinct reviews.",
+    "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
+  }
+}
