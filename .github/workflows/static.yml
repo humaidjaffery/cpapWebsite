@@ -1,34 +1,25 @@
-name: Refresh daily prices and deploy Pages
+name: Deploy website to Pages
 
 on:
   push:
     branches: ["master"]
-  schedule:
-    - cron: "17 1 * * *"
   workflow_dispatch:
-    inputs:
-      refresh_prices:
-        description: "Scrape current retailer prices before deploying"
-        required: true
-        default: true
-        type: boolean
+  workflow_run:
+    workflows: ["Refresh daily prices"]
+    types: [completed]
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
 concurrency:
-  group: "daily-prices-and-pages"
-  cancel-in-progress: false
-
-env:
-  PRICE_DATABASE: .price-state/prices.sqlite3
-  PRICE_STATE_TAG: price-state-v1
+  group: pages
+  cancel-in-progress: true
 
 jobs:
   deploy:
-    timeout-minutes: 60
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -36,84 +27,8 @@ jobs:
     steps:
       - name: Checkout website
         uses: actions/checkout@v4
-
-      - name: Verify private price-pipeline access
-        env:
-          PRICE_REPOSITORY_TOKEN: ${{ secrets.CPAPWORLD_READ_TOKEN }}
-        run: |
-          if [ -z "$PRICE_REPOSITORY_TOKEN" ]; then
-            echo "::error::Add the CPAPWORLD_READ_TOKEN repository secret with read-only access to humaidjaffery/cpapWorld."
-            exit 1
-          fi
-
-      - name: Checkout price pipeline
-        uses: actions/checkout@v4
         with:
-          repository: humaidjaffery/cpapWorld
-          path: price-pipeline
-          token: ${{ secrets.CPAPWORLD_READ_TOKEN }}
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: pip
-          cache-dependency-path: price-pipeline/pipelines/prices/requirements.txt
-
-      - name: Install price pipeline
-        run: python -m pip install -r price-pipeline/pipelines/prices/requirements.txt
-
-      - name: Restore price history
-        id: price-state
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          mkdir -p "$(dirname "$PRICE_DATABASE")"
-          if gh release download "$PRICE_STATE_TAG" --pattern prices.sqlite3 --dir "$(dirname "$PRICE_DATABASE")"; then
-            echo "found=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "found=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Decide whether to refresh prices
-        id: refresh
-        env:
-          EVENT_NAME: ${{ github.event_name }}
-          MANUAL_REFRESH: ${{ inputs.refresh_prices }}
-          STATE_FOUND: ${{ steps.price-state.outputs.found }}
-        run: |
-          if [ "$STATE_FOUND" != "true" ] || [ "$EVENT_NAME" = "schedule" ] || [ "$MANUAL_REFRESH" = "true" ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "run=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Record scrape start
-        if: steps.refresh.outputs.run == 'true'
-        id: scrape-start
-        run: echo "timestamp=$(date -u +'%Y-%m-%dT%H:%M:%S+00:00')" >> "$GITHUB_OUTPUT"
-
-      - name: Scrape retailer prices
-        if: steps.refresh.outputs.run == 'true'
-        run: |
-          python price-pipeline/pipelines/prices/run_all.py \
-            --database "$PRICE_DATABASE"
-
-      - name: Publish per-mask price files
-        if: steps.refresh.outputs.run == 'true' || steps.price-state.outputs.found == 'true'
-        run: |
-          python price-pipeline/pipelines/prices/publish.py \
-            --database "$PRICE_DATABASE" \
-            --catalog price-pipeline/pipelines/reviews/data/processed/standard_mask_names.csv \
-            --output public/data/prices
-
-      - name: Validate prices
-        if: steps.refresh.outputs.run == 'true'
-        run: |
-          python price-pipeline/pipelines/prices/validate.py \
-            --database "$PRICE_DATABASE" \
-            --output public/data/prices \
-            --since "${{ steps.scrape-start.outputs.timestamp }}"
+          ref: master
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -156,22 +71,10 @@ jobs:
       - name: Build Angular app
         run: npm run build
 
-      - name: Save price history
-        if: steps.refresh.outputs.run == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          if ! gh release view "$PRICE_STATE_TAG"; then
-            gh release create "$PRICE_STATE_TAG" \
-              --title "Daily price history state" \
-              --notes "SQLite state used by the automated daily CPAP mask price refresh."
-          fi
-          gh release upload "$PRICE_STATE_TAG" "$PRICE_DATABASE" --clobber
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist/cpapWebsite/browser
