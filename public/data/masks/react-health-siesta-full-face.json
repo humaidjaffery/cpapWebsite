@@ -1,8 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "react-health-siesta-full-face",
   "name": "React Health Siesta Full Face",
   "catalogOrder": 62,
+  "search": {
+    "aliases": [
+      "React Health Siesta Full Face CPAP Mask Fit Pack",
+      "Siesta Full Face CPAP Mask Fit Pack",
+      "Siesta Full Face CPAP Mask System",
+      "Siesta Full Face CPAP Mask with Headgear"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 56,
@@ -13,32 +25,35 @@
     "reviewDateEnd": "2026-05-27"
   },
   "overall": {
-    "compositeScore": 82,
+    "score": 80,
+    "grade": "B+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.2,
-      "score": 84,
+      "score": 80,
       "reviewCount": 56,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.0,
       "score": 80,
       "reviewCount": 34,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 60,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.0,
       "reviewCount": 17,
       "reviewShare": 0.3036,
-      "positiveReviews": 8,
-      "mixedReviews": 4,
+      "positiveReviews": 11,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.4706,
+      "positiveShare": 0.6471,
       "negativeShare": 0.2941,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -99,7 +114,47 @@
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         },
         {
+          "text": "I love the comfort and fit of my new mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
           "text": "It's comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "Extra padding across nasal bridge, it is great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "it is great for a while!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "more comfort fitting",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-system"
+        },
+        {
+          "text": "Comfortable mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-fit-pack"
+        },
+        {
+          "text": "is lightweight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "Comfortable mask.",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-system"
+        },
+        {
+          "text": "comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
@@ -111,7 +166,32 @@
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         },
         {
+          "text": "doesn't pinch my nose shut like other full-face masks have",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "this design is ridged and uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
           "text": "without a lot of discomfort",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "is not good",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/react-health-siesta-full-face-mask-fitpack-with-headgear"
+        },
+        {
+          "text": "the headgear is a little larger than what I’m used to",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-fit-pack"
+        },
+        {
+          "text": "Might be ok with lower pressure",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
@@ -120,14 +200,15 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 69,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 6.9,
       "reviewCount": 27,
       "reviewShare": 0.4821,
-      "positiveReviews": 18,
-      "mixedReviews": 4,
+      "positiveReviews": 20,
+      "neutralReviews": 2,
       "negativeReviews": 5,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.7407,
       "negativeShare": 0.1852,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -196,16 +277,81 @@
           "text": "actually fit my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "I love the comfort and fit of my new mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "it includes small, medium, and large sizes to trial",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "The straps are Velcro, so the fit is perfect",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "Love the fit of this style",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "it fits great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "It’s nice not having to adjust the straps in the middle of the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "The fit is better than some of the others that I have used",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-system"
+        },
+        {
+          "text": "I have a small framed face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "they sent 3. Small and. M med and z large",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "It was not a good fit for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
         {
           "text": "Did not fit my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         },
         {
-          "text": "I ordered a large large sized mask",
+          "text": "no matter size or adjustment",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "the small is too small and the medium is too big",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "you will need to tighten it gradually as the elastic stretches slightly over time",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "Head gear could be a bit smaller",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
@@ -214,12 +360,13 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 57,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 14,
       "reviewShare": 0.25,
       "positiveReviews": 7,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 5,
       "positiveShare": 0.5,
       "negativeShare": 0.3571,
@@ -265,6 +412,26 @@
           "text": "without breaking seal",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "no leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "was experiencing problems with leaking on another mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "has little to no leaks",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-fit-pack"
+        },
+        {
+          "text": "A lot less leakage",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -277,18 +444,39 @@
           "text": "Leaks Terribly",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "Sleep on your side mask leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "difficult to get a good seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "If I don’t tighten it enough it will leak",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-system"
+        },
+        {
+          "text": "Couldn't get a good seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 53,
+      "label": "Stability",
+      "score": 48,
+      "grade": "D",
       "averageSentiment": 5.3,
       "reviewCount": 13,
       "reviewShare": 0.2321,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.4615,
       "negativeShare": 0.5385,
@@ -354,6 +542,11 @@
           "text": "The hose connection allows lots of movement without breaking seal",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "stays in place once adjusted",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-fit-pack"
         }
       ],
       "negativeEvidence": [
@@ -366,20 +559,31 @@
           "text": "mask falls apart easily when you take it off",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "The cushion does pop out of the frame easily when removing",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-system"
+        },
+        {
+          "text": "the insert is easily popped out",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 58,
+      "label": "Ease of Use",
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 5.8,
       "reviewCount": 17,
       "reviewShare": 0.3036,
-      "positiveReviews": 9,
-      "mixedReviews": 2,
+      "positiveReviews": 11,
+      "neutralReviews": 0,
       "negativeReviews": 6,
-      "positiveShare": 0.5294,
+      "positiveShare": 0.6471,
       "negativeShare": 0.3529,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -424,14 +628,49 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "cpap madw easy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
           "text": "Easy cleaning",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         },
         {
-          "text": "cpap madw easy",
+          "text": "It’s nice not having to adjust the straps in the middle of the night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "The straps are Velcro, so the fit is perfect",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "easy to put on",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "Easy to wear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "it’s a quick fix",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-system"
+        },
+        {
+          "text": "It did take some time to get used to it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-fit-pack"
+        },
+        {
+          "text": "but it’s a quick fix",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -444,18 +683,39 @@
           "text": "The head gear I couldn’t get it adjusted",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "no matter size or adjustment",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "The clasps are difficult to get off and on",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "while unmasking or putting the mask on",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "you will need to tighten it gradually as the elastic stretches slightly over time",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 48,
+      "score": 43,
+      "grade": "D-",
       "averageSentiment": 4.8,
       "reviewCount": 12,
       "reviewShare": 0.2143,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.4167,
       "negativeShare": 0.5833,
@@ -508,18 +768,29 @@
           "text": "air will blow near my eyes",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-system"
+        },
+        {
+          "text": "the airhole vents on the mask sometimes whistle a bit when pressures get higher",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "air blowing into eyes",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/react-health-siesta-full-face-mask-fitpack-with-headgear"
         }
       ]
     },
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 74,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 5,
       "reviewShare": 0.0893,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -556,14 +827,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 52,
+      "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.2,
       "reviewCount": 6,
       "reviewShare": 0.1071,
-      "positiveReviews": 2,
-      "mixedReviews": 2,
+      "positiveReviews": 3,
+      "neutralReviews": 1,
       "negativeReviews": 2,
-      "positiveShare": 0.3333,
+      "positiveShare": 0.5,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -587,12 +859,17 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "the headgear and face mask would be of good quality",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
           "text": "The CPAP mask is high quality",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         },
         {
-          "text": "the headgear and face mask would be of good quality",
+          "text": "Good quality at a reasonable price.",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
@@ -607,18 +884,24 @@
           "text": "Cheaply made",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "the elastic stretches slightly over time",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
       ]
     },
     {
       "id": "value",
       "label": "Value",
-      "score": 70,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 6,
       "reviewShare": 0.1071,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -629,6 +912,16 @@
       "positiveEvidence": [
         {
           "text": "there prices are just as great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "Good quality for the money",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "at a reasonable price",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         },
@@ -649,14 +942,15 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 69,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 6.9,
       "reviewCount": 16,
       "reviewShare": 0.2857,
-      "positiveReviews": 11,
-      "mixedReviews": 2,
+      "positiveReviews": 13,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.6875,
+      "positiveShare": 0.8125,
       "negativeShare": 0.1875,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -685,7 +979,47 @@
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         },
         {
+          "text": "I have had a short adjustment period and am sleeping great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
           "text": "it has changed the way I do therapy... Thanks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "The mask works wonderfully",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "I was able to sleep better for a longer period wearing it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "Works well for me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-system"
+        },
+        {
+          "text": "Better sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "works",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "Sleep on your back & don't move works ok",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "Works well",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
@@ -700,6 +1034,11 @@
           "text": "Did not work for me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+        },
+        {
+          "text": "Generally, not an issue when I'm going to sleep, but if I wake up overnight, I have to reset the ramp to get back to…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
       ]
     }
@@ -708,14 +1047,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 80,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 8.0,
       "reviewCount": 34,
       "reviewShare": 0.6071,
-      "positiveReviews": 29,
-      "mixedReviews": 1,
+      "positiveReviews": 30,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.8529,
+      "positiveShare": 0.8824,
       "negativeShare": 0.1176,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -729,7 +1069,7 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Love this mask",
+          "text": "that I've already decided to use it as my favorite choice of sleep apnea masks!!!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         },
@@ -755,14 +1095,15 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 75,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 7.5,
       "reviewCount": 22,
       "reviewShare": 0.3929,
-      "positiveReviews": 17,
-      "mixedReviews": 3,
+      "positiveReviews": 20,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.7727,
+      "positiveShare": 0.9091,
       "negativeShare": 0.0909,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -809,12 +1150,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Did not fit my face",
+          "text": "It was not a good fit for me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         },
         {
-          "text": "It was not a good fit for me",
+          "text": "Did not fit my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
@@ -823,12 +1164,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 71,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.1,
       "reviewCount": 14,
       "reviewShare": 0.25,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.7857,
       "negativeShare": 0.2143,
@@ -870,19 +1212,19 @@
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         },
         {
-          "text": "It's comfortable",
+          "text": "I love the comfort and fit of my new mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "without a lot of discomfort",
+          "text": "this design is ridged and uncomfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         },
         {
-          "text": "this design is ridged and uncomfortable",
+          "text": "without a lot of discomfort",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
@@ -891,12 +1233,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 57,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 14,
       "reviewShare": 0.25,
       "positiveReviews": 7,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 5,
       "positiveShare": 0.5,
       "negativeShare": 0.3571,
@@ -960,12 +1303,13 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 52,
+      "score": 47,
+      "grade": "D",
       "averageSentiment": 5.2,
       "reviewCount": 11,
       "reviewShare": 0.1964,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.4545,
       "negativeShare": 0.5455,
@@ -1028,14 +1372,15 @@
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 74,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 7.4,
       "reviewCount": 11,
       "reviewShare": 0.1964,
-      "positiveReviews": 8,
-      "mixedReviews": 2,
+      "positiveReviews": 10,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.7273,
+      "positiveShare": 0.9091,
       "negativeShare": 0.0909,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -1070,12 +1415,13 @@
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 55,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.5,
       "reviewCount": 6,
       "reviewShare": 0.1071,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -1118,7 +1464,7 @@
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         },
         {
-          "text": "I have a small framed face",
+          "text": "I've ordered two sizes, Medium and Large",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
@@ -1139,12 +1485,13 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 48,
+      "score": 41,
+      "grade": "D-",
       "averageSentiment": 4.8,
       "reviewCount": 5,
       "reviewShare": 0.0893,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -1202,14 +1549,15 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 56,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.6,
       "reviewCount": 5,
       "reviewShare": 0.0893,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.4,
+      "positiveShare": 0.6,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1260,12 +1608,13 @@
     {
       "id": "noise",
       "label": "Noise",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 5,
       "reviewShare": 0.0893,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1296,12 +1645,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 76,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.6,
       "reviewCount": 5,
       "reviewShare": 0.0893,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -1340,14 +1690,15 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 56,
+      "score": 53,
+      "grade": "D+",
       "averageSentiment": 5.5,
       "reviewCount": 10,
       "reviewShare": 0.1786,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.4,
+      "positiveShare": 0.5,
       "negativeShare": 0.5,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1389,14 +1740,14 @@
           "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         },
         {
-          "text": "Head gear could be a bit smaller",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
-        },
-        {
           "text": "the headgear is a little larger than what I’m used to",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-fit-pack"
+        },
+        {
+          "text": "Head gear could be a bit smaller",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
         }
       ],
       "praisedAspects": [],
@@ -1405,12 +1756,13 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 41,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.1,
       "reviewCount": 5,
       "reviewShare": 0.0893,
       "positiveReviews": 0,
-      "mixedReviews": 4,
+      "neutralReviews": 4,
       "negativeReviews": 1,
       "positiveShare": 0.0,
       "negativeShare": 0.2,
@@ -1427,6 +1779,11 @@
       "positiveEvidence": [
         {
           "text": "it’s a quick fix",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-system"
+        },
+        {
+          "text": "but it’s a quick fix",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/siesta-full-face-cpap-mask-system"
         }
@@ -1456,12 +1813,13 @@
     {
       "id": "eyes",
       "label": "Eyes",
-      "score": 26,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.6,
       "reviewCount": 5,
       "reviewShare": 0.0893,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -1513,126 +1871,7 @@
   ],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 33,
-      "reviewShare": 0.5893,
-      "positiveReviews": 29,
-      "mixedReviews": 0,
-      "negativeReviews": 4,
-      "positiveShare": 0.8788,
-      "negativeShare": 0.1212,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Love this mask",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I am unhappy with the purchase of the mask..",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
-        }
-      ]
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 13,
-      "reviewShare": 0.2321,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
-      "negativeReviews": 0,
-      "positiveShare": 0.9231,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "the mask is the best fit I’ve ever had",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 77,
-      "averageSentiment": 7.7,
-      "reviewCount": 10,
-      "reviewShare": 0.1786,
-      "positiveReviews": 9,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.9,
-      "negativeShare": 0.1,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Most comfortable ever tried",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "without a lot of discomfort",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
-        }
-      ]
-    },
-    {
-      "id": "|||therapy_effectiveness",
-      "label": "Therapy Effectiveness",
-      "score": 75,
-      "averageSentiment": 7.5,
-      "reviewCount": 10,
-      "reviewShare": 0.1786,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
-      "negativeReviews": 1,
-      "positiveShare": 0.8,
-      "negativeShare": 0.1,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "It works so well",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Did not work for me",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
-        }
-      ]
-    }
-  ],
+  "strengths": [],
   "concerns": [],
   "retailers": [
     {
@@ -1663,12 +1902,7 @@
   "evidence": {
     "positive": [
       {
-        "text": "Love this mask",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
-      },
-      {
-        "text": "the mask is wonderful",
+        "text": "that I've already decided to use it as my favorite choice of sleep apnea masks!!!",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
       },
@@ -1678,7 +1912,7 @@
         "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
       },
       {
-        "text": "I Love it..",
+        "text": "the mask is wonderful",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
       },
@@ -1688,7 +1922,12 @@
         "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
       },
       {
-        "text": "Immediately I slept 7 hours!!",
+        "text": "Most comfortable ever tried",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
+      },
+      {
+        "text": "Love this mask",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
       }
@@ -1705,12 +1944,12 @@
         "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
       },
       {
-        "text": "Leaks Terribly",
+        "text": "The leak causes loud whistling",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
       },
       {
-        "text": "without a lot of discomfort",
+        "text": "It falls of when you remove the mask for bathroom or water",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
       },
@@ -1720,16 +1959,16 @@
         "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
       },
       {
-        "text": "Did not work for me",
+        "text": "they sent 3. Small and. M med and z large",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

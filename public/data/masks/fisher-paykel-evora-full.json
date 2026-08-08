@@ -1,8 +1,36 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "fisher-paykel-evora-full",
   "name": "Fisher & Paykel Evora Full",
   "catalogOrder": 37,
+  "search": {
+    "aliases": [
+      "Evora Full",
+      "Evora Full Face CPAP Mask Fit Pack",
+      "Evora Full Face CPAP Mask System",
+      "Evora Full Face CPAP Mask | Fisher & Paykel",
+      "Evora Full Face Fit Pack",
+      "Evora full face",
+      "Evora full face mask",
+      "F&P Evora Full",
+      "F&P Evora Full Face CPAP Mask with Headgear",
+      "F&P Evora full face",
+      "Fisher & Paykel Evora Full Face Mask - Fit Pack",
+      "Fisher & Paykel Evora™ Full Face CPAP Mask",
+      "Fisher & Paykel Evora™ Full Face CPAP Mask Fit Pack",
+      "Fisher & Paykel | Evora Full Face CPAP Mask",
+      "Fisher Paykel Evora Full",
+      "Fisher and Paykel Evora Full"
+    ],
+    "abbreviations": [
+      "F&P",
+      "FP",
+      "Fisher Paykel"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 217,
@@ -13,32 +41,35 @@
     "reviewDateEnd": "2026-05-11"
   },
   "overall": {
-    "compositeScore": 79,
+    "score": 75,
+    "grade": "B",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 3.98,
-      "score": 80,
+      "score": 75,
       "reviewCount": 217,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 7.9,
       "score": 79,
       "reviewCount": 106,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 67,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 114,
       "reviewShare": 0.5253,
-      "positiveReviews": 76,
-      "mixedReviews": 9,
+      "positiveReviews": 78,
+      "neutralReviews": 7,
       "negativeReviews": 29,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.6842,
       "negativeShare": 0.2544,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -124,40 +155,121 @@
       ],
       "positiveEvidence": [
         {
+          "text": "this mask is absolutely amazing in providing comfort while I sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
+        },
+        {
           "text": "The F&P Evora Full Face CPAP mask is very comfortable",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
+          "text": "The most comfortable mask I have used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I’ve finally found a mask that’s comfortable!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "Great mask very comfortable easy to use",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "Itā€™s SO comfortable to wear",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "most comfortable mask I've used",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
           "text": "Super comfy",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
+        },
+        {
+          "text": "Very comfortable!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "I am sensitive to things right buy my eyes and this mask fits perfectly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I woke up in the middle of the night with my nose killing me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I noticed after time my jaw and teeth were sore",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it feels like I was punched in the nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "it put so much pressure on my facial bones",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "my nose felt battered",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "Ripped up my nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
         {
           "text": "is extremely uncomfortable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
-          "text": "Extremely uncomfortable!",
+          "text": "was not comfortable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "Uncomfortable and irritating",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "uncomfortable",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 62,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 102,
       "reviewShare": 0.47,
-      "positiveReviews": 57,
-      "mixedReviews": 12,
+      "positiveReviews": 63,
+      "neutralReviews": 6,
       "negativeReviews": 33,
-      "positiveShare": 0.5588,
+      "positiveShare": 0.6176,
       "negativeShare": 0.3235,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -243,24 +355,104 @@
       ],
       "positiveEvidence": [
         {
+          "text": "Best design and fit of any mask in 25 years",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
           "text": "I never have to adjust it during the night",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
-          "text": "Best design and fit of any mask in 25 years",
+          "text": "all sized cushions were included for the same price",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "The Evora mask is the best fitting",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "best fitting mask I've used",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "I have grown to Very-Much prefer the under-the-nose full-face approach of the Evora compared with the over-the-nose of the F10/F20",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "there’s no need to cinch the straps tight as this mask will adjust to sealing to your face",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "I don't have to THINK about adjusting the nozzle (there isn't one) when I roll over or readjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Had it fitted for my face size and snugness so to get a perfect fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "having the short hose that connects to the long hose off the machine is genius",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I have to make it very tight against my face and nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "I have not been able to adjust to using the mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
         {
           "text": "Any way I adjusted the mask",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
-          "text": "I have to make it very tight against my face and nose",
+          "text": "No fit possible.",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
+        },
+        {
+          "text": "the cushion around the mouth is all one size, and it's a bit too small for me",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "this mask so constricted my nose that I had to breath through my mouth",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "even with readjusting, loosening/tightening-all the things to try to make it better",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I had to wear it pretty tight so it wouldn't leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "At the top of the bottom of the mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "I tried all three sizes it came with",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
@@ -269,14 +461,15 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 62,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.2,
       "reviewCount": 83,
       "reviewShare": 0.3825,
-      "positiveReviews": 50,
-      "mixedReviews": 2,
+      "positiveReviews": 51,
+      "neutralReviews": 1,
       "negativeReviews": 31,
-      "positiveShare": 0.6024,
+      "positiveShare": 0.6145,
       "negativeShare": 0.3735,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -362,40 +555,121 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Perfect seal",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+          "text": "it finally solves the problem of leaking mask around my facial hair",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
           "text": "No leakage at all around the nostrils",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
+        },
+        {
+          "text": "I have no leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "seals very well!",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "it doesn't leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Perfect seal",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "without leakage",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "best sealing",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "no leaks",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "This is the first full face mask that doesn’t leak when I sleep on my side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I simply could not get a good seal with this mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "the technician was unable to control leakage to complete the study",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "No matter what I do it leaks constantly",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "Could not get a good mask seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "it does not seal",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "it would leak air",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
         {
           "text": "This leaks terrible",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
-          "text": "I simply could not get a good seal with this mask",
+          "text": "When I sleep on my side the clasps come undone and I lose the seal and wake up to air escaping",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "The seal is only as good as the cheap velcro they put on this expensive mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "that tube would leak air from the joint where the flexible tube meets the hard nozzle",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 58,
+      "label": "Stability",
+      "score": 56,
+      "grade": "C-",
       "averageSentiment": 5.8,
       "reviewCount": 34,
       "reviewShare": 0.1567,
-      "positiveReviews": 16,
-      "mixedReviews": 4,
+      "positiveReviews": 17,
+      "neutralReviews": 3,
       "negativeReviews": 14,
-      "positiveShare": 0.4706,
+      "positiveShare": 0.5,
       "negativeShare": 0.4118,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -474,6 +748,46 @@
           "text": "SO easy to side sleep with this mask",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Most other masks could not hang with me because I would rip them off in the middle of the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "Im a side sleeper and have no problems with it coming off or being uncomfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "the soft mask that conforms to my face when I lay sideways on the pillow",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
+        },
+        {
+          "text": "I prefer to sleep on my side and this mask allows me to do so",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "this the only one that would stay put through the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "This F&P mask allows for comfortable side and stomach positions",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "lets me move from side to back",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "I can finally sleep on my back",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ],
       "negativeEvidence": [
@@ -483,23 +797,64 @@
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
-          "text": "Tubing disconnnects inadvertently",
+          "text": "there are flaws with it where it snaps together it will pop off mid sleep",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "I like to sleep on my side and this mask isn’t great for that",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "turnover in bed at night and you will pull the line off the mask",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
+        },
+        {
+          "text": "the swivel connector because it pulls out of the hose all the time",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "hose is stiff and pushes mask off face if a side sleeper",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "This one doesn't come loose like the magnets did",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "the hose coming off the bottom is terrible",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "the air hose does NOT stay attached",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "And it doesn't rotate",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 60,
+      "label": "Ease of Use",
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 70,
       "reviewShare": 0.3226,
-      "positiveReviews": 36,
-      "mixedReviews": 8,
+      "positiveReviews": 40,
+      "neutralReviews": 4,
       "negativeReviews": 26,
-      "positiveShare": 0.5143,
+      "positiveShare": 0.5714,
       "negativeShare": 0.3714,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -585,14 +940,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I have tried numerous masks looking for one with no contact on forehead or bridge of nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
           "text": "I never have to adjust it during the night",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
-          "text": "I have tried numerous masks looking for one with no contact on forehead",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "I use a high peep bipap machine and have always had to crank down the straps to keep a good seal but not with this…",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "there’s no need to cinch the straps tight as this mask will adjust to sealing to your face",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "I don't have to THINK about adjusting the nozzle (there isn't one) when I roll over or readjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "having the short hose that connects to the long hose off the machine is genius",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
+        },
+        {
+          "text": "the freedom of wearing glasses and seeing things while wearing a mask",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "I love being able to wear my glasses with it on",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "now keeping that big 90 degree elbow off of your face",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
+        },
+        {
+          "text": "Great mask very comfortable easy to use",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -605,20 +1000,61 @@
           "text": "I have not been able to adjust to using the mask",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "Consequently, every time the adapter snapped off meant sitting up, turning on the light, and reassembling tube and headgear",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "I took it off and that was the end of the trial",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "even with readjusting, loosening/tightening-all the things to try to make it better",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Does not have a quick disconnect for hose to mask connection",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "it has clips on the bottom straps instead of magnets",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "little hooks instead of magnets on the bottom straps",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
+        },
+        {
+          "text": "Had to reattached 8 times last night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "I wish it had magnet",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 50,
+      "score": 44,
+      "grade": "D-",
       "averageSentiment": 5.0,
       "reviewCount": 27,
       "reviewShare": 0.1244,
-      "positiveReviews": 10,
-      "mixedReviews": 2,
+      "positiveReviews": 11,
+      "neutralReviews": 1,
       "negativeReviews": 15,
-      "positiveShare": 0.3704,
+      "positiveShare": 0.4074,
       "negativeShare": 0.5556,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -692,6 +1128,41 @@
           "text": "It is also very quiet",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "Great airflow",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "quiet",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "it worked great with minimal noise and leaks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "The holes for the nasal are much better",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "it doesn't blow directly into my eyes",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "Both masks have very quiet exhaust vents",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it hasn’t affected my seal or pressure numbers",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ],
       "negativeEvidence": [
@@ -701,7 +1172,47 @@
           "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
+          "text": "the air reservoir design for the CO2 to escape allows a large amount of air to rush out causing excessive noise",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "this mask so constricted my nose that I had to breath through my mouth",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "the swivel on the frame is fixed and the direction is face down",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "The amount of air rushing from the front of the mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
           "text": "have to fit exactly to offer a reasonable nasal airway",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "that would shoot air directly into my eyes",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "the expulsion of air is noisy",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "did not flow freely",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "it does seem louder as all the vent holes are in the mask",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
@@ -710,12 +1221,13 @@
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 40,
+      "score": 28,
+      "grade": "F",
       "averageSentiment": 4.0,
       "reviewCount": 39,
       "reviewShare": 0.1797,
       "positiveReviews": 10,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 28,
       "positiveShare": 0.2564,
       "negativeShare": 0.7179,
@@ -793,40 +1305,121 @@
       ],
       "positiveEvidence": [
         {
+          "text": "Most masks blow a little air into my eyes and I wake up with dried up tear ducts or a little infection there that takes…",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "I no longer have to worry about the upper nose abrasions that a full mask causes",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "Doesn't leave irritated lines on my cheeks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "No more red nose septum’s",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
           "text": "No soreness any longer",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
         },
         {
+          "text": "no more sore bridge",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
           "text": "no red skin",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "it doesn’t bruise my nose like other more traditional full masks",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "has prevented the headache I usually had with mask usage",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
+        },
+        {
+          "text": "doesn't leave marks on your face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I woke up in the middle of the night with my nose killing me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I noticed after time my jaw and teeth were sore",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it feels like I was punched in the nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
         {
           "text": "my nose felt battered",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
-          "text": "I noticed after time my jaw and teeth were sore",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
+          "text": "Ripped up my nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "rubs my nose raw",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "Uncomfortable and irritating",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "was so painful",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "i have very dry skin and the full face gave too much opportunity to touch skin and cause irritation",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
+        },
+        {
+          "text": "The plastic part of the mask where the cushion attached is rigid and fits far up on my cheekbones",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 46,
+      "score": 42,
+      "grade": "D-",
       "averageSentiment": 4.6,
       "reviewCount": 21,
       "reviewShare": 0.0968,
-      "positiveReviews": 7,
-      "mixedReviews": 3,
+      "positiveReviews": 8,
+      "neutralReviews": 2,
       "negativeReviews": 11,
-      "positiveShare": 0.3333,
+      "positiveShare": 0.381,
       "negativeShare": 0.5238,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -887,9 +1480,49 @@
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
+          "text": "The head gear seems to not stretch out as easily",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "The mask and head gear are great",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
+        },
+        {
+          "text": "It's so comfortable and soft",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
           "text": "beefy clips",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Good quality",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "I’ll be buying another in the near future to have on hand when this one ages out of service",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "The F40 with its all silicone construction",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
+        },
+        {
+          "text": "with its all silicone construction",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
+        },
+        {
+          "text": "So far used it for a full week and have had no problems",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ],
       "negativeEvidence": [
@@ -899,23 +1532,64 @@
           "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Poor quality",
+          "text": "Broke after one",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "Every time you pull the airline off it gets easier and easier to do it again",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
+        },
+        {
+          "text": "the problem is this plastic oval connection to the mask is flimsy",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "better velcro on a $10 pair of shoes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Cheap white tube that leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "very cheaply made",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "Velcro pieces peel",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "they give you some extra mouth cushions but didn't include my size",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "the seal for the edge of nostrils is kind of hard",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ]
     },
     {
       "id": "value",
       "label": "Value",
-      "score": 39,
+      "score": 32,
+      "grade": "F+",
       "averageSentiment": 3.9,
       "reviewCount": 12,
       "reviewShare": 0.0553,
-      "positiveReviews": 2,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 8,
-      "positiveShare": 0.1667,
+      "positiveShare": 0.3333,
       "negativeShare": 0.6667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -947,9 +1621,24 @@
           "text": "Totally worth the money",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "It’s more than worth the cost because of the results I have found using this mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "It's a very small price to pay in my opinion!",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "Waste $150 to buy a lesson",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
         {
           "text": "such a waste of money",
           "retailer": "Lofta",
@@ -959,20 +1648,51 @@
           "text": "Not worth the price",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "Full face masks are the most costly of the masks and I did not want to have to purchase a bunch before I found the…",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "continues to constantly be out of stock of replacement parts",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "Great expensive mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The air supply need work for the price",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
+        },
+        {
+          "text": "Costs a bit more than the junk mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "not bad/expensive",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 71,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.1,
       "reviewCount": 40,
       "reviewShare": 0.1843,
-      "positiveReviews": 31,
-      "mixedReviews": 2,
+      "positiveReviews": 32,
+      "neutralReviews": 1,
       "negativeReviews": 7,
-      "positiveShare": 0.775,
+      "positiveShare": 0.8,
       "negativeShare": 0.175,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1038,26 +1758,96 @@
       ],
       "positiveEvidence": [
         {
+          "text": "There’s nothing like a great night sleep that I found to have because of this mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
           "text": "I have never had a better night’s sleep",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "There’s nothing like a great night sleep that I found to have because of this mask",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+          "text": "has given me the best sleep in decades",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "I have tried many styles of CPAP mask but get more sleep with the Evora mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "It is a 10x improvement in APH from 10-20 events per hours to 1 or 2",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "this mask works the best esp if you ever open your mouth while you sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
+        },
+        {
+          "text": "I've been using this mask for 9 months with Great Success!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "This mask is working great",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "Found a mask that works",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "I can sleep all night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I have tried to use it several times without success",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
         {
           "text": "cant breath out of the nose with it",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
-          "text": "I have tried to use it several times without success",
+          "text": "This Mask is Not For Me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Cannot sleep with it on",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "Had to order something else",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
+        },
+        {
+          "text": "wake up to air escaping",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "Usually I wake up. Turn off the CPAP. Then breathe through my nose and start over",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "Often end up breathing through the mouth because I don’t like breathing through a pin-hole",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ]
     }
@@ -1066,14 +1856,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 79,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.9,
       "reviewCount": 106,
       "reviewShare": 0.4885,
-      "positiveReviews": 86,
-      "mixedReviews": 6,
+      "positiveReviews": 90,
+      "neutralReviews": 2,
       "negativeReviews": 14,
-      "positiveShare": 0.8113,
+      "positiveShare": 0.8491,
       "negativeShare": 0.1321,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -1134,24 +1925,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Perfect for me",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "I think this is the best of the worlds among full cpap masks",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
-          "text": "I love this mask!!!!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "those Mask are the best we have used",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Just not good",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "Bought this to try and save some money, wrong , it will be a dust collector in the closet for a back up mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
-          "text": "Big NO!",
+          "text": "Tried it for a week and hated it",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
         }
@@ -1160,14 +1951,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 76,
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.6,
       "reviewCount": 90,
       "reviewShare": 0.4147,
-      "positiveReviews": 76,
-      "mixedReviews": 2,
+      "positiveReviews": 77,
+      "neutralReviews": 1,
       "negativeReviews": 12,
-      "positiveShare": 0.8444,
+      "positiveShare": 0.8556,
       "negativeShare": 0.1333,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1248,14 +2040,14 @@
       ],
       "positiveEvidence": [
         {
+          "text": "this mask is absolutely amazing in providing comfort while I sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
+        },
+        {
           "text": "The F&P Evora Full Face CPAP mask is very comfortable",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
-        },
-        {
-          "text": "Super comfy",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
         }
       ],
       "negativeEvidence": [
@@ -1265,7 +2057,7 @@
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
-          "text": "Extremely uncomfortable!",
+          "text": "was not comfortable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
@@ -1274,12 +2066,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 62,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 6.2,
       "reviewCount": 83,
       "reviewShare": 0.3825,
       "positiveReviews": 51,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 32,
       "positiveShare": 0.6145,
       "negativeShare": 0.3855,
@@ -1367,9 +2160,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Perfect seal",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+          "text": "it finally solves the problem of leaking mask around my facial hair",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
           "text": "No leakage at all around the nostrils",
@@ -1379,28 +2172,29 @@
       ],
       "negativeEvidence": [
         {
-          "text": "This leaks terrible",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
-        },
-        {
           "text": "I simply could not get a good seal with this mask",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "the technician was unable to control leakage to complete the study",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "fit",
       "label": "Fit",
-      "score": 68,
+      "score": 77,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 76,
       "reviewShare": 0.3502,
-      "positiveReviews": 52,
-      "mixedReviews": 7,
+      "positiveReviews": 56,
+      "neutralReviews": 3,
       "negativeReviews": 17,
-      "positiveShare": 0.6842,
+      "positiveShare": 0.7368,
       "negativeShare": 0.2237,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1512,14 +2306,15 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 62,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 30,
       "reviewShare": 0.1382,
-      "positiveReviews": 16,
-      "mixedReviews": 4,
+      "positiveReviews": 20,
+      "neutralReviews": 0,
       "negativeReviews": 10,
-      "positiveShare": 0.5333,
+      "positiveShare": 0.6667,
       "negativeShare": 0.3333,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1580,9 +2375,9 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
-          "text": "easier to adjust",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
+          "text": "I use a high peep bipap machine and have always had to crank down the straps to keep a good seal but not with this…",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ],
       "negativeEvidence": [
@@ -1592,9 +2387,9 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
-          "text": "it takes to adjust!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "even with readjusting, loosening/tightening-all the things to try to make it better",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
@@ -1602,13 +2397,14 @@
       "id": "ease_of_use",
       "label": "Ease Of Use",
       "score": 56,
+      "grade": "C-",
       "averageSentiment": 5.6,
       "reviewCount": 25,
       "reviewShare": 0.1152,
-      "positiveReviews": 12,
-      "mixedReviews": 2,
+      "positiveReviews": 13,
+      "neutralReviews": 1,
       "negativeReviews": 11,
-      "positiveShare": 0.48,
+      "positiveShare": 0.52,
       "negativeShare": 0.44,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1669,14 +2465,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "this is by far the easiest",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+          "text": "having the short hose that connects to the long hose off the machine is genius",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
         },
         {
-          "text": "easy to use mask",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+          "text": "Great mask very comfortable easy to use",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1686,23 +2482,24 @@
           "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
         },
         {
-          "text": "It’s difficult",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+          "text": "Consequently, every time the adapter snapped off meant sitting up, turning on the light, and reassembling tube and headgear",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ]
     },
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 43,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 22,
       "reviewShare": 0.1014,
-      "positiveReviews": 6,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 1,
       "negativeReviews": 14,
-      "positiveShare": 0.2727,
+      "positiveShare": 0.3182,
       "negativeShare": 0.6364,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1790,23 +2587,24 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
-          "text": "I tried every size sent",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "the cushion around the mouth is all one size, and it's a bit too small for me",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ]
     },
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 75,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.5,
       "reviewCount": 19,
       "reviewShare": 0.0876,
-      "positiveReviews": 15,
-      "mixedReviews": 1,
+      "positiveReviews": 16,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.7895,
+      "positiveShare": 0.8421,
       "negativeShare": 0.1579,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -1820,14 +2618,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I have never had a better night’s sleep",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
-        },
-        {
           "text": "There’s nothing like a great night sleep that I found to have because of this mask",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "I have never had a better night’s sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -1846,12 +2644,13 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 51,
+      "score": 44,
+      "grade": "D-",
       "averageSentiment": 5.1,
       "reviewCount": 18,
       "reviewShare": 0.0829,
       "positiveReviews": 7,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 10,
       "positiveShare": 0.3889,
       "negativeShare": 0.5556,
@@ -1919,14 +2718,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "have no problems with it coming off",
+          "text": "this the only one that would stay put through the night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
-          "text": "it stays in place",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+          "text": "have no problems with it coming off",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ],
       "negativeEvidence": [
@@ -1936,23 +2735,24 @@
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
-          "text": "the clasps come undone",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+          "text": "turnover in bed at night and you will pull the line off the mask",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
         }
       ]
     },
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 17,
       "reviewShare": 0.0783,
-      "positiveReviews": 16,
-      "mixedReviews": 1,
+      "positiveReviews": 17,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.9412,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1982,14 +2782,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Works !",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "It is a 10x improvement in APH from 10-20 events per hours to 1 or 2",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
-          "text": "The Evora mas does it's job very well",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+          "text": "this mask works the best esp if you ever open your mouth while you sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
         }
       ],
       "negativeEvidence": []
@@ -1997,14 +2797,15 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 58,
+      "score": 67,
+      "grade": "C+",
       "averageSentiment": 5.8,
       "reviewCount": 15,
       "reviewShare": 0.0691,
-      "positiveReviews": 8,
-      "mixedReviews": 2,
+      "positiveReviews": 10,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.5333,
+      "positiveShare": 0.6667,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2061,21 +2862,22 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
-          "text": "However ... I much prefer the Resmed airfit n30",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "I was using a nasal mask but wasn’t satisfied with the leaking of the mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ]
     },
     {
       "id": "noise",
       "label": "Noise",
-      "score": 53,
+      "score": 48,
+      "grade": "D",
       "averageSentiment": 5.3,
       "reviewCount": 14,
       "reviewShare": 0.0645,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 7,
       "positiveShare": 0.4286,
       "negativeShare": 0.5,
@@ -2143,12 +2945,13 @@
     {
       "id": "pain",
       "label": "Pain",
-      "score": 29,
+      "score": 15,
+      "grade": "F-",
       "averageSentiment": 2.9,
       "reviewCount": 14,
       "reviewShare": 0.0645,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 12,
       "positiveShare": 0.1429,
       "negativeShare": 0.8571,
@@ -2212,12 +3015,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "my nose felt battered",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "I woke up in the middle of the night with my nose killing me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Ripped up my nose",
+          "text": "it feels like I was punched in the nose",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
@@ -2226,12 +3029,13 @@
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 52,
+      "score": 54,
+      "grade": "D+",
       "averageSentiment": 5.2,
       "reviewCount": 13,
       "reviewShare": 0.0599,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.5385,
       "negativeShare": 0.4615,
@@ -2278,9 +3082,9 @@
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
-          "text": "beefy clips",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+          "text": "The mask and head gear are great",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
         }
       ],
       "negativeEvidence": [
@@ -2290,21 +3094,22 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
-          "text": "better velcro on a $10 pair of shoes",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+          "text": "the problem is this plastic oval connection to the mask is flimsy",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ]
     },
     {
       "id": "overtightening",
       "label": "Overtightening",
-      "score": 39,
+      "score": 26,
+      "grade": "F",
       "averageSentiment": 3.9,
       "reviewCount": 12,
       "reviewShare": 0.0553,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 9,
       "positiveShare": 0.25,
       "negativeShare": 0.75,
@@ -2358,23 +3163,24 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
-          "text": "was either too tight",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+          "text": "I had to wear it pretty tight so it wouldn't leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "putting_on",
       "label": "Putting On",
-      "score": 36,
+      "score": 22,
+      "grade": "F",
       "averageSentiment": 3.6,
       "reviewCount": 11,
       "reviewShare": 0.0507,
-      "positiveReviews": 1,
-      "mixedReviews": 2,
+      "positiveReviews": 2,
+      "neutralReviews": 1,
       "negativeReviews": 8,
-      "positiveShare": 0.0909,
+      "positiveShare": 0.1818,
       "negativeShare": 0.7273,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2428,6 +3234,11 @@
           "text": "easy to put on",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "donning",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -2446,12 +3257,13 @@
     {
       "id": "access_to_face",
       "label": "Access To Face",
-      "score": 86,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.6,
       "reviewCount": 10,
       "reviewShare": 0.0461,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -2504,14 +3316,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I have tried numerous masks looking for one with no contact on forehead",
+          "text": "I have tried numerous masks looking for one with no contact on forehead or bridge of nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
-          "text": "I love being able to wear my glasses with it on",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+          "text": "the freedom of wearing glasses and seeing things while wearing a mask",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -2519,12 +3331,13 @@
     {
       "id": "soreness",
       "label": "Soreness",
-      "score": 28,
+      "score": 4,
+      "grade": "F-",
       "averageSentiment": 2.8,
       "reviewCount": 10,
       "reviewShare": 0.0461,
       "positiveReviews": 0,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 9,
       "positiveShare": 0.0,
       "negativeShare": 0.9,
@@ -2578,21 +3391,22 @@
           "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Space between upper lip and nose is sore",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "I also ended up with a sore/blister on the side of my nose regardless of the cushion size",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ]
     },
     {
       "id": "irritation",
       "label": "Irritation",
-      "score": 21,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.1,
       "reviewCount": 9,
       "reviewShare": 0.0415,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 9,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -2661,12 +3475,12 @@
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "Uncomfortable and irritating",
+          "text": "Ripped up my nose",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
-          "text": "Ripped up my nose",
+          "text": "rubs my nose raw",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
@@ -2675,14 +3489,15 @@
     {
       "id": "therapy_compliance",
       "label": "Therapy Compliance",
-      "score": 56,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 5.6,
       "reviewCount": 9,
       "reviewShare": 0.0415,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.5556,
+      "positiveShare": 0.6667,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -2706,9 +3521,9 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
-          "text": "has me back using CPAP",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "I still want to be able to use the CPAP when I’m congested",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
         }
       ],
       "negativeEvidence": [
@@ -2728,13 +3543,14 @@
       "id": "value",
       "label": "Value",
       "score": 42,
+      "grade": "D-",
       "averageSentiment": 4.2,
       "reviewCount": 9,
       "reviewShare": 0.0415,
-      "positiveReviews": 2,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.2222,
+      "positiveShare": 0.4444,
       "negativeShare": 0.5556,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2760,12 +3576,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "such a waste of money",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+          "text": "Waste $150 to buy a lesson",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
-          "text": "Not worth the price",
+          "text": "such a waste of money",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
@@ -2774,12 +3590,13 @@
     {
       "id": "bulk",
       "label": "Bulk",
-      "score": 61,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.1,
       "reviewCount": 8,
       "reviewShare": 0.0369,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.625,
       "negativeShare": 0.375,
@@ -2837,12 +3654,13 @@
     {
       "id": "movement_compatibility",
       "label": "Movement Compatibility",
-      "score": 54,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.4,
       "reviewCount": 8,
       "reviewShare": 0.0369,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -2900,14 +3718,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "lets me move from side to back",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
-        },
-        {
           "text": "the soft mask that conforms to my face when I lay sideways on the pillow",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
+        },
+        {
+          "text": "lets me move from side to back",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ],
       "negativeEvidence": [
@@ -2926,14 +3744,15 @@
     {
       "id": "removing",
       "label": "Removing",
-      "score": 41,
+      "score": 31,
+      "grade": "F+",
       "averageSentiment": 4.1,
       "reviewCount": 8,
       "reviewShare": 0.0369,
-      "positiveReviews": 1,
-      "mixedReviews": 2,
+      "positiveReviews": 2,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.125,
+      "positiveShare": 0.25,
       "negativeShare": 0.625,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2971,6 +3790,11 @@
           "text": "off",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "removing",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -2989,12 +3813,13 @@
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 74,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 7.4,
       "reviewCount": 8,
       "reviewShare": 0.0369,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -3052,14 +3877,15 @@
     {
       "id": "breathing_support",
       "label": "Breathing Support",
-      "score": 59,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 5.9,
       "reviewCount": 7,
       "reviewShare": 0.0323,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.5714,
+      "positiveShare": 0.7143,
       "negativeShare": 0.2857,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3110,9 +3936,9 @@
           "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
         },
         {
-          "text": "Also blows up the nose just fine",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+          "text": "You feel like you can breathe and not suffocating",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ],
       "negativeEvidence": [
@@ -3131,14 +3957,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 39,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 3.9,
       "reviewCount": 6,
       "reviewShare": 0.0276,
-      "positiveReviews": 1,
-      "mixedReviews": 2,
+      "positiveReviews": 2,
+      "neutralReviews": 1,
       "negativeReviews": 3,
-      "positiveShare": 0.1667,
+      "positiveShare": 0.3333,
       "negativeShare": 0.5,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3190,21 +4017,22 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
-          "text": "Velcro pieces peel",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+          "text": "Every time you pull the airline off it gets easier and easier to do it again",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
         }
       ]
     },
     {
       "id": "skin_breakdown",
       "label": "Skin Breakdown",
-      "score": 42,
+      "score": 34,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 6,
       "reviewShare": 0.0276,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.3333,
       "negativeShare": 0.6667,
@@ -3258,26 +4086,27 @@
       ],
       "negativeEvidence": [
         {
-          "text": "my nose felt battered",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "I also ended up with a sore/blister on the side of my nose regardless of the cushion size",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
-          "text": "nose-bridge abrasions",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+          "text": "destroying the bridge of my nose skin",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
         }
       ]
     },
     {
       "id": "venting",
       "label": "Venting",
-      "score": 37,
+      "score": 24,
+      "grade": "F",
       "averageSentiment": 3.7,
       "reviewCount": 6,
       "reviewShare": 0.0276,
       "positiveReviews": 1,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.1667,
       "negativeShare": 0.6667,
@@ -3316,7 +4145,7 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
-          "text": "not diffused",
+          "text": "The amount of air rushing from the front of the mask",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
@@ -3325,12 +4154,13 @@
     {
       "id": "appearance",
       "label": "Appearance",
-      "score": 72,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -3367,9 +4197,9 @@
           "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "cutting edge in the looks and feel",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+          "text": "I really liked the slim profile of this mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -3383,12 +4213,13 @@
     {
       "id": "claustrophobia_feeling",
       "label": "Claustrophobia Feeling",
-      "score": 50,
+      "score": 42,
+      "grade": "D-",
       "averageSentiment": 5.0,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -3430,12 +4261,13 @@
     {
       "id": "red_marks",
       "label": "Red Marks",
-      "score": 54,
+      "score": 44,
+      "grade": "D-",
       "averageSentiment": 5.4,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -3467,26 +4299,26 @@
       ],
       "positiveEvidence": [
         {
-          "text": "no red skin",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
-        },
-        {
           "text": "No more red nose septum’s",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "no red skin",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "at the bend of my nose on each side",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
-        },
-        {
           "text": "it tended to leave a red line and wrinkle on the bridge of my nose in the morning",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "getting some sores and redness on my face next to my chin because it was too tight",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ]
     }
@@ -3495,14 +4327,15 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 57,
+      "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 25,
       "reviewShare": 0.1152,
-      "positiveReviews": 13,
-      "mixedReviews": 2,
+      "positiveReviews": 14,
+      "neutralReviews": 1,
       "negativeReviews": 10,
-      "positiveShare": 0.52,
+      "positiveShare": 0.56,
       "negativeShare": 0.4,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3553,12 +4386,12 @@
           "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "high quality material",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "I have grown to Very-Much prefer the under-the-nose full-face approach of the Evora compared with the over-the-nose of the F10/F20",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
-          "text": "stays where you want it",
+          "text": "a lot more comfortable in all sleeping positions",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
         }
@@ -3575,21 +4408,22 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
-          "text": "which makes me feel claustrophobic",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
+          "text": "At the top of the bottom of the mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "praisedAspects": [
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 82,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.2,
           "reviewCount": 5,
           "reviewShare": 0.023,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3599,7 +4433,7 @@
               "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
             },
             {
-              "text": "The mask design itself is comfortable",
+              "text": "wider head foot print aids the feeling of comfort",
               "retailer": "Lofta",
               "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
             }
@@ -3612,14 +4446,15 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 63,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 24,
       "reviewShare": 0.1106,
-      "positiveReviews": 14,
-      "mixedReviews": 3,
+      "positiveReviews": 15,
+      "neutralReviews": 2,
       "negativeReviews": 7,
-      "positiveShare": 0.5833,
+      "positiveShare": 0.625,
       "negativeShare": 0.2917,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3660,48 +4495,123 @@
       ],
       "positiveEvidence": [
         {
-          "text": "the headgear itself is soft",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
-        },
-        {
-          "text": "Very comfortable headgear",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
-        },
-        {
           "text": "I love how soft the cushion and headgear are",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "how the headgear fits on my head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "the headgear itself is soft",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
-        {
-          "text": "headgear is a uncomfortable",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
-        },
         {
           "text": "it feels so uncomfortable it makes it difficult to sleep",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
-          "text": "The headgear sent is somewhat uncomfortable",
+          "text": "headgear is a uncomfortable",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "you cannot remove the mask with only one strap",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ],
       "praisedAspects": [
         {
+          "id": "comfort",
+          "label": "Comfort",
+          "score": 74,
+          "grade": "B-",
+          "averageSentiment": 6.6,
+          "reviewCount": 11,
+          "reviewShare": 0.0507,
+          "positiveReviews": 8,
+          "neutralReviews": 0,
+          "negativeReviews": 3,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "I love how soft the cushion and headgear are",
+              "retailer": "CPAP Ninja",
+              "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
+            },
+            {
+              "text": "the headgear itself is soft",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "it feels so uncomfortable it makes it difficult to sleep",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+            },
+            {
+              "text": "headgear is a uncomfortable",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+            }
+          ]
+        },
+        {
+          "id": "adjustment",
+          "label": "Adjustment",
+          "score": 72,
+          "grade": "B-",
+          "averageSentiment": 6.3,
+          "reviewCount": 7,
+          "reviewShare": 0.0323,
+          "positiveReviews": 5,
+          "neutralReviews": 0,
+          "negativeReviews": 2,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "I don't have to keep the head gear as tight to my face as I did with the F10/F20",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+            },
+            {
+              "text": "The extra adjustment on the top of the headgear",
+              "retailer": "CPAPsupplies.com",
+              "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "the headgear velcro has weak adhesion",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+            },
+            {
+              "text": "without adjustment each night",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
+            }
+          ]
+        },
+        {
           "id": "fit",
           "label": "Fit",
-          "score": 82,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.2,
           "reviewCount": 5,
           "reviewShare": 0.023,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3711,9 +4621,9 @@
               "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
             },
             {
-              "text": "the mask gear is lined up to not sit on top of the ears",
-              "retailer": "CPAPsupplies.com",
-              "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
+              "text": "had to have head gear really tight to keep a good seal with my 8-14 pressure setting",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
             }
           ],
           "negativeEvidence": []
@@ -3724,14 +4634,15 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 55,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.5,
       "reviewCount": 13,
       "reviewShare": 0.0599,
-      "positiveReviews": 6,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.4615,
+      "positiveShare": 0.5385,
       "negativeShare": 0.3846,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3799,14 +4710,14 @@
       ],
       "negativeEvidence": [
         {
-          "text": "No fit possible.",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
-        },
-        {
           "text": "it put so much pressure on my facial bones",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "No fit possible.",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
         },
         {
           "text": "the cushion around the mouth is all one size, and it's a bit too small for me",
@@ -3814,17 +4725,56 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ],
-      "praisedAspects": [],
+      "praisedAspects": [
+        {
+          "id": "seal_leak",
+          "label": "Seal Leak",
+          "score": 73,
+          "grade": "B-",
+          "averageSentiment": 6.4,
+          "reviewCount": 7,
+          "reviewShare": 0.0323,
+          "positiveReviews": 5,
+          "neutralReviews": 0,
+          "negativeReviews": 2,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "No leakage at all around the nostrils",
+              "retailer": "CPAPsupplies.com",
+              "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
+            },
+            {
+              "text": "it gave me a great fit and seal",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "Tried every adjustment possible plus all the cushions",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+            },
+            {
+              "text": "I get alot of leaks into my eyes",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+            }
+          ]
+        }
+      ],
       "criticizedAspects": [
         {
           "id": "fit",
           "label": "Fit",
-          "score": 37,
+          "score": 22,
+          "grade": "F",
           "averageSentiment": 3.7,
           "reviewCount": 7,
           "reviewShare": 0.0323,
           "positiveReviews": 1,
-          "mixedReviews": 1,
+          "neutralReviews": 1,
           "negativeReviews": 5,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3846,9 +4796,9 @@
               "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
             },
             {
-              "text": "This Mask is Not For Me",
-              "retailer": "DirectHomeMedical",
-              "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+              "text": "this mask so constricted my nose that I had to breath through my mouth",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
             }
           ]
         }
@@ -3857,14 +4807,15 @@
     {
       "id": "strap",
       "label": "Strap",
-      "score": 57,
+      "score": 56,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 13,
       "reviewShare": 0.0599,
-      "positiveReviews": 6,
-      "mixedReviews": 1,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
       "negativeReviews": 6,
-      "positiveShare": 0.4615,
+      "positiveShare": 0.5385,
       "negativeShare": 0.4615,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3900,6 +4851,11 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I use a high peep bipap machine and have always had to crank down the straps to keep a good seal but not with this…",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
           "text": "there’s no need to cinch the straps tight",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
@@ -3908,11 +4864,6 @@
           "text": "the angle of the straps",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
-        },
-        {
-          "text": "I use a high peep bipap machine and have always had to crank down the straps to keep a good seal but not with this…",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ],
       "negativeEvidence": [
@@ -3922,9 +4873,9 @@
           "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Hard to use the strar",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
+          "text": "Compared to my F30 mask it is definitely more comfortable as far as the strap is concerned",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
           "text": "lower straps that are difficult to connect",
@@ -3938,14 +4889,15 @@
     {
       "id": "clip",
       "label": "Clip",
-      "score": 40,
+      "score": 27,
+      "grade": "F",
       "averageSentiment": 4.0,
       "reviewCount": 11,
       "reviewShare": 0.0507,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 8,
-      "positiveShare": 0.1818,
+      "positiveShare": 0.2727,
       "negativeShare": 0.7273,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3980,31 +4932,36 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "The clips are NOT magnetic",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "beefy clips",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "The clips are NOT magnetic",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
+          "text": "I have neuropathy in my hands",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "little hooks instead of magnets on the bottom straps",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
-        },
-        {
-          "text": "the clasps come undone",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
-        },
-        {
           "text": "there are flaws with it where it snaps together it will pop off mid sleep",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "it has clips on the bottom straps instead of magnets",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "little hooks instead of magnets on the bottom straps",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
         }
       ],
       "praisedAspects": [],
@@ -4013,14 +4970,15 @@
     {
       "id": "short_tube",
       "label": "Short Tube",
-      "score": 54,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.3,
       "reviewCount": 10,
       "reviewShare": 0.0461,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.4,
+      "positiveShare": 0.5,
       "negativeShare": 0.5,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4042,11 +5000,16 @@
           "text": "The slim hose extension is actually nice, it reduces the pull the CPAP hose exerts on the mask",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
+        },
+        {
+          "text": "Rather the tube was only 8 inches long, which would provide enough flexibility",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Cheap white tube that leaks",
+          "text": "that tube would leak air from the joint where the flexible tube meets the hard nozzle",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
@@ -4056,9 +5019,9 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
-          "text": "tiny tube attached to the mask",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+          "text": "the mask requires a mating adapter between the standard tube and the mask connection",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ],
       "praisedAspects": [],
@@ -4067,12 +5030,13 @@
     {
       "id": "nasal_cushion",
       "label": "Nasal Cushion",
-      "score": 45,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.5,
       "reviewCount": 8,
       "reviewShare": 0.0369,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.375,
       "negativeShare": 0.625,
@@ -4126,17 +5090,17 @@
       ],
       "negativeEvidence": [
         {
-          "text": "from the nose hole rubbing",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
-        },
-        {
-          "text": "Nostril hole are too small",
+          "text": "have to fit exactly to offer a reasonable nasal airway",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
         {
           "text": "which firmly attached on your nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "from the nose hole rubbing",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
@@ -4147,12 +5111,13 @@
     {
       "id": "vent",
       "label": "Vent",
-      "score": 43,
+      "score": 27,
+      "grade": "F",
       "averageSentiment": 4.3,
       "reviewCount": 8,
       "reviewShare": 0.0369,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.25,
       "negativeShare": 0.75,
@@ -4174,14 +5139,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Both masks have very quiet exhaust vents",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
-        },
-        {
           "text": "The holes for the nasal are much better",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        },
+        {
+          "text": "Both masks have very quiet exhaust vents",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -4207,12 +5172,13 @@
     {
       "id": "magnetic_clip",
       "label": "Magnetic Clip",
-      "score": 37,
+      "score": 29,
+      "grade": "F",
       "averageSentiment": 3.7,
       "reviewCount": 7,
       "reviewShare": 0.0323,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.2857,
       "negativeShare": 0.7143,
@@ -4246,7 +5212,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "I noticed after time my jaw and teeth were sore",
+          "text": "I actually lost a tooth near the magnet area of the other mask",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
         },
@@ -4267,12 +5233,13 @@
     {
       "id": "cushion_seal",
       "label": "Cushion Seal",
-      "score": 65,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.5,
       "reviewCount": 6,
       "reviewShare": 0.0276,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -4327,12 +5294,13 @@
     {
       "id": "hose_connection",
       "label": "Hose Connection",
-      "score": 30,
+      "score": 7,
+      "grade": "F-",
       "averageSentiment": 3.0,
       "reviewCount": 6,
       "reviewShare": 0.0276,
       "positiveReviews": 0,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 5,
       "positiveShare": 0.0,
       "negativeShare": 0.8333,
@@ -4362,10 +5330,16 @@
         }
       ],
       "associatedBodySites": [],
-      "positiveEvidence": [],
+      "positiveEvidence": [
+        {
+          "text": "it hasn’t affected my seal or pressure numbers",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        }
+      ],
       "negativeEvidence": [
         {
-          "text": "hose that connect on the mask frame is a nightmare",
+          "text": "the hose runs between your legs and tape the hose that is connected to mask frame to your chest",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
@@ -4375,7 +5349,7 @@
           "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
         },
         {
-          "text": "no swivel at tube/mask connection",
+          "text": "Hose attachment should have been better designed",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
@@ -4386,12 +5360,13 @@
     {
       "id": "connector",
       "label": "Connector",
-      "score": 36,
+      "score": 22,
+      "grade": "F",
       "averageSentiment": 3.6,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -4441,7 +5416,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "the problem is this plastic oval connection to the mask is flimsy",
+          "text": "Consequently, every time the adapter snapped off meant sitting up, turning on the light, and reassembling tube and headgear",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "the swivel connector because it pulls out of the hose all the time",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
@@ -4449,11 +5429,6 @@
           "text": "hose is stiff and pushes mask off face if a side sleeper",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
-        },
-        {
-          "text": "the swivel connector because it pulls out of the hose all the time",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ],
       "praisedAspects": [],
@@ -4462,12 +5437,13 @@
     {
       "id": "hose",
       "label": "Hose",
-      "score": 49,
+      "score": 42,
+      "grade": "D-",
       "averageSentiment": 4.9,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -4512,14 +5488,14 @@
       ],
       "negativeEvidence": [
         {
-          "text": "the air hose does NOT stay attached",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
-        },
-        {
           "text": "the hose coming off the bottom is terrible",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "the air hose does NOT stay attached",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
           "text": "The oblong end of the hose can be a little tricky to connect to the mask",
@@ -4535,26 +5511,27 @@
     {
       "id": "headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 66,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 11,
       "reviewShare": 0.0507,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "the headgear itself is soft",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
+          "text": "I love how soft the cushion and headgear are",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "headgear is a uncomfortable",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+          "text": "it feels so uncomfortable it makes it difficult to sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ],
       "partId": "headgear",
@@ -4565,12 +5542,13 @@
     {
       "id": "cushion|fit",
       "label": "Cushion · Fit",
-      "score": 37,
+      "score": 22,
+      "grade": "F",
       "averageSentiment": 3.7,
       "reviewCount": 7,
       "reviewShare": 0.0323,
       "positiveReviews": 1,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 5,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4595,12 +5573,13 @@
     {
       "id": "cushion|seal_leak",
       "label": "Cushion · Seal Leak",
-      "score": 64,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.4,
       "reviewCount": 7,
       "reviewShare": 0.0323,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4625,19 +5604,20 @@
     {
       "id": "headgear|adjustment",
       "label": "Headgear · Adjustment",
-      "score": 63,
+      "score": 72,
+      "grade": "B-",
       "averageSentiment": 6.3,
       "reviewCount": 7,
       "reviewShare": 0.0323,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "The extra adjustment on the top of the headgear",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+          "text": "I don't have to keep the head gear as tight to my face as I did with the F10/F20",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -4656,11 +5636,12 @@
       "id": "mask_body|fit",
       "label": "Mask Body · Fit",
       "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.9,
       "reviewCount": 7,
       "reviewShare": 0.0323,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4672,9 +5653,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "pinches my nose in an odd way",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
+          "text": "At the top of the bottom of the mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "partId": "mask_body",
@@ -4685,12 +5666,13 @@
     {
       "id": "cushion_seal|seal_leak",
       "label": "Cushion Seal · Seal Leak",
-      "score": 65,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.5,
       "reviewCount": 6,
       "reviewShare": 0.0276,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4715,12 +5697,13 @@
     {
       "id": "headgear|fit",
       "label": "Headgear · Fit",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4739,12 +5722,13 @@
     {
       "id": "mask_body|comfort",
       "label": "Mask Body · Comfort",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4763,12 +5747,13 @@
     {
       "id": "vent|noise",
       "label": "Vent · Noise",
-      "score": 36,
+      "score": 21,
+      "grade": "F",
       "averageSentiment": 3.6,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4793,12 +5778,13 @@
     {
       "id": "vent|venting",
       "label": "Vent · Venting",
-      "score": 40,
+      "score": 29,
+      "grade": "F",
       "averageSentiment": 4.0,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 1,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4825,12 +5811,13 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 65,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.5,
       "reviewCount": 19,
       "reviewShare": 0.0876,
       "positiveReviews": 11,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 7,
       "positiveShare": 0.5789,
       "negativeShare": 0.3684,
@@ -4890,7 +5877,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "the clasps come undone",
+          "text": "When I sleep on my side the clasps come undone and I lose the seal and wake up to air escaping",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
@@ -4909,12 +5896,13 @@
     {
       "id": "new-users",
       "label": "New CPAP users",
-      "score": 75,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 7.5,
       "reviewCount": 11,
       "reviewShare": 0.0507,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9091,
       "negativeShare": 0.0909,
@@ -4942,14 +5930,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The One",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
-        },
-        {
-          "text": "Comfortable mask.",
+          "text": "This mask is so much better",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "Very Comfortable mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -4968,12 +5956,13 @@
     {
       "id": "mouth-breathers",
       "label": "Mouth breathers",
-      "score": 59,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 5.9,
       "reviewCount": 10,
       "reviewShare": 0.0461,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -5016,21 +6005,21 @@
           "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
         },
         {
-          "text": "Probably the best full-face mask (for someone who leaks air or breathes through their mouth)",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "I have had more success with this mask than with a nasal pillow mask because I am a mouth breather at night",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I tried the Evora due to mouth breathing, but it leaked too much",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
-        },
-        {
           "text": "this mask so constricted my nose that I had to breath through my mouth",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+        },
+        {
+          "text": "I tried the Evora due to mouth breathing, but it leaked too much",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "sourceContexts": [
@@ -5043,12 +6032,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 44,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.4,
       "reviewCount": 9,
       "reviewShare": 0.0415,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.3333,
       "negativeShare": 0.6667,
@@ -5095,26 +6085,26 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "stays put with movement",
+          "text": "Most other masks could not hang with me because I would rip them off in the middle of the night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
-          "text": "Most other masks could not hang with me because I would rip them off in the middle of the night",
+          "text": "stays put with movement",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "it pops off with any movement left or right",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
-        },
-        {
           "text": "the connection is slightly oval making it next to impossible to reattach it half asleep laying down",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
+        },
+        {
+          "text": "it pops off with any movement left or right",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ],
       "sourceContexts": [
@@ -5128,14 +6118,15 @@
     {
       "id": "easy-on-off",
       "label": "People who need easy on/off handling",
-      "score": 32,
+      "score": 13,
+      "grade": "F-",
       "averageSentiment": 3.2,
       "reviewCount": 7,
       "reviewShare": 0.0323,
-      "positiveReviews": 0,
-      "mixedReviews": 1,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
       "negativeReviews": 6,
-      "positiveShare": 0.0,
+      "positiveShare": 0.1429,
       "negativeShare": 0.8571,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -5189,7 +6180,13 @@
           "reviewCount": 1
         }
       ],
-      "positiveEvidence": [],
+      "positiveEvidence": [
+        {
+          "text": "I have neuropathy in my hands",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        }
+      ],
       "negativeEvidence": [
         {
           "text": "little hooks instead of magnets on the bottom straps",
@@ -5213,12 +6210,13 @@
     {
       "id": "high-pressure",
       "label": "High-pressure users",
-      "score": 73,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 6,
       "reviewShare": 0.0276,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -5276,14 +6274,15 @@
     {
       "id": "long-term-users",
       "label": "Long-term CPAP users",
-      "score": 84,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 6,
       "reviewShare": 0.0276,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8333,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -5297,9 +6296,9 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "An Excellent Mask",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+          "text": "I’ve finally found a mask that’s comfortable!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
           "text": "I love this mask",
@@ -5317,14 +6316,15 @@
     {
       "id": "facial-hair",
       "label": "People with facial hair",
-      "score": 71,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.1,
       "reviewCount": 6,
       "reviewShare": 0.0276,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.8333,
       "negativeShare": 0.1667,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -5348,9 +6348,9 @@
           "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
-          "text": "My husband has a beard, so hard to find a full face mask that works well",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+          "text": "I am able to wear's this without leaks even when I have not shaved in over a week",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ],
       "negativeEvidence": [
@@ -5370,12 +6370,13 @@
     {
       "id": "back-sleepers",
       "label": "Back sleepers",
-      "score": 50,
+      "score": 43,
+      "grade": "D-",
       "averageSentiment": 5.0,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -5439,12 +6440,13 @@
     {
       "id": "combination-sleepers",
       "label": "Combination sleepers",
-      "score": 90,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.0,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -5471,14 +6473,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "I don't have to THINK about adjusting the nozzle (there isn't one) when I roll over or readjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "is a lot more comfortable in all sleeping positions",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
-        },
-        {
-          "text": "tossing and turning side to side it stays put",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ],
       "negativeEvidence": [],
@@ -5493,12 +6495,13 @@
     {
       "id": "side-sleepers|sleep_position_compatibility",
       "label": "Side sleepers · Sleep Position Compatibility",
-      "score": 83,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 8.3,
       "reviewCount": 7,
       "reviewShare": 0.0323,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5523,12 +6526,13 @@
     {
       "id": "side-sleepers|seal_leak",
       "label": "Side sleepers · Seal Leak",
-      "score": 58,
+      "score": 54,
+      "grade": "D+",
       "averageSentiment": 5.8,
       "reviewCount": 6,
       "reviewShare": 0.0276,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5553,19 +6557,20 @@
     {
       "id": "new-users|comfort",
       "label": "New CPAP users · Comfort",
-      "score": 85,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.5,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Comfortable mask.",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+          "text": "Very Comfortable mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
         }
       ],
       "negativeEvidence": [],
@@ -5577,19 +6582,20 @@
     {
       "id": "new-users|overall_satisfaction",
       "label": "New CPAP users · Overall Satisfaction",
-      "score": 70,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "The One",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+          "text": "This mask is so much better",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -5613,12 +6619,13 @@
     {
       "id": "nose",
       "label": "Nose",
-      "score": 44,
+      "score": 40,
+      "grade": "D-",
       "averageSentiment": 4.4,
       "reviewCount": 27,
       "reviewShare": 0.1244,
       "positiveReviews": 10,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 15,
       "positiveShare": 0.3704,
       "negativeShare": 0.5556,
@@ -5681,19 +6688,19 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         },
         {
-          "text": "The problem is I have a small nose",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+          "text": "the new style of full face mask that sat below the nose and over the mouth",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "my nose felt battered",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "I woke up in the middle of the night with my nose killing me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Ripped up my nose",
+          "text": "I have to make it very tight against my face and nose",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         },
@@ -5749,12 +6756,13 @@
     {
       "id": "face",
       "label": "Face",
-      "score": 59,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 5.9,
       "reviewCount": 23,
       "reviewShare": 0.106,
       "positiveReviews": 13,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 8,
       "positiveShare": 0.5652,
       "negativeShare": 0.3478,
@@ -5812,22 +6820,27 @@
       ],
       "positiveEvidence": [
         {
-          "text": "the headgear itself is soft",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
-        },
-        {
-          "text": "Very comfortable",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
-        },
-        {
           "text": "the soft mask that conforms to my face when I lay sideways on the pillow",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
+        },
+        {
+          "text": "keeping that big 90 degree elbow off of your face",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
+        },
+        {
+          "text": "puts the harder heated hose away from my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "it put so much pressure on my facial bones",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
         {
           "text": "Uncomfortable and irritating",
           "retailer": "Lofta",
@@ -5837,11 +6850,6 @@
           "text": "Very uncomfortable",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
-        },
-        {
-          "text": "it put so much pressure on my facial bones",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "complaintReviews": 9,
@@ -5895,14 +6903,15 @@
     {
       "id": "nose_bridge",
       "label": "Nose Bridge",
-      "score": 48,
+      "score": 42,
+      "grade": "D-",
       "averageSentiment": 4.8,
       "reviewCount": 10,
       "reviewShare": 0.0461,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 6,
-      "positiveShare": 0.3,
+      "positiveShare": 0.4,
       "negativeShare": 0.6,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -5950,19 +6959,19 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Regular masks were lacerating the bridge of my nose",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
-        },
-        {
           "text": "started to develop a problem with sores on the bridge of my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "nose-bridge abrasions",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+          "text": "Regular masks were lacerating the bridge of my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
+          "text": "destroying the bridge of my nose skin",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
         }
       ],
       "complaintReviews": 7,
@@ -6006,12 +7015,13 @@
     {
       "id": "nostrils",
       "label": "Nostrils",
-      "score": 51,
+      "score": 43,
+      "grade": "D-",
       "averageSentiment": 5.1,
       "reviewCount": 10,
       "reviewShare": 0.0461,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -6054,26 +7064,26 @@
           "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
         },
         {
-          "text": "the single large nostril opening design",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
-        },
-        {
           "text": "Also blows up the nose just fine",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the single large nostril opening design",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "could not find a model fit for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        },
+        {
           "text": "Nostril hole are too small",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
-        },
-        {
-          "text": "which firmly attached on your nose",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         },
         {
           "text": "The only issue I have is that the medium size is a bit too tight around my nose",
@@ -6124,148 +7134,298 @@
   "interactionInsights": [],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 80,
-      "averageSentiment": 8.0,
-      "reviewCount": 88,
-      "reviewShare": 0.4055,
-      "positiveReviews": 73,
-      "mixedReviews": 4,
-      "negativeReviews": 11,
-      "positiveShare": 0.8295,
-      "negativeShare": 0.125,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
+      "id": "part|headgear|comfort",
+      "label": "Headgear · Comfort",
+      "score": 74,
+      "grade": "B-",
+      "averageSentiment": 6.6,
+      "reviewCount": 11,
+      "reviewShare": 0.0507,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.7273,
+      "negativeShare": 0.2727,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 11
+        }
+      ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "Perfect for me",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "I love how soft the cushion and headgear are",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Just not good",
+          "text": "it feels so uncomfortable it makes it difficult to sleep",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
       ]
     },
     {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 80,
-      "averageSentiment": 8.0,
-      "reviewCount": 52,
-      "reviewShare": 0.2396,
-      "positiveReviews": 47,
-      "mixedReviews": 0,
-      "negativeReviews": 5,
-      "positiveShare": 0.9038,
-      "negativeShare": 0.0962,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
+      "id": "part|cushion|seal_leak",
+      "label": "Cushion · Seal Leak",
+      "score": 73,
+      "grade": "B-",
+      "averageSentiment": 6.4,
+      "reviewCount": 7,
+      "reviewShare": 0.0323,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "jaw",
+          "label": "Jaw",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "No leakage at all around the nostrils",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Tried every adjustment possible plus all the cushions",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
+        }
+      ]
+    },
+    {
+      "id": "part|headgear|adjustment",
+      "label": "Headgear · Adjustment",
+      "score": 72,
+      "grade": "B-",
+      "averageSentiment": 6.3,
+      "reviewCount": 7,
+      "reviewShare": 0.0323,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 7
+        }
+      ],
       "associatedContexts": [],
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "The F&P Evora Full Face CPAP mask is very comfortable",
+          "text": "I don't have to keep the head gear as tight to my face as I did with the F10/F20",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "is extremely uncomfortable",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "the headgear velcro has weak adhesion",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ]
     },
     {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 79,
-      "averageSentiment": 7.9,
-      "reviewCount": 35,
-      "reviewShare": 0.1613,
-      "positiveReviews": 30,
-      "mixedReviews": 2,
-      "negativeReviews": 3,
-      "positiveShare": 0.8571,
-      "negativeShare": 0.0857,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "id": "site|nose|comfort",
+      "label": "Nose · Comfort",
+      "score": 82,
+      "grade": "B+",
+      "averageSentiment": 6.8,
+      "reviewCount": 6,
+      "reviewShare": 0.0276,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 6
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "Best design and fit of any mask in 25 years",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "Very Comfortable mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Any way I adjusted the mask",
+          "text": "uncomfortable",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
         }
       ]
     },
     {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 75,
-      "averageSentiment": 7.5,
-      "reviewCount": 18,
-      "reviewShare": 0.0829,
-      "positiveReviews": 14,
-      "mixedReviews": 1,
-      "negativeReviews": 3,
-      "positiveShare": 0.7778,
-      "negativeShare": 0.1667,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I have never had a better night’s sleep",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Cannot sleep with it on",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
-        }
-      ]
-    },
-    {
-      "id": "|||therapy_effectiveness",
-      "label": "Therapy Effectiveness",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 14,
-      "reviewShare": 0.0645,
-      "positiveReviews": 13,
-      "mixedReviews": 1,
+      "id": "site|head|fit",
+      "label": "Head · Fit",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.4,
+      "reviewCount": 5,
+      "reviewShare": 0.023,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.9286,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 5
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "Works !",
+          "text": "this mask has options for all shaped and sized heads",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "part|headgear|fit",
+      "label": "Headgear · Fit",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.2,
+      "reviewCount": 5,
+      "reviewShare": 0.023,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "high_pressure",
+          "label": "High Pressure",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "how the headgear fits on my head",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
         }
@@ -6273,177 +7433,119 @@
       "negativeEvidence": []
     },
     {
-      "id": "|||ease_of_use",
-      "label": "Ease Of Use",
-      "score": 76,
-      "averageSentiment": 7.6,
-      "reviewCount": 8,
-      "reviewShare": 0.0369,
-      "positiveReviews": 7,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.875,
-      "negativeShare": 0.125,
+      "id": "part|mask_body|comfort",
+      "label": "Mask Body · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.2,
+      "reviewCount": 5,
+      "reviewShare": 0.023,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
+      "associatedParts": [
         {
-          "text": "this is by far the easiest",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 5
         }
       ],
-      "negativeEvidence": [
-        {
-          "text": "It’s difficult",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "||side_sleeping|sleep_position_compatibility",
-      "label": "Side Sleeping · Sleep Position Compatibility",
-      "score": 83,
-      "averageSentiment": 8.3,
-      "reviewCount": 7,
-      "reviewShare": 0.0323,
-      "positiveReviews": 6,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.8571,
-      "negativeShare": 0.1429,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
       "associatedContexts": [
         {
-          "id": "side_sleeping",
-          "label": "Side Sleeping",
-          "reviewCount": 7
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
         }
       ],
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "It’s incredible as I can sleep on my side and on my back without leakage",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+          "text": "a lot more comfortable in all sleeping positions",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
         }
       ],
-      "negativeEvidence": [
-        {
-          "text": "I like to sleep on my side and this mask isn’t great for that",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
-        }
-      ]
+      "negativeEvidence": []
     }
   ],
   "concerns": [
     {
-      "id": "|||value",
-      "label": "Value",
-      "score": 38,
-      "averageSentiment": 3.8,
-      "reviewCount": 9,
-      "reviewShare": 0.0415,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
-      "negativeReviews": 6,
-      "positiveShare": 0.2222,
-      "negativeShare": 0.6667,
+      "id": "part|cushion|fit",
+      "label": "Cushion · Fit",
+      "score": 7,
+      "grade": "F-",
+      "averageSentiment": 3.0,
+      "reviewCount": 6,
+      "reviewShare": 0.0276,
+      "positiveReviews": 0,
+      "neutralReviews": 1,
+      "negativeReviews": 5,
+      "positiveShare": 0.0,
+      "negativeShare": 0.8333,
       "evidenceStrength": "limited",
-      "associatedParts": [],
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 6
+        }
+      ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "chin",
+          "label": "Chin",
+          "reviewCount": 1
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "Totally worth the money",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+          "text": "it gave me a great fit and seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "such a waste of money",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||sizing",
-      "label": "Sizing",
-      "score": 30,
-      "averageSentiment": 3.0,
-      "reviewCount": 7,
-      "reviewShare": 0.0323,
-      "positiveReviews": 1,
-      "mixedReviews": 0,
-      "negativeReviews": 6,
-      "positiveShare": 0.1429,
-      "negativeShare": 0.8571,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I love that this mask has options for all shaped and sized heads",
+          "text": "No fit possible.",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
         }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "any size I tried",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
-        }
       ]
     },
     {
-      "id": "|||overtightening",
-      "label": "Overtightening",
-      "score": 33,
-      "averageSentiment": 3.3,
-      "reviewCount": 6,
-      "reviewShare": 0.0276,
-      "positiveReviews": 1,
-      "mixedReviews": 0,
-      "negativeReviews": 5,
-      "positiveShare": 0.1667,
-      "negativeShare": 0.8333,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I don't have to synch the mask down so tight to prevent leaks",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "was either too tight",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
-        }
-      ]
-    },
-    {
-      "id": "|nose||pain",
+      "id": "site|nose|pain",
       "label": "Nose · Pain",
-      "score": 16,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 1.6,
       "reviewCount": 5,
       "reviewShare": 0.023,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -6460,9 +7562,9 @@
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "my nose felt battered",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+          "text": "I woke up in the middle of the night with my nose killing me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
         }
       ]
     }
@@ -6528,73 +7630,73 @@
   "evidence": {
     "positive": [
       {
-        "text": "Perfect for me",
+        "text": "I have tried numerous masks looking for one with no contact on forehead or bridge of nose",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
       },
       {
-        "text": "I love this mask!!!!",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        "text": "There’s nothing like a great night sleep that I found to have because of this mask",
+        "retailer": "Lofta",
+        "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
       },
       {
-        "text": "Excellent Product",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
-      },
-      {
-        "text": "those Mask are the best we have used",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
-      },
-      {
-        "text": "The F&P Evora Full Face CPAP mask is very comfortable",
+        "text": "it came in a fit pack - all sized cushions were included for the same price",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
       },
       {
-        "text": "Perfect seal",
+        "text": "I think this is the best of the worlds among full cpap masks",
         "retailer": "Lofta",
         "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+      },
+      {
+        "text": "it finally solves the problem of leaking mask around my facial hair",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-cpap-mask"
+      },
+      {
+        "text": "this mask is absolutely amazing in providing comfort while I sleep",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-system"
       }
     ],
     "negative": [
       {
-        "text": "This leaks terrible",
+        "text": "Bought this to try and save some money, wrong , it will be a dust collector in the closet for a back up mask",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-full-face-cpap-mask"
+      },
+      {
+        "text": "the hose runs between your legs and tape the hose that is connected to mask frame to your chest",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
       },
       {
-        "text": "I simply could not get a good seal with this mask",
-        "retailer": "Lofta",
-        "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
+        "text": "the connection is slightly oval making it next to impossible to reattach it half asleep laying down",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-full-face-mask-fitpack"
       },
       {
-        "text": "Extremely uncomfortable!",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/evora-full-face-mask-with-headgear?variant=49040383082812"
+        "text": "I woke up in the middle of the night with my nose killing me",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/evora-full-face-cpap-mask-fisher-paykel"
       },
       {
-        "text": "I noticed after time my jaw and teeth were sore",
+        "text": "I actually lost a tooth near the magnet area of the other mask",
         "retailer": "CPAP Ninja",
         "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel"
       },
       {
-        "text": "Big NO!",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
-      },
-      {
-        "text": "Tried it for a week and hated it",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/evora-full-face-cpap-mask-fit-pack"
+        "text": "I have to make it very tight against my face and nose",
+        "retailer": "Lofta",
+        "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-evora-full-mask"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

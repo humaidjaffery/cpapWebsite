@@ -1,8 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-quattro-air",
   "name": "ResMed Quattro Air",
   "catalogOrder": 35,
+  "search": {
+    "aliases": [
+      "Quattro Air",
+      "Quattro Air Full Face CPAP Mask",
+      "Quattro Air Full Face CPAP Mask with Headgear",
+      "Quattro Air Full Face CPAP Mask | ResMed",
+      "Quattro Air Full Face Mask",
+      "Quattro Air mask",
+      "ResMed Quattro Air",
+      "ResMed | Quattro Air Full Face CPAP Mask",
+      "Resmed Quattro™ Air Full Face CPAP Mask",
+      "Resmed Quattro™ Air Full Face CPAP Mask with Headgear"
+    ],
+    "abbreviations": [
+      "Resmed"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 284,
@@ -13,32 +33,35 @@
     "reviewDateEnd": "2026-06-07"
   },
   "overall": {
-    "compositeScore": 86,
+    "score": 85,
+    "grade": "A-",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.42,
-      "score": 88,
+      "score": 85,
       "reviewCount": 284,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.3,
       "score": 83,
       "reviewCount": 139,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 75,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.5,
       "reviewCount": 123,
       "reviewShare": 0.4331,
-      "positiveReviews": 93,
-      "mixedReviews": 16,
+      "positiveReviews": 103,
+      "neutralReviews": 6,
       "negativeReviews": 14,
-      "positiveShare": 0.7561,
+      "positiveShare": 0.8374,
       "negativeShare": 0.1138,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -124,9 +147,49 @@
       ],
       "positiveEvidence": [
         {
+          "text": "It feels like I am not wearing this mask on my face while using it at night.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "from the first night I was truly amazed",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "Most comfortable mask I have ever worn",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "the most comfortable one I have found",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
           "text": "the membrane is completely comfortable",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "This one is so light",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "Super soft and comfortable headgear",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "This mask is very comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "Best mask and headgear ever!!!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
           "text": "Most comfortable",
@@ -141,23 +204,64 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
+          "text": "I woke up the first morning with two knots on my forehead that were very sore",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "that piece that goes up past my nose to my forehead is awkward and uncomfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "they would leave the bridge of my nose very sore",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "would wake up with a very sore red nose bridge",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "the mask I received from CPAP. Com is very uncomfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "tighten the straps so tight it hurt my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "that can cause pain when I use my machine",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "a reoccurring sore on my bridge of my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "I am at a very high pressure setting",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 58,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.8,
       "reviewCount": 107,
       "reviewShare": 0.3768,
-      "positiveReviews": 51,
-      "mixedReviews": 16,
+      "positiveReviews": 59,
+      "neutralReviews": 8,
       "negativeReviews": 40,
-      "positiveShare": 0.4766,
+      "positiveShare": 0.5514,
       "negativeShare": 0.3738,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -243,14 +347,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "The fit is perfect",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "Fits like a dream",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "perfect fit",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "The fit is perfect",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+          "text": "the removed the dial-o-nose pain knob from the forehead support and instead made sort of a butterfly forehead support that you can’t over tighten",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I have had this same mask in this size before",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "they didn't fit like the \"Quattro Air Full Face Mask\"",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "finally found one that I am very comfortable with",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "This mask is perfect for my face structure",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "it fits so much better than the others",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "fit very comfortably right out of the box",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
@@ -260,7 +404,47 @@
           "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
         },
         {
-          "text": "in spite of tightening till my face hurt",
+          "text": "I am at a very high pressure setting so with such a high number you are forced to pull the straps very tightly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "If ResMed made an extra large size for the Quattro Air I would give it another try",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I readjusted the headgear dozens of times, from loose to very tight, to no avail",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "The sizing template showed that I was between sizes (X-S to S)",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I have to wear it very tightly to keep it from leaking",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I tightened the mask headgear so tight it was really uncomfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "the mask requires uncomfortable amount of tightening to correct the issue",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "I've tighten up the head gear at the cheeks so tight",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "Fit at chin is poor because of thin silicone seal component",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -269,14 +453,15 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 57,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 103,
       "reviewShare": 0.3627,
-      "positiveReviews": 52,
-      "mixedReviews": 8,
+      "positiveReviews": 56,
+      "neutralReviews": 4,
       "negativeReviews": 43,
-      "positiveShare": 0.5049,
+      "positiveShare": 0.5437,
       "negativeShare": 0.4175,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -370,32 +555,113 @@
           "text": "I never wake up with a leak",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "finally have no leaks!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "never have leak problem",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "no air leaks",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/quattro-air-full-face-cpap-mask-resmed"
+        },
+        {
+          "text": "no air leaks!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "no leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "no burps",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I’ve been able to get consistently good seals with little to no leakage",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "its gel piece that connects to the plastic face part",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I have a very small bridge of my nose, and this doesn't seal at all, even with the liners and gel pads",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "did not seal up on the bridge of nose even when pulled tight",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "Ultimately, the seal would not close off air past my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I can not get a good seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
         {
           "text": "it won't seal with high pressures",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "I have a very small bridge of my nose, and this doesn't seal at all, even with the liners and gel pads",
+          "text": "Leaks all night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "It leaked constantly",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "leaks constantly",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "leaks terribly",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I need a full face mask for a pressure of 17 which makes the other masks leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 63,
+      "label": "Stability",
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 38,
       "reviewShare": 0.1338,
-      "positiveReviews": 22,
-      "mixedReviews": 4,
+      "positiveReviews": 23,
+      "neutralReviews": 3,
       "negativeReviews": 12,
-      "positiveShare": 0.5789,
+      "positiveShare": 0.6053,
       "negativeShare": 0.3158,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -481,7 +747,47 @@
           "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
         },
         {
+          "text": "The diffused air outlet prevents me from blasting my wife with a stream of air when I roll over and face her direction",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "The headgear cradles the back of your head in two places, which helps it feel very secure",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "Even as a side sleeper, this mask takes the cake for best design from me",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "allows me to sleep in any positon I like",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "have never had the mask come off at night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "works well as a side sleeping mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I sleep every way you can imagine",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "It makes side sleeping so comfortable!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "side sleeping",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -493,23 +799,64 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
+          "text": "The Air is so light that it would continuously be knocked sideways",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "without bothering my wife with a huge blast of air",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "Lower strap mounts are too easily dislodged",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/quattro-air-full-face-cpap-mask-by-resmed"
+        },
+        {
+          "text": "could not sleep on my side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "the bottom straps didn't stay attached",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "literally blowing off my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "not recommended for side-sleepers",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "It's now too easy for the bottom straps to come off in the middle of the night when you take the mask off to go…",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "The nozzle between the tube and mask not being able to pivot up and down is a draw back",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 64,
+      "label": "Ease of Use",
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.4,
       "reviewCount": 65,
       "reviewShare": 0.2289,
-      "positiveReviews": 34,
-      "mixedReviews": 13,
+      "positiveReviews": 43,
+      "neutralReviews": 4,
       "negativeReviews": 18,
-      "positiveShare": 0.5231,
+      "positiveShare": 0.6615,
       "negativeShare": 0.2769,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -600,19 +947,99 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
+          "text": "It feels like I am not wearing this mask on my face while using it at night.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
           "text": "Easiest to wear, take off",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "the ability to use straw for water in middle of night while leaving mask in place",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "it has a really easy quick-release mechanism so I can just quickly disconnect from my machine",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "It is by far the easiest mask to use that I own",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "so easy to disconnect when you have to get up",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "is very easy to take apart and clean",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "The attaching and detaching system is also exquisite",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "It is so light and easy to fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I wake up in the middle of the night with my nose and upper lip covered",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
         {
           "text": "Couldn't adjust it to stop the whistle",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
+          "text": "no matter how tight I adjust it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
           "text": "Always gouging the eyes out",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "The nozzle between the tube and mask not being able to pivot up and down is a draw back",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "Have adjusted the headgear every which way and unable to solve the issue",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I have not found a chin strap I could adjust to wearing",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "Each night I tried to adjust the straps but was not successful",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "I did not like the fastening system for the straps",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "Wish it had quick release clips",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -621,14 +1048,15 @@
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 58,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 5.8,
       "reviewCount": 27,
       "reviewShare": 0.0951,
-      "positiveReviews": 15,
-      "mixedReviews": 2,
+      "positiveReviews": 16,
+      "neutralReviews": 1,
       "negativeReviews": 10,
-      "positiveShare": 0.5556,
+      "positiveShare": 0.5926,
       "negativeShare": 0.3704,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -707,11 +1135,81 @@
           "text": "no \"farty\" noises in the middle of the night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "The diffused air outlet prevents me from blasting my wife with a stream of air when I roll over and face her direction",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "the air vent does not blow up into my eyes",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "it vents air out in a circle around the mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "the circular air diffuser is both quiet and unobtrusive",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "provides much more airflow",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "no annoying wind noise when the air tube comes in from the top side of the mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "My outward air flow does not feel restricted like alot of other masks or pillows do",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "That cuts out leakage and noise",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "The exhalation port blows all over the place-through the front part and parts on the side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "Lots of farty sounding leaks in the middle of the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "Leaked so loudly, it woke up my wife and the cat!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I would wake up from the noise of it leaking",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "thin streams of air blowing into my eyes",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "Couldn't adjust it to stop the whistle",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "exist gate does not work properly",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
@@ -719,18 +1217,29 @@
           "text": "Sounds like a jet engine",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "my hands were getting cold",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "and is somewhat noisy unless the elbow is in just the right position",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         }
       ]
     },
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 56,
+      "score": 53,
+      "grade": "D+",
       "averageSentiment": 5.6,
       "reviewCount": 41,
       "reviewShare": 0.1444,
       "positiveReviews": 20,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 20,
       "positiveShare": 0.4878,
       "negativeShare": 0.4878,
@@ -818,6 +1327,11 @@
       ],
       "positiveEvidence": [
         {
+          "text": "finally, I can wake up with no marks on my forehead",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "It doesn't leave any marks on my face at all",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
@@ -826,6 +1340,41 @@
           "text": "it leaves no marks on face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "no line marks on face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "it NEVER hurts",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "no pressure marks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "better, especially on the bridge of my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "doesn't rub the bridge of my nose raw",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "did not irritate my skin at all",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "doesn’t leave any marks on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -835,7 +1384,47 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
+          "text": "I woke up the first morning with two knots on my forehead that were very sore",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "So I feel it on my face, arms, hands, in my eyes",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "they would leave the bridge of my nose very sore",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "would wake up with a very sore red nose bridge",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "tighten the straps so tight it hurt my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "that can cause pain when I use my machine",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "I tried the pillow and it irritated my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "a reoccurring sore on my bridge of my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "It can rub on your neck and cause chaffing",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -844,14 +1433,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 57,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.7,
       "reviewCount": 36,
       "reviewShare": 0.1268,
-      "positiveReviews": 18,
-      "mixedReviews": 5,
+      "positiveReviews": 20,
+      "neutralReviews": 3,
       "negativeReviews": 13,
-      "positiveShare": 0.5,
+      "positiveShare": 0.5556,
       "negativeShare": 0.3611,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -917,19 +1507,99 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
+          "text": "Use the mask until it no longer forms a good seal, which takes two years or more",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "I've been wearing the original equipment all night every night for over four months",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "The silicon also appears “rough” like it was sandblasted",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "The straps are made of a nice light material",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
           "text": "I've been using this mask for ~10 years",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I have been using this mask for years",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "with a stronger hook and loop fasting",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "the quality of the product is obvious",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "Used these masks for years",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "the entire frame is soft which equals tons of weeks in the mouth area is too narrow",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "the Sprint Air cushion used in this mask has a matte finish which doesn't grab the skin",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
         {
           "text": "the small seal came off of where the hose connects to the mask",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
+          "text": "eventually one of these posts will snap",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "designed to force whole mask purchase sooner",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "the hardness of the clasps",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "Mask is cheaply made",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/quattro-air-full-face-cpap-mask-by-resmed"
+        },
+        {
+          "text": "Construction is too delicate",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "cheap straps",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "Still leaks at the nose about 5 to 6 hours in to use",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -938,14 +1608,15 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 65,
+      "score": 78,
+      "grade": "B",
       "averageSentiment": 6.5,
       "reviewCount": 22,
       "reviewShare": 0.0775,
-      "positiveReviews": 14,
-      "mixedReviews": 3,
+      "positiveReviews": 17,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.6364,
+      "positiveShare": 0.7727,
       "negativeShare": 0.2273,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -974,14 +1645,54 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "a great price",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "excellent value",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "a great price",
+          "text": "wonderful value",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "the free return insurance currently being offered by cpap.com makes trying this mask a risk free proposition",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "Thanks to cpap.com's generous offer of free return insurance",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "is also less expensive",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "was worth buying for",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "definitely worth the price",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "at a good price",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "Good mask, good value",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -994,18 +1705,39 @@
           "text": "the frame is the one part RESMED does not sell separately",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I don't have insurance so I wish it didn't cost so much",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "they wanted too much money",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I am wondering what a replacement cushion is going to cost",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "More expensive than other cpap masks that are full face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 74,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 59,
       "reviewShare": 0.2077,
       "positiveReviews": 47,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 10,
       "positiveShare": 0.7966,
       "negativeShare": 0.1695,
@@ -1078,12 +1810,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I FINALLY GOT AN AMAZING NIGHTS REST!!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "Works Great",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
         },
         {
-          "text": "I FINALLY GOT AN AMAZING NIGHTS REST!!",
+          "text": "I have been using this mask type for several years",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "My AHI's are down to <1 as well",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "Product continues to perform very well for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "We are both sleeping very deeply and restfully",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I am sleeping so much better now",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "you get a great night sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "My sleep rate has greatly improved!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "perfect for a good nights sleep",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -1098,6 +1870,46 @@
           "text": "leading to no sleep!!!",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "I put it up and still using my old one",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "I will be returning",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I have a 13.5 pressure which may be the reason it does not perform well",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I used the mask for about 6 months and I had a hard time sleeping",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "It did not however eliminate my snoring",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "Didn't work for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I've had a very tough time adjusting to wearing a mask at night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I will keep it, though, and try later to check it out again",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ]
     }
@@ -1106,14 +1918,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 83,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 8.3,
       "reviewCount": 139,
       "reviewShare": 0.4894,
-      "positiveReviews": 115,
-      "mixedReviews": 15,
+      "positiveReviews": 127,
+      "neutralReviews": 3,
       "negativeReviews": 9,
-      "positiveShare": 0.8273,
+      "positiveShare": 0.9137,
       "negativeShare": 0.0647,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -1168,26 +1981,26 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "mask great",
+          "text": "He said it's the best mask over all others that he tried",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "Highly recommended",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/quattro-air-full-face-cpap-mask-resmed"
+          "text": "This mask is exactly what I have been waiting for",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "This has been a losing situation from start to finish.",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        },
+        {
           "text": "Can't stand this mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
-        },
-        {
-          "text": "Unhappy",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         }
       ]
     },
@@ -1195,13 +2008,14 @@
       "id": "seal_leak",
       "label": "Seal Leak",
       "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 103,
       "reviewShare": 0.3627,
-      "positiveReviews": 52,
-      "mixedReviews": 7,
+      "positiveReviews": 56,
+      "neutralReviews": 3,
       "negativeReviews": 44,
-      "positiveShare": 0.5049,
+      "positiveShare": 0.5437,
       "negativeShare": 0.4272,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -1299,12 +2113,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "it won't seal with high pressures",
+          "text": "I have a very small bridge of my nose, and this doesn't seal at all, even with the liners and gel pads",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "I have a very small bridge of my nose, and this doesn't seal at all, even with the liners and gel pads",
+          "text": "did not seal up on the bridge of nose even when pulled tight",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -1313,14 +2127,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 79,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 7.9,
       "reviewCount": 100,
       "reviewShare": 0.3521,
-      "positiveReviews": 87,
-      "mixedReviews": 4,
+      "positiveReviews": 91,
+      "neutralReviews": 0,
       "negativeReviews": 9,
-      "positiveShare": 0.87,
+      "positiveShare": 0.91,
       "negativeShare": 0.09,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -1406,19 +2221,19 @@
       ],
       "positiveEvidence": [
         {
-          "text": "the membrane is completely comfortable",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+          "text": "It feels like I am not wearing this mask on my face while using it at night.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         },
         {
-          "text": "Most comfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+          "text": "from the first night I was truly amazed",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "the mask I received from CPAP. Com is very uncomfortable",
+          "text": "that piece that goes up past my nose to my forehead is awkward and uncomfortable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
@@ -1432,14 +2247,15 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 66,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 75,
       "reviewShare": 0.2641,
-      "positiveReviews": 50,
-      "mixedReviews": 4,
+      "positiveReviews": 53,
+      "neutralReviews": 1,
       "negativeReviews": 21,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.7067,
       "negativeShare": 0.28,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1525,21 +2341,21 @@
       ],
       "positiveEvidence": [
         {
-          "text": "perfect fit",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        },
-        {
           "text": "The fit is perfect",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "Fits like a dream",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "And NO, the gecko pads don't help. They make leads worse.",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "I am at a very high pressure setting so with such a high number you are forced to pull the straps very tightly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         },
         {
           "text": "I readjusted the headgear dozens of times, from loose to very tight, to no avail",
@@ -1551,12 +2367,13 @@
     {
       "id": "weight",
       "label": "Weight",
-      "score": 84,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 46,
       "reviewShare": 0.162,
       "positiveReviews": 46,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1588,9 +2405,9 @@
           "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
         },
         {
-          "text": "very light mask",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/quattro-air-full-face-cpap-mask-resmed"
+          "text": "It is much lighter than the old model by 45%.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -1598,14 +2415,15 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 69,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 6.9,
       "reviewCount": 35,
       "reviewShare": 0.1232,
-      "positiveReviews": 25,
-      "mixedReviews": 5,
+      "positiveReviews": 28,
+      "neutralReviews": 2,
       "negativeReviews": 5,
-      "positiveShare": 0.7143,
+      "positiveShare": 0.8,
       "negativeShare": 0.1429,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1650,14 +2468,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "I replaced my Quarttro Mirage with the Air and it is the best thing that I could do",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "I've tried several other full, face masks but always come back to this one",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
-        },
-        {
-          "text": "I like it much better than any nasal mask that I have had",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/quattro-air-full-face-cpap-mask-resmed"
         }
       ],
       "negativeEvidence": [
@@ -1676,12 +2494,13 @@
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 75,
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.5,
       "reviewCount": 30,
       "reviewShare": 0.1056,
       "positiveReviews": 25,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.8333,
       "negativeShare": 0.1333,
@@ -1733,9 +2552,9 @@
           "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
         },
         {
-          "text": "this one worked for me",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+          "text": "My AHI's are down to <1 as well",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1754,14 +2573,15 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 74,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.4,
       "reviewCount": 23,
       "reviewShare": 0.081,
-      "positiveReviews": 15,
-      "mixedReviews": 4,
+      "positiveReviews": 19,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.6522,
+      "positiveShare": 0.8261,
       "negativeShare": 0.1739,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1818,23 +2638,24 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "Headgear hooks are not as easy to work with as clips",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+          "text": "the lower straps have a tendency to pop off the hooks on the mask when I take it off",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ]
     },
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 51,
+      "score": 49,
+      "grade": "D",
       "averageSentiment": 5.1,
       "reviewCount": 22,
       "reviewShare": 0.0775,
-      "positiveReviews": 7,
-      "mixedReviews": 4,
+      "positiveReviews": 10,
+      "neutralReviews": 1,
       "negativeReviews": 11,
-      "positiveShare": 0.3182,
+      "positiveShare": 0.4545,
       "negativeShare": 0.5,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1874,12 +2695,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "It’s easy to adjust",
+          "text": "I adapted to wearing very quickly",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "I adapted to wearing very quickly",
+          "text": "It’s easy to adjust",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -1900,14 +2721,15 @@
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 42,
+      "score": 31,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 22,
       "reviewShare": 0.0775,
-      "positiveReviews": 4,
-      "mixedReviews": 5,
+      "positiveReviews": 5,
+      "neutralReviews": 4,
       "negativeReviews": 13,
-      "positiveShare": 0.1818,
+      "positiveShare": 0.2273,
       "negativeShare": 0.5909,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1973,12 +2795,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 77,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.7,
       "reviewCount": 22,
       "reviewShare": 0.0775,
       "positiveReviews": 19,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.8636,
       "negativeShare": 0.1364,
@@ -2010,7 +2833,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "I am sleeping so much better now",
+          "text": "We are both sleeping very deeply and restfully",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -2031,12 +2854,13 @@
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 59,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 5.9,
       "reviewCount": 19,
       "reviewShare": 0.0669,
       "positiveReviews": 12,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.6316,
       "negativeShare": 0.3684,
@@ -2088,33 +2912,34 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "well made",
+          "text": "The silicon also appears “rough” like it was sandblasted",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "the hardness of the clasps",
+          "text": "the entire frame is soft which equals tons of weeks in the mouth area is too narrow",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "Mask is cheaply made",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/quattro-air-full-face-cpap-mask-by-resmed"
+          "text": "the Sprint Air cushion used in this mask has a matte finish which doesn't grab the skin",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ]
     },
     {
       "id": "stability",
       "label": "Stability",
-      "score": 50,
+      "score": 46,
+      "grade": "D",
       "averageSentiment": 5.0,
       "reviewCount": 18,
       "reviewShare": 0.0634,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 10,
       "positiveShare": 0.4444,
       "negativeShare": 0.5556,
@@ -2187,14 +3012,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "have never had the mask come off at night",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        },
-        {
           "text": "The headgear cradles the back of your head in two places, which helps it feel very secure",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "have never had the mask come off at night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
@@ -2204,23 +3029,24 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "Fittings not firm",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+          "text": "The Air is so light that it would continuously be knocked sideways",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ]
     },
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 72,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 16,
       "reviewShare": 0.0563,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
+      "positiveReviews": 13,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.75,
+      "positiveShare": 0.8125,
       "negativeShare": 0.1875,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2260,40 +3086,41 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "It makes side sleeping so comfortable!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "Even as a side sleeper, this mask takes the cake for best design from me",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         },
         {
-          "text": "works well as a side sleeping mask",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "allows me to sleep in any positon I like",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "not recommended for side-sleepers",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
-        },
-        {
           "text": "could not sleep on my side",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "not recommended for side-sleepers",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 62,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.2,
       "reviewCount": 15,
       "reviewShare": 0.0528,
-      "positiveReviews": 9,
-      "mixedReviews": 2,
+      "positiveReviews": 11,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.6,
+      "positiveShare": 0.7333,
       "negativeShare": 0.2667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2344,12 +3171,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I've been using this mask for ~10 years",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "Use the mask until it no longer forms a good seal, which takes two years or more",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         },
         {
-          "text": "Long lasting",
+          "text": "I've been wearing the original equipment all night every night for over four months",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -2361,7 +3188,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "The last one lasted three months",
+          "text": "Still leaks at the nose about 5 to 6 hours in to use",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -2370,14 +3197,15 @@
     {
       "id": "cleaning",
       "label": "Cleaning",
-      "score": 74,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 7.4,
       "reviewCount": 14,
       "reviewShare": 0.0493,
-      "positiveReviews": 11,
-      "mixedReviews": 1,
+      "positiveReviews": 12,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.7857,
+      "positiveShare": 0.8571,
       "negativeShare": 0.1429,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2438,12 +3266,13 @@
     {
       "id": "noise",
       "label": "Noise",
-      "score": 61,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.1,
       "reviewCount": 14,
       "reviewShare": 0.0493,
       "positiveReviews": 9,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.6429,
       "negativeShare": 0.2857,
@@ -2512,7 +3341,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "Sounds like a jet engine",
+          "text": "Leaked so loudly, it woke up my wife and the cat!",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -2521,14 +3350,15 @@
     {
       "id": "overtightening",
       "label": "Overtightening",
-      "score": 34,
+      "score": 21,
+      "grade": "F",
       "averageSentiment": 3.4,
       "reviewCount": 14,
       "reviewShare": 0.0493,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 11,
-      "positiveShare": 0.1429,
+      "positiveShare": 0.2143,
       "negativeShare": 0.7857,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2580,12 +3410,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "in spite of tightening till my face hurt",
+          "text": "I have to wear it very tightly to keep it from leaking",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "it then became to tight",
+          "text": "I tightened the mask headgear so tight it was really uncomfortable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -2594,12 +3424,13 @@
     {
       "id": "pain",
       "label": "Pain",
-      "score": 40,
+      "score": 30,
+      "grade": "F+",
       "averageSentiment": 4.0,
       "reviewCount": 12,
       "reviewShare": 0.0423,
       "positiveReviews": 3,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 8,
       "positiveShare": 0.25,
       "negativeShare": 0.6667,
@@ -2693,12 +3524,13 @@
     {
       "id": "face_marks",
       "label": "Face Marks",
-      "score": 92,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.2,
       "reviewCount": 11,
       "reviewShare": 0.0387,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -2746,14 +3578,14 @@
       ],
       "positiveEvidence": [
         {
+          "text": "finally, I can wake up with no marks on my forehead",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "It doesn't leave any marks on my face at all",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
-        },
-        {
-          "text": "no pressure marks",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": []
@@ -2761,12 +3593,13 @@
     {
       "id": "price",
       "label": "Price",
-      "score": 59,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 5.9,
       "reviewCount": 11,
       "reviewShare": 0.0387,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.6364,
       "negativeShare": 0.3636,
@@ -2808,12 +3641,13 @@
     {
       "id": "airflow_direction",
       "label": "Airflow Direction",
-      "score": 59,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.9,
       "reviewCount": 9,
       "reviewShare": 0.0317,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.5556,
       "negativeShare": 0.4444,
@@ -2893,7 +3727,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "The mask's air comes out where the hose joins the mask",
+          "text": "it's on the swivel part of the mask so it blows every which way when turning through the night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -2902,14 +3736,15 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 78,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.8,
       "reviewCount": 9,
       "reviewShare": 0.0317,
-      "positiveReviews": 7,
-      "mixedReviews": 2,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.7778,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2938,12 +3773,13 @@
     {
       "id": "access_to_face",
       "label": "Access To Face",
-      "score": 67,
+      "score": 72,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 7,
       "reviewShare": 0.0246,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.7143,
       "negativeShare": 0.2857,
@@ -3028,12 +3864,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Always gouging the eyes out",
+          "text": "I wake up in the middle of the night with my nose and upper lip covered",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "I wake up in the middle of the night with my nose and upper lip covered",
+          "text": "Always gouging the eyes out",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -3042,12 +3878,13 @@
     {
       "id": "bulk",
       "label": "Bulk",
-      "score": 61,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 6.1,
       "reviewCount": 7,
       "reviewShare": 0.0246,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5714,
       "negativeShare": 0.4286,
@@ -3091,23 +3928,24 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "a little bulky",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "Pretty big and obtrusive to my vision",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "pressure",
       "label": "Pressure",
-      "score": 40,
+      "score": 34,
+      "grade": "F+",
       "averageSentiment": 4.0,
       "reviewCount": 7,
       "reviewShare": 0.0246,
-      "positiveReviews": 1,
-      "mixedReviews": 2,
+      "positiveReviews": 2,
+      "neutralReviews": 1,
       "negativeReviews": 4,
-      "positiveShare": 0.1429,
+      "positiveShare": 0.2857,
       "negativeShare": 0.5714,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3141,32 +3979,38 @@
           "text": "since it uses 5 straps to spread the pressure out",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "My pressure is 10, which is OK for this mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "generate pressure in mask",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        },
-        {
           "text": "I am at a very high pressure setting",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "it places undue pressure on my nose bridge",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ]
     },
     {
       "id": "quick_release",
       "label": "Quick Release",
-      "score": 66,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 7,
       "reviewShare": 0.0246,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.5714,
+      "positiveShare": 0.7143,
       "negativeShare": 0.2857,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3201,14 +4045,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "the easy clip of hose to mask",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
-        },
-        {
           "text": "it has a really easy quick-release mechanism so I can just quickly disconnect from my machine",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "the easy clip of hose to mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         }
       ],
       "negativeEvidence": [
@@ -3227,12 +4071,13 @@
     {
       "id": "therapy_compliance",
       "label": "Therapy Compliance",
-      "score": 51,
+      "score": 45,
+      "grade": "D",
       "averageSentiment": 5.1,
       "reviewCount": 7,
       "reviewShare": 0.0246,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.4286,
       "negativeShare": 0.5714,
@@ -3248,21 +4093,21 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I have been using this mask type for several years",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
-        },
-        {
           "text": "After not using my cpap mask due to it leaking at various points in the night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I have been using this mask type for several years",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I will be returning",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "I put it up and still using my old one",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         },
         {
           "text": "causing me not to wear my mask every night",
@@ -3274,12 +4119,13 @@
     {
       "id": "irritation",
       "label": "Irritation",
-      "score": 42,
+      "score": 34,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 6,
       "reviewShare": 0.0211,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.3333,
       "negativeShare": 0.6667,
@@ -3354,12 +4200,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "the headgear rubs my neck raw",
+          "text": "So I feel it on my face, arms, hands, in my eyes",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "So I feel it on my face, arms, hands, in my eyes",
+          "text": "I tried the pillow and it irritated my nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -3368,12 +4214,13 @@
     {
       "id": "red_marks",
       "label": "Red Marks",
-      "score": 78,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.8,
       "reviewCount": 6,
       "reviewShare": 0.0211,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -3436,12 +4283,13 @@
     {
       "id": "movement_compatibility",
       "label": "Movement Compatibility",
-      "score": 76,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.6,
       "reviewCount": 5,
       "reviewShare": 0.0176,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -3489,12 +4337,13 @@
     {
       "id": "removing",
       "label": "Removing",
-      "score": 72,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 5,
       "reviewShare": 0.0176,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -3526,14 +4375,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "easily removed if I get up during the night",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "no problems with taking the mask off quickly in the morning",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         },
         {
-          "text": "fairly easy to put on and take off",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "the bottom two straps just clip in/out of the cushion",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -3548,13 +4397,14 @@
       "id": "replacement_frequency",
       "label": "Replacement Frequency",
       "score": 50,
+      "grade": "D+",
       "averageSentiment": 5.0,
       "reviewCount": 5,
       "reviewShare": 0.0176,
-      "positiveReviews": 1,
-      "mixedReviews": 2,
+      "positiveReviews": 2,
+      "neutralReviews": 1,
       "negativeReviews": 2,
-      "positiveShare": 0.2,
+      "positiveShare": 0.4,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3577,6 +4427,11 @@
           "text": "is a replacement for a worn out older one",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "So I usually order an extra one with the mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         }
       ],
       "negativeEvidence": [
@@ -3595,12 +4450,13 @@
     {
       "id": "soreness",
       "label": "Soreness",
-      "score": 20,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.0,
       "reviewCount": 5,
       "reviewShare": 0.0176,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -3649,14 +4505,15 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 63,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 6.3,
       "reviewCount": 33,
       "reviewShare": 0.1162,
-      "positiveReviews": 17,
-      "mixedReviews": 6,
+      "positiveReviews": 22,
+      "neutralReviews": 1,
       "negativeReviews": 10,
-      "positiveShare": 0.5152,
+      "positiveShare": 0.6667,
       "negativeShare": 0.303,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3717,17 +4574,12 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "Excellent headgear",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/quattro-air-full-face-cpap-mask-resmed"
+          "text": "The headgear cradles the back of your head in two places, which helps it feel very secure",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
-        {
-          "text": "the headgear rubs my neck raw",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        },
         {
           "text": "I tightened the mask headgear so tight it was really uncomfortable",
           "retailer": "CPAP.com",
@@ -3737,18 +4589,24 @@
           "text": "I've tighten up the head gear at the cheeks so tight",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "it doesn't come with the option for small headgear",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "praisedAspects": [
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 79,
+          "score": 93,
+          "grade": "A",
           "averageSentiment": 7.9,
           "reviewCount": 12,
           "reviewShare": 0.0423,
-          "positiveReviews": 10,
-          "mixedReviews": 1,
+          "positiveReviews": 11,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3770,6 +4628,43 @@
               "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
             }
           ]
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "score": 71,
+          "grade": "B-",
+          "averageSentiment": 6.3,
+          "reviewCount": 7,
+          "reviewShare": 0.0246,
+          "positiveReviews": 5,
+          "neutralReviews": 0,
+          "negativeReviews": 2,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "The style of the head gear actually holds the mask to my head and face much better as well",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+            },
+            {
+              "text": "Other than that, it has the standard four straps so you shouldn’t have any problem finding a comfortable fit",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "one size head gear pulls it up into mouth",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+            },
+            {
+              "text": "the headgear is too large",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+            }
+          ]
         }
       ],
       "criticizedAspects": []
@@ -3778,13 +4673,14 @@
       "id": "strap",
       "label": "Strap",
       "score": 48,
+      "grade": "D",
       "averageSentiment": 4.8,
       "reviewCount": 27,
       "reviewShare": 0.0951,
-      "positiveReviews": 7,
-      "mixedReviews": 8,
+      "positiveReviews": 11,
+      "neutralReviews": 4,
       "negativeReviews": 12,
-      "positiveShare": 0.2593,
+      "positiveShare": 0.4074,
       "negativeShare": 0.4444,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3835,36 +4731,36 @@
       ],
       "positiveEvidence": [
         {
-          "text": "there is no strap across my cheek",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        },
-        {
           "text": "have never had the mask come off at night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "the softness of the straps",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+          "text": "there is no strap across my cheek",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "I'm able to get my long curly hair around the straps, instead of under them",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "tighten the straps so tight it hurt my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "It can rub on your neck and cause chaffing",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "in spite of tightening till my face hurt",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        },
-        {
-          "text": "it then became to tight",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        },
-        {
-          "text": "which caused bruising and bumps to appear",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         }
       ],
       "praisedAspects": [],
@@ -3872,23 +4768,24 @@
         {
           "id": "overtightening",
           "label": "Overtightening",
-          "score": 23,
+          "score": 0,
+          "grade": "F-",
           "averageSentiment": 2.3,
           "reviewCount": 6,
           "reviewShare": 0.0211,
           "positiveReviews": 0,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 6,
           "evidenceStrength": "limited",
           "positiveEvidence": [],
           "negativeEvidence": [
             {
-              "text": "in spite of tightening till my face hurt",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+              "text": "tighten the straps so tight it hurt my face",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
             },
             {
-              "text": "it then became to tight",
+              "text": "in spite of tightening till my face hurt",
               "retailer": "CPAP.com",
               "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
             }
@@ -3899,12 +4796,13 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 68,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.8,
       "reviewCount": 20,
       "reviewShare": 0.0704,
       "positiveReviews": 12,
-      "mixedReviews": 4,
+      "neutralReviews": 4,
       "negativeReviews": 4,
       "positiveShare": 0.6,
       "negativeShare": 0.2,
@@ -3967,14 +4865,14 @@
           "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
         },
         {
-          "text": "better, especially on the bridge of my nose",
+          "text": "The mask gently squeezes the sides of your nose at the bridge level but not over the top",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "the cushion really is soft and comfortable",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+          "text": "better, especially on the bridge of my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
@@ -3989,21 +4887,22 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "leaks form at the edges of my mouth",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+          "text": "Still leaks at the nose about 5 to 6 hours in to use",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "praisedAspects": [
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 85,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.5,
           "reviewCount": 10,
           "reviewShare": 0.0352,
           "positiveReviews": 10,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -4013,9 +4912,9 @@
               "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
             },
             {
-              "text": "the cushion really is soft and comfortable",
-              "retailer": "RespShop",
-              "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+              "text": "The mask gently squeezes the sides of your nose at the bridge level but not over the top",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
             }
           ],
           "negativeEvidence": []
@@ -4026,14 +4925,15 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 56,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.6,
       "reviewCount": 14,
       "reviewShare": 0.0493,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 6,
-      "positiveShare": 0.5,
+      "positiveShare": 0.5714,
       "negativeShare": 0.4286,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4099,17 +4999,17 @@
       ],
       "positiveEvidence": [
         {
-          "text": "so light",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+          "text": "It is much lighter than the old model by 45%.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         },
         {
-          "text": "pleasantly surprised with the Quattro Air",
+          "text": "Quattro Air is a lot lighter in weight",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "it is very light",
+          "text": "I sleep every way you can imagine",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -4121,12 +5021,12 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "Didn't work for me",
+          "text": "I wake up in the middle of the night with my nose and upper lip covered",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "very poor padding on this",
+          "text": "The Air is so light that it would continuously be knocked sideways",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -4135,19 +5035,20 @@
         {
           "id": "weight",
           "label": "Weight",
-          "score": 85,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.5,
           "reviewCount": 6,
           "reviewShare": 0.0211,
           "positiveReviews": 6,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "so light",
-              "retailer": "DirectHomeMedical",
-              "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+              "text": "It is much lighter than the old model by 45%.",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
             },
             {
               "text": "Quattro Air is a lot lighter in weight",
@@ -4164,13 +5065,14 @@
       "id": "clip",
       "label": "Clip",
       "score": 55,
+      "grade": "C-",
       "averageSentiment": 5.5,
       "reviewCount": 12,
       "reviewShare": 0.0423,
-      "positiveReviews": 3,
-      "mixedReviews": 4,
+      "positiveReviews": 6,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.25,
+      "positiveShare": 0.5,
       "negativeShare": 0.4167,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4195,7 +5097,7 @@
           "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         },
         {
-          "text": "There’s clips on the bottom two straps which is convenient",
+          "text": "no problems with taking the mask off quickly in the morning",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         },
@@ -4207,7 +5109,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Against my forehead there was nothing to soften the hardness of the clasps",
+          "text": "I woke up the first morning with two knots on my forehead that were very sore",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
@@ -4217,9 +5119,9 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "Headgear hooks are not as easy to work with as clips",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+          "text": "many of the new masks have magnetic clips, which are very nice",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "praisedAspects": [],
@@ -4228,14 +5130,15 @@
     {
       "id": "forehead_support",
       "label": "Forehead Support",
-      "score": 68,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 10,
       "reviewShare": 0.0352,
-      "positiveReviews": 6,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 1,
       "negativeReviews": 2,
-      "positiveShare": 0.6,
+      "positiveShare": 0.7,
       "negativeShare": 0.2,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4265,6 +5168,11 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the removed the dial-o-nose pain knob from the forehead support and instead made sort of a butterfly forehead support that you can’t over tighten",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
           "text": "The flex-wing forehead support is so comfortable you hardly know it's there",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
@@ -4273,21 +5181,16 @@
           "text": "does not leave a mark",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        },
-        {
-          "text": "never keeping a good seal",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Always gouging the eyes out",
+          "text": "that piece that goes up past my nose to my forehead is awkward and uncomfortable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "that piece that goes up past my nose to my forehead is awkward and uncomfortable",
+          "text": "Always gouging the eyes out",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
@@ -4303,14 +5206,15 @@
     {
       "id": "full_face_cushion",
       "label": "Full Face Cushion",
-      "score": 60,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.0,
       "reviewCount": 10,
       "reviewShare": 0.0352,
-      "positiveReviews": 5,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.5,
+      "positiveShare": 0.7,
       "negativeShare": 0.3,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4361,17 +5265,17 @@
       ],
       "positiveEvidence": [
         {
+          "text": "The seal is great however",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
           "text": "Works very well",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/resmed-quattro-air-full-face-cpap-mask-with-headgear"
         },
         {
           "text": "great seal",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
-        },
-        {
-          "text": "The seal is great however",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
@@ -4399,14 +5303,15 @@
     {
       "id": "mask_liner",
       "label": "Mask Liner",
-      "score": 64,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 6.4,
       "reviewCount": 8,
       "reviewShare": 0.0282,
-      "positiveReviews": 5,
-      "mixedReviews": 2,
+      "positiveReviews": 6,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.625,
+      "positiveShare": 0.75,
       "negativeShare": 0.125,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4437,7 +5342,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Best when used with liner underneath mask",
+          "text": "wrap around pad a cheek pieces for the top and bottom of my headgear",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
@@ -4447,7 +5352,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "wrap around pad a cheek pieces for the top and bottom of my headgear",
+          "text": "Best when used with liner underneath mask",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -4465,12 +5370,13 @@
     {
       "id": "cushion_seal",
       "label": "Cushion Seal",
-      "score": 38,
+      "score": 30,
+      "grade": "F+",
       "averageSentiment": 3.8,
       "reviewCount": 7,
       "reviewShare": 0.0246,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.2857,
       "negativeShare": 0.7143,
@@ -4513,7 +5419,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "No leaks",
+          "text": "finally, I can wake up with no marks on my forehead",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
@@ -4530,12 +5436,12 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "Ultimately, the seal would not close off air past my face",
+          "text": "did not seal up on the bridge of nose even when pulled tight",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "did not seal up on the bridge of nose even when pulled tight",
+          "text": "Ultimately, the seal would not close off air past my face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -4545,12 +5451,13 @@
         {
           "id": "seal_leak",
           "label": "Seal Leak",
-          "score": 39,
+          "score": 30,
+          "grade": "F+",
           "averageSentiment": 3.9,
           "reviewCount": 7,
           "reviewShare": 0.0246,
           "positiveReviews": 2,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 5,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -4572,7 +5479,7 @@
               "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
             },
             {
-              "text": "Ultimately, the seal would not close off air past my face",
+              "text": "did not seal up on the bridge of nose even when pulled tight",
               "retailer": "CPAP.com",
               "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
             }
@@ -4583,12 +5490,13 @@
     {
       "id": "quick_release",
       "label": "Quick Release",
-      "score": 80,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 8.0,
       "reviewCount": 7,
       "reviewShare": 0.0246,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -4615,9 +5523,9 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "the quick-disconnect elbow is wonderful",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "it has a really easy quick-release mechanism so I can just quickly disconnect from my machine",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         },
         {
           "text": "so easy to disconnect when you have to get up",
@@ -4638,12 +5546,13 @@
     {
       "id": "vent",
       "label": "Vent",
-      "score": 81,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.1,
       "reviewCount": 7,
       "reviewShare": 0.0246,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -4687,14 +5596,15 @@
     {
       "id": "frame",
       "label": "Frame",
-      "score": 40,
+      "score": 32,
+      "grade": "F+",
       "averageSentiment": 4.0,
       "reviewCount": 6,
       "reviewShare": 0.0211,
-      "positiveReviews": 1,
-      "mixedReviews": 1,
+      "positiveReviews": 2,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.1667,
+      "positiveShare": 0.3333,
       "negativeShare": 0.6667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4717,16 +5627,21 @@
           "text": "The design is slimmer and less obtrusive to the line of sight of the TV",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "the frame and cushions go to XSmall",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "eventually one of these posts will snap",
+          "text": "the entire frame is soft which equals tons of weeks in the mouth area is too narrow",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "the entire frame is soft which equals tons of weeks in the mouth area is too narrow",
+          "text": "the frame is the one part RESMED does not sell separately",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
@@ -4742,14 +5657,15 @@
     {
       "id": "forehead_pad",
       "label": "Forehead Pad",
-      "score": 56,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 5.6,
       "reviewCount": 5,
       "reviewShare": 0.0176,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.4,
+      "positiveShare": 0.6,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4782,6 +5698,11 @@
           "text": "pads",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/quattro-air-full-face-cpap-mask-resmed"
+        },
+        {
+          "text": "flatten and pad forehead piece",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
@@ -4804,12 +5725,13 @@
     {
       "id": "headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 79,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 7.9,
       "reviewCount": 12,
       "reviewShare": 0.0423,
-      "positiveReviews": 10,
-      "mixedReviews": 1,
+      "positiveReviews": 11,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4834,12 +5756,13 @@
     {
       "id": "cushion|comfort",
       "label": "Cushion · Comfort",
-      "score": 85,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.5,
       "reviewCount": 10,
       "reviewShare": 0.0352,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4858,12 +5781,13 @@
     {
       "id": "cushion|seal_leak",
       "label": "Cushion · Seal Leak",
-      "score": 60,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 10,
       "reviewShare": 0.0352,
       "positiveReviews": 5,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4888,12 +5812,13 @@
     {
       "id": "cushion_seal|seal_leak",
       "label": "Cushion Seal · Seal Leak",
-      "score": 39,
+      "score": 30,
+      "grade": "F+",
       "averageSentiment": 3.9,
       "reviewCount": 7,
       "reviewShare": 0.0246,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4918,24 +5843,25 @@
     {
       "id": "headgear|fit",
       "label": "Headgear · Fit",
-      "score": 63,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.3,
       "reviewCount": 7,
       "reviewShare": 0.0246,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "i also like the fit of the headgear",
+          "text": "The style of the head gear actually holds the mask to my head and face much better as well",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "the headgear is too large",
+          "text": "one size head gear pulls it up into mouth",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -4948,12 +5874,13 @@
     {
       "id": "clip|ease_of_use",
       "label": "Clip · Ease Of Use",
-      "score": 62,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 6,
       "reviewShare": 0.0211,
-      "positiveReviews": 2,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4978,12 +5905,13 @@
     {
       "id": "headgear|stability",
       "label": "Headgear · Stability",
-      "score": 57,
+      "score": 53,
+      "grade": "D+",
       "averageSentiment": 5.7,
       "reviewCount": 6,
       "reviewShare": 0.0211,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4995,7 +5923,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "hook-loop fastening loses grip",
+          "text": "the lower straps have a tendency to pop off the hooks on the mask when I take it off",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -5008,19 +5936,20 @@
     {
       "id": "mask_body|weight",
       "label": "Mask Body · Weight",
-      "score": 85,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.5,
       "reviewCount": 6,
       "reviewShare": 0.0211,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "so light",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+          "text": "It is much lighter than the old model by 45%.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [],
@@ -5032,17 +5961,18 @@
     {
       "id": "strap|adjustment",
       "label": "Strap · Adjustment",
-      "score": 58,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 5.8,
       "reviewCount": 6,
       "reviewShare": 0.0211,
-      "positiveReviews": 2,
-      "mixedReviews": 3,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "at 1 week have tinkered and both are better",
+          "text": "loosening rather than tightening the straps (see instructions) did help",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -5062,20 +5992,21 @@
     {
       "id": "strap|overtightening",
       "label": "Strap · Overtightening",
-      "score": 23,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.3,
       "reviewCount": 6,
       "reviewShare": 0.0211,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "evidenceStrength": "limited",
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "in spite of tightening till my face hurt",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "tighten the straps so tight it hurt my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         }
       ],
       "partId": "strap",
@@ -5086,12 +6017,13 @@
     {
       "id": "strap|stability",
       "label": "Strap · Stability",
-      "score": 48,
+      "score": 42,
+      "grade": "D-",
       "averageSentiment": 4.8,
       "reviewCount": 5,
       "reviewShare": 0.0176,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5118,12 +6050,13 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 60,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 17,
       "reviewShare": 0.0599,
       "positiveReviews": 9,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 6,
       "positiveShare": 0.5294,
       "negativeShare": 0.3529,
@@ -5171,24 +6104,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "It makes side sleeping so comfortable!",
+          "text": "The diffused air outlet prevents me from blasting my wife with a stream of air when I roll over and face her direction",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "works well as a side sleeping mask",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "Even as a side sleeper, this mask takes the cake for best design from me",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "not recommended for side-sleepers",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+          "text": "those masks without support in the bridge of the nose,leak when on my side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "my hands were getting cold",
+          "text": "The Air is so light that it would continuously be knocked sideways",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -5202,14 +6135,15 @@
     {
       "id": "high-pressure",
       "label": "High-pressure users",
-      "score": 27,
+      "score": 12,
+      "grade": "F-",
       "averageSentiment": 2.7,
       "reviewCount": 14,
       "reviewShare": 0.0493,
-      "positiveReviews": 0,
-      "mixedReviews": 2,
+      "positiveReviews": 2,
+      "neutralReviews": 0,
       "negativeReviews": 12,
-      "positiveShare": 0.0,
+      "positiveShare": 0.1429,
       "negativeShare": 0.8571,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -5248,7 +6182,18 @@
           "reviewCount": 1
         }
       ],
-      "positiveEvidence": [],
+      "positiveEvidence": [
+        {
+          "text": "You may need to tighten the lower straps a little more than Res Med recommends if you have a higher pressure",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        },
+        {
+          "text": "Even when sometimes having to tighten near end of 4-16 automatic to avoid leaking",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        }
+      ],
       "negativeEvidence": [
         {
           "text": "it won't seal with high pressures",
@@ -5270,12 +6215,13 @@
     {
       "id": "long-term-users",
       "label": "Long-term CPAP users",
-      "score": 80,
+      "score": 95,
+      "grade": "A+",
       "averageSentiment": 8.0,
       "reviewCount": 8,
       "reviewShare": 0.0282,
       "positiveReviews": 7,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.875,
       "negativeShare": 0.0,
@@ -5296,9 +6242,9 @@
           "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         },
         {
-          "text": "I've been using this mask for ~10 years",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "I have been using this mask type for several years",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [],
@@ -5311,12 +6257,13 @@
     {
       "id": "mouth-breathers",
       "label": "Mouth breathers",
-      "score": 40,
+      "score": 26,
+      "grade": "F",
       "averageSentiment": 4.0,
       "reviewCount": 8,
       "reviewShare": 0.0282,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.25,
       "negativeShare": 0.75,
@@ -5369,24 +6316,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I have a problem breathing out my mouth while I am using cpap.",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
-        },
-        {
           "text": "This works so much better, probably because I tend to breathe through my mouth at times",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        },
+        {
+          "text": "I have a problem breathing out my mouth while I am using cpap.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "when my mouth opened, the mask still leaked at my chin crease",
+          "text": "I wake up in the middle of the night with my nose and upper lip covered",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "I am a mouth breather",
+          "text": "when my mouth opened, the mask still leaked at my chin crease",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -5401,12 +6348,13 @@
     {
       "id": "easy-on-off",
       "label": "People who need easy on/off handling",
-      "score": 80,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 8.0,
       "reviewCount": 7,
       "reviewShare": 0.0246,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -5470,12 +6418,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 60,
+      "score": 67,
+      "grade": "C+",
       "averageSentiment": 6.0,
       "reviewCount": 6,
       "reviewShare": 0.0211,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -5530,12 +6479,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Lots of farty sounding leaks in the middle of the night",
+          "text": "The exhalation port blows all over the place-through the front part and parts on the side",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "The exhalation port blows all over the place-through the front part and parts on the side",
+          "text": "Lots of farty sounding leaks in the middle of the night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -5550,12 +6499,13 @@
     {
       "id": "combination-sleepers",
       "label": "Combination sleepers",
-      "score": 88,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 6,
       "reviewShare": 0.0211,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -5597,12 +6547,13 @@
     {
       "id": "facial-hair",
       "label": "People with facial hair",
-      "score": 54,
+      "score": 45,
+      "grade": "D",
       "averageSentiment": 5.4,
       "reviewCount": 6,
       "reviewShare": 0.0211,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.3333,
       "negativeShare": 0.5,
@@ -5657,9 +6608,9 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "some slight leakage due to my beard",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+          "text": "For those with facial hair; this unit seems to be a bit more difficult to get dialed in for a good seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "sourceContexts": [
@@ -5672,12 +6623,13 @@
     {
       "id": "smaller-features",
       "label": "People with smaller facial features",
-      "score": 44,
+      "score": 40,
+      "grade": "D-",
       "averageSentiment": 4.5,
       "reviewCount": 5,
       "reviewShare": 0.0176,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -5769,26 +6721,27 @@
     {
       "id": "side-sleepers|sleep_position_compatibility",
       "label": "Side sleepers · Sleep Position Compatibility",
-      "score": 69,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.9,
       "reviewCount": 11,
       "reviewShare": 0.0387,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "It makes side sleeping so comfortable!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "Even as a side sleeper, this mask takes the cake for best design from me",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "not recommended for side-sleepers",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+          "text": "could not sleep on my side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "contextId": "side-sleepers",
@@ -5799,15 +6752,22 @@
     {
       "id": "high-pressure|seal_leak",
       "label": "High-pressure users · Seal Leak",
-      "score": 25,
+      "score": 11,
+      "grade": "F-",
       "averageSentiment": 2.5,
       "reviewCount": 8,
       "reviewShare": 0.0282,
-      "positiveReviews": 0,
-      "mixedReviews": 1,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "evidenceStrength": "limited",
-      "positiveEvidence": [],
+      "positiveEvidence": [
+        {
+          "text": "Even when sometimes having to tighten near end of 4-16 automatic to avoid leaking",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        }
+      ],
       "negativeEvidence": [
         {
           "text": "it won't seal with high pressures",
@@ -5823,12 +6783,13 @@
     {
       "id": "facial-hair|seal_leak",
       "label": "People with facial hair · Seal Leak",
-      "score": 54,
+      "score": 45,
+      "grade": "D",
       "averageSentiment": 5.4,
       "reviewCount": 6,
       "reviewShare": 0.0211,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5853,12 +6814,13 @@
     {
       "id": "smaller-features|fit",
       "label": "People with smaller facial features · Fit",
-      "score": 46,
+      "score": 41,
+      "grade": "D-",
       "averageSentiment": 4.6,
       "reviewCount": 5,
       "reviewShare": 0.0176,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5870,7 +6832,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "I have a slender face, and small facial structures",
+          "text": "a mask designed for a woman with a small face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -5883,12 +6845,13 @@
     {
       "id": "side-sleepers|seal_leak",
       "label": "Side sleepers · Seal Leak",
-      "score": 38,
+      "score": 21,
+      "grade": "F",
       "averageSentiment": 3.8,
       "reviewCount": 5,
       "reviewShare": 0.0176,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5919,12 +6882,13 @@
     {
       "id": "face",
       "label": "Face",
-      "score": 63,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 36,
       "reviewShare": 0.1268,
       "positiveReviews": 22,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 13,
       "positiveShare": 0.6111,
       "negativeShare": 0.3611,
@@ -6002,9 +6966,9 @@
           "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         },
         {
-          "text": "no pressure marks",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "no line marks on face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
         }
       ],
       "negativeEvidence": [
@@ -6014,14 +6978,14 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "in spite of tightening till my face hurt",
+          "text": "So I feel it on my face, arms, hands, in my eyes",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "I have a slender face, and small facial structures",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "without bothering my wife with a huge blast of air",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
         }
       ],
       "complaintReviews": 14,
@@ -6080,12 +7044,13 @@
     {
       "id": "nose_bridge",
       "label": "Nose Bridge",
-      "score": 37,
+      "score": 28,
+      "grade": "F",
       "averageSentiment": 3.7,
       "reviewCount": 11,
       "reviewShare": 0.0387,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.2727,
       "negativeShare": 0.7273,
@@ -6138,12 +7103,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "better, especially on the bridge of my nose",
+          "text": "The mask gently squeezes the sides of your nose at the bridge level but not over the top",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "The mask gently squeezes the sides of your nose at the bridge level but not over the top",
+          "text": "better, especially on the bridge of my nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
@@ -6155,12 +7120,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "I have a very small bridge of my nose, and this doesn't seal at all, even with the liners and gel pads",
+          "text": "the rigid plastic underneath the soft cushion at the bridge of the nose for me is a torture device and hurt so bad",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "the rigid plastic underneath the soft cushion at the bridge of the nose for me is a torture device and hurt so bad",
+          "text": "I have a very small bridge of my nose, and this doesn't seal at all, even with the liners and gel pads",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
@@ -6231,14 +7196,15 @@
     {
       "id": "nose",
       "label": "Nose",
-      "score": 57,
+      "score": 55,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 14,
       "reviewShare": 0.0493,
-      "positiveReviews": 6,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 1,
       "negativeReviews": 6,
-      "positiveShare": 0.4286,
+      "positiveShare": 0.5,
       "negativeShare": 0.4286,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -6306,7 +7272,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "I tried the pillow and it irritated my nose",
+          "text": "I wake up in the middle of the night with my nose and upper lip covered",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
@@ -6316,7 +7282,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "I wake up in the middle of the night with my nose and upper lip covered",
+          "text": "I tried the pillow and it irritated my nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
@@ -6382,12 +7348,13 @@
     {
       "id": "eyes",
       "label": "Eyes",
-      "score": 56,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.6,
       "reviewCount": 10,
       "reviewShare": 0.0352,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -6430,14 +7397,14 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "the air vent does not blow up into my eyes",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        },
-        {
           "text": "The lightweight build and the sleek build make it so my vision is clear even when wearing the mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        },
+        {
+          "text": "the air vent does not blow up into my eyes",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "negativeEvidence": [
@@ -6447,7 +7414,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "in my eyes",
+          "text": "thin streams of air blowing into my eyes",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
@@ -6503,12 +7470,13 @@
     {
       "id": "mouth",
       "label": "Mouth",
-      "score": 43,
+      "score": 30,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 7,
       "reviewShare": 0.0246,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.2857,
       "negativeShare": 0.7143,
@@ -6573,14 +7541,14 @@
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "My mouth barely fits within the boundaries of it",
+          "text": "it does dry my mouth out so I must be dropping my jaw a lot",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         },
         {
-          "text": "leaks form at the edges of my mouth",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+          "text": "i bought it small and it was to nasal that small",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
       "complaintReviews": 5,
@@ -6621,377 +7589,386 @@
   "interactionInsights": [],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 126,
-      "reviewShare": 0.4437,
-      "positiveReviews": 106,
-      "mixedReviews": 12,
-      "negativeReviews": 8,
-      "positiveShare": 0.8413,
-      "negativeShare": 0.0635,
-      "evidenceStrength": "strong",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "mask great",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Can't stand this mask",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 61,
-      "reviewShare": 0.2148,
-      "positiveReviews": 56,
-      "mixedReviews": 1,
-      "negativeReviews": 4,
-      "positiveShare": 0.918,
-      "negativeShare": 0.0656,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Most comfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "the mask I received from CPAP. Com is very uncomfortable",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        }
-      ]
-    },
-    {
-      "id": "|||weight",
-      "label": "Weight",
-      "score": 83,
-      "averageSentiment": 8.3,
-      "reviewCount": 37,
-      "reviewShare": 0.1303,
-      "positiveReviews": 37,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "This one is so light",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 73,
-      "averageSentiment": 7.3,
-      "reviewCount": 39,
-      "reviewShare": 0.1373,
-      "positiveReviews": 31,
-      "mixedReviews": 1,
-      "negativeReviews": 7,
-      "positiveShare": 0.7949,
-      "negativeShare": 0.1795,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "perfect fit",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Can't get a good fit",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        }
-      ]
-    },
-    {
-      "id": "|||therapy_effectiveness",
-      "label": "Therapy Effectiveness",
-      "score": 80,
-      "averageSentiment": 8.0,
-      "reviewCount": 23,
-      "reviewShare": 0.081,
-      "positiveReviews": 21,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.913,
-      "negativeShare": 0.087,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Works Great",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "It did not however eliminate my snoring",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
-        }
-      ]
-    },
-    {
-      "id": "|||previous_mask_comparison",
-      "label": "Previous Mask Comparison",
-      "score": 70,
-      "averageSentiment": 7.0,
-      "reviewCount": 24,
-      "reviewShare": 0.0845,
-      "positiveReviews": 18,
-      "mixedReviews": 2,
-      "negativeReviews": 4,
-      "positiveShare": 0.75,
-      "negativeShare": 0.1667,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I've tried several other full, face masks but always come back to this one",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I have been trying other brands and masks but so far I haven’t found a replacement",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        }
-      ]
-    },
-    {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 76,
-      "averageSentiment": 7.6,
-      "reviewCount": 18,
-      "reviewShare": 0.0634,
-      "positiveReviews": 15,
-      "mixedReviews": 0,
-      "negativeReviews": 3,
-      "positiveShare": 0.8333,
-      "negativeShare": 0.1667,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I FINALLY GOT AN AMAZING NIGHTS REST!!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "leading to no sleep!!!",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||ease_of_use",
-      "label": "Ease Of Use",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 10,
-      "reviewShare": 0.0352,
-      "positiveReviews": 9,
-      "mixedReviews": 1,
-      "negativeReviews": 0,
-      "positiveShare": 0.9,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Easiest to wear, take off",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||cleaning",
-      "label": "Cleaning",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 9,
-      "reviewShare": 0.0317,
-      "positiveReviews": 9,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "is very easy to take apart and clean",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "headgear|||comfort",
+      "id": "part|headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 9,
-      "reviewShare": 0.0317,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
-      "negativeReviews": 0,
-      "positiveShare": 0.8889,
-      "negativeShare": 0.0,
+      "score": 93,
+      "grade": "A",
+      "averageSentiment": 7.9,
+      "reviewCount": 12,
+      "reviewShare": 0.0423,
+      "positiveReviews": 11,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.9167,
+      "negativeShare": 0.0833,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "headgear",
           "label": "Headgear",
-          "reviewCount": 9
+          "reviewCount": 12
         }
       ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "neck",
+          "label": "Neck",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "Best mask and headgear ever!!!",
+          "text": "Super soft and comfortable headgear",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I stick a washcloth in that spot under the headgear",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        }
+      ]
+    },
+    {
+      "id": "site|face|fit",
+      "label": "Face · Fit",
+      "score": 78,
+      "grade": "B",
+      "averageSentiment": 7.0,
+      "reviewCount": 13,
+      "reviewShare": 0.0458,
+      "positiveReviews": 10,
+      "neutralReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.7692,
+      "negativeShare": 0.2308,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_liner",
+          "label": "Mask Liner",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 3
+        },
+        {
+          "id": "night_sweats",
+          "label": "Night Sweats",
+          "reviewCount": 1
+        },
+        {
+          "id": "wide_face",
+          "label": "Wide Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 13
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "finally found one that I am very comfortable with",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
-      "negativeEvidence": []
+      "negativeEvidence": [
+        {
+          "text": "I have a slender face, and small facial structures",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        }
+      ]
     },
     {
-      "id": "|||value",
-      "label": "Value",
-      "score": 80,
-      "averageSentiment": 8.0,
-      "reviewCount": 8,
-      "reviewShare": 0.0282,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "id": "part|cushion|comfort",
+      "label": "Cushion · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.5,
+      "reviewCount": 10,
+      "reviewShare": 0.0352,
+      "positiveReviews": 10,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.875,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 10
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "deviated_septum",
+          "label": "Deviated Septum",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "excellent value",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+          "text": "the membrane is completely comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": []
     },
     {
-      "id": "|||durability",
-      "label": "Durability",
-      "score": 74,
-      "averageSentiment": 7.4,
+      "id": "site|face|face_marks",
+      "label": "Face · Face Marks",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 9.2,
       "reviewCount": 8,
       "reviewShare": 0.0282,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 8
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It doesn't leave any marks on my face at all",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "part|mask_body|weight",
+      "label": "Mask Body · Weight",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.5,
+      "reviewCount": 6,
+      "reviewShare": 0.0211,
       "positiveReviews": 6,
-      "mixedReviews": 2,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.75,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 6
+        }
+      ],
       "associatedContexts": [],
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Long lasting",
+          "text": "It is much lighter than the old model by 45%.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "part|headgear|fit",
+      "label": "Headgear · Fit",
+      "score": 71,
+      "grade": "B-",
+      "averageSentiment": 6.3,
+      "reviewCount": 7,
+      "reviewShare": 0.0246,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "small_head",
+          "label": "Small Head",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The style of the head gear actually holds the mask to my head and face much better as well",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ],
-      "negativeEvidence": []
+      "negativeEvidence": [
+        {
+          "text": "one size head gear pulls it up into mouth",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        }
+      ]
     }
   ],
   "concerns": [
     {
-      "id": "||high_pressure|seal_leak",
-      "label": "High Pressure · Seal Leak",
-      "score": 27,
-      "averageSentiment": 2.7,
-      "reviewCount": 7,
-      "reviewShare": 0.0246,
+      "id": "part|strap|overtightening",
+      "label": "Strap · Overtightening",
+      "score": 0,
+      "grade": "F-",
+      "averageSentiment": 2.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0211,
       "positiveReviews": 0,
-      "mixedReviews": 1,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.0,
-      "negativeShare": 0.8571,
+      "negativeShare": 1.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [
+      "associatedParts": [
         {
-          "id": "high_pressure",
-          "label": "High Pressure",
-          "reviewCount": 7
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 6
         }
       ],
-      "associatedBodySites": [],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "I need a full face mask for a pressure of 17 which makes the other masks leak",
+          "text": "tighten the straps so tight it hurt my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        }
+      ]
+    },
+    {
+      "id": "part|cushion_seal|seal_leak",
+      "label": "Cushion Seal · Seal Leak",
+      "score": 30,
+      "grade": "F+",
+      "averageSentiment": 3.9,
+      "reviewCount": 7,
+      "reviewShare": 0.0246,
+      "positiveReviews": 2,
+      "neutralReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.2857,
+      "negativeShare": 0.7143,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "No leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I have a very small bridge of my nose, and this doesn't seal at all, even with the liners and gel pads",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
         }
       ]
     }
@@ -7049,39 +8026,39 @@
   "evidence": {
     "positive": [
       {
-        "text": "mask great",
+        "text": "My favorite feature is the quick release so night time bathroom visits don't require reapplying the mask each time",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
       },
       {
-        "text": "Highly recommended",
-        "retailer": "CPAP Ninja",
-        "productUrl": "https://www.cpapninja.com/products/quattro-air-full-face-cpap-mask-resmed"
+        "text": "It feels like I am not wearing this mask on my face while using it at night.",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
       },
       {
-        "text": "perfect fit",
+        "text": "no air leakage during the night for the first time in a LONG time",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
       },
       {
-        "text": "AMAZING!",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
+        "text": "I didn't wake up not 1 time with annoying air in my eyes",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
       },
       {
-        "text": "Awesome mask",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/quattro-air-cpap-mask-resmed"
+        "text": "He said it's the best mask over all others that he tried",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
       },
       {
-        "text": "finally have no leaks!",
+        "text": "finally, I can wake up with no marks on my forehead",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
       }
     ],
     "negative": [
       {
-        "text": "it won't seal with high pressures",
+        "text": "the rigid plastic underneath the soft cushion at the bridge of the nose for me is a torture device and hurt so bad",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
       },
@@ -7091,9 +8068,9 @@
         "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
       },
       {
-        "text": "leading to no sleep!!!",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        "text": "did not seal up on the bridge of nose even when pulled tight",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
       },
       {
         "text": "Ultimately, the seal would not close off air past my face",
@@ -7101,9 +8078,9 @@
         "productUrl": "https://www.cpap.com/products/resmed-quattro-air-full-face-mask?variant=49040835608892"
       },
       {
-        "text": "Can't stand this mask",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/resmed-quattro-air-full-face-cpap-mask"
+        "text": "This has been a losing situation from start to finish.",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask"
       },
       {
         "text": "I can not get a good seal",
@@ -7113,9 +8090,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

@@ -1,34 +1,189 @@
 import { Component, computed, signal } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { distinctUntilChanged, forkJoin, map, switchMap } from 'rxjs';
+import { catchError, distinctUntilChanged, forkJoin, map, of, switchMap } from 'rxjs';
 
-import { ContextFinding, MaskPrices, MaskProfile, MetricFinding } from '../mask-data';
+import {
+  ContextFinding,
+  EvidenceExcerpt,
+  InteractionInsight,
+  MaskGallery,
+  MaskGalleryImage,
+  MaskPrices,
+  MaskProfile,
+  MetricFinding,
+  PartFinding,
+  RetailerPriceOffer
+} from '../mask-data';
 import { MaskDataService } from '../mask-data.service';
+import { RetailerProfile, RetailerServiceAspect } from '../retailer-data';
+import { RetailerDataService } from '../retailer-data.service';
+import { CustomMaskPopup } from '../../custom-mask-popup/custom-mask-popup';
+import { WaitlistSignup } from '../../waitlist-signup/waitlist-signup';
+import { randomCustomMaskImage } from '../../custom-mask-image';
+
+type AnalysisTab = 'overview' | 'reviews' | 'fit' | 'components';
+type EvidenceTone = 'positive' | 'negative';
+type ScoreEvidence = EvidenceExcerpt & { tone: EvidenceTone };
+type ReviewEvidence = ScoreEvidence & { aspectId: string; aspectLabel: string };
 
 @Component({
   selector: 'app-mask-detail',
-  imports: [RouterLink],
+  imports: [RouterLink, CustomMaskPopup, WaitlistSignup],
   templateUrl: './mask-detail.html',
   styleUrl: './mask-detail.css'
 })
 export class MaskDetail {
+  protected readonly customMaskImage = randomCustomMaskImage();
+  private static readonly TOP_GRADE_IDS = [
+    'fit-and-sizing',
+    'comfort',
+    'seal-and-leaks',
+    'stability',
+    'ease-of-use',
+    'airflow-and-noise'
+  ];
+  private static readonly RETAILER_GRADE_IDS = [
+    'service',
+    'shipping',
+    'price',
+    'customer_support',
+    'ordering',
+    'return_policy'
+  ];
   protected readonly profile = signal<MaskProfile | null>(null);
   protected readonly prices = signal<MaskPrices | null>(null);
+  protected readonly gallery = signal<MaskGallery | null>(null);
+  protected readonly retailerProfiles = signal(new Map<string, RetailerProfile>());
+  protected readonly selectedOffer = signal<RetailerPriceOffer | null>(null);
+  protected readonly selectedRetailer = signal<RetailerProfile | null>(null);
+  protected readonly activeImageIndex = signal(0);
+  protected readonly activeAnalysisTab = signal<AnalysisTab>('overview');
+  protected readonly showAllComponents = signal(false);
+  protected readonly expandedScoreEvidence = signal(new Set<string>());
+  protected readonly selectedReviewAspect = signal('all');
+  protected readonly showAllReviewAspects = signal(false);
+  protected readonly reviewPage = signal(1);
+  protected readonly reviewPageSize = 50;
   protected readonly loading = signal(true);
   protected readonly loadError = signal(false);
+  protected readonly activeImage = computed(
+    () => this.gallery()?.images[this.activeImageIndex()] ?? null
+  );
   protected readonly bestFor = computed(() => this.contextsByIds(this.profile()?.bestFor ?? []));
   protected readonly mayNotSuit = computed(() =>
     this.contextsByIds(this.profile()?.mayNotSuit ?? [])
   );
   protected readonly mixedContexts = computed(
-    () => this.profile()?.contexts.filter((context) => context.classification === 'mixed') ?? []
+    () =>
+      this.profile()?.contexts.filter(
+        (context) => context.classification === 'mixed' && !context.limitedEvidence
+      ) ?? []
   );
-  protected readonly recentPriceHistory = computed(
-    () => this.prices()?.priceHistory.slice(-30).reverse() ?? []
+  protected readonly limitedContexts = computed(
+    () => this.profile()?.contexts.filter((context) => context.limitedEvidence) ?? []
   );
+  protected readonly rankedComponents = computed(() => {
+    const evidenceRank = { strong: 3, moderate: 2, limited: 1 } as const;
+    return [...(this.profile()?.parts ?? [])].sort(
+      (left, right) =>
+        right.reviewCount - left.reviewCount ||
+        evidenceRank[right.evidenceStrength] - evidenceRank[left.evidenceStrength]
+    );
+  });
+  protected readonly visibleComponents = computed(() =>
+    this.showAllComponents() ? this.rankedComponents() : this.rankedComponents().slice(0, 8)
+  );
+  protected readonly topComfortSites = computed(() =>
+    [...(this.profile()?.bodySites ?? [])]
+      .filter((site) => site.positiveReviews >= 5 && site.complaintReviews < 5)
+      .sort((left, right) => right.positiveReviews - left.positiveReviews)
+      .slice(0, 5)
+  );
+  protected readonly topDiscomfortSites = computed(() =>
+    [...(this.profile()?.bodySites ?? [])]
+      .filter((site) => site.complaintReviews >= 5 && site.positiveReviews < 5)
+      .sort((left, right) => right.complaintReviews - left.complaintReviews)
+      .slice(0, 5)
+  );
+  protected readonly mixedBodySites = computed(() =>
+    [...(this.profile()?.bodySites ?? [])]
+      .filter((site) => site.positiveReviews >= 5 && site.complaintReviews >= 5)
+      .sort(
+        (left, right) =>
+          right.positiveReviews +
+          right.complaintReviews -
+          (left.positiveReviews + left.complaintReviews)
+      )
+      .slice(0, 5)
+  );
+  protected readonly additionalAspects = computed(() => {
+    const dimensionIds = new Set(this.profile()?.dimensions.map((dimension) => dimension.id) ?? []);
+    const redundantAspectIds = new Set([
+      'overall_satisfaction',
+      'fit',
+      'seal_leak',
+      'stability',
+      'ease_of_use',
+      'therapy_effectiveness',
+      'sizing',
+      'therapy_compliance',
+      'pain'
+    ]);
+    return (
+      this.profile()?.aspects.filter(
+        (aspect) => !dimensionIds.has(aspect.id) && !redundantAspectIds.has(aspect.id)
+      ) ?? []
+    );
+  });
+  protected readonly primaryReviewAspects = computed(() =>
+    (this.profile()?.dimensions ?? []).slice(0, 6)
+  );
+  protected readonly secondaryReviewAspects = computed(() => [
+    ...(this.profile()?.dimensions ?? []).slice(6),
+    ...this.additionalAspects()
+  ]);
+  protected readonly reviewEvidence = computed<ReviewEvidence[]>(() => {
+    const profile = this.profile();
+    if (!profile) return [];
+    const selectedAspect = this.selectedReviewAspect();
+    const findings = [...profile.dimensions, ...this.additionalAspects()].filter(
+      (finding) => selectedAspect === 'all' || finding.id === selectedAspect
+    );
+    const seen = new Set<string>();
 
-  constructor(route: ActivatedRoute, maskData: MaskDataService) {
+    return findings.flatMap((finding) =>
+      [
+        ...finding.positiveEvidence.map((evidence) => ({ ...evidence, tone: 'positive' as const })),
+        ...finding.negativeEvidence.map((evidence) => ({ ...evidence, tone: 'negative' as const }))
+      ].flatMap((evidence) => {
+        const key = `${evidence.retailer}|${evidence.text}`;
+        if (seen.has(key)) return [];
+        seen.add(key);
+        return [{ ...evidence, aspectId: finding.id, aspectLabel: finding.label }];
+      })
+    );
+  });
+  protected readonly reviewPageCount = computed(() =>
+    Math.max(1, Math.ceil(this.reviewEvidence().length / this.reviewPageSize))
+  );
+  protected readonly visibleReviewEvidence = computed(() => {
+    const start = (this.reviewPage() - 1) * this.reviewPageSize;
+    return this.reviewEvidence().slice(start, start + this.reviewPageSize);
+  });
+  protected readonly topGrades = computed(() => {
+    const dimensions = this.profile()?.dimensions ?? [];
+    return MaskDetail.TOP_GRADE_IDS.flatMap((id) => {
+      const dimension = dimensions.find((item) => item.id === id);
+      return dimension ? [dimension] : [];
+    });
+  });
+
+  constructor(
+    route: ActivatedRoute,
+    maskData: MaskDataService,
+    retailerData: RetailerDataService
+  ) {
     route.paramMap
       .pipe(
         map((params) => params.get('maskSlug') ?? ''),
@@ -38,17 +193,46 @@ export class MaskDetail {
           this.loadError.set(false);
           this.profile.set(null);
           this.prices.set(null);
+          this.gallery.set(null);
+          this.selectedOffer.set(null);
+          this.selectedRetailer.set(null);
+          this.activeImageIndex.set(0);
+          this.activeAnalysisTab.set('overview');
+          this.showAllComponents.set(false);
+          this.expandedScoreEvidence.set(new Set());
+          this.selectedReviewAspect.set('all');
+          this.showAllReviewAspects.set(false);
+          this.reviewPage.set(1);
           return forkJoin({
             profile: maskData.getProfile(slug),
-            prices: maskData.getPrices(slug)
+            prices: maskData.getPrices(slug),
+            gallery: maskData.getGallery(slug),
+            retailerIndex: retailerData.getIndex().pipe(catchError(() => of(null)))
           });
         }),
         takeUntilDestroyed()
       )
       .subscribe({
-        next: ({ profile, prices }) => {
+        next: ({ profile, prices, gallery, retailerIndex }) => {
+          const cheapestOffer = prices?.cheapestOffer;
+          const retailerProfiles = new Map(
+            retailerIndex?.profiles.map((retailer) => [
+              this.normalizeRetailerName(retailer.name),
+              retailer
+            ]) ?? []
+          );
           this.profile.set(profile);
           this.prices.set(prices);
+          this.gallery.set(gallery);
+          this.retailerProfiles.set(retailerProfiles);
+          this.selectedOffer.set(cheapestOffer ?? null);
+          this.selectedRetailer.set(
+            cheapestOffer
+              ? retailerProfiles.get(
+                  this.normalizeRetailerName(cheapestOffer.retailer)
+                ) ?? null
+              : null
+          );
           this.loading.set(false);
         },
         error: () => {
@@ -62,12 +246,121 @@ export class MaskDetail {
     return profile.coverage.processedReviews > 0;
   }
 
+  protected selectAnalysisTab(tab: AnalysisTab): void {
+    this.activeAnalysisTab.set(tab);
+  }
+
+  protected selectReviewAspect(aspectId: string): void {
+    this.selectedReviewAspect.set(aspectId);
+    this.reviewPage.set(1);
+  }
+
+  protected toggleAllReviewAspects(): void {
+    this.showAllReviewAspects.update((visible) => !visible);
+  }
+
+  protected changeReviewPage(direction: -1 | 1): void {
+    this.reviewPage.update((page) =>
+      Math.min(this.reviewPageCount(), Math.max(1, page + direction))
+    );
+  }
+
+  protected showMoreComponents(): void {
+    this.showAllComponents.set(true);
+  }
+
+  protected praisedComponentAspects(part: PartFinding): MetricFinding[] {
+    const criticizedIds = new Set(
+      this.componentAspects(part, part.criticizedAspects).map((aspect) => aspect.id)
+    );
+    return this.componentAspects(part, part.praisedAspects).filter(
+      (aspect) => !criticizedIds.has(aspect.id)
+    );
+  }
+
+  protected criticizedComponentAspects(part: PartFinding): MetricFinding[] {
+    const praisedIds = new Set(
+      this.componentAspects(part, part.praisedAspects).map((aspect) => aspect.id)
+    );
+    return this.componentAspects(part, part.criticizedAspects).filter(
+      (aspect) => !praisedIds.has(aspect.id)
+    );
+  }
+
+  protected divisiveComponentAspects(part: PartFinding): MetricFinding[] {
+    const criticizedIds = new Set(
+      this.componentAspects(part, part.criticizedAspects).map((aspect) => aspect.id)
+    );
+    return this.componentAspects(part, part.praisedAspects).filter((aspect) =>
+      criticizedIds.has(aspect.id)
+    );
+  }
+
+  protected scoreEvidence(finding: MetricFinding): ScoreEvidence[] {
+    const positive = finding.positiveEvidence.map((item) => ({
+      ...item,
+      tone: 'positive' as const
+    }));
+    const negative = finding.negativeEvidence.map((item) => ({
+      ...item,
+      tone: 'negative' as const
+    }));
+    const total = Math.min(5, positive.length + negative.length);
+    if (!positive.length || finding.positiveReviews === 0) return negative.slice(0, total);
+    if (!negative.length || finding.negativeReviews === 0) return positive.slice(0, total);
+
+    const decisiveReviews = finding.positiveReviews + finding.negativeReviews;
+    let positiveCount = Math.round(
+      total * (decisiveReviews ? finding.positiveReviews / decisiveReviews : 0.5)
+    );
+    positiveCount = Math.max(1, Math.min(total - 1, positiveCount));
+    positiveCount = Math.min(positiveCount, positive.length);
+    let negativeCount = Math.min(total - positiveCount, negative.length);
+    const remaining = total - positiveCount - negativeCount;
+    positiveCount += Math.min(remaining, positive.length - positiveCount);
+    negativeCount += Math.min(total - positiveCount - negativeCount, negative.length - negativeCount);
+    return [...positive.slice(0, positiveCount), ...negative.slice(0, negativeCount)];
+  }
+
+  protected scoreEvidenceCount(finding: MetricFinding): number {
+    return finding.positiveEvidence.length + finding.negativeEvidence.length;
+  }
+
+  protected scoreEvidenceExpanded(findingId: string): boolean {
+    return this.expandedScoreEvidence().has(findingId);
+  }
+
+  protected toggleScoreEvidence(findingId: string): void {
+    const expanded = new Set(this.expandedScoreEvidence());
+    if (expanded.has(findingId)) {
+      expanded.delete(findingId);
+    } else {
+      expanded.add(findingId);
+    }
+    this.expandedScoreEvidence.set(expanded);
+  }
+
+  protected scoreTrend(score: number): 'favorable' | 'mixed' | 'unfavorable' {
+    if (score >= 70) return 'favorable';
+    if (score <= 40) return 'unfavorable';
+    return 'mixed';
+  }
+
+  protected scoreTrendArrow(score: number): string {
+    return { favorable: '↗', mixed: '→', unfavorable: '↘' }[this.scoreTrend(score)];
+  }
+
   protected formatCount(value: number): string {
     return value.toLocaleString();
   }
 
   protected formatPercent(value: number): string {
     return `${Math.round(value * 100)}%`;
+  }
+
+  protected reviewShare(reviewCount: number): string {
+    const processedReviews = this.profile()?.coverage.processedReviews ?? 0;
+    return this.formatPercent(processedReviews ? reviewCount / processedReviews : 0);
   }
 
   protected formatScore(value: number | null): string {
@@ -86,14 +379,48 @@ export class MaskDetail {
         });
   }
 
-  protected statusLabel(profile: MaskProfile): string {
-    const labels = {
-      complete: 'Complete analysis',
-      preliminary: 'Preliminary analysis',
-      pending: 'Analysis in progress',
-      unavailable: 'Insufficient review evidence'
-    };
-    return labels[profile.coverage.status];
+  protected retailerProfile(name: string): RetailerProfile | null {
+    return this.retailerProfiles().get(this.normalizeRetailerName(name)) ?? null;
+  }
+
+  protected retailerAspectGrades(profile: RetailerProfile): RetailerServiceAspect[] {
+    return MaskDetail.RETAILER_GRADE_IDS.flatMap((aspectId) => {
+      const aspect = profile.serviceAspects.find(
+        (candidate) => candidate.aspect === aspectId && candidate.grade !== null
+      );
+      return aspect ? [aspect] : [];
+    });
+  }
+
+  protected selectRetailerDetails(offer: RetailerPriceOffer): void {
+    this.selectedOffer.set(offer);
+    this.selectedRetailer.set(this.retailerProfile(offer.retailer));
+  }
+
+  protected gradeBand(grade: string | null): 'high' | 'middle' | 'low' | 'none' {
+    if (!grade) return 'none';
+    if (grade.startsWith('A') || grade.startsWith('B')) return 'high';
+    if (grade.startsWith('C') || grade.startsWith('D')) return 'middle';
+    return 'low';
+  }
+
+  protected selectImage(index: number): void {
+    const imageCount = this.gallery()?.images.length ?? 0;
+    if (index >= 0 && index < imageCount) {
+      this.activeImageIndex.set(index);
+    }
+  }
+
+  protected previousImage(): void {
+    this.moveGallery(-1);
+  }
+
+  protected nextImage(): void {
+    this.moveGallery(1);
+  }
+
+  protected imageAlt(mask: MaskProfile, image: MaskGalleryImage): string {
+    return `${mask.name} product image from ${image.retailer}`;
   }
 
   protected contextDescription(context: ContextFinding): string {
@@ -113,8 +440,38 @@ export class MaskDetail {
     return evidence[0]?.text ?? null;
   }
 
+  protected interactionLabel(insight: InteractionInsight): string {
+    const outcome =
+      insight.tone === 'favorable'
+        ? 'Comfort'
+        : insight.tone === 'caution'
+          ? 'Discomfort'
+          : 'Comfort and Discomfort';
+    return insight.label.replaceAll('Comfort and Discomfort', outcome);
+  }
+
   private contextsByIds(ids: string[]): ContextFinding[] {
     const wanted = new Set(ids);
     return this.profile()?.contexts.filter((context) => wanted.has(context.id)) ?? [];
+  }
+
+  private componentAspects(part: PartFinding, aspects: MetricFinding[]): MetricFinding[] {
+    const broadAspectIds = new Set(['overall_satisfaction', 'therapy_effectiveness']);
+    const allAspects = [...part.praisedAspects, ...part.criticizedAspects];
+    const hasSpecificAspect = allAspects.some((aspect) => !broadAspectIds.has(aspect.id));
+    return hasSpecificAspect
+      ? aspects.filter((aspect) => !broadAspectIds.has(aspect.id))
+      : aspects;
+  }
+
+  private normalizeRetailerName(value: string): string {
+    return value.toLowerCase().replace(/[^a-z0-9]/g, '');
+  }
+
+  private moveGallery(offset: number): void {
+    const imageCount = this.gallery()?.images.length ?? 0;
+    if (imageCount > 1) {
+      this.activeImageIndex.set((this.activeImageIndex() + offset + imageCount) % imageCount);
+    }
   }
 }

@@ -1,8 +1,27 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "fisher-paykel-nova-nasal",
   "name": "Fisher & Paykel Nova Nasal",
   "catalogOrder": 66,
+  "search": {
+    "aliases": [
+      "F&P Nova Nasal CPAP Mask with Headgear",
+      "F&P Nova Nasal with SwingFit",
+      "Fisher & Paykel Nova™ Nasal CPAP Mask",
+      "Fisher & Paykel | Nova Nasal Mask",
+      "Nova Nasal CPAP Mask",
+      "Nova Nasal CPAP Mask All Size Fit Pack",
+      "Nova Nasal CPAP Mask System"
+    ],
+    "abbreviations": [
+      "F&P",
+      "FP",
+      "Fisher Paykel"
+    ],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 45,
@@ -13,30 +32,33 @@
     "reviewDateEnd": "2026-05-25"
   },
   "overall": {
-    "compositeScore": 70,
+    "score": 63,
+    "grade": "C",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 3.49,
-      "score": 70,
+      "score": 62,
       "reviewCount": 45,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 7.0,
       "score": 70,
       "reviewCount": 21,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 66,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.6,
       "reviewCount": 25,
       "reviewShare": 0.5556,
       "positiveReviews": 16,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 8,
       "positiveShare": 0.64,
       "negativeShare": 0.32,
@@ -109,9 +131,49 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         },
         {
+          "text": "it's way more comfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
           "text": "Very comfortable!",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "hard plastic parts digging into my head at night",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-nasal-cpap-mask"
+        },
+        {
+          "text": "super comfortable in/on the nose as it's light",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "I love the headgear",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "Very very light!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "Silent and comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Very comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "Super comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         }
       ],
       "negativeEvidence": [
@@ -124,18 +186,54 @@
           "text": "the bridge of my nose can make contact with the area of the mask that connects to the tubing which is very hard and uncomfortable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "the bottom straps dig into the bottom of my ears",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "it caused pressure sores to my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "the mask was very uncomfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "Too much bulk in front of mask to sleep on side without causing leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "Comfortable for a moment",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Its a bit bulky",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "A bit awkward",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 52,
+      "score": 47,
+      "grade": "D",
       "averageSentiment": 5.2,
       "reviewCount": 18,
       "reviewShare": 0.4,
       "positiveReviews": 7,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 9,
       "positiveShare": 0.3889,
       "negativeShare": 0.5,
@@ -206,30 +304,101 @@
           "text": "The fit feels natural without putting pressure in the wrong places",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "its superior fit secure placement is worth it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "the mask seems to prefer to be loosely seated on your nose, rather than snuggly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "I found the large to be perfect and I don’t consider my nose large",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "Comfortable snugness",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "With other masks I use a small cushion but with this one the medium size works better",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "the top of the mask does NOT go to the bridge of your nose like others",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "the tip of my nose hits the end of the unit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "cannot maneuver the multiple adjustments to fit and stay on face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
         {
           "text": "(tight or loose)",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         },
         {
-          "text": "the tip of my nose hits the end of the unit",
+          "text": "tight",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "I had to sew a tuck into the headgear straps in order to be able to velcro the straps tightly enough",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "Experimented wiith loser stratps, tighter straps",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Difficulty adjusting",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "I tried this mask with a couple of size pillows",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system"
+        },
+        {
+          "text": "Fits higher above my upper lip then i would like",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system"
+        },
+        {
+          "text": "I have to readjust",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 58,
+      "score": 55,
+      "grade": "C-",
       "averageSentiment": 5.8,
       "reviewCount": 19,
       "reviewShare": 0.4222,
       "positiveReviews": 9,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 8,
       "positiveShare": 0.4737,
       "negativeShare": 0.4211,
@@ -312,6 +481,16 @@
       ],
       "positiveEvidence": [
         {
+          "text": "The seal is perfect",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "My seal was perfect",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
           "text": "excellent leak control",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
@@ -320,6 +499,36 @@
           "text": "Zero leaks",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "I have a beard and mustache so leakage can be an issue",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "great seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "Super good seal almost not",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "not allowing mask to leak",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "less leaky",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-nasal-cpap-mask"
+        },
+        {
+          "text": "If you are a back sleeper I don't think it would be an issue",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -329,21 +538,57 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         },
         {
+          "text": "the leaks got worse especially hitting my eyes",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
           "text": "Leaks into eyes",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system"
+        },
+        {
+          "text": "Doesn't seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "lost seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Poor seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Too much bulk in front of mask to sleep on side without causing leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "without slipping and leaking during the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "does sometimes leak when I'm side sleeping",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 54,
+      "label": "Stability",
+      "score": 53,
+      "grade": "D+",
       "averageSentiment": 5.4,
       "reviewCount": 21,
       "reviewShare": 0.4667,
       "positiveReviews": 10,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 9,
       "positiveShare": 0.4762,
       "negativeShare": 0.4286,
@@ -421,40 +666,121 @@
       ],
       "positiveEvidence": [
         {
+          "text": "Best mask so far for staying put on face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
           "text": "can sleep in any position",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
         },
         {
-          "text": "Best mask so far for staying put on face",
+          "text": "I’m a side sleeper and the mask is great for the that",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Lowest profile so great for side sleeping",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "the head gear is very stable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "the strap in the back stays on the back of my head and this worked",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "stays sealed without constant readjustment, even if you move around during the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "Mask did not shift during sleep",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "while changing sleep positions",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "It held thru the night last night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "the connection between pillow and frame is flimsy",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system"
+        },
         {
           "text": "The straps will not stay fastened",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
         },
         {
-          "text": "the connection between pillow and frame is flimsy",
+          "text": "cannot maneuver the multiple adjustments to fit and stay on face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "every time I moved, the seal let loose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Cushion comes off in the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "when I shifted positions slightly",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system"
+        },
+        {
+          "text": "difficult to stay secure",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system"
+        },
+        {
+          "text": "to hold the nose cushion in place without slipping and leaking during the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "the clips don’t hold as well as the magnets on the N20",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "Difficulty adjusting to tangles",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 50,
+      "label": "Ease of Use",
+      "score": 47,
+      "grade": "D",
       "averageSentiment": 5.0,
       "reviewCount": 13,
       "reviewShare": 0.2889,
-      "positiveReviews": 4,
-      "mixedReviews": 3,
+      "positiveReviews": 5,
+      "neutralReviews": 2,
       "negativeReviews": 6,
-      "positiveShare": 0.3077,
+      "positiveShare": 0.3846,
       "negativeShare": 0.4615,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -507,6 +833,31 @@
           "text": "easy to use",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "Easy to clean",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "watched the video on how to clip the cushion-several times",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "it allows you to wear it 2 different ways",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-nasal-cpap-mask"
+        },
+        {
+          "text": "I like the over the head attachment",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "It took me a while to get used to this mask",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -519,18 +870,49 @@
           "text": "(tight or loose)",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "I had to sew a tuck into the headgear straps in order to be able to velcro the straps tightly enough",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "Experimented wiith loser stratps, tighter straps",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Difficulty adjusting",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "the clip setup makes it a not kludgy getting mask on and off in middle of night to go to the bathroom especially in the…",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "It is a bit more difficult to put on than some",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "I have to readjust",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 68,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 8,
       "reviewShare": 0.1778,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -572,38 +954,59 @@
       ],
       "positiveEvidence": [
         {
+          "text": "no air blowing out the front",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
           "text": "the vent is wonderfully quiet",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
         },
         {
+          "text": "This mask is so quiet!",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-nasal-cpap-mask"
+        },
+        {
           "text": "It’s quiet",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "not feeling the blow in to the nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "relatively quiet",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "The inhale exhale vent is on top of the nose",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
-        },
-        {
           "text": "those exhaust holes in the front elbow blow air like a leaf blower",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "The inhale exhale vent is on top of the nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
         }
       ]
     },
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 60,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 5,
       "reviewShare": 0.1111,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -645,14 +1048,19 @@
       ],
       "positiveEvidence": [
         {
+          "text": "it doesn't leave marks on my face like the n30i or micro did",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-nasal-cpap-mask"
+        },
+        {
           "text": "It doesn’t leave any lines",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "No painful noses",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-nasal-cpap-mask"
+          "text": "my nose isn’t sore when I wake up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
         }
       ],
       "negativeEvidence": [
@@ -671,12 +1079,13 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 24,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.4,
       "reviewCount": 7,
       "reviewShare": 0.1556,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -719,26 +1128,52 @@
       "positiveEvidence": [],
       "negativeEvidence": [
         {
+          "text": "has very little give or stretch",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
           "text": "has come apart every night",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system"
         },
         {
-          "text": "has very little give or stretch",
+          "text": "the clips have come off the cushion",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "I lost it and cannot.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "I seem to have to replace the cushion more frequently",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "attachments are cheap",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system"
+        },
+        {
+          "text": "Question on how long the strap will last",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 48,
+      "score": 42,
+      "grade": "D-",
       "averageSentiment": 4.8,
       "reviewCount": 5,
       "reviewShare": 0.1111,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -760,14 +1195,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "it works really",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
-        },
-        {
           "text": "I sleep so much better",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "it works really",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         }
       ],
       "negativeEvidence": [
@@ -780,6 +1215,11 @@
           "text": "used once",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        },
+        {
+          "text": "the mask only lasted half the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         }
       ]
     }
@@ -788,14 +1228,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 70,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 7.0,
       "reviewCount": 21,
       "reviewShare": 0.4667,
-      "positiveReviews": 14,
-      "mixedReviews": 2,
+      "positiveReviews": 15,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.7143,
       "negativeShare": 0.2381,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -829,12 +1270,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Best mask",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+          "text": "Best mask that I’ve ever used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "The great mask",
+          "text": "It is a great mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         }
@@ -855,14 +1296,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 70,
+      "score": 77,
+      "grade": "B",
       "averageSentiment": 7.0,
       "reviewCount": 20,
       "reviewShare": 0.4444,
-      "positiveReviews": 13,
-      "mixedReviews": 2,
+      "positiveReviews": 15,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.65,
+      "positiveShare": 0.75,
       "negativeShare": 0.25,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -927,7 +1369,7 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         },
         {
-          "text": "Very comfortable!",
+          "text": "it's way more comfortable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
         }
@@ -948,12 +1390,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 58,
+      "score": 55,
+      "grade": "C-",
       "averageSentiment": 5.8,
       "reviewCount": 19,
       "reviewShare": 0.4222,
       "positiveReviews": 9,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 8,
       "positiveShare": 0.4737,
       "negativeShare": 0.4211,
@@ -1036,14 +1479,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "excellent leak control",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+          "text": "The seal is perfect",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "Zero leaks",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+          "text": "My seal was perfect",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         }
       ],
       "negativeEvidence": [
@@ -1053,21 +1496,22 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         },
         {
-          "text": "Leaks into eyes",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system"
+          "text": "the leaks got worse especially hitting my eyes",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         }
       ]
     },
     {
       "id": "stability",
       "label": "Stability",
-      "score": 48,
+      "score": 44,
+      "grade": "D-",
       "averageSentiment": 4.8,
       "reviewCount": 14,
       "reviewShare": 0.3111,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.4286,
       "negativeShare": 0.5714,
@@ -1137,26 +1581,27 @@
       ],
       "negativeEvidence": [
         {
-          "text": "The straps will not stay fastened",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
-        },
-        {
           "text": "the connection between pillow and frame is flimsy",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system"
+        },
+        {
+          "text": "The straps will not stay fastened",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
         }
       ]
     },
     {
       "id": "fit",
       "label": "Fit",
-      "score": 58,
+      "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.8,
       "reviewCount": 12,
       "reviewShare": 0.2667,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 5,
       "positiveShare": 0.5,
       "negativeShare": 0.4167,
@@ -1239,12 +1684,13 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 56,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.6,
       "reviewCount": 7,
       "reviewShare": 0.1556,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5714,
       "negativeShare": 0.4286,
@@ -1302,12 +1748,13 @@
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 80,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 8.0,
       "reviewCount": 6,
       "reviewShare": 0.1333,
       "positiveReviews": 5,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.8333,
       "negativeShare": 0.0,
@@ -1354,12 +1801,13 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 30,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 3.0,
       "reviewCount": 5,
       "reviewShare": 0.1111,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -1401,12 +1849,13 @@
     {
       "id": "noise",
       "label": "Noise",
-      "score": 83,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.3,
       "reviewCount": 5,
       "reviewShare": 0.1111,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1443,9 +1892,9 @@
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
         },
         {
-          "text": "It’s quiet",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+          "text": "This mask is so quiet!",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -1455,12 +1904,13 @@
     {
       "id": "clip",
       "label": "Clip",
-      "score": 46,
+      "score": 37,
+      "grade": "F+",
       "averageSentiment": 4.6,
       "reviewCount": 7,
       "reviewShare": 0.1556,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.2857,
       "negativeShare": 0.5714,
@@ -1515,14 +1965,15 @@
     {
       "id": "strap",
       "label": "Strap",
-      "score": 39,
+      "score": 33,
+      "grade": "F+",
       "averageSentiment": 3.9,
       "reviewCount": 6,
       "reviewShare": 0.1333,
-      "positiveReviews": 1,
-      "mixedReviews": 1,
+      "positiveReviews": 2,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.1667,
+      "positiveShare": 0.3333,
       "negativeShare": 0.6667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1552,7 +2003,7 @@
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
         },
         {
-          "text": "Comfortable snugness",
+          "text": "not allowing mask to leak",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         }
@@ -1580,14 +2031,15 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 57,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 5.7,
       "reviewCount": 5,
       "reviewShare": 0.1111,
-      "positiveReviews": 2,
-      "mixedReviews": 2,
+      "positiveReviews": 3,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.4,
+      "positiveShare": 0.6,
       "negativeShare": 0.2,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1626,6 +2078,11 @@
           "text": "It held thru the night last night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+        },
+        {
+          "text": "over the nose cushions feel the most comfortable for inhaling and exhaling",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         }
       ],
       "negativeEvidence": [
@@ -1646,12 +2103,13 @@
     {
       "id": "cushion_seal",
       "label": "Cushion Seal",
-      "score": 68,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.8,
       "reviewCount": 5,
       "reviewShare": 0.1111,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -1667,6 +2125,11 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "The seal is perfect",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+        },
+        {
           "text": "excellent leak control",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
@@ -1675,11 +2138,6 @@
           "text": "Zero leaks",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
-        },
-        {
-          "text": "The seal is perfect",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
         }
       ],
       "negativeEvidence": [
@@ -1700,14 +2158,15 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 81,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.1,
       "reviewCount": 5,
       "reviewShare": 0.1111,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1721,9 +2180,9 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I love the headgear",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+          "text": "The hose clamp on the top of the headpiece is such a nice feature as it keeps the hose out of the way",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
         },
         {
           "text": "the head gear is very stable",
@@ -1731,9 +2190,9 @@
           "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "The hose clamp on the top of the headpiece is such a nice feature as it keeps the hose out of the way",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+          "text": "I love the headgear",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         }
       ],
       "negativeEvidence": [],
@@ -1743,14 +2202,15 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 56,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.6,
       "reviewCount": 5,
       "reviewShare": 0.1111,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.4,
+      "positiveShare": 0.6,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1781,12 +2241,12 @@
           "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "Light weight",
+          "text": "I really liked it!",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         },
         {
-          "text": "I really liked it!",
+          "text": "Light weight",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
         }
@@ -1816,19 +2276,20 @@
     {
       "id": "cushion_seal|seal_leak",
       "label": "Cushion Seal · Seal Leak",
-      "score": 68,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.8,
       "reviewCount": 5,
       "reviewShare": 0.1111,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "excellent leak control",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+          "text": "The seal is perfect",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
         }
       ],
       "negativeEvidence": [
@@ -1848,12 +2309,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 44,
+      "score": 40,
+      "grade": "D-",
       "averageSentiment": 4.4,
       "reviewCount": 5,
       "reviewShare": 0.1111,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -1913,9 +2375,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "when I shifted positions slightly",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system"
+          "text": "every time I moved, the seal let loose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
         },
         {
           "text": "Cushion comes off in the night",
@@ -1938,70 +2400,7 @@
   "bodySites": [],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 73,
-      "averageSentiment": 7.3,
-      "reviewCount": 17,
-      "reviewShare": 0.3778,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
-      "negativeReviews": 4,
-      "positiveShare": 0.7059,
-      "negativeShare": 0.2353,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Best mask",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Worst mask ever",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 78,
-      "averageSentiment": 7.8,
-      "reviewCount": 9,
-      "reviewShare": 0.2,
-      "positiveReviews": 6,
-      "mixedReviews": 1,
-      "negativeReviews": 2,
-      "positiveShare": 0.6667,
-      "negativeShare": 0.2222,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "It’s easily the most comfortable mask I’ve used",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Comfortable for a moment",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
-        }
-      ]
-    }
-  ],
+  "strengths": [],
   "concerns": [],
   "retailers": [
     {
@@ -2048,19 +2447,24 @@
   "evidence": {
     "positive": [
       {
-        "text": "Best mask",
+        "text": "Best mask so far for staying put on face",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
       },
       {
-        "text": "Very comfortable!",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
-      },
-      {
-        "text": "The great mask",
+        "text": "It’s easily the most comfortable mask I’ve used",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+      },
+      {
+        "text": "Best mask that I’ve ever used",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/f-p-nova-nasal-cpap-mask-with-headgear"
+      },
+      {
+        "text": "Great adjustments to create perfect Fit",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-with-swingfit-headgear-fit-pack"
       },
       {
         "text": "It is a great mask",
@@ -2071,21 +2475,11 @@
         "text": "Best mask I’ve ever had.",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
-      },
-      {
-        "text": "Best mask so far for staying put on face",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
       }
     ],
     "negative": [
       {
-        "text": "The straps will not stay fastened",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
-      },
-      {
-        "text": "It makes the mask unwearable",
+        "text": "This is the most confusing mask I have ever gotten",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
       },
@@ -2095,7 +2489,7 @@
         "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system"
       },
       {
-        "text": "This is the most confusing mask I have ever gotten",
+        "text": "The straps will not stay fastened",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
       },
@@ -2105,16 +2499,21 @@
         "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
       },
       {
-        "text": "couldn't get this one (tight or loose) to stop leaking at the top of the mask, right into my eyes",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/fisher-paykel-noval-nasal-mask"
+        "text": "It makes the mask unwearable",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
+      },
+      {
+        "text": "the bridge of my nose can make contact with the area of the mask that connects to the tubing which is very hard and uncomfortable",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/nova-nasal-cpap-mask?variant=52554963878204"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

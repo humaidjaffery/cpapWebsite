@@ -1,8 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-airfit-n10-for-her",
   "name": "ResMed AirFit N10 For Her",
   "catalogOrder": 86,
+  "search": {
+    "aliases": [
+      "AirFit N10 For Her CPAP Mask Kit",
+      "AirFit N10 For Her Nasal CPAP Mask"
+    ],
+    "abbreviations": [
+      "N10",
+      "Resmed"
+    ],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 10,
@@ -13,18 +26,20 @@
     "reviewDateEnd": "2023-02-16"
   },
   "overall": {
-    "compositeScore": null,
+    "score": 85,
+    "grade": "A-",
+    "calculation": "star rating only; insufficient review-text satisfaction evidence",
     "ratingComponent": {
       "average": 4.4,
-      "score": 88,
+      "score": 85,
       "reviewCount": 10,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.8,
       "score": 88,
       "reviewCount": 4,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [],
@@ -58,7 +73,7 @@
         "productUrl": "https://1800cpap.com/products/airfit-n10-for-her-cpap-mask-kit"
       },
       {
-        "text": "very light and comfortable",
+        "text": "Happy with this mask so far",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/airfit-n10-for-her-nasal-cpap-mask"
       },
@@ -97,9 +112,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

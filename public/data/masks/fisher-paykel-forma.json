@@ -1,8 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "fisher-paykel-forma",
   "name": "Fisher & Paykel Forma",
   "catalogOrder": 60,
+  "search": {
+    "aliases": [
+      "F&P Forma Full Face CPAP Mask",
+      "Forma Full Face CPAP Mask",
+      "Forma Full Face CPAP Mask with Headgear"
+    ],
+    "abbreviations": [
+      "F&P",
+      "FP",
+      "Fisher Paykel"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 64,
@@ -13,32 +28,35 @@
     "reviewDateEnd": "2026-05-22"
   },
   "overall": {
-    "compositeScore": 79,
+    "score": 71,
+    "grade": "B-",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 3.81,
-      "score": 76,
+      "score": 70,
       "reviewCount": 64,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.4,
       "score": 84,
       "reviewCount": 29,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 57,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 5.7,
       "reviewCount": 24,
       "reviewShare": 0.375,
-      "positiveReviews": 13,
-      "mixedReviews": 2,
+      "positiveReviews": 14,
+      "neutralReviews": 1,
       "negativeReviews": 9,
-      "positiveShare": 0.5417,
+      "positiveShare": 0.5833,
       "negativeShare": 0.375,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -114,9 +132,49 @@
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         },
         {
+          "text": "the first comfortable and best fit mask that I have found since wearing a CPAP mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Now,the Forma is nothing but comfort compared to the rest",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it is by far easier to sleep with",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the foam cushion, its very comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
           "text": "foam comfort",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "Very comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "I like the fit and feel really well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "has no comfort issues",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -129,20 +187,61 @@
           "text": "a bruised lower lip",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the plastic against the forehead is very uncomfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "pressing too hard on my forehead",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "too hard on your nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "It pinches the nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "very uncomfortably tight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it would be more comfortable on my nose bridge",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "None worked with the pressure my doctor prescribed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I did have a problem with nose soreness",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 60,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.0,
       "reviewCount": 35,
       "reviewShare": 0.5469,
-      "positiveReviews": 20,
-      "mixedReviews": 5,
+      "positiveReviews": 23,
+      "neutralReviews": 2,
       "negativeReviews": 10,
-      "positiveShare": 0.5714,
+      "positiveShare": 0.6571,
       "negativeShare": 0.2857,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -233,19 +332,99 @@
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
         {
+          "text": "the first comfortable and best fit mask that I have found since wearing a CPAP mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The double-liner, with double slots to insert them, is the trick that makes it work",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
           "text": "it fits like a glove",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "Great fitting mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "fits very nicely",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Better fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The Forma Full Face CPAP mask fits the bill where three other masks have not",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I like it and it is the best-fitting one I have tried",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the priduct is a great fit for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "The cushion sits loosely on the frame",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
         {
           "text": "Does not fit my face !",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "The cushion sits loosely on the frame",
+          "text": "the straps are stretched as far as possible and actually dig into the back of my neck they are so tight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I have to tighten it too much",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I have to correct fit a seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The mask is a 2 piece",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Mask just doesnt fit right",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "wear it very uncomfortably tight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Did not fit well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "TOO LARGE",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
@@ -254,12 +433,13 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 61,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 6.1,
       "reviewCount": 21,
       "reviewShare": 0.3281,
       "positiveReviews": 13,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.619,
       "negativeShare": 0.381,
@@ -327,24 +507,94 @@
       ],
       "positiveEvidence": [
         {
+          "text": "always had a little bit of a leak",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "This one has zero leaks!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
           "text": "Great Sealing Mask!",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         },
         {
-          "text": "always had a little bit of a leak",
+          "text": "without air leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I'm a tummy sleeper so it doesn't leak when I'm sleeping",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "this mask serves my needs with less leakage than all the others",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "helped me from my mask leaking by keeping my chin up",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "the seal under the chin really helped me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "it helped me keep my mouth closed",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "Less air leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "couldn't get it to seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
         {
           "text": "Mask didn’t seal correctly",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "couldn't get it to seal",
+          "text": "leaked horribly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I couldn't get a good seal to last thru the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "must constantly adjust it trying to stop the leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "causing leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it does leak and not always from the same spot",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "they all leaked",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
@@ -352,13 +602,14 @@
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 53,
+      "label": "Stability",
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.3,
       "reviewCount": 9,
       "reviewShare": 0.1406,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.4444,
       "negativeShare": 0.4444,
@@ -444,11 +695,26 @@
           "text": "I think if you sleep on your back most of the time this would be absolutely perfect",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it has a bridge for your chin which keeps it in place better then the other masks I've used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "stays in place",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "I liked the under chin design which helps with keeping my jaw from dropping during sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "it wont stay connected to the hose",
+          "text": "The elbow that connects to mask to the supply hose will no longer turn freely and will wrap around the neck waking you up",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
@@ -456,18 +722,34 @@
           "text": "Wife complained of the air blowing on her",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-forma-full-face-cpap-mask"
+        },
+        {
+          "text": "it wont stay connected to the hose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the strap keeps slipping out through the opening",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I think if you sleep on your back most of the time this would be absolutely perfect but as a side sleeper, I will continue…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 67,
+      "label": "Ease of Use",
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 9,
       "reviewShare": 0.1406,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.2222,
@@ -498,9 +780,29 @@
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
         {
+          "text": "This mask was easy to fit because it came with 2 cushions",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "I fixed that by tightening the bottom straps",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "Easer to put on and take off",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "easy to pull on and off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "easy to adjust",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -519,12 +821,13 @@
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 21,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.1,
       "reviewCount": 5,
       "reviewShare": 0.0781,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -571,18 +874,29 @@
           "text": "it would wake me up with air blowing in my eyes",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-forma-full-face-cpap-mask"
+        },
+        {
+          "text": "My other masks in the past were so loud",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "Noisy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 30,
+      "score": 17,
+      "grade": "F-",
       "averageSentiment": 3.0,
       "reviewCount": 8,
       "reviewShare": 0.125,
       "positiveReviews": 1,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 6,
       "positiveShare": 0.125,
       "negativeShare": 0.75,
@@ -660,18 +974,39 @@
           "text": "the Quattro actually wore a raw spot on the bridge of my nose in my efforts to seal the leaks",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "too hard on your nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "It pinches the nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "giving me headache's.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I did have a problem with nose soreness",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 49,
+      "score": 50,
+      "grade": "D+",
       "averageSentiment": 4.9,
       "reviewCount": 10,
       "reviewShare": 0.1562,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -707,6 +1042,11 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "I have been using this mask for 8 years!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
           "text": "Great quality c-pap masks",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
@@ -715,16 +1055,36 @@
           "text": "quality is great",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I guess it is the foam that makes the difference!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "mask kept falling apart as well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
         {
           "text": "They break way to easy",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "mask kept falling apart as well",
+          "text": "Extremely low quality",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the elbow that connects to mask to the supply hose will no longer turn freely",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the head gear to stretch out and fall apart",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
@@ -733,12 +1093,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 59,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 5.9,
       "reviewCount": 7,
       "reviewShare": 0.1094,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.5714,
       "negativeShare": 0.2857,
@@ -759,9 +1120,24 @@
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
         {
+          "text": "this was on sale",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "Worth the cost",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "affordable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Bonus is you get two foam cushions",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -774,20 +1150,26 @@
           "text": "A lot of these are over priced",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "This mask is overpriced as well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 42,
+      "score": 40,
+      "grade": "D-",
       "averageSentiment": 4.2,
       "reviewCount": 12,
       "reviewShare": 0.1875,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 7,
-      "positiveShare": 0.3333,
+      "positiveShare": 0.4167,
       "negativeShare": 0.5833,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -812,14 +1194,29 @@
       ],
       "positiveEvidence": [
         {
+          "text": "has helped me a great deal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
           "text": "worked perfectly",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "has helped me a great deal",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+          "text": "i quit breathing well over 120 times in an hr",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "does the job",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "does the job if needed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -832,6 +1229,31 @@
           "text": "Losing sleep",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I have been going through sleepless nights with all the mask changes trying to find a mask that fit my needs",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it woke me up 3-4 times a night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "will wrap around the neck waking you up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "makes it hard to breathe through the nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "to last thru the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ]
     }
@@ -840,14 +1262,15 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 65,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.5,
       "reviewCount": 30,
       "reviewShare": 0.4688,
-      "positiveReviews": 20,
-      "mixedReviews": 3,
+      "positiveReviews": 22,
+      "neutralReviews": 1,
       "negativeReviews": 7,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.7333,
       "negativeShare": 0.2333,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -933,19 +1356,19 @@
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "it fits like a glove",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+          "text": "the first comfortable and best fit mask that I have found since wearing a CPAP mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Does not fit my face !",
+          "text": "The cushion sits loosely on the frame",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "The cushion sits loosely on the frame",
+          "text": "Does not fit my face !",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
@@ -954,14 +1377,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 84,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 8.4,
       "reviewCount": 29,
       "reviewShare": 0.4531,
-      "positiveReviews": 26,
-      "mixedReviews": 1,
+      "positiveReviews": 27,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.8966,
+      "positiveShare": 0.931,
       "negativeShare": 0.069,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1001,7 +1425,7 @@
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         },
         {
-          "text": "I Love this mask",
+          "text": "This is the only one I'll continue using",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         }
@@ -1022,12 +1446,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 60,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 20,
       "reviewShare": 0.3125,
       "positiveReviews": 12,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -1095,24 +1520,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Great Sealing Mask!",
+          "text": "always had a little bit of a leak",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         },
         {
-          "text": "always had a little bit of a leak",
+          "text": "This one has zero leaks!",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Mask didn’t seal correctly",
+          "text": "couldn't get it to seal",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "couldn't get it to seal",
+          "text": "Mask didn’t seal correctly",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
@@ -1121,12 +1546,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 73,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 18,
       "reviewShare": 0.2812,
       "positiveReviews": 15,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -1173,9 +1599,9 @@
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         },
         {
-          "text": "foam comfort",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+          "text": "the first comfortable and best fit mask that I have found since wearing a CPAP mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -1195,11 +1621,12 @@
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
       "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.8,
       "reviewCount": 8,
       "reviewShare": 0.125,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.5,
       "negativeShare": 0.375,
@@ -1215,14 +1642,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "The adjustments are still worth the trouble as it is the best mask I've used so far",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "I have tried multiple cpap masks over the years but this one really worked for me",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
-        },
-        {
-          "text": "I've used other brands but this one is the best",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -1241,12 +1668,13 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 49,
+      "score": 44,
+      "grade": "D-",
       "averageSentiment": 4.9,
       "reviewCount": 7,
       "reviewShare": 0.1094,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.4286,
       "negativeShare": 0.5714,
@@ -1309,24 +1737,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "stays in place",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
-        },
-        {
           "text": "it has a bridge for your chin which keeps it in place better then the other masks I've used",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "stays in place",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "it wont stay connected to the hose",
+          "text": "The elbow that connects to mask to the supply hose will no longer turn freely and will wrap around the neck waking you up",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "The elbow that connects to mask to the supply hose will no longer turn freely and will wrap around the neck waking you up",
+          "text": "it wont stay connected to the hose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
@@ -1335,12 +1763,13 @@
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 45,
+      "score": 41,
+      "grade": "D-",
       "averageSentiment": 4.5,
       "reviewCount": 6,
       "reviewShare": 0.0938,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.3333,
       "negativeShare": 0.5,
@@ -1394,14 +1823,15 @@
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 62,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 6.2,
       "reviewCount": 6,
       "reviewShare": 0.0938,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.8333,
       "negativeShare": 0.1667,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -1409,14 +1839,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "worked perfectly",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
-        },
-        {
           "text": "has helped me a great deal",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+        },
+        {
+          "text": "worked perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -1430,12 +1860,13 @@
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 68,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 5,
       "reviewShare": 0.0781,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -1477,12 +1908,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 20,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.0,
       "reviewCount": 5,
       "reviewShare": 0.0781,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -1504,7 +1936,7 @@
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "it woke me up 3-4 times a night",
+          "text": "I have been going through sleepless nights with all the mask changes trying to find a mask that fit my needs",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         }
@@ -1515,12 +1947,13 @@
     {
       "id": "foam_cushion",
       "label": "Foam Cushion",
-      "score": 80,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.0,
       "reviewCount": 5,
       "reviewShare": 0.0781,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1536,12 +1969,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "foam comfort",
+          "text": "the foam cushion, its very comfortable",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         },
         {
-          "text": "the foam cushion, its very comfortable",
+          "text": "foam comfort",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         },
@@ -1561,12 +1994,13 @@
     {
       "id": "mouth-breathers",
       "label": "Mouth breathers",
-      "score": 77,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.7,
       "reviewCount": 6,
       "reviewShare": 0.0938,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1614,12 +2048,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Being a mouth breather",
+          "text": "this mask serves my needs with less leakage than all the others",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "your mouth is dropping open",
+          "text": "i would recommend it to any body that has that problem",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
         }
@@ -1639,101 +2073,7 @@
   "bodySites": [],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 85,
-      "averageSentiment": 8.5,
-      "reviewCount": 24,
-      "reviewShare": 0.375,
-      "positiveReviews": 22,
-      "mixedReviews": 1,
-      "negativeReviews": 1,
-      "positiveShare": 0.9167,
-      "negativeShare": 0.0417,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "This mask has been the best for me",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Worst mask ever!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
-        }
-      ]
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 71,
-      "averageSentiment": 7.1,
-      "reviewCount": 16,
-      "reviewShare": 0.25,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
-      "negativeReviews": 3,
-      "positiveShare": 0.75,
-      "negativeShare": 0.1875,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Fits perfectly",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Did not fit well",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 78,
-      "averageSentiment": 7.8,
-      "reviewCount": 13,
-      "reviewShare": 0.2031,
-      "positiveReviews": 12,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.9231,
-      "negativeShare": 0.0769,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "It is by far the most comfortable!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "very uncomfortably tight",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
-        }
-      ]
-    }
-  ],
+  "strengths": [],
   "concerns": [],
   "retailers": [
     {
@@ -1764,19 +2104,14 @@
   "evidence": {
     "positive": [
       {
+        "text": "allowing me the freedom of turning on my side without air leaks",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+      },
+      {
         "text": "This mask has been the best for me",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
-      },
-      {
-        "text": "I Love this mask",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
-      },
-      {
-        "text": "Best in over 10years",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
       },
       {
         "text": "This is the only one I'll continue using",
@@ -1784,24 +2119,34 @@
         "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
       },
       {
-        "text": "Great Sealing Mask!",
+        "text": "always had a little bit of a leak",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
       },
       {
-        "text": "Just awesome!",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+        "text": "It is by far the most comfortable!",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
+      },
+      {
+        "text": "This one has zero leaks!",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
       }
     ],
     "negative": [
       {
-        "text": "Worst mask ever!",
+        "text": "Nearly choked to death several nights in a row",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
       },
       {
-        "text": "Mask didn’t seal correctly",
+        "text": "The cushion sits loosely on the frame",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "Does not fit my face !",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
       },
@@ -1816,11 +2161,6 @@
         "productUrl": "https://1800cpap.com/products/forma-full-face-cpap-mask"
       },
       {
-        "text": "Does not fit my face !",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
-      },
-      {
         "text": "couldn't get it to seal",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel"
@@ -1828,9 +2168,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

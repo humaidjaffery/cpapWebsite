@@ -1,8 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-airtouch-n20",
   "name": "ResMed AirTouch N20",
   "catalogOrder": 32,
+  "search": {
+    "aliases": [
+      "AirTouch N20",
+      "AirTouch N20 Memory Foam CPAP Mask",
+      "AirTouch N20 Nasal CPAP Mask with Headgear",
+      "AirTouch N20 Nasal CPAP Mask | ResMed",
+      "ResMed AirTouch N20",
+      "ResMed AirTouch N20 Nasal CPAP Mask with Headgear",
+      "ResMed AirTouch™ N20 Memory Foam Nasal Cushion CPAP Mask Complete System",
+      "ResMed | AirTouch N20 Nasal CPAP Mask",
+      "Resmed AirTouch™ N20 Nasal CPAP Mask"
+    ],
+    "abbreviations": [
+      "N20",
+      "Resmed"
+    ],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 301,
@@ -13,32 +33,35 @@
     "reviewDateEnd": "2026-05-18"
   },
   "overall": {
-    "compositeScore": 86,
+    "score": 84,
+    "grade": "B+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.36,
-      "score": 87,
+      "score": 84,
       "reviewCount": 301,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.4,
       "score": 84,
       "reviewCount": 128,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 76,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.6,
       "reviewCount": 152,
       "reviewShare": 0.505,
-      "positiveReviews": 118,
-      "mixedReviews": 14,
+      "positiveReviews": 123,
+      "neutralReviews": 9,
       "negativeReviews": 20,
-      "positiveShare": 0.7763,
+      "positiveShare": 0.8092,
       "negativeShare": 0.1316,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -124,12 +147,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "Most comfortable mask to date in last decade for me",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "The Memory Foam makes it extremely comfortable on the nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "love the memory foam on the nose cushion",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "I sleep comfortably on my side",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "very comfortable on the face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "Comfort for the night",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Most comfortable mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Most Comforatable Mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
           "text": "Very comfortable",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
-          "text": "Most comfortable mask",
+          "text": "So comfortable",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
@@ -141,7 +204,47 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
+          "text": "I feel I'm being suffocated because I feel absolutely just the smallest amount of air coming in",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "I have sores on my face from having to wear it tight",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
           "text": "After suffering through almost 3 years of a nasal pillow mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "It pushes into the side of my nose and hurts",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "I woke up with blisters by my nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "not comfort",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "I woke to a very sore spot due to my upper denture being compressed against my gums",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "it puts pressure on my nose just under the bridge of my nose",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
+          "text": "waking up with a sore nose several nights in a row",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
@@ -150,14 +253,15 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 66,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 95,
       "reviewShare": 0.3156,
-      "positiveReviews": 60,
-      "mixedReviews": 12,
+      "positiveReviews": 67,
+      "neutralReviews": 5,
       "negativeReviews": 23,
-      "positiveShare": 0.6316,
+      "positiveShare": 0.7053,
       "negativeShare": 0.2421,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -243,12 +347,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "Best fitting nasal headset I’ve ever worn!",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Perfectly countours to my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "Mask is a perfect fit",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
           "text": "fits perfectly",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
-          "text": "Perfectly countours to my nose",
+          "text": "perfect fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "Excellent fit",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "I do not have to overtighten the headgear to make a seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "it feels like it fits better to the form of my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "The way the straps are made also makes a great fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "It is the only nasal mask that fits my nose",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
@@ -263,20 +407,61 @@
           "text": "you have to make it so tight it hurts",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "Too small",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "When you attach the short hose to the front of the mask make sure it’s all the way in",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "Does not fit my ResMed Air10 mini travel CPAP as the connections for the hose are different",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "there measuring showed I needed a medium, but it was too small",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "it is too small and I could hardly breathe through it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+        },
+        {
+          "text": "Beware and pay special attention to the sizing of the Cushion",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "needs to be adjusted when sleeping on your side",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
+          "text": "AirFit N20 which felt pinchy on the edges",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 69,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.9,
       "reviewCount": 69,
       "reviewShare": 0.2292,
-      "positiveReviews": 48,
-      "mixedReviews": 3,
+      "positiveReviews": 49,
+      "neutralReviews": 2,
       "negativeReviews": 18,
-      "positiveShare": 0.6957,
+      "positiveShare": 0.7101,
       "negativeShare": 0.2609,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -362,40 +547,121 @@
       ],
       "positiveEvidence": [
         {
+          "text": "This mask seals amazingly well even with a beard to contend with",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "I sleep on my side",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "No air escapes with",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
           "text": "seals extremely well!",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
         },
         {
-          "text": "This mask seals amazingly well even with a beard to contend with",
+          "text": "stops all leaks",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "no leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "Perfect seal",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Doesn’t leak",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "no leaks!!!!",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Superior to the Air Fit in terms of comfort and leak control",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "There's so much air that escapes from this",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "it was constantly leaking and so uncomfortable",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "it leaked terribly around my mustache",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "Leaks around the hose connector",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
         {
           "text": "Constantly leaks",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
         },
         {
-          "text": "it was constantly leaking and so uncomfortable",
+          "text": "Obviously I have not pushed it all the way in the first night so it was leaking air",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "wore it one more night much looser (didn't get a great seal)",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "it kept me from sleeping due to air leaking",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
+          "text": "If I moved around the mask would leak",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "When you make it comfortable, somehow it leaks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 69,
+      "label": "Stability",
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 6.9,
       "reviewCount": 45,
       "reviewShare": 0.1495,
-      "positiveReviews": 32,
-      "mixedReviews": 2,
+      "positiveReviews": 33,
+      "neutralReviews": 1,
       "negativeReviews": 11,
-      "positiveShare": 0.7111,
+      "positiveShare": 0.7333,
       "negativeShare": 0.2444,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -471,9 +737,49 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         },
         {
+          "text": "I am an active sleeper and it stays in place without me having to wake up and adjust all night long",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "I don't have to use RemZzzs to keep the mask from sliding because of my oily skin",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "when I switch from back to side, side to side, side to chest, etc",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "allows me to turn on my side without losing a seal",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
+          "text": "stays in place even when you turn over during the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "I can even sleep on my side without the mask leaking",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
           "text": "even with my switching around from side to back sleeping",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+        },
+        {
+          "text": "so nice to sleep on my side without it leaking",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
+          "text": "I’m notorious for taking my mask off during the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ],
       "negativeEvidence": [
@@ -483,23 +789,64 @@
           "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
         },
         {
+          "text": "I would wake up a couple hours or less into using this mask and need to take it off",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
           "text": "It wakes my wife if I face her",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "ripped it off in my sleep",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
+          "text": "Not good for active sleeper",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "moves as you breathe",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "the headgear does not",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+        },
+        {
+          "text": "the front vent on the connecting hose made it so I could not sleep on both sides",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "the large plastic frame pieces are not the most comfortable on your cheeks when side sleeping",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
+          "text": "the clips that hold the cushion into the headgear loosened up",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 65,
+      "label": "Ease of Use",
+      "score": 72,
+      "grade": "B-",
       "averageSentiment": 6.5,
       "reviewCount": 57,
       "reviewShare": 0.1894,
-      "positiveReviews": 31,
-      "mixedReviews": 10,
+      "positiveReviews": 38,
+      "neutralReviews": 3,
       "negativeReviews": 16,
-      "positiveShare": 0.5439,
+      "positiveShare": 0.6667,
       "negativeShare": 0.2807,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -575,12 +922,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "Tube elbow has a quick release clasp which makes it easy to disconnect if you need to get up during the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "I love the magnetic pieces that allow me to place and remove the mask very easily",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "The magnetic clasps make it easy to take the mask on and off in the dark",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "They make it very easy for me to take off and put on my mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "the magnetic connectors that make for easy on & off",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "the frame and headgear does not interfere with my ears",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "the ease of using my new head gear",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
           "text": "The mask is practical",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
-          "text": "wear glasses",
+          "text": "easy to put on",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "easy to use",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
@@ -595,18 +982,59 @@
           "text": "I would suggest that the measurement guide be downloadable since it does not do much good if it is available once the purchase has been…",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "Hard to clean -can’t use water or alcohol on it; only special wipes $$",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "so I have to readjust the mask in the middle of the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "it takes great effort to separate the nose piece from the frame",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "It’s a struggle to put on and take off throughout the night",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "My only challenge is the head strap",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "needs more frequent adjustment during the night",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "there are too many straps and adjustments",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "had to purchase chin strap to prevent",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 43,
+      "score": 32,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 23,
       "reviewShare": 0.0764,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 16,
       "positiveShare": 0.3043,
       "negativeShare": 0.6957,
@@ -687,6 +1115,31 @@
           "text": "super quiet",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "My pressure maxes out at 9 and I never feel air around the mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "did not compress nose and close off like nasal mask did",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "Great air flow",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "quiet",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "there is less leakage and therefore less noise",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ],
       "negativeEvidence": [
@@ -696,23 +1149,64 @@
           "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
         },
         {
+          "text": "the air is released from the mask through a hole as a stream",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "I don’t like the air coming out of the hose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "it sends a powerful jet of air towards my wife",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "Other Res-Med products have that diffuser, why not this one?",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "Felt like the airflow was restricted with the foam",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "it would blow air directly on my wife",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "the foam to be blocking my air flow",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
           "text": "how much air blows out the front",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "there’s an air outlet that blows on my hands sometimes if they’re up by my face (cold!)",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ]
     },
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 55,
+      "score": 53,
+      "grade": "D+",
       "averageSentiment": 5.5,
       "reviewCount": 54,
       "reviewShare": 0.1794,
-      "positiveReviews": 26,
-      "mixedReviews": 3,
+      "positiveReviews": 27,
+      "neutralReviews": 2,
       "negativeReviews": 25,
-      "positiveShare": 0.4815,
+      "positiveShare": 0.5,
       "negativeShare": 0.463,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -793,6 +1287,16 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I do not experience any skin irritation from the mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "no red marks on my face In the morning",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
           "text": "doesn’t leave harsh red lines or imprints",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
@@ -801,16 +1305,86 @@
           "text": "I no longer have sores and blisters",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
+          "text": "No marks",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
+          "text": "with the foam edges solved the problem of red marks on my nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "the red mask marks my old mask caused, have been eliminated",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "ALWAYS had a ridge mark on bridge of nose from mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+        },
+        {
+          "text": "I have had not irritation on my face or elsewhere",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "I don’t have nose sores from the mask foam",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "the entire right side of nose by the cheek was tender and very sore to the touch",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "I have sores on my face from having to wear it tight",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
         {
           "text": "I am allergic to the silicone pads on every mask",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
         },
         {
-          "text": "severe sub-dermal cyst appeared",
+          "text": "It pushes into the side of my nose and hurts",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "Although the cushion gel is supposed to eliminate irritation",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "I woke up with blisters by my nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Iritates under nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "I woke to a very sore spot due to my upper denture being compressed against my gums",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "Ones with the tube outlet on top of head rub the scalp",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "waking up with a sore nose several nights in a row",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
@@ -819,12 +1393,13 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 65,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.5,
       "reviewCount": 34,
       "reviewShare": 0.113,
       "positiveReviews": 22,
-      "mixedReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 9,
       "positiveShare": 0.6471,
       "negativeShare": 0.2647,
@@ -866,40 +1441,116 @@
       ],
       "positiveEvidence": [
         {
+          "text": "The actual interface with the face is made of really soft memory foam",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
           "text": "no longer need to use a liner",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
         },
         {
-          "text": "The actual interface with the face is made of really soft memory foam",
+          "text": "in the quality",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+        },
+        {
+          "text": "Velcro strap decay isn’t really an issue since there’s the magnetic clips",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "head straps are even more sturdy and soft at the same time",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "new fortified and thicker rim around the nose triangle!!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "I really liked the memory foam",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Very comfortable and soft",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/airtouch-n20-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "better silicone quality",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "product quality",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "it almost feels like the plastic will break",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "replace the mask monthly$$ ???!!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "Memory Foam collapses when warm",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
         {
           "text": "Bad mask material",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
         },
         {
-          "text": "replace the mask monthly$$ ???!!",
+          "text": "I had to buy yet another style mask, so this one was wasted after a couple months use",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "I do wish the memory foam would last longer",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "almost feels as though it's going to snap",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "flattens out",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "I ordered completely new parts since others were over 6 months old",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ]
     },
     {
       "id": "value",
       "label": "Value",
-      "score": 52,
+      "score": 53,
+      "grade": "D+",
       "averageSentiment": 5.2,
       "reviewCount": 15,
       "reviewShare": 0.0498,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 7,
-      "positiveShare": 0.4667,
+      "positiveShare": 0.5333,
       "negativeShare": 0.4667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -936,6 +1587,36 @@
           "text": "best price",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
+          "text": "It is worth every penny",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Great Price",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Good deal",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Good price",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "good for the price",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+        },
+        {
+          "text": "a mask liner on a silicone mask may be a better option",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ],
       "negativeEvidence": [
@@ -948,20 +1629,46 @@
           "text": "this memory foam west of money",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "I'm not made of money",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "I would check to make sure you can find replacement parts before ordering",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "The memory foam mask is expensive to replace often as memory foam loses its loft",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "The only downside is the expense of replacing the cushion once a month",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "kinda pricey!!!!!",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 70,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 55,
       "reviewShare": 0.1827,
-      "positiveReviews": 42,
-      "mixedReviews": 2,
+      "positiveReviews": 44,
+      "neutralReviews": 0,
       "negativeReviews": 11,
-      "positiveShare": 0.7636,
+      "positiveShare": 0.8,
       "negativeShare": 0.2,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1027,14 +1734,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "Works perfectly for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "Best sleep ever!!",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
           "text": "Best Sleep",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
-          "text": "Works perfectly for me",
+          "text": "I've had 2 full months of sleep for the first time in 20 years",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "I am finally sleeping a solid 7 hours a night on most nights",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "from day one with this mask I’ve slept 7-8 hours deeply",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Zero problems adjusting to CPAP therapy with this mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "I normally wake up fighting with my masks",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "I can wear it all night",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
+          "text": "giving me a full night's rest",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1047,6 +1794,46 @@
           "text": "Impossible to sleep in",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "I would wake up a couple hours or less into using this mask and need to take it off",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "it would wake me up in the middle of the night with my nose submerged in water",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "that hampers my breathing through my nose",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
+          "text": "I could hardly breathe through it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+        },
+        {
+          "text": "I have stopped using it",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Poor ahi ratings 9 plus",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "does not work for me",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+        },
+        {
+          "text": "keeps you awake",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
         }
       ]
     }
@@ -1055,14 +1842,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 82,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 8.2,
       "reviewCount": 142,
       "reviewShare": 0.4718,
-      "positiveReviews": 125,
-      "mixedReviews": 7,
+      "positiveReviews": 128,
+      "neutralReviews": 4,
       "negativeReviews": 10,
-      "positiveShare": 0.8803,
+      "positiveShare": 0.9014,
       "negativeShare": 0.0704,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -1148,12 +1936,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Very comfortable",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+          "text": "Most comfortable mask to date in last decade for me",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
-          "text": "Most comfortable mask",
+          "text": "The Memory Foam makes it extremely comfortable on the nose",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
@@ -1174,14 +1962,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 84,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 8.4,
       "reviewCount": 128,
       "reviewShare": 0.4252,
-      "positiveReviews": 112,
-      "mixedReviews": 5,
+      "positiveReviews": 114,
+      "neutralReviews": 3,
       "negativeReviews": 11,
-      "positiveShare": 0.875,
+      "positiveShare": 0.8906,
       "negativeShare": 0.0859,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -1247,40 +2036,41 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I simply could not be happier",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+          "text": "Of all the masks I have tried over the years, I like this one the best",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         },
         {
-          "text": "This Airtouch N20 with memory foam is my new favorite",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+          "text": "the main selling point of this N20 is the memory foam cushion",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Very disappointed",
+          "text": "This one doesn't wok for. This one doesn't wok for me at all",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
-          "text": "Substandard Option",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+          "text": "Has not worked out",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ]
     },
     {
       "id": "fit",
       "label": "Fit",
-      "score": 74,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.4,
       "reviewCount": 72,
       "reviewShare": 0.2392,
-      "positiveReviews": 55,
-      "mixedReviews": 7,
+      "positiveReviews": 59,
+      "neutralReviews": 3,
       "negativeReviews": 10,
-      "positiveShare": 0.7639,
+      "positiveShare": 0.8194,
       "negativeShare": 0.1389,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1366,9 +2156,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "fits perfectly",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+          "text": "Best fitting nasal headset I’ve ever worn!",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
           "text": "Perfectly countours to my nose",
@@ -1378,28 +2168,29 @@
       ],
       "negativeEvidence": [
         {
-          "text": "AirFit N20 which felt pinchy on the edges",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+          "text": "When you attach the short hose to the front of the mask make sure it’s all the way in",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         },
         {
-          "text": "it is too small and I could hardly breathe through it",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+          "text": "Does not fit my ResMed Air10 mini travel CPAP as the connections for the hose are different",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ]
     },
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 69,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.9,
       "reviewCount": 68,
       "reviewShare": 0.2259,
-      "positiveReviews": 48,
-      "mixedReviews": 3,
+      "positiveReviews": 49,
+      "neutralReviews": 2,
       "negativeReviews": 17,
-      "positiveShare": 0.7059,
+      "positiveShare": 0.7206,
       "negativeShare": 0.25,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1480,21 +2271,21 @@
       ],
       "positiveEvidence": [
         {
-          "text": "seals extremely well!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+          "text": "This mask seals amazingly well even with a beard to contend with",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
-          "text": "This mask seals amazingly well even with a beard to contend with",
+          "text": "I sleep on my side",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Constantly leaks",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+          "text": "There's so much air that escapes from this",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
           "text": "it was constantly leaking and so uncomfortable",
@@ -1506,14 +2297,15 @@
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 75,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 7.5,
       "reviewCount": 26,
       "reviewShare": 0.0864,
-      "positiveReviews": 22,
-      "mixedReviews": 2,
+      "positiveReviews": 24,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.8462,
+      "positiveShare": 0.9231,
       "negativeShare": 0.0769,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1543,9 +2335,9 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         },
         {
-          "text": "Mask works",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+          "text": "CPAP mask works great",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ],
       "negativeEvidence": [
@@ -1564,14 +2356,15 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 63,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.3,
       "reviewCount": 25,
       "reviewShare": 0.0831,
-      "positiveReviews": 14,
-      "mixedReviews": 6,
+      "positiveReviews": 17,
+      "neutralReviews": 3,
       "negativeReviews": 5,
-      "positiveShare": 0.56,
+      "positiveShare": 0.68,
       "negativeShare": 0.2,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1658,14 +2451,15 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 77,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 7.7,
       "reviewCount": 24,
       "reviewShare": 0.0797,
-      "positiveReviews": 20,
-      "mixedReviews": 1,
+      "positiveReviews": 21,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.8333,
+      "positiveShare": 0.875,
       "negativeShare": 0.125,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1725,14 +2519,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "The mask is practical",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+          "text": "I love the magnetic pieces that allow me to place and remove the mask very easily",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         },
         {
-          "text": "the magnetic connectors that make for easy on & off",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+          "text": "The magnetic clasps make it easy to take the mask on and off in the dark",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1751,12 +2545,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 77,
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.7,
       "reviewCount": 21,
       "reviewShare": 0.0698,
       "positiveReviews": 18,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -1794,14 +2589,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Best Sleep",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
-        },
-        {
           "text": "Best sleep ever!!",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Best Sleep",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1811,21 +2606,22 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
-          "text": "keeps you awake",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
+          "text": "it would wake me up in the middle of the night with my nose submerged in water",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ]
     },
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 75,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.5,
       "reviewCount": 19,
       "reviewShare": 0.0631,
       "positiveReviews": 15,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.7895,
       "negativeShare": 0.2105,
@@ -1888,9 +2684,9 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         },
         {
-          "text": "allows one to move around effortlessly at night",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+          "text": "allows me to turn on my side without losing a seal",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
         }
       ],
       "negativeEvidence": [
@@ -1909,12 +2705,13 @@
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 81,
+      "score": 95,
+      "grade": "A+",
       "averageSentiment": 8.1,
       "reviewCount": 18,
       "reviewShare": 0.0598,
       "positiveReviews": 17,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9444,
       "negativeShare": 0.0556,
@@ -1977,14 +2774,15 @@
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 41,
+      "score": 32,
+      "grade": "F+",
       "averageSentiment": 4.1,
       "reviewCount": 18,
       "reviewShare": 0.0598,
-      "positiveReviews": 3,
-      "mixedReviews": 3,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 12,
-      "positiveShare": 0.1667,
+      "positiveShare": 0.3333,
       "negativeShare": 0.6667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2025,12 +2823,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The sizing was not difficult",
+          "text": "I got the size small and it was just right for me",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         },
         {
-          "text": "I got the size small and it was just right for me",
+          "text": "The sizing was not difficult",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
@@ -2051,14 +2849,15 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 61,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.1,
       "reviewCount": 17,
       "reviewShare": 0.0565,
-      "positiveReviews": 10,
-      "mixedReviews": 1,
+      "positiveReviews": 11,
+      "neutralReviews": 0,
       "negativeReviews": 6,
-      "positiveShare": 0.5882,
+      "positiveShare": 0.6471,
       "negativeShare": 0.3529,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2103,14 +2902,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "I choose to sleep on my side, rather than my back, all I do is tighten the Velcro straps",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
           "text": "There is no need to over tighten straps to stop leaks",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
-        },
-        {
-          "text": "No problems with adjustment",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -2129,14 +2928,15 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 74,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 17,
       "reviewShare": 0.0565,
-      "positiveReviews": 13,
-      "mixedReviews": 1,
+      "positiveReviews": 14,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.7647,
+      "positiveShare": 0.8235,
       "negativeShare": 0.1765,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2196,14 +2996,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "stays on tight",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/airtouch-n20-nasal-cpap-mask-resmed"
-        },
-        {
-          "text": "N20 Memory Foam stays in place",
+          "text": "I am an active sleeper and it stays in place without me having to wake up and adjust all night long",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "I don't have to use RemZzzs to keep the mask from sliding because of my oily skin",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ],
       "negativeEvidence": [
@@ -2222,12 +3022,13 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 55,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.5,
       "reviewCount": 11,
       "reviewShare": 0.0365,
       "positiveReviews": 5,
-      "mixedReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 3,
       "positiveShare": 0.4545,
       "negativeShare": 0.2727,
@@ -2279,12 +3080,13 @@
     {
       "id": "face_marks",
       "label": "Face Marks",
-      "score": 80,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 8.0,
       "reviewCount": 10,
       "reviewShare": 0.0332,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9,
       "negativeShare": 0.1,
@@ -2346,9 +3148,9 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
-          "text": "There are no more lines on my cheeks",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+          "text": "ALWAYS had a ridge mark on bridge of nose from mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -2362,12 +3164,13 @@
     {
       "id": "irritation",
       "label": "Irritation",
-      "score": 38,
+      "score": 31,
+      "grade": "F+",
       "averageSentiment": 3.9,
       "reviewCount": 10,
       "reviewShare": 0.0332,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.3,
       "negativeShare": 0.7,
@@ -2455,14 +3258,15 @@
     {
       "id": "skin_reaction",
       "label": "Skin Reaction",
-      "score": 78,
+      "score": 96,
+      "grade": "A+",
       "averageSentiment": 7.8,
       "reviewCount": 10,
       "reviewShare": 0.0332,
-      "positiveReviews": 8,
-      "mixedReviews": 2,
+      "positiveReviews": 9,
+      "neutralReviews": 1,
       "negativeReviews": 0,
-      "positiveShare": 0.8,
+      "positiveShare": 0.9,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2522,9 +3326,9 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
-          "text": "no discomfort or skin irritation",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+          "text": "It’s very soft and easy on the skin",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -2543,12 +3347,13 @@
     {
       "id": "noise",
       "label": "Noise",
-      "score": 53,
+      "score": 47,
+      "grade": "D",
       "averageSentiment": 5.3,
       "reviewCount": 9,
       "reviewShare": 0.0299,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.4444,
       "negativeShare": 0.5556,
@@ -2603,21 +3408,22 @@
           "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
         },
         {
-          "text": "just noisy",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+          "text": "The first night I tried the resmed n20 it sounded loud",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ]
     },
     {
       "id": "movement_compatibility",
       "label": "Movement Compatibility",
-      "score": 75,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 7.5,
       "reviewCount": 8,
       "reviewShare": 0.0266,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.875,
       "negativeShare": 0.125,
@@ -2674,14 +3480,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "when I switch from back to side, side to side, side to chest, etc",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
           "text": "even with my switching around from side to back sleeping",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
-        },
-        {
-          "text": "allows one to move around effortlessly at night",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -2695,12 +3501,13 @@
     {
       "id": "price",
       "label": "Price",
-      "score": 48,
+      "score": 39,
+      "grade": "F+",
       "averageSentiment": 4.8,
       "reviewCount": 8,
       "reviewShare": 0.0266,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.375,
       "negativeShare": 0.625,
@@ -2733,26 +3540,27 @@
       ],
       "negativeEvidence": [
         {
-          "text": "unfortunately my insurance doesn’t cover it",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
-        },
-        {
           "text": "I have to pay 80.00 just to try out a new option",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "unfortunately my insurance doesn’t cover it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ]
     },
     {
       "id": "soreness",
       "label": "Soreness",
-      "score": 35,
+      "score": 26,
+      "grade": "F",
       "averageSentiment": 3.5,
       "reviewCount": 8,
       "reviewShare": 0.0266,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.25,
       "negativeShare": 0.75,
@@ -2846,14 +3654,15 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 51,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.1,
       "reviewCount": 8,
       "reviewShare": 0.0266,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.5,
+      "positiveShare": 0.625,
       "negativeShare": 0.375,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2882,7 +3691,7 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
-          "text": "Good deal",
+          "text": "It is worth every penny",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
@@ -2903,12 +3712,13 @@
     {
       "id": "airflow_direction",
       "label": "Airflow Direction",
-      "score": 23,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.3,
       "reviewCount": 7,
       "reviewShare": 0.0233,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -2947,26 +3757,27 @@
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "how much air blows out the front",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+          "text": "the air is released from the mask through a hole as a stream",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
         },
         {
-          "text": "it would blow air directly on my wife",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+          "text": "shoots a laser beam of air out of the front",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
         }
       ]
     },
     {
       "id": "pressure",
       "label": "Pressure",
-      "score": 34,
+      "score": 16,
+      "grade": "F-",
       "averageSentiment": 3.4,
       "reviewCount": 7,
       "reviewShare": 0.0233,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.1429,
       "negativeShare": 0.8571,
@@ -3036,9 +3847,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "you can feel the pulsing which keeps you awake",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
+          "text": "it puts pressure on my nose just under the bridge of my nose",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
         },
         {
           "text": "it was putting too much pressure on my septum jewelry",
@@ -3050,12 +3861,13 @@
     {
       "id": "red_marks",
       "label": "Red Marks",
-      "score": 84,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 8.4,
       "reviewCount": 7,
       "reviewShare": 0.0233,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.8571,
       "negativeShare": 0.0,
@@ -3134,12 +3946,13 @@
     {
       "id": "replacement_frequency",
       "label": "Replacement Frequency",
-      "score": 51,
+      "score": 45,
+      "grade": "D",
       "averageSentiment": 5.1,
       "reviewCount": 7,
       "reviewShare": 0.0233,
       "positiveReviews": 2,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 3,
       "positiveShare": 0.2857,
       "negativeShare": 0.4286,
@@ -3207,14 +4020,15 @@
     {
       "id": "access_to_face",
       "label": "Access To Face",
-      "score": 68,
+      "score": 78,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 6,
       "reviewShare": 0.0199,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.5,
+      "positiveShare": 0.6667,
       "negativeShare": 0.1667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3265,14 +4079,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "wear glasses",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
-        },
-        {
           "text": "the frame and headgear does not interfere with my ears",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "wear glasses",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -3286,12 +4100,13 @@
     {
       "id": "airflow",
       "label": "Airflow",
-      "score": 45,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.5,
       "reviewCount": 6,
       "reviewShare": 0.0199,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.3333,
       "negativeShare": 0.6667,
@@ -3334,40 +4149,41 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Great air flow",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
-        },
-        {
           "text": "My pressure maxes out at 9 and I never feel air around the mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "Great air flow",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I don’t like the air coming out of the hose",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
-        },
-        {
           "text": "the air is released from the mask through a hole as a stream",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "I don’t like the air coming out of the hose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ]
     },
     {
       "id": "cleaning",
       "label": "Cleaning",
-      "score": 53,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.3,
       "reviewCount": 6,
       "reviewShare": 0.0199,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.3333,
+      "positiveShare": 0.5,
       "negativeShare": 0.5,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3417,12 +4233,13 @@
     {
       "id": "pain",
       "label": "Pain",
-      "score": 20,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.0,
       "reviewCount": 6,
       "reviewShare": 0.0199,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -3470,26 +4287,27 @@
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "I woke up with blisters by my nose",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
-        },
-        {
           "text": "It pushes into the side of my nose and hurts",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "I woke up with blisters by my nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ]
     },
     {
       "id": "putting_on",
       "label": "Putting On",
-      "score": 75,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.5,
       "reviewCount": 6,
       "reviewShare": 0.0199,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -3521,14 +4339,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "easy to put on",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
-        },
-        {
           "text": "The magnetic clasps make it easy to take the mask on and off in the dark",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "easy to put on",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ],
       "negativeEvidence": [
@@ -3542,12 +4360,13 @@
     {
       "id": "skin_breakdown",
       "label": "Skin Breakdown",
-      "score": 46,
+      "score": 43,
+      "grade": "D-",
       "averageSentiment": 4.6,
       "reviewCount": 6,
       "reviewShare": 0.0199,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.3333,
       "negativeShare": 0.5,
@@ -3620,12 +4439,13 @@
     {
       "id": "therapy_compliance",
       "label": "Therapy Compliance",
-      "score": 53,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.3,
       "reviewCount": 6,
       "reviewShare": 0.0199,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -3661,14 +4481,15 @@
     {
       "id": "learning_curve",
       "label": "Learning Curve",
-      "score": 54,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 5.4,
       "reviewCount": 5,
       "reviewShare": 0.0166,
-      "positiveReviews": 1,
-      "mixedReviews": 3,
+      "positiveReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 1,
-      "positiveShare": 0.2,
+      "positiveShare": 0.4,
       "negativeShare": 0.2,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3691,6 +4512,11 @@
           "text": "east to get used to",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "Takes a little getting used to",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -3704,12 +4530,13 @@
     {
       "id": "removing",
       "label": "Removing",
-      "score": 74,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 5,
       "reviewShare": 0.0166,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -3741,14 +4568,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "take off",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
-        },
-        {
           "text": "They make it very easy for me to take off and put on my mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "take off",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ],
       "negativeEvidence": [
@@ -3764,14 +4591,15 @@
     {
       "id": "memory_foam_cushion",
       "label": "Memory Foam Cushion",
-      "score": 73,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 7.3,
       "reviewCount": 45,
       "reviewShare": 0.1495,
-      "positiveReviews": 32,
-      "mixedReviews": 4,
+      "positiveReviews": 33,
+      "neutralReviews": 3,
       "negativeReviews": 9,
-      "positiveShare": 0.7111,
+      "positiveShare": 0.7333,
       "negativeShare": 0.2,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3837,29 +4665,29 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Perfectly countours to my nose",
+          "text": "The actual interface with the face is made of really soft memory foam",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
-          "text": "Most comfortable mask",
+          "text": "Most comfortable mask to date in last decade for me",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
-          "text": "So much better than the rubber seal",
+          "text": "The Memory Foam makes it extremely comfortable on the nose",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "severe sub-dermal cyst appeared",
+          "text": "the entire right side of nose by the cheek was tender and very sore to the touch",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
-          "text": "not comfort",
+          "text": "this memory foam west of money",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
@@ -3873,22 +4701,23 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 79,
+          "score": 89,
+          "grade": "A-",
           "averageSentiment": 7.9,
           "reviewCount": 29,
           "reviewShare": 0.0963,
-          "positiveReviews": 23,
-          "mixedReviews": 3,
+          "positiveReviews": 25,
+          "neutralReviews": 1,
           "negativeReviews": 3,
           "evidenceStrength": "moderate",
           "positiveEvidence": [
             {
-              "text": "Most comfortable mask",
+              "text": "Most comfortable mask to date in last decade for me",
               "retailer": "Lofta",
               "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
             },
             {
-              "text": "Comfort",
+              "text": "The Memory Foam makes it extremely comfortable on the nose",
               "retailer": "Lofta",
               "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
             }
@@ -3900,21 +4729,22 @@
               "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
             },
             {
-              "text": "Disappointed..",
-              "retailer": "1800CPAP.COM",
-              "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+              "text": "Memory foam not as comfortable as silicone",
+              "retailer": "Lofta",
+              "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
             }
           ]
         },
         {
           "id": "fit",
           "label": "Fit",
-          "score": 76,
+          "score": 83,
+          "grade": "B+",
           "averageSentiment": 7.6,
           "reviewCount": 8,
           "reviewShare": 0.0266,
           "positiveReviews": 6,
-          "mixedReviews": 1,
+          "neutralReviews": 1,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3924,9 +4754,9 @@
               "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
             },
             {
-              "text": "it fit perfect",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+              "text": "it feels like it fits better to the form of my face",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
             }
           ],
           "negativeEvidence": [
@@ -3940,12 +4770,13 @@
         {
           "id": "skin_reaction",
           "label": "Skin Reaction",
-          "score": 84,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.4,
           "reviewCount": 5,
           "reviewShare": 0.0166,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3968,14 +4799,15 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 71,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.1,
       "reviewCount": 31,
       "reviewShare": 0.103,
-      "positiveReviews": 24,
-      "mixedReviews": 2,
+      "positiveReviews": 25,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.7742,
+      "positiveShare": 0.8065,
       "negativeShare": 0.1613,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -4026,34 +4858,34 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Most Comforatable Mask",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
-        },
-        {
           "text": "Best fitting nasal headset I’ve ever worn!",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
-          "text": "wear glasses",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "The headgear is uncomfortable and awkward",
+          "text": "Most Comforatable Mask",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         },
         {
-          "text": "the headgear does not",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
-        },
+          "text": "head straps are even more sturdy and soft at the same time",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        }
+      ],
+      "negativeEvidence": [
         {
           "text": "The headgear straps would rub the bottom of my ears",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "So much going on around your head",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "The headgear is uncomfortable and awkward",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
@@ -4062,12 +4894,13 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 75,
+          "score": 87,
+          "grade": "A-",
           "averageSentiment": 7.5,
           "reviewCount": 15,
           "reviewShare": 0.0498,
           "positiveReviews": 13,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 2,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -4077,33 +4910,34 @@
               "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
             },
             {
-              "text": "the straps are very comfortable",
-              "retailer": "RespShop",
-              "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+              "text": "Head gear is light and comfortable",
+              "retailer": "Lofta",
+              "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
             }
           ],
           "negativeEvidence": [
             {
-              "text": "The headgear is uncomfortable and awkward",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
-            },
-            {
               "text": "So much going on around your head",
               "retailer": "Lofta",
               "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+            },
+            {
+              "text": "The headgear is uncomfortable and awkward",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
             }
           ]
         },
         {
           "id": "fit",
           "label": "Fit",
-          "score": 74,
+          "score": 88,
+          "grade": "A-",
           "averageSentiment": 7.4,
           "reviewCount": 7,
           "reviewShare": 0.0233,
-          "positiveReviews": 5,
-          "mixedReviews": 1,
+          "positiveReviews": 6,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -4132,14 +4966,15 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 67,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 29,
       "reviewShare": 0.0963,
-      "positiveReviews": 18,
-      "mixedReviews": 4,
+      "positiveReviews": 20,
+      "neutralReviews": 2,
       "negativeReviews": 7,
-      "positiveShare": 0.6207,
+      "positiveShare": 0.6897,
       "negativeShare": 0.2414,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -4195,43 +5030,44 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
-          "text": "No air escapes with",
+          "text": "love the memory foam on the nose cushion",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
-          "text": "love the memory foam on the nose cushion",
+          "text": "No air escapes with",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "There's so much air that escapes from this",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
-        },
-        {
           "text": "It pushes into the side of my nose and hurts",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
         },
         {
-          "text": "AirFit N20 which felt pinchy on the edges",
+          "text": "There's so much air that escapes from this",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "it puts pressure on my nose just under the bridge of my nose",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
         }
       ],
       "praisedAspects": [
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 87,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.7,
           "reviewCount": 16,
           "reviewShare": 0.0532,
           "positiveReviews": 16,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -4241,7 +5077,7 @@
               "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
             },
             {
-              "text": "Mask is very comfortable with the cushion",
+              "text": "the nose piece is a lot better than the old ones",
               "retailer": "CPAP.com",
               "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
             }
@@ -4254,14 +5090,15 @@
     {
       "id": "silicone_cushion",
       "label": "Silicone Cushion",
-      "score": 58,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 5.8,
       "reviewCount": 15,
       "reviewShare": 0.0498,
-      "positiveReviews": 8,
-      "mixedReviews": 2,
+      "positiveReviews": 10,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.5333,
+      "positiveShare": 0.6667,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4307,9 +5144,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Perfect replacement to silicone cushions",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+          "text": "stays in place even when you turn over during the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
           "text": "The silicone is finally off my nose!",
@@ -4317,9 +5154,9 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
-          "text": "better silicone quality",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+          "text": "Perfect replacement to silicone cushions",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -4345,12 +5182,13 @@
     {
       "id": "magnetic_clip",
       "label": "Magnetic Clip",
-      "score": 82,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 8.2,
       "reviewCount": 14,
       "reviewShare": 0.0465,
       "positiveReviews": 13,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9286,
       "negativeShare": 0.0714,
@@ -4382,17 +5220,17 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Velcro strap decay isn’t really an issue since there’s the magnetic clips",
+          "text": "I love the magnetic pieces that allow me to place and remove the mask very easily",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        },
+        {
+          "text": "The magnetic clasps make it easy to take the mask on and off in the dark",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
-          "text": "the magnetic connectors that make for easy on & off",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
-        },
-        {
-          "text": "My favorite part about this mask is its magnetic tips/clips",
+          "text": "They make it very easy for me to take off and put on my mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
@@ -4408,22 +5246,23 @@
         {
           "id": "ease_of_use",
           "label": "Ease Of Use",
-          "score": 81,
+          "score": 93,
+          "grade": "A",
           "averageSentiment": 8.1,
           "reviewCount": 11,
           "reviewShare": 0.0365,
           "positiveReviews": 10,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "the magnetic connectors that make for easy on & off",
-              "retailer": "Lofta",
-              "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+              "text": "I love the magnetic pieces that allow me to place and remove the mask very easily",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
             },
             {
-              "text": "My favorite part about this mask is its magnetic tips/clips",
+              "text": "The magnetic clasps make it easy to take the mask on and off in the dark",
               "retailer": "RespShop",
               "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
             }
@@ -4442,14 +5281,15 @@
     {
       "id": "foam_cushion",
       "label": "Foam Cushion",
-      "score": 73,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.3,
       "reviewCount": 13,
       "reviewShare": 0.0432,
-      "positiveReviews": 10,
-      "mixedReviews": 1,
+      "positiveReviews": 11,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.7692,
+      "positiveShare": 0.8462,
       "negativeShare": 0.1538,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4510,7 +5350,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "seals extremely well!",
+          "text": "This Airtouch N20 with memory foam is my new favorite",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
         },
@@ -4541,24 +5381,25 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 88,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.8,
           "reviewCount": 6,
           "reviewShare": 0.0199,
           "positiveReviews": 6,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "soft, comfortable",
-              "retailer": "1800CPAP.COM",
-              "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
-            },
-            {
               "text": "Air Touch is so comfortable I don’t even notice i am wearing",
               "retailer": "Lofta",
               "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+            },
+            {
+              "text": "Outstanding comfort compared to a bare silicone mask cushion",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
             }
           ],
           "negativeEvidence": []
@@ -4569,12 +5410,13 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 74,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 11,
       "reviewShare": 0.0365,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.8182,
       "negativeShare": 0.1818,
@@ -4616,19 +5458,19 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
+          "text": "Very comfortable and soft",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/airtouch-n20-nasal-cpap-mask-resmed"
+        },
+        {
           "text": "Outstanding comfort",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
-        },
-        {
-          "text": "Great mask",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/airtouch-n20-nasal-cpap-mask-resmed"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Bad mask material",
+          "text": "you can feel the pulsing which keeps you awake",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
         },
@@ -4644,12 +5486,13 @@
     {
       "id": "nasal_cushion",
       "label": "Nasal Cushion",
-      "score": 72,
+      "score": 78,
+      "grade": "B",
       "averageSentiment": 7.2,
       "reviewCount": 8,
       "reviewShare": 0.0266,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -4697,7 +5540,7 @@
           "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
         },
         {
-          "text": "Was looking for a more comfortable mask",
+          "text": "the red mask marks my old mask caused, have been eliminated",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
@@ -4714,7 +5557,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         },
         {
-          "text": "It's a little difficult to remove",
+          "text": "almost feels as though it's going to snap",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
         }
@@ -4723,24 +5566,25 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 87,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.7,
           "reviewCount": 6,
           "reviewShare": 0.0199,
           "positiveReviews": 6,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "Was looking for a more comfortable mask",
-              "retailer": "Lofta",
-              "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
-            },
-            {
               "text": "Comfortable nasal mask that feels like nothing at all",
               "retailer": "RespShop",
               "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+            },
+            {
+              "text": "Was looking for a more comfortable mask",
+              "retailer": "Lofta",
+              "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
             }
           ],
           "negativeEvidence": []
@@ -4751,12 +5595,13 @@
     {
       "id": "vent",
       "label": "Vent",
-      "score": 24,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.4,
       "reviewCount": 8,
       "reviewShare": 0.0266,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -4805,14 +5650,14 @@
           "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
         },
         {
-          "text": "how much air blows out the front",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+          "text": "the air is released from the mask through a hole as a stream",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
         },
         {
-          "text": "it would blow air directly on my wife",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+          "text": "it sends a powerful jet of air towards my wife",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ],
       "praisedAspects": [],
@@ -4820,25 +5665,26 @@
         {
           "id": "airflow_direction",
           "label": "Airflow Direction",
-          "score": 23,
+          "score": 0,
+          "grade": "F-",
           "averageSentiment": 2.3,
           "reviewCount": 7,
           "reviewShare": 0.0233,
           "positiveReviews": 0,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 7,
           "evidenceStrength": "limited",
           "positiveEvidence": [],
           "negativeEvidence": [
             {
-              "text": "how much air blows out the front",
-              "retailer": "RespShop",
-              "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+              "text": "the air is released from the mask through a hole as a stream",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
             },
             {
-              "text": "it would blow air directly on my wife",
-              "retailer": "Lofta",
-              "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+              "text": "shoots a laser beam of air out of the front",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
             }
           ]
         }
@@ -4847,14 +5693,15 @@
     {
       "id": "nasal_pillows",
       "label": "Nasal Pillows",
-      "score": 51,
+      "score": 56,
+      "grade": "C-",
       "averageSentiment": 5.1,
       "reviewCount": 7,
       "reviewShare": 0.0233,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.4286,
+      "positiveShare": 0.5714,
       "negativeShare": 0.4286,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4906,7 +5753,7 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
-          "text": "it was putting too much pressure on my septum jewelry",
+          "text": "waking up with a sore nose several nights in a row",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
@@ -4922,12 +5769,13 @@
     {
       "id": "cushion_seal",
       "label": "Cushion Seal",
-      "score": 78,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.8,
       "reviewCount": 5,
       "reviewShare": 0.0166,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -4977,14 +5825,15 @@
     {
       "id": "mask_liner",
       "label": "Mask Liner",
-      "score": 64,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 6.4,
       "reviewCount": 5,
       "reviewShare": 0.0166,
-      "positiveReviews": 1,
-      "mixedReviews": 3,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.2,
+      "positiveShare": 0.8,
       "negativeShare": 0.2,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -5047,12 +5896,13 @@
     {
       "id": "strap",
       "label": "Strap",
-      "score": 74,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 5,
       "reviewShare": 0.0166,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -5079,19 +5929,19 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I don't have to pull the straps tight",
+          "text": "The way the straps are made also makes a great fit",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
-        },
-        {
-          "text": "makes it easier to get off and on",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
           "text": "I choose to sleep on my side, rather than my back, all I do is tighten the Velcro straps",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        },
+        {
+          "text": "makes it easier to get off and on",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -5109,17 +5959,18 @@
     {
       "id": "memory_foam_cushion|comfort",
       "label": "Memory Foam Cushion · Comfort",
-      "score": 79,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 7.9,
       "reviewCount": 29,
       "reviewShare": 0.0963,
-      "positiveReviews": 23,
-      "mixedReviews": 3,
+      "positiveReviews": 25,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "evidenceStrength": "moderate",
       "positiveEvidence": [
         {
-          "text": "Most comfortable mask",
+          "text": "Most comfortable mask to date in last decade for me",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
@@ -5139,12 +5990,13 @@
     {
       "id": "cushion|comfort",
       "label": "Cushion · Comfort",
-      "score": 87,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.7,
       "reviewCount": 16,
       "reviewShare": 0.0532,
       "positiveReviews": 16,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5163,12 +6015,13 @@
     {
       "id": "headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 75,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.5,
       "reviewCount": 15,
       "reviewShare": 0.0498,
       "positiveReviews": 13,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5180,9 +6033,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "The headgear is uncomfortable and awkward",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+          "text": "So much going on around your head",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ],
       "partId": "headgear",
@@ -5193,19 +6046,20 @@
     {
       "id": "magnetic_clip|ease_of_use",
       "label": "Magnetic Clip · Ease Of Use",
-      "score": 81,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 8.1,
       "reviewCount": 11,
       "reviewShare": 0.0365,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "the magnetic connectors that make for easy on & off",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+          "text": "I love the magnetic pieces that allow me to place and remove the mask very easily",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ],
       "negativeEvidence": [
@@ -5223,12 +6077,13 @@
     {
       "id": "memory_foam_cushion|seal_leak",
       "label": "Memory Foam Cushion · Seal Leak",
-      "score": 60,
+      "score": 57,
+      "grade": "C-",
       "averageSentiment": 6.0,
       "reviewCount": 11,
       "reviewShare": 0.0365,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5253,12 +6108,13 @@
     {
       "id": "memory_foam_cushion|fit",
       "label": "Memory Foam Cushion · Fit",
-      "score": 76,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.6,
       "reviewCount": 8,
       "reviewShare": 0.0266,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5283,12 +6139,13 @@
     {
       "id": "headgear|fit",
       "label": "Headgear · Fit",
-      "score": 74,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 7.4,
       "reviewCount": 7,
       "reviewShare": 0.0233,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5313,20 +6170,21 @@
     {
       "id": "vent|airflow_direction",
       "label": "Vent · Airflow Direction",
-      "score": 23,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.3,
       "reviewCount": 7,
       "reviewShare": 0.0233,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "evidenceStrength": "limited",
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "how much air blows out the front",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+          "text": "the air is released from the mask through a hole as a stream",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
         }
       ],
       "partId": "vent",
@@ -5337,19 +6195,20 @@
     {
       "id": "foam_cushion|comfort",
       "label": "Foam Cushion · Comfort",
-      "score": 88,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 6,
       "reviewShare": 0.0199,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "soft, comfortable",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+          "text": "Air Touch is so comfortable I don’t even notice i am wearing",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ],
       "negativeEvidence": [],
@@ -5361,12 +6220,13 @@
     {
       "id": "headgear|adjustment",
       "label": "Headgear · Adjustment",
-      "score": 63,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 6,
       "reviewShare": 0.0199,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5391,19 +6251,20 @@
     {
       "id": "nasal_cushion|comfort",
       "label": "Nasal Cushion · Comfort",
-      "score": 87,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.7,
       "reviewCount": 6,
       "reviewShare": 0.0199,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Was looking for a more comfortable mask",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+          "text": "Comfortable nasal mask that feels like nothing at all",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [],
@@ -5415,12 +6276,13 @@
     {
       "id": "cushion|seal_leak",
       "label": "Cushion · Seal Leak",
-      "score": 72,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 5,
       "reviewShare": 0.0166,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5445,12 +6307,13 @@
     {
       "id": "foam_cushion|seal_leak",
       "label": "Foam Cushion · Seal Leak",
-      "score": 66,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 6.6,
       "reviewCount": 5,
       "reviewShare": 0.0166,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5475,12 +6338,13 @@
     {
       "id": "memory_foam_cushion|durability",
       "label": "Memory Foam Cushion · Durability",
-      "score": 42,
+      "score": 29,
+      "grade": "F",
       "averageSentiment": 4.2,
       "reviewCount": 5,
       "reviewShare": 0.0166,
       "positiveReviews": 0,
-      "mixedReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [],
@@ -5499,12 +6363,13 @@
     {
       "id": "memory_foam_cushion|skin_reaction",
       "label": "Memory Foam Cushion · Skin Reaction",
-      "score": 84,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 5,
       "reviewShare": 0.0166,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5525,12 +6390,13 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 75,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.5,
       "reviewCount": 24,
       "reviewShare": 0.0797,
       "positiveReviews": 19,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.7917,
       "negativeShare": 0.1667,
@@ -5593,21 +6459,21 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         },
         {
-          "text": "I sleep on my side",
+          "text": "I sleep comfortably on my side",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Not for side sleeping",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
-        },
-        {
           "text": "it’s super loud hitting my pillow, hitting my blanket, and hitting my wife’s forehead",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+        },
+        {
+          "text": "Not for side sleeping",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
         }
       ],
       "sourceContexts": [
@@ -5619,12 +6485,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 58,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 5.8,
       "reviewCount": 10,
       "reviewShare": 0.0332,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -5676,9 +6543,9 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "that it doesn’t move much during the night",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+          "text": "I am an active sleeper and it stays in place without me having to wake up and adjust all night long",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
           "text": "stays in place even when you turn over during the night",
@@ -5709,12 +6576,13 @@
     {
       "id": "new-users",
       "label": "New CPAP users",
-      "score": 81,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 8.1,
       "reviewCount": 10,
       "reviewShare": 0.0332,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9,
       "negativeShare": 0.1,
@@ -5747,19 +6615,19 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I LOVE this mask!!!!",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
-        },
-        {
           "text": "This is my first nasal cap and I love it",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
+        {
+          "text": "I LOVE this mask!!!!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Not comfortable",
+          "text": "I would wake up a couple hours or less into using this mask and need to take it off",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
@@ -5774,12 +6642,13 @@
     {
       "id": "facial-hair",
       "label": "People with facial hair",
-      "score": 77,
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.7,
       "reviewCount": 7,
       "reviewShare": 0.0233,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -5827,9 +6696,9 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
-          "text": "doesn't leak because of facial hair",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+          "text": "the memory foam does a great job making a tight seal",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -5850,12 +6719,13 @@
     {
       "id": "easy-on-off",
       "label": "People who need easy on/off handling",
-      "score": 76,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.6,
       "reviewCount": 5,
       "reviewShare": 0.0166,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -5882,12 +6752,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "They make it very easy for me to take off and put on my mask",
+          "text": "Tube elbow has a quick release clasp which makes it easy to disconnect if you need to get up during the night",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
-          "text": "Tube elbow has a quick release clasp which makes it easy to disconnect if you need to get up during the night",
+          "text": "The magnetic clasps make it easy to take the mask on and off in the dark",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
@@ -5910,12 +6780,13 @@
     {
       "id": "side-sleepers|sleep_position_compatibility",
       "label": "Side sleepers · Sleep Position Compatibility",
-      "score": 76,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.6,
       "reviewCount": 15,
       "reviewShare": 0.0498,
       "positiveReviews": 12,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5940,12 +6811,13 @@
     {
       "id": "side-sleepers|seal_leak",
       "label": "Side sleepers · Seal Leak",
-      "score": 69,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 6.9,
       "reviewCount": 7,
       "reviewShare": 0.0233,
-      "positiveReviews": 4,
-      "mixedReviews": 2,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5970,12 +6842,13 @@
     {
       "id": "facial-hair|seal_leak",
       "label": "People with facial hair · Seal Leak",
-      "score": 76,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.6,
       "reviewCount": 5,
       "reviewShare": 0.0166,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -6007,14 +6880,15 @@
     {
       "id": "nose",
       "label": "Nose",
-      "score": 61,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.1,
       "reviewCount": 45,
       "reviewShare": 0.1495,
-      "positiveReviews": 24,
-      "mixedReviews": 5,
+      "positiveReviews": 28,
+      "neutralReviews": 1,
       "negativeReviews": 16,
-      "positiveShare": 0.5333,
+      "positiveShare": 0.6222,
       "negativeShare": 0.3556,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -6075,36 +6949,36 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Perfectly countours to my nose",
+          "text": "The actual interface with the face is made of really soft memory foam",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
-          "text": "Excellent nose mask",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+          "text": "The Memory Foam makes it extremely comfortable on the nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
         {
-          "text": "I no longer have sores and blisters",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
+          "text": "doesn’t leave harsh red lines or imprints",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I had to tighten it so tight to keep it flat on my face",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        },
         {
           "text": "I am allergic to the silicone pads on every mask",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
         },
         {
-          "text": "severe sub-dermal cyst appeared",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
-        },
-        {
-          "text": "Although the cushion gel is supposed to eliminate irritation",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+          "text": "It pushes into the side of my nose and hurts",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
         }
       ],
       "complaintReviews": 18,
@@ -6168,14 +7042,15 @@
     {
       "id": "face",
       "label": "Face",
-      "score": 62,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 29,
       "reviewShare": 0.0963,
-      "positiveReviews": 16,
-      "mixedReviews": 4,
+      "positiveReviews": 17,
+      "neutralReviews": 3,
       "negativeReviews": 9,
-      "positiveShare": 0.5517,
+      "positiveShare": 0.5862,
       "negativeShare": 0.3103,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -6231,7 +7106,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Perfect seal",
+          "text": "no red marks on my face In the morning",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         },
@@ -6241,9 +7116,9 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         },
         {
-          "text": "the red mask marks my old mask caused, have been eliminated",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+          "text": "it feels like it fits better to the form of my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -6253,14 +7128,14 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         },
         {
-          "text": "how much air blows out the front",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+          "text": "it sends a powerful jet of air towards my wife",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         },
         {
-          "text": "it would blow air directly on my wife",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+          "text": "It wakes my wife if I face her",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
       ],
       "complaintReviews": 11,
@@ -6318,41 +7193,42 @@
     }
   ],
   "interactionSummary": [
-    "The clearest favorable pattern was that memory foam cushion interaction with the nose leaned favorable (4 positive versus 0 negative reports).",
+    "The clearest favorable pattern was that memory foam cushion interaction with the skin leaned favorable (6 positive versus 0 negative reports).",
     "The clearest caution was that vent interaction with the face leaned unfavorable (0 positive versus 5 negative reports)."
   ],
   "interactionInsights": [
     {
-      "id": "body|memory_foam_cushion|nose|comfort",
-      "label": "Memory Foam Cushion at Nose: Comfort",
-      "score": 86,
-      "averageSentiment": 8.6,
-      "reviewCount": 5,
-      "reviewShare": 0.0166,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "id": "body|memory_foam_cushion|skin|comfort_discomfort",
+      "label": "Memory Foam Cushion at Skin: Comfort and Discomfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 9.0,
+      "reviewCount": 6,
+      "reviewShare": 0.0199,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "memory_foam_cushion",
           "label": "Memory Foam Cushion",
-          "reviewCount": 5
+          "reviewCount": 6
         }
       ],
       "associatedContexts": [],
       "associatedBodySites": [
         {
-          "id": "nose",
-          "label": "Nose",
-          "reviewCount": 5
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 6
         }
       ],
       "positiveEvidence": [
         {
-          "text": "The Memory Foam makes it extremely comfortable on the nose",
+          "text": "I do not experience any skin irritation from the mask",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
@@ -6361,35 +7237,53 @@
       "kind": "body-component",
       "contextId": null,
       "contextLabel": null,
-      "aspectId": "comfort",
-      "aspectLabel": "Comfort",
+      "aspectId": "comfort_discomfort",
+      "aspectLabel": "Comfort and Discomfort",
+      "outcomeAspects": [
+        {
+          "id": "skin_reaction",
+          "label": "Skin Reaction",
+          "reviewCount": 3
+        },
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 2
+        },
+        {
+          "id": "irritation",
+          "label": "Irritation",
+          "reviewCount": 1
+        }
+      ],
       "parts": [
         {
           "id": "memory_foam_cushion",
           "label": "Memory Foam Cushion",
-          "reviewCount": 5
+          "reviewCount": 6
         }
       ],
       "bodySites": [
         {
-          "id": "nose",
-          "label": "Nose",
-          "reviewCount": 5
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 6
         }
       ],
       "contexts": [],
       "tone": "favorable",
-      "description": "Reports about the memory foam cushion where it contacts the nose were mostly favorable for comfort: 4 positive, 1 mixed, and 0 negative across 5 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
+      "description": "Reports about the memory foam cushion where it contacts the skin were mostly favorable for comfort and discomfort: 6 positive, 0 neutral, and 0 negative across 6 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
     },
     {
       "id": "body|vent|face|airflow_direction",
       "label": "Vent at Face: Airflow Direction",
-      "score": 24,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.4,
       "reviewCount": 5,
       "reviewShare": 0.0166,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -6418,9 +7312,9 @@
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "how much air blows out the front",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+          "text": "it sends a powerful jet of air towards my wife",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ],
       "kind": "body-component",
@@ -6428,6 +7322,13 @@
       "contextLabel": null,
       "aspectId": "airflow_direction",
       "aspectLabel": "Airflow Direction",
+      "outcomeAspects": [
+        {
+          "id": "airflow_direction",
+          "label": "Airflow Direction",
+          "reviewCount": 5
+        }
+      ],
       "parts": [
         {
           "id": "vent",
@@ -6444,221 +7345,151 @@
       ],
       "contexts": [],
       "tone": "caution",
-      "description": "Reports about the vent where it contacts the face were mostly unfavorable for airflow direction: 0 positive, 0 mixed, and 5 negative across 5 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
-    }
-  ],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 83,
-      "averageSentiment": 8.3,
-      "reviewCount": 108,
-      "reviewShare": 0.3588,
-      "positiveReviews": 94,
-      "mixedReviews": 4,
-      "negativeReviews": 10,
-      "positiveShare": 0.8704,
-      "negativeShare": 0.0926,
-      "evidenceStrength": "strong",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I simply could not be happier",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Very disappointed",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
-        }
-      ]
+      "description": "Reports about the vent where it contacts the face were mostly unfavorable for airflow direction: 0 positive, 0 neutral, and 5 negative across 5 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
     },
     {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 57,
-      "reviewShare": 0.1894,
-      "positiveReviews": 52,
-      "mixedReviews": 1,
-      "negativeReviews": 4,
-      "positiveShare": 0.9123,
-      "negativeShare": 0.0702,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Very comfortable",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "uncomfortably",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
-        }
-      ]
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 73,
-      "averageSentiment": 7.3,
-      "reviewCount": 38,
-      "reviewShare": 0.1262,
-      "positiveReviews": 28,
-      "mixedReviews": 3,
-      "negativeReviews": 7,
-      "positiveShare": 0.7368,
-      "negativeShare": 0.1842,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "fits perfectly",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Does not fit my ResMed Air10 mini travel CPAP as the connections for the hose are different",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
-        }
-      ]
-    },
-    {
-      "id": "|||seal_leak",
-      "label": "Seal Leak",
-      "score": 74,
-      "averageSentiment": 7.4,
-      "reviewCount": 26,
-      "reviewShare": 0.0864,
-      "positiveReviews": 20,
-      "mixedReviews": 0,
-      "negativeReviews": 6,
-      "positiveShare": 0.7692,
-      "negativeShare": 0.2308,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "no leaks",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "When you make it comfortable, somehow it leaks",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||therapy_effectiveness",
-      "label": "Therapy Effectiveness",
-      "score": 77,
-      "averageSentiment": 7.7,
-      "reviewCount": 23,
-      "reviewShare": 0.0764,
-      "positiveReviews": 20,
-      "mixedReviews": 2,
-      "negativeReviews": 1,
-      "positiveShare": 0.8696,
-      "negativeShare": 0.0435,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Works perfectly for me",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "does not work for me",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
-        }
-      ]
-    },
-    {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 17,
-      "reviewShare": 0.0565,
-      "positiveReviews": 16,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.9412,
-      "negativeShare": 0.0588,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Best Sleep",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Impossible to sleep in",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
-        }
-      ]
-    },
-    {
-      "id": "memory_foam_cushion|||comfort",
-      "label": "Memory Foam Cushion · Comfort",
-      "score": 77,
-      "averageSentiment": 7.7,
-      "reviewCount": 18,
-      "reviewShare": 0.0598,
-      "positiveReviews": 14,
-      "mixedReviews": 2,
+      "id": "body|memory_foam_cushion|nose|comfort_discomfort",
+      "label": "Memory Foam Cushion at Nose: Comfort and Discomfort",
+      "score": 75,
+      "grade": "B",
+      "averageSentiment": 6.9,
+      "reviewCount": 8,
+      "reviewShare": 0.0266,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.7778,
-      "negativeShare": 0.1111,
+      "positiveShare": 0.75,
+      "negativeShare": 0.25,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "memory_foam_cushion",
           "label": "Memory Foam Cushion",
-          "reviewCount": 18
+          "reviewCount": 8
         }
       ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 8
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "Most comfortable mask",
+          "text": "The Memory Foam makes it extremely comfortable on the nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "severe sub-dermal cyst appeared",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        }
+      ],
+      "kind": "body-component",
+      "contextId": null,
+      "contextLabel": null,
+      "aspectId": "comfort_discomfort",
+      "aspectLabel": "Comfort and Discomfort",
+      "outcomeAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 5
+        },
+        {
+          "id": "face_marks",
+          "label": "Face Marks",
+          "reviewCount": 1
+        },
+        {
+          "id": "irritation",
+          "label": "Irritation",
+          "reviewCount": 1
+        },
+        {
+          "id": "itching_tickling",
+          "label": "Itching Tickling",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin_breakdown",
+          "label": "Skin Breakdown",
+          "reviewCount": 1
+        }
+      ],
+      "parts": [
+        {
+          "id": "memory_foam_cushion",
+          "label": "Memory Foam Cushion",
+          "reviewCount": 8
+        }
+      ],
+      "bodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 8
+        }
+      ],
+      "contexts": [],
+      "tone": "favorable",
+      "description": "Reports about the memory foam cushion where it contacts the nose were mostly favorable for comfort and discomfort: 6 positive, 0 neutral, and 2 negative across 8 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
+    }
+  ],
+  "strengths": [
+    {
+      "id": "part|memory_foam_cushion|comfort",
+      "label": "Memory Foam Cushion · Comfort",
+      "score": 89,
+      "grade": "A-",
+      "averageSentiment": 7.9,
+      "reviewCount": 29,
+      "reviewShare": 0.0963,
+      "positiveReviews": 25,
+      "neutralReviews": 1,
+      "negativeReviews": 3,
+      "positiveShare": 0.8621,
+      "negativeShare": 0.1034,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "memory_foam_cushion",
+          "label": "Memory Foam Cushion",
+          "reviewCount": 29
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 5
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 3
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Most comfortable mask to date in last decade for me",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
@@ -6672,27 +7503,145 @@
       ]
     },
     {
-      "id": "headgear|||comfort",
+      "id": "part|cushion|comfort",
+      "label": "Cushion · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.7,
+      "reviewCount": 16,
+      "reviewShare": 0.0532,
+      "positiveReviews": 16,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 16
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "love the memory foam on the nose cushion",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "site|nose|comfort",
+      "label": "Nose · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.6,
+      "reviewCount": 14,
+      "reviewShare": 0.0465,
+      "positiveReviews": 14,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "memory_foam_cushion",
+          "label": "Memory Foam Cushion",
+          "reviewCount": 5
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 4
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 14
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The Memory Foam makes it extremely comfortable on the nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "part|headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 79,
-      "averageSentiment": 7.9,
-      "reviewCount": 13,
-      "reviewShare": 0.0432,
-      "positiveReviews": 12,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.9231,
-      "negativeShare": 0.0769,
+      "score": 87,
+      "grade": "A-",
+      "averageSentiment": 7.5,
+      "reviewCount": 15,
+      "reviewShare": 0.0498,
+      "positiveReviews": 13,
+      "neutralReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.8667,
+      "negativeShare": 0.1333,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "headgear",
           "label": "Headgear",
-          "reviewCount": 13
+          "reviewCount": 15
         }
       ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
           "text": "Most Comforatable Mask",
@@ -6702,107 +7651,46 @@
       ],
       "negativeEvidence": [
         {
-          "text": "The headgear is uncomfortable and awkward",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+          "text": "So much going on around your head",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
         }
       ]
     },
     {
-      "id": "||side_sleeping|sleep_position_compatibility",
-      "label": "Side Sleeping · Sleep Position Compatibility",
-      "score": 83,
-      "averageSentiment": 8.3,
-      "reviewCount": 13,
-      "reviewShare": 0.0432,
-      "positiveReviews": 12,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.9231,
-      "negativeShare": 0.0769,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [
-        {
-          "id": "side_sleeping",
-          "label": "Side Sleeping",
-          "reviewCount": 13
-        }
-      ],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "allows me to sleep on my side!!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Not for side sleeping",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
-        }
-      ]
-    },
-    {
-      "id": "cushion|||comfort",
-      "label": "Cushion · Comfort",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 9,
-      "reviewShare": 0.0299,
-      "positiveReviews": 9,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [
-        {
-          "id": "cushion",
-          "label": "Cushion",
-          "reviewCount": 9
-        }
-      ],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Mask is very comfortable with the cushion",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "magnetic_clip|||ease_of_use",
+      "id": "part|magnetic_clip|ease_of_use",
       "label": "Magnetic Clip · Ease Of Use",
-      "score": 80,
-      "averageSentiment": 8.0,
-      "reviewCount": 9,
-      "reviewShare": 0.0299,
-      "positiveReviews": 8,
-      "mixedReviews": 0,
+      "score": 93,
+      "grade": "A",
+      "averageSentiment": 8.1,
+      "reviewCount": 11,
+      "reviewShare": 0.0365,
+      "positiveReviews": 10,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.8889,
-      "negativeShare": 0.1111,
+      "positiveShare": 0.9091,
+      "negativeShare": 0.0909,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "magnetic_clip",
           "label": "Magnetic Clip",
-          "reviewCount": 9
+          "reviewCount": 11
         }
       ],
-      "associatedContexts": [],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 2
+        }
+      ],
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "the magnetic connectors that make for easy on & off",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+          "text": "I love the magnetic pieces that allow me to place and remove the mask very easily",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
         }
       ],
       "negativeEvidence": [
@@ -6814,24 +7702,350 @@
       ]
     },
     {
-      "id": "|||ease_of_use",
-      "label": "Ease Of Use",
-      "score": 86,
-      "averageSentiment": 8.6,
+      "id": "site|nose|fit",
+      "label": "Nose · Fit",
+      "score": 83,
+      "grade": "B+",
+      "averageSentiment": 7.3,
+      "reviewCount": 11,
+      "reviewShare": 0.0365,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.8182,
+      "negativeShare": 0.1818,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "memory_foam_cushion",
+          "label": "Memory Foam Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "sizing_template",
+          "label": "Sizing Template",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 11
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Perfectly countours to my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it is too small and I could hardly breathe through it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "site|skin|skin_reaction",
+      "label": "Skin · Skin Reaction",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.7,
       "reviewCount": 7,
       "reviewShare": 0.0233,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
+      "associatedParts": [
+        {
+          "id": "memory_foam_cushion",
+          "label": "Memory Foam Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "foam_cushion",
+          "label": "Foam Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        }
+      ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 7
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "The mask is practical",
+          "text": "I do not experience any skin irritation from the mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "part|memory_foam_cushion|fit",
+      "label": "Memory Foam Cushion · Fit",
+      "score": 83,
+      "grade": "B+",
+      "averageSentiment": 7.6,
+      "reviewCount": 8,
+      "reviewShare": 0.0266,
+      "positiveReviews": 6,
+      "neutralReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.75,
+      "negativeShare": 0.125,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "memory_foam_cushion",
+          "label": "Memory Foam Cushion",
+          "reviewCount": 8
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 3
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Perfectly countours to my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it is too small and I could hardly breathe through it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "site|face|comfort",
+      "label": "Face · Comfort",
+      "score": 88,
+      "grade": "A-",
+      "averageSentiment": 8.0,
+      "reviewCount": 7,
+      "reviewShare": 0.0233,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "memory_foam_cushion",
+          "label": "Memory Foam Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 7
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "very comfortable on the face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Memory foam not as comfortable as silicone",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        }
+      ]
+    },
+    {
+      "id": "part|headgear|fit",
+      "label": "Headgear · Fit",
+      "score": 88,
+      "grade": "A-",
+      "averageSentiment": 7.4,
+      "reviewCount": 7,
+      "reviewShare": 0.0233,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "wide_face",
+          "label": "Wide Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Best fitting nasal headset I’ve ever worn!",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "if you have a wide face it may be tight for you",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "part|foam_cushion|comfort",
+      "label": "Foam Cushion · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.8,
+      "reviewCount": 6,
+      "reviewShare": 0.0199,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "foam_cushion",
+          "label": "Foam Cushion",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Air Touch is so comfortable I don’t even notice i am wearing",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "part|nasal_cushion|comfort",
+      "label": "Nasal Cushion · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0199,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "septum",
+          "label": "Septum",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Comfortable nasal mask that feels like nothing at all",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
         }
@@ -6839,7 +8053,106 @@
       "negativeEvidence": []
     }
   ],
-  "concerns": [],
+  "concerns": [
+    {
+      "id": "part|vent|airflow_direction",
+      "label": "Vent · Airflow Direction",
+      "score": 0,
+      "grade": "F-",
+      "averageSentiment": 2.3,
+      "reviewCount": 7,
+      "reviewShare": 0.0233,
+      "positiveReviews": 0,
+      "neutralReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "bed_partner",
+          "label": "Bed Partner",
+          "reviewCount": 2
+        },
+        {
+          "id": "dry_eye_prone",
+          "label": "Dry Eye Prone",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 5
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "the air is released from the mask through a hole as a stream",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n20-nasal-cpap-mask-resmed"
+        }
+      ]
+    },
+    {
+      "id": "site|face|airflow_direction",
+      "label": "Face · Airflow Direction",
+      "score": 0,
+      "grade": "F-",
+      "averageSentiment": 2.4,
+      "reviewCount": 5,
+      "reviewShare": 0.0166,
+      "positiveReviews": 0,
+      "neutralReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "vent",
+          "label": "Vent",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "bed_partner",
+          "label": "Bed Partner",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 5
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "it sends a powerful jet of air towards my wife",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
+        }
+      ]
+    }
+  ],
   "retailers": [
     {
       "retailer": "Lofta",
@@ -6901,56 +8214,41 @@
   "evidence": {
     "positive": [
       {
-        "text": "I simply could not be happier",
-        "retailer": "Lofta",
-        "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+        "text": "Of all the masks I have tried over the years, I like this one the best",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
       },
       {
-        "text": "seals extremely well!",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
-      },
-      {
-        "text": "fits perfectly",
+        "text": "The actual interface with the face is made of really soft memory foam",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+      },
+      {
+        "text": "This mask seals amazingly well even with a beard to contend with",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+      },
+      {
+        "text": "the main selling point of this N20 is the memory foam cushion",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
+      },
+      {
+        "text": "This Airtouch N20 with memory foam is my new favorite",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
       },
       {
         "text": "this is the best I have found over the years",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
-      },
-      {
-        "text": "Very comfortable",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/resmed-airtouch-n20-nasal-cpap-mask"
-      },
-      {
-        "text": "Most comfortable mask",
-        "retailer": "Lofta",
-        "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
       }
     ],
     "negative": [
       {
-        "text": "I am allergic to the silicone pads on every mask",
-        "retailer": "CPAPsupplies.com",
-        "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
-      },
-      {
-        "text": "severe sub-dermal cyst appeared",
+        "text": "the entire right side of nose by the cheek was tender and very sore to the touch",
         "retailer": "Lofta",
         "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
-      },
-      {
-        "text": "Not for side sleeping",
-        "retailer": "CPAPsupplies.com",
-        "productUrl": "https://cpapsupplies.com/airtouch-n20-nasal-cpap-mask-by-resmed"
-      },
-      {
-        "text": "Although the cushion gel is supposed to eliminate irritation",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/resmed-airtouch-n20-nasal-cpap-mask?variant=49040794976572"
       },
       {
         "text": "Does not fit my ResMed Air10 mini travel CPAP as the connections for the hose are different",
@@ -6958,16 +8256,31 @@
         "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
       },
       {
-        "text": "After suffering through almost 3 years of a nasal pillow mask",
+        "text": "I feel I'm being suffocated because I feel absolutely just the smallest amount of air coming in",
+        "retailer": "Lofta",
+        "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+      },
+      {
+        "text": "it’s super loud hitting my pillow, hitting my blanket, and hitting my wife’s forehead",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airtouch-n20-memory-foam-cpap-mask"
+      },
+      {
+        "text": "I had to tighten it so tight to keep it flat on my face",
+        "retailer": "Lofta",
+        "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
+      },
+      {
+        "text": "This one doesn't wok for. This one doesn't wok for me at all",
         "retailer": "Lofta",
         "productUrl": "https://lofta.com/collections/cpap-masks/products/airtouch-n20-complete-mask-system"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

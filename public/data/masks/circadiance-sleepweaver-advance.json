@@ -1,8 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "circadiance-sleepweaver-advance",
   "name": "Circadiance SleepWeaver Advance",
   "catalogOrder": 38,
+  "search": {
+    "aliases": [
+      "Circadiance SleepWeaver Advance Nasal CPAP Mask with Headgear",
+      "SleepWeaver Advance",
+      "SleepWeaver Advance Cloth CPAP Mask",
+      "SleepWeaver Advance Nasal CPAP Mask Kit",
+      "SleepWeaver Advance Small Cloth Mask Kit",
+      "SleepWeaver Advance Soft Cloth Nasal CPAP Mask with Headgear",
+      "SleepWeaver Advance mask"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 211,
@@ -13,32 +28,35 @@
     "reviewDateEnd": "2026-05-31"
   },
   "overall": {
-    "compositeScore": 81,
+    "score": 77,
+    "grade": "B",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.06,
-      "score": 81,
+      "score": 77,
       "reviewCount": 211,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.0,
       "score": 80,
       "reviewCount": 106,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 75,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.5,
       "reviewCount": 114,
       "reviewShare": 0.5403,
-      "positiveReviews": 85,
-      "mixedReviews": 12,
+      "positiveReviews": 86,
+      "neutralReviews": 11,
       "negativeReviews": 17,
-      "positiveShare": 0.7456,
+      "positiveShare": 0.7544,
       "negativeShare": 0.1491,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -124,7 +142,17 @@
       ],
       "positiveEvidence": [
         {
-          "text": "So comfortable",
+          "text": "SOOOO nice not to have any hard - hardware parts pressing into my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "of all the masks I've tried this is the most comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "This is the most comfortable CPAP mask I have ever used",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
@@ -132,32 +160,103 @@
           "text": "It is the lightest most comfortable mask I have used",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "this is the first mask that has been truly comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "as if I’m not wearing a mask at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "This mask is a lifesaver for sensitive skin",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "It's the most comfortable mask I've ever had",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Most comfortable CPAP mask I've tried so far",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "It is comfortable to wear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "the gel mask had cut into the bridge of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
         {
           "text": "I was gasping for my next breath",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "the gel mask had cut into the bridge of my nose",
+          "text": "I hate the feeling of silicone on the face.. it just feels so unnatural",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "it didn't rub the bottom of my nose (top of my lip) raw",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "that dug into my face every time I turned on my side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I had sores from the nasal pillows so I did some research",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "had trouble with the the outers making my nose sore",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "couldn't tolerate the large, heavy, confining masks commonly used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "then I move a millimeter, and the trouble begins!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "feeling of a heavy mask on my face",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 54,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.4,
       "reviewCount": 80,
       "reviewShare": 0.3791,
-      "positiveReviews": 32,
-      "mixedReviews": 12,
+      "positiveReviews": 36,
+      "neutralReviews": 8,
       "negativeReviews": 36,
-      "positiveShare": 0.4,
+      "positiveShare": 0.45,
       "negativeShare": 0.45,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -251,11 +350,91 @@
           "text": "Finally, a mask that fits - SMALL size!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Fits perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Fits perfect!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "I finally found a perfect fit with the Sleepweaver Advance Soft Cloth Nasal CPAP Mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "how the \"fabric\" inflates around my nose, creates a seal and stays inflated",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I have mustache and beard, and works just fine over those",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I am only 4'11\" tall and have a proportionately small face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the straps were easily adjustable without having to take it off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "The mask fits snuggly around just the nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
         {
           "text": "Never fit right",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "no matter how much or how many times you try to adjust or tighten",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
+        },
+        {
+          "text": "There's no way to fasten the mask so that it fits snugly enough",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I couldn't deal with the claustrophobia/feel of any of the other mask options",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "i had to tighten it to the point it no longer IS commfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I watched the videos and did the tricks to get a seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "COuld not stop the leak no matter how much I adjusted",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Positioning the tubing coming into the mask is critical",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "But it wouldn't have worked with the larger size",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
@@ -269,14 +448,15 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 42,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 71,
       "reviewShare": 0.3365,
-      "positiveReviews": 20,
-      "mixedReviews": 6,
+      "positiveReviews": 23,
+      "neutralReviews": 3,
       "negativeReviews": 45,
-      "positiveShare": 0.2817,
+      "positiveShare": 0.3239,
       "negativeShare": 0.6338,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -367,7 +547,47 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
+          "text": "the Best is no airleak",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
           "text": "It sealed perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I had the air leakage with other masks purchased but my recent purchase of a smaller size has solved that!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Once this is snugged up with a wiggle around the nose it will not leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "how the \"fabric\" inflates around my nose, creates a seal and stays inflated",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "provides a better seal than previous SleepWeaver masks I've tried",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "with no air leakage",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "No escaping air",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I don’t have all those nasty lines on my face all day anymore",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -382,20 +602,61 @@
           "text": "it leaked very badly around the bottom of the mask at the side of my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I couldn’t get the mask to maintain any seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "It leaks at the top into my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the new mask was leaking air everywhere",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "cannot get the thing to seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Could never get a seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Leaks like a sieve",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "leaks all the time",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "leaks air like crazy",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 57,
+      "label": "Stability",
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 51,
       "reviewShare": 0.2417,
-      "positiveReviews": 26,
-      "mixedReviews": 4,
+      "positiveReviews": 28,
+      "neutralReviews": 2,
       "negativeReviews": 21,
-      "positiveShare": 0.5098,
+      "positiveShare": 0.549,
       "negativeShare": 0.4118,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -486,12 +747,72 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
+          "text": "the ability to move around without worrying about the mask hitting my pillow before my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I love that I can sleep on my face with this mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I can sleep on my back or side with no problems",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
           "text": "this soft mask just moves right along with me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I can also sleep on my side without trouble",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "does not move when you turn in your sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "I can lay however I want to with it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "can even sleep way better on my side",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
+        },
+        {
+          "text": "I guess because I am a side/tummy sleeper",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "if you roll to one side or the other as i often have to do at night the seal completely breaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I wake up with the mask on the side of my mouth",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "as soon as I moved, there was air again",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "I ripped this off two nights in a row",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
+        },
         {
           "text": "It collapsed as soon as I put on",
           "retailer": "DirectHomeMedical",
@@ -501,20 +822,41 @@
           "text": "falls off",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the two narrow straps from upper nose to top of forehead have stretched very loosely",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "I couldn’t make it stay in a place that I could sleep with it..",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I could not maintain the correct alignment once I fell asleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "if the hose moved off center line of the mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 55,
+      "label": "Ease of Use",
+      "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.5,
       "reviewCount": 53,
       "reviewShare": 0.2512,
-      "positiveReviews": 20,
-      "mixedReviews": 12,
+      "positiveReviews": 28,
+      "neutralReviews": 4,
       "negativeReviews": 21,
-      "positiveShare": 0.3774,
+      "positiveShare": 0.5283,
       "negativeShare": 0.3962,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -585,6 +927,11 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the straps were easily adjustable without having to take it off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
           "text": "feels very open",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
@@ -593,9 +940,59 @@
           "text": "easy to use",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
+        },
+        {
+          "text": "easy to wear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "It pulls on and off over my head (versus quick release or snaps)",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Comfortable, light, easy to clean,I am a fan of The advance cloth mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "I also use the So Clean machine to clean it every morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "You can actually put it in the washing machine to clean it!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the fact that it’s machine washable is an added bonus",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "without a mask being shoved into my face",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "no matter how much or how many times you try to adjust or tighten",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
+        },
+        {
+          "text": "I watched the videos and did the tricks to get a seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "COuld not stop the leak no matter how much I adjusted",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
         {
           "text": "No amount of adjusting would stop the leaking",
           "retailer": "DirectHomeMedical",
@@ -605,20 +1002,46 @@
           "text": "I have adjusted and adjusted",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Pulling straps tighter only leaves me with impressions on my head, does not do much in stopping leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "difficult to adjust the velcro strapping along the sides of the face during the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "The following nights I have had to readjust several times throughout the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "So far I have had to readjust it 2-3 times a night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the intake (where the hose attaches) doesnt swivel or spin",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 41,
+      "score": 28,
+      "grade": "F",
       "averageSentiment": 4.1,
       "reviewCount": 23,
       "reviewShare": 0.109,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 17,
-      "positiveShare": 0.2174,
+      "positiveShare": 0.2609,
       "negativeShare": 0.7391,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -687,16 +1110,71 @@
           "text": "It is so quiet",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        }
-      ],
-      "negativeEvidence": [
+        },
         {
-          "text": "very noisy",
+          "text": "is very quiet",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
+          "text": "it's as quiet as any other mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "quieten mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
           "text": "the material at the point of connection of the hose inlet to the material caused the end of the mask to kink and restrict air…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Now I can get a good night's sleep without air shooting into my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "The air would blow into my eyes and wake me up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I could not stop the air blowing at my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "when the pressure changes as I sleep, it starts squeeling",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "is loud enough to wake one up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "cuts off some of the air flow",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "whistling in the middle of the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "It blows up by my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "listen to the hi pitched squeel",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -705,12 +1183,13 @@
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 51,
+      "score": 46,
+      "grade": "D",
       "averageSentiment": 5.1,
       "reviewCount": 54,
       "reviewShare": 0.2559,
       "positiveReviews": 22,
-      "mixedReviews": 4,
+      "neutralReviews": 4,
       "negativeReviews": 28,
       "positiveShare": 0.4074,
       "negativeShare": 0.5185,
@@ -798,12 +1277,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "It does not cause skin irritation like all of the other mask I've tried",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
           "text": "since it is cloth it does not irritate my skin",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
+          "text": "It leaves no marks (yaaaay)",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
           "text": "No irritation",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I don't have the major lines and indentations on my face that the hard mask produces",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I have no rings around my nose from the mask pressure",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I recommend to anybody that has facial irritation from cpap masks",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "I have a skin allergy to other plastic face masks",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "No more lines on my face every morning!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "It doesn't hurt the bridge of my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -815,23 +1334,64 @@
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         },
         {
+          "text": "I can no longer wear a silicone mask due to it causes a rash on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Within a month the top of my nose was infected and weeping puss",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
           "text": "I am allergic to silicon so this was my only option",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "I have dry eyes, so I wear special CPAP eye covers to prevent air from drying my eyes any further",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "it didn't rub the bottom of my nose (top of my lip) raw",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "there seem to be a seam that irritates the underside of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "that dug into my face every time I turned on my side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I had sores from the nasal pillows so I did some research",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Pulling straps tighter only leaves me with impressions on my head",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 60,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 37,
       "reviewShare": 0.1754,
-      "positiveReviews": 22,
-      "mixedReviews": 2,
+      "positiveReviews": 23,
+      "neutralReviews": 1,
       "negativeReviews": 13,
-      "positiveShare": 0.5946,
+      "positiveShare": 0.6216,
       "negativeShare": 0.3514,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -905,6 +1465,46 @@
           "text": "CPAP MASK SOFT CLOTH",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I've been doing this for several years and they last very well",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "Using cloth to make a CPAP mask is a brilliant innovation",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I like that there is no plastic or hard parts",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Headgear is soft and extremely comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "wonderful blue soft cloth mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Cloth CPAP mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "soft fabric mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Once the proper cloth was developed (the pores of the weave) it's now in a much smaller size",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -912,6 +1512,46 @@
           "text": "was made of very cheap material",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "the two narrow straps from upper nose to top of forehead have stretched very loosely",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "the glue attaching it to the hose connection will fail",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "mine actually started ripping and eventually tore making it useless",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "The nose is just plastic or a cheap canvas",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Device falls apart after a few months use",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-nasal-cpap-mask-kit"
+        },
+        {
+          "text": "it tends to collapse around the nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "becomes unusable after about 1 month",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "there is no change in construction",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
         },
         {
           "text": "it just feels so unnatural",
@@ -923,12 +1563,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 72,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 15,
       "reviewShare": 0.0711,
       "positiveReviews": 12,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.8,
       "negativeShare": 0.1333,
@@ -957,6 +1598,46 @@
           "text": "This was the best accessory purchase I've made - you won't need to reposition the hose during the night if it pulls your mask away…",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "They have the products I need at low prices",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Best price I've ever paid",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "of good value",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Good service at a great price",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-nasal-cpap-mask-kit"
+        },
+        {
+          "text": "Price is very reasonable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Well done 1800CPAP",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-small-cloth-mask-kit"
+        },
+        {
+          "text": "regardless of price",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "very reasonable price",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
@@ -975,12 +1656,13 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 70,
+      "score": 77,
+      "grade": "B",
       "averageSentiment": 7.0,
       "reviewCount": 55,
       "reviewShare": 0.2607,
       "positiveReviews": 41,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 13,
       "positiveShare": 0.7455,
       "negativeShare": 0.2364,
@@ -1068,9 +1750,49 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
+          "text": "it works a 1000% better than my last mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
           "text": "I actually sleep all night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I am actually using my CPAP again - I had almost given up until I found this mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Until the sleepweaver cloth mask, I still could not get a great night's sleep. Now, I can!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I have had a good night sleep for the first time in a long time",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I'm finally sleeping better since I started using this soft little balloon-like mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I've actually been able to wear it every night and through the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "My husband would avoid using his CPAP until I found this mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I have not had that good of sleep in a long time",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1080,7 +1802,47 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "Used for 10 mins and sent it right Back",
+          "text": "No use being comfortable if the air won't stop leaking",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I've yet to be able to sleep more than an hour with this thing",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I tried about 15 plastic styles and could not sleep with them",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "The air would blow into my eyes and wake me up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "It didn't work for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I would wake me up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Keeps waking me up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I gave up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "I tried it for a few weeks and finally had to go back to the original style",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -1091,14 +1853,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 80,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 8.0,
       "reviewCount": 106,
       "reviewShare": 0.5024,
-      "positiveReviews": 85,
-      "mixedReviews": 4,
+      "positiveReviews": 86,
+      "neutralReviews": 3,
       "negativeReviews": 17,
-      "positiveShare": 0.8019,
+      "positiveShare": 0.8113,
       "negativeShare": 0.1604,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -1164,24 +1927,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Best mask by far!",
+          "text": "the SleepWeaver turned out to be the best mask I've used in the ten years or so of hard masks, nasal pillows, etc....",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "Finally found it, one that works for me!",
+          "text": "I've worn this mask for several years, and am never disappointed in it.",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "This thing is a joke",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+          "text": "This was a fail for me.",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         },
         {
-          "text": "So disappointed",
+          "text": "This thing is a joke",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -1190,14 +1953,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 79,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.9,
       "reviewCount": 91,
       "reviewShare": 0.4313,
-      "positiveReviews": 74,
-      "mixedReviews": 6,
+      "positiveReviews": 75,
+      "neutralReviews": 5,
       "negativeReviews": 11,
-      "positiveShare": 0.8132,
+      "positiveShare": 0.8242,
       "negativeShare": 0.1209,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1283,24 +2047,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "So comfortable",
+          "text": "SOOOO nice not to have any hard - hardware parts pressing into my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "It is the lightest most comfortable mask I have used",
+          "text": "of all the masks I've tried this is the most comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "couldn't tolerate the large, heavy, confining masks commonly used",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+          "text": "I hate the feeling of silicone on the face.. it just feels so unnatural",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         },
         {
-          "text": "really bad headgear",
+          "text": "couldn't tolerate the large, heavy, confining masks commonly used",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -1309,14 +2073,15 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 42,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 71,
       "reviewShare": 0.3365,
-      "positiveReviews": 20,
-      "mixedReviews": 6,
+      "positiveReviews": 23,
+      "neutralReviews": 3,
       "negativeReviews": 45,
-      "positiveShare": 0.2817,
+      "positiveShare": 0.3239,
       "negativeShare": 0.6338,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1407,9 +2172,9 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "It sealed perfectly",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+          "text": "the Best is no airleak",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1428,14 +2193,15 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 66,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 51,
       "reviewShare": 0.2417,
-      "positiveReviews": 31,
-      "mixedReviews": 6,
+      "positiveReviews": 36,
+      "neutralReviews": 1,
       "negativeReviews": 14,
-      "positiveShare": 0.6078,
+      "positiveShare": 0.7059,
       "negativeShare": 0.2745,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1538,7 +2304,7 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "Positioning the tubing coming into the mask is critical",
+          "text": "There's no way to fasten the mask so that it fits snugly enough",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -1547,14 +2313,15 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 45,
+      "score": 37,
+      "grade": "F+",
       "averageSentiment": 4.5,
       "reviewCount": 35,
       "reviewShare": 0.1659,
-      "positiveReviews": 6,
-      "mixedReviews": 8,
+      "positiveReviews": 12,
+      "neutralReviews": 2,
       "negativeReviews": 21,
-      "positiveShare": 0.1714,
+      "positiveShare": 0.3429,
       "negativeShare": 0.6,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1637,26 +2404,27 @@
       ],
       "negativeEvidence": [
         {
-          "text": "No amount of adjusting would stop the leaking",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+          "text": "no matter how much or how many times you try to adjust or tighten",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
         },
         {
-          "text": "I have adjusted and adjusted",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+          "text": "I watched the videos and did the tricks to get a seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         }
       ]
     },
     {
       "id": "weight",
       "label": "Weight",
-      "score": 83,
+      "score": 96,
+      "grade": "A+",
       "averageSentiment": 8.3,
       "reviewCount": 26,
       "reviewShare": 0.1232,
       "positiveReviews": 25,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9615,
       "negativeShare": 0.0385,
@@ -1714,7 +2482,7 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "It's light",
+          "text": "so light I wake up and check to see if it is still on my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -1730,14 +2498,15 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 40,
+      "score": 29,
+      "grade": "F",
       "averageSentiment": 4.0,
       "reviewCount": 24,
       "reviewShare": 0.1137,
-      "positiveReviews": 5,
-      "mixedReviews": 3,
+      "positiveReviews": 6,
+      "neutralReviews": 2,
       "negativeReviews": 16,
-      "positiveShare": 0.2083,
+      "positiveShare": 0.25,
       "negativeShare": 0.6667,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1835,7 +2604,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "It collapsed as soon as I put on",
+          "text": "if you roll to one side or the other as i often have to do at night the seal completely breaks",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
@@ -1849,12 +2618,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 77,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.7,
       "reviewCount": 22,
       "reviewShare": 0.1043,
       "positiveReviews": 18,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.8182,
       "negativeShare": 0.1364,
@@ -1902,19 +2672,19 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "I'm finally sleeping better since I started using this soft little balloon-like mask",
+          "text": "Until the sleepweaver cloth mask, I still could not get a great night's sleep. Now, I can!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Keeps waking me up",
+          "text": "I tried about 15 plastic styles and could not sleep with them",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "I tried about 15 plastic styles and could not sleep with them",
+          "text": "Keeps waking me up",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -1923,14 +2693,15 @@
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 65,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.5,
       "reviewCount": 21,
       "reviewShare": 0.0995,
-      "positiveReviews": 13,
-      "mixedReviews": 1,
+      "positiveReviews": 14,
+      "neutralReviews": 0,
       "negativeReviews": 7,
-      "positiveShare": 0.619,
+      "positiveShare": 0.6667,
       "negativeShare": 0.3333,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1997,21 +2768,22 @@
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         },
         {
-          "text": "it just feels so unnatural",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+          "text": "The nose is just plastic or a cheap canvas",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ]
     },
     {
       "id": "irritation",
       "label": "Irritation",
-      "score": 46,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.7,
       "reviewCount": 20,
       "reviewShare": 0.0948,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 13,
       "positiveShare": 0.35,
       "negativeShare": 0.65,
@@ -2091,12 +2863,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Air in the eyes",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+          "text": "it didn't rub the bottom of my nose (top of my lip) raw",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "the hooks irritate my skin",
+          "text": "there seem to be a seam that irritates the underside of my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -2105,12 +2877,13 @@
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 79,
+      "score": 90,
+      "grade": "A",
       "averageSentiment": 7.9,
       "reviewCount": 20,
       "reviewShare": 0.0948,
       "positiveReviews": 18,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.9,
       "negativeShare": 0.1,
@@ -2158,14 +2931,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I can also sleep on my side without trouble",
+          "text": "I love that I can sleep on my face with this mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "can even sleep way better on my side",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
+          "text": "I can sleep on my back or side with no problems",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
@@ -2184,12 +2957,13 @@
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 78,
+      "score": 90,
+      "grade": "A",
       "averageSentiment": 7.8,
       "reviewCount": 19,
       "reviewShare": 0.09,
       "positiveReviews": 17,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.8947,
       "negativeShare": 0.1053,
@@ -2242,14 +3016,15 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 68,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 6.8,
       "reviewCount": 14,
       "reviewShare": 0.0664,
-      "positiveReviews": 9,
-      "mixedReviews": 3,
+      "positiveReviews": 12,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.6429,
+      "positiveShare": 0.8571,
       "negativeShare": 0.1429,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2300,12 +3075,13 @@
     {
       "id": "therapy_compliance",
       "label": "Therapy Compliance",
-      "score": 60,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.0,
       "reviewCount": 14,
       "reviewShare": 0.0664,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.6429,
       "negativeShare": 0.3571,
@@ -2352,12 +3128,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "My husband would avoid using his CPAP until I found this mask",
+          "text": "I am actually using my CPAP again - I had almost given up until I found this mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "I am actually using my CPAP again - I had almost given up until I found this mask",
+          "text": "I've actually been able to wear it every night and through the night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -2378,12 +3154,13 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 58,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 5.8,
       "reviewCount": 13,
       "reviewShare": 0.0616,
       "positiveReviews": 8,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.6154,
       "negativeShare": 0.3077,
@@ -2426,33 +3203,34 @@
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         },
         {
-          "text": "I have been using them over 20 years",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+          "text": "I have used this mask for over 15 years",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "Device falls apart after a few months use",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-nasal-cpap-mask-kit"
+        },
+        {
           "text": "becomes unusable after about 1 month",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        },
-        {
-          "text": "there is no change in construction",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
         }
       ]
     },
     {
       "id": "noise",
       "label": "Noise",
-      "score": 55,
+      "score": 49,
+      "grade": "D",
       "averageSentiment": 5.5,
       "reviewCount": 13,
       "reviewShare": 0.0616,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.4615,
       "negativeShare": 0.5385,
@@ -2512,7 +3290,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "very noisy",
+          "text": "when the pressure changes as I sleep, it starts squeeling",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
@@ -2526,12 +3304,13 @@
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 41,
+      "score": 24,
+      "grade": "F",
       "averageSentiment": 4.1,
       "reviewCount": 11,
       "reviewShare": 0.0521,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 8,
       "positiveShare": 0.1818,
       "negativeShare": 0.7273,
@@ -2594,12 +3373,13 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 70,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 7.0,
       "reviewCount": 9,
       "reviewShare": 0.0427,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.2222,
@@ -2636,24 +3416,24 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the straps were easily adjustable without having to take it off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
           "text": "easy to use",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
-        },
-        {
-          "text": "easy to wear",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "it does the job well enough",
+          "text": "my only wish is that the velcro straps were easier to handle",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "my only wish is that the velcro straps were easier to handle",
+          "text": "it does the job well enough",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -2662,12 +3442,13 @@
     {
       "id": "face_marks",
       "label": "Face Marks",
-      "score": 76,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.6,
       "reviewCount": 9,
       "reviewShare": 0.0427,
       "positiveReviews": 7,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.7778,
       "negativeShare": 0.1111,
@@ -2704,7 +3485,7 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "Does not leave marks on face",
+          "text": "I don't have the major lines and indentations on my face that the hard mask produces",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -2720,12 +3501,13 @@
     {
       "id": "soreness",
       "label": "Soreness",
-      "score": 44,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.4,
       "reviewCount": 9,
       "reviewShare": 0.0427,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.3333,
       "negativeShare": 0.6667,
@@ -2788,19 +3570,19 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "no more sore nose",
+          "text": "no more sore nose or cheeks",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I don't wake up with a sore face",
+          "text": "it didn't rub the bottom of my nose (top of my lip) raw",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "had trouble with the the outers making my nose sore",
+          "text": "I had sores from the nasal pillows so I did some research",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -2809,12 +3591,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 64,
+      "score": 72,
+      "grade": "B-",
       "averageSentiment": 6.4,
       "reviewCount": 9,
       "reviewShare": 0.0427,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.2222,
@@ -2862,11 +3645,12 @@
       "id": "movement_compatibility",
       "label": "Movement Compatibility",
       "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.6,
       "reviewCount": 8,
       "reviewShare": 0.0379,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.625,
       "negativeShare": 0.375,
@@ -2923,14 +3707,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "this soft mask just moves right along with me",
+          "text": "the ability to move around without worrying about the mask hitting my pillow before my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "does not move when you turn in your sleep",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+          "text": "this soft mask just moves right along with me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
@@ -2940,7 +3724,7 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "quite a bit of leakage when you move",
+          "text": "It moves around a bit because it is light and tend to toss and turn a bit",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -2949,12 +3733,13 @@
     {
       "id": "pain",
       "label": "Pain",
-      "score": 42,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 8,
       "reviewShare": 0.0379,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.375,
       "negativeShare": 0.625,
@@ -3053,12 +3838,13 @@
     {
       "id": "price",
       "label": "Price",
-      "score": 85,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.5,
       "reviewCount": 8,
       "reviewShare": 0.0379,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -3079,7 +3865,7 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "only $46.50 on sale",
+          "text": "They have the products I need at low prices",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -3089,14 +3875,15 @@
     {
       "id": "appearance",
       "label": "Appearance",
-      "score": 69,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 6.9,
       "reviewCount": 7,
       "reviewShare": 0.0332,
-      "positiveReviews": 4,
-      "mixedReviews": 3,
+      "positiveReviews": 5,
+      "neutralReviews": 2,
       "negativeReviews": 0,
-      "positiveShare": 0.5714,
+      "positiveShare": 0.7143,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3120,7 +3907,7 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "wonderful blue soft cloth mask",
+          "text": "I love the idea of the over head gear.",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -3130,14 +3917,15 @@
     {
       "id": "hose_management",
       "label": "Hose Management",
-      "score": 61,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.1,
       "reviewCount": 7,
       "reviewShare": 0.0332,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.5714,
+      "positiveShare": 0.7143,
       "negativeShare": 0.2857,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3199,12 +3987,13 @@
     {
       "id": "allergic_reaction",
       "label": "Allergic Reaction",
-      "score": 38,
+      "score": 33,
+      "grade": "F+",
       "averageSentiment": 3.8,
       "reviewCount": 6,
       "reviewShare": 0.0284,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.3333,
       "negativeShare": 0.6667,
@@ -3263,12 +4052,13 @@
     {
       "id": "cleaning",
       "label": "Cleaning",
-      "score": 73,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 7.3,
       "reviewCount": 6,
       "reviewShare": 0.0284,
       "positiveReviews": 5,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.8333,
       "negativeShare": 0.0,
@@ -3294,12 +4084,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I also use the So Clean machine to clean it every morning",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+          "text": "Comfortable, light, easy to clean,I am a fan of The advance cloth mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         },
         {
-          "text": "You can actually put it in the washing machine to clean it!",
+          "text": "I also use the So Clean machine to clean it every morning",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -3309,12 +4099,13 @@
     {
       "id": "red_marks",
       "label": "Red Marks",
-      "score": 65,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.5,
       "reviewCount": 6,
       "reviewShare": 0.0284,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -3377,12 +4168,13 @@
     {
       "id": "skin_reaction",
       "label": "Skin Reaction",
-      "score": 55,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.5,
       "reviewCount": 6,
       "reviewShare": 0.0284,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -3451,12 +4243,13 @@
     {
       "id": "airflow_direction",
       "label": "Airflow Direction",
-      "score": 26,
+      "score": 9,
+      "grade": "F-",
       "averageSentiment": 2.6,
       "reviewCount": 5,
       "reviewShare": 0.0237,
       "positiveReviews": 0,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.0,
       "negativeShare": 0.8,
@@ -3484,12 +4277,12 @@
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "It blows up by my eyes",
+          "text": "Now I can get a good night's sleep without air shooting into my eyes",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "I could not stop the air blowing at my eyes",
+          "text": "The air would blow into my eyes and wake me up",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -3498,12 +4291,13 @@
     {
       "id": "overtightening",
       "label": "Overtightening",
-      "score": 36,
+      "score": 21,
+      "grade": "F",
       "averageSentiment": 3.6,
       "reviewCount": 5,
       "reviewShare": 0.0237,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -3557,12 +4351,13 @@
     {
       "id": "skin_breakdown",
       "label": "Skin Breakdown",
-      "score": 32,
+      "score": 21,
+      "grade": "F",
       "averageSentiment": 3.2,
       "reviewCount": 5,
       "reviewShare": 0.0237,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -3648,14 +4443,15 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 77,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.7,
       "reviewCount": 49,
       "reviewShare": 0.2322,
-      "positiveReviews": 37,
-      "mixedReviews": 6,
+      "positiveReviews": 41,
+      "neutralReviews": 2,
       "negativeReviews": 6,
-      "positiveShare": 0.7551,
+      "positiveShare": 0.8367,
       "negativeShare": 0.1224,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3721,17 +4517,17 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the SleepWeaver turned out to be the best mask I've used in the ten years or so of hard masks, nasal pillows, etc....",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
           "text": "The exhale will pass through the material silently, no more Darth Vader",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "Best CPAP Mask Ever - EVER!!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        },
-        {
-          "text": "It is so quiet",
+          "text": "This is the ONLY mask I will ever wear",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -3743,12 +4539,12 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "but leaks",
+          "text": "that dug into my face every time I turned on my side",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "that dug into my face every time I turned on my side",
+          "text": "The hard plastic ones would leave break down sores",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -3757,24 +4553,25 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 90,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 9.0,
           "reviewCount": 20,
           "reviewShare": 0.0948,
           "positiveReviews": 20,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "moderate",
           "positiveEvidence": [
             {
-              "text": "Most comfortable mask..",
+              "text": "This mask is a lifesaver for sensitive skin",
               "retailer": "1800CPAP.COM",
               "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
             },
             {
-              "text": "This mask is a lifesaver for sensitive skin",
+              "text": "Love the soft mask",
               "retailer": "1800CPAP.COM",
-              "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+              "productUrl": "https://1800cpap.com/products/sleepweaver-advance-nasal-cpap-mask-kit"
             }
           ],
           "negativeEvidence": []
@@ -3782,24 +4579,25 @@
         {
           "id": "overall_satisfaction",
           "label": "Overall Satisfaction",
-          "score": 91,
+          "score": 93,
+          "grade": "A",
           "averageSentiment": 9.1,
           "reviewCount": 12,
           "reviewShare": 0.0569,
           "positiveReviews": 11,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "Best CPAP Mask Ever - EVER!!",
+              "text": "the SleepWeaver turned out to be the best mask I've used in the ten years or so of hard masks, nasal pillows, etc....",
               "retailer": "DirectHomeMedical",
               "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
             },
             {
-              "text": "A 'Winner' Mask",
-              "retailer": "1800CPAP.COM",
-              "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+              "text": "This is the ONLY mask I will ever wear",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
             }
           ],
           "negativeEvidence": [
@@ -3813,22 +4611,23 @@
         {
           "id": "fit",
           "label": "Fit",
-          "score": 74,
+          "score": 87,
+          "grade": "A-",
           "averageSentiment": 7.4,
           "reviewCount": 7,
           "reviewShare": 0.0332,
-          "positiveReviews": 5,
-          "mixedReviews": 1,
+          "positiveReviews": 6,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "The mask fits snuggly around just the nose",
+              "text": "how the \"fabric\" inflates around my nose, creates a seal and stays inflated",
               "retailer": "DirectHomeMedical",
               "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
             },
             {
-              "text": "around my nose",
+              "text": "The mask fits snuggly around just the nose",
               "retailer": "DirectHomeMedical",
               "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
             }
@@ -3844,22 +4643,23 @@
         {
           "id": "material_quality",
           "label": "Material Quality",
-          "score": 76,
+          "score": 86,
+          "grade": "A-",
           "averageSentiment": 7.6,
           "reviewCount": 7,
           "reviewShare": 0.0332,
-          "positiveReviews": 5,
-          "mixedReviews": 1,
+          "positiveReviews": 6,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "Cloth CPAP mask",
+              "text": "Using cloth to make a CPAP mask is a brilliant innovation",
               "retailer": "DirectHomeMedical",
               "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
             },
             {
-              "text": "soft fabric mask",
+              "text": "I like that there is no plastic or hard parts",
               "retailer": "DirectHomeMedical",
               "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
             }
@@ -3878,14 +4678,15 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 53,
+      "score": 55,
+      "grade": "C-",
       "averageSentiment": 5.3,
       "reviewCount": 21,
       "reviewShare": 0.0995,
-      "positiveReviews": 9,
-      "mixedReviews": 4,
+      "positiveReviews": 10,
+      "neutralReviews": 3,
       "negativeReviews": 8,
-      "positiveShare": 0.4286,
+      "positiveShare": 0.4762,
       "negativeShare": 0.381,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3946,24 +4747,24 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "The headgear is much improved from the previous model.",
+          "text": "the head harness was a three point instead of a 4 point connection that actually fit",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Kept sliding off my head",
+          "text": "I wake up with the mask on the side of my mouth",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "really bad headgear",
+          "text": "made of velcro which made it very itchy",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "It's cheaply made",
+          "text": "The top head piece just slides off",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -3972,22 +4773,23 @@
         {
           "id": "fit",
           "label": "Fit",
-          "score": 72,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 7.2,
           "reviewCount": 6,
           "reviewShare": 0.0284,
-          "positiveReviews": 5,
-          "mixedReviews": 1,
+          "positiveReviews": 6,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "improved head gear provide a much better fit",
+              "text": "the head harness was a three point instead of a 4 point connection that actually fit",
               "retailer": "DirectHomeMedical",
               "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
             },
             {
-              "text": "the head harness was a three point instead of a 4 point connection that actually fit",
+              "text": "improved head gear provide a much better fit",
               "retailer": "DirectHomeMedical",
               "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
             }
@@ -4000,12 +4802,13 @@
     {
       "id": "cushion_seal",
       "label": "Cushion Seal",
-      "score": 36,
+      "score": 25,
+      "grade": "F",
       "averageSentiment": 3.6,
       "reviewCount": 14,
       "reviewShare": 0.0664,
       "positiveReviews": 3,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 10,
       "positiveShare": 0.2143,
       "negativeShare": 0.7143,
@@ -4100,12 +4903,13 @@
         {
           "id": "seal_leak",
           "label": "Seal Leak",
-          "score": 32,
+          "score": 18,
+          "grade": "F-",
           "averageSentiment": 3.2,
           "reviewCount": 11,
           "reviewShare": 0.0521,
           "positiveReviews": 2,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 9,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -4138,12 +4942,13 @@
     {
       "id": "cloth_liner",
       "label": "Cloth Liner",
-      "score": 82,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 8.2,
       "reviewCount": 13,
       "reviewShare": 0.0616,
       "positiveReviews": 10,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 1,
       "positiveShare": 0.7692,
       "negativeShare": 0.0769,
@@ -4196,14 +5001,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "the small size fits my face and head perfectly",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-small-cloth-mask-kit"
-        },
-        {
           "text": "since it is cloth it does not irritate my skin",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "the small size fits my face and head perfectly",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-small-cloth-mask-kit"
         },
         {
           "text": "the soft cloth mask",
@@ -4232,24 +5037,25 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 87,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.7,
           "reviewCount": 6,
           "reviewShare": 0.0284,
           "positiveReviews": 6,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
+              "text": "Spoiled by the SleepWeaver Advance Cloth Nasal Mask.",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+            },
+            {
               "text": "I love how soft this mask is",
               "retailer": "1800CPAP.COM",
               "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
-            },
-            {
-              "text": "Very comfortable",
-              "retailer": "DirectHomeMedical",
-              "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
             }
           ],
           "negativeEvidence": []
@@ -4260,12 +5066,13 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 38,
+      "score": 32,
+      "grade": "F+",
       "averageSentiment": 3.8,
       "reviewCount": 11,
       "reviewShare": 0.0521,
       "positiveReviews": 3,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 7,
       "positiveShare": 0.2727,
       "negativeShare": 0.6364,
@@ -4330,7 +5137,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Could never get a seal",
+          "text": "Within a month the top of my nose was infected and weeping puss",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
@@ -4340,7 +5147,7 @@
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         },
         {
-          "text": "the gel mask had cut into the bridge of my nose",
+          "text": "Could never get a seal",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -4350,12 +5157,13 @@
         {
           "id": "seal_leak",
           "label": "Seal Leak",
-          "score": 35,
+          "score": 26,
+          "grade": "F",
           "averageSentiment": 3.5,
           "reviewCount": 8,
           "reviewShare": 0.0379,
           "positiveReviews": 2,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 6,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -4372,14 +5180,14 @@
           ],
           "negativeEvidence": [
             {
-              "text": "Could never get a seal",
-              "retailer": "DirectHomeMedical",
-              "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-            },
-            {
               "text": "I couldn’t get the mask to maintain any seal",
               "retailer": "1800CPAP.COM",
               "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+            },
+            {
+              "text": "Could never get a seal",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
             }
           ]
         }
@@ -4388,12 +5196,13 @@
     {
       "id": "fabric_headgear",
       "label": "Fabric Headgear",
-      "score": 64,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 6.4,
       "reviewCount": 10,
       "reviewShare": 0.0474,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -4415,17 +5224,17 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Very Comfortable",
+          "text": "This mask of only fabric feels like no mask st all!!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "Headgear is soft and extremely comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "Super comfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        },
-        {
-          "text": "It’s fabric is light",
+          "text": "Soft and very lightweight",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -4437,7 +5246,7 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "becomes unusable after about 1 month",
+          "text": "then it's time to throw away as the mask won't seal anymore",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
@@ -4453,14 +5262,15 @@
     {
       "id": "strap",
       "label": "Strap",
-      "score": 49,
+      "score": 46,
+      "grade": "D",
       "averageSentiment": 4.9,
       "reviewCount": 10,
       "reviewShare": 0.0474,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.3,
+      "positiveShare": 0.4,
       "negativeShare": 0.5,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4500,12 +5310,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "or leave strap-marks on my face",
+          "text": "the straps were easily adjustable without having to take it off",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "the straps were easily adjustable without having to take it off",
+          "text": "or leave strap-marks on my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
@@ -4517,17 +5327,17 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Pulling straps tighter only leaves me with impressions on my head",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        },
-        {
-          "text": "it seems to have insufficient straps to control leakage",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+          "text": "the two narrow straps from upper nose to top of forehead have stretched very loosely",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         },
         {
           "text": "i had to tighten it to the point it no longer IS commfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "Pulling straps tighter only leaves me with impressions on my head",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -4538,14 +5348,15 @@
     {
       "id": "hose",
       "label": "Hose",
-      "score": 57,
+      "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 8,
       "reviewShare": 0.0379,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 3,
-      "positiveShare": 0.375,
+      "positiveShare": 0.5,
       "negativeShare": 0.375,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4608,7 +5419,7 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "adjusting hose",
+          "text": "The hose that was included (free) hooked up to it but I needed another hose to hook it to the CPAP machine",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
@@ -4618,7 +5429,40 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
-      "praisedAspects": [],
+      "praisedAspects": [
+        {
+          "id": "hose_management",
+          "label": "Hose Management",
+          "score": 85,
+          "grade": "A-",
+          "averageSentiment": 6.7,
+          "reviewCount": 6,
+          "reviewShare": 0.0284,
+          "positiveReviews": 5,
+          "neutralReviews": 0,
+          "negativeReviews": 1,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "If you clip the hose to your shirt, the hose moves with you while you sleep",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+            },
+            {
+              "text": "I’m a side sleeper and I just tuck the hose under me",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "I would prefer that the tube go up over my head instead of pointing down",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+            }
+          ]
+        }
+      ],
       "criticizedAspects": []
     }
   ],
@@ -4626,17 +5470,18 @@
     {
       "id": "mask_body|comfort",
       "label": "Mask Body · Comfort",
-      "score": 90,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.0,
       "reviewCount": 20,
       "reviewShare": 0.0948,
       "positiveReviews": 20,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "moderate",
       "positiveEvidence": [
         {
-          "text": "Most comfortable mask..",
+          "text": "This mask is a lifesaver for sensitive skin",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         }
@@ -4650,17 +5495,18 @@
     {
       "id": "mask_body|overall_satisfaction",
       "label": "Mask Body · Overall Satisfaction",
-      "score": 91,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 9.1,
       "reviewCount": 12,
       "reviewShare": 0.0569,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Best CPAP Mask Ever - EVER!!",
+          "text": "the SleepWeaver turned out to be the best mask I've used in the ten years or so of hard masks, nasal pillows, etc....",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -4680,12 +5526,13 @@
     {
       "id": "cushion_seal|seal_leak",
       "label": "Cushion Seal · Seal Leak",
-      "score": 32,
+      "score": 18,
+      "grade": "F-",
       "averageSentiment": 3.2,
       "reviewCount": 11,
       "reviewShare": 0.0521,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 9,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4710,12 +5557,13 @@
     {
       "id": "cushion|seal_leak",
       "label": "Cushion · Seal Leak",
-      "score": 35,
+      "score": 26,
+      "grade": "F",
       "averageSentiment": 3.5,
       "reviewCount": 8,
       "reviewShare": 0.0379,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4727,9 +5575,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Could never get a seal",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+          "text": "I couldn’t get the mask to maintain any seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         }
       ],
       "partId": "cushion",
@@ -4740,17 +5588,18 @@
     {
       "id": "mask_body|fit",
       "label": "Mask Body · Fit",
-      "score": 74,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.4,
       "reviewCount": 7,
       "reviewShare": 0.0332,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "The mask fits snuggly around just the nose",
+          "text": "how the \"fabric\" inflates around my nose, creates a seal and stays inflated",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -4770,17 +5619,18 @@
     {
       "id": "mask_body|material_quality",
       "label": "Mask Body · Material Quality",
-      "score": 76,
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.6,
       "reviewCount": 7,
       "reviewShare": 0.0332,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Cloth CPAP mask",
+          "text": "Using cloth to make a CPAP mask is a brilliant innovation",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -4800,19 +5650,20 @@
     {
       "id": "cloth_liner|comfort",
       "label": "Cloth Liner · Comfort",
-      "score": 87,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.7,
       "reviewCount": 6,
       "reviewShare": 0.0284,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "I love how soft this mask is",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+          "text": "Spoiled by the SleepWeaver Advance Cloth Nasal Mask.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [],
@@ -4824,17 +5675,18 @@
     {
       "id": "headgear|fit",
       "label": "Headgear · Fit",
-      "score": 72,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.2,
       "reviewCount": 6,
       "reviewShare": 0.0284,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "improved head gear provide a much better fit",
+          "text": "the head harness was a three point instead of a 4 point connection that actually fit",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -4848,12 +5700,13 @@
     {
       "id": "hose|hose_management",
       "label": "Hose · Hose Management",
-      "score": 67,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 6.7,
       "reviewCount": 6,
       "reviewShare": 0.0284,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4878,12 +5731,13 @@
     {
       "id": "mask_body|noise",
       "label": "Mask Body · Noise",
-      "score": 70,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 7.0,
       "reviewCount": 5,
       "reviewShare": 0.0237,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4908,12 +5762,13 @@
     {
       "id": "mask_body|seal_leak",
       "label": "Mask Body · Seal Leak",
-      "score": 74,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 5,
       "reviewShare": 0.0237,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4925,7 +5780,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "but leaks",
+          "text": "then as soon as you move it leaks",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -4940,12 +5795,13 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 72,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 22,
       "reviewShare": 0.1043,
       "positiveReviews": 17,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.7727,
       "negativeShare": 0.1818,
@@ -4998,14 +5854,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "this soft mask just moves right along with me",
+          "text": "I can sleep on my back or side with no problems",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "I can also sleep on my side without trouble",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+          "text": "This mask of only fabric feels like no mask st all!!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -5029,12 +5885,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 41,
+      "score": 24,
+      "grade": "F",
       "averageSentiment": 4.1,
       "reviewCount": 18,
       "reviewShare": 0.0853,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 14,
       "positiveShare": 0.2222,
       "negativeShare": 0.7778,
@@ -5092,7 +5949,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "It snuggles on my face when I move",
+          "text": "the ability to move around without worrying about the mask hitting my pillow before my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
@@ -5109,7 +5966,7 @@
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         },
         {
-          "text": "then as soon as you move it leaks",
+          "text": "I could not maintain the correct alignment once I fell asleep",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -5119,18 +5976,19 @@
         "restless_sleeping",
         "tossing_turning"
       ],
-      "classification": "mixed",
+      "classification": "unfavorable",
       "limitedEvidence": false
     },
     {
       "id": "long-term-users",
       "label": "Long-term CPAP users",
-      "score": 85,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.5,
       "reviewCount": 9,
       "reviewShare": 0.0427,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -5146,12 +6004,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I love it!",
+          "text": "of all the masks I've tried this is the most comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "of all the masks I've tried this is the most comfortable",
+          "text": "this is the first mask that has been truly comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -5166,12 +6024,13 @@
     {
       "id": "stomach-sleepers",
       "label": "Stomach sleepers",
-      "score": 86,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.6,
       "reviewCount": 9,
       "reviewShare": 0.0427,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -5209,7 +6068,7 @@
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         },
         {
-          "text": "Best mask for side / stomach sleeping",
+          "text": "I love that I can sleep on my face with this mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -5225,12 +6084,13 @@
     {
       "id": "smaller-features",
       "label": "People with smaller facial features",
-      "score": 65,
+      "score": 67,
+      "grade": "C+",
       "averageSentiment": 6.5,
       "reviewCount": 7,
       "reviewShare": 0.0332,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.5714,
       "negativeShare": 0.2857,
@@ -5288,7 +6148,7 @@
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-small-cloth-mask-kit"
         },
         {
-          "text": "It is perfect for my small head",
+          "text": "I am only 4'11\" tall and have a proportionately small face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -5316,12 +6176,13 @@
     {
       "id": "sensitive-skin",
       "label": "People with sensitive skin",
-      "score": 80,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 8.0,
       "reviewCount": 5,
       "reviewShare": 0.0237,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -5374,9 +6235,9 @@
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         },
         {
-          "text": "I have very sensitive skin",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
+          "text": "I recommend to anybody that has facial irritation from cpap masks",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -5398,17 +6259,18 @@
     {
       "id": "side-sleepers|sleep_position_compatibility",
       "label": "Side sleepers · Sleep Position Compatibility",
-      "score": 81,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 8.1,
       "reviewCount": 14,
       "reviewShare": 0.0664,
       "positiveReviews": 13,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "I can also sleep on my side without trouble",
+          "text": "I can sleep on my back or side with no problems",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -5428,12 +6290,13 @@
     {
       "id": "active-sleepers|seal_leak",
       "label": "Active or restless sleepers · Seal Leak",
-      "score": 37,
+      "score": 16,
+      "grade": "F-",
       "averageSentiment": 3.7,
       "reviewCount": 7,
       "reviewShare": 0.0332,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5445,7 +6308,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "then as soon as you move it leaks",
+          "text": "any head or face movement caused it to leak",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -5458,12 +6321,13 @@
     {
       "id": "smaller-features|fit",
       "label": "People with smaller facial features · Fit",
-      "score": 66,
+      "score": 67,
+      "grade": "C+",
       "averageSentiment": 6.6,
       "reviewCount": 7,
       "reviewShare": 0.0332,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5488,17 +6352,18 @@
     {
       "id": "stomach-sleepers|sleep_position_compatibility",
       "label": "Stomach sleepers · Sleep Position Compatibility",
-      "score": 84,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 7,
       "reviewShare": 0.0332,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Best mask for side / stomach sleeping",
+          "text": "I love that I can sleep on my face with this mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -5512,19 +6377,20 @@
     {
       "id": "active-sleepers|movement_compatibility",
       "label": "Active or restless sleepers · Movement Compatibility",
-      "score": 60,
+      "score": 54,
+      "grade": "D+",
       "averageSentiment": 6.0,
       "reviewCount": 6,
       "reviewShare": 0.0284,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "does not move when you turn in your sleep",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+          "text": "the ability to move around without worrying about the mask hitting my pillow before my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
@@ -5543,17 +6409,20 @@
   "bestFor": [
     "side-sleepers"
   ],
-  "mayNotSuit": [],
+  "mayNotSuit": [
+    "active-sleepers"
+  ],
   "bodySites": [
     {
       "id": "eyes",
       "label": "Eyes",
-      "score": 29,
+      "score": 14,
+      "grade": "F-",
       "averageSentiment": 2.9,
       "reviewCount": 17,
       "reviewShare": 0.0806,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 14,
       "positiveShare": 0.1176,
       "negativeShare": 0.8235,
@@ -5613,7 +6482,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "It leaks at the top into my eyes",
+          "text": "if you roll to one side or the other as i often have to do at night the seal completely breaks",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
@@ -5623,7 +6492,7 @@
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         },
         {
-          "text": "if you roll to one side or the other as i often have to do at night the seal completely breaks",
+          "text": "It leaks at the top into my eyes",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -5674,12 +6543,13 @@
     {
       "id": "face",
       "label": "Face",
-      "score": 67,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 41,
       "reviewShare": 0.1943,
       "positiveReviews": 28,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 13,
       "positiveShare": 0.6829,
       "negativeShare": 0.3171,
@@ -5747,19 +6617,19 @@
       ],
       "positiveEvidence": [
         {
-          "text": "the small size fits my face and head perfectly",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-small-cloth-mask-kit"
-        },
-        {
           "text": "SOOOO nice not to have any hard - hardware parts pressing into my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "Best money spent",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/sleepweaver-advance-cpap-mask-by-circadiance"
+          "text": "the small size fits my face and head perfectly",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-small-cloth-mask-kit"
+        },
+        {
+          "text": "It leaves no marks (yaaaay)",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
@@ -5769,14 +6639,14 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "that dug into my face every time I turned on my side",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        },
-        {
           "text": "I hate the feeling of silicone on the face.. it just feels so unnatural",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        },
+        {
+          "text": "that dug into my face every time I turned on my side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "complaintReviews": 13,
@@ -5840,14 +6710,15 @@
     {
       "id": "nose",
       "label": "Nose",
-      "score": 54,
+      "score": 56,
+      "grade": "C-",
       "averageSentiment": 5.4,
       "reviewCount": 26,
       "reviewShare": 0.1232,
-      "positiveReviews": 11,
-      "mixedReviews": 5,
+      "positiveReviews": 13,
+      "neutralReviews": 3,
       "negativeReviews": 10,
-      "positiveShare": 0.4231,
+      "positiveShare": 0.5,
       "negativeShare": 0.3846,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -5908,17 +6779,17 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The mask fits snuggly around just the nose",
+          "text": "Once this is snugged up with a wiggle around the nose it will not leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        },
+        {
+          "text": "how the \"fabric\" inflates around my nose, creates a seal and stays inflated",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
           "text": "I have no rings around my nose from the mask pressure",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        },
-        {
-          "text": "around my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -5930,12 +6801,12 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "No amount of adjusting would stop the leaking",
+          "text": "I could not keep the air from escaping around the nose guard no matter what I tried",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "I've got a small nose",
+          "text": "I couldn’t make it stay in a place that I could sleep with it..",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -6001,12 +6872,13 @@
     {
       "id": "nose_bridge",
       "label": "Nose Bridge",
-      "score": 32,
+      "score": 21,
+      "grade": "F",
       "averageSentiment": 3.2,
       "reviewCount": 7,
       "reviewShare": 0.0332,
       "positiveReviews": 1,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 5,
       "positiveShare": 0.1429,
       "negativeShare": 0.7143,
@@ -6071,7 +6943,7 @@
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
         {
-          "text": "leaks at bridge of nose",
+          "text": "Does not seal over bridge of the nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -6122,12 +6994,13 @@
     {
       "id": "head",
       "label": "Head",
-      "score": 52,
+      "score": 47,
+      "grade": "D",
       "averageSentiment": 5.2,
       "reviewCount": 9,
       "reviewShare": 0.0427,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.4444,
       "negativeShare": 0.5556,
@@ -6192,7 +7065,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Kept sliding off my head",
+          "text": "The top strap kept sliding off my head",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         },
@@ -6256,195 +7129,179 @@
       ]
     }
   ],
-  "interactionSummary": [],
-  "interactionInsights": [],
-  "strengths": [
+  "interactionSummary": [
+    "The clearest favorable pattern was that mask body interaction with the face leaned favorable (5 positive versus 2 negative reports)."
+  ],
+  "interactionInsights": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 77,
-      "averageSentiment": 7.7,
-      "reviewCount": 83,
-      "reviewShare": 0.3934,
-      "positiveReviews": 65,
-      "mixedReviews": 2,
-      "negativeReviews": 16,
-      "positiveShare": 0.7831,
-      "negativeShare": 0.1928,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Best mask by far!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "This thing is a joke",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 39,
-      "reviewShare": 0.1848,
-      "positiveReviews": 33,
-      "mixedReviews": 2,
-      "negativeReviews": 4,
-      "positiveShare": 0.8462,
-      "negativeShare": 0.1026,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "So comfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "couldn't tolerate the large, heavy, confining masks commonly used",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        }
-      ]
-    },
-    {
-      "id": "|||therapy_effectiveness",
-      "label": "Therapy Effectiveness",
-      "score": 78,
-      "averageSentiment": 7.8,
-      "reviewCount": 16,
-      "reviewShare": 0.0758,
-      "positiveReviews": 14,
-      "mixedReviews": 0,
+      "id": "body|mask_body|face|comfort_discomfort",
+      "label": "Mask Body at Face: Comfort and Discomfort",
+      "score": 72,
+      "grade": "B-",
+      "averageSentiment": 6.7,
+      "reviewCount": 7,
+      "reviewShare": 0.0332,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.875,
-      "negativeShare": 0.125,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "for the first time in 10 year I have found the solution for my sleep issues",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "No use being comfortable if the air won't stop leaking",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        }
-      ]
-    },
-    {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 78,
-      "averageSentiment": 7.8,
-      "reviewCount": 16,
-      "reviewShare": 0.0758,
-      "positiveReviews": 13,
-      "mixedReviews": 1,
-      "negativeReviews": 2,
-      "positiveShare": 0.8125,
-      "negativeShare": 0.125,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I actually sleep all night",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Keeps waking me up",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        }
-      ]
-    },
-    {
-      "id": "||side_sleeping|sleep_position_compatibility",
-      "label": "Side Sleeping · Sleep Position Compatibility",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 14,
-      "reviewShare": 0.0664,
-      "positiveReviews": 13,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.9286,
-      "negativeShare": 0.0714,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [
-        {
-          "id": "side_sleeping",
-          "label": "Side Sleeping",
-          "reviewCount": 14
-        }
-      ],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I can also sleep on my side without trouble",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I am a slide sleeper",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        }
-      ]
-    },
-    {
-      "id": "mask_body|||comfort",
-      "label": "Mask Body · Comfort",
-      "score": 89,
-      "averageSentiment": 8.9,
-      "reviewCount": 13,
-      "reviewShare": 0.0616,
-      "positiveReviews": 13,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "mask_body",
           "label": "Mask Body",
-          "reviewCount": 13
+          "reviewCount": 7
         }
       ],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 7
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "Most comfortable mask..",
+          "text": "I don't have the major lines and indentations on my face that the hard mask produces",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "that dug into my face every time I turned on my side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "kind": "body-component",
+      "contextId": null,
+      "contextLabel": null,
+      "aspectId": "comfort_discomfort",
+      "aspectLabel": "Comfort and Discomfort",
+      "outcomeAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 4
+        },
+        {
+          "id": "face_marks",
+          "label": "Face Marks",
+          "reviewCount": 2
+        },
+        {
+          "id": "pain",
+          "label": "Pain",
+          "reviewCount": 1
+        },
+        {
+          "id": "red_marks",
+          "label": "Red Marks",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin_breakdown",
+          "label": "Skin Breakdown",
+          "reviewCount": 1
+        },
+        {
+          "id": "soreness",
+          "label": "Soreness",
+          "reviewCount": 1
+        }
+      ],
+      "parts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 7
+        }
+      ],
+      "bodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 7
+        }
+      ],
+      "contexts": [],
+      "tone": "favorable",
+      "description": "Reports about the mask body where it contacts the face were mostly favorable for comfort and discomfort: 5 positive, 0 neutral, and 2 negative across 7 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
+    }
+  ],
+  "strengths": [
+    {
+      "id": "part|mask_body|comfort",
+      "label": "Mask Body · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 9.0,
+      "reviewCount": 20,
+      "reviewShare": 0.0948,
+      "positiveReviews": 20,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 20
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "night_sweats",
+          "label": "Night Sweats",
+          "reviewCount": 1
+        },
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 4
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This mask is a lifesaver for sensitive skin",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
         }
@@ -6452,117 +7309,212 @@
       "negativeEvidence": []
     },
     {
-      "id": "|||weight",
-      "label": "Weight",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 13,
-      "reviewShare": 0.0616,
-      "positiveReviews": 13,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "It is the lightest most comfortable mask I have used",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "mask_body|||overall_satisfaction",
-      "label": "Mask Body · Overall Satisfaction",
-      "score": 91,
-      "averageSentiment": 9.1,
+      "id": "site|face|comfort",
+      "label": "Face · Comfort",
+      "score": 89,
+      "grade": "A-",
+      "averageSentiment": 7.9,
       "reviewCount": 12,
       "reviewShare": 0.0569,
-      "positiveReviews": 11,
-      "mixedReviews": 0,
+      "positiveReviews": 10,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.9167,
+      "positiveShare": 0.8333,
       "negativeShare": 0.0833,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "mask_body",
           "label": "Mask Body",
+          "reviewCount": 4
+        },
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 2
+        },
+        {
+          "id": "hard_frame",
+          "label": "Hard Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
           "reviewCount": 12
         }
       ],
-      "associatedContexts": [],
-      "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Best CPAP Mask Ever - EVER!!",
+          "text": "SOOOO nice not to have any hard - hardware parts pressing into my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "This mask is a very good idea that just doesn't work for me",
+          "text": "I hate the feeling of silicone on the face.. it just feels so unnatural",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "part|mask_body|fit",
+      "label": "Mask Body · Fit",
+      "score": 87,
+      "grade": "A-",
+      "averageSentiment": 7.4,
+      "reviewCount": 7,
+      "reviewShare": 0.0332,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "large_nose",
+          "label": "Large Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "how the \"fabric\" inflates around my nose, creates a seal and stays inflated",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Childrens hospital couldnt find a mask that would fit her small face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
       ]
     },
     {
-      "id": "|||price",
-      "label": "Price",
-      "score": 85,
-      "averageSentiment": 8.5,
-      "reviewCount": 6,
-      "reviewShare": 0.0284,
-      "positiveReviews": 6,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "great price",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "mask_body|||material_quality",
+      "id": "part|mask_body|material_quality",
       "label": "Mask Body · Material Quality",
-      "score": 85,
-      "averageSentiment": 8.5,
-      "reviewCount": 6,
-      "reviewShare": 0.0284,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
-      "negativeReviews": 0,
-      "positiveShare": 0.8333,
-      "negativeShare": 0.0,
+      "score": 86,
+      "grade": "A-",
+      "averageSentiment": 7.6,
+      "reviewCount": 7,
+      "reviewShare": 0.0332,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.1429,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "mask_body",
           "label": "Mask Body",
-          "reviewCount": 6
+          "reviewCount": 7
         }
       ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "Cloth CPAP mask",
+          "text": "Using cloth to make a CPAP mask is a brilliant innovation",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The nose is just plastic or a cheap canvas",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "part|cloth_liner|comfort",
+      "label": "Cloth Liner · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0284,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "new_cpap_user",
+          "label": "New CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Spoiled by the SleepWeaver Advance Cloth Nasal Mask.",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -6570,30 +7522,260 @@
       "negativeEvidence": []
     },
     {
-      "id": "||stomach_sleeping|sleep_position_compatibility",
-      "label": "Stomach Sleeping · Sleep Position Compatibility",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 5,
-      "reviewShare": 0.0237,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
+      "id": "part|headgear|fit",
+      "label": "Headgear · Fit",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 7.2,
+      "reviewCount": 6,
+      "reviewShare": 0.0284,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the head harness was a three point instead of a 4 point connection that actually fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "site|face|face_marks",
+      "label": "Face · Face Marks",
+      "score": 80,
+      "grade": "B+",
+      "averageSentiment": 7.4,
+      "reviewCount": 7,
+      "reviewShare": 0.0332,
+      "positiveReviews": 5,
+      "neutralReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 2
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 7
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It leaves no marks (yaaaay)",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "left terrible marks on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "site|face|fit",
+      "label": "Face · Fit",
+      "score": 75,
+      "grade": "B",
+      "averageSentiment": 7.3,
+      "reviewCount": 7,
+      "reviewShare": 0.0332,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cloth_liner",
+          "label": "Cloth Liner",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
       "associatedContexts": [
         {
-          "id": "stomach_sleeping",
-          "label": "Stomach Sleeping",
+          "id": "small_face",
+          "label": "Small Face",
+          "reviewCount": 2
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "combination_sleeping",
+          "label": "Combination Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "large_face",
+          "label": "Large Face",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 7
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the small size fits my face and head perfectly",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-small-cloth-mask-kit"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "due I assume to my facial contours and sleep movements",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "site|nose|fit",
+      "label": "Nose · Fit",
+      "score": 80,
+      "grade": "B+",
+      "averageSentiment": 7.1,
+      "reviewCount": 7,
+      "reviewShare": 0.0332,
+      "positiveReviews": 5,
+      "neutralReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 4
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "large_nose",
+          "label": "Large Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 7
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "how the \"fabric\" inflates around my nose, creates a seal and stays inflated",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I've got a small nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ]
+    },
+    {
+      "id": "part|hose|hose_management",
+      "label": "Hose · Hose Management",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 7.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0237,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "hose",
+          "label": "Hose",
           "reviewCount": 5
         }
       ],
-      "associatedBodySites": [],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "Best mask for side / stomach sleeping",
+          "text": "If you clip the hose to your shirt, the hose moves with you while you sleep",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
         }
@@ -6601,7 +7783,180 @@
       "negativeEvidence": []
     }
   ],
-  "concerns": [],
+  "concerns": [
+    {
+      "id": "part|cushion_seal|seal_leak",
+      "label": "Cushion Seal · Seal Leak",
+      "score": 18,
+      "grade": "F-",
+      "averageSentiment": 3.2,
+      "reviewCount": 11,
+      "reviewShare": 0.0521,
+      "positiveReviews": 2,
+      "neutralReviews": 0,
+      "negativeReviews": 9,
+      "positiveShare": 0.1818,
+      "negativeShare": 0.8182,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 11
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 2
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Mask seals properly so leaks are minimized",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the seal was nonexistent",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "part|cushion|seal_leak",
+      "label": "Cushion · Seal Leak",
+      "score": 26,
+      "grade": "F",
+      "averageSentiment": 3.5,
+      "reviewCount": 8,
+      "reviewShare": 0.0379,
+      "positiveReviews": 2,
+      "neutralReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.25,
+      "negativeShare": 0.75,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 8
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        },
+        {
+          "id": "under_nose",
+          "label": "Under Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Once this is snugged up with a wiggle around the nose it will not leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I couldn’t get the mask to maintain any seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "site|eyes|seal_leak",
+      "label": "Eyes · Seal Leak",
+      "score": 7,
+      "grade": "F-",
+      "averageSentiment": 2.2,
+      "reviewCount": 6,
+      "reviewShare": 0.0284,
+      "positiveReviews": 0,
+      "neutralReviews": 1,
+      "negativeReviews": 5,
+      "positiveShare": 0.0,
+      "negativeShare": 0.8333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 6
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "I couldn’t get the mask to maintain any seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+        }
+      ]
+    }
+  ],
   "retailers": [
     {
       "retailer": "DirectHomeMedical",
@@ -6631,34 +7986,34 @@
   "evidence": {
     "positive": [
       {
-        "text": "So comfortable",
+        "text": "the SleepWeaver turned out to be the best mask I've used in the ten years or so of hard masks, nasal pillows, etc....",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
       },
       {
-        "text": "The exhale will pass through the material silently, no more Darth Vader",
+        "text": "for the first time in 10 year I have found the solution for my sleep issues",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
       },
       {
-        "text": "the small size fits my face and head perfectly",
+        "text": "SOOOO nice not to have any hard - hardware parts pressing into my face",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+      },
+      {
+        "text": "It does not cause skin irritation like all of the other mask I've tried",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+      },
+      {
+        "text": "I've worn this mask for several years, and am never disappointed in it.",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+      },
+      {
+        "text": "I've tried a few others and this one is the best so far",
         "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/sleepweaver-advance-small-cloth-mask-kit"
-      },
-      {
-        "text": "Best mask by far!",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-      },
-      {
-        "text": "Finally found it, one that works for me!",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-      },
-      {
-        "text": "Love. Love it!",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/sleepweaver-advance-nasal-cpap-mask-kit"
+        "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
       }
     ],
     "negative": [
@@ -6668,36 +8023,36 @@
         "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
       },
       {
+        "text": "if you roll to one side or the other as i often have to do at night the seal completely breaks",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+      },
+      {
+        "text": "I developed a skin allergy several years ago and I could no longer tolerate wearing silicone masks",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask"
+      },
+      {
+        "text": "I can no longer wear a silicone mask due to it causes a rash on my face",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
+      },
+      {
         "text": "it leaked very badly around the bottom of the mask at the side of my nose",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
       },
       {
-        "text": "It collapsed as soon as I put on",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-      },
-      {
-        "text": "Could never get a seal",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-      },
-      {
-        "text": "So disappointed",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
-      },
-      {
-        "text": "cannot get the thing to seal",
+        "text": "Within a month the top of my nose was infected and weeping puss",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-cpap-bipap-mask-circadiance"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

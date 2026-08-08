@@ -1,8 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "fisher-paykel-flexifit-405",
   "name": "Fisher & Paykel FlexiFit 405",
   "catalogOrder": 57,
+  "search": {
+    "aliases": [
+      "FlexiFit 405 Nasal CPAP Mask",
+      "FlexiFit 405 Nasal CPAP Mask FitPack with Headgear"
+    ],
+    "abbreviations": [
+      "F&P",
+      "FP",
+      "Fisher Paykel"
+    ],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 74,
@@ -13,30 +27,33 @@
     "reviewDateEnd": "2026-05-30"
   },
   "overall": {
-    "compositeScore": 84,
+    "score": 85,
+    "grade": "A-",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.43,
-      "score": 89,
+      "score": 86,
       "reviewCount": 74,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 7.7,
       "score": 77,
       "reviewCount": 28,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 78,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.8,
       "reviewCount": 14,
       "reviewShare": 0.1892,
       "positiveReviews": 11,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.7857,
       "negativeShare": 0.1429,
@@ -73,7 +90,47 @@
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
         {
+          "text": "this mask is the most comfortable mask I have found",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "This is the most comfortable mask I owned",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "very comfortable to sleep in",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-405-nasal-cpap-mask"
+        },
+        {
+          "text": "Comfort at its Finest",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "comfortable while sleeping",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Very comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "verycomfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-405-nasal-cpap-mask"
+        },
+        {
+          "text": "the mask is comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "stays in place comfortably",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
@@ -94,12 +151,13 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 61,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 6.1,
       "reviewCount": 15,
       "reviewShare": 0.2027,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -165,6 +223,41 @@
           "text": "fits perfect",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it fits just right",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Easy to adjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Very good fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "good fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "One Size",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-405-nasal-cpap-mask"
+        },
+        {
+          "text": "fits",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "would recommend to anyone with an average size nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-405-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -177,20 +270,41 @@
           "text": "Have to really tighten the straps which in turn leaves marks on your face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "without having to tighten the straps so much",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "It was too latge for my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "No matter how I adjust the headgear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "A medium sized nose piece would be good to add",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 43,
+      "score": 37,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 11,
       "reviewShare": 0.1486,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 7,
-      "positiveShare": 0.2727,
+      "positiveShare": 0.3636,
       "negativeShare": 0.6364,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -234,16 +348,51 @@
           "text": "seals great for me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "IT HAS A FILTERED AIR RELEASE TO KEEP IT QUIET AND PREVENT LEAKING",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "It leaks sometimes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "The seal doesn't seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
         {
           "text": "very poor seal",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "The seal doesn't seal",
+          "text": "This mask will not seal for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "It leaks air with any movement",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Could not get a good seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The mask still leaks air",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I do wish that could find a way to keep air from leaking in certain positions though",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
@@ -251,13 +400,14 @@
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 55,
+      "label": "Stability",
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.5,
       "reviewCount": 6,
       "reviewShare": 0.0811,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -310,17 +460,27 @@
       ],
       "positiveEvidence": [
         {
-          "text": "stays that way during the night",
+          "text": "He used to thrash around in his sleep, kicking and punching the air",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "He used to thrash around in his sleep, kicking and punching the air",
+          "text": "It keeps the mask in place no matter how I turn",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "stays that way during the night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "waking up and removing it in the middle of the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
         {
           "text": "the mask continually comes loose at the Velcro points",
           "retailer": "DirectHomeMedical",
@@ -335,15 +495,16 @@
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 78,
+      "label": "Ease of Use",
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.8,
       "reviewCount": 5,
       "reviewShare": 0.0676,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -373,7 +534,22 @@
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
         {
+          "text": "I didn't have to mess with a bunch of different sizes",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-405-nasal-cpap-mask"
+        },
+        {
+          "text": "It is simple to apply to my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "Purchasing and delivery easy as could be",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "It came with a head strap",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
@@ -383,12 +559,13 @@
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 53,
+      "score": 44,
+      "grade": "D-",
       "averageSentiment": 5.3,
       "reviewCount": 5,
       "reviewShare": 0.0676,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -420,12 +597,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "is very quiet",
+          "text": "IT HAS A FILTERED AIR RELEASE TO KEEP IT QUIET",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "IT HAS A FILTERED AIR RELEASE TO KEEP IT QUIET",
+          "text": "is very quiet",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
@@ -440,20 +617,26 @@
           "text": "I am finding it more difficult to breathe",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "blows air in my eye occasionally",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 67,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 6.7,
       "reviewCount": 8,
       "reviewShare": 0.1081,
-      "positiveReviews": 5,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.625,
+      "positiveShare": 0.875,
       "negativeShare": 0.125,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -493,9 +676,34 @@
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
         {
+          "text": "I have had this model C-Pap for 10 years",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "We have used this model for several years",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I have used this mask for several years",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "It is well made",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Good quality",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I need to replace these every 3 months",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-405-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -514,12 +722,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 76,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 7.6,
       "reviewCount": 12,
       "reviewShare": 0.1622,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9167,
       "negativeShare": 0.0833,
@@ -540,7 +749,47 @@
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
         {
+          "text": "amazing price",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "price",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "For the price I find it hard to beat",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it is inexpensive compared to other brands",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-405-nasal-cpap-mask"
+        },
+        {
+          "text": "For the price you can't go wrong",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "an extra cushion and seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "happy wilts the price!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Great price",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Very affordable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
@@ -556,12 +805,13 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 58,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 5.8,
       "reviewCount": 8,
       "reviewShare": 0.1081,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.625,
       "negativeShare": 0.375,
@@ -588,12 +838,27 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I have had this model C-Pap for 10 years and it has worked very well for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "he is sleeping more soundly than he has in months",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "I have had this model C-Pap for 10 years and it has worked very well for me",
+          "text": "He can breathe better now with the new mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "works as described",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Always nice to get to sleep with a new mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
@@ -608,6 +873,11 @@
           "text": "It has setback my sleep time significantly",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Not a good way to spend the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
       ]
     }
@@ -616,14 +886,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 77,
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.7,
       "reviewCount": 28,
       "reviewShare": 0.3784,
-      "positiveReviews": 23,
-      "mixedReviews": 1,
+      "positiveReviews": 24,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.8214,
+      "positiveShare": 0.8571,
       "negativeShare": 0.1429,
       "evidenceStrength": "moderate",
       "associatedParts": [],
@@ -642,7 +913,7 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Perfect mask",
+          "text": "Sweet Dreams.... Are made from wearing this mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
@@ -659,7 +930,7 @@
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "I hate it",
+          "text": "Wish I sent it back",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
@@ -668,12 +939,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 82,
+      "score": 90,
+      "grade": "A",
       "averageSentiment": 8.2,
       "reviewCount": 13,
       "reviewShare": 0.1757,
       "positiveReviews": 11,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.8462,
       "negativeShare": 0.0769,
@@ -705,7 +977,7 @@
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "This is the most comfortable mask I owned",
+          "text": "this mask is the most comfortable mask I have found",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
@@ -721,12 +993,13 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 59,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.9,
       "reviewCount": 12,
       "reviewShare": 0.1622,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.5833,
       "negativeShare": 0.4167,
@@ -800,14 +1073,15 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 43,
+      "score": 37,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 11,
       "reviewShare": 0.1486,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 7,
-      "positiveShare": 0.2727,
+      "positiveShare": 0.3636,
       "negativeShare": 0.6364,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -855,12 +1129,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "very poor seal",
+          "text": "The seal doesn't seal",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "The seal doesn't seal",
+          "text": "very poor seal",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
@@ -869,12 +1143,13 @@
     {
       "id": "price",
       "label": "Price",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 6,
       "reviewShare": 0.0811,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -884,12 +1159,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "price",
+          "text": "amazing price",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "amazing price",
+          "text": "price",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
@@ -899,12 +1174,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 70,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 6,
       "reviewShare": 0.0811,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -919,7 +1195,7 @@
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Great price",
+          "text": "For the price I find it hard to beat",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         }
@@ -935,12 +1211,13 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 66,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 5,
       "reviewShare": 0.0676,
       "positiveReviews": 3,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.6,
       "negativeShare": 0.2,
@@ -962,7 +1239,7 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "The mask is identical to my old mask",
+          "text": "I have tried others and I keep going back to my flexfit 405 it’s just the one that I liked most",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
         },
@@ -990,151 +1267,7 @@
   "bodySites": [],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 76,
-      "averageSentiment": 7.6,
-      "reviewCount": 25,
-      "reviewShare": 0.3378,
-      "positiveReviews": 20,
-      "mixedReviews": 1,
-      "negativeReviews": 4,
-      "positiveShare": 0.8,
-      "negativeShare": 0.16,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Perfect mask",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "This is a bad product",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 10,
-      "reviewShare": 0.1351,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
-      "negativeReviews": 1,
-      "positiveShare": 0.8,
-      "negativeShare": 0.1,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "This is the most comfortable mask I have ever worn",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "It isn't as comfortable as the eson that I am accustomed to",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
-        }
-      ]
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 90,
-      "averageSentiment": 9.0,
-      "reviewCount": 6,
-      "reviewShare": 0.0811,
-      "positiveReviews": 6,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Awesome Fit",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||price",
-      "label": "Price",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 6,
-      "reviewShare": 0.0811,
-      "positiveReviews": 6,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "price",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||value",
-      "label": "Value",
-      "score": 70,
-      "averageSentiment": 7.0,
-      "reviewCount": 6,
-      "reviewShare": 0.0811,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.8333,
-      "negativeShare": 0.1667,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Great value",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Please do not wait you money on this product",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
-        }
-      ]
-    }
-  ],
+  "strengths": [],
   "concerns": [],
   "retailers": [
     {
@@ -1157,12 +1290,22 @@
   "evidence": {
     "positive": [
       {
-        "text": "Awesome Fit",
+        "text": "This is the most comfortable mask I have ever worn",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
       },
       {
-        "text": "Perfect mask",
+        "text": "this mask is the most comfortable mask I have found",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "Sweet Dreams.... Are made from wearing this mask",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "This is the most comfortable mask I owned",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
       },
@@ -1172,24 +1315,14 @@
         "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
       },
       {
-        "text": "fits perfect",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
-      },
-      {
-        "text": "Best ever",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
-      },
-      {
-        "text": "Sweet Dreams.... Are made from wearing this mask",
+        "text": "Awesome Fit",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
       }
     ],
     "negative": [
       {
-        "text": "This is a bad product",
+        "text": "Please do not wait you money on this product",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
       },
@@ -1199,17 +1332,12 @@
         "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
       },
       {
-        "text": "very poor seal",
+        "text": "Wish I sent it back",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
       },
       {
-        "text": "The seal doesn't seal",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
-      },
-      {
-        "text": "Not the one",
+        "text": "I am not using it",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
       },
@@ -1217,13 +1345,18 @@
         "text": "Have to really tighten the straps which in turn leaves marks on your face",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "My face looks like a jigsaw puzzle when I first get up",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

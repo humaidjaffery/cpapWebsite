@@ -1,8 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "philips-respironics-wisp-pediatric",
   "name": "Philips Respironics Wisp Pediatric",
   "catalogOrder": 91,
+  "search": {
+    "aliases": [
+      "Philips | Wisp Pediatric Nasal CPAP Mask",
+      "Wisp Pediatric CPAP Mask Frame",
+      "Wisp Pediatric Nasal CPAP Mask Fit Pack",
+      "Wisp Pediatric Nasal CPAP Mask with Headgear - Fit Pack"
+    ],
+    "abbreviations": [
+      "PR",
+      "Philips",
+      "Respironics"
+    ],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 7,
@@ -13,18 +29,20 @@
     "reviewDateEnd": "2025-12-17"
   },
   "overall": {
-    "compositeScore": null,
+    "score": 96,
+    "grade": "A+",
+    "calculation": "star rating only; insufficient review-text satisfaction evidence",
     "ratingComponent": {
       "average": 4.86,
-      "score": 97,
+      "score": 96,
       "reviewCount": 7,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 9.2,
       "score": 92,
       "reviewCount": 4,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [],
@@ -74,9 +92,9 @@
         "productUrl": "https://www.cpap.com/products/wisp-pediatric-nasal-cpap-mask-with-headgear-fit-pack?variant=49041050698044"
       },
       {
-        "text": "The headgear is very adjustable",
+        "text": "Great that it came with 3 different cushion sizes",
         "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/wisp-pediatric-nasal-cpap-mask-fit-pack"
+        "productUrl": "https://1800cpap.com/products/wisp-pediatric-cpap-mask-frame"
       },
       {
         "text": "Finally found a mask for my little one",
@@ -89,9 +107,9 @@
         "productUrl": "https://www.respshop.com/products/philips-wisp-pediatric-nasal-cpap-mask"
       },
       {
-        "text": "Great that it came with 3 different cushion sizes",
+        "text": "The headgear is very adjustable",
         "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/wisp-pediatric-cpap-mask-frame"
+        "productUrl": "https://1800cpap.com/products/wisp-pediatric-nasal-cpap-mask-fit-pack"
       },
       {
         "text": "Excellent product",
@@ -102,9 +120,9 @@
     "negative": []
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

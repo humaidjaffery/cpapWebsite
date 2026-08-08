@@ -1,8 +1,34 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "fisher-paykel-evora-nasal",
   "name": "Fisher & Paykel Evora Nasal",
   "catalogOrder": 41,
+  "search": {
+    "aliases": [
+      "Evora Nasal",
+      "Evora Nasal CPAP Mask Fit Pack",
+      "Evora Nasal CPAP Mask System",
+      "Evora Nasal CPAP Mask | Fisher & Paykel",
+      "Evora Nasal Mask Fit Pack",
+      "Evora nasal mask",
+      "F&P Evora Nasal",
+      "F&P Evora Nasal CPAP Mask with Headgear",
+      "F&P Evora Nasal Mask",
+      "Fisher & Paykel Evora™ Nasal CPAP Mask",
+      "Fisher & Paykel Evora™ Nasal CPAP Mask Fit Pack",
+      "Fisher & Paykel | Evora Nasal CPAP Mask",
+      "Fisher Paykel Evora Nasal",
+      "Fisher and Paykel Evora Nasal"
+    ],
+    "abbreviations": [
+      "F&P",
+      "FP",
+      "Fisher Paykel"
+    ],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 181,
@@ -13,32 +39,35 @@
     "reviewDateEnd": "2026-05-29"
   },
   "overall": {
-    "compositeScore": 80,
+    "score": 75,
+    "grade": "B",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 3.96,
-      "score": 79,
+      "score": 74,
       "reviewCount": 181,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.2,
       "score": 82,
       "reviewCount": 94,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 70,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 7.0,
       "reviewCount": 101,
       "reviewShare": 0.558,
-      "positiveReviews": 71,
-      "mixedReviews": 7,
+      "positiveReviews": 72,
+      "neutralReviews": 6,
       "negativeReviews": 23,
-      "positiveShare": 0.703,
+      "positiveShare": 0.7129,
       "negativeShare": 0.2277,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -129,35 +158,116 @@
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
         },
         {
-          "text": "Comfort",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+          "text": "the Evora is the most lightweight, comfortable and least intrusive mask I have ever worn",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "The Evora Nasal CPAP Mask is the most comfortable mask that I have ever used",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "this is the most comfortable mask I ever put on",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "doesn't hurt when you wear it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "A mask that is so comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The head gear is very light",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "the nasal cushion is super comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "This one is soo comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Comfortable from day 1",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "the tip of my nose rubs against the white plastic mounting flange that the nose piece hose connects to",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "the plastic backing behind pillow is so large that it gouges my cheek",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "hard plastic piece inside nasal maskhurts my nose after about an hour",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
         {
           "text": "Half of the time I couldn’t breath",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
-          "text": "the tip of my nose rubs against the white plastic mounting flange that the nose piece hose connects to",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+          "text": "In the morning it can take an hour for the skin on my nose to release all the moisture that has collected under the skin",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "the mask would somehow collapse or get too soft in the middle of the night and I couldn't breathe through it",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-nasal-mask-fitpack"
+        },
+        {
+          "text": "My previous nasal pillows used to be inserted into my nostrils and that caused some discomfort",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "the hard plastic the nasal piece is connected to pressing into my nose and causing discomfort",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "an uncomfortable ridge of plastic behind the silicon that dug into my cheek",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "My nose is very sensitive on the bridge of the nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 60,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.0,
       "reviewCount": 85,
       "reviewShare": 0.4696,
-      "positiveReviews": 46,
-      "mixedReviews": 12,
+      "positiveReviews": 50,
+      "neutralReviews": 8,
       "negativeReviews": 27,
-      "positiveShare": 0.5412,
+      "positiveShare": 0.5882,
       "negativeShare": 0.3176,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -243,38 +353,119 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the headgear design places the cushion exactly where it needs to be the first time, every time",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
           "text": "Perfect fit",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         },
         {
-          "text": "the headgear design places the cushion exactly where it needs to be the first time, every time",
+          "text": "it comes with all sizes so that you can find that perfect fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "It's a fantastic fit around the head; snug and easily adjustable",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "Couldn't find a ResMed mask that fitted me",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "cushions all feel and fit great",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "it comes with all sizes",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "It fits my face well",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "Easy to properly size",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "it fits great",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I was unable to get the cushion set properly under my nose",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
         {
           "text": "Does not fit",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         },
         {
-          "text": "I was unable to get the cushion set properly under my nose",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+          "text": "it would position the tip of my nose closer to the mounting flange",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "I need a full mask to hold my jaw in place",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "couldn't get a good seal without cinching the headgear too tight",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "I couldn’t get them to stay comfortably in place",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "sits too far out in front of my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I can not handle a full face mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "I had to tighten far too much",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "struggling to find the correct fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 54,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.4,
       "reviewCount": 55,
       "reviewShare": 0.3039,
       "positiveReviews": 27,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 26,
       "positiveShare": 0.4909,
       "negativeShare": 0.4727,
@@ -357,6 +548,11 @@
       ],
       "positiveEvidence": [
         {
+          "text": "best sealing nasal mask I have used",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
           "text": "I have a mustache and beard.",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
@@ -365,32 +561,108 @@
           "text": "how well the nasal pillows sealed",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "My CPAP machine is reporting that there have no air leaks since I started using the mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "I have not had any problems with leaks so far",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "There weren't any leaks when I shifted during the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "has a good seal even with higher pressures",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "Excellent and gentle seal for back sleepers",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "without leaking in the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "did not leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I am unable to get a good seal around my nose",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Does not create a very good seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "the leakage was way too much",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the large wouldn't seal at all",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
         {
           "text": "but leaks",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         },
         {
-          "text": "Does not create a very good seal",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+          "text": "If I keep the mask fit too loose then too much air escapes through the poorly designed nasal piece",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "air and moisture constantly blowing and slipping up from the sides of the nasal cushion",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "Neither the medium or the large cushion will produce a secure fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "I do not have a good seal with this mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "slipping up from the sides of the nasal cushion",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 60,
+      "label": "Stability",
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 49,
       "reviewShare": 0.2707,
-      "positiveReviews": 24,
-      "mixedReviews": 8,
+      "positiveReviews": 27,
+      "neutralReviews": 5,
       "negativeReviews": 17,
-      "positiveShare": 0.4898,
+      "positiveShare": 0.551,
       "negativeShare": 0.3469,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -481,9 +753,49 @@
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "it stays in place well!",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
+          "text": "I also roll from side to side in my sleep and it is not an issue with this mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "This mask stays in place even when I am sleeping on my side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "the material helps keep the mask stable and in-position throughout the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "I can sleep on my sides or on my back",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "I can sleep in any position without leakage",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "Works well for any normal sleeping position",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "sleeping on my side was no problem",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "while laying on my side etc.",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "Can easily sleep on side too",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -493,23 +805,64 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
-          "text": "the medium size would shift",
+          "text": "My CPAP is at the side of the bed, so inevitably the hose slides off the side of the bed and then it's tugging at…",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "With only one small elastic band, it only holds the mask well if you don't move at all when sleeping",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "It would also move around and leak if I tried to sleep on my side",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-nasal-mask-fitpack"
+        },
+        {
+          "text": "I have to wake up enough to manipulate it off my face and head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "I am a side sleeper and this does not stay in place",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it would work ok for a day or two, then shift",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "pushes to the side when I sleep on my side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "the lower strap of the headgear won't stay down",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "Not good for me when I side sleep.",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 73,
+      "label": "Ease of Use",
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 59,
       "reviewShare": 0.326,
-      "positiveReviews": 42,
-      "mixedReviews": 6,
+      "positiveReviews": 45,
+      "neutralReviews": 3,
       "negativeReviews": 11,
-      "positiveShare": 0.7119,
+      "positiveShare": 0.7627,
       "negativeShare": 0.1864,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -595,40 +948,121 @@
       ],
       "positiveEvidence": [
         {
+          "text": "This mask was by far the easiest I had ever set up",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "I can put on and take off the mask with one hand",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
           "text": "Effortless!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "The head gear is very light",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+          "text": "It is also easy to take on and off as I get up a few times in the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "It's a fantastic fit around the head; snug and easily adjustable",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "I can wear my glasses without removing the mask!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "It is easy to put on and take off",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "It is so easy to get on and off",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "Very easy to take on and off (bathroom run)",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the freedom the mask provides around the nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "Replacing it by feel is difficult",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
         {
           "text": "and inflamed in the morning",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
-          "text": "Replacing it by feel is difficult",
+          "text": "I cant remember if there was a sizing chart on cpaps website, but I looked for one and either there wasn't one or it didn't…",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "Plastic straps so hard that it is very difficult to fit in my sanitizer machine – my biggest dislike",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the way this was advertised as simple to put on like a baseball cap",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "while I adjusted it nightly for appropriate fit (about 3 weeks)",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I have to wear a headband to keep it in place",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "the small cushion was stuck on and hard to remove",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "I tried repeatedly for three weeks to adjust it properly",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "no matter how I adjusted everything",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 50,
+      "score": 44,
+      "grade": "D-",
       "averageSentiment": 5.0,
       "reviewCount": 33,
       "reviewShare": 0.1823,
-      "positiveReviews": 12,
-      "mixedReviews": 3,
+      "positiveReviews": 13,
+      "neutralReviews": 2,
       "negativeReviews": 18,
-      "positiveShare": 0.3636,
+      "positiveShare": 0.3939,
       "negativeShare": 0.5455,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -714,9 +1148,49 @@
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         },
         {
+          "text": "so much quieter than any of the other 8 or so masks I have tried",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "you can’t feel it or hear it blowing on your bedding",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "This mask does not have that limitation and is very quiet",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
           "text": "It is the quietest of all of those too",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "It is so quiet",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "And it is quiet!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "I appreciated the quiet",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "not a Silicone mold prone to those pesky air noises around the ears while sleeping on your side",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "The air outlet is not in the direction of the arm",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ],
       "negativeEvidence": [
@@ -726,21 +1200,62 @@
           "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
         },
         {
+          "text": "the air still blows out into my eyes from the Nasal pillow",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "that it makes noise blowing against the sheet that I can't sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "None of the nose pieces have unrestricted Airflow",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it's difficult to breath with it on",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "It’s blows air into my eyes",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "it is promoted as super quiet",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "Lots of air blows out",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
           "text": "noisy due to leakage",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "Air in my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 42,
+      "score": 34,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 37,
       "reviewShare": 0.2044,
       "positiveReviews": 11,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 24,
       "positiveShare": 0.2973,
       "negativeShare": 0.6486,
@@ -818,9 +1333,49 @@
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
+          "text": "no more nose bridge pain waking me at night and leaving its mark",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "does not cause my hair to thin where it touches my head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
           "text": "It didn't leave marks on my face in the morning",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "I dont think this will totally replace my other mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "does not leave marks on your face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "no marks are my nose or cheeks",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "doesn't leave marks on your face",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "or rub against your ears",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "it left way less indents on my face in the morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -830,7 +1385,47 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
+          "text": "the plastic backing behind pillow is so large that it gouges my cheek",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
           "text": "hard plastic piece inside nasal maskhurts my nose after about an hour",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "In the morning it can take an hour for the skin on my nose to release all the moisture that has collected under the skin",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "My previous nasal pillows used to be inserted into my nostrils and that caused some discomfort",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "the hard plastic the nasal piece is connected to pressing into my nose and causing discomfort",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "an uncomfortable ridge of plastic behind the silicon that dug into my cheek",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "My nose is very sensitive on the bridge of the nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "it’s good for our eyes to dry them all night long",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Eventually, pressure developed a sore in my mouth below my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
@@ -839,14 +1434,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 48,
+      "score": 45,
+      "grade": "D",
       "averageSentiment": 4.8,
       "reviewCount": 20,
       "reviewShare": 0.1105,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 11,
-      "positiveShare": 0.4,
+      "positiveShare": 0.45,
       "negativeShare": 0.55,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -915,6 +1511,41 @@
           "text": "Very nice quality!",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "the fact that the materials selected maintain those adjustments both throughout the night and from night to night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "there is little chance of it breaking like the older style masks did",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "seems to be holding up well",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "I've used it for three nights now",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "It is very soft and pliable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "sturdy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I hope it holds up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -927,18 +1558,59 @@
           "text": "My nasal pillows have stretched my nostrils out horribly",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "It stretched out already making it the wrong fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "with the hose connection at the cushion tearing",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "it is encased in a very hard plastic",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "HARD plastic?",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "The nasal cradle has hard pieces inside",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "headgear feeling flimsy",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "it's flimsy",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "Plastic **** top is a little hard but still fits well.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "value",
       "label": "Value",
-      "score": 67,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 6.7,
       "reviewCount": 14,
       "reviewShare": 0.0773,
       "positiveReviews": 10,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 2,
       "positiveShare": 0.7143,
       "negativeShare": 0.1429,
@@ -959,19 +1631,59 @@
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
+          "text": "This mask is a good value at the price",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "I bought this one with all the sizes",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "cost me about 1/2 of previous mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "this one really caught my eye",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "worth it the price",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "good value",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "good price",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "the price was right",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "$95 for this mask is disheartening because it probably costs $3.50 to make",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
         {
           "text": "I wasted money trying to find a comfortable sleep mask",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         },
         {
-          "text": "$95 for this mask is disheartening because it probably costs $3.50 to make",
+          "text": "they wanted $200 for one at Hartig home care",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
@@ -980,14 +1692,15 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 67,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 37,
       "reviewShare": 0.2044,
-      "positiveReviews": 26,
-      "mixedReviews": 1,
+      "positiveReviews": 27,
+      "neutralReviews": 0,
       "negativeReviews": 10,
-      "positiveShare": 0.7027,
+      "positiveShare": 0.7297,
       "negativeShare": 0.2703,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1073,9 +1786,49 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
+          "text": "I have been using this mask I have been able to get six to seven hours of continuous sleep in every night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "Works remarkably well, better than any other mask I've used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "My pulmonologist was surprised by my nearly perfect compliance",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
           "text": "I get a great result from using it",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "I get really good AHIs with it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "sleeping more comfortably and longer",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "breath more freely through nasals",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "The best way to sleep!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "What a great nights sleep",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -1088,6 +1841,46 @@
           "text": "I simply cannot use it",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "unable to use it",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "degree of leakage kept both of us awake",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "I wake up with watery irritated eyes",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "Some people may not find this a bother, but it is really disruptive to me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "made it a little difficult to breathe in",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "My scores have gone down",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "I wore it 3 hours",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "I tired this mask for several nights",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
         }
       ]
     }
@@ -1096,14 +1889,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 82,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 8.2,
       "reviewCount": 94,
       "reviewShare": 0.5193,
-      "positiveReviews": 77,
-      "mixedReviews": 3,
+      "positiveReviews": 79,
+      "neutralReviews": 1,
       "negativeReviews": 14,
-      "positiveShare": 0.8191,
+      "positiveShare": 0.8404,
       "negativeShare": 0.1489,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1148,14 +1942,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "OMG Finally Best Mask Ever!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+          "text": "The Fisher & Paykel | Evora Nasal CPAP Mask is perfect for me, and I highly recommend it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
-          "text": "Struggled with other masks for years, this one is a dream",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+          "text": "The Evora is the simplest and best sealing nasal mask I have used",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -1165,7 +1959,7 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
-          "text": "Very disappointing",
+          "text": "I wish it had been all I'd hoped for",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
@@ -1174,14 +1968,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 76,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.6,
       "reviewCount": 77,
       "reviewShare": 0.4254,
-      "positiveReviews": 61,
-      "mixedReviews": 3,
+      "positiveReviews": 62,
+      "neutralReviews": 2,
       "negativeReviews": 13,
-      "positiveShare": 0.7922,
+      "positiveShare": 0.8052,
       "negativeShare": 0.1688,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1272,35 +2067,36 @@
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
         },
         {
-          "text": "Comfort",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+          "text": "the Evora is the most lightweight, comfortable and least intrusive mask I have ever worn",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "it’s very uncomfortable sleeping on my side",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+          "text": "The inner frame part is hard and uncomfortable against my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "I doubt it would be comfortable",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+          "text": "struggled with leaks and pain because of the hard plastic overall",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ]
     },
     {
       "id": "fit",
       "label": "Fit",
-      "score": 63,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 56,
       "reviewShare": 0.3094,
-      "positiveReviews": 33,
-      "mixedReviews": 6,
+      "positiveReviews": 36,
+      "neutralReviews": 3,
       "negativeReviews": 17,
-      "positiveShare": 0.5893,
+      "positiveShare": 0.6429,
       "negativeShare": 0.3036,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1386,38 +2182,39 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Perfect fit",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-        },
-        {
           "text": "the headgear design places the cushion exactly where it needs to be the first time, every time",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "Perfect fit",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Does not fit",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-        },
-        {
           "text": "I was unable to get the cushion set properly under my nose",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "Does not fit",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         }
       ]
     },
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 54,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.4,
       "reviewCount": 55,
       "reviewShare": 0.3039,
       "positiveReviews": 27,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 26,
       "positiveShare": 0.4909,
       "negativeShare": 0.4727,
@@ -1500,21 +2297,21 @@
       ],
       "positiveEvidence": [
         {
+          "text": "best sealing nasal mask I have used",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
           "text": "I have a mustache and beard.",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-        },
-        {
-          "text": "how well the nasal pillows sealed",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "but leaks",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+          "text": "I am unable to get a good seal around my nose",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
           "text": "Does not create a very good seal",
@@ -1526,14 +2323,15 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 59,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 5.9,
       "reviewCount": 34,
       "reviewShare": 0.1878,
-      "positiveReviews": 18,
-      "mixedReviews": 4,
+      "positiveReviews": 20,
+      "neutralReviews": 2,
       "negativeReviews": 12,
-      "positiveShare": 0.5294,
+      "positiveShare": 0.5882,
       "negativeShare": 0.3529,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1619,38 +2417,39 @@
       ],
       "positiveEvidence": [
         {
-          "text": "it stays in place well!",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
+          "text": "This mask stays in place even when I am sleeping on my side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
-          "text": "zero slip",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+          "text": "the material helps keep the mask stable and in-position throughout the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "the medium size would shift",
+          "text": "With only one small elastic band, it only holds the mask well if you don't move at all when sleeping",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
-          "text": "the lower strap of the headgear won't stay down",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+          "text": "Looking for a chin strap now to anchor the mask so it stays in place",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 81,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 8.1,
       "reviewCount": 31,
       "reviewShare": 0.1713,
       "positiveReviews": 28,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.9032,
       "negativeShare": 0.0968,
@@ -1708,24 +2507,24 @@
       ],
       "positiveEvidence": [
         {
+          "text": "This mask was by far the easiest I had ever set up",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
           "text": "Effortless!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
-        },
-        {
-          "text": "The head gear is very light",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "the way this was advertised as simple to put on like a baseball cap",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+          "text": "Plastic straps so hard that it is very difficult to fit in my sanitizer machine – my biggest dislike",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "I have to wear a headband to keep it in place",
+          "text": "the way this was advertised as simple to put on like a baseball cap",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         }
@@ -1734,14 +2533,15 @@
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 55,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.5,
       "reviewCount": 27,
       "reviewShare": 0.1492,
-      "positiveReviews": 11,
-      "mixedReviews": 6,
+      "positiveReviews": 14,
+      "neutralReviews": 3,
       "negativeReviews": 10,
-      "positiveShare": 0.4074,
+      "positiveShare": 0.5185,
       "negativeShare": 0.3704,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1833,12 +2633,13 @@
     {
       "id": "weight",
       "label": "Weight",
-      "score": 86,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.6,
       "reviewCount": 24,
       "reviewShare": 0.1326,
       "positiveReviews": 24,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1895,14 +2696,15 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 65,
+      "score": 77,
+      "grade": "B",
       "averageSentiment": 6.5,
       "reviewCount": 23,
       "reviewShare": 0.1271,
-      "positiveReviews": 14,
-      "mixedReviews": 4,
+      "positiveReviews": 17,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.6087,
+      "positiveShare": 0.7391,
       "negativeShare": 0.2174,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1947,35 +2749,36 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
-          "text": "I have tried several other products and prefer this product by far",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+          "text": "I have been using the F & P Brevida mask for about two years and have been very happy with it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "Will be calling to see if I can swap out for a Resmed - if not I'll try to modify",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+        },
+        {
           "text": "I think I'll probably go back to what I was using before",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-        },
-        {
-          "text": "Not for me, and people who occasionally open their mouth during sleep",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ]
     },
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 60,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 20,
       "reviewShare": 0.1105,
-      "positiveReviews": 10,
-      "mixedReviews": 3,
+      "positiveReviews": 12,
+      "neutralReviews": 1,
       "negativeReviews": 7,
-      "positiveShare": 0.5,
+      "positiveShare": 0.6,
       "negativeShare": 0.35,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -2036,33 +2839,34 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         },
         {
-          "text": "adjustments are easy",
+          "text": "the ease of adjusting the headgear",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "which means adjusting it",
+          "text": "positioning the mask when it's on frequently causes it to become disconnected",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
-          "text": "positioning the mask when it's on frequently causes it to become disconnected",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+          "text": "while I adjusted it nightly for appropriate fit (about 3 weeks)",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "noise",
       "label": "Noise",
-      "score": 69,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 6.9,
       "reviewCount": 17,
       "reviewShare": 0.0939,
       "positiveReviews": 11,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 5,
       "positiveShare": 0.6471,
       "negativeShare": 0.2941,
@@ -2120,16 +2924,16 @@
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         },
         {
-          "text": "It is the quietest of all of those too",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+          "text": "so much quieter than any of the other 8 or so masks I have tried",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "noisy due to leakage",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+          "text": "that it makes noise blowing against the sheet that I can't sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
           "text": "it is promoted as super quiet",
@@ -2141,12 +2945,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 73,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 17,
       "reviewShare": 0.0939,
       "positiveReviews": 14,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.8235,
       "negativeShare": 0.1765,
@@ -2204,9 +3009,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "wake up refreshed",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+          "text": "I was also feeling great when waking up",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
           "text": "sleeping more comfortably and longer",
@@ -2216,26 +3021,27 @@
       ],
       "negativeEvidence": [
         {
-          "text": "I wake up with watery irritated eyes",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
-        },
-        {
           "text": "degree of leakage kept both of us awake",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "I wake up with watery irritated eyes",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         }
       ]
     },
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 73,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 15,
       "reviewShare": 0.0829,
       "positiveReviews": 11,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 2,
       "positiveShare": 0.7333,
       "negativeShare": 0.1333,
@@ -2292,9 +3098,9 @@
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "while laying on my side etc.",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+          "text": "I also roll from side to side in my sleep and it is not an issue with this mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ],
       "negativeEvidence": [
@@ -2304,21 +3110,22 @@
           "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-nasal-mask-fitpack"
         },
         {
-          "text": "the mask would leak slightly whenever I changed sleeping positions",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+          "text": "I prefer to sleeping on my side with my face tilted toward the This mask made that difficult",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ]
     },
     {
       "id": "pain",
       "label": "Pain",
-      "score": 30,
+      "score": 18,
+      "grade": "F-",
       "averageSentiment": 3.0,
       "reviewCount": 14,
       "reviewShare": 0.0773,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 11,
       "positiveShare": 0.1429,
       "negativeShare": 0.7857,
@@ -2408,23 +3215,24 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
-          "text": "hard plastic piece inside nasal maskhurts my nose after about an hour",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+          "text": "the plastic backing behind pillow is so large that it gouges my cheek",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
         }
       ]
     },
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 72,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 12,
       "reviewShare": 0.0663,
-      "positiveReviews": 9,
-      "mixedReviews": 1,
+      "positiveReviews": 10,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.75,
+      "positiveShare": 0.8333,
       "negativeShare": 0.1667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2449,9 +3257,9 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
-          "text": "I get a great result from using it",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+          "text": "Works remarkably well, better than any other mask I've used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -2470,14 +3278,15 @@
     {
       "id": "appearance",
       "label": "Appearance",
-      "score": 66,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 6.6,
       "reviewCount": 11,
       "reviewShare": 0.0608,
-      "positiveReviews": 7,
-      "mixedReviews": 4,
+      "positiveReviews": 9,
+      "neutralReviews": 2,
       "negativeReviews": 0,
-      "positiveShare": 0.6364,
+      "positiveShare": 0.8182,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2522,12 +3331,13 @@
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 41,
+      "score": 28,
+      "grade": "F",
       "averageSentiment": 4.1,
       "reviewCount": 11,
       "reviewShare": 0.0608,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.2727,
       "negativeShare": 0.7273,
@@ -2602,21 +3412,22 @@
           "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
         },
         {
-          "text": "HARD plastic?",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+          "text": "it is encased in a very hard plastic",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ]
     },
     {
       "id": "access_to_face",
       "label": "Access To Face",
-      "score": 82,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 8.2,
       "reviewCount": 10,
       "reviewShare": 0.0552,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9,
       "negativeShare": 0.1,
@@ -2669,14 +3480,14 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I can wear my glasses without removing the mask!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
           "text": "the freedom the mask provides around the nose",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
-        },
-        {
-          "text": "it barely touches my nose",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -2690,12 +3501,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 68,
+      "score": 78,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 9,
       "reviewShare": 0.0497,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.7778,
       "negativeShare": 0.2222,
@@ -2716,33 +3528,34 @@
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "I bought this one with all the sizes",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+          "text": "This mask is a good value at the price",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I wasted money trying to find a comfortable sleep mask",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-        },
-        {
           "text": "$95 for this mask is disheartening because it probably costs $3.50 to make",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I wasted money trying to find a comfortable sleep mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         }
       ]
     },
     {
       "id": "airflow_direction",
       "label": "Airflow Direction",
-      "score": 44,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.4,
       "reviewCount": 8,
       "reviewShare": 0.0442,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.375,
       "negativeShare": 0.625,
@@ -2786,12 +3599,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "It’s blows air into my eyes",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+          "text": "the air still blows out into my eyes from the Nasal pillow",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Air in my eyes",
+          "text": "The air release system on this is ridiculous.",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
@@ -2800,12 +3613,13 @@
     {
       "id": "face_marks",
       "label": "Face Marks",
-      "score": 70,
+      "score": 77,
+      "grade": "B",
       "averageSentiment": 7.0,
       "reviewCount": 8,
       "reviewShare": 0.0442,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -2852,9 +3666,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "doesn't leave marks on your face",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+          "text": "I dont think this will totally replace my other mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
           "text": "does not leave marks on your face",
@@ -2878,12 +3692,13 @@
     {
       "id": "putting_on",
       "label": "Putting On",
-      "score": 68,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.8,
       "reviewCount": 8,
       "reviewShare": 0.0442,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.625,
       "negativeShare": 0.375,
@@ -2920,9 +3735,9 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
-          "text": "Easy to get on and off quickly",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+          "text": "It is easy to put on and take off",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ],
       "negativeEvidence": [
@@ -2941,14 +3756,15 @@
     {
       "id": "airflow",
       "label": "Airflow",
-      "score": 39,
+      "score": 33,
+      "grade": "F+",
       "averageSentiment": 3.9,
       "reviewCount": 7,
       "reviewShare": 0.0387,
-      "positiveReviews": 0,
-      "mixedReviews": 3,
+      "positiveReviews": 2,
+      "neutralReviews": 1,
       "negativeReviews": 4,
-      "positiveShare": 0.0,
+      "positiveShare": 0.2857,
       "negativeShare": 0.5714,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3007,6 +3823,11 @@
           "text": "if I open my mouth the air rushes out",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "I wear the medium size and I think the hole going for your nostrils could be a little bigger,,, hence more air flow",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -3025,12 +3846,13 @@
     {
       "id": "irritation",
       "label": "Irritation",
-      "score": 47,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.7,
       "reviewCount": 7,
       "reviewShare": 0.0387,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.2857,
       "negativeShare": 0.5714,
@@ -3082,14 +3904,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "rub against your ears",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
-        },
-        {
           "text": "or rub against your ears",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "rub against your ears",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -3108,12 +3930,13 @@
     {
       "id": "pressure",
       "label": "Pressure",
-      "score": 61,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 6.1,
       "reviewCount": 7,
       "reviewShare": 0.0387,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5714,
       "negativeShare": 0.4286,
@@ -3161,14 +3984,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "no pressure in your nostrils",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
-        },
-        {
           "text": "The mask doesn't press down hard on your nose",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "no pressure in your nostrils",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -3187,14 +4010,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 75,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.5,
       "reviewCount": 6,
       "reviewShare": 0.0331,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8333,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3223,12 +4047,13 @@
     {
       "id": "size_availability",
       "label": "Size Availability",
-      "score": 83,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.3,
       "reviewCount": 6,
       "reviewShare": 0.0331,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -3255,9 +4080,9 @@
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
         },
         {
-          "text": "3.) has 3 sizes of pad in the scope of delivery",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+          "text": "I recommend you get the FitPack which comes with the small, medium, and large sizes",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -3266,13 +4091,14 @@
       "id": "hose_management",
       "label": "Hose Management",
       "score": 50,
+      "grade": "D+",
       "averageSentiment": 5.0,
       "reviewCount": 5,
       "reviewShare": 0.0276,
-      "positiveReviews": 1,
-      "mixedReviews": 2,
+      "positiveReviews": 2,
+      "neutralReviews": 1,
       "negativeReviews": 2,
-      "positiveShare": 0.2,
+      "positiveShare": 0.4,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3299,16 +4125,21 @@
           "text": "instead of the hose attaching in front of my face, it attaches at the top of the head",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "It's important to keep the hose positioned straight down from your nose with no torque caused by the hose hanging down from the machine and…",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I tried to move hose around but doesn’t help",
+          "text": "It's important to keep the hose positioned straight down from your nose with no torque caused by the hose hanging down from the machine and…",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         },
         {
-          "text": "It's important to keep the hose positioned straight down from your nose with no torque caused by the hose hanging down from the machine and…",
+          "text": "I tried to move hose around but doesn’t help",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         }
@@ -3317,12 +4148,13 @@
     {
       "id": "price",
       "label": "Price",
-      "score": 66,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 6.6,
       "reviewCount": 5,
       "reviewShare": 0.0276,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -3337,9 +4169,9 @@
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "good price",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+          "text": "worth it the price",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -3355,14 +4187,15 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 63,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 41,
       "reviewShare": 0.2265,
-      "positiveReviews": 23,
-      "mixedReviews": 6,
+      "positiveReviews": 26,
+      "neutralReviews": 3,
       "negativeReviews": 12,
-      "positiveShare": 0.561,
+      "positiveShare": 0.6341,
       "negativeShare": 0.2927,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3428,34 +4261,34 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the headgear design places the cushion exactly where it needs to be the first time, every time",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
           "text": "The head gear is very light",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
-          "text": "I can put on and take off the mask with one hand",
+          "text": "with the minimal number of straps it was very easy to get comfortable with it the first night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
-        },
-        {
-          "text": "the head gear is very comfortable",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "it’s very uncomfortable sleeping on my side",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
-        },
-        {
-          "text": "Headgear shifts",
+          "text": "With only one small elastic band, it only holds the mask well if you don't move at all when sleeping",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
-          "text": "With only one small elastic band, it only holds the mask well if you don't move at all when sleeping",
+          "text": "my movement during the night would cause it to auto-tighten too much",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-nasal-mask-fitpack"
+        },
+        {
+          "text": "couldn't get a good seal without cinching the headgear too tight",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
@@ -3464,12 +4297,13 @@
         {
           "id": "ease_of_use",
           "label": "Ease Of Use",
-          "score": 81,
+          "score": 92,
+          "grade": "A",
           "averageSentiment": 8.1,
           "reviewCount": 11,
           "reviewShare": 0.0608,
           "positiveReviews": 10,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3479,9 +4313,9 @@
               "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
             },
             {
-              "text": "easy to put on and off!",
-              "retailer": "DirectHomeMedical",
-              "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+              "text": "with the minimal number of straps it was very easy to get comfortable with it the first night",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
             }
           ],
           "negativeEvidence": [
@@ -3495,24 +4329,25 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 72,
+          "score": 79,
+          "grade": "B",
           "averageSentiment": 7.2,
           "reviewCount": 9,
           "reviewShare": 0.0497,
           "positiveReviews": 7,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 2,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
+              "text": "The mask and head gear are super comfortable",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+            },
+            {
               "text": "the head gear is very comfortable",
               "retailer": "CPAP Ninja",
               "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
-            },
-            {
-              "text": "I like the headgear a lot",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
             }
           ],
           "negativeEvidence": [
@@ -3531,12 +4366,13 @@
         {
           "id": "fit",
           "label": "Fit",
-          "score": 74,
+          "score": 87,
+          "grade": "A-",
           "averageSentiment": 7.4,
           "reviewCount": 7,
           "reviewShare": 0.0387,
           "positiveReviews": 6,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3560,14 +4396,41 @@
           ]
         },
         {
+          "id": "adjustment",
+          "label": "Adjustment",
+          "score": 100,
+          "grade": "A+",
+          "averageSentiment": 8.0,
+          "reviewCount": 5,
+          "reviewShare": 0.0276,
+          "positiveReviews": 5,
+          "neutralReviews": 0,
+          "negativeReviews": 0,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "It's a fantastic fit around the head; snug and easily adjustable",
+              "retailer": "Lofta",
+              "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+            },
+            {
+              "text": "the ease of adjusting the headgear",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+            }
+          ],
+          "negativeEvidence": []
+        },
+        {
           "id": "weight",
           "label": "Weight",
-          "score": 84,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.4,
           "reviewCount": 5,
           "reviewShare": 0.0276,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3577,9 +4440,9 @@
               "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
             },
             {
-              "text": "Super lightweight",
-              "retailer": "RespShop",
-              "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+              "text": "this headgear is so light weight",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
             }
           ],
           "negativeEvidence": []
@@ -3590,12 +4453,13 @@
     {
       "id": "nasal_pillows",
       "label": "Nasal Pillows",
-      "score": 48,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.8,
       "reviewCount": 26,
       "reviewShare": 0.1436,
       "positiveReviews": 8,
-      "mixedReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 15,
       "positiveShare": 0.3077,
       "negativeShare": 0.5769,
@@ -3700,12 +4564,13 @@
         {
           "id": "seal_leak",
           "label": "Seal Leak",
-          "score": 37,
+          "score": 19,
+          "grade": "F-",
           "averageSentiment": 3.7,
           "reviewCount": 6,
           "reviewShare": 0.0331,
           "positiveReviews": 1,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 5,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3733,14 +4598,15 @@
     {
       "id": "nasal_cushion",
       "label": "Nasal Cushion",
-      "score": 69,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 6.9,
       "reviewCount": 25,
       "reviewShare": 0.1381,
-      "positiveReviews": 17,
-      "mixedReviews": 2,
+      "positiveReviews": 18,
+      "neutralReviews": 1,
       "negativeReviews": 6,
-      "positiveShare": 0.68,
+      "positiveShare": 0.72,
       "negativeShare": 0.24,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3791,14 +4657,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "This is the best mask that I have ever tried",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-        },
-        {
           "text": "The way that it cradles the nose it really doesn't feel like your ever wearing a mask",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "This is the best mask that I have ever tried",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         },
         {
           "text": "best sealing nasal mask I have used",
@@ -3813,26 +4679,27 @@
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         },
         {
-          "text": "the medium size would shift",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
-        },
-        {
-          "text": "it blew air all night!",
+          "text": "In the morning it can take an hour for the skin on my nose to release all the moisture that has collected under the skin",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        },
+        {
+          "text": "air and moisture constantly blowing and slipping up from the sides of the nasal cushion",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
         }
       ],
       "praisedAspects": [
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 86,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.6,
           "reviewCount": 12,
           "reviewShare": 0.0663,
-          "positiveReviews": 11,
-          "mixedReviews": 1,
+          "positiveReviews": 12,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3852,12 +4719,13 @@
         {
           "id": "fit",
           "label": "Fit",
-          "score": 77,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 7.7,
           "reviewCount": 6,
           "reviewShare": 0.0331,
           "positiveReviews": 6,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3867,9 +4735,9 @@
               "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
             },
             {
-              "text": "the nasal cushion really does hug your nose",
-              "retailer": "Lofta",
-              "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+              "text": "I have found a good fit with the nasal piece",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
             }
           ],
           "negativeEvidence": []
@@ -3880,12 +4748,13 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 51,
+      "score": 53,
+      "grade": "D+",
       "averageSentiment": 5.1,
       "reviewCount": 15,
       "reviewShare": 0.0829,
       "positiveReviews": 7,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 6,
       "positiveShare": 0.4667,
       "negativeShare": 0.4,
@@ -3933,9 +4802,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Excellent and gentle seal for back sleepers",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+          "text": "Best part for me is not having the \" mask ring\" around my nose in the morning",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
           "text": "no more nose bridge pain waking me at night and leaving its mark",
@@ -3943,9 +4812,9 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
-          "text": "I dont think this will totally replace my other mask",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+          "text": "Excellent and gentle seal for back sleepers",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -3955,36 +4824,37 @@
           "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "struggling to find the correct fit",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+          "text": "If I keep the mask fit too loose then too much air escapes through the poorly designed nasal piece",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Leaked a lot",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+          "text": "it would position the tip of my nose closer to the mounting flange",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         }
       ],
       "praisedAspects": [
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 73,
+          "score": 84,
+          "grade": "B+",
           "averageSentiment": 7.3,
           "reviewCount": 6,
           "reviewShare": 0.0331,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "the air flow was GREAT and the comfort perfect",
+              "text": "Best part for me is not having the \" mask ring\" around my nose in the morning",
               "retailer": "RespShop",
               "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
             },
             {
-              "text": "Best part for me is not having the \" mask ring\" around my nose in the morning",
+              "text": "the air flow was GREAT and the comfort perfect",
               "retailer": "RespShop",
               "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
             }
@@ -4002,12 +4872,13 @@
         {
           "id": "seal_leak",
           "label": "Seal Leak",
-          "score": 36,
+          "score": 26,
+          "grade": "F",
           "averageSentiment": 3.6,
           "reviewCount": 8,
           "reviewShare": 0.0442,
           "positiveReviews": 2,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 6,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -4029,9 +4900,9 @@
               "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
             },
             {
-              "text": "Leaked a lot",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+              "text": "If I keep the mask fit too loose then too much air escapes through the poorly designed nasal piece",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
             }
           ]
         }
@@ -4040,14 +4911,15 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 71,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 7.1,
       "reviewCount": 13,
       "reviewShare": 0.0718,
-      "positiveReviews": 9,
-      "mixedReviews": 1,
+      "positiveReviews": 10,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.6923,
+      "positiveShare": 0.7692,
       "negativeShare": 0.2308,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4088,9 +4960,9 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
-          "text": "This mask is so light on my face",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+          "text": "This makes it super easy to stop and restart CPAP therapy if I have to get out of bed to use the restroom",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
           "text": "how comfortable this mask was, at least for my face",
@@ -4100,14 +4972,14 @@
       ],
       "negativeEvidence": [
         {
-          "text": "$95 for this mask is disheartening because it probably costs $3.50 to make",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
-        },
-        {
           "text": "the mask would somehow collapse or get too soft in the middle of the night and I couldn't breathe through it",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-nasal-mask-fitpack"
+        },
+        {
+          "text": "$95 for this mask is disheartening because it probably costs $3.50 to make",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
           "text": "Not really my thing",
@@ -4121,12 +4993,13 @@
     {
       "id": "frame",
       "label": "Frame",
-      "score": 27,
+      "score": 13,
+      "grade": "F-",
       "averageSentiment": 2.7,
       "reviewCount": 8,
       "reviewShare": 0.0442,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.125,
       "negativeShare": 0.875,
@@ -4196,12 +5069,12 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
-          "text": "Build quality is terrible",
+          "text": "the plastic backing behind pillow is so large that it gouges my cheek",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
         },
         {
-          "text": "hard wings to dig into my face",
+          "text": "an uncomfortable ridge of plastic behind the silicon that dug into my cheek",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
@@ -4212,12 +5085,13 @@
     {
       "id": "vent",
       "label": "Vent",
-      "score": 45,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.5,
       "reviewCount": 8,
       "reviewShare": 0.0442,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.375,
       "negativeShare": 0.625,
@@ -4267,12 +5141,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Air in my eyes",
+          "text": "that it makes noise blowing against the sheet that I can't sleep",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Air blowing in eyes",
+          "text": "it’s good for our eyes to dry them all night long",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
@@ -4288,14 +5162,15 @@
     {
       "id": "fit_pack",
       "label": "Fit Pack",
-      "score": 67,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 6.7,
       "reviewCount": 7,
       "reviewShare": 0.0387,
-      "positiveReviews": 4,
-      "mixedReviews": 2,
+      "positiveReviews": 5,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.5714,
+      "positiveShare": 0.7143,
       "negativeShare": 0.1429,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4315,14 +5190,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The mask itself is a fitpack",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
-        },
-        {
-          "text": "The FitPack was a good option",
+          "text": "I recommend you get the FitPack which comes with the small, medium, and large sizes",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "This means that 3 nose pads in S, M and L are included",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
           "text": "GLAD to have gotten the full nose piece kit",
@@ -4343,12 +5218,13 @@
     {
       "id": "nasal_cradle_cushion",
       "label": "Nasal Cradle Cushion",
-      "score": 65,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 6.5,
       "reviewCount": 7,
       "reviewShare": 0.0387,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5714,
       "negativeShare": 0.4286,
@@ -4411,12 +5287,12 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
-          "text": "breath more freely through nasals",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+          "text": "There weren't any leaks when I shifted during the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "no pressure in your nostrils",
+          "text": "more of a cushion on the outside of your nostrils",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
@@ -4428,14 +5304,14 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
-          "text": "The nasal cradle has hard pieces inside which are uncomfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
-        },
-        {
           "text": "Even with the smallest nose piece it does not stay aligned with nostrils",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
+        {
+          "text": "The nasal cradle has hard pieces inside which are uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "praisedAspects": [],
@@ -4444,14 +5320,15 @@
     {
       "id": "strap",
       "label": "Strap",
-      "score": 46,
+      "score": 36,
+      "grade": "F+",
       "averageSentiment": 4.6,
       "reviewCount": 7,
       "reviewShare": 0.0387,
-      "positiveReviews": 1,
-      "mixedReviews": 2,
+      "positiveReviews": 2,
+      "neutralReviews": 1,
       "negativeReviews": 4,
-      "positiveShare": 0.1429,
+      "positiveShare": 0.2857,
       "negativeShare": 0.5714,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4476,14 +5353,19 @@
       ],
       "positiveEvidence": [
         {
-          "text": "It’s only two light straps contacting your head",
+          "text": "the horizontal strap uses velcro, which means you adjust that part however fine you want",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "I had the side straps too low at first",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "the straps do not stay as well",
+          "text": "the way this was advertised as simple to put on like a baseball cap",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         },
@@ -4493,7 +5375,7 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         },
         {
-          "text": "the way this was advertised as simple to put on like a baseball cap",
+          "text": "the straps do not stay as well",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         }
@@ -4506,24 +5388,25 @@
     {
       "id": "headgear|stability",
       "label": "Headgear · Stability",
-      "score": 47,
+      "score": 45,
+      "grade": "D",
       "averageSentiment": 4.7,
       "reviewCount": 12,
       "reviewShare": 0.0663,
-      "positiveReviews": 4,
-      "mixedReviews": 2,
+      "positiveReviews": 5,
+      "neutralReviews": 1,
       "negativeReviews": 6,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "The head gear holds much better on my head",
+          "text": "It has a band on the top & strap around the back of head that’s keeping everything in place",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "the lower strap of the headgear won't stay down",
+          "text": "With only one small elastic band, it only holds the mask well if you don't move at all when sleeping",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
@@ -4536,12 +5419,13 @@
     {
       "id": "nasal_cushion|comfort",
       "label": "Nasal Cushion · Comfort",
-      "score": 86,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.6,
       "reviewCount": 12,
       "reviewShare": 0.0663,
-      "positiveReviews": 11,
-      "mixedReviews": 1,
+      "positiveReviews": 12,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4560,12 +5444,13 @@
     {
       "id": "headgear|ease_of_use",
       "label": "Headgear · Ease Of Use",
-      "score": 81,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 8.1,
       "reviewCount": 11,
       "reviewShare": 0.0608,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4590,19 +5475,20 @@
     {
       "id": "headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 72,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 7.2,
       "reviewCount": 9,
       "reviewShare": 0.0497,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "the head gear is very comfortable",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
+          "text": "The mask and head gear are super comfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ],
       "negativeEvidence": [
@@ -4621,11 +5507,12 @@
       "id": "nasal_pillows|comfort",
       "label": "Nasal Pillows · Comfort",
       "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.8,
       "reviewCount": 9,
       "reviewShare": 0.0497,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4637,9 +5524,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "the nasal pillows just wouldn't work for me",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+          "text": "the nasal mask that have to stick in your nostrils",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         }
       ],
       "partId": "nasal_pillows",
@@ -4650,12 +5537,13 @@
     {
       "id": "cushion|seal_leak",
       "label": "Cushion · Seal Leak",
-      "score": 36,
+      "score": 26,
+      "grade": "F",
       "averageSentiment": 3.6,
       "reviewCount": 8,
       "reviewShare": 0.0442,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4680,12 +5568,13 @@
     {
       "id": "headgear|fit",
       "label": "Headgear · Fit",
-      "score": 74,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.4,
       "reviewCount": 7,
       "reviewShare": 0.0387,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4710,17 +5599,18 @@
     {
       "id": "cushion|comfort",
       "label": "Cushion · Comfort",
-      "score": 73,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 6,
       "reviewShare": 0.0331,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "the air flow was GREAT and the comfort perfect",
+          "text": "Best part for me is not having the \" mask ring\" around my nose in the morning",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         }
@@ -4740,12 +5630,13 @@
     {
       "id": "nasal_cushion|fit",
       "label": "Nasal Cushion · Fit",
-      "score": 77,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.7,
       "reviewCount": 6,
       "reviewShare": 0.0331,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4764,12 +5655,13 @@
     {
       "id": "nasal_pillows|seal_leak",
       "label": "Nasal Pillows · Seal Leak",
-      "score": 37,
+      "score": 19,
+      "grade": "F-",
       "averageSentiment": 3.7,
       "reviewCount": 6,
       "reviewShare": 0.0331,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4794,12 +5686,13 @@
     {
       "id": "nasal_pillows|sizing",
       "label": "Nasal Pillows · Sizing",
-      "score": 43,
+      "score": 33,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 6,
       "reviewShare": 0.0331,
       "positiveReviews": 1,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4811,9 +5704,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "I tried the medium and small pillows (the large wouldn't seal at all)",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+          "text": "The pillow itself is very shallow and doesn’t fill as much as the P10 to create a seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ],
       "partId": "nasal_pillows",
@@ -4824,12 +5717,13 @@
     {
       "id": "vent|airflow_direction",
       "label": "Vent · Airflow Direction",
-      "score": 52,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.2,
       "reviewCount": 6,
       "reviewShare": 0.0331,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4841,7 +5735,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Air in my eyes",
+          "text": "The air release system on this is ridiculous.",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
@@ -4854,12 +5748,13 @@
     {
       "id": "headgear|adjustment",
       "label": "Headgear · Adjustment",
-      "score": 80,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.0,
       "reviewCount": 5,
       "reviewShare": 0.0276,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4878,12 +5773,13 @@
     {
       "id": "headgear|weight",
       "label": "Headgear · Weight",
-      "score": 84,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 5,
       "reviewShare": 0.0276,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4902,12 +5798,13 @@
     {
       "id": "nasal_cushion|seal_leak",
       "label": "Nasal Cushion · Seal Leak",
-      "score": 34,
+      "score": 22,
+      "grade": "F",
       "averageSentiment": 3.4,
       "reviewCount": 5,
       "reviewShare": 0.0276,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4932,12 +5829,13 @@
     {
       "id": "nasal_pillows|fit",
       "label": "Nasal Pillows · Fit",
-      "score": 50,
+      "score": 42,
+      "grade": "D-",
       "averageSentiment": 5.0,
       "reviewCount": 5,
       "reviewShare": 0.0276,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4964,12 +5862,13 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 58,
+      "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.8,
       "reviewCount": 21,
       "reviewShare": 0.116,
       "positiveReviews": 11,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 9,
       "positiveShare": 0.5238,
       "negativeShare": 0.4286,
@@ -5032,21 +5931,21 @@
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "while laying on my side etc.",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+          "text": "I also roll from side to side in my sleep and it is not an issue with this mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "It would also move around and leak if I tried to sleep on my side",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-evora-nasal-mask-fitpack"
+        },
+        {
           "text": "an uncomfortable ridge of plastic behind the silicon that dug into my cheek",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
-        },
-        {
-          "text": "I am a side sleeper and this does not stay in place",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "sourceContexts": [
@@ -5058,12 +5957,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 38,
+      "score": 26,
+      "grade": "F",
       "averageSentiment": 3.8,
       "reviewCount": 12,
       "reviewShare": 0.0663,
       "positiveReviews": 2,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 8,
       "positiveShare": 0.1667,
       "negativeShare": 0.6667,
@@ -5148,7 +6048,7 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
-          "text": "hard wings to dig into my face",
+          "text": "I have to wake up enough to manipulate it off my face and head",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
@@ -5163,14 +6063,15 @@
     {
       "id": "back-sleepers",
       "label": "Back sleepers",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 6,
       "reviewShare": 0.0331,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8333,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -5210,14 +6111,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Excellent and gentle seal for back sleepers",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
-        },
-        {
           "text": "I can sleep on my sides or on my back",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "Excellent and gentle seal for back sleepers",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [],
@@ -5230,14 +6131,15 @@
     {
       "id": "smaller-features",
       "label": "People with smaller facial features",
-      "score": 39,
+      "score": 32,
+      "grade": "F+",
       "averageSentiment": 3.9,
       "reviewCount": 6,
       "reviewShare": 0.0331,
-      "positiveReviews": 1,
-      "mixedReviews": 1,
+      "positiveReviews": 2,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.1667,
+      "positiveShare": 0.3333,
       "negativeShare": 0.6667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -5306,6 +6208,11 @@
           "text": "My small nose with medium cushion was the way to go for me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the headgear is nice",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ],
       "negativeEvidence": [
@@ -5331,12 +6238,13 @@
     {
       "id": "combination-sleepers",
       "label": "Combination sleepers",
-      "score": 68,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.8,
       "reviewCount": 5,
       "reviewShare": 0.0276,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -5358,14 +6266,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Works well for any normal sleeping position",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
-        },
-        {
           "text": "I can sleep in any position without leakage",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        },
+        {
+          "text": "Works well for any normal sleeping position",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -5389,12 +6297,13 @@
     {
       "id": "easy-on-off",
       "label": "People who need easy on/off handling",
-      "score": 90,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.0,
       "reviewCount": 5,
       "reviewShare": 0.0276,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -5421,14 +6330,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "It is also easy to take on and off as I get up a few times in the night",
+          "text": "This makes it super easy to stop and restart CPAP therapy if I have to get out of bed to use the restroom",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
-          "text": "this new headgear that they call \"cap style\"",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+          "text": "It is also easy to take on and off as I get up a few times in the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ],
       "negativeEvidence": [],
@@ -5443,12 +6352,13 @@
     {
       "id": "side-sleepers|sleep_position_compatibility",
       "label": "Side sleepers · Sleep Position Compatibility",
-      "score": 68,
+      "score": 72,
+      "grade": "B-",
       "averageSentiment": 6.8,
       "reviewCount": 13,
       "reviewShare": 0.0718,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5473,12 +6383,13 @@
     {
       "id": "smaller-features|fit",
       "label": "People with smaller facial features · Fit",
-      "score": 34,
+      "score": 20,
+      "grade": "F",
       "averageSentiment": 3.4,
       "reviewCount": 5,
       "reviewShare": 0.0276,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5503,12 +6414,13 @@
     {
       "id": "side-sleepers|seal_leak",
       "label": "Side sleepers · Seal Leak",
-      "score": 36,
+      "score": 21,
+      "grade": "F",
       "averageSentiment": 3.6,
       "reviewCount": 5,
       "reviewShare": 0.0276,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5539,14 +6451,15 @@
     {
       "id": "nose",
       "label": "Nose",
-      "score": 54,
+      "score": 53,
+      "grade": "D+",
       "averageSentiment": 5.4,
       "reviewCount": 39,
       "reviewShare": 0.2155,
-      "positiveReviews": 16,
-      "mixedReviews": 5,
+      "positiveReviews": 19,
+      "neutralReviews": 2,
       "negativeReviews": 18,
-      "positiveShare": 0.4103,
+      "positiveShare": 0.4872,
       "negativeShare": 0.4615,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -5612,22 +6525,17 @@
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
         },
         {
-          "text": "zero slip",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+          "text": "Best part for me is not having the \" mask ring\" around my nose in the morning",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
-          "text": "the freedom the mask provides around the nose",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+          "text": "the air flow was GREAT and the comfort perfect",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
-        {
-          "text": "Does not fit",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-        },
         {
           "text": "the tip of my nose rubs against the white plastic mounting flange that the nose piece hose connects to",
           "retailer": "RespShop",
@@ -5637,6 +6545,11 @@
           "text": "hard plastic piece inside nasal maskhurts my nose after about an hour",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I am unable to get a good seal around my nose",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ],
       "complaintReviews": 22,
@@ -5700,12 +6613,13 @@
     {
       "id": "face",
       "label": "Face",
-      "score": 55,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.5,
       "reviewCount": 24,
       "reviewShare": 0.1326,
       "positiveReviews": 12,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 12,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -5768,26 +6682,26 @@
       ],
       "positiveEvidence": [
         {
-          "text": "This mask is so light on my face",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
-        },
-        {
           "text": "It didn't leave marks on my face in the morning",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
-          "text": "doesn't leave marks on your face",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+          "text": "how comfortable this mask was, at least for my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        },
+        {
+          "text": "I can wear my glasses without removing the mask!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "hard wings to dig into my face",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+          "text": "My CPAP is at the side of the bed, so inevitably the hose slides off the side of the bed and then it's tugging at…",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         },
         {
           "text": "I have to wake up enough to manipulate it off my face and head",
@@ -5795,7 +6709,7 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
-          "text": "The air release system on this is ridiculous.",
+          "text": "The inner frame part is hard and uncomfortable against my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
@@ -5861,12 +6775,13 @@
     {
       "id": "nostrils",
       "label": "Nostrils",
-      "score": 45,
+      "score": 37,
+      "grade": "F+",
       "averageSentiment": 4.5,
       "reviewCount": 15,
       "reviewShare": 0.0829,
       "positiveReviews": 5,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 9,
       "positiveShare": 0.3333,
       "negativeShare": 0.6,
@@ -5903,12 +6818,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "no pressure in your nostrils",
+          "text": "more of a cushion on the outside of your nostrils",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "more of a cushion on the outside of your nostrils",
+          "text": "no pressure in your nostrils",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
         },
@@ -5925,9 +6840,9 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         },
         {
-          "text": "the medium size would shift",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+          "text": "the nasal mask that have to stick in your nostrils",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         },
         {
           "text": "My nasal pillows have stretched my nostrils out horribly",
@@ -5991,14 +6906,15 @@
     {
       "id": "head",
       "label": "Head",
-      "score": 54,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.4,
       "reviewCount": 12,
       "reviewShare": 0.0663,
-      "positiveReviews": 5,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.4167,
+      "positiveShare": 0.5833,
       "negativeShare": 0.4167,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -6059,31 +6975,31 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         },
         {
-          "text": "Super lightweight",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+          "text": "It has a band on the top & strap around the back of head that’s keeping everything in place",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         },
         {
-          "text": "It’s only two light straps contacting your head",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+          "text": "The head gear holds much better on my head",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "This mask does not stay on my head",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        },
         {
           "text": "Too big",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
         },
         {
-          "text": "loose fitting",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-        },
-        {
-          "text": "the plastic is less comfortable than the old cloth straps",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+          "text": "Some people may not find this a bother, but it is really disruptive to me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ],
       "complaintReviews": 6,
@@ -6141,20 +7057,489 @@
     }
   ],
   "interactionSummary": [
-    "The clearest favorable pattern was that nasal cushion interaction with the nose leaned favorable (5 positive versus 0 negative reports)."
+    "The clearest caution was that nasal pillows interaction with the nostrils leaned unfavorable (1 positive versus 4 negative reports).",
+    "The most divided finding was that nasal cushion interaction with the nose was divided (6 positive versus 3 negative reports)."
   ],
   "interactionInsights": [
     {
-      "id": "body|nasal_cushion|nose|comfort",
-      "label": "Nasal Cushion at Nose: Comfort",
-      "score": 85,
-      "averageSentiment": 8.5,
+      "id": "body|nasal_pillows|nostrils|comfort_discomfort",
+      "label": "Nasal Pillows at Nostrils: Comfort and Discomfort",
+      "score": 19,
+      "grade": "F-",
+      "averageSentiment": 3.2,
+      "reviewCount": 5,
+      "reviewShare": 0.0276,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.2,
+      "negativeShare": 0.8,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 5
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Nice not to have the buds up my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "My previous nasal pillows used to be inserted into my nostrils and that caused some discomfort",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        }
+      ],
+      "kind": "body-component",
+      "contextId": null,
+      "contextLabel": null,
+      "aspectId": "comfort_discomfort",
+      "aspectLabel": "Comfort and Discomfort",
+      "outcomeAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 2
+        },
+        {
+          "id": "irritation",
+          "label": "Irritation",
+          "reviewCount": 2
+        },
+        {
+          "id": "pain",
+          "label": "Pain",
+          "reviewCount": 1
+        }
+      ],
+      "parts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 5
+        }
+      ],
+      "bodySites": [
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 5
+        }
+      ],
+      "contexts": [],
+      "tone": "caution",
+      "description": "Reports about the nasal pillows where it contacts the nostrils were mostly unfavorable for comfort and discomfort: 1 positive, 0 neutral, and 4 negative across 5 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
+    },
+    {
+      "id": "body|nasal_cushion|nose|comfort_discomfort",
+      "label": "Nasal Cushion at Nose: Comfort and Discomfort",
+      "score": 68,
+      "grade": "C+",
+      "averageSentiment": 6.3,
+      "reviewCount": 9,
+      "reviewShare": 0.0497,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.6667,
+      "negativeShare": 0.3333,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 9
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 9
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The way that it cradles the nose it really doesn't feel like your ever wearing a mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "In the morning it can take an hour for the skin on my nose to release all the moisture that has collected under the skin",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        }
+      ],
+      "kind": "body-component",
+      "contextId": null,
+      "contextLabel": null,
+      "aspectId": "comfort_discomfort",
+      "aspectLabel": "Comfort and Discomfort",
+      "outcomeAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 6
+        },
+        {
+          "id": "acne",
+          "label": "Acne",
+          "reviewCount": 2
+        },
+        {
+          "id": "pain",
+          "label": "Pain",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin_reaction",
+          "label": "Skin Reaction",
+          "reviewCount": 1
+        },
+        {
+          "id": "soreness",
+          "label": "Soreness",
+          "reviewCount": 1
+        }
+      ],
+      "parts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 9
+        }
+      ],
+      "bodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 9
+        }
+      ],
+      "contexts": [],
+      "tone": "mixed",
+      "description": "Reports about the nasal cushion where it contacts the nose were divided for comfort and discomfort: 6 positive, 0 neutral, and 3 negative across 9 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
+    }
+  ],
+  "strengths": [
+    {
+      "id": "part|nasal_cushion|comfort",
+      "label": "Nasal Cushion · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.6,
+      "reviewCount": 12,
+      "reviewShare": 0.0663,
+      "positiveReviews": 12,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 12
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 6
+        },
+        {
+          "id": "under_nose",
+          "label": "Under Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The way that it cradles the nose it really doesn't feel like your ever wearing a mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "site|nose|comfort",
+      "label": "Nose · Comfort",
+      "score": 76,
+      "grade": "B",
+      "averageSentiment": 7.0,
+      "reviewCount": 15,
+      "reviewShare": 0.0829,
+      "positiveReviews": 11,
+      "neutralReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.7333,
+      "negativeShare": 0.2667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 6
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "hard_frame",
+          "label": "Hard Frame",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 15
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The way that it cradles the nose it really doesn't feel like your ever wearing a mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I doubt it would be comfortable",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        }
+      ]
+    },
+    {
+      "id": "part|headgear|ease_of_use",
+      "label": "Headgear · Ease Of Use",
+      "score": 92,
+      "grade": "A",
+      "averageSentiment": 8.1,
+      "reviewCount": 11,
+      "reviewShare": 0.0608,
+      "positiveReviews": 10,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.9091,
+      "negativeShare": 0.0909,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 11
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The head gear is very light",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I have to wear a headband to keep it in place",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        }
+      ]
+    },
+    {
+      "id": "part|headgear|comfort",
+      "label": "Headgear · Comfort",
+      "score": 79,
+      "grade": "B",
+      "averageSentiment": 7.2,
+      "reviewCount": 9,
+      "reviewShare": 0.0497,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7778,
+      "negativeShare": 0.2222,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 9
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "small_head",
+          "label": "Small Head",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The mask and head gear are super comfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "it’s very uncomfortable sleeping on my side",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "part|headgear|fit",
+      "label": "Headgear · Fit",
+      "score": 87,
+      "grade": "A-",
+      "averageSentiment": 7.4,
+      "reviewCount": 7,
+      "reviewShare": 0.0387,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_head",
+          "label": "Small Head",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the headgear design places the cushion exactly where it needs to be the first time, every time",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the top adjustment isn’t small enough to keep it off my ears",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "part|nasal_cushion|fit",
+      "label": "Nasal Cushion · Fit",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 7.7,
       "reviewCount": 6,
       "reviewShare": 0.0331,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8333,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -6169,219 +7554,77 @@
         {
           "id": "nose",
           "label": "Nose",
-          "reviewCount": 6
+          "reviewCount": 3
         }
       ],
       "positiveEvidence": [
         {
-          "text": "The way that it cradles the nose it really doesn't feel like your ever wearing a mask",
+          "text": "cushions all feel and fit great",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
         }
       ],
-      "negativeEvidence": [],
-      "kind": "body-component",
-      "contextId": null,
-      "contextLabel": null,
-      "aspectId": "comfort",
-      "aspectLabel": "Comfort",
-      "parts": [
+      "negativeEvidence": []
+    },
+    {
+      "id": "part|cushion|comfort",
+      "label": "Cushion · Comfort",
+      "score": 84,
+      "grade": "B+",
+      "averageSentiment": 7.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0331,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
         {
-          "id": "nasal_cushion",
-          "label": "Nasal Cushion",
+          "id": "cushion",
+          "label": "Cushion",
           "reviewCount": 6
         }
       ],
-      "bodySites": [
+      "associatedContexts": [],
+      "associatedBodySites": [
         {
           "id": "nose",
           "label": "Nose",
-          "reviewCount": 6
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
         }
       ],
-      "contexts": [],
-      "tone": "favorable",
-      "description": "Reports about the nasal cushion where it contacts the nose were mostly favorable for comfort: 5 positive, 1 mixed, and 0 negative across 6 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
-    }
-  ],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 82,
-      "reviewShare": 0.453,
-      "positiveReviews": 68,
-      "mixedReviews": 3,
-      "negativeReviews": 11,
-      "positiveShare": 0.8293,
-      "negativeShare": 0.1341,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "OMG Finally Best Mask Ever!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "It was awful!",
+          "text": "Best part for me is not having the \" mask ring\" around my nose in the morning",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 86,
-      "averageSentiment": 8.6,
-      "reviewCount": 26,
-      "reviewShare": 0.1436,
-      "positiveReviews": 24,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.9231,
-      "negativeShare": 0.0769,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Comfort",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
-        }
       ],
       "negativeEvidence": [
         {
-          "text": "couldn't get comfortable",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
-        }
-      ]
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 78,
-      "averageSentiment": 7.8,
-      "reviewCount": 20,
-      "reviewShare": 0.1105,
-      "positiveReviews": 17,
-      "mixedReviews": 1,
-      "negativeReviews": 2,
-      "positiveShare": 0.85,
-      "negativeShare": 0.1,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Perfect fit",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "The mask didn’t feel secure in this position",
+          "text": "struggled with leaks and pain because of the hard plastic overall",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
         }
       ]
     },
     {
-      "id": "|||weight",
-      "label": "Weight",
-      "score": 87,
-      "averageSentiment": 8.7,
-      "reviewCount": 15,
-      "reviewShare": 0.0829,
-      "positiveReviews": 15,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Super light!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||ease_of_use",
-      "label": "Ease Of Use",
-      "score": 87,
-      "averageSentiment": 8.7,
-      "reviewCount": 12,
-      "reviewShare": 0.0663,
-      "positiveReviews": 12,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Effortless!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 83,
-      "averageSentiment": 8.3,
-      "reviewCount": 11,
-      "reviewShare": 0.0608,
-      "positiveReviews": 11,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "wake up refreshed",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "headgear|||ease_of_use",
-      "label": "Headgear · Ease Of Use",
-      "score": 86,
-      "averageSentiment": 8.6,
-      "reviewCount": 9,
-      "reviewShare": 0.0497,
-      "positiveReviews": 9,
-      "mixedReviews": 0,
+      "id": "part|headgear|adjustment",
+      "label": "Headgear · Adjustment",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.0,
+      "reviewCount": 5,
+      "reviewShare": 0.0276,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -6390,11 +7633,60 @@
         {
           "id": "headgear",
           "label": "Headgear",
-          "reviewCount": 9
+          "reviewCount": 5
         }
       ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "It's a fantastic fit around the head; snug and easily adjustable",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "part|headgear|weight",
+      "label": "Headgear · Weight",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.4,
+      "reviewCount": 5,
+      "reviewShare": 0.0276,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "scalp",
+          "label": "Scalp",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
           "text": "The head gear is very light",
@@ -6403,170 +7695,233 @@
         }
       ],
       "negativeEvidence": []
-    },
+    }
+  ],
+  "concerns": [
     {
-      "id": "|||therapy_effectiveness",
-      "label": "Therapy Effectiveness",
-      "score": 70,
-      "averageSentiment": 7.0,
-      "reviewCount": 10,
-      "reviewShare": 0.0552,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
-      "negativeReviews": 2,
-      "positiveShare": 0.7,
-      "negativeShare": 0.2,
+      "id": "site|nose|seal_leak",
+      "label": "Nose · Seal Leak",
+      "score": 12,
+      "grade": "F-",
+      "averageSentiment": 2.6,
+      "reviewCount": 8,
+      "reviewShare": 0.0442,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.125,
+      "negativeShare": 0.875,
       "evidenceStrength": "limited",
-      "associatedParts": [],
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 4
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "nasal_cradle_cushion",
+          "label": "Nasal Cradle Cushion",
+          "reviewCount": 1
+        }
+      ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 8
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "I had the best #'s on my Resmed 11",
+          "text": "First 5 minute quick try & good seal",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I had many more episodes of apnea each night",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
-        }
-      ]
-    },
-    {
-      "id": "|||value",
-      "label": "Value",
-      "score": 74,
-      "averageSentiment": 7.4,
-      "reviewCount": 8,
-      "reviewShare": 0.0442,
-      "positiveReviews": 7,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.875,
-      "negativeShare": 0.125,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "The cost was amazing",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I wasted money trying to find a comfortable sleep mask",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-        }
-      ]
-    },
-    {
-      "id": "headgear|||comfort",
-      "label": "Headgear · Comfort",
-      "score": 86,
-      "averageSentiment": 8.6,
-      "reviewCount": 7,
-      "reviewShare": 0.0387,
-      "positiveReviews": 7,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [
-        {
-          "id": "headgear",
-          "label": "Headgear",
-          "reviewCount": 7
-        }
-      ],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "the head gear is very comfortable",
+          "text": "I am unable to get a good seal around my nose",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
-      ],
-      "negativeEvidence": []
+      ]
     },
     {
-      "id": "|||noise",
-      "label": "Noise",
-      "score": 83,
-      "averageSentiment": 8.3,
-      "reviewCount": 7,
-      "reviewShare": 0.0387,
-      "positiveReviews": 6,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.8571,
-      "negativeShare": 0.1429,
+      "id": "part|cushion|seal_leak",
+      "label": "Cushion · Seal Leak",
+      "score": 26,
+      "grade": "F",
+      "averageSentiment": 3.6,
+      "reviewCount": 8,
+      "reviewShare": 0.0442,
+      "positiveReviews": 2,
+      "neutralReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.25,
+      "negativeShare": 0.75,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 8
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "zero sound while wearing",
+          "text": "Excellent and gentle seal for back sleepers",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "noisy due to leakage",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
+          "text": "I am unable to get a good seal around my nose",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
-      "id": "||side_sleeping|sleep_position_compatibility",
-      "label": "Side Sleeping · Sleep Position Compatibility",
-      "score": 72,
-      "averageSentiment": 7.2,
-      "reviewCount": 8,
-      "reviewShare": 0.0442,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
-      "negativeReviews": 2,
-      "positiveShare": 0.625,
-      "negativeShare": 0.25,
+      "id": "part|nasal_pillows|seal_leak",
+      "label": "Nasal Pillows · Seal Leak",
+      "score": 19,
+      "grade": "F-",
+      "averageSentiment": 3.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0331,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.1667,
+      "negativeShare": 0.8333,
       "evidenceStrength": "limited",
-      "associatedParts": [],
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 6
+        }
+      ],
       "associatedContexts": [
         {
           "id": "side_sleeping",
           "label": "Side Sleeping",
-          "reviewCount": 8
+          "reviewCount": 1
         }
       ],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "nasal_passages",
+          "label": "Nasal Passages",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "you can comfortably sleep on side",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+          "text": "how well the nasal pillows sealed",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Not really for side or tummy sleepers",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+          "text": "the leakage was way too much",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+        }
+      ]
+    },
+    {
+      "id": "site|nose|pain",
+      "label": "Nose · Pain",
+      "score": 0,
+      "grade": "F-",
+      "averageSentiment": 1.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0276,
+      "positiveReviews": 0,
+      "neutralReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "hard_frame",
+          "label": "Hard Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "plastic_frame",
+          "label": "Plastic Frame",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 5
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "the tip of my nose rubs against the white plastic mounting flange that the nose piece hose connects to",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
         }
       ]
     }
   ],
-  "concerns": [],
   "retailers": [
     {
       "retailer": "CPAP.com",
@@ -6628,24 +7983,9 @@
   "evidence": {
     "positive": [
       {
-        "text": "OMG Finally Best Mask Ever!",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
-      },
-      {
-        "text": "I have a mustache and beard.",
-        "retailer": "Lofta",
-        "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-      },
-      {
-        "text": "This is the best mask that I have ever tried",
-        "retailer": "Lofta",
-        "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-      },
-      {
-        "text": "A GREAT MASK",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        "text": "The Fisher & Paykel | Evora Nasal CPAP Mask is perfect for me, and I highly recommend it",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
       },
       {
         "text": "The way that it cradles the nose it really doesn't feel like your ever wearing a mask",
@@ -6653,48 +7993,63 @@
         "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-fit-pack"
       },
       {
-        "text": "By far the best mask I have ever used",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
+        "text": "the headgear design places the cushion exactly where it needs to be the first time, every time",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/fisher-paykel-evora-nasal-cpap-mask-with-headgear?variant=49040430170428"
+      },
+      {
+        "text": "the Evora is the most lightweight, comfortable and least intrusive mask I have ever worn",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+      },
+      {
+        "text": "The Evora Nasal CPAP Mask is the most comfortable mask that I have ever used",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+      },
+      {
+        "text": "The Evora is the simplest and best sealing nasal mask I have used",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
       }
     ],
     "negative": [
-      {
-        "text": "but leaks",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/evora-nasal-cpap-mask-system"
-      },
-      {
-        "text": "It was awful!",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
-      },
-      {
-        "text": "Does not fit",
-        "retailer": "Lofta",
-        "productUrl": "https://lofta.com/collections/cpap-masks/products/evora-nasal-mask"
-      },
-      {
-        "text": "Does not create a very good seal",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
-      },
       {
         "text": "the tip of my nose rubs against the white plastic mounting flange that the nose piece hose connects to",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/fisher-paykel-evora-nasal-cpap-mask"
       },
       {
-        "text": "the leakage was way too much",
+        "text": "the plastic backing behind pillow is so large that it gouges my cheek",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+      },
+      {
+        "text": "hard plastic piece inside nasal maskhurts my nose after about an hour",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "I was unable to get the cushion set properly under my nose",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/evora-nasal-cpap-mask-by-fisher-paykel"
+      },
+      {
+        "text": "I am unable to get a good seal around my nose",
+        "retailer": "CPAP Ninja",
+        "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel"
+      },
+      {
+        "text": "I had many more episodes of apnea each night",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/evora-nasal-cpap-mask-fisher-paykel"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

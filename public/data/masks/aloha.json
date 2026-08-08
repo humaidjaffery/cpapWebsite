@@ -1,8 +1,18 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "aloha",
   "name": "Aloha",
   "catalogOrder": 59,
+  "search": {
+    "aliases": [
+      "Aloha Nasal Pillows CPAP Mask FitPack with Headgear"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Nasal Pillow",
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 65,
@@ -13,30 +23,33 @@
     "reviewDateEnd": "2026-05-14"
   },
   "overall": {
-    "compositeScore": 81,
+    "score": 80,
+    "grade": "B+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.23,
-      "score": 85,
+      "score": 81,
       "reviewCount": 65,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 7.5,
       "score": 75,
       "reviewCount": 38,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 74,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 31,
       "reviewShare": 0.4769,
       "positiveReviews": 24,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 5,
       "positiveShare": 0.7742,
       "negativeShare": 0.1613,
@@ -124,24 +137,89 @@
       ],
       "positiveEvidence": [
         {
+          "text": "This mask is so light",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
           "text": "Most comfortable ever",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "This mask is so light",
+          "text": "It's so comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "it doesn't hurt my face when I sleep on my side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "The headgear is so light it feels almost non-existent",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "it is definitely the most comfortable so far",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "it is very comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "It's super comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "It's so light",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "Very comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "It will put pressure on the headgear and make the nasal pillows leak or become excessively uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "It leaves such deep groves in my cheeks that it takes hours for them to go away",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
           "text": "couldn't even wear the Swift FX due to the pressure against my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "DO NOT use the top of the Halo chin strap",
+          "text": "The head gear goes OVER your ears on bith sides",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I will return to the pillow mask when I can because it is light and open",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "The nose pillow by the lip is bulky for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "the material the pillow was made of to be heavy",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -150,14 +228,15 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 65,
+      "score": 78,
+      "grade": "B",
       "averageSentiment": 6.5,
       "reviewCount": 33,
       "reviewShare": 0.5077,
-      "positiveReviews": 18,
-      "mixedReviews": 9,
+      "positiveReviews": 24,
+      "neutralReviews": 3,
       "negativeReviews": 6,
-      "positiveShare": 0.5455,
+      "positiveShare": 0.7273,
       "negativeShare": 0.1818,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -243,12 +322,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "The ability to change the angle of the pillows makes it perfectly fit to the angle of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
           "text": "The fit is unbeatable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "The ability to change the angle of the pillows makes it perfectly fit to the angle of my nose",
+          "text": "The ball and socket design is by far the very best type of connection between the short tube and the nasal pillows",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I wake up 8 or 9 hours later with the pillows still sealed and the prongs at halfway in",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "After trying multiple masks this is the best fit for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "the adjustment has to be felt to be believed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I love the fit of the headpiece",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "Best fit out of five",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "Great fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "Best fit",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -260,7 +379,47 @@
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
+          "text": "it does not fit like my old one",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
           "text": "the sides sit directly by my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "Very difficult to keep the right tension",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "there are no adjustments",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I have very small nasal openings, unfortunately, the small pillow was a bit too big",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I cannot really adjust it any more than I have it already",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I felt I was between sizes of pillows",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I'm gonna have to mess with it - adjust and see if I can get it to fit better",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "The only thing i would change is the strap that goes around the back of the head",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -269,14 +428,15 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 81,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 8.1,
       "reviewCount": 16,
       "reviewShare": 0.2462,
-      "positiveReviews": 12,
-      "mixedReviews": 2,
+      "positiveReviews": 14,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.75,
+      "positiveShare": 0.875,
       "negativeShare": 0.125,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -327,7 +487,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "no leaks",
+          "text": "Best nasal seal I have ever had",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
@@ -335,16 +495,66 @@
           "text": "have no leak issues whatsoever",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "The Aloha never leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "No leaks at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "no leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "leak free",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "No matter what, this mask stays sealed and you can roll on you side or into the pillow, it still seals",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "helps hold the seal as you move around during the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I love how the pillow seals",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "with no leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "It will put pressure on the headgear and make the nasal pillows leak or become excessively uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
         {
           "text": "it leaked out into my mouth",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "It will put pressure on the headgear and make the nasal pillows leak or become excessively uncomfortable",
+          "text": "I just wish I could wear it all night without any leaking",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "Headgear may require some tightening to prevent leaking when you are on your side",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -352,15 +562,16 @@
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 61,
+      "label": "Stability",
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.1,
       "reviewCount": 22,
       "reviewShare": 0.3385,
-      "positiveReviews": 10,
-      "mixedReviews": 5,
+      "positiveReviews": 13,
+      "neutralReviews": 2,
       "negativeReviews": 7,
-      "positiveShare": 0.4545,
+      "positiveShare": 0.5909,
       "negativeShare": 0.3182,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -446,12 +657,52 @@
       ],
       "positiveEvidence": [
         {
-          "text": "it actually stays put",
+          "text": "Almost all of the positions of sleep were comfortable including face up, right and left side and leftward face up and rightward face up positions",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "This headgear is both firm enough to hold its shape and position",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "When I sleep on my back the Aloha works beautifully!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I like that I can sleep on my side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "seems to be self adjusting as I sleep",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
           "text": "you can roll over with no issues",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I can sleep on my side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "stay in place all night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "it actually stays put",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "Great for sleeping on your back or side",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -466,20 +717,61 @@
           "text": "I sleep with my cheek on my pillow, and the Aloha keeps getting pushed to the side",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "the Velcro gets caught on my long hair and pulls it out",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "the velcro was not want to stick",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "The only position I would not recommend is face down between the crack of two beds together",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "when the hose is down on my chest it tends to pull the pillows from my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "it feels like it moves around alot",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "headgear dislodges",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "the part inside of it was a little rigid for me as a side sleeper",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "it sometimes slides up since it fits so high",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 59,
+      "label": "Ease of Use",
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 5.9,
       "reviewCount": 26,
       "reviewShare": 0.4,
-      "positiveReviews": 12,
-      "mixedReviews": 6,
+      "positiveReviews": 14,
+      "neutralReviews": 4,
       "negativeReviews": 8,
-      "positiveShare": 0.4615,
+      "positiveShare": 0.5385,
       "negativeShare": 0.3077,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -535,12 +827,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the adjustment has to be felt to be believed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "Hardly notice that I've it on all night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "easy to take on and off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
           "text": "easy to fit mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "the adjustment has to be felt to be believed",
+          "text": "The Aloha has adjustments on the back, top, and front",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "the head strap that includes a second adjustment",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "are adjustable in the angle which is helpful",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "It was easy to assemble",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "this was easier to use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "much more complicated CPAP headgears",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -552,7 +884,47 @@
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
+          "text": "hard to adjust to any position where it will stay",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
           "text": "it was very difficult to put back together",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "there are no adjustments",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I cannot really adjust it any more than I have it already",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "if you get up at night I found this to be awkward",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "was hard to put together",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I'm gonna have to mess with it - adjust and see if I can get it to fit better",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "You need to get used to putting the headgear on properly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "the velcro get's full of lint in the wash",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -561,12 +933,13 @@
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 63,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.3,
       "reviewCount": 7,
       "reviewShare": 0.1077,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.7143,
       "negativeShare": 0.2857,
@@ -622,16 +995,26 @@
           "text": "The vents are quieter than Dream Wear and Swift FX as well as 3 older models",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
-        }
-      ],
-      "negativeEvidence": [
+        },
         {
-          "text": "it blew so much air into my nostrils",
+          "text": "quiet",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
+          "text": "It appeared that the pressure self adjusted to prevent leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        }
+      ],
+      "negativeEvidence": [
+        {
           "text": "the exhaust port blows a constant fan of air out in a forceful manner",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "it blew so much air into my nostrils",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -640,12 +1023,13 @@
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 50,
+      "score": 43,
+      "grade": "D-",
       "averageSentiment": 5.0,
       "reviewCount": 11,
       "reviewShare": 0.1692,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 6,
       "positiveShare": 0.3636,
       "negativeShare": 0.5455,
@@ -713,24 +1097,64 @@
       ],
       "positiveEvidence": [
         {
-          "text": "this is the only pillow that does not contribute to nose bleeds",
+          "text": "I can't wear masks because they all leave marks on my face no matter what.All of them",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "I doesn't hurt my nostrils",
+          "text": "soft enough (due to the included fleece cover) not to leave marks on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "it doesn't hurt my face when I sleep on my side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "doesn't end up giving me wrinkles and bags under my eyes from sitting too close to my eye sockets",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "does not irritate my skin like some others do",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "If I tighten the headgear it makes my nose sore",
+          "text": "I seem to get little infections inside the edge of one nostril if I wear the nasal pillows for more than a few nights in…",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "I seem to get little infections inside the edge of one nostril if I wear the nasal pillows for more than a few nights in…",
+          "text": "It leaves such deep groves in my cheeks that it takes hours for them to go away",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "it has caused abrasions on my left nostril",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "Most of the others irritate my nostrils",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "Head gear does leave a mark on my face for about 1 hour if I sleep on my back",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "It hits my upper lip",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "some septum irritation",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -739,14 +1163,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 40,
+      "score": 26,
+      "grade": "F",
       "averageSentiment": 4.0,
       "reviewCount": 13,
       "reviewShare": 0.2,
-      "positiveReviews": 2,
-      "mixedReviews": 2,
+      "positiveReviews": 3,
+      "neutralReviews": 1,
       "negativeReviews": 9,
-      "positiveShare": 0.1538,
+      "positiveShare": 0.2308,
       "negativeShare": 0.6923,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -786,12 +1211,27 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "Much better quality than the cheep knock off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
           "text": "It will last much longer",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "durable",
+          "text": "Headgear is replaceable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "it was but that’s the only benefit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I wore out my first Aloha mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -806,18 +1246,59 @@
           "text": "the Velcro hose guide for the top strap that holds the tubing is flimsy",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "The straps are Velcro and have no tension",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "Very inflexible",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "Nothing holds it together but friction between a hole in the silicone and a little tab on the headgear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "The top Velcro ring can tangle to the headgear during storage",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "I was fearful of breaking the prongs",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "the last head gear did not last",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "the head gear is little flimsy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "the headgear soon stretches",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
       ]
     },
     {
       "id": "value",
       "label": "Value",
-      "score": 72,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 5,
       "reviewShare": 0.0769,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -849,7 +1330,17 @@
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
+          "text": "cost a lot more, but not as good as the relatively inexpensive Aloha unit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
           "text": "the Aloha is much cheaper than the P10",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "you can use the hose guide from the Swift LT",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -865,12 +1356,13 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 58,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 5.8,
       "reviewCount": 11,
       "reviewShare": 0.1692,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.6364,
       "negativeShare": 0.3636,
@@ -915,6 +1407,31 @@
           "text": "Aloha Nasal Pillows are the only nasal masks that work for me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "get a more restful sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "This nasal pillow works well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "more rest!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "the mask works well for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "Works well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
       ],
       "negativeEvidence": [
@@ -927,6 +1444,16 @@
           "text": "could not make it work for me with the low AHI that I am used to",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "This makes it useless for getting a good night's sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "so I guess I need to go back to the full-face unit until the nose heals",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
       ]
     }
@@ -935,12 +1462,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 75,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.5,
       "reviewCount": 38,
       "reviewShare": 0.5846,
       "positiveReviews": 30,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 7,
       "positiveShare": 0.7895,
       "negativeShare": 0.1842,
@@ -999,12 +1527,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "This mask is not good",
+          "text": "This is the worst nose pillow I've ever tried",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "This is the worst nose pillow I've ever tried",
+          "text": "This mask is not good",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -1013,12 +1541,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 75,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.5,
       "reviewCount": 25,
       "reviewShare": 0.3846,
       "positiveReviews": 21,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.84,
       "negativeShare": 0.12,
@@ -1118,7 +1647,7 @@
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "except that this one has harder sides",
+          "text": "The head gear goes OVER your ears on bith sides",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -1127,14 +1656,15 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 72,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 24,
       "reviewShare": 0.3692,
-      "positiveReviews": 18,
-      "mixedReviews": 2,
+      "positiveReviews": 20,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.75,
+      "positiveShare": 0.8333,
       "negativeShare": 0.1667,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1220,12 +1750,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The fit is unbeatable",
+          "text": "The ability to change the angle of the pillows makes it perfectly fit to the angle of my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "The ability to change the angle of the pillows makes it perfectly fit to the angle of my nose",
+          "text": "The fit is unbeatable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -1237,7 +1767,7 @@
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "the sides sit directly by my eyes",
+          "text": "it does not fit like my old one",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -1246,14 +1776,15 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 85,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 8.5,
       "reviewCount": 15,
       "reviewShare": 0.2308,
-      "positiveReviews": 12,
-      "mixedReviews": 2,
+      "positiveReviews": 14,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.8,
+      "positiveShare": 0.9333,
       "negativeShare": 0.0667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1299,7 +1830,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "no leaks",
+          "text": "Best nasal seal I have ever had",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
@@ -1325,12 +1856,13 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 54,
+      "score": 46,
+      "grade": "D",
       "averageSentiment": 5.4,
       "reviewCount": 15,
       "reviewShare": 0.2308,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 8,
       "positiveShare": 0.4,
       "negativeShare": 0.5333,
@@ -1408,12 +1940,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "it actually stays put",
+          "text": "This headgear is both firm enough to hold its shape and position",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "This headgear is both firm enough to hold its shape and position",
+          "text": "seems to be self adjusting as I sleep",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -1434,14 +1966,15 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 52,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.2,
       "reviewCount": 11,
       "reviewShare": 0.1692,
-      "positiveReviews": 3,
-      "mixedReviews": 4,
+      "positiveReviews": 4,
+      "neutralReviews": 3,
       "negativeReviews": 4,
-      "positiveShare": 0.2727,
+      "positiveShare": 0.3636,
       "negativeShare": 0.3636,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1475,7 +2008,7 @@
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "the head strap that includes a second adjustment",
+          "text": "The Aloha has adjustments on the back, top, and front",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -1487,7 +2020,7 @@
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "there are no adjustments",
+          "text": "Very difficult to keep the right tension",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -1496,12 +2029,13 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 65,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.5,
       "reviewCount": 10,
       "reviewShare": 0.1538,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.7,
       "negativeShare": 0.3,
@@ -1538,12 +2072,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "easy to fit mask",
+          "text": "easy to take on and off",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "easy to take on and off",
+          "text": "easy to fit mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -1564,14 +2098,15 @@
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 76,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.6,
       "reviewCount": 9,
       "reviewShare": 0.1385,
-      "positiveReviews": 6,
-      "mixedReviews": 3,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.6667,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1622,12 +2157,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "you can roll over with no issues",
+          "text": "Almost all of the positions of sleep were comfortable including face up, right and left side and leftward face up and rightward face up positions",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "Almost all of the positions of sleep were comfortable including face up, right and left side and leftward face up and rightward face up positions",
+          "text": "When I sleep on my back the Aloha works beautifully!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -1648,12 +2183,13 @@
     {
       "id": "weight",
       "label": "Weight",
-      "score": 81,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 8.1,
       "reviewCount": 9,
       "reviewShare": 0.1385,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8889,
       "negativeShare": 0.1111,
@@ -1701,7 +2237,7 @@
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "Most lightweight",
+          "text": "The headgear is so light it feels almost non-existent",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -1717,14 +2253,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 45,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.5,
       "reviewCount": 8,
       "reviewShare": 0.1231,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.25,
+      "positiveShare": 0.375,
       "negativeShare": 0.625,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1774,12 +2311,13 @@
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 57,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 5.7,
       "reviewCount": 6,
       "reviewShare": 0.0923,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -1827,12 +2365,13 @@
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 38,
+      "score": 21,
+      "grade": "F",
       "averageSentiment": 3.8,
       "reviewCount": 5,
       "reviewShare": 0.0769,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -1856,6 +2395,11 @@
           "text": "Much better quality than the cheep knock off",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        },
+        {
+          "text": "it was but that’s the only benefit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
       ],
       "negativeEvidence": [
@@ -1874,12 +2418,13 @@
     {
       "id": "noise",
       "label": "Noise",
-      "score": 70,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 5,
       "reviewShare": 0.0769,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -1923,14 +2468,15 @@
     {
       "id": "nasal_pillows",
       "label": "Nasal Pillows",
-      "score": 70,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 27,
       "reviewShare": 0.4154,
-      "positiveReviews": 16,
-      "mixedReviews": 8,
+      "positiveReviews": 18,
+      "neutralReviews": 6,
       "negativeReviews": 3,
-      "positiveShare": 0.5926,
+      "positiveShare": 0.6667,
       "negativeShare": 0.1111,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1996,7 +2542,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Most comfortable ever",
+          "text": "Best nasal seal I have ever had",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
@@ -2018,7 +2564,7 @@
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "couldn't even wear the Swift FX due to the pressure against my nose",
+          "text": "I seem to get little infections inside the edge of one nostril if I wear the nasal pillows for more than a few nights in…",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
@@ -2032,17 +2578,18 @@
         {
           "id": "seal_leak",
           "label": "Seal Leak",
-          "score": 87,
+          "score": 96,
+          "grade": "A+",
           "averageSentiment": 8.7,
           "reviewCount": 10,
           "reviewShare": 0.1538,
           "positiveReviews": 9,
-          "mixedReviews": 1,
+          "neutralReviews": 1,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "no leaks",
+              "text": "Best nasal seal I have ever had",
               "retailer": "DirectHomeMedical",
               "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
             },
@@ -2063,12 +2610,13 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 75,
+          "score": 87,
+          "grade": "A-",
           "averageSentiment": 7.5,
           "reviewCount": 10,
           "reviewShare": 0.1538,
           "positiveReviews": 8,
-          "mixedReviews": 1,
+          "neutralReviews": 1,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -2099,12 +2647,13 @@
         {
           "id": "fit",
           "label": "Fit",
-          "score": 79,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 7.9,
           "reviewCount": 8,
           "reviewShare": 0.1231,
-          "positiveReviews": 7,
-          "mixedReviews": 1,
+          "positiveReviews": 8,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -2124,12 +2673,13 @@
         {
           "id": "overall_satisfaction",
           "label": "Overall Satisfaction",
-          "score": 76,
+          "score": 85,
+          "grade": "A-",
           "averageSentiment": 7.6,
           "reviewCount": 7,
           "reviewShare": 0.1077,
           "positiveReviews": 6,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -2158,14 +2708,15 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 54,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.4,
       "reviewCount": 19,
       "reviewShare": 0.2923,
-      "positiveReviews": 7,
-      "mixedReviews": 4,
+      "positiveReviews": 8,
+      "neutralReviews": 3,
       "negativeReviews": 8,
-      "positiveShare": 0.3684,
+      "positiveShare": 0.4211,
       "negativeShare": 0.4211,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2236,12 +2787,12 @@
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "The headgear is so light it feels almost non-existent",
+          "text": "superior to other headgear that I have tried over 20 years",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "superior to other headgear that I have tried over 20 years",
+          "text": "The headgear is so light it feels almost non-existent",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -2269,14 +2820,15 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 51,
+      "score": 50,
+      "grade": "D+",
       "averageSentiment": 5.1,
       "reviewCount": 6,
       "reviewShare": 0.0923,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.3333,
+      "positiveShare": 0.5,
       "negativeShare": 0.5,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2327,12 +2879,12 @@
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "Aloha's worthy of praise",
+          "text": "Almost all of the positions of sleep were comfortable including face up, right and left side and leftward face up and rightward face up positions",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "Almost all of the positions of sleep were comfortable including face up, right and left side and leftward face up and rightward face up positions",
+          "text": "Aloha's worthy of praise",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -2344,12 +2896,12 @@
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "so the whole thing just falls off your face",
+          "text": "It leaves such deep groves in my cheeks that it takes hours for them to go away",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "It leaves such deep groves in my cheeks that it takes hours for them to go away",
+          "text": "so the whole thing just falls off your face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -2362,12 +2914,13 @@
     {
       "id": "nasal_pillows|comfort",
       "label": "Nasal Pillows · Comfort",
-      "score": 75,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.5,
       "reviewCount": 10,
       "reviewShare": 0.1538,
       "positiveReviews": 8,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -2392,17 +2945,18 @@
     {
       "id": "nasal_pillows|seal_leak",
       "label": "Nasal Pillows · Seal Leak",
-      "score": 87,
+      "score": 96,
+      "grade": "A+",
       "averageSentiment": 8.7,
       "reviewCount": 10,
       "reviewShare": 0.1538,
       "positiveReviews": 9,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "no leaks",
+          "text": "Best nasal seal I have ever had",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -2422,12 +2976,13 @@
     {
       "id": "nasal_pillows|fit",
       "label": "Nasal Pillows · Fit",
-      "score": 79,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.9,
       "reviewCount": 8,
       "reviewShare": 0.1231,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -2446,12 +3001,13 @@
     {
       "id": "nasal_pillows|overall_satisfaction",
       "label": "Nasal Pillows · Overall Satisfaction",
-      "score": 76,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.6,
       "reviewCount": 7,
       "reviewShare": 0.1077,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -2477,16 +3033,17 @@
       "id": "nasal_pillows|stability",
       "label": "Nasal Pillows · Stability",
       "score": 62,
+      "grade": "C",
       "averageSentiment": 6.2,
       "reviewCount": 5,
       "reviewShare": 0.0769,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "it actually stays put",
+          "text": "seems to be self adjusting as I sleep",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -2508,12 +3065,13 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 67,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 11,
       "reviewShare": 0.1692,
       "positiveReviews": 7,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.6364,
       "negativeShare": 0.2727,
@@ -2586,18 +3144,19 @@
       "sourceContexts": [
         "side_sleeping"
       ],
-      "classification": "mixed",
+      "classification": "favorable",
       "limitedEvidence": false
     },
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 71,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.1,
       "reviewCount": 6,
       "reviewShare": 0.0923,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -2665,12 +3224,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "helps hold the seal as you move around during the night",
+          "text": "I wake up 8 or 9 hours later with the pillows still sealed and the prongs at halfway in",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "I wake up 8 or 9 hours later with the pillows still sealed and the prongs at halfway in",
+          "text": "this is the best nasal pillow mask I have been able to find",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -2698,12 +3257,13 @@
     {
       "id": "long-term-users",
       "label": "Long-term CPAP users",
-      "score": 77,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.7,
       "reviewCount": 5,
       "reviewShare": 0.0769,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -2741,12 +3301,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Most comfortable ever",
+          "text": "Aloha best out of 17 masks I've tried",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "Aloha best out of 17 masks I've tried",
+          "text": "Most comfortable ever",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -2769,17 +3329,18 @@
     {
       "id": "side-sleepers|sleep_position_compatibility",
       "label": "Side sleepers · Sleep Position Compatibility",
-      "score": 70,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 5,
       "reviewShare": 0.0769,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "I can sleep on my side",
+          "text": "I like that I can sleep on my side",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -2797,18 +3358,21 @@
       "aspectLabel": "Sleep Position Compatibility"
     }
   ],
-  "bestFor": [],
+  "bestFor": [
+    "side-sleepers"
+  ],
   "mayNotSuit": [],
   "bodySites": [
     {
       "id": "nostrils",
       "label": "Nostrils",
-      "score": 34,
+      "score": 18,
+      "grade": "F-",
       "averageSentiment": 3.4,
       "reviewCount": 6,
       "reviewShare": 0.0923,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.1667,
       "negativeShare": 0.8333,
@@ -2843,12 +3407,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "it blew so much air into my nostrils",
+          "text": "I seem to get little infections inside the edge of one nostril if I wear the nasal pillows for more than a few nights in…",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
         {
-          "text": "I seem to get little infections inside the edge of one nostril if I wear the nasal pillows for more than a few nights in…",
+          "text": "it blew so much air into my nostrils",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         },
@@ -2901,117 +3465,48 @@
   "interactionInsights": [],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 74,
-      "averageSentiment": 7.4,
-      "reviewCount": 25,
-      "reviewShare": 0.3846,
-      "positiveReviews": 19,
-      "mixedReviews": 1,
-      "negativeReviews": 5,
-      "positiveShare": 0.76,
-      "negativeShare": 0.2,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Finally a nasal pillow that works for me",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "This mask is not good",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 85,
-      "averageSentiment": 8.5,
-      "reviewCount": 10,
-      "reviewShare": 0.1538,
-      "positiveReviews": 10,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Very comfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 70,
-      "averageSentiment": 7.0,
-      "reviewCount": 10,
-      "reviewShare": 0.1538,
-      "positiveReviews": 8,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.8,
-      "negativeShare": 0.2,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "The fit is unbeatable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Very poor fit",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
-        }
-      ]
-    },
-    {
-      "id": "nasal_pillows|||seal_leak",
+      "id": "part|nasal_pillows|seal_leak",
       "label": "Nasal Pillows · Seal Leak",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 7,
-      "reviewShare": 0.1077,
-      "positiveReviews": 6,
-      "mixedReviews": 1,
+      "score": 96,
+      "grade": "A+",
+      "averageSentiment": 8.7,
+      "reviewCount": 10,
+      "reviewShare": 0.1538,
+      "positiveReviews": 9,
+      "neutralReviews": 1,
       "negativeReviews": 0,
-      "positiveShare": 0.8571,
+      "positiveShare": 0.9,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "nasal_pillows",
           "label": "Nasal Pillows",
-          "reviewCount": 7
+          "reviewCount": 10
         }
       ],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "no leaks",
+          "text": "Best nasal seal I have ever had",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
@@ -3023,6 +3518,125 @@
           "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
         }
       ]
+    },
+    {
+      "id": "part|nasal_pillows|comfort",
+      "label": "Nasal Pillows · Comfort",
+      "score": 87,
+      "grade": "A-",
+      "averageSentiment": 7.5,
+      "reviewCount": 10,
+      "reviewShare": 0.1538,
+      "positiveReviews": 8,
+      "neutralReviews": 1,
+      "negativeReviews": 1,
+      "positiveShare": 0.8,
+      "negativeShare": 0.1,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 10
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "tossing_turning",
+          "label": "Tossing Turning",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Most comfortable ever",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "It will put pressure on the headgear and make the nasal pillows leak or become excessively uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        }
+      ]
+    },
+    {
+      "id": "part|nasal_pillows|fit",
+      "label": "Nasal Pillows · Fit",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 7.9,
+      "reviewCount": 8,
+      "reviewShare": 0.1231,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 8
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "static_sleeping",
+          "label": "Static Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I wake up 8 or 9 hours later with the pillows still sealed and the prongs at halfway in",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+        }
+      ],
+      "negativeEvidence": []
     }
   ],
   "concerns": [],
@@ -3039,7 +3653,7 @@
   "evidence": {
     "positive": [
       {
-        "text": "Most comfortable ever",
+        "text": "The ability to change the angle of the pillows makes it perfectly fit to the angle of my nose",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
       },
@@ -3054,29 +3668,29 @@
         "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
       },
       {
-        "text": "Best pillow mask, yet",
+        "text": "Best nasal seal I have ever had",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
       },
       {
-        "text": "The fit is unbeatable",
+        "text": "have no leak issues whatsoever",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
       },
       {
-        "text": "Great mask",
+        "text": "In love with my Aloha",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
       }
     ],
     "negative": [
       {
-        "text": "Very strong chemical smell",
+        "text": "This is the worst nose pillow I've ever tried",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
       },
       {
-        "text": "This mask is not good",
+        "text": "No flexibility to take the mask on or off",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
       },
@@ -3086,7 +3700,12 @@
         "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
       },
       {
-        "text": "Very poor fit",
+        "text": "This mask is not good",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
+      },
+      {
+        "text": "Very strong chemical smell",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
       },
@@ -3094,18 +3713,13 @@
         "text": "Bad Design",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
-      },
-      {
-        "text": "No flexibility to take the mask on or off",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/alo100-aloha-nasal-pillow-cpap-mask-devilbiss"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

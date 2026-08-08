@@ -4,7 +4,8 @@
     "build": "tsc",
     "serve": "npm run build && firebase emulators:start --only functions,firestore",
     "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "logs": "firebase functions:log",
+    "test": "npm run build && node --test lib/**/*.test.js"
   },
   "engines": {
     "node": "22"

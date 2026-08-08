@@ -1,8 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "philips-respironics-amara",
   "name": "Philips Respironics Amara",
   "catalogOrder": 63,
+  "search": {
+    "aliases": [
+      "Amara Full Face CPAP Mask",
+      "Amara Full Face CPAP Mask with Headgear",
+      "Philips | Amara Full Face CPAP Mask"
+    ],
+    "abbreviations": [
+      "PR",
+      "Philips",
+      "Respironics"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 55,
@@ -13,32 +28,35 @@
     "reviewDateEnd": "2026-05-02"
   },
   "overall": {
-    "compositeScore": 71,
+    "score": 69,
+    "grade": "C+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 3.76,
-      "score": 75,
+      "score": 69,
       "reviewCount": 55,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 6.6,
       "score": 66,
       "reviewCount": 16,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 64,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 6.4,
       "reviewCount": 18,
       "reviewShare": 0.3273,
-      "positiveReviews": 11,
-      "mixedReviews": 2,
+      "positiveReviews": 12,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.6111,
+      "positiveShare": 0.6667,
       "negativeShare": 0.2778,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -102,6 +120,46 @@
           "text": "Comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "The gel cushion along with the forehead adjustment options work out great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "I chose the Gel mask because it is softer",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+        },
+        {
+          "text": "comfortable for my 4 year old",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "It’s very comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "very comfortable seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "Headgear is comfortable compared to other masks I've tried",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "this one looked comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "This one is more comfortable than most",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
@@ -114,20 +172,41 @@
           "text": "Have the straps so tight it hurts my face and back of my neck",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "I had big hopes that this was going to be comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "actually cut my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "Not comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "it feels kind of heavy",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 53,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.3,
       "reviewCount": 21,
       "reviewShare": 0.3818,
-      "positiveReviews": 8,
-      "mixedReviews": 3,
+      "positiveReviews": 10,
+      "neutralReviews": 1,
       "negativeReviews": 10,
-      "positiveShare": 0.381,
+      "positiveShare": 0.4762,
       "negativeShare": 0.4762,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -193,12 +272,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "it has a fine adjustment so that once you get the mask on lightly you can fine tune how snug it is against your face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
           "text": "perfect fit for my face",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         },
         {
-          "text": "it has a fine adjustment so that once you get the mask on lightly you can fine tune how snug it is against your face",
+          "text": "The only brand that I’ve found that carries a petite full mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "GET THE GE CUSHION, IT WILL CONFORM TO YOUR FACE",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+        },
+        {
+          "text": "BEST FITTING MASK I HAVE TRIED SO FAR",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "Reduced Size for the masks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+        },
+        {
+          "text": "I needed a petite size cushion and had a hard time finding a full face mask that offered this",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "I have a jutting forehead and just couldn't adjust nose tight enough. The Amara fits fantastic",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "this is the only one that I could use because I'm a side sleeper",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+        },
+        {
+          "text": "the forehead adjustment options work out great",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         }
@@ -213,20 +332,61 @@
           "text": "Large is everyone else's small",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "I wear a medium but the clerk said all masks sizes are different.",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "Not a good fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "Didn't fit right",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "I tried multiple smalls and one x-small in other masks but still couldn’t find one that fit me right",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "I ordered too large a mask based upon the mask I had before",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "I have tried many,many and many more tension settings with the straps",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "I have to be careful about how tight I make the mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+        },
+        {
+          "text": "unless the strap was adjusted a little on the too-tight side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 44,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.4,
       "reviewCount": 21,
       "reviewShare": 0.3818,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 13,
-      "positiveShare": 0.3333,
+      "positiveShare": 0.381,
       "negativeShare": 0.619,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -271,6 +431,11 @@
       ],
       "positiveEvidence": [
         {
+          "text": "so you will not have any AIR LEAKS",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+        },
+        {
           "text": "Great seal",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
@@ -279,6 +444,31 @@
           "text": "no leaks",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "The mask didn't leak like my old one",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "I don't has as much leak either",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "I also like the gel seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "it also has a great seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+        },
+        {
+          "text": "to perfect your facial seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -291,18 +481,59 @@
           "text": "Would not seal",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "a mask leak every night since it was put into use",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+        },
+        {
+          "text": "Keeps leaking around the silicone seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "didn't seal well around nose bridge",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "they all leak around my chin",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "I had mask leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "Air leaks around mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+        },
+        {
+          "text": "Leaks very easily",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "leaked air around",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 47,
+      "label": "Stability",
+      "score": 36,
+      "grade": "F+",
       "averageSentiment": 4.7,
       "reviewCount": 6,
       "reviewShare": 0.1091,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.3333,
       "negativeShare": 0.6667,
@@ -361,12 +592,22 @@
       ],
       "negativeEvidence": [
         {
+          "text": "The nasal pillows were ineffective for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
           "text": "I am mostly a side sleeper",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         },
         {
-          "text": "The nasal pillows were ineffective for me",
+          "text": "the mask made all kinds of \"plastic- squeaky\" noises whenever I moved",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "The velcro head straps are fairly weak",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         }
@@ -374,15 +615,16 @@
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 52,
+      "label": "Ease of Use",
+      "score": 50,
+      "grade": "D+",
       "averageSentiment": 5.2,
       "reviewCount": 9,
       "reviewShare": 0.1636,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 4,
-      "positiveShare": 0.3333,
+      "positiveShare": 0.4444,
       "negativeShare": 0.4444,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -436,6 +678,21 @@
           "text": "so easy to clean",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "the seal/cushion is easily removable for cleaning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "Plenty of adjustment",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "Periodic Velcro adjustment is sometimes required",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -448,20 +705,36 @@
           "text": "a nightmare trying to put the strap on after your trip to the bathroom",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "I have tried many,many and many more tension settings with the straps",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "the forehead pad support/adjusting mechanism was poorly designed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "I found myself adjusting constantly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 47,
+      "score": 48,
+      "grade": "D",
       "averageSentiment": 4.7,
       "reviewCount": 6,
       "reviewShare": 0.1091,
-      "positiveReviews": 1,
-      "mixedReviews": 3,
+      "positiveReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 2,
-      "positiveShare": 0.1667,
+      "positiveShare": 0.3333,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -495,17 +768,37 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Its quiet (its intended point)",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+          "text": "It was quiet,though, as far as the air that comes out of the mask it self",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         },
         {
           "text": "my wife says it is much quieter",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "Its quiet (its intended point)",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+        },
+        {
+          "text": "it might have a better vent",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "the mask made all kinds of \"plastic- squeaky\" noises whenever I moved",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "the air flow makes a loud vibration sound",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+        },
         {
           "text": "the excilation port is too small",
           "retailer": "RespShop",
@@ -521,12 +814,13 @@
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 27,
+      "score": 15,
+      "grade": "F-",
       "averageSentiment": 2.7,
       "reviewCount": 7,
       "reviewShare": 0.1273,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.1429,
       "negativeShare": 0.8571,
@@ -584,18 +878,39 @@
           "text": "The nose pad caused a scab on the upper bridge of my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "The masked caused acne on the bridge of my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "it eating the bridge of my nose up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "Still wake up with dry throat",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+        },
+        {
+          "text": "actually cut my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 45,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.5,
       "reviewCount": 8,
       "reviewShare": 0.1455,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.375,
       "negativeShare": 0.625,
@@ -637,12 +952,17 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "good quality",
+          "text": "I really like this cushion better than the one made of silicone",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
         },
         {
-          "text": "I really like this cushion better than the one made of silicone",
+          "text": "Face piece is durable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "good quality",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
         }
@@ -654,21 +974,37 @@
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         },
         {
+          "text": "The \"gel\" was not what I thought it was going to be",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
           "text": "The seal material is just to thin and flimsy",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "The velcro probably has 30% of it's original holding ability",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "needs some im[rovement is cashoining",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "value",
       "label": "Value",
-      "score": 50,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.0,
       "reviewCount": 5,
       "reviewShare": 0.0909,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -678,7 +1014,7 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Good value",
+          "text": "This one is a good price",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         },
@@ -686,6 +1022,11 @@
           "text": "The prices here are better than 2 other ones I've tried",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "reasonably priced option",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -704,12 +1045,13 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 59,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.9,
       "reviewCount": 9,
       "reviewShare": 0.1636,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.5556,
       "negativeShare": 0.4444,
@@ -755,9 +1097,29 @@
           "text": "My Amara mask works perfect for me",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "so far it has worked great",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "performs as indicated",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "works well",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "it drives me nuts and wakes me up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
         {
           "text": "your breathing is labored",
           "retailer": "RespShop",
@@ -765,6 +1127,11 @@
         },
         {
           "text": "I quit using it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "the nose mask would occasionally block my breathing when it slid up on my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         }
@@ -775,14 +1142,15 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 44,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.4,
       "reviewCount": 21,
       "reviewShare": 0.3818,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 13,
-      "positiveShare": 0.3333,
+      "positiveShare": 0.381,
       "negativeShare": 0.619,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -827,14 +1195,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Great seal",
+          "text": "so you will not have any AIR LEAKS",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         },
         {
-          "text": "no leaks",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+          "text": "Great seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -853,14 +1221,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 72,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 16,
       "reviewShare": 0.2909,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
+      "positiveReviews": 13,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.75,
+      "positiveShare": 0.8125,
       "negativeShare": 0.1875,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -923,23 +1292,24 @@
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         },
         {
-          "text": "Not comfortable",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+          "text": "I had big hopes that this was going to be comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         }
       ]
     },
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 66,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 16,
       "reviewShare": 0.2909,
-      "positiveReviews": 11,
-      "mixedReviews": 1,
+      "positiveReviews": 12,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.6875,
+      "positiveShare": 0.75,
       "negativeShare": 0.25,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -959,14 +1329,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Very Pleased",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
-        },
-        {
           "text": "This mask is legit the best thing I have tried",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "This mask was perfect",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -985,12 +1355,13 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 65,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.5,
       "reviewCount": 12,
       "reviewShare": 0.2182,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -1053,14 +1424,14 @@
           "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         },
         {
-          "text": "BEST FITTING MASK I HAVE TRIED SO FAR",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+          "text": "GET THE GE CUSHION, IT WILL CONFORM TO YOUR FACE",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Didn't fit right",
+          "text": "It barely covered my mouth",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
         },
@@ -1074,12 +1445,13 @@
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 42,
+      "score": 34,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 6,
       "reviewShare": 0.1091,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.3333,
       "negativeShare": 0.6667,
@@ -1105,12 +1477,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "good quality",
+          "text": "I really like this cushion better than the one made of silicone",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
         },
         {
-          "text": "I really like this cushion better than the one made of silicone",
+          "text": "good quality",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
         }
@@ -1122,7 +1494,7 @@
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         },
         {
-          "text": "The seal material is just to thin and flimsy",
+          "text": "The \"gel\" was not what I thought it was going to be",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         }
@@ -1131,12 +1503,13 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 65,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 6.5,
       "reviewCount": 6,
       "reviewShare": 0.1091,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -1189,12 +1562,13 @@
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 33,
+      "score": 17,
+      "grade": "F-",
       "averageSentiment": 3.3,
       "reviewCount": 6,
       "reviewShare": 0.1091,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.1667,
       "negativeShare": 0.8333,
@@ -1231,14 +1605,15 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 60,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 5,
       "reviewShare": 0.0909,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.4,
+      "positiveShare": 0.6,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1290,11 +1665,12 @@
       "id": "noise",
       "label": "Noise",
       "score": 50,
+      "grade": "D+",
       "averageSentiment": 5.0,
       "reviewCount": 5,
       "reviewShare": 0.0909,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.4,
       "negativeShare": 0.4,
@@ -1325,9 +1701,9 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Its quiet (its intended point)",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+          "text": "It was quiet,though, as far as the air that comes out of the mask it self",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         },
         {
           "text": "my wife says it is much quieter",
@@ -1337,14 +1713,14 @@
       ],
       "negativeEvidence": [
         {
-          "text": "it was loud",
+          "text": "the mask made all kinds of \"plastic- squeaky\" noises whenever I moved",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         },
         {
-          "text": "the mask made all kinds of \"plastic- squeaky\" noises whenever I moved",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+          "text": "the air flow makes a loud vibration sound",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         }
       ]
     }
@@ -1353,12 +1729,13 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 55,
+      "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.5,
       "reviewCount": 8,
       "reviewShare": 0.1455,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.5,
       "negativeShare": 0.375,
@@ -1386,19 +1763,19 @@
       ],
       "positiveEvidence": [
         {
-          "text": "BEST FITTING MASK I HAVE TRIED SO FAR",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
-        },
-        {
           "text": "GET THE GE CUSHION, IT WILL CONFORM TO YOUR FACE",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         },
         {
-          "text": "the seal/cushion is easily removable for cleaning",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+          "text": "BEST FITTING MASK I HAVE TRIED SO FAR",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "I needed a petite size cushion and had a hard time finding a full face mask that offered this",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1424,12 +1801,13 @@
     {
       "id": "gel_cushion",
       "label": "Gel Cushion",
-      "score": 69,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.9,
       "reviewCount": 7,
       "reviewShare": 0.1273,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.7143,
       "negativeShare": 0.2857,
@@ -1467,14 +1845,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I chose the Gel mask because it is softer",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
-        },
-        {
           "text": "The gel cushion along with the forehead adjustment options work out great",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        },
+        {
+          "text": "I chose the Gel mask because it is softer",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         },
         {
           "text": "the gel conforms to my face better",
@@ -1484,7 +1862,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Leaks air",
+          "text": "definitely not for a bipap",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         },
@@ -1500,12 +1878,13 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 44,
+      "score": 48,
+      "grade": "D",
       "averageSentiment": 4.4,
       "reviewCount": 6,
       "reviewShare": 0.1091,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -1532,14 +1911,14 @@
           "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
         },
         {
-          "text": "my wife says it is much quieter",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
-        },
-        {
           "text": "Headgear is comfortable compared to other masks I've tried",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+        },
+        {
+          "text": "my wife says it is much quieter",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
@@ -1565,12 +1944,13 @@
     {
       "id": "strap",
       "label": "Strap",
-      "score": 24,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.4,
       "reviewCount": 5,
       "reviewShare": 0.0909,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -1632,12 +2012,13 @@
     {
       "id": "nose_bridge",
       "label": "Nose Bridge",
-      "score": 35,
+      "score": 25,
+      "grade": "F",
       "averageSentiment": 3.5,
       "reviewCount": 6,
       "reviewShare": 0.1091,
       "positiveReviews": 1,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.1667,
       "negativeShare": 0.6667,
@@ -1675,12 +2056,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "very comfortable seal",
+          "text": "The gel cushion along with the forehead adjustment options work out great",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         },
         {
-          "text": "Major nose issues solved",
+          "text": "very comfortable seal",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         }
@@ -1692,12 +2073,12 @@
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         },
         {
-          "text": "it eating the bridge of my nose up",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+          "text": "The masked caused acne on the bridge of my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
         },
         {
-          "text": "didn't seal well around nose bridge",
+          "text": "it eating the bridge of my nose up",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
         }
@@ -1748,70 +2129,7 @@
   ],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 74,
-      "averageSentiment": 7.4,
-      "reviewCount": 14,
-      "reviewShare": 0.2545,
-      "positiveReviews": 11,
-      "mixedReviews": 1,
-      "negativeReviews": 2,
-      "positiveShare": 0.7857,
-      "negativeShare": 0.1429,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Very Pleased",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Dont buy",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 72,
-      "averageSentiment": 7.2,
-      "reviewCount": 9,
-      "reviewShare": 0.1636,
-      "positiveReviews": 7,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.7778,
-      "negativeShare": 0.2222,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "It is so comfortable I can not tell I have it on",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Not comfortable",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
-        }
-      ]
-    }
-  ],
+  "strengths": [],
   "concerns": [],
   "retailers": [
     {
@@ -1842,17 +2160,12 @@
   "evidence": {
     "positive": [
       {
-        "text": "perfect fit for my face",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
-      },
-      {
-        "text": "Very Pleased",
+        "text": "it has a fine adjustment so that once you get the mask on lightly you can fine tune how snug it is against your face",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
       },
       {
-        "text": "Comfortable",
+        "text": "this is the best sleep I have had in a very very long time",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
       },
@@ -1862,14 +2175,19 @@
         "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
       },
       {
-        "text": "it has a fine adjustment so that once you get the mask on lightly you can fine tune how snug it is against your face",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+        "text": "perfect fit for my face",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
       },
       {
         "text": "This mask was perfect",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/philips-amara-full-face-cpap-mask"
+      },
+      {
+        "text": "Comfortable",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
       }
     ],
     "negative": [
@@ -1884,17 +2202,7 @@
         "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
       },
       {
-        "text": "Mask doesnt seal",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
-      },
-      {
-        "text": "Would not seal",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
-      },
-      {
-        "text": "They are lousy to use",
+        "text": "The nose pad caused a scab on the upper bridge of my nose",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
       },
@@ -1902,13 +2210,23 @@
         "text": "What a total waste of $100",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/amara-full-face-cpap-mask"
+      },
+      {
+        "text": "Large is everyone else's small",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
+      },
+      {
+        "text": "Mask doesnt seal",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

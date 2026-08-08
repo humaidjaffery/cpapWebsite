@@ -1,8 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "philips-respironics-amara-silicone",
   "name": "Philips Respironics Amara Silicone",
   "catalogOrder": 118,
+  "search": {
+    "aliases": [
+      "Philips Respironics Amara Silicone Full Face CPAP Mask"
+    ],
+    "abbreviations": [
+      "PR",
+      "Philips",
+      "Respironics"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 1,
@@ -13,18 +26,20 @@
     "reviewDateEnd": "2020-08-03"
   },
   "overall": {
-    "compositeScore": null,
+    "score": null,
+    "grade": null,
+    "calculation": "unavailable",
     "ratingComponent": {
       "average": 5.0,
       "score": 100,
       "reviewCount": 1,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": null,
       "score": null,
       "reviewCount": 0,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [],
@@ -53,7 +68,7 @@
   "evidence": {
     "positive": [
       {
-        "text": "likes the fit of this mask",
+        "text": "it really helps us both to get a good night's sleep",
         "retailer": "CPAPsupplies.com",
         "productUrl": "https://cpapsupplies.com/philips-respironics-amara-full-face-cpap-mask"
       }
@@ -61,9 +76,9 @@
     "negative": []
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

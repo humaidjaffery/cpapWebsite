@@ -48,7 +48,7 @@
                 <input
                   class="header-waitlist-input"
                   [class.visible]="showHeaderInput"
-                  type="text"
+                  type="email"
                   [(ngModel)]="emailOrPhone"
                   name="emailOrPhone"
                   placeholder="Enter your Email"
@@ -58,6 +58,8 @@
                   class="btn btn-primary" 
                   [class.visible]="showHeaderInput"
                   data-media-type="banani-button"
+                  type="button"
+                  (click)="joinWaitlist()"
                 >
                   Join the waitlist
                 </button>
@@ -90,66 +92,57 @@
             </div>
 
             <div class="hero-main">
-              <div
-                class="hero-left"
-                style="
-                  max-width: 720px;
-                  margin: 0 auto;
-                  align-items: center;
-                  text-align: center;
-                "
-              >
-                <div class="hero-title-block" style="align-items: center">
-                  <h1 class="hero-heading" style="font-size: 40px">
+              <div class="hero-left">
+                <div class="hero-title-block">
+                  <h1 class="hero-heading">
                     You deserve a custom fit mask
                   </h1>
-                  <h1 class="hero-heading-accent" style="font-size: 64px">
+                  <h2 class="hero-heading-accent">
                     You deserve a CPAP experience that's actually made for you.
-                  </h1>
-                  <p class="hero-subnote">We are creating hyper-personalized masks from a facial scan and <br> survey questions all from the comfort of your iPhone.</p>
+                  </h2>
+                  <p class="hero-subnote">
+                    We are creating hyper-personalized masks from a facial scan and survey
+                    questions—all from the comfort of your iPhone.
+                  </p>
                 </div>
 
-                <div
-                  class="waitlist-form"
-                  style="
-                    align-items: center;
-                    max-width: 520px;
-                    width: 100%;
-                    margin-top: 8px;
-                  "
-                >
-                  <div
-                    class="waitlist-row"
-                    style="justify-content: center; height: 60px; width: 100%"
-                  >
+                <div class="waitlist-form">
+                  <div class="waitlist-row">
                     <input
                       #waitInput
                       class="waitlist-input"
-                      type="text"
+                      type="email"
                       [(ngModel)]="emailOrPhone"
                       name="emailOrPhone"
                       placeholder="Email"
                       aria-label="Enter your Email"
-                      style="
-                        font-size: 16px;
-                        max-width: 420px;
-                      "
                     />
                     <button
                       class="btn btn-primary"
                       data-media-type="banani-button"
-                      style="font-size: 15px; padding: 0 28px"
                       (click)="joinWaitlist()"
                     > 
                       Join the waitlist
                     </button>
                   </div>
-                  <p
-                    class="waitlist-helper waitlist-prize"
-                    style="text-align: center; font-size: 14px; max-width: none"
-                  >
-                    Enter to Win FREE custom masks for life!
-                  </p>
+                  <ul class="waitlist-perks" aria-label="Waitlist perks">
+                    <li>Discounted Early Access</li>
+                    <li>Chance to win FREE masks for LIFE</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="hero-right" aria-hidden="true">
+                <div class="hero-product-frame">
+                  <img
+                    [src]="customMaskImage"
+                    [class.hero-person-male]="customMaskImage.includes('male')"
+                    [class.hero-person-female]="customMaskImage.includes('female')"
+                    alt=""
+                    width="1024"
+                    height="1024"
+                    fetchpriority="high"
+                  />
                 </div>
               </div>
             </div>
@@ -159,29 +152,9 @@
           <section class="section-below" id="story">
             <div class="section-heading-block section-heading-centered">
               <h2 class="section-main-heading" style="font-size: 40px; white-space: nowrap">
-                No more leaks, No more irritation,
-                <br class="mobile-break">
-                <span>Reclaim your sleep </span>
+                You are <span class="heading-gradient">unique</span><br />
+                <span class="section-heading-accent">Your mask should be too</span>
               </h2>
-              <p class="section-subtext-large" style="font-size: 22px">
-                You are
-                <span
-                  class="emphasis-accent"
-                  style="
-                    background: linear-gradient(
-                      120deg,
-                      var(--primary),
-                      var(--secondary)
-                    );
-                    -webkit-background-clip: text;
-                    background-clip: text;
-                    color: transparent;
-                    -webkit-text-fill-color: transparent;
-                    font-weight: 700;
-                  "
-                  >unique</span
-                >, your mask should be too
-              </p>
             </div>
 
             <div class="phone-row phone-row-centered">

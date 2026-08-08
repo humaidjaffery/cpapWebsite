@@ -1,8 +1,17 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "sleepnet-iq-blue-gel",
   "name": "SleepNet IQ Blue Gel",
   "catalogOrder": 76,
+  "search": {
+    "aliases": [
+      "IQ Blue Gel Nasal CPAP Mask with Headgear (FOR REFERENCE)"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 26,
@@ -13,30 +22,33 @@
     "reviewDateEnd": "2025-08-31"
   },
   "overall": {
-    "compositeScore": 76,
+    "score": 69,
+    "grade": "C+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 3.73,
-      "score": 75,
+      "score": 68,
       "reviewCount": 26,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 7.8,
       "score": 78,
       "reviewCount": 15,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 62,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 16,
       "reviewShare": 0.6154,
       "positiveReviews": 10,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 5,
       "positiveShare": 0.625,
       "negativeShare": 0.3125,
@@ -93,12 +105,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "no sore spots on the bridge of my nose or forehead",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "Mask is most comfortable of all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
           "text": "It is very comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
-          "text": "no sore spots on the bridge of my nose",
+          "text": "Comfortable mask & headgear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "Small and compact",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "Comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "Once they got the gel firmness/softness right",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "It's comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "The blue gel nasal mask was a comfortable fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "Good idea with the soft gel",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -113,18 +165,39 @@
           "text": "The headgear is horrible",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "air comes through and hits me in the eye",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "by the plastic frame over my nasal bridge",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "Very uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "Not as soft and pliable as ilustrated",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 62,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.2,
       "reviewCount": 16,
       "reviewShare": 0.6154,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.625,
       "negativeShare": 0.375,
@@ -192,7 +265,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "this one is perfect",
+          "text": "adjustable mask allows you to adjust to contour of your face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "The wire support and gel form effectively around the face contours",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
@@ -200,16 +278,71 @@
           "text": "conforms nicely to the shape of your face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "this one is perfect",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "I love the fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "The flexibility of this mask allows me to adjust it for a proper fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "the option of modifying its shape to better accommodate it to my ergonomics",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "This mask is easy to bend and adjust to your face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "the head gear fit nicely",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "new style headgear fits good",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Never matches my face",
+          "text": "I put it so hard that, by couple of hours, it would hurt me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
           "text": "It has to be fitted to tight to keep it from leaking air",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "Every time I moved I had to readjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "it can cause problems if you have long hair",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "it was a poor fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "I've tried making it tighter",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -218,12 +351,13 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 40,
+      "score": 39,
+      "grade": "F+",
       "averageSentiment": 4.0,
       "reviewCount": 5,
       "reviewShare": 0.1923,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -273,12 +407,17 @@
       ],
       "negativeEvidence": [
         {
+          "text": "Could not get the thing to seal around my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
           "text": "keeps leaking",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
-          "text": "Could not get the thing to seal around my nose",
+          "text": "I just couldn't get it to not leak for me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -286,13 +425,14 @@
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 55,
+      "label": "Ease of Use",
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.5,
       "reviewCount": 6,
       "reviewShare": 0.2308,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -320,12 +460,17 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Easy to use",
+          "text": "The flexibility of this mask allows me to adjust it for a proper fit",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
-          "text": "The flexibility of this mask allows me to adjust it for a proper fit",
+          "text": "This mask is easy to bend and adjust to your face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "Easy to use",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -340,18 +485,24 @@
           "text": "I've tried making it tighter",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "At the beginning I thought it didn't work",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 32,
+      "score": 21,
+      "grade": "F",
       "averageSentiment": 3.2,
       "reviewCount": 5,
       "reviewShare": 0.1923,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -383,7 +534,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "no sore spots on the bridge of my nose",
+          "text": "no sore spots on the bridge of my nose or forehead",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -395,7 +546,17 @@
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
+          "text": "air comes through and hits me in the eye",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
           "text": "poor gel protection",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "causing dryness",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -404,12 +565,13 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 72,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 7.2,
       "reviewCount": 8,
       "reviewShare": 0.3077,
       "positiveReviews": 6,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 0,
       "positiveShare": 0.75,
       "negativeShare": 0.0,
@@ -459,16 +621,46 @@
           "text": "It is firm at first but after a week or so it is very soft and pliable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
+        },
         {
-          "text": "the connector hose splits before the mask needs to be replaced",
+          "text": "I usually get at least 6 months of use out of each mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
+          "text": "I use it nightly and only have to replace it every 2-3 years",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "my current mask has lasted eight months, so far",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "latex free",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "you can use thin white electrical tape to extend the life of the hose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "Have been using I Q BLUE for close to 20 years",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
           "text": "a few years ago the IQ started coming apart - gel separating from the frame - long before the gel wore out",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "the connector hose splits before the mask needs to be replaced",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -477,12 +669,13 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 58,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.8,
       "reviewCount": 5,
       "reviewShare": 0.1923,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -511,6 +704,11 @@
           "text": "efficient",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+        },
+        {
+          "text": "This mask is one-size fits all, and it is one of the few masks that has actually worked for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -531,12 +729,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 78,
+      "score": 77,
+      "grade": "B",
       "averageSentiment": 7.8,
       "reviewCount": 15,
       "reviewShare": 0.5769,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.7333,
       "negativeShare": 0.2667,
@@ -557,12 +756,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Best ever",
+          "text": "THE BEST ONE I HAVE EVER USED",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
-          "text": "Great product",
+          "text": "The only mask I use.",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -583,12 +782,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 64,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 6.4,
       "reviewCount": 13,
       "reviewShare": 0.5,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.6923,
       "negativeShare": 0.3077,
@@ -630,12 +830,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "It is very comfortable",
+          "text": "Mask is most comfortable of all",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
-          "text": "Comfortable",
+          "text": "It is very comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -647,7 +847,7 @@
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
-          "text": "Very uncomfortable",
+          "text": "poor gel protection",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -656,12 +856,13 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 70,
+      "score": 77,
+      "grade": "B",
       "averageSentiment": 7.0,
       "reviewCount": 12,
       "reviewShare": 0.4615,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -719,12 +920,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "this one is perfect",
+          "text": "adjustable mask allows you to adjust to contour of your face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
-          "text": "conforms nicely to the shape of your face",
+          "text": "The wire support and gel form effectively around the face contours",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -736,7 +937,7 @@
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
-          "text": "it was a poor fit",
+          "text": "it can cause problems if you have long hair",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -745,14 +946,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 74,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 7.4,
       "reviewCount": 7,
       "reviewShare": 0.2692,
-      "positiveReviews": 5,
-      "mixedReviews": 2,
+      "positiveReviews": 6,
+      "neutralReviews": 1,
       "negativeReviews": 0,
-      "positiveShare": 0.7143,
+      "positiveShare": 0.8571,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -797,7 +999,7 @@
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
-          "text": "Used for over 25 years!!",
+          "text": "I usually get at least 6 months of use out of each mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -813,12 +1015,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 40,
+      "score": 39,
+      "grade": "F+",
       "averageSentiment": 4.0,
       "reviewCount": 5,
       "reviewShare": 0.1923,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -868,12 +1071,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "keeps leaking",
+          "text": "Could not get the thing to seal around my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
-          "text": "Could not get the thing to seal around my nose",
+          "text": "keeps leaking",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -884,12 +1087,13 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 55,
+      "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.5,
       "reviewCount": 6,
       "reviewShare": 0.2308,
       "positiveReviews": 3,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.5,
       "negativeShare": 0.3333,
@@ -927,7 +1131,7 @@
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
-          "text": "new style headgear fits good",
+          "text": "using a third anchor point at the top",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -939,12 +1143,12 @@
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
-          "text": "changed headgear in an undesirable way",
+          "text": "it can cause problems if you have long hair",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         },
         {
-          "text": "it can cause problems if you have long hair",
+          "text": "changed headgear in an undesirable way",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
         }
@@ -955,12 +1159,13 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 70,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 7.0,
       "reviewCount": 5,
       "reviewShare": 0.1923,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -1021,12 +1226,13 @@
     {
       "id": "gel_cushion",
       "label": "Gel Cushion",
-      "score": 56,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.6,
       "reviewCount": 5,
       "reviewShare": 0.1923,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -1087,39 +1293,7 @@
   "bodySites": [],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 86,
-      "averageSentiment": 8.6,
-      "reviewCount": 13,
-      "reviewShare": 0.5,
-      "positiveReviews": 11,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.8462,
-      "negativeShare": 0.1538,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Best ever",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Not as expected",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
-        }
-      ]
-    }
-  ],
+  "strengths": [],
   "concerns": [],
   "retailers": [
     {
@@ -1134,17 +1308,7 @@
   "evidence": {
     "positive": [
       {
-        "text": "Best ever",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
-      },
-      {
-        "text": "Great product",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
-      },
-      {
-        "text": "Best mask ever!!",
+        "text": "THE BEST ONE I HAVE EVER USED",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
       },
@@ -1154,19 +1318,29 @@
         "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
       },
       {
+        "text": "Small and compact, love it",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+      },
+      {
         "text": "Best mask ever made",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
       },
       {
-        "text": "Small and compact, love it",
+        "text": "Best Nasal Mask experience",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
+      },
+      {
+        "text": "A mask that works",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
       }
     ],
     "negative": [
       {
-        "text": "keeps leaking",
+        "text": "Could not get the thing to seal around my nose",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
       },
@@ -1181,7 +1355,7 @@
         "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
       },
       {
-        "text": "Could not get the thing to seal around my nose",
+        "text": "keeps leaking",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
       },
@@ -1191,16 +1365,16 @@
         "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
       },
       {
-        "text": "Very uncomfortable",
+        "text": "I wake up many times during the night to replace",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/50655-iq-gel-nasal-cpap-mask"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

@@ -1,8 +1,19 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "react-health-siesta-nasal",
   "name": "React Health Siesta Nasal",
   "catalogOrder": 82,
+  "search": {
+    "aliases": [
+      "Siesta Nasal CPAP Mask Fit Pack",
+      "Siesta Nasal CPAP Mask System",
+      "Siesta Nasal CPAP Mask with Headgear"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 15,
@@ -13,18 +24,20 @@
     "reviewDateEnd": "2026-03-31"
   },
   "overall": {
-    "compositeScore": 83,
+    "score": 82,
+    "grade": "B+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.33,
-      "score": 87,
+      "score": 83,
       "reviewCount": 15,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 7.8,
       "score": 78,
       "reviewCount": 8,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [],
@@ -32,12 +45,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 78,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.8,
       "reviewCount": 8,
       "reviewShare": 0.5333,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.75,
       "negativeShare": 0.125,
@@ -69,7 +83,7 @@
           "productUrl": "https://1800cpap.com/products/siesta-nasal-cpap-mask-system"
         },
         {
-          "text": "I love this",
+          "text": "This is my favorite mask!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
         }
@@ -120,12 +134,12 @@
         "productUrl": "https://1800cpap.com/products/siesta-nasal-cpap-mask-system"
       },
       {
-        "text": "I love this",
+        "text": "This is my favorite mask!",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
       },
       {
-        "text": "This is my favorite mask!",
+        "text": "I love this",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
       },
@@ -135,12 +149,12 @@
         "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
       },
       {
-        "text": "Very Good for the money",
+        "text": "I look forward to sleeping with the nasal style",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
       },
       {
-        "text": "Comfy headgear",
+        "text": "nice headgear will buy from again thank you",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
       }
@@ -152,12 +166,12 @@
         "productUrl": "https://1800cpap.com/products/siesta-nasal-cpap-mask-system"
       },
       {
-        "text": "I couldn't get the headgear to fit well",
+        "text": "After 20 minutes I switched back to my old mask",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
       },
       {
-        "text": "Too big",
+        "text": "The side bars at the top went across my eye",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear"
       },
@@ -169,9 +183,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

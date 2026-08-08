@@ -1,8 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "react-health-rio-ii-nasal-pillow",
   "name": "React Health Rio II Nasal Pillow",
   "catalogOrder": 77,
+  "search": {
+    "aliases": [
+      "React Health Rio II Nasal Pillow CPAP Mask Fit Pack",
+      "Rio II Nasal Pillow CPAP Mask Fit Pack",
+      "Rio II Nasal Pillow Mask Fit Pack Kit",
+      "Rio II Nasal Pillows CPAP Mask with Headgear"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Nasal Pillow",
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 25,
@@ -13,32 +26,35 @@
     "reviewDateEnd": "2026-05-29"
   },
   "overall": {
-    "compositeScore": 78,
+    "score": 75,
+    "grade": "B",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.0,
-      "score": 80,
+      "score": 75,
       "reviewCount": 25,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 7.5,
       "score": 75,
       "reviewCount": 14,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 69,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 6.9,
       "reviewCount": 18,
       "reviewShare": 0.72,
-      "positiveReviews": 12,
-      "mixedReviews": 2,
+      "positiveReviews": 13,
+      "neutralReviews": 1,
       "negativeReviews": 4,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.7222,
       "negativeShare": 0.2222,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -122,9 +138,54 @@
           "text": "So comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+        },
+        {
+          "text": "incredibly comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+        },
+        {
+          "text": "the nasal pillow looked and feels exactly like the pillow for F&P Solo",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+        },
+        {
+          "text": "Very light weight",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+        },
+        {
+          "text": "very comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+        },
+        {
+          "text": "Comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-mask-fit-pack-kit"
+        },
+        {
+          "text": "Lightweight",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+        },
+        {
+          "text": "I added some cloth pads on the lower strap, which helps the comfort",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+        },
+        {
+          "text": "ive really come to enjoy the rio cushions and mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "Was not a comfortable experience..",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+        },
         {
           "text": "Very uncomfortable",
           "retailer": "DirectHomeMedical",
@@ -134,20 +195,31 @@
           "text": "Uncomfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+        },
+        {
+          "text": "putting undo pressure around my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+        },
+        {
+          "text": "caused sores inside my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 65,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.5,
       "reviewCount": 12,
       "reviewShare": 0.48,
-      "positiveReviews": 7,
-      "mixedReviews": 2,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.5833,
+      "positiveShare": 0.75,
       "negativeShare": 0.25,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -213,14 +285,49 @@
       ],
       "positiveEvidence": [
         {
-          "text": "love the rotating elbow",
+          "text": "love the different options available for sizes",
           "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-mask-fit-pack-kit"
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
         },
         {
           "text": "this mask comes with 3 cushions!!",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+        },
+        {
+          "text": "love the rotating elbow",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-mask-fit-pack-kit"
+        },
+        {
+          "text": "I added some cloth pads on the lower strap, which helps the comfort and fitting",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+        },
+        {
+          "text": "Really appreciate being able to adjust the headgear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+        },
+        {
+          "text": "Quality and fit very good.",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+        },
+        {
+          "text": "comes with 3 cushions!!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-mask-fit-pack-kit"
+        },
+        {
+          "text": "I use a tape bridge for better fit",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/react-health-rio-ii-nasal-pillow-mask-fitpack-with-headgear"
+        },
+        {
+          "text": "it fits",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
         }
       ],
       "negativeEvidence": [
@@ -233,18 +340,24 @@
           "text": "I have to adjust it very tightly to stay in place",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+        },
+        {
+          "text": "Only negative it does lay on the upper lip some",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 68,
+      "label": "Stability",
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 6.8,
       "reviewCount": 6,
       "reviewShare": 0.24,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -287,24 +400,34 @@
       ],
       "positiveEvidence": [
         {
+          "text": "Stays on all night rolling side to side",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/react-health-rio-ii-nasal-pillow-mask-fitpack-with-headgear"
+        },
+        {
+          "text": "its so easy to sleep in",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+        },
+        {
           "text": "love the rotating elbow",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
         },
         {
-          "text": "Stays on all night rolling side to side",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/react-health-rio-ii-nasal-pillow-mask-fitpack-with-headgear"
+          "text": "the straps stay along the cheek bone",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "sometimes moves while I'm sleeping",
+          "text": "I had to make sure I was not pointing in the direction of anyone or anything that might be disturbed by the constant flow of…",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
         },
         {
-          "text": "I had to make sure I was not pointing in the direction of anyone or anything that might be disturbed by the constant flow of…",
+          "text": "sometimes moves while I'm sleeping",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
         }
@@ -312,13 +435,14 @@
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 73,
+      "label": "Ease of Use",
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 6,
       "reviewShare": 0.24,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -369,6 +493,21 @@
           "text": "Super simple headgear",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+        },
+        {
+          "text": "Really appreciate being able to adjust the headgear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+        },
+        {
+          "text": "the Rio can be adjusted for proper fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+        },
+        {
+          "text": "it doesn't affect my contacts",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
         }
       ],
       "negativeEvidence": [
@@ -384,14 +523,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 72,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 16,
       "reviewShare": 0.64,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
+      "positiveReviews": 13,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.75,
+      "positiveShare": 0.8125,
       "negativeShare": 0.1875,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -449,12 +589,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Very uncomfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+          "text": "Was not a comfortable experience..",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
         },
         {
-          "text": "Uncomfortable",
+          "text": "Very uncomfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
         }
@@ -463,12 +603,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 75,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.5,
       "reviewCount": 14,
       "reviewShare": 0.56,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.7857,
       "negativeShare": 0.2143,
@@ -501,38 +642,39 @@
       ],
       "positiveEvidence": [
         {
-          "text": "This is definitely the best yet",
+          "text": "Best mask after 15 years of treatment",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
         },
         {
-          "text": "Best C-Pap Mask Ever!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+          "text": "This is definitely the best yet",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Returning newest one unopened",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
-        },
-        {
           "text": "It was too loud and an annoyance to me personally",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+        },
+        {
+          "text": "Returning newest one unopened",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
         }
       ]
     },
     {
       "id": "weight",
       "label": "Weight",
-      "score": 78,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.8,
       "reviewCount": 6,
       "reviewShare": 0.24,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -580,14 +722,15 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 63,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 6.3,
       "reviewCount": 5,
       "reviewShare": 0.2,
-      "positiveReviews": 2,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.4,
+      "positiveShare": 0.8,
       "negativeShare": 0.2,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -638,14 +781,14 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I added some cloth pads on the lower strap, which helps the comfort and fitting",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+        },
+        {
           "text": "Quality and fit very good.",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
-        },
-        {
-          "text": "where the pillows rest under your nose",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
         }
       ],
       "negativeEvidence": [
@@ -661,12 +804,13 @@
     {
       "id": "nasal_pillows",
       "label": "Nasal Pillows",
-      "score": 68,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 12,
       "reviewShare": 0.48,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -709,39 +853,77 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Best C-Pap Mask Ever!",
+          "text": "It’s so comfortable I don’t even realize I’m wearing it",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
         },
         {
-          "text": "Lightweight",
+          "text": "the nasal pillow looked and feels exactly like the pillow for F&P Solo",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
         },
         {
-          "text": "Gotta recommend to everyone",
+          "text": "love the different options available for sizes",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "If you have a smaller nose like I do, the \"small\" size is WAY too big.",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+        },
+        {
           "text": "Very uncomfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
         },
         {
-          "text": "Was not a comfortable experience..",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
-        },
-        {
-          "text": "completely chewed it up",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+          "text": "caused sores inside my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
         }
       ],
-      "praisedAspects": [],
+      "praisedAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "score": 75,
+          "grade": "B",
+          "averageSentiment": 6.9,
+          "reviewCount": 8,
+          "reviewShare": 0.32,
+          "positiveReviews": 6,
+          "neutralReviews": 0,
+          "negativeReviews": 2,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "It’s so comfortable I don’t even realize I’m wearing it",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+            },
+            {
+              "text": "the nasal pillow looked and feels exactly like the pillow for F&P Solo",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "Was not a comfortable experience..",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+            },
+            {
+              "text": "Very uncomfortable",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+            }
+          ]
+        }
+      ],
       "criticizedAspects": []
     }
   ],
@@ -749,12 +931,13 @@
     {
       "id": "nasal_pillows|comfort",
       "label": "Nasal Pillows · Comfort",
-      "score": 69,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.9,
       "reviewCount": 8,
       "reviewShare": 0.32,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -766,9 +949,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Very uncomfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+          "text": "Was not a comfortable experience..",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
         }
       ],
       "partId": "nasal_pillows",
@@ -786,58 +969,40 @@
   "interactionInsights": [],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 71,
-      "averageSentiment": 7.1,
+      "id": "part|nasal_pillows|comfort",
+      "label": "Nasal Pillows · Comfort",
+      "score": 75,
+      "grade": "B",
+      "averageSentiment": 6.9,
       "reviewCount": 8,
       "reviewShare": 0.32,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "This is definitely the best yet",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Returning newest one unopened",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
-        }
-      ]
-    },
-    {
-      "id": "nasal_pillows|||comfort",
-      "label": "Nasal Pillows · Comfort",
-      "score": 77,
-      "averageSentiment": 7.7,
-      "reviewCount": 7,
-      "reviewShare": 0.28,
-      "positiveReviews": 6,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.8571,
-      "negativeShare": 0.1429,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "nasal_pillows",
           "label": "Nasal Pillows",
-          "reviewCount": 7
+          "reviewCount": 8
         }
       ],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedContexts": [
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
           "text": "It’s so comfortable I don’t even realize I’m wearing it",
@@ -847,9 +1012,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Very uncomfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+          "text": "Was not a comfortable experience..",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
         }
       ]
     }
@@ -884,14 +1049,24 @@
   "evidence": {
     "positive": [
       {
-        "text": "This is definitely the best yet",
+        "text": "Been using for almost a week now and have zero leakages",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
       },
       {
-        "text": "Best C-Pap Mask Ever!",
+        "text": "It’s so comfortable I don’t even realize I’m wearing it",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
+      },
+      {
+        "text": "Best mask after 15 years of treatment",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+      },
+      {
+        "text": "This is definitely the best yet",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
       },
       {
         "text": "So comfortable",
@@ -902,19 +1077,14 @@
         "text": "incredibly comfortable",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
-      },
-      {
-        "text": "Best mask after 15 years of treatment",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
-      },
-      {
-        "text": "Been using for almost a week now and have zero leakages",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
       }
     ],
     "negative": [
+      {
+        "text": "If you have a smaller nose like I do, the \"small\" size is WAY too big.",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+      },
       {
         "text": "Very uncomfortable",
         "retailer": "DirectHomeMedical",
@@ -926,7 +1096,12 @@
         "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
       },
       {
-        "text": "Was not a comfortable experience..",
+        "text": "my basset hound got this today and completely chewed it up",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
+      },
+      {
+        "text": "It was too loud and an annoyance to me personally",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
       },
@@ -934,23 +1109,13 @@
         "text": "the frame is too close to my eyes",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b"
-      },
-      {
-        "text": "completely chewed it up",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
-      },
-      {
-        "text": "my basset hound got this today and completely chewed it up",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/rio-ii-nasal-pillow-cpap-mask-fit-pack"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

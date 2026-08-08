@@ -1,0 +1,75 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isOptionalText(field, maxLength) {
+      return !(field in request.resource.data)
+        || (request.resource.data[field] is string && request.resource.data[field].size() <= maxLength);
+    }
+
+    function hasValidSurveyValues() {
+      return isOptionalText('annualMaskCost', 80)
+        && isOptionalText('cpapDuration', 80)
+        && isOptionalText('hearAboutUs', 40)
+        && isOptionalText('improvements', 1200)
+        && isOptionalText('insuranceCoverage', 80)
+        && isOptionalText('masksUsed', 500)
+        && isOptionalText('maxOutOfPocket', 80)
+        && isOptionalText('otherSource', 120)
+        && isOptionalText('satisfaction', 20)
+        && isOptionalText('usedCpap', 20)
+        && isOptionalText('userAge', 3)
+        && isOptionalText('userCity', 120)
+        && isOptionalText('userName', 80);
+    }
+
+    match /waitlist/{docId} {
+      allow read, delete: if false;
+
+      allow create: if request.resource.data.keys().hasAll([
+          'emailOrPhone',
+          'timestamp',
+          'userAgent'
+        ])
+        && request.resource.data.keys().hasOnly([
+          'emailOrPhone',
+          'emailStatus',
+          'emailAttemptCount',
+          'timestamp',
+          'userAgent'
+        ])
+        && request.resource.data.emailOrPhone is string
+        && request.resource.data.emailOrPhone.size() <= 254
+        && request.resource.data.emailOrPhone.matches('^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$')
+        && request.resource.data.timestamp is timestamp
+        && request.resource.data.userAgent is string
+        && request.resource.data.userAgent.size() <= 512
+        && (!('emailStatus' in request.resource.data)
+          || request.resource.data.emailStatus == 'pending')
+        && (!('emailAttemptCount' in request.resource.data)
+          || request.resource.data.emailAttemptCount == 0);
+
+      allow update: if request.resource.data.emailOrPhone == resource.data.emailOrPhone
+        && request.resource.data.timestamp == resource.data.timestamp
+        && request.resource.data.userAgent == resource.data.userAgent
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+          'annualMaskCost',
+          'cpapDuration',
+          'hearAboutUs',
+          'improvements',
+          'insuranceCoverage',
+          'masksUsed',
+          'maxOutOfPocket',
+          'otherSource',
+          'satisfaction',
+          'surveyCompletedAt',
+          'usedCpap',
+          'userAge',
+          'userCity',
+          'userName'
+        ])
+        && request.resource.data.surveyCompletedAt is timestamp
+        && hasValidSurveyValues();
+    }
+  }
+}

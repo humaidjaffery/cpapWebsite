@@ -1,8 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "fisher-paykel-flexifit-431",
   "name": "Fisher & Paykel FlexiFit 431",
   "catalogOrder": 50,
+  "search": {
+    "aliases": [
+      "Fisher & Paykel FlexiFit™ 431 Full Face CPAP Mask Fit Pack without Headgear",
+      "Fisher & Paykel | FlexiFit 431 Full Face CPAP Mask",
+      "FlexiFit 431 Full Face CPAP Mask",
+      "FlexiFit 431 Full Face CPAP Mask FitPack with Headgear"
+    ],
+    "abbreviations": [
+      "F&P",
+      "FP",
+      "Fisher Paykel"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 107,
@@ -13,32 +29,35 @@
     "reviewDateEnd": "2026-03-05"
   },
   "overall": {
-    "compositeScore": 80,
+    "score": 80,
+    "grade": "B+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.24,
-      "score": 85,
+      "score": 81,
       "reviewCount": 107,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 7.3,
       "score": 73,
       "reviewCount": 46,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 66,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 34,
       "reviewShare": 0.3178,
-      "positiveReviews": 20,
-      "mixedReviews": 5,
+      "positiveReviews": 23,
+      "neutralReviews": 2,
       "negativeReviews": 9,
-      "positiveShare": 0.5882,
+      "positiveShare": 0.6765,
       "negativeShare": 0.2647,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -129,19 +148,99 @@
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
+          "text": "it spreads the weight in a large area, particularly on the cheeks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "Found this to be a very comfortable mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "No more red marks and sores",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "it is the most comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it's very comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "gentle cushion",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Very comfortable!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "very comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "the ones they keep bring me has gotten my jaw out of whack",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "cinch it down so tight my eyes bug out",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "bruised the bridge of my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "the ones they keep bring me has gotten my jaw out of whack",
+          "text": "it causes me discomfort",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I am waiting for the VA to send me another one that will be more comfortable to use",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "I have a Bi-pap machine set at 12/8, maybe too much pressure for this mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the mask and headgear caused some sore on the bridge of my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "I tightened the straps to point of being a little painful",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The part that goes to your forehead could be softer",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it can have a pinching feeling around your nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -150,14 +249,15 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 59,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 5.9,
       "reviewCount": 52,
       "reviewShare": 0.486,
-      "positiveReviews": 27,
-      "mixedReviews": 9,
+      "positiveReviews": 32,
+      "neutralReviews": 4,
       "negativeReviews": 16,
-      "positiveShare": 0.5192,
+      "positiveShare": 0.6154,
       "negativeShare": 0.3077,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -243,14 +343,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "The full mask set comes with a small, medium and large mask so finding the right fit was easy",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
           "text": "The under chin feature is awesome, as I sleep on my side a lot",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
         },
         {
+          "text": "I installed the large seal that came with the mask and it fit perfectly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "The mask and hoses are perfect for me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The mask fits great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Great fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I discovered that the small was the perfect fit because I have always been known for my \"moon pie face\" with full cheeks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the option to size is nice with a small medium and large seal makes it simple to figure out",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "fits the contours of my face better than all others I have tried",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "going up to the top of the nasal bridge, between your eyes",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -260,23 +400,64 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         },
         {
+          "text": "I try to use different angle to fit in my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "i guess i'm not a full face type of user",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "I didn't like the way this mask fit me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Not even close to a fit for my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "cinch it down so tight my eyes bug out",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Masks are way too large, even the small",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "ratched down so tight it causes me discomfort",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I am in-between a small and medium",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The mask is to big",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 52,
+      "score": 49,
+      "grade": "D",
       "averageSentiment": 5.2,
       "reviewCount": 28,
       "reviewShare": 0.2617,
-      "positiveReviews": 12,
-      "mixedReviews": 2,
+      "positiveReviews": 13,
+      "neutralReviews": 1,
       "negativeReviews": 14,
-      "positiveShare": 0.4286,
+      "positiveShare": 0.4643,
       "negativeShare": 0.5,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -365,6 +546,46 @@
           "text": "the foregoing problems seem to be a thing of the past",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it is easily fixed with a short strip of adhesive on the nose below the mask seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it goes under the chin which helps keep it sealed and your mouth shut",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "with a nasal mask i'd oepn my mouth and wake my partner",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "It seal about the face, no air escape..",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it provides a great seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "Best so far for leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Keeps a good seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "good seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -377,18 +598,59 @@
           "text": "JUNK WILL NOT SEAL",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "my jaw falls back when I sleep and leaks out the chin area",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Pressure would seal for 2/3 min then seal would break lose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I could not get it to stay sealed through the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "dangerous, impossible to seal, leaks into the eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it leaks below and around my chin",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "It leaked air",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "this causes air leakage unless you tighten it up a lot",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "leaks unless its ratched down so tight it causes me discomfort",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 65,
+      "label": "Stability",
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.5,
       "reviewCount": 11,
       "reviewShare": 0.1028,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.7273,
       "negativeShare": 0.2727,
@@ -451,7 +713,37 @@
           "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
         },
         {
+          "text": "I can really feel like I can breathe through my nose and mouth and move around and worry less about what happens when I'm moving…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "with a nasal mask i'd oepn my mouth and wake my partner",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "I'm a side sleeper and it works well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "stays in place better than prior models",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it holds the mask on well",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "the velcro stays put",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "With sideways movement can get a few face farts but this mask is far more resistant than others to this",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -466,20 +758,26 @@
           "text": "I am a side sleeper and it just didn't work well with that",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "like any full mask it can ride up a little",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 59,
+      "label": "Ease of Use",
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 5.9,
       "reviewCount": 18,
       "reviewShare": 0.1682,
-      "positiveReviews": 7,
-      "mixedReviews": 7,
+      "positiveReviews": 11,
+      "neutralReviews": 3,
       "negativeReviews": 4,
-      "positiveShare": 0.3889,
+      "positiveShare": 0.6111,
       "negativeShare": 0.2222,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -563,16 +861,81 @@
           "text": "it made reordering a breeze",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "I don't wake up a lot at night to adjust the mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Easy to take on and off for nighttime bathroom visits",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it is easy to assemble",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Easy brake down for wash",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the adjustments are good",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "Easy to clean",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "easy to adjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it has a front clip you have to push on to take off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "If you're looking for a mask to use with glasses on for reading at night, this probably isn't doable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
         {
           "text": "there is no way to disconnect the hose when one must get up in the night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "If you're looking for a mask to use with glasses on for reading at night, this probably isn't doable",
+          "text": "too complex to use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I am new to cpap and the whole process is a challenge for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "in spite of 2 tries and many re-adjustments",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The headgear is a little cumbersome to get on and adjust",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "unless you tighten it up a lot",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -581,14 +944,15 @@
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 59,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 5.9,
       "reviewCount": 7,
       "reviewShare": 0.0654,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 2,
-      "positiveShare": 0.4286,
+      "positiveShare": 0.5714,
       "negativeShare": 0.2857,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -631,6 +995,16 @@
           "text": "quiet mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Airflow is great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Less noise then the dreamware",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -643,6 +1017,11 @@
           "text": "the fewer larger hole masks are just louder and blow more direct air on your partner if you have one",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "vibrates",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
@@ -650,13 +1029,14 @@
       "id": "skin-and-pain",
       "label": "Skin & pain",
       "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 16,
       "reviewShare": 0.1495,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 7,
-      "positiveShare": 0.5,
+      "positiveShare": 0.5625,
       "negativeShare": 0.4375,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -737,12 +1117,47 @@
       ],
       "positiveEvidence": [
         {
+          "text": "does not cause irritation to the nose of my bridge as many others have",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I don't wake up with any marks or lines on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
           "text": "I’ve been able to avoid any red lines",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         },
         {
-          "text": "No more red marks",
+          "text": "No more red marks and sores",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "\"dry mouth\"",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Another reviewer said that the mask gave them a rash, and that has not happened to me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "so you don't wake up with a dried out tongue",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "One less face mark in the morning!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "doesn't leave a mark on my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -754,7 +1169,37 @@
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "bruised the bridge of my nose",
+          "text": "in spite of 2 tries and many re-adjustments, I couldn't get it to stop bruising",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the ones they keep bring me has gotten my jaw out of whack",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "cinch it down so tight my eyes bug out",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it causes me discomfort",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the mask and headgear caused some sore on the bridge of my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "I tightened the straps to point of being a little painful",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it can have a pinching feeling around your nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -763,14 +1208,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 67,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 6.7,
       "reviewCount": 15,
       "reviewShare": 0.1402,
-      "positiveReviews": 11,
-      "mixedReviews": 2,
+      "positiveReviews": 12,
+      "neutralReviews": 1,
       "negativeReviews": 2,
-      "positiveShare": 0.7333,
+      "positiveShare": 0.8,
       "negativeShare": 0.1333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -810,6 +1256,46 @@
       ],
       "positiveEvidence": [
         {
+          "text": "This is the same mask that I have been using for while",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "This is a very good quality made product",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Tan pronto necesité comprar otra la pedire",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "Have purchased before never a problem",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The mask is of good quality",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "This is a good quality product",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the mask is good quality",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Holds up pretty well also",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "it has been years",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
@@ -836,14 +1322,15 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 70,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 5,
       "reviewShare": 0.0467,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.6,
+      "positiveShare": 0.8,
       "negativeShare": 0.2,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -867,9 +1354,19 @@
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
+          "text": "It's a lot better value and performer than the Quattro mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "it comes at a cheap price",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "Your prices were fair also",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -883,14 +1380,15 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 72,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.2,
       "reviewCount": 31,
       "reviewShare": 0.2897,
-      "positiveReviews": 26,
-      "mixedReviews": 1,
+      "positiveReviews": 27,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.8387,
+      "positiveShare": 0.871,
       "negativeShare": 0.129,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -951,12 +1449,52 @@
       ],
       "positiveEvidence": [
         {
-          "text": "having a very easy time breathing",
+          "text": "I've been able to get very good sleep with this mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         },
         {
           "text": "Finally back to getting a good night sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "having a very easy time breathing",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "Only one that works for me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "It lets me breathe easy",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "able to sleep much better",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Works great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "when I have sinus problems or a cold and can't breathe thru my nose, I can still sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I used to wear a chinstrap even with a full mask and now i dont have to",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "I don't wake up a lot at night to adjust the mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -971,6 +1509,16 @@
           "text": "causing a disruption in my breathing which wakes me up",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Will not work for me",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "I look forward to the day when I wake up refreshed and energized because I was able To withstand sleeping with CPAP all night long",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ]
     }
@@ -979,14 +1527,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 73,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 46,
       "reviewShare": 0.4299,
-      "positiveReviews": 35,
-      "mixedReviews": 2,
+      "positiveReviews": 36,
+      "neutralReviews": 1,
       "negativeReviews": 9,
-      "positiveShare": 0.7609,
+      "positiveShare": 0.7826,
       "negativeShare": 0.1957,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1021,14 +1570,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "love it!",
+          "text": "Only one that works for me",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
         },
         {
-          "text": "Great mask!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
+          "text": "Best full face mask I've found",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -1047,14 +1596,15 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 64,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.4,
       "reviewCount": 36,
       "reviewShare": 0.3364,
-      "positiveReviews": 24,
-      "mixedReviews": 3,
+      "positiveReviews": 26,
+      "neutralReviews": 1,
       "negativeReviews": 9,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.7222,
       "negativeShare": 0.25,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1145,7 +1695,7 @@
           "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
         },
         {
-          "text": "The mask and hoses are perfect for me",
+          "text": "I installed the large seal that came with the mask and it fit perfectly",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -1157,7 +1707,7 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         },
         {
-          "text": "I didn't like the way this mask fit me",
+          "text": "I try to use different angle to fit in my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -1166,14 +1716,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 76,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 7.6,
       "reviewCount": 28,
       "reviewShare": 0.2617,
-      "positiveReviews": 23,
-      "mixedReviews": 1,
+      "positiveReviews": 24,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.8214,
+      "positiveShare": 0.8571,
       "negativeShare": 0.1429,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1254,7 +1805,7 @@
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "it is the most comfortable",
+          "text": "Found this to be a very comfortable mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -1266,7 +1817,7 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         },
         {
-          "text": "it was not comfortable for my spouse",
+          "text": "The part that goes to your forehead could be softer",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -1275,14 +1826,15 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 52,
+      "score": 50,
+      "grade": "D+",
       "averageSentiment": 5.2,
       "reviewCount": 28,
       "reviewShare": 0.2617,
-      "positiveReviews": 12,
-      "mixedReviews": 2,
+      "positiveReviews": 13,
+      "neutralReviews": 1,
       "negativeReviews": 14,
-      "positiveShare": 0.4286,
+      "positiveShare": 0.4643,
       "negativeShare": 0.5,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1389,14 +1941,15 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 59,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 5.9,
       "reviewCount": 11,
       "reviewShare": 0.1028,
-      "positiveReviews": 4,
-      "mixedReviews": 4,
+      "positiveReviews": 7,
+      "neutralReviews": 1,
       "negativeReviews": 3,
-      "positiveShare": 0.3636,
+      "positiveShare": 0.6364,
       "negativeShare": 0.2727,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1459,23 +2012,24 @@
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "unless you tighten it up a lot",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+          "text": "The headgear is a little cumbersome to get on and adjust",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 54,
+      "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.4,
       "reviewCount": 11,
       "reviewShare": 0.1028,
-      "positiveReviews": 4,
-      "mixedReviews": 3,
+      "positiveReviews": 6,
+      "neutralReviews": 1,
       "negativeReviews": 4,
-      "positiveShare": 0.3636,
+      "positiveShare": 0.5455,
       "negativeShare": 0.3636,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1510,19 +2064,19 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         },
         {
-          "text": "be sure you have the correct size and fitting",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+          "text": "the option to size is nice with a small medium and large seal makes it simple to figure out",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I am in-between a small and medium",
+          "text": "Masks are way too large, even the small",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Masks are way too large, even the small",
+          "text": "I am in-between a small and medium",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -1531,14 +2085,15 @@
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 76,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.6,
       "reviewCount": 10,
       "reviewShare": 0.0935,
-      "positiveReviews": 9,
-      "mixedReviews": 1,
+      "positiveReviews": 10,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.9,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -1561,14 +2116,15 @@
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 68,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 6.8,
       "reviewCount": 9,
       "reviewShare": 0.0841,
-      "positiveReviews": 6,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.7778,
       "negativeShare": 0.1111,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1603,12 +2159,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "well made",
+          "text": "This is a very good quality made product",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "the mask is good quality",
+          "text": "The mask is of good quality",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -1624,12 +2180,13 @@
     {
       "id": "therapy_compliance",
       "label": "Therapy Compliance",
-      "score": 59,
+      "score": 67,
+      "grade": "C+",
       "averageSentiment": 5.9,
       "reviewCount": 9,
       "reviewShare": 0.0841,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -1676,7 +2233,7 @@
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "can't imagine life without it now",
+          "text": "I used to wear a chinstrap even with a full mask and now i dont have to",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
         }
@@ -1697,12 +2254,13 @@
     {
       "id": "breathing_support",
       "label": "Breathing Support",
-      "score": 81,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.1,
       "reviewCount": 8,
       "reviewShare": 0.0748,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1755,12 +2313,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 75,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 7.5,
       "reviewCount": 8,
       "reviewShare": 0.0748,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.875,
       "negativeShare": 0.125,
@@ -1792,14 +2351,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Finally back to getting a good night sleep",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
-        },
-        {
           "text": "I've been able to get very good sleep with this mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "Finally back to getting a good night sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -1813,12 +2372,13 @@
     {
       "id": "pain",
       "label": "Pain",
-      "score": 26,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.6,
       "reviewCount": 7,
       "reviewShare": 0.0654,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -1871,12 +2431,12 @@
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "bruised the bridge of my nose",
+          "text": "the ones they keep bring me has gotten my jaw out of whack",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "the ones they keep bring me has gotten my jaw out of whack",
+          "text": "cinch it down so tight my eyes bug out",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -1885,12 +2445,13 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 63,
+      "score": 72,
+      "grade": "B-",
       "averageSentiment": 6.3,
       "reviewCount": 7,
       "reviewShare": 0.0654,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.7143,
       "negativeShare": 0.2857,
@@ -1933,9 +2494,9 @@
           "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
         },
         {
-          "text": "it holds the mask on well",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+          "text": "stays in place better than prior models",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -1954,14 +2515,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 76,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.6,
       "reviewCount": 5,
       "reviewShare": 0.0467,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -1969,12 +2531,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "it has been years",
+          "text": "This is the same mask that I have been using for while",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Holds up pretty well also",
+          "text": "Have purchased before never a problem",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -1984,12 +2546,13 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 51,
+      "score": 50,
+      "grade": "D+",
       "averageSentiment": 5.1,
       "reviewCount": 5,
       "reviewShare": 0.0467,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.4,
       "negativeShare": 0.4,
@@ -2043,14 +2606,15 @@
     {
       "id": "full_face_cushion",
       "label": "Full Face Cushion",
-      "score": 75,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 7.5,
       "reviewCount": 13,
       "reviewShare": 0.1215,
-      "positiveReviews": 11,
-      "mixedReviews": 1,
+      "positiveReviews": 12,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.8462,
+      "positiveShare": 0.9231,
       "negativeShare": 0.0769,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2106,7 +2670,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Found this to be a very comfortable mask",
+          "text": "I installed the large seal that came with the mask and it fit perfectly",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
@@ -2137,12 +2701,13 @@
         {
           "id": "fit",
           "label": "Fit",
-          "score": 70,
+          "score": 84,
+          "grade": "B+",
           "averageSentiment": 7.0,
           "reviewCount": 6,
           "reviewShare": 0.0561,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -2152,7 +2717,7 @@
               "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
             },
             {
-              "text": "the cushion is very large, cradling around the chin",
+              "text": "going up to the top of the nasal bridge, between your eyes",
               "retailer": "RespShop",
               "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
             }
@@ -2172,13 +2737,14 @@
       "id": "cushion",
       "label": "Cushion",
       "score": 60,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 7,
       "reviewShare": 0.0654,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.4286,
+      "positiveShare": 0.5714,
       "negativeShare": 0.4286,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2208,14 +2774,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "gentle cushion",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
-        },
-        {
           "text": "I don't wake up with any marks or lines on my face",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
+          "text": "gentle cushion",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
           "text": "The pads are pretty good to",
@@ -2230,12 +2796,12 @@
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "the rubber cushion leaks",
+          "text": "it can have a pinching feeling around your nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "it can have a pinching feeling around your nose",
+          "text": "the rubber cushion leaks",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -2247,13 +2813,14 @@
       "id": "strap",
       "label": "Strap",
       "score": 49,
+      "grade": "D",
       "averageSentiment": 4.9,
       "reviewCount": 7,
       "reviewShare": 0.0654,
-      "positiveReviews": 2,
-      "mixedReviews": 2,
+      "positiveReviews": 3,
+      "neutralReviews": 1,
       "negativeReviews": 3,
-      "positiveShare": 0.2857,
+      "positiveShare": 0.4286,
       "negativeShare": 0.4286,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2267,14 +2834,19 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "if I adjust my upper and lower straps",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+        },
+        {
           "text": "the straps are tight enough",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "if I adjust my upper and lower straps",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+          "text": "getting all of the various straps secured correctly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -2284,12 +2856,12 @@
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Then one must fight the straps",
+          "text": "not to make the straps in general around it too tight",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "not to make the straps in general around it too tight",
+          "text": "Then one must fight the straps",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -2300,12 +2872,13 @@
     {
       "id": "cushion_seal",
       "label": "Cushion Seal",
-      "score": 52,
+      "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.2,
       "reviewCount": 6,
       "reviewShare": 0.0561,
       "positiveReviews": 3,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.5,
       "negativeShare": 0.3333,
@@ -2360,7 +2933,7 @@
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Can't get a good seal between the eyes",
+          "text": "I could not get it to stay sealed through the night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -2371,14 +2944,15 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 59,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 5.9,
       "reviewCount": 5,
       "reviewShare": 0.0467,
-      "positiveReviews": 2,
-      "mixedReviews": 2,
+      "positiveReviews": 3,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.4,
+      "positiveShare": 0.6,
       "negativeShare": 0.2,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2409,12 +2983,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "it holds the mask on well",
+          "text": "once on it's very comfortable and supple",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         },
         {
-          "text": "once on it's very comfortable and supple",
+          "text": "it holds the mask on well",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         },
@@ -2431,7 +3005,7 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         },
         {
-          "text": "The headgear is a little cumbersome to get on",
+          "text": "The headgear is a little cumbersome to get on and adjust",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         }
@@ -2442,14 +3016,15 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 62,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 6.2,
       "reviewCount": 5,
       "reviewShare": 0.0467,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.4,
+      "positiveShare": 0.6,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2515,12 +3090,13 @@
     {
       "id": "full_face_cushion|fit",
       "label": "Full Face Cushion · Fit",
-      "score": 70,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 6,
       "reviewShare": 0.0561,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -2547,12 +3123,13 @@
     {
       "id": "mouth-breathers",
       "label": "Mouth breathers",
-      "score": 69,
+      "score": 77,
+      "grade": "B",
       "averageSentiment": 6.9,
       "reviewCount": 8,
       "reviewShare": 0.0748,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -2622,12 +3199,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "that will cover nose and under the chin",
+          "text": "the fewer larger hole masks are just louder and blow more direct air on your partner if you have one",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "the fewer larger hole masks are just louder and blow more direct air on your partner if you have one",
+          "text": "that will cover nose and under the chin",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -2642,12 +3219,13 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 67,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 6.7,
       "reviewCount": 5,
       "reviewShare": 0.0467,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -2716,12 +3294,13 @@
     {
       "id": "eyes",
       "label": "Eyes",
-      "score": 33,
+      "score": 16,
+      "grade": "F-",
       "averageSentiment": 3.3,
       "reviewCount": 7,
       "reviewShare": 0.0654,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.1429,
       "negativeShare": 0.8571,
@@ -2776,17 +3355,17 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Can't get a good seal between the eyes",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
-        },
-        {
-          "text": "dangerous, impossible to seal, leaks into the eyes",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
-        },
-        {
           "text": "If you're looking for a mask to use with glasses on for reading at night, this probably isn't doable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I could not get it to stay sealed through the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "cinch it down so tight my eyes bug out",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
@@ -2842,12 +3421,13 @@
     {
       "id": "chin",
       "label": "Chin",
-      "score": 63,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 6.3,
       "reviewCount": 16,
       "reviewShare": 0.1495,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.6875,
       "negativeShare": 0.3125,
@@ -2920,16 +3500,16 @@
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "the cushion is very large, cradling around the chin",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+          "text": "I used to wear a chinstrap even with a full mask and now i dont have to",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "top of nose to under chin",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+          "text": "ratched down so tight it causes me discomfort",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
           "text": "it leaks below and around my chin",
@@ -2937,9 +3517,9 @@
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "ratched down so tight it causes me discomfort",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+          "text": "top of nose to under chin",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
         }
       ],
       "complaintReviews": 5,
@@ -2985,147 +3565,64 @@
   "interactionInsights": [],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 72,
-      "averageSentiment": 7.2,
-      "reviewCount": 39,
-      "reviewShare": 0.3645,
-      "positiveReviews": 29,
-      "mixedReviews": 2,
-      "negativeReviews": 8,
-      "positiveShare": 0.7436,
-      "negativeShare": 0.2051,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Great mask!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "substandard item.. substandard item",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 79,
-      "averageSentiment": 7.9,
-      "reviewCount": 14,
-      "reviewShare": 0.1308,
-      "positiveReviews": 12,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.8571,
-      "negativeShare": 0.1429,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "So Comfortable!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I am waiting for the VA to send me another one that will be more comfortable to use",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 71,
-      "averageSentiment": 7.1,
-      "reviewCount": 12,
-      "reviewShare": 0.1121,
-      "positiveReviews": 9,
-      "mixedReviews": 1,
-      "negativeReviews": 2,
-      "positiveShare": 0.75,
+      "id": "part|full_face_cushion|fit",
+      "label": "Full Face Cushion · Fit",
+      "score": 84,
+      "grade": "B+",
+      "averageSentiment": 7.0,
+      "reviewCount": 6,
+      "reviewShare": 0.0561,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
       "negativeShare": 0.1667,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedParts": [
+        {
+          "id": "full_face_cushion",
+          "label": "Full Face Cushion",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "mouth_breathing",
+          "label": "Mouth Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "chin",
+          "label": "Chin",
+          "reviewCount": 4
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "The mask and hoses are perfect for me",
+          "text": "I installed the large seal that came with the mask and it fit perfectly",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I didn't like the way this mask fit me",
+          "text": "that will cover nose and under the chin",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
         }
       ]
-    },
-    {
-      "id": "|||therapy_effectiveness",
-      "label": "Therapy Effectiveness",
-      "score": 76,
-      "averageSentiment": 7.6,
-      "reviewCount": 10,
-      "reviewShare": 0.0935,
-      "positiveReviews": 9,
-      "mixedReviews": 1,
-      "negativeReviews": 0,
-      "positiveShare": 0.9,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Only one that works for me",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||material_quality",
-      "label": "Material Quality",
-      "score": 78,
-      "averageSentiment": 7.8,
-      "reviewCount": 5,
-      "reviewShare": 0.0467,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "well made",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
-        }
-      ],
-      "negativeEvidence": []
     }
   ],
   "concerns": [],
@@ -3166,17 +3663,12 @@
   "evidence": {
     "positive": [
       {
-        "text": "love it!",
+        "text": "Only one that works for me",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
       },
       {
-        "text": "Great mask!",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
-      },
-      {
-        "text": "Exceptional",
+        "text": "Best full face mask I've found",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
       },
@@ -3186,17 +3678,27 @@
         "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
       },
       {
-        "text": "So Comfortable!",
+        "text": "Finally found a good mask",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
       },
       {
-        "text": "Only one that works for me",
+        "text": "Best in years",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask"
+      },
+      {
+        "text": "love it!",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask"
       }
     ],
     "negative": [
+      {
+        "text": "product gave me a skin infection",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+      },
       {
         "text": "Worse mask I've ever used",
         "retailer": "DirectHomeMedical",
@@ -3208,31 +3710,26 @@
         "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
       },
       {
+        "text": "The mask does not seal",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
+      },
+      {
         "text": "substandard item.. substandard item",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
       },
       {
-        "text": "Missing elbow",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
-      },
-      {
-        "text": "product gave me a skin infection",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
-      },
-      {
-        "text": "The mask does not seal",
+        "text": "JUNK WILL NOT SEAL",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

@@ -1,8 +1,18 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "breathwear-nasal-pillow",
   "name": "BreathWear Nasal Pillow",
   "catalogOrder": 93,
+  "search": {
+    "aliases": [
+      "BreathWear Nasal Pillow Mask Fit Pack"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Nasal Pillow",
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 5,
@@ -13,18 +23,20 @@
     "reviewDateEnd": "2025-09-20"
   },
   "overall": {
-    "compositeScore": null,
+    "score": 80,
+    "grade": "B+",
+    "calculation": "star rating only; insufficient review-text satisfaction evidence",
     "ratingComponent": {
       "average": 4.2,
-      "score": 84,
+      "score": 80,
       "reviewCount": 5,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 5.5,
       "score": 55,
       "reviewCount": 2,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [],
@@ -75,7 +87,7 @@
     ],
     "negative": [
       {
-        "text": "air escapes from the pillow where it connects to the mask",
+        "text": "the hard nose piece so pushes your nose to the side - very painful",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/breathwear-nasal-pillow-mask-fit-pack"
       },
@@ -87,9 +99,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

@@ -1,8 +1,17 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "circadiance-sleepweaver-small",
   "name": "Circadiance SleepWeaver Small",
   "catalogOrder": 104,
+  "search": {
+    "aliases": [
+      "SleepWeaver Small Nasal Cloth CPAP Mask"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 3,
@@ -13,18 +22,20 @@
     "reviewDateEnd": "2026-05-27"
   },
   "overall": {
-    "compositeScore": null,
+    "score": null,
+    "grade": null,
+    "calculation": "unavailable",
     "ratingComponent": {
       "average": 4.67,
-      "score": 93,
+      "score": 92,
       "reviewCount": 3,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 9.5,
       "score": 95,
       "reviewCount": 2,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [],
@@ -58,12 +69,12 @@
         "productUrl": "https://1800cpap.com/products/sleepweaver-small-nasal-cloth-cpap-mask"
       },
       {
-        "text": "You can hardly feel it on your face",
+        "text": "it really does inflate like a balloon around your nose",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/sleepweaver-small-nasal-cloth-cpap-mask"
       },
       {
-        "text": "it really does inflate like a balloon around your nose",
+        "text": "You can hardly feel it on your face",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/sleepweaver-small-nasal-cloth-cpap-mask"
       }
@@ -82,9 +93,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

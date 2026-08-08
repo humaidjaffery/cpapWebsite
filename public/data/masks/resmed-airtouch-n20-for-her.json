@@ -1,8 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-airtouch-n20-for-her",
   "name": "ResMed AirTouch N20 For Her",
   "catalogOrder": 92,
+  "search": {
+    "aliases": [
+      "AirTouch N20 For Her",
+      "AirTouch N20 For Her Memory Foam Mask",
+      "AirTouch N20 for Her Memory Foam Mask Kit",
+      "ResMed AirTouch N20 For Her"
+    ],
+    "abbreviations": [
+      "N20",
+      "Resmed"
+    ],
+    "maskTypes": []
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 5,
@@ -13,30 +26,33 @@
     "reviewDateEnd": "2025-06-24"
   },
   "overall": {
-    "compositeScore": null,
+    "score": 100,
+    "grade": "A+",
+    "calculation": "star rating only; insufficient review-text satisfaction evidence",
     "ratingComponent": {
       "average": 5.0,
       "score": 100,
       "reviewCount": 5,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 9.2,
       "score": 92,
       "reviewCount": 2,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 88,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 5,
       "reviewShare": 1.0,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -99,7 +115,22 @@
           "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
         },
         {
+          "text": "The updated cushion is so comfortable that sometimes I don't even realize it is on",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
+        },
+        {
+          "text": "I have very sensitive skin",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask-kit"
+        },
+        {
           "text": "It is so light",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
+        },
+        {
+          "text": "comfortable to the touch",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
         }
@@ -142,17 +173,17 @@
         "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
       },
       {
-        "text": "I have very sensitive skin",
+        "text": "Overall, I would recommend this product due to the high comfort level I receive while wearing the AirTouch N20",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask-kit"
       },
       {
-        "text": "Very Comfortable and Adjustable Product",
+        "text": "The mask is held very securely on my face at night and doesn't seem to move at all",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
       },
       {
-        "text": "The mask is held very securely on my face at night and doesn't seem to move at all",
+        "text": "The updated cushion is so comfortable that sometimes I don't even realize it is on",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask"
       }
@@ -160,9 +191,9 @@
     "negative": []
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

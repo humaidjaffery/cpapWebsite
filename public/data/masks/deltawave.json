@@ -1,8 +1,15 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "deltawave",
   "name": "DeltaWave",
   "catalogOrder": 71,
+  "search": {
+    "aliases": [
+      "DeltaWave CPAP Mask System"
+    ],
+    "abbreviations": [],
+    "maskTypes": []
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 37,
@@ -13,32 +20,35 @@
     "reviewDateEnd": "2026-05-29"
   },
   "overall": {
-    "compositeScore": 89,
+    "score": 89,
+    "grade": "A-",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.57,
-      "score": 91,
+      "score": 89,
       "reviewCount": 37,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.6,
       "score": 86,
       "reviewCount": 27,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 75,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.5,
       "reviewCount": 28,
       "reviewShare": 0.7568,
-      "positiveReviews": 21,
-      "mixedReviews": 2,
+      "positiveReviews": 22,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.75,
+      "positiveShare": 0.7857,
       "negativeShare": 0.1786,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -109,7 +119,17 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The nasal pillows fit comfortably",
+          "text": "by far the most comfortable mask I’ve ever used",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "I often forget I'm even wearing it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "the comfortable fit",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
@@ -117,9 +137,54 @@
           "text": "Most comfortable",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "Super Comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "incredibly comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "the air flow is very smooth and comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "Its WAY more comfortable than my ResMed mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "Very comfortable mask compared others I have used",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "this is icing on the cake for comfort",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "struggling and feeling suffocated wearing masks to be ripped off in the middle of the night",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "Unlike other masks that left me with red marks and pressure sores",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "The nasal pillows were also not as comfortable as my Aloha mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
         {
           "text": "feeling damp and itchy",
           "retailer": "1800CPAP.COM",
@@ -129,18 +194,34 @@
           "text": "Hose is too heavy",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "The hose is heavy",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "you may need to dial back your pressure settings - I did",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "The tube is a little heavier than I would have preferred",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 68,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.8,
       "reviewCount": 10,
       "reviewShare": 0.2703,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.7,
       "negativeShare": 0.3,
@@ -196,16 +277,46 @@
           "text": "Best fit",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
-        }
-      ],
-      "negativeEvidence": [
+        },
         {
-          "text": "not fitting",
+          "text": "It's been years since I found a mask that fits right",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
         {
+          "text": "Outstanding fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "Ultra comfortable to the face and nose fitting",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "The fit is great",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "Fit just right",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        }
+      ],
+      "negativeEvidence": [
+        {
           "text": "I could not get the nose inserts to fit tight enough",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "The strap rested higher on my face",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "not fitting",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
@@ -214,12 +325,13 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 52,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.2,
       "reviewCount": 6,
       "reviewShare": 0.1622,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -270,6 +382,11 @@
           "text": "It seals well without leaks",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "easier to maintain a seal in varying sleep positions",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -282,18 +399,24 @@
           "text": "so it leaked a lot",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "not sealing",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 78,
+      "label": "Stability",
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.8,
       "reviewCount": 6,
       "reviewShare": 0.1622,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -343,6 +466,21 @@
           "text": "I am a side and stomach sleeper and this mask continues to make this possible",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "I was able to side sleep again which is my preference",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "the swivel works great for side sleeps",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "easier to maintain a seal in varying sleep positions",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -356,12 +494,13 @@
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 84,
+      "score": 95,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 8,
       "reviewShare": 0.2162,
       "positiveReviews": 7,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.875,
       "negativeShare": 0.0,
@@ -387,7 +526,32 @@
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
         {
+          "text": "the exhalation vents are so quiet I can barely hear them",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
           "text": "the air flow is very smooth and comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "Very quiet",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "quiet",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "This breathes so easy",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "the airflow feels natural",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
@@ -403,14 +567,15 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 83,
+      "score": 96,
+      "grade": "A+",
       "averageSentiment": 8.3,
       "reviewCount": 22,
       "reviewShare": 0.5946,
-      "positiveReviews": 20,
-      "mixedReviews": 1,
+      "positiveReviews": 21,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.9091,
+      "positiveShare": 0.9545,
       "negativeShare": 0.0455,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -455,7 +620,17 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Amazing night sleep",
+          "text": "the best night sleep I have received since I've been on a CPAP",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "It has made my nightly CPAP routine something I no longer dread",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "sleep I’ve experienced with my CPAP in 13 years of use",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
@@ -463,9 +638,44 @@
           "text": "I get the best sleep with it!",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "Amazing night sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "you can actually breathe normally at night without constantly waking up, let alone choking just to breathe",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "what really sets it apart is how effective it is at very low pressure",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "Look forward to going to sleep with this product for a better night's sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "Better, longer sleep than with the others",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
+          "text": "Sleep well and feel refreshed each morning",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I've used philips and resmed masks in the past, but stopped using them b/c I could barely breathe or get a good night sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
         {
           "text": "keeping me more awake than without using my CPAP at all",
           "retailer": "1800CPAP.COM",
@@ -483,12 +693,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 86,
+      "score": 90,
+      "grade": "A",
       "averageSentiment": 8.6,
       "reviewCount": 27,
       "reviewShare": 0.7297,
       "positiveReviews": 24,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.8889,
       "negativeShare": 0.1111,
@@ -515,12 +726,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I highly recommend this mask!",
+          "text": "Best CPAP nasal pillow for sleep apnea - Hands down!",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
         {
-          "text": "This mask is great",
+          "text": "the DeltaWave is hands-down the best one Iâ€™ve tried",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
@@ -541,12 +752,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 85,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 8.5,
       "reviewCount": 24,
       "reviewShare": 0.6486,
       "positiveReviews": 22,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.9167,
       "negativeShare": 0.0833,
@@ -584,24 +796,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The nasal pillows fit comfortably",
+          "text": "by far the most comfortable mask I’ve ever used",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
         {
-          "text": "Most comfortable",
+          "text": "I often forget I'm even wearing it",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "feeling damp and itchy",
+          "text": "The nasal pillows were also not as comfortable as my Aloha mask",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
         {
-          "text": "The nasal pillows were also not as comfortable as my Aloha mask",
+          "text": "feeling damp and itchy",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
@@ -610,12 +822,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 89,
+      "score": 98,
+      "grade": "A+",
       "averageSentiment": 8.9,
       "reviewCount": 17,
       "reviewShare": 0.4595,
       "positiveReviews": 16,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.9412,
       "negativeShare": 0.0,
@@ -642,12 +855,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Amazing night sleep",
+          "text": "the best night sleep I have received since I've been on a CPAP",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
         {
-          "text": "I get the best sleep with it!",
+          "text": "sleep I’ve experienced with my CPAP in 13 years of use",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
@@ -663,12 +876,13 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 68,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.8,
       "reviewCount": 10,
       "reviewShare": 0.2703,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.7,
       "negativeShare": 0.3,
@@ -728,12 +942,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "not fitting",
+          "text": "I could not get the nose inserts to fit tight enough",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
         {
-          "text": "I could not get the nose inserts to fit tight enough",
+          "text": "The strap rested higher on my face",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
@@ -742,12 +956,13 @@
     {
       "id": "weight",
       "label": "Weight",
-      "score": 59,
+      "score": 54,
+      "grade": "D+",
       "averageSentiment": 5.9,
       "reviewCount": 8,
       "reviewShare": 0.2162,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -774,7 +989,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "It’s lightweight",
+          "text": "the Deltawave feels weightless",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
@@ -786,12 +1001,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Hose is too heavy",
+          "text": "the nasal pillow was also larger and heavier",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
         {
-          "text": "The hose was larger and therefore heavier",
+          "text": "Hose is too heavy",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
@@ -800,12 +1015,13 @@
     {
       "id": "breathing_support",
       "label": "Breathing Support",
-      "score": 79,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 7.9,
       "reviewCount": 6,
       "reviewShare": 0.1622,
       "positiveReviews": 5,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.8333,
       "negativeShare": 0.0,
@@ -832,12 +1048,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "this mass truly feels like you are breathing without an apparatus",
+          "text": "you can actually breathe normally at night without constantly waking up, let alone choking just to breathe",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
         {
-          "text": "you can actually breathe normally at night without constantly waking up, let alone choking just to breathe",
+          "text": "this mass truly feels like you are breathing without an apparatus",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
@@ -853,12 +1069,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 52,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.2,
       "reviewCount": 6,
       "reviewShare": 0.1622,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -927,12 +1144,13 @@
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 76,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.6,
       "reviewCount": 5,
       "reviewShare": 0.1351,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -959,7 +1177,7 @@
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
         {
-          "text": "Deltawave worked so much better for me",
+          "text": "what really sets it apart is how effective it is at very low pressure",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
@@ -977,12 +1195,13 @@
     {
       "id": "nasal_pillows",
       "label": "Nasal Pillows",
-      "score": 71,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 7.1,
       "reviewCount": 12,
       "reviewShare": 0.3243,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -1040,17 +1259,17 @@
       ],
       "positiveEvidence": [
         {
+          "text": "Best CPAP nasal pillow for sleep apnea - Hands down!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+        },
+        {
           "text": "The nasal pillows fit comfortably",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
         {
-          "text": "Most comfortable",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
-        },
-        {
-          "text": "Best CPAP nasal pillow for sleep apnea - Hands down!",
+          "text": "best continuous airflow ever experienced",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
@@ -1062,12 +1281,12 @@
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
         {
-          "text": "feeling damp and itchy",
+          "text": "I've used philips and resmed masks in the past, but stopped using them b/c I could barely breathe or get a good night sleep",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         },
         {
-          "text": "I've used philips and resmed masks in the past, but stopped using them b/c I could barely breathe or get a good night sleep",
+          "text": "The nasal pillows were also not as comfortable as my Aloha mask",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
@@ -1076,12 +1295,13 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 74,
+          "score": 79,
+          "grade": "B",
           "averageSentiment": 7.4,
           "reviewCount": 9,
           "reviewShare": 0.2432,
           "positiveReviews": 7,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 2,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -1098,12 +1318,12 @@
           ],
           "negativeEvidence": [
             {
-              "text": "feeling damp and itchy",
+              "text": "The nasal pillows were also not as comfortable as my Aloha mask",
               "retailer": "1800CPAP.COM",
               "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
             },
             {
-              "text": "The nasal pillows were also not as comfortable as my Aloha mask",
+              "text": "feeling damp and itchy",
               "retailer": "1800CPAP.COM",
               "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
             }
@@ -1117,12 +1337,13 @@
     {
       "id": "nasal_pillows|comfort",
       "label": "Nasal Pillows · Comfort",
-      "score": 74,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 7.4,
       "reviewCount": 9,
       "reviewShare": 0.2432,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -1134,7 +1355,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "feeling damp and itchy",
+          "text": "The nasal pillows were also not as comfortable as my Aloha mask",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
@@ -1154,95 +1375,15 @@
   "interactionInsights": [],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 85,
-      "averageSentiment": 8.5,
-      "reviewCount": 24,
-      "reviewShare": 0.6486,
-      "positiveReviews": 21,
-      "mixedReviews": 0,
-      "negativeReviews": 3,
-      "positiveShare": 0.875,
-      "negativeShare": 0.125,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I highly recommend this mask!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I did not like this mask",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 92,
-      "averageSentiment": 9.2,
-      "reviewCount": 16,
-      "reviewShare": 0.4324,
-      "positiveReviews": 16,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "by far the most comfortable mask I’ve ever used",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 92,
-      "averageSentiment": 9.2,
-      "reviewCount": 13,
-      "reviewShare": 0.3514,
-      "positiveReviews": 13,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Amazing night sleep",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "nasal_pillows|||comfort",
+      "id": "part|nasal_pillows|comfort",
       "label": "Nasal Pillows · Comfort",
-      "score": 74,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 7.4,
       "reviewCount": 9,
       "reviewShare": 0.2432,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.7778,
       "negativeShare": 0.2222,
@@ -1255,7 +1396,13 @@
         }
       ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
           "text": "The nasal pillows fit comfortably",
@@ -1265,67 +1412,11 @@
       ],
       "negativeEvidence": [
         {
-          "text": "feeling damp and itchy",
+          "text": "The nasal pillows were also not as comfortable as my Aloha mask",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
         }
       ]
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 78,
-      "averageSentiment": 7.8,
-      "reviewCount": 6,
-      "reviewShare": 0.1622,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.8333,
-      "negativeShare": 0.1667,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "comfortable fit",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "not fitting",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
-        }
-      ]
-    },
-    {
-      "id": "|||breathing_support",
-      "label": "Breathing Support",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 5,
-      "reviewShare": 0.1351,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "this mass truly feels like you are breathing without an apparatus",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
-        }
-      ],
-      "negativeEvidence": []
     }
   ],
   "concerns": [],
@@ -1342,32 +1433,32 @@
   "evidence": {
     "positive": [
       {
-        "text": "Amazing night sleep",
+        "text": "the best night sleep I have received since I've been on a CPAP",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
       },
       {
-        "text": "This mask is great",
+        "text": "It has made my nightly CPAP routine something I no longer dread",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
       },
       {
-        "text": "Like a new man! The best!",
+        "text": "sleep I’ve experienced with my CPAP in 13 years of use",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
       },
       {
-        "text": "By far the best mask",
+        "text": "Best CPAP nasal pillow for sleep apnea - Hands down!",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
       },
       {
-        "text": "The nasal pillows fit comfortably",
+        "text": "by far the most comfortable mask I’ve ever used",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
       },
       {
-        "text": "Most comfortable",
+        "text": "the DeltaWave is hands-down the best one Iâ€™ve tried",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
       }
@@ -1379,36 +1470,36 @@
         "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
       },
       {
-        "text": "so it leaked a lot",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
-      },
-      {
         "text": "I did not like this mask",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
       },
       {
-        "text": "not sealing",
+        "text": "so it leaked a lot",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
       },
       {
-        "text": "This proves how restrictive other designs are",
+        "text": "I've used philips and resmed masks in the past, but stopped using them b/c I could barely breathe or get a good night sleep",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
       },
       {
-        "text": "Hose is too heavy",
+        "text": "struggling and feeling suffocated wearing masks to be ripped off in the middle of the night",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
+      },
+      {
+        "text": "Unlike other masks that left me with red marks and pressure sores",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

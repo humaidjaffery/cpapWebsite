@@ -1,8 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-mirage-liberty",
   "name": "ResMed Mirage Liberty",
   "catalogOrder": 80,
+  "search": {
+    "aliases": [
+      "Mirage Liberty Full Face CPAP Mask",
+      "Mirage Liberty Full Face Mask Kit"
+    ],
+    "abbreviations": [
+      "Resmed"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 15,
@@ -13,32 +25,35 @@
     "reviewDateEnd": "2026-05-30"
   },
   "overall": {
-    "compositeScore": 93,
+    "score": 90,
+    "grade": "A",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.6,
-      "score": 92,
+      "score": 90,
       "reviewCount": 15,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 9.4,
       "score": 94,
       "reviewCount": 9,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 78,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.8,
       "reviewCount": 5,
       "reviewShare": 0.3333,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -60,6 +75,21 @@
           "text": "Such a comfortable mask for a full face",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+        },
+        {
+          "text": "LIGHT MASK",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+        },
+        {
+          "text": "The unit is very comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+        },
+        {
+          "text": "I think the mask is ok",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -67,14 +97,15 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 61,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.1,
       "reviewCount": 7,
       "reviewShare": 0.4667,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 2,
-      "positiveShare": 0.4286,
+      "positiveShare": 0.5714,
       "negativeShare": 0.2857,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -143,6 +174,11 @@
           "text": "it just doesn't leak as do most all of the others",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+        },
+        {
+          "text": "couldnt find one that didnt leak around my eyes",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -152,7 +188,17 @@
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
         },
         {
+          "text": "The masks were leaving scars on my nose or choking me with air leaks while sleeping",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+        },
+        {
           "text": "choking me with air leaks while sleeping",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+        },
+        {
+          "text": "I have a narrow nose that leaks air with other masks",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
         }
@@ -160,13 +206,14 @@
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 66,
+      "label": "Stability",
+      "score": 72,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 7,
       "reviewShare": 0.4667,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.7143,
       "negativeShare": 0.2857,
@@ -204,6 +251,11 @@
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
         },
         {
+          "text": "I add a small piece of plastic tape to hold the nose pillows in place",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+        },
+        {
           "text": "without ripping the stupid mask off my face at 4 am",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
@@ -211,12 +263,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "ripping the stupid mask off my face at 4 am",
+          "text": "comfort does no good if you cannot or your spouse cannot sleep because of the air leak noise",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
         },
         {
-          "text": "comfort does no good if you cannot or your spouse cannot sleep because of the air leak noise",
+          "text": "ripping the stupid mask off my face at 4 am",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
         }
@@ -225,14 +277,15 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 77,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 7.7,
       "reviewCount": 9,
       "reviewShare": 0.6,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.7778,
+      "positiveShare": 0.8889,
       "negativeShare": 0.1111,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -257,12 +310,42 @@
       ],
       "positiveEvidence": [
         {
-          "text": "i get a 100 on my nightly app readout",
+          "text": "I feel so relieved that I finally found a mask I could use to sleep with my CPAP",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
         },
         {
           "text": "now i get a 100 on my nightly app readout",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+        },
+        {
+          "text": "i get a 100 on my nightly app readout",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+        },
+        {
+          "text": "The only one I can tolerate CPAP treatment with.",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+        },
+        {
+          "text": "The only one I can tolerate CPAP treatment with",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+        },
+        {
+          "text": "This mask lets me breathe through my mouth and nose when I can",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+        },
+        {
+          "text": "works great for me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+        },
+        {
+          "text": "It does the job",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
         }
@@ -280,12 +363,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 94,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.4,
       "reviewCount": 9,
       "reviewShare": 0.6,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -301,12 +385,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "The Best!!!",
+          "text": "This mask kept me from ditching this whole idea!",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
         },
         {
-          "text": "This mask kept me from ditching this whole idea!",
+          "text": "The best full face mask I have ever tried..",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
         }
@@ -316,14 +400,15 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 61,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.1,
       "reviewCount": 7,
       "reviewShare": 0.4667,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 2,
-      "positiveShare": 0.4286,
+      "positiveShare": 0.5714,
       "negativeShare": 0.2857,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -401,7 +486,7 @@
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
         },
         {
-          "text": "choking me with air leaks while sleeping",
+          "text": "The masks were leaving scars on my nose or choking me with air leaks while sleeping",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
         }
@@ -417,33 +502,7 @@
   "bodySites": [],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 96,
-      "averageSentiment": 9.6,
-      "reviewCount": 8,
-      "reviewShare": 0.5333,
-      "positiveReviews": 8,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "The Best!!!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": []
-    }
-  ],
+  "strengths": [],
   "concerns": [],
   "retailers": [
     {
@@ -458,17 +517,7 @@
   "evidence": {
     "positive": [
       {
-        "text": "The Best!!!",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
-      },
-      {
         "text": "This mask kept me from ditching this whole idea!",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
-      },
-      {
-        "text": "BEST CPAP MASK FOR ME",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
       },
@@ -483,6 +532,16 @@
         "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
       },
       {
+        "text": "BEST CPAP MASK FOR ME",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+      },
+      {
+        "text": "The Best!!!",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+      },
+      {
         "text": "the nose pads (i use small) actually enter the nostril giving a great seal",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
@@ -490,17 +549,17 @@
     ],
     "negative": [
       {
-        "text": "Hose fittings leak excessively",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
-      },
-      {
-        "text": "The masks were leaving scars on my nose",
+        "text": "air leak noise coming from the connections of the hose",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
       },
       {
         "text": "The masks were leaving scars on my nose or choking me with air leaks while sleeping",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
+      },
+      {
+        "text": "The masks were leaving scars on my nose",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-cpap-mask"
       },
@@ -512,9 +571,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

@@ -1,10 +1,15 @@
 <main class="retailers-page">
   <header class="retailers-header">
-    <a class="brand" href="/" aria-label="DreamSeal home">
-      <img src="/dreamseal_logo.png" alt="" width="44" height="44" />
-      <span>DreamSeal</span>
-    </a>
-    <a class="back-link" routerLink="/cpapworld">← Explore masks</a>
+    <div class="retailers-header-left">
+      <a class="back-link" routerLink="/cpapworld">← Explore masks</a>
+      <a class="brand" href="/" aria-label="DreamSeal home">
+        <img src="/dreamseal_logo.png" alt="" width="44" height="44" />
+        <span>DreamSeal</span>
+      </a>
+    </div>
+    <nav class="retailers-header-actions" aria-label="Retailer page navigation">
+      <app-waitlist-signup class="header-waitlist" [header]="true" />
+    </nav>
   </header>
 
   <section class="retailers-hero" aria-labelledby="retailers-title">
@@ -38,7 +43,10 @@
 
     <nav class="retailer-jump-list" aria-label="Jump to a retailer">
       @for (profile of profiles(); track profile.slug) {
-        <a [href]="'#' + profile.slug">
+        <a
+          [href]="'/cpapworld/retailers#' + profile.slug"
+          (click)="scrollTo(profile.slug, $event)"
+        >
           <span>{{ profile.name }}</span>
           <small>{{ formatNumber(profile.reviewEvidence.processedReviewCount) }} reviews</small>
         </a>
@@ -65,15 +73,12 @@
               <small>{{ formatNumber(profile.reviewEvidence.ratingCount) }} ratings</small>
             </div>
             <div>
-              <span>Service evidence score</span>
-              <strong>
-                @if (profile.reviewEvidence.serviceScore !== null) {
-                  {{ profile.reviewEvidence.serviceScore }}<small>/100</small>
-                } @else {
-                  —
-                }
-              </strong>
-              <small>Context, not a universal grade</small>
+              <span>Overall service grade</span>
+              <strong
+                class="overall-grade"
+                [attr.data-grade-band]="gradeBand(profile.reviewEvidence.serviceGrade)"
+              >{{ profile.reviewEvidence.serviceGrade ?? '—' }}</strong>
+              <small>Positive vs. negative service claims</small>
             </div>
             <div>
               <span>Reviews analyzed</span>
@@ -87,47 +92,90 @@
             </div>
           </div>
 
-          <section class="profile-section" [attr.aria-labelledby]="'service-' + profile.slug">
-            <div class="section-heading">
+          <section class="summary-card" [attr.aria-labelledby]="'summary-' + profile.slug">
+            <div class="summary-card-heading">
               <div>
-                <p class="eyebrow">Scraped review evidence</p>
-                <h3 [id]="'service-' + profile.slug">What mask buyers said about service</h3>
+                <p class="eyebrow">At-a-glance buying summary</p>
+                <h3 [id]="'summary-' + profile.slug">Service grades and key policies</h3>
               </div>
-              <p>Service claims are kept separate from mask comfort and fit findings.</p>
+              <p>Every available service attribute is graded from decisive review evidence.</p>
             </div>
 
-            <div class="service-grid">
-              @for (aspect of profile.serviceAspects.slice(0, 6); track aspect.aspect) {
-                <div class="service-card">
-                  <div class="service-card-heading">
-                    <h4>{{ aspect.label }}</h4>
-                    <span>{{ aspect.score }}/100</span>
+            <div class="summary-columns">
+              <section class="service-summary" [attr.aria-labelledby]="'service-' + profile.slug">
+                <div class="subsection-heading">
+                  <div>
+                    <span>Review evidence</span>
+                    <h4 [id]="'service-' + profile.slug">Service report card</h4>
                   </div>
-                  <p>
-                    {{ formatNumber(aspect.reviewCount) }} reviews · {{ aspect.positiveReviews }} positive ·
-                    {{ aspect.negativeReviews }} negative
-                  </p>
-                  @if (aspect.positiveEvidence[0]; as evidence) {
-                    <blockquote>“{{ evidence.text }}”</blockquote>
-                    <small>
-                      Review excerpt@if (evidence.maskName) { · {{ evidence.maskName }}}
-                    </small>
+                  <strong
+                    class="summary-overall-grade"
+                    [attr.data-grade-band]="gradeBand(profile.reviewEvidence.serviceGrade)"
+                    [attr.aria-label]="'Overall service grade ' + (profile.reviewEvidence.serviceGrade ?? 'unavailable')"
+                  >{{ profile.reviewEvidence.serviceGrade ?? '—' }}</strong>
+                </div>
+
+                <ul class="grade-list">
+                  @for (aspect of profile.serviceAspects; track aspect.aspect) {
+                    <li>
+                      <span>
+                        <strong>{{ aspect.label }}</strong>
+                        <small>
+                          {{ formatNumber(aspect.decisiveReviewCount) }} decisive reviews ·
+                          {{ aspect.evidenceStrength }} evidence
+                        </small>
+                      </span>
+                      <strong
+                        class="aspect-grade"
+                        [attr.data-grade-band]="gradeBand(aspect.grade)"
+                        [attr.aria-label]="aspect.label + ' grade ' + (aspect.grade ?? 'unavailable')"
+                      >{{ aspect.grade ?? '—' }}</strong>
+                    </li>
+                  }
+                </ul>
+              </section>
+
+              <section class="buying-summary" [attr.aria-labelledby]="'buying-' + profile.slug">
+                <div class="subsection-heading">
+                  <div>
+                    <span>Official retailer information</span>
+                    <h4 [id]="'buying-' + profile.slug">What to know before checkout</h4>
+                  </div>
+                </div>
+
+                <div class="buying-fact-grid">
+                  @for (policy of profile.policies; track policy.key) {
+                    <article class="buying-fact">
+                      <h5>{{ policy.title }}</h5>
+                      <dl>
+                        @for (fact of policy.facts.slice(0, 2); track fact.label) {
+                          <div><dt>{{ fact.label }}</dt><dd>{{ fact.value }}</dd></div>
+                        }
+                      </dl>
+                      @if (policy.sources[0]; as source) {
+                        <a [href]="source.url" target="_blank" rel="noopener noreferrer">
+                          Verify on retailer site <span aria-hidden="true">↗</span>
+                        </a>
+                      }
+                    </article>
                   }
                 </div>
-              }
+              </section>
             </div>
           </section>
 
-          <section class="profile-section" [attr.aria-labelledby]="'policies-' + profile.slug">
-            <div class="section-heading">
+          <details class="profile-section policy-details">
+            <summary>See complete policy details and sources</summary>
+            <section [attr.aria-labelledby]="'policies-' + profile.slug">
+              <div class="section-heading">
               <div>
                 <p class="eyebrow">Official retailer information</p>
                 <h3 [id]="'policies-' + profile.slug">Policies and buying details</h3>
               </div>
               <p>Summaries link to the source pages used for verification.</p>
-            </div>
+              </div>
 
-            <div class="policy-grid">
+              <div class="policy-grid">
               @for (policy of profile.policies; track policy.key) {
                 <section class="policy-card">
                   <h4>{{ policy.title }}</h4>
@@ -146,10 +194,15 @@
                   </div>
                 </section>
               }
-            </div>
-          </section>
+              </div>
+            </section>
+          </details>
 
-          <a class="top-link" href="#retailers-title">Back to top ↑</a>
+          <a
+            class="top-link"
+            href="/cpapworld/retailers#retailers-title"
+            (click)="scrollTo('retailers-title', $event)"
+          >Back to top ↑</a>
         </article>
       }
     </section>

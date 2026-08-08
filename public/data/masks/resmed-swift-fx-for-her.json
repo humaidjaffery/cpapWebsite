@@ -1,8 +1,25 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-swift-fx-for-her",
   "name": "ResMed Swift FX For Her",
   "catalogOrder": 64,
+  "search": {
+    "aliases": [
+      "ResMed | Swift FX For Her Nasal Pillow CPAP Mask",
+      "Resmed Swift™ FX for Her Nasal Pillow CPAP Mask",
+      "Swift FX For Her Nasal Pillows CPAP Mask | ResMed",
+      "Swift FX for Her Nano CPAP Mask Kit",
+      "Swift FX for Her Nasal Pillow CPAP Mask",
+      "Swift FX for Her Nasal Pillow CPAP Mask Kit"
+    ],
+    "abbreviations": [
+      "Resmed"
+    ],
+    "maskTypes": [
+      "Nasal Pillow",
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 55,
@@ -13,32 +30,35 @@
     "reviewDateEnd": "2026-03-06"
   },
   "overall": {
-    "compositeScore": 93,
+    "score": 92,
+    "grade": "A",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.69,
-      "score": 94,
+      "score": 92,
       "reviewCount": 55,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 9.2,
       "score": 92,
       "reviewCount": 32,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 84,
+      "score": 97,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 36,
       "reviewShare": 0.6545,
-      "positiveReviews": 32,
-      "mixedReviews": 4,
+      "positiveReviews": 33,
+      "neutralReviews": 3,
       "negativeReviews": 0,
-      "positiveShare": 0.8889,
+      "positiveShare": 0.9167,
       "negativeShare": 0.0,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -119,14 +139,54 @@
       ],
       "positiveEvidence": [
         {
-          "text": "So soft, so comfortable!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+          "text": "the most comfortable nasal pillow mask I have ever used",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         },
         {
           "text": "so light and soft on your face",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Love this silicone pillow cushion",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "So soft, so comfortable!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "So Comfy!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "I can barely feel the headgear on this mask because I pull my hair through the 1 strap in the back and it is very…",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+        },
+        {
+          "text": "This mask covers my nose without the aggravation I had with the other mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
+        },
+        {
+          "text": "the small cushion size fits perfect without hurting my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "The mask straps are really soft",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "This is so much more comfortable",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/swift-fx-for-her-nasal-pillow-cpap-mask-by-resmed"
         }
       ],
       "negativeEvidence": [
@@ -139,18 +199,29 @@
           "text": "without heavy plastic on my nose",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Took some time to adjust to the nasal pillow cushion in my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "my nostrils are a little sore",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 79,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 7.9,
       "reviewCount": 17,
       "reviewShare": 0.3091,
       "positiveReviews": 13,
-      "mixedReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 1,
       "positiveShare": 0.7647,
       "negativeShare": 0.0588,
@@ -228,14 +299,54 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Perfect fit",
+          "text": "The variety of size that you can order these cushions in allowed me to find my perfect fit",
           "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
         },
         {
           "text": "just perfect fit for me",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Perfect fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+        },
+        {
+          "text": "FITS GREAT",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/swift-fx-for-her-nasal-pillow-cpap-mask-by-resmed"
+        },
+        {
+          "text": "Love how the pieces go into my nose instead of just being around my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "the small cushion size fits perfect without hurting my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "I thought this was a great fit for me!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Love how the pieces go into my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+        },
+        {
+          "text": "I can barely feel the headgear on this mask because I pull my hair through the 1 strap in the back",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+        },
+        {
+          "text": "there is a Velcro where it allows you to make adjustments",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed"
         }
       ],
       "negativeEvidence": [
@@ -248,18 +359,29 @@
           "text": "my head is a bit on the smaller size so the regular FX did not work",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "The only down side I find is the small adjustments needed to complete the seal before sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "I wish it would have come with smaller headgear too",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 78,
+      "score": 90,
+      "grade": "A",
       "averageSentiment": 7.8,
       "reviewCount": 9,
       "reviewShare": 0.1636,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8889,
       "negativeShare": 0.1111,
@@ -302,14 +424,39 @@
       ],
       "positiveEvidence": [
         {
+          "text": "a mask with a small nasal cushion that gives me a good seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
+        },
+        {
           "text": "comfortable seal",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
         },
         {
-          "text": "a mask with a small nasal cushion that gives me a good seal",
+          "text": "I am a very light sleeper so even the slightest leak can wake me up",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed"
+        },
+        {
+          "text": "New cushion ! What a difference it makes to keep up on replacements",
           "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+        },
+        {
+          "text": "the nasal pillow design which gives a better seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "It has had no leaks so far",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "to give me a secure seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
         }
       ],
       "negativeEvidence": [
@@ -322,13 +469,14 @@
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 83,
+      "label": "Stability",
+      "score": 96,
+      "grade": "A+",
       "averageSentiment": 8.3,
       "reviewCount": 11,
       "reviewShare": 0.2,
       "positiveReviews": 10,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.9091,
       "negativeShare": 0.0,
@@ -396,9 +544,49 @@
           "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         },
         {
+          "text": "Gives me more freedom to move around during sleep without it losing a seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
+        },
+        {
           "text": "It gives me alot of freedom to move around as well",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "stays in place through the night",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
+        },
+        {
+          "text": "secure",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "I use a chin strap with this mask and even though I shift a lot when I sleep, this mask has had no trouble staying…",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Its very light and comfortable to use for me because I like to sleep on my side or on my stomach at times",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed"
+        },
+        {
+          "text": "more stable and comfortable for me when I move around",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "even when moving around in bed a lot",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+        },
+        {
+          "text": "Good mask for tangle free night of sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
         }
       ],
       "negativeEvidence": [
@@ -411,15 +599,16 @@
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 70,
+      "label": "Ease of Use",
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 16,
       "reviewShare": 0.2909,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
+      "positiveReviews": 13,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.75,
+      "positiveShare": 0.8125,
       "negativeShare": 0.1875,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -493,6 +682,46 @@
           "text": "Bella loops work great",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "easy to wear",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "the headgear goes around your head with a fastened with a buckle in the back",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed"
+        },
+        {
+          "text": "I can wear my glasses easily",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/swift-fx-for-her-nasal-pillow-cpap-mask-by-resmed"
+        },
+        {
+          "text": "it's easy to use",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+        },
+        {
+          "text": "Easy to put on",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "can read in bed",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Easy to adjust",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
+        },
+        {
+          "text": "after I adjusted the headgear a few times to find the right comfort zone",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -505,18 +734,24 @@
           "text": "I adjusted my old mask a few times each night to get it to feel comfortable on my face",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "The only down side I find is the small adjustments needed to complete the seal before sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
         }
       ]
     },
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 57,
+      "score": 53,
+      "grade": "D+",
       "averageSentiment": 5.7,
       "reviewCount": 6,
       "reviewShare": 0.1091,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -574,12 +809,17 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the small cushion size fits perfect without hurting my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
           "text": "never gives me discomfort when rubbing on my cheeks",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         },
         {
-          "text": "the small cushion size fits perfect without hurting my nose",
+          "text": "The silk pieces that go on the side kept me from having lines in the morning",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
         }
@@ -591,6 +831,11 @@
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
         },
         {
+          "text": "Took some time to adjust to the nasal pillow cushion in my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
           "text": "my nostrils are a little sore",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
@@ -600,14 +845,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 70,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.0,
       "reviewCount": 8,
       "reviewShare": 0.1455,
-      "positiveReviews": 6,
-      "mixedReviews": 1,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.75,
+      "positiveShare": 0.875,
       "negativeShare": 0.125,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -642,9 +888,34 @@
           "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         },
         {
+          "text": "I have used this mask for several years",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Over time they do loose their seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+        },
+        {
+          "text": "The headgear does not wear out easily",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
           "text": "keep up on replacements",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "using this for several years",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "the gel feels amazing",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed"
         }
       ],
       "negativeEvidence": [
@@ -658,12 +929,13 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 85,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.5,
       "reviewCount": 8,
       "reviewShare": 0.1455,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -692,6 +964,31 @@
           "text": "allows me to sleep the best",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Sleeping Good",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "I get better sleep from it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "does the job so well",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed"
+        },
+        {
+          "text": "I'm getting good sleep",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "my sleep is enhanced",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -701,12 +998,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 88,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 33,
       "reviewShare": 0.6,
       "positiveReviews": 33,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -779,9 +1077,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "So soft, so comfortable!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+          "text": "the most comfortable nasal pillow mask I have ever used",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         },
         {
           "text": "so light and soft on your face",
@@ -794,12 +1092,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 92,
+      "score": 97,
+      "grade": "A+",
       "averageSentiment": 9.2,
       "reviewCount": 32,
       "reviewShare": 0.5818,
       "positiveReviews": 31,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9688,
       "negativeShare": 0.0312,
@@ -847,14 +1146,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "never have problem with this mask",
+          "text": "I've been using this mask for at least 10 years and I still prefer it",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         },
         {
-          "text": "Highly recommend",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+          "text": "never have problem with this mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -868,12 +1167,13 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 87,
+      "score": 97,
+      "grade": "A+",
       "averageSentiment": 8.7,
       "reviewCount": 13,
       "reviewShare": 0.2364,
       "positiveReviews": 12,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.9231,
       "negativeShare": 0.0,
@@ -931,14 +1231,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Perfect fit",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
-        },
-        {
           "text": "just perfect fit for me",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Perfect fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
         }
       ],
       "negativeEvidence": [
@@ -952,12 +1252,13 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 81,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.1,
       "reviewCount": 10,
       "reviewShare": 0.1818,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1010,12 +1311,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 78,
+      "score": 90,
+      "grade": "A",
       "averageSentiment": 7.8,
       "reviewCount": 9,
       "reviewShare": 0.1636,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8889,
       "negativeShare": 0.1111,
@@ -1058,14 +1360,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "comfortable seal",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
-        },
-        {
           "text": "a mask with a small nasal cushion that gives me a good seal",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
+        },
+        {
+          "text": "comfortable seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
         }
       ],
       "negativeEvidence": [
@@ -1079,12 +1381,13 @@
     {
       "id": "weight",
       "label": "Weight",
-      "score": 84,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 9,
       "reviewShare": 0.1636,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1121,14 +1424,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "super light weight",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
-        },
-        {
           "text": "how light it is",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed"
+        },
+        {
+          "text": "super light weight",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -1136,12 +1439,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 86,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.6,
       "reviewCount": 7,
       "reviewShare": 0.1273,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1177,12 +1481,13 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 64,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.4,
       "reviewCount": 6,
       "reviewShare": 0.1091,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -1229,9 +1534,9 @@
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
         },
         {
-          "text": "easy to adjust",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+          "text": "there is a Velcro where it allows you to make adjustments",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed"
         }
       ],
       "negativeEvidence": [
@@ -1250,12 +1555,13 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 68,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 6.8,
       "reviewCount": 6,
       "reviewShare": 0.1091,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -1282,9 +1588,9 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "keep up on replacements",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+          "text": "I have used this mask for several years",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         },
         {
           "text": "Over time they do loose their seal",
@@ -1303,12 +1609,13 @@
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 79,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 7.9,
       "reviewCount": 5,
       "reviewShare": 0.0909,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.8,
       "negativeShare": 0.0,
@@ -1361,9 +1668,9 @@
           "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         },
         {
-          "text": "Good mask for tangle free night of sleep",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+          "text": "I use a chin strap with this mask and even though I shift a lot when I sleep, this mask has had no trouble staying…",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1377,12 +1684,13 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 5,
       "reviewShare": 0.0909,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1414,14 +1722,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "secure",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
-        },
-        {
           "text": "stays in place through the night",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
+        },
+        {
+          "text": "secure",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -1431,14 +1739,15 @@
     {
       "id": "nasal_pillows",
       "label": "Nasal Pillows",
-      "score": 78,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 7.8,
       "reviewCount": 21,
       "reviewShare": 0.3818,
-      "positiveReviews": 17,
-      "mixedReviews": 2,
+      "positiveReviews": 19,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.8095,
+      "positiveShare": 0.9048,
       "negativeShare": 0.0952,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1489,17 +1798,17 @@
       ],
       "positiveEvidence": [
         {
-          "text": "FITS GREAT",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/swift-fx-for-her-nasal-pillow-cpap-mask-by-resmed"
-        },
-        {
-          "text": "So soft, so comfortable!",
+          "text": "The variety of size that you can order these cushions in allowed me to find my perfect fit",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
         },
         {
-          "text": "The variety of size that you can order these cushions in allowed me to find my perfect fit",
+          "text": "the most comfortable nasal pillow mask I have ever used",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "So soft, so comfortable!",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
         }
@@ -1511,38 +1820,39 @@
           "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed"
         },
         {
-          "text": "my nostrils are a little sore",
+          "text": "the only complaint I have is how they aren't able to be used with other masks, just the swift FX and it's variants",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
         },
         {
-          "text": "the only complaint I have is how they aren't able to be used with other masks, just the swift FX and it's variants",
+          "text": "Took some time to adjust to the nasal pillow cushion in my nose",
           "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
         }
       ],
       "praisedAspects": [
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 87,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.7,
           "reviewCount": 10,
           "reviewShare": 0.1818,
           "positiveReviews": 10,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "So soft, so comfortable!",
-              "retailer": "1800CPAP.COM",
-              "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
-            },
-            {
               "text": "the most comfortable nasal pillow mask I have ever used",
               "retailer": "RespShop",
               "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+            },
+            {
+              "text": "So soft, so comfortable!",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
             }
           ],
           "negativeEvidence": []
@@ -1550,12 +1860,13 @@
         {
           "id": "fit",
           "label": "Fit",
-          "score": 88,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.8,
           "reviewCount": 5,
           "reviewShare": 0.0909,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -1565,7 +1876,7 @@
               "productUrl": "https://cpapsupplies.com/swift-fx-for-her-nasal-pillow-cpap-mask-by-resmed"
             },
             {
-              "text": "the small cushion size fits perfect without hurting my nose",
+              "text": "Love how the pieces go into my nose instead of just being around my nose",
               "retailer": "1800CPAP.COM",
               "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
             }
@@ -1578,12 +1889,13 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 73,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.3,
       "reviewCount": 10,
       "reviewShare": 0.1818,
       "positiveReviews": 8,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.1,
@@ -1625,9 +1937,9 @@
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
         },
         {
-          "text": "Easy to adjust",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
+          "text": "the headgear goes around your head with a fastened with a buckle in the back",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed"
         }
       ],
       "negativeEvidence": [
@@ -1650,19 +1962,20 @@
     {
       "id": "nasal_pillows|comfort",
       "label": "Nasal Pillows · Comfort",
-      "score": 87,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.7,
       "reviewCount": 10,
       "reviewShare": 0.1818,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "So soft, so comfortable!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+          "text": "the most comfortable nasal pillow mask I have ever used",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         }
       ],
       "negativeEvidence": [],
@@ -1674,12 +1987,13 @@
     {
       "id": "nasal_pillows|fit",
       "label": "Nasal Pillows · Fit",
-      "score": 88,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 5,
       "reviewShare": 0.0909,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -1700,12 +2014,13 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 77,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.7,
       "reviewCount": 6,
       "reviewShare": 0.1091,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -1742,14 +2057,14 @@
           "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         },
         {
-          "text": "Very comoftable for side-sleepers",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+          "text": "So comfortable for side sleeping",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "made for air to escape out of the front part of the mask",
+          "text": "My husband complains that he can't sleep with me anymore because of the constant air barraging his face",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         }
@@ -1763,12 +2078,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 5,
       "reviewShare": 0.0909,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1799,9 +2115,9 @@
           "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
         },
         {
-          "text": "even when moving around in bed a lot",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
+          "text": "I use a chin strap with this mask and even though I shift a lot when I sleep, this mask has had no trouble staying…",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         }
       ],
       "negativeEvidence": [],
@@ -1822,70 +2138,15 @@
   "interactionInsights": [],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 92,
-      "averageSentiment": 9.2,
-      "reviewCount": 22,
-      "reviewShare": 0.4,
-      "positiveReviews": 21,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.9545,
-      "negativeShare": 0.0455,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "never have problem with this mask",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I was hoping this would be the one",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 88,
-      "averageSentiment": 8.8,
-      "reviewCount": 12,
-      "reviewShare": 0.2182,
-      "positiveReviews": 12,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "So Comfy!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "nasal_pillows|||comfort",
+      "id": "part|nasal_pillows|comfort",
       "label": "Nasal Pillows · Comfort",
-      "score": 87,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.7,
-      "reviewCount": 9,
-      "reviewShare": 0.1636,
-      "positiveReviews": 9,
-      "mixedReviews": 0,
+      "reviewCount": 10,
+      "reviewShare": 0.1818,
+      "positiveReviews": 10,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1894,41 +2155,76 @@
         {
           "id": "nasal_pillows",
           "label": "Nasal Pillows",
-          "reviewCount": 9
+          "reviewCount": 10
         }
       ],
-      "associatedContexts": [],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "So soft, so comfortable!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+          "text": "the most comfortable nasal pillow mask I have ever used",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
         }
       ],
       "negativeEvidence": []
     },
     {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 86,
-      "averageSentiment": 8.6,
+      "id": "part|nasal_pillows|fit",
+      "label": "Nasal Pillows · Fit",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.8,
       "reviewCount": 5,
       "reviewShare": 0.0909,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "I have been sleeping really good",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+          "text": "FITS GREAT",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/swift-fx-for-her-nasal-pillow-cpap-mask-by-resmed"
         }
       ],
       "negativeEvidence": []
@@ -1972,51 +2268,46 @@
   "evidence": {
     "positive": [
       {
-        "text": "Perfect fit",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask-kit"
-      },
-      {
-        "text": "just perfect fit for me",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
-      },
-      {
-        "text": "Highly recommend",
+        "text": "The variety of size that you can order these cushions in allowed me to find my perfect fit",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
       },
       {
-        "text": "I love the color",
-        "retailer": "CPAP Ninja",
-        "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed"
+        "text": "I've been using this mask for at least 10 years and I still prefer it",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
       },
       {
-        "text": "she absolutely loves it",
+        "text": "it allows me sleep on my side at all times",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+      },
+      {
+        "text": "the most comfortable nasal pillow mask I have ever used",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+      },
+      {
+        "text": "so light and soft on your face",
         "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
+        "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
       },
       {
-        "text": "FITS GREAT",
-        "retailer": "CPAPsupplies.com",
-        "productUrl": "https://cpapsupplies.com/swift-fx-for-her-nasal-pillow-cpap-mask-by-resmed"
+        "text": "Love this silicone pillow cushion",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
       }
     ],
     "negative": [
       {
-        "text": "I think I'm going to suffocate with the nasal mask so I'm going with this mask",
-        "retailer": "CPAP Ninja",
-        "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed"
-      },
-      {
-        "text": "constant air barraging his face",
+        "text": "My husband complains that he can't sleep with me anymore because of the constant air barraging his face",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
       },
       {
-        "text": "My 7 year old headgear came apart",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
+        "text": "I think I'm going to suffocate with the nasal mask so I'm going with this mask",
+        "retailer": "CPAP Ninja",
+        "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed"
       },
       {
         "text": "a mask that does not cover my eyes while sleeping",
@@ -2024,21 +2315,26 @@
         "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
       },
       {
-        "text": "it bothered my nostrils",
+        "text": "My 7 year old headgear came apart",
         "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
+        "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nasal-pillow-cpap-mask"
       },
       {
         "text": "without heavy plastic on my nose",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/resmed-swift-fx-for-her-nasal-pillow-cpap-mask"
+      },
+      {
+        "text": "it bothered my nostrils",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/swift-fx-for-her-nano-cpap-mask-kit"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

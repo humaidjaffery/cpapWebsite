@@ -25,6 +25,24 @@
   backdrop-filter: blur(18px);
 }
 
+.retailers-header-left,
+.retailers-header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.retailers-header-left {
+  gap: 24px;
+}
+
+.retailers-header-actions {
+  gap: 18px;
+}
+
+.header-waitlist {
+  width: min(620px, 52vw);
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -46,6 +64,16 @@
   color: #64218c;
   font-weight: 800;
   text-decoration: none;
+}
+
+.back-link {
+  flex: 0 0 auto;
+}
+
+.back-link:hover,
+.back-link:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .retailers-hero {
@@ -190,7 +218,8 @@
 
 .profile-heading,
 .section-heading,
-.service-card-heading {
+.summary-card-heading,
+.subsection-heading {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -253,6 +282,188 @@
   font-size: 13px;
 }
 
+.overall-grade[data-grade-band="high"],
+.summary-overall-grade[data-grade-band="high"],
+.aspect-grade[data-grade-band="high"] {
+  color: #21683c;
+}
+
+.overall-grade[data-grade-band="middle"],
+.summary-overall-grade[data-grade-band="middle"],
+.aspect-grade[data-grade-band="middle"] {
+  color: #94600c;
+}
+
+.overall-grade[data-grade-band="low"],
+.summary-overall-grade[data-grade-band="low"],
+.aspect-grade[data-grade-band="low"] {
+  color: #a33b35;
+}
+
+.summary-card {
+  margin-top: 34px;
+  padding: clamp(20px, 3vw, 32px);
+  border: 1px solid #e6ddea;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #faf6fc, #f9f7f2);
+}
+
+.summary-card-heading h3 {
+  margin-top: 6px;
+  font-size: clamp(25px, 3vw, 34px);
+  letter-spacing: -0.025em;
+}
+
+.summary-card-heading > p {
+  max-width: 360px;
+  color: #746a79;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.summary-columns {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.88fr) minmax(0, 1.12fr);
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.service-summary,
+.buying-summary {
+  min-width: 0;
+  padding: 22px;
+  border: 1px solid rgba(76, 49, 88, 0.09);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.subsection-heading span {
+  color: #837688;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.subsection-heading h4 {
+  margin-top: 4px;
+  font-size: 20px;
+}
+
+.summary-overall-grade {
+  display: grid;
+  width: 58px;
+  height: 58px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid currentColor;
+  border-radius: 16px;
+  background: #fff;
+  font-size: 27px;
+  line-height: 1;
+}
+
+.grade-list {
+  display: grid;
+  gap: 0;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.grade-list li {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 11px 0;
+  border-top: 1px solid #eee8f0;
+}
+
+.grade-list li > span {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.grade-list li > span > strong {
+  font-size: 14px;
+}
+
+.grade-list small {
+  color: #817786;
+  font-size: 10px;
+}
+
+.aspect-grade {
+  min-width: 41px;
+  flex: 0 0 auto;
+  padding: 7px 6px;
+  border: 1px solid currentColor;
+  border-radius: 9px;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+}
+
+.buying-fact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.buying-fact {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  padding: 17px;
+  border: 1px solid #ece6ee;
+  border-radius: 13px;
+  background: #fff;
+}
+
+.buying-fact h5 {
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.buying-fact dl {
+  display: grid;
+  gap: 10px;
+  margin: 15px 0 0;
+}
+
+.buying-fact dl div {
+  padding-top: 9px;
+  border-top: 1px solid #f0ebf1;
+}
+
+.buying-fact dt {
+  color: #7a6e80;
+  font-size: 10px;
+  font-weight: 850;
+}
+
+.buying-fact dd {
+  margin: 4px 0 0;
+  color: #382f3d;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.buying-fact a {
+  margin-top: auto;
+  padding-top: 16px;
+  color: #6b268f;
+  font-size: 11px;
+  font-weight: 850;
+}
+
 .profile-section {
   margin-top: 50px;
   padding-top: 45px;
@@ -272,7 +483,6 @@
   line-height: 1.55;
 }
 
-.service-grid,
 .policy-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -280,7 +490,6 @@
   margin-top: 24px;
 }
 
-.service-card,
 .policy-card {
   min-width: 0;
   padding: 20px;
@@ -289,37 +498,8 @@
   background: #fdfbfd;
 }
 
-.service-card-heading h4,
 .policy-card h4 {
   font-size: 17px;
-}
-
-.service-card-heading span {
-  padding: 5px 8px;
-  border-radius: 7px;
-  background: #efe5f5;
-  color: #64218c;
-  font-size: 12px;
-  font-weight: 900;
-}
-
-.service-card > p {
-  margin-top: 9px;
-  color: #756b7a;
-  font-size: 12px;
-}
-
-.service-card blockquote {
-  margin: 17px 0 8px;
-  color: #403647;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 1.5;
-}
-
-.service-card > small {
-  color: #887e8d;
-  font-size: 11px;
 }
 
 .policy-grid {
@@ -374,6 +554,23 @@
   font-weight: 850;
 }
 
+.policy-details {
+  padding-top: 0;
+}
+
+.policy-details > summary {
+  padding: 20px 0;
+  color: #6b268f;
+  font-size: 14px;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.policy-details[open] > summary {
+  margin-bottom: 28px;
+  border-bottom: 1px solid #eee9f0;
+}
+
 .top-link {
   display: block;
   width: fit-content;
@@ -425,21 +622,41 @@
 }
 
 @media (max-width: 900px) {
+  .retailers-header .brand {
+    display: none;
+  }
+
+  .header-waitlist {
+    width: min(570px, 65vw);
+  }
+
   .retailer-jump-list,
-  .evidence-stats,
-  .service-grid {
+  .evidence-stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .summary-columns {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 650px) {
   .retailers-header {
-    padding-right: 18px;
-    padding-left: 18px;
+    min-height: 64px;
+    padding: 12px 16px;
+  }
+
+  .retailers-header-actions {
+    display: none;
   }
 
   .retailers-hero {
-    padding-top: 64px;
+    padding: 36px 16px 34px;
+    text-align: left;
+  }
+
+  .retailers-hero h1 {
+    font-size: clamp(32px, 9vw, 44px);
   }
 
   .verification-note {
@@ -451,7 +668,7 @@
   .comparison-strip,
   .retailer-jump-list,
   .evidence-stats,
-  .service-grid,
+  .buying-fact-grid,
   .policy-grid,
   .methodology div {
     grid-template-columns: 1fr;
@@ -462,16 +679,67 @@
     border-left: 0;
   }
 
+  .comparison-strip {
+    margin-inline: 12px;
+  }
+
+  .comparison-strip div:nth-child(2),
+  .comparison-strip div:nth-child(3),
+  .evidence-stats div:nth-child(4) {
+    display: none;
+  }
+
   .retailer-jump-list {
-    padding-bottom: 48px;
+    display: flex;
+    gap: 8px;
+    margin-inline: 12px;
+    padding-bottom: 30px;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+  }
+
+  .retailer-jump-list a {
+    min-width: max-content;
+    scroll-snap-align: start;
+  }
+
+  .retailer-jump-list small {
+    display: none;
+  }
+
+  .profile-list {
+    gap: 18px;
+    width: min(100% - 24px, 1120px);
+  }
+
+  .retailer-profile,
+  .summary-card,
+  .methodology {
+    padding: 20px 16px;
+    border-radius: 16px;
+  }
+
+  .evidence-stats {
+    gap: 8px;
+  }
+
+  .evidence-stats > div {
+    padding: 14px;
+  }
+
+  .grade-list small,
+  .summary-card-heading > p {
+    display: none;
   }
 
   .profile-heading,
-  .section-heading {
+  .section-heading,
+  .summary-card-heading {
     flex-direction: column;
   }
 
-  .section-heading > p {
+  .section-heading > p,
+  .summary-card-heading > p {
     max-width: none;
   }
 

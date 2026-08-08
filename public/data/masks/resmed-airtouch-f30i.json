@@ -1,8 +1,31 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-airtouch-f30i",
   "name": "ResMed AirTouch F30i",
   "catalogOrder": 48,
+  "search": {
+    "aliases": [
+      "AirTouch F30i",
+      "AirTouch F30i CLEAR Full Face CPAP Mask with Headgear",
+      "AirTouch F30i COMFORT Full Face CPAP Mask with Headgear",
+      "AirTouch F30i Clear Full Face CPAP Mask",
+      "AirTouch F30i Clear Full Face Mask",
+      "AirTouch F30i Clear/Comfort Full Face CPAP Mask | ResMed",
+      "AirTouch F30i Comfort Full Face CPAP Mask",
+      "AirTouch™ F30i Clear Mask System",
+      "AirTouch™ F30i Comfort Full Mask System",
+      "ResMed AirTouch F30i",
+      "ResMed | AirTouch F30i Clear/Comfort Full Face CPAP Mask",
+      "ResMed | AirTouch F30i Clear/Comfort Full Face CPAP Mask (No Headgear)"
+    ],
+    "abbreviations": [
+      "F30i",
+      "Resmed"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 121,
@@ -13,32 +36,35 @@
     "reviewDateEnd": "2026-06-08"
   },
   "overall": {
-    "compositeScore": 77,
+    "score": 72,
+    "grade": "B-",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 3.84,
-      "score": 77,
+      "score": 71,
       "reviewCount": 121,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 7.8,
       "score": 78,
       "reviewCount": 55,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 76,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.6,
       "reviewCount": 68,
       "reviewShare": 0.562,
-      "positiveReviews": 53,
-      "mixedReviews": 6,
+      "positiveReviews": 55,
+      "neutralReviews": 4,
       "negativeReviews": 9,
-      "positiveShare": 0.7794,
+      "positiveShare": 0.8088,
       "negativeShare": 0.1324,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -124,14 +150,54 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Very comfortable",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airtouch-f30i-clear-full-face-mask"
+          "text": "This mask is the most comfortable that I have ever used",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "I don't even notice it on my face really",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "one of the most comfortable maskI have used",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "The F30i comfort is the best",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "so amazing and comfortable,",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         },
         {
           "text": "it’s extremely comfortable",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "all night comfort",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "it’s incredibly comfortably",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "Very comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-f30i-clear-full-face-mask"
+        },
+        {
+          "text": "Super comfortable!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-f30i-clear-full-face-mask"
         }
       ],
       "negativeEvidence": [
@@ -141,7 +207,47 @@
           "productUrl": "https://directhomemedical.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask-with-headgear"
         },
         {
+          "text": "I tried the mouth tape but just couldn’t get comfortable using it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "My nose seems to always be plugged by the material",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "The area that covers the nose is not user friendly",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
           "text": "my face felt like it was in a vice",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "The mask fits uncomfortably, is. The mask fits uncomfortably",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "I felt like I was suffocating",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "Nasal pillow is uncomfortable",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "the pressure required to maintain a seal during sleep position switched (side sleeper) can cause the mask cushion to pinch my nostrils shut",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "it is hard to get use to the F30i",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         }
@@ -151,13 +257,14 @@
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
       "score": 54,
+      "grade": "D+",
       "averageSentiment": 5.4,
       "reviewCount": 50,
       "reviewShare": 0.4132,
-      "positiveReviews": 22,
-      "mixedReviews": 5,
+      "positiveReviews": 26,
+      "neutralReviews": 1,
       "negativeReviews": 23,
-      "positiveShare": 0.44,
+      "positiveShare": 0.52,
       "negativeShare": 0.46,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -251,30 +358,111 @@
           "text": "It fits perfectly.",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "I never in a million years thought I'd like a full face mask but this one made the transition very easy!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "so I don't have to tighten the straps to avoid leaks like other cpap masks that employ hard plastic",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "I have a short full face beard and mask fits comfortable with no leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "I finally have the right size and fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "I really like the way this mask fits",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "This product is perfect for my needs",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "No more adjusting through the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Confortable and easy to adjust",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "The nose holes do not fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
         {
           "text": "Doesn't fit",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         },
         {
-          "text": "The nose holes do not fit",
+          "text": "even with the straps tightened to the point I had lines on my face all morning",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "making the straps so tight that my face felt like it was in a vice",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "I need a small headband but they don’t offer that size",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "I have a very small face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "I always wear a SW",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "does not fit good",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "Requires being perfectly shaved",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "Does Not Fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-f30i-clear-full-face-mask"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 47,
+      "score": 42,
+      "grade": "D-",
       "averageSentiment": 4.7,
       "reviewCount": 44,
       "reviewShare": 0.3636,
       "positiveReviews": 17,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 25,
       "positiveShare": 0.3864,
       "negativeShare": 0.5682,
@@ -362,6 +550,11 @@
       ],
       "positiveEvidence": [
         {
+          "text": "no leaks whatsoever on my first night of use",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
           "text": "for no leak nights rest",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
@@ -370,9 +563,49 @@
           "text": "the seal is excellent",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "I had been struggling to get a mask with a great seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "I get consistent single digit leak rates",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "doesn’t leak like crazy",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "seals great once adjusted",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "without leaks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "No leaks",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "so I don't have to tighten the straps to avoid leaks like other cpap masks that employ hard plastic",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "for my face it leaks terribly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
         {
           "text": "struggling to stop massive LEAKS",
           "retailer": "CPAP.com",
@@ -382,18 +615,54 @@
           "text": "Mask doesnt seal around the.",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "This thing leaks like crazy",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "Leaks to know",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "leaks bad",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "it forced me to breath through my mouth more than usual",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "I could not get a good consistent seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "I had uncomfortable leaky masks for several years",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "It really leaks bad around the nose",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 58,
+      "label": "Stability",
+      "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.8,
       "reviewCount": 18,
       "reviewShare": 0.1488,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.5556,
       "negativeShare": 0.4444,
@@ -471,7 +740,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "If you’re a side sleeper,",
+          "text": "someone who moves like a rotisserie chicken at night lol,",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         },
@@ -479,6 +748,46 @@
           "text": "actually stayed on my face the entire night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "Even with my tossing and turning throughout the night, my upgraded AirTouch F30i stays along with me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "stays in place when I turn from one side to the other",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "I am able to sleep on my side with no issues",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "The F30i Comfort seems to be the best of all those areas",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "which keeps things out of the way while sleeping",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "it does not rotate as easily",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "so I can move around",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-f30i-comfort-full-face-cpap-mask-with-headgear"
+        },
+        {
+          "text": "I’m a side sleeper",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -488,23 +797,54 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         },
         {
+          "text": "I would constantly get disturbed in my sleep by the hose getting caught on my arm or duvet",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
+        },
+        {
           "text": "This gear slides all over my face at night because sadly I can’t get it snug enough",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "lord help you if a sneeze takes you by surprise",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "a nose cushion before that always crept in the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask-with-headgear"
+        },
+        {
+          "text": "moves off the nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask-with-headgear"
+        },
+        {
+          "text": "the mask tends to move around during side sleeping",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "I move around a lot in my sleep - mainly side sleeper",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 61,
+      "label": "Ease of Use",
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 6.1,
       "reviewCount": 20,
       "reviewShare": 0.1653,
-      "positiveReviews": 9,
-      "mixedReviews": 4,
+      "positiveReviews": 11,
+      "neutralReviews": 2,
       "negativeReviews": 7,
-      "positiveShare": 0.45,
+      "positiveShare": 0.55,
       "negativeShare": 0.35,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -580,35 +920,106 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
         },
         {
+          "text": "The hose connection on the top of the head is a great design feature",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "attachment of the hose above the head",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "No more adjusting through the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask-with-headgear"
+        },
+        {
           "text": "Confortable and easy to adjust",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "No adjustments required",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "the overall design makes it easy to wear through the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "I like the freedom of the air hose at the top",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-f30i-comfort-full-face-cpap-mask-with-headgear"
+        },
+        {
+          "text": "the top of head hose attachment is great",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "Much less restrictive than a full face mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "being able to access my mouth with the mask in place",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "Don’t move if you ever do get a good seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
           "text": "I could never find an adjustment",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         },
         {
-          "text": "being able to access my mouth with the mask in place",
+          "text": "After 22years of using a full face mask it is hard to get use to the F30i",
           "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "I'm constantly fidgeting with strap tightness and positioning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-f30i-comfort-full-face-cpap-mask-with-headgear"
+        },
+        {
+          "text": "constant addjustments",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-f30i-clear-full-face-mask"
+        },
+        {
+          "text": "The under nose part needs adjustment throughout the night because that’s where the air leaks are",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
+        },
+        {
+          "text": "The straps need to be tighter than with the silicone mask version",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 65,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.5,
       "reviewCount": 18,
       "reviewShare": 0.1488,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
+      "positiveReviews": 13,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.7222,
       "negativeShare": 0.2778,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -664,14 +1075,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "Because of the quiet filter I can bury my face in a pillow or comforter without creating an annoying hissing sound",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
+        },
+        {
+          "text": "I barely feel it and don’t hear any air going down the sides",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
+        },
+        {
+          "text": "It provides excellent air flow",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
           "text": "the airflow is great",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         },
         {
-          "text": "Because of the quiet filter I can bury my face in a pillow or comforter without creating an annoying hissing sound",
+          "text": "no more cold air blowing on my hands or my wife because the air is delivered via the top of my head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "This mask is a lot quieter than the older F30i version that I was using",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "The design allows for air flow from the right or left side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "It is quiet",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "It's quiet",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "significantly quieter",
           "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -681,7 +1132,27 @@
           "productUrl": "https://directhomemedical.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask-with-headgear"
         },
         {
+          "text": "with the holes being fabric, it squished down and together, making it really difficult to breathe fully",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
           "text": "My nose seems to always be plugged by the material",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "it was louder than my usual mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
+        },
+        {
+          "text": "the fabric under your nose blocks your exhaling",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
+        },
+        {
+          "text": "a little loud",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         }
@@ -690,12 +1161,13 @@
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 62,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.2,
       "reviewCount": 21,
       "reviewShare": 0.1736,
       "positiveReviews": 13,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.619,
       "negativeShare": 0.381,
@@ -778,14 +1250,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I do not have any pain",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
           "text": "It doesn't irritate my skin",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         },
         {
-          "text": "I do not have any pain",
+          "text": "I have issues with Rosacea, and this mask does not irritate my skin like the clear version",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "I like the covering on the tube so there is no skin irritation",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-f30i-comfort-full-face-cpap-mask-with-headgear"
+        },
+        {
+          "text": "I don’t wake up with a mask print on my face",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "doesn’t cause a red rash like the silicone masks do",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "doesn't cause my skin to breakout",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "doesn't hurt bridge of nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "Less dry mouth",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "The material touching my face is able to breath better which reduces redness on the face in the outline of the cushion",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
         }
       ],
       "negativeEvidence": [
@@ -795,21 +1307,52 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         },
         {
+          "text": "even with the straps tightened to the point I had lines on my face all morning",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
           "text": "my face felt like it was in a vice",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "Side sleeper and leaves massive",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "woke with horrible dry mouth",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "it didn't",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "Dry mouth is more of a problem with this mask than my full Resmed Quattro",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "but too dry for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 53,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.3,
       "reviewCount": 9,
       "reviewShare": 0.0744,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.4444,
       "negativeShare": 0.4444,
@@ -867,35 +1410,66 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         },
         {
+          "text": "The comfort covers also didn't pull my hair like the plain silicone did",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "hope to continue using it for a long time",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
           "text": "have been using it for nearly 5 years",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "definitely soft",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "The nasal section needs a more solid silicon piece like a nasal pillow",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "Tabs on frame break fairly easily",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
         {
           "text": "Fabric is a no-go",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         },
         {
-          "text": "The nasal section needs a more solid silicon piece like a nasal pillow",
+          "text": "this mouthpiece is so pliable that it is easy to deform and cause a leak",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "the mask fabric is too slippery",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         }
       ]
     },
     {
       "id": "value",
       "label": "Value",
-      "score": 46,
+      "score": 43,
+      "grade": "D-",
       "averageSentiment": 4.6,
       "reviewCount": 7,
       "reviewShare": 0.0579,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.2857,
+      "positiveShare": 0.4286,
       "negativeShare": 0.5714,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -919,6 +1493,11 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         },
         {
+          "text": "but I feel that it’s worth it",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
           "text": "good product for the money",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
@@ -926,28 +1505,44 @@
       ],
       "negativeEvidence": [
         {
+          "text": "This makes the whole mask useless until getting a replacement frame",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
           "text": "it is very expensive when you’re on a fixed income",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/airtouch-f30i-comfort-full-face-cpap-mask-with-headgear"
         },
         {
+          "text": "For such quality, the price should be much lower",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
           "text": "Big cost for an inferior product",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "Bit pricey",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 60,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 34,
       "reviewShare": 0.281,
-      "positiveReviews": 19,
-      "mixedReviews": 2,
+      "positiveReviews": 21,
+      "neutralReviews": 0,
       "negativeReviews": 13,
-      "positiveShare": 0.5588,
+      "positiveShare": 0.6176,
       "negativeShare": 0.3824,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1008,14 +1603,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "Therefore, it has greatly improved my sleep quality",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
           "text": "I sleep like a baby",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         },
         {
-          "text": "Therefore, it has greatly improved my sleep quality",
+          "text": "Overall, this mask has made CPAP therapy much more comfortable for me",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "It's the only mask i can keep on all night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "I've been able to sleep a whole night now",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "has taken care of this issue",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "Works great for me",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "more restorative sleep",
           "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+        },
+        {
+          "text": "better sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask-with-headgear"
+        },
+        {
+          "text": "The bottom line is much improvement in my sleep apnea",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-f30i-comfort-full-face-cpap-mask-with-headgear"
         }
       ],
       "negativeEvidence": [
@@ -1028,6 +1663,46 @@
           "text": "not usable",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airtouch-f30i-clear-full-face-mask"
+        },
+        {
+          "text": "with it leaking so bad I had to go back to what I was using before",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "the report gave me a score of 1 out of 20 due to leakage",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "making breathing through the nose difficult",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "woke up throughout the night",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "Didn’t work for me.",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "causes RERAS",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "I tried it for at least five nights and switch over to my old mask each night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "I always felt more tired after 7-8 hours sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         }
       ]
     }
@@ -1036,14 +1711,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 79,
+      "score": 90,
+      "grade": "A",
       "averageSentiment": 7.9,
       "reviewCount": 64,
       "reviewShare": 0.5289,
-      "positiveReviews": 54,
-      "mixedReviews": 4,
+      "positiveReviews": 56,
+      "neutralReviews": 2,
       "negativeReviews": 6,
-      "positiveShare": 0.8438,
+      "positiveShare": 0.875,
       "negativeShare": 0.0938,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1114,12 +1790,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Very comfortable",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airtouch-f30i-clear-full-face-mask"
+          "text": "This mask is the most comfortable that I have ever used",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         },
         {
-          "text": "it’s extremely comfortable",
+          "text": "I don't even notice it on my face really",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
@@ -1140,12 +1816,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 78,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.8,
       "reviewCount": 55,
       "reviewShare": 0.4545,
       "positiveReviews": 44,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 9,
       "positiveShare": 0.8,
       "negativeShare": 0.1636,
@@ -1192,9 +1869,9 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "this is the best one for me",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+          "text": "is by far the most comfortable full face mask I have used",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         },
         {
           "text": "This is hands down the best CPAP mask I’ve ever used.",
@@ -1218,12 +1895,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 48,
+      "score": 43,
+      "grade": "D-",
       "averageSentiment": 4.8,
       "reviewCount": 43,
       "reviewShare": 0.3554,
       "positiveReviews": 17,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 24,
       "positiveShare": 0.3953,
       "negativeShare": 0.5581,
@@ -1301,40 +1979,41 @@
       ],
       "positiveEvidence": [
         {
-          "text": "for no leak nights rest",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+          "text": "no leaks whatsoever on my first night of use",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         },
         {
-          "text": "the seal is excellent",
+          "text": "for no leak nights rest",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "for my face it leaks terribly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
           "text": "struggling to stop massive LEAKS",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
-        },
-        {
-          "text": "Mask doesnt seal around the.",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         }
       ]
     },
     {
       "id": "fit",
       "label": "Fit",
-      "score": 55,
+      "score": 56,
+      "grade": "C-",
       "averageSentiment": 5.5,
       "reviewCount": 41,
       "reviewShare": 0.3388,
-      "positiveReviews": 19,
-      "mixedReviews": 4,
+      "positiveReviews": 22,
+      "neutralReviews": 1,
       "negativeReviews": 18,
-      "positiveShare": 0.4634,
+      "positiveShare": 0.5366,
       "negativeShare": 0.439,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1432,28 +2111,29 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Doesn't fit",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
-        },
-        {
           "text": "The nose holes do not fit",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "Doesn't fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 66,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 6.6,
       "reviewCount": 19,
       "reviewShare": 0.157,
-      "positiveReviews": 13,
-      "mixedReviews": 3,
+      "positiveReviews": 14,
+      "neutralReviews": 2,
       "negativeReviews": 3,
-      "positiveShare": 0.6842,
+      "positiveShare": 0.7368,
       "negativeShare": 0.1579,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1530,13 +2210,14 @@
       "id": "adjustment",
       "label": "Adjustment",
       "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 11,
       "reviewShare": 0.0909,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.4545,
+      "positiveShare": 0.5455,
       "negativeShare": 0.4545,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1572,14 +2253,14 @@
       ],
       "positiveEvidence": [
         {
+          "text": "No more adjusting through the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask-with-headgear"
+        },
+        {
           "text": "Confortable and easy to adjust",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
-        },
-        {
-          "text": "No adjustments required",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         }
       ],
       "negativeEvidence": [
@@ -1598,12 +2279,13 @@
     {
       "id": "noise",
       "label": "Noise",
-      "score": 65,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.5,
       "reviewCount": 11,
       "reviewShare": 0.0909,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.7273,
       "negativeShare": 0.2727,
@@ -1640,9 +2322,9 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
         },
         {
-          "text": "This mask is a lot quieter than the older F30i version that I was using",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+          "text": "Because of the quiet filter I can bury my face in a pillow or comforter without creating an annoying hissing sound",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1661,14 +2343,15 @@
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 70,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 11,
       "reviewShare": 0.0909,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.7273,
+      "positiveShare": 0.8182,
       "negativeShare": 0.1818,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -1692,14 +2375,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "Overall, this mask has made CPAP therapy much more comfortable for me",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
           "text": "has taken care of this issue",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
-        },
-        {
-          "text": "Works great for me",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1718,12 +2401,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 75,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.5,
       "reviewCount": 10,
       "reviewShare": 0.0826,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -1745,14 +2429,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I sleep like a baby",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
-        },
-        {
           "text": "Therefore, it has greatly improved my sleep quality",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "I sleep like a baby",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1771,12 +2455,13 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 56,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.6,
       "reviewCount": 10,
       "reviewShare": 0.0826,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -1860,12 +2545,13 @@
     {
       "id": "skin_reaction",
       "label": "Skin Reaction",
-      "score": 79,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.9,
       "reviewCount": 8,
       "reviewShare": 0.0661,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.875,
       "negativeShare": 0.125,
@@ -1923,9 +2609,9 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         },
         {
-          "text": "doesn't cause my skin to breakout",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+          "text": "I have issues with Rosacea, and this mask does not irritate my skin like the clear version",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1939,12 +2625,13 @@
     {
       "id": "therapy_compliance",
       "label": "Therapy Compliance",
-      "score": 31,
+      "score": 15,
+      "grade": "F-",
       "averageSentiment": 3.1,
       "reviewCount": 7,
       "reviewShare": 0.0579,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.1429,
       "negativeShare": 0.8571,
@@ -1991,12 +2678,13 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 75,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.5,
       "reviewCount": 6,
       "reviewShare": 0.0496,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -2044,14 +2732,15 @@
     {
       "id": "breathing_support",
       "label": "Breathing Support",
-      "score": 54,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.4,
       "reviewCount": 5,
       "reviewShare": 0.0413,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.4,
+      "positiveShare": 0.6,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2118,12 +2807,13 @@
     {
       "id": "dryness",
       "label": "Dryness",
-      "score": 38,
+      "score": 22,
+      "grade": "F",
       "averageSentiment": 3.8,
       "reviewCount": 5,
       "reviewShare": 0.0413,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -2182,12 +2872,13 @@
     {
       "id": "hose_management",
       "label": "Hose Management",
-      "score": 86,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.6,
       "reviewCount": 5,
       "reviewShare": 0.0413,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -2214,14 +2905,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I like the hose swivel on top",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
-        },
-        {
           "text": "The top of the head hose connection makes a huge difference",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
+          "text": "I like the hose swivel on top",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         }
       ],
       "negativeEvidence": []
@@ -2229,12 +2920,13 @@
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 48,
+      "score": 42,
+      "grade": "D-",
       "averageSentiment": 4.8,
       "reviewCount": 5,
       "reviewShare": 0.0413,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -2277,12 +2969,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Fabric is a no-go",
+          "text": "The nasal section needs a more solid silicon piece like a nasal pillow",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         },
         {
-          "text": "The nasal section needs a more solid silicon piece like a nasal pillow",
+          "text": "Fabric is a no-go",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         }
@@ -2291,12 +2983,13 @@
     {
       "id": "movement_compatibility",
       "label": "Movement Compatibility",
-      "score": 86,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.6,
       "reviewCount": 5,
       "reviewShare": 0.0413,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -2353,12 +3046,13 @@
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 28,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.8,
       "reviewCount": 5,
       "reviewShare": 0.0413,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -2399,12 +3093,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 58,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 5.8,
       "reviewCount": 5,
       "reviewShare": 0.0413,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -2425,21 +3120,21 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         },
         {
-          "text": "good product for the money",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+          "text": "but I feel that it’s worth it",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Big cost for an inferior product",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
-        },
-        {
           "text": "This makes the whole mask useless until getting a replacement frame",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "Big cost for an inferior product",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ]
     }
@@ -2448,14 +3143,15 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 49,
+      "score": 47,
+      "grade": "D",
       "averageSentiment": 4.9,
       "reviewCount": 16,
       "reviewShare": 0.1322,
-      "positiveReviews": 6,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 1,
       "negativeReviews": 8,
-      "positiveShare": 0.375,
+      "positiveShare": 0.4375,
       "negativeShare": 0.5,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2511,9 +3207,9 @@
           "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         },
         {
-          "text": "The seal is good",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+          "text": "The material touching my face is able to breath better which reduces redness on the face in the outline of the cushion",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
         }
       ],
       "negativeEvidence": [
@@ -2528,21 +3224,22 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         },
         {
-          "text": "Wouldn’t seal correctly",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+          "text": "a nose cushion before that always crept in the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask-with-headgear"
         }
       ],
       "praisedAspects": [
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 73,
+          "score": 86,
+          "grade": "A-",
           "averageSentiment": 7.3,
           "reviewCount": 7,
           "reviewShare": 0.0579,
           "positiveReviews": 6,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -2571,14 +3268,15 @@
     {
       "id": "top_hose_connection",
       "label": "Top Hose Connection",
-      "score": 73,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 7.3,
       "reviewCount": 13,
       "reviewShare": 0.1074,
-      "positiveReviews": 9,
-      "mixedReviews": 3,
+      "positiveReviews": 12,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.6923,
+      "positiveShare": 0.9231,
       "negativeShare": 0.0769,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2614,9 +3312,9 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
         },
         {
-          "text": "I like the hose swivel on top",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+          "text": "The hose connection on the top of the head is a great design feature",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         },
         {
           "text": "The top of the head hose connection makes a huge difference",
@@ -2642,12 +3340,13 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 52,
+      "score": 47,
+      "grade": "D",
       "averageSentiment": 5.2,
       "reviewCount": 9,
       "reviewShare": 0.0744,
       "positiveReviews": 3,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 4,
       "positiveShare": 0.3333,
       "negativeShare": 0.4444,
@@ -2702,12 +3401,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "My nose seems to always be plugged by the material",
+          "text": "being able to access my mouth with the mask in place",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         },
         {
-          "text": "being able to access my mouth with the mask in place",
+          "text": "My nose seems to always be plugged by the material",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         },
@@ -2723,12 +3422,13 @@
     {
       "id": "full_face_cushion",
       "label": "Full Face Cushion",
-      "score": 74,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 7.4,
       "reviewCount": 6,
       "reviewShare": 0.0496,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.6667,
       "negativeShare": 0.1667,
@@ -2781,17 +3481,17 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I like the comfort of the new ResMed AirTouch F30i Comfort full face mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        },
+        {
           "text": "a full face mask that is comfortable for us restless sleepers",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         },
         {
           "text": "doesn't hurt bridge of nose",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
-        },
-        {
-          "text": "I like the comfort of the new ResMed AirTouch F30i Comfort full face mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
@@ -2814,12 +3514,13 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 73,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 6,
       "reviewShare": 0.0496,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -2852,24 +3553,24 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I barely feel it and don’t hear any air going down the sides",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
+        },
+        {
           "text": "the fabric covered headgear",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         },
         {
-          "text": "This Comfort headgear is very comfortable",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
-        },
-        {
-          "text": "the headgear fabric feels softer",
+          "text": "doesnt give me bad hair daily",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Doesn’t fit snugly",
+          "text": "This gear slides all over my face at night because sadly I can’t get it snug enough",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         }
@@ -2880,12 +3581,13 @@
     {
       "id": "cushion_seal",
       "label": "Cushion Seal",
-      "score": 54,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.4,
       "reviewCount": 5,
       "reviewShare": 0.0413,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.4,
       "negativeShare": 0.4,
@@ -2907,7 +3609,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The seal is so comfortable",
+          "text": "I do not have any pain",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         },
@@ -2937,12 +3639,13 @@
     {
       "id": "cushion|comfort",
       "label": "Cushion · Comfort",
-      "score": 73,
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.3,
       "reviewCount": 7,
       "reviewShare": 0.0579,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -2967,17 +3670,18 @@
     {
       "id": "cushion|seal_leak",
       "label": "Cushion · Seal Leak",
-      "score": 42,
+      "score": 33,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 6,
       "reviewShare": 0.0496,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "The seal is good",
+          "text": "I’m an intermittent shaver, but this mask still holds its seal better than the older version did",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         }
@@ -2999,12 +3703,13 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 56,
+      "score": 49,
+      "grade": "D",
       "averageSentiment": 5.6,
       "reviewCount": 11,
       "reviewShare": 0.0909,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.4545,
       "negativeShare": 0.5455,
@@ -3078,12 +3783,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 78,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.8,
       "reviewCount": 10,
       "reviewShare": 0.0826,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -3141,9 +3847,9 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         },
         {
-          "text": "I like the hose swivel on top",
+          "text": "Even with my tossing and turning throughout the night, my upgraded AirTouch F30i stays along with me",
           "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         }
       ],
       "negativeEvidence": [
@@ -3169,14 +3875,15 @@
     {
       "id": "mouth-breathers",
       "label": "Mouth breathers",
-      "score": 64,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.4,
       "reviewCount": 9,
       "reviewShare": 0.0744,
-      "positiveReviews": 5,
-      "mixedReviews": 2,
+      "positiveReviews": 6,
+      "neutralReviews": 1,
       "negativeReviews": 2,
-      "positiveShare": 0.5556,
+      "positiveShare": 0.6667,
       "negativeShare": 0.2222,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3233,12 +3940,13 @@
     {
       "id": "long-term-users",
       "label": "Long-term CPAP users",
-      "score": 80,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 8.0,
       "reviewCount": 7,
       "reviewShare": 0.0579,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -3254,14 +3962,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "After 25 years finally a mask is the best!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
-        },
-        {
           "text": "This mask is the most comfortable that I have ever used",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+        },
+        {
+          "text": "After 25 years finally a mask is the best!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         }
       ],
       "negativeEvidence": [
@@ -3287,12 +3995,13 @@
     {
       "id": "nose",
       "label": "Nose",
-      "score": 38,
+      "score": 23,
+      "grade": "F",
       "averageSentiment": 3.8,
       "reviewCount": 9,
       "reviewShare": 0.0744,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.2222,
       "negativeShare": 0.7778,
@@ -3334,12 +4043,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The seal is good",
+          "text": "it has the nose, like the N30i that I love",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         },
         {
-          "text": "it has the nose, like the N30i that I love",
+          "text": "The seal is good",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         }
@@ -3422,12 +4131,13 @@
     {
       "id": "mouth",
       "label": "Mouth",
-      "score": 50,
+      "score": 42,
+      "grade": "D-",
       "averageSentiment": 5.0,
       "reviewCount": 10,
       "reviewShare": 0.0826,
       "positiveReviews": 3,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 5,
       "positiveShare": 0.3,
       "negativeShare": 0.5,
@@ -3475,7 +4185,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "a mouth breather",
+          "text": "this mask does not come off my mouth at all",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         },
@@ -3555,128 +4265,118 @@
   "interactionInsights": [],
   "strengths": [
     {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 44,
-      "reviewShare": 0.3636,
-      "positiveReviews": 41,
-      "mixedReviews": 0,
-      "negativeReviews": 3,
-      "positiveShare": 0.9318,
-      "negativeShare": 0.0682,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
+      "id": "part|cushion|comfort",
+      "label": "Cushion · Comfort",
+      "score": 86,
+      "grade": "A-",
+      "averageSentiment": 7.3,
+      "reviewCount": 7,
+      "reviewShare": 0.0579,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 7
+        }
+      ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "Very comfortable",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airtouch-f30i-clear-full-face-mask"
+          "text": "the cushion is soft and gentle on the skin",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "The mask fits uncomfortably, is. The mask fits uncomfortably",
+          "text": "The area that covers the nose is not user friendly",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
         }
       ]
     },
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 75,
-      "averageSentiment": 7.5,
-      "reviewCount": 46,
-      "reviewShare": 0.3802,
-      "positiveReviews": 36,
-      "mixedReviews": 1,
-      "negativeReviews": 9,
-      "positiveShare": 0.7826,
-      "negativeShare": 0.1957,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "this is the best one for me",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I hate this mask!!!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
-        }
-      ]
-    },
-    {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 8,
-      "reviewShare": 0.0661,
-      "positiveReviews": 7,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.875,
-      "negativeShare": 0.125,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I sleep like a baby",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I always felt more tired after 7-8 hours sleep",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
-        }
-      ]
-    },
-    {
-      "id": "cushion|||comfort",
-      "label": "Cushion · Comfort",
-      "score": 80,
-      "averageSentiment": 8.0,
-      "reviewCount": 5,
-      "reviewShare": 0.0413,
+      "id": "site|skin|skin_reaction",
+      "label": "Skin · Skin Reaction",
+      "score": 83,
+      "grade": "B+",
+      "averageSentiment": 7.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0496,
       "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
-          "id": "cushion",
-          "label": "Cushion",
-          "reviewCount": 5
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "tubing",
+          "label": "Tubing",
+          "reviewCount": 1
         }
       ],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedContexts": [
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 2
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 6
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "the softer cushion",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
+          "text": "It doesn't irritate my skin",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
         }
       ],
-      "negativeEvidence": []
+      "negativeEvidence": [
+        {
+          "text": "could not wear it because of skin-to-silicone contact",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        }
+      ]
     }
   ],
   "concerns": [],
@@ -3725,34 +4425,34 @@
   "evidence": {
     "positive": [
       {
-        "text": "for no leak nights rest",
+        "text": "is by far the most comfortable full face mask I have used",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+      },
+      {
+        "text": "This is hands down the best CPAP mask I’ve ever used.",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
       },
       {
-        "text": "Very comfortable",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/airtouch-f30i-clear-full-face-mask"
+        "text": "This mask is the most comfortable that I have ever used",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
       },
       {
-        "text": "If you’re a side sleeper,",
+        "text": "I don't even notice it on my face really",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
       },
       {
-        "text": "Super comfortable!",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/airtouch-f30i-clear-full-face-mask"
+        "text": "The top mount is a game changer for me",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-comfort-full-face-cpap-mask-no-headgear"
       },
       {
-        "text": "It doesn't irritate my skin",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
-      },
-      {
-        "text": "so comfortably",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+        "text": "After 25 years finally a mask is the best!",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
       }
     ],
     "negative": [
@@ -3762,19 +4462,9 @@
         "productUrl": "https://www.cpap.com/products/airtouch-f30i-comfort-full-face-cpap-mask?variant=52669986046268"
       },
       {
-        "text": "Doesn't fit",
+        "text": "could not wear it because of skin-to-silicone contact",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
-      },
-      {
-        "text": "I cannot use this mask",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
-      },
-      {
-        "text": "struggling to stop massive LEAKS",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
       },
       {
         "text": "The nose holes do not fit",
@@ -3785,13 +4475,23 @@
         "text": "Figment for me was a nightmare",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
+      },
+      {
+        "text": "for my face it leaks terribly",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/resmed-airtouch-f30i-full-face-cpap-mask"
+      },
+      {
+        "text": "I cannot use this mask",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/resmed-airtouch-f30i-clear-full-face-cpap-mask?variant=52350829035836"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

@@ -1,8 +1,18 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "sleepnet-numa",
   "name": "SleepNet Numa",
   "catalogOrder": 89,
+  "search": {
+    "aliases": [
+      "Numa Full Face CPAP Mask",
+      "Numa Full Face CPAP Mask with Headgear"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 9,
@@ -13,32 +23,35 @@
     "reviewDateEnd": "2023-02-13"
   },
   "overall": {
-    "compositeScore": 62,
+    "score": 58,
+    "grade": "C-",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 3.33,
-      "score": 67,
+      "score": 58,
       "reviewCount": 9,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 5.4,
       "score": 54,
       "reviewCount": 6,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 46,
+      "label": "Ease of Use",
+      "score": 56,
+      "grade": "C-",
       "averageSentiment": 4.7,
       "reviewCount": 5,
       "reviewShare": 0.5556,
-      "positiveReviews": 1,
-      "mixedReviews": 2,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.2,
+      "positiveShare": 0.6,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -84,7 +97,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "the mask position keeps my mouth closed",
+          "text": "it's easy to slip the strap off without loosening settings",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
         },
@@ -92,11 +105,16 @@
           "text": "Easily replaceable",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+        },
+        {
+          "text": "I haven't worn a full face mask in forever",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "requiring the user to hook the headgear into place",
+          "text": "rather than simply clipping in when you are ready to use",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
         },
@@ -104,6 +122,11 @@
           "text": "I tried various tension on the straps",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
+        },
+        {
+          "text": "takes a few nights to tighten down properly",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
         }
       ]
     }
@@ -112,12 +135,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 54,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.4,
       "reviewCount": 6,
       "reviewShare": 0.6667,
       "positiveReviews": 3,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.5,
       "negativeShare": 0.3333,
@@ -204,17 +228,22 @@
         "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
       },
       {
-        "text": "Now, I sleep comfortably",
+        "text": "it's easy to slip the strap off without loosening settings",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
       },
       {
-        "text": "Easily replaceable",
+        "text": "overall really comfortable",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
       },
       {
         "text": "it has less straps than the Simplus",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
+      },
+      {
+        "text": "I haven't worn a full face mask in forever",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
       }
@@ -226,26 +255,26 @@
         "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
       },
       {
-        "text": "requiring the user to hook the headgear into place",
+        "text": "rather than simply clipping in when you are ready to use",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
       },
       {
-        "text": "Horrible fit",
+        "text": "Don’t waste your money on this mask",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask"
       },
       {
-        "text": "would wake with a dry mouth",
+        "text": "sore throat due to open moth breathing and snoring",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/numa-full-face-cpap-mask?variant=49040656236860"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

@@ -1,10 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.sendSurveyFollowupEmail = void 0;
+exports.sendGenericWaitlistEmail = exports.sendSurveyFollowupEmail = exports.initializeWaitlistEmailStatus = void 0;
 const crypto_1 = require("crypto");
 const app_1 = require("firebase-admin/app");
 const firestore_1 = require("firebase-admin/firestore");
 const firestore_2 = require("firebase-functions/v2/firestore");
+const scheduler_1 = require("firebase-functions/v2/scheduler");
 const params_1 = require("firebase-functions/params");
 const firebase_functions_1 = require("firebase-functions");
 const maileroo_1 = require("./maileroo");
@@ -21,8 +22,45 @@ const MAILEROO_FROM_ADDRESS = (0, params_1.defineString)("MAILEROO_FROM_ADDRESS"
 const MAILEROO_FROM_NAME = (0, params_1.defineString)("MAILEROO_FROM_NAME", { default: "Shaheer Rehman" });
 const MAILEROO_REPLY_TO_ADDRESS = (0, params_1.defineString)("MAILEROO_REPLY_TO_ADDRESS", { default: "shaheerkr77@gmail.com" });
 const EMAIL_SUBJECT_PREFIX = "Your CPAP survey: ";
-const MIN_EMAIL_SEND_DELAY_MINUTES = 10;
-const MAX_EMAIL_SEND_DELAY_MINUTES = 20;
+const MIN_EMAIL_SEND_DELAY_MINUTES = 1;
+const MAX_EMAIL_SEND_DELAY_MINUTES = 10;
+const GENERIC_EMAIL_DELAY_MS = 60 * 60 * 1000;
+const GENERIC_EMAIL_BATCH_SIZE = 25;
+const GENERIC_EMAIL_SUBJECT = "Could a better-fitting CPAP mask help?";
+const GENERIC_USER_SUGGESTION = "your interest in a CPAP mask designed around a more comfortable, reliable fit";
+const GENERIC_USER_PAST_EXPERIENCE = "the fit, comfort, and seal issues that can make standard CPAP masks frustrating";
+exports.initializeWaitlistEmailStatus = (0, firestore_2.onDocumentCreated)({
+    document: "waitlist/{docId}",
+    region: "us-central1",
+}, async (event) => {
+    const ref = event.data?.ref;
+    if (!ref) {
+        return;
+    }
+    await (0, firestore_1.getFirestore)().runTransaction(async (transaction) => {
+        const snapshot = await transaction.get(ref);
+        if (!snapshot.exists) {
+            return;
+        }
+        const current = snapshot.data();
+        const emailMetadata = {};
+        if (!current.emailStatus) {
+            emailMetadata.emailStatus = "pending";
+        }
+        if (typeof current.emailAttemptCount !== "number") {
+            emailMetadata.emailAttemptCount = 0;
+        }
+        if (!current.emailStatusUpdatedAt) {
+            emailMetadata.emailStatusUpdatedAt = firestore_1.FieldValue.serverTimestamp();
+        }
+        if (!current.genericEmailDueAt && !current.surveyCompletedAt && !current.emailSentAt) {
+            emailMetadata.genericEmailDueAt = firestore_1.Timestamp.fromMillis(Date.now() + GENERIC_EMAIL_DELAY_MS);
+        }
+        if (Object.keys(emailMetadata).length > 0) {
+            transaction.update(ref, emailMetadata);
+        }
+    });
+});
 exports.sendSurveyFollowupEmail = (0, firestore_2.onDocumentUpdated)({
     document: "waitlist/{docId}",
     region: "us-central1",
@@ -61,6 +99,7 @@ exports.sendSurveyFollowupEmail = (0, firestore_2.onDocumentUpdated)({
         if (!email) {
             transaction.update(ref, {
                 emailStatus: "skipped",
+                emailStatusUpdatedAt: firestore_1.FieldValue.serverTimestamp(),
                 emailError: "No valid email address found in emailOrPhone",
                 emailLastAttemptAt: firestore_1.FieldValue.serverTimestamp(),
             });
@@ -68,8 +107,11 @@ exports.sendSurveyFollowupEmail = (0, firestore_2.onDocumentUpdated)({
         }
         transaction.update(ref, {
             emailStatus: "generating",
+            emailStatusUpdatedAt: firestore_1.FieldValue.serverTimestamp(),
             emailAttemptCount: firestore_1.FieldValue.increment(1),
             emailLastAttemptAt: firestore_1.FieldValue.serverTimestamp(),
+            emailKind: "personalized",
+            genericEmailDueAt: firestore_1.FieldValue.delete(),
             emailError: firestore_1.FieldValue.delete(),
         });
         return {
@@ -93,6 +135,7 @@ exports.sendSurveyFollowupEmail = (0, firestore_2.onDocumentUpdated)({
         const emailSubject = `${EMAIL_SUBJECT_PREFIX}${generated.emailSubject}`;
         await ref.update({
             emailStatus: "sending",
+            emailStatusUpdatedAt: firestore_1.FieldValue.serverTimestamp(),
             generatedUserSuggestion: generated.userSuggestion,
             generatedUserPastExperience: generated.userPastExperience,
             generatedEmailSubject: emailSubject,
@@ -119,6 +162,7 @@ exports.sendSurveyFollowupEmail = (0, firestore_2.onDocumentUpdated)({
         });
         await ref.update({
             emailStatus: "scheduled",
+            emailStatusUpdatedAt: firestore_1.FieldValue.serverTimestamp(),
             emailScheduledFor: firestore_1.Timestamp.fromDate(emailSchedule.scheduledFor),
             emailScheduleDelayMinutes: emailSchedule.delayMinutes,
             emailLastAttemptAt: firestore_1.FieldValue.serverTimestamp(),
@@ -136,6 +180,7 @@ exports.sendSurveyFollowupEmail = (0, firestore_2.onDocumentUpdated)({
         const emailError = (0, survey_1.errorToMessage)(error);
         await ref.update({
             emailStatus: "failed",
+            emailStatusUpdatedAt: firestore_1.FieldValue.serverTimestamp(),
             emailError,
             emailLastAttemptAt: firestore_1.FieldValue.serverTimestamp(),
         });
@@ -143,6 +188,111 @@ exports.sendSurveyFollowupEmail = (0, firestore_2.onDocumentUpdated)({
             docId,
             error: emailError,
         });
+    }
+});
+exports.sendGenericWaitlistEmail = (0, scheduler_1.onSchedule)({
+    schedule: "every 5 minutes",
+    region: "us-central1",
+    secrets: [MAILEROO_API_KEY],
+    timeoutSeconds: 300,
+    memory: "256MiB",
+}, async () => {
+    const db = (0, firestore_1.getFirestore)();
+    const dueSnapshot = await db
+        .collection("waitlist")
+        .where("genericEmailDueAt", "<=", firestore_1.Timestamp.now())
+        .limit(GENERIC_EMAIL_BATCH_SIZE)
+        .get();
+    for (const snapshot of dueSnapshot.docs) {
+        const claim = await db.runTransaction(async (transaction) => {
+            const currentSnapshot = await transaction.get(snapshot.ref);
+            const current = currentSnapshot.data();
+            const dueAt = current?.genericEmailDueAt;
+            if (!current ||
+                current.surveyCompletedAt ||
+                current.emailStatus !== "pending" ||
+                current.emailSentAt ||
+                !(dueAt instanceof firestore_1.Timestamp) ||
+                dueAt.toMillis() > Date.now()) {
+                return null;
+            }
+            const email = (0, survey_1.extractEmail)(current.emailOrPhone);
+            if (!email) {
+                transaction.update(snapshot.ref, {
+                    emailStatus: "skipped",
+                    emailStatusUpdatedAt: firestore_1.FieldValue.serverTimestamp(),
+                    emailError: "No valid email address found in emailOrPhone",
+                    emailLastAttemptAt: firestore_1.FieldValue.serverTimestamp(),
+                    genericEmailDueAt: firestore_1.FieldValue.delete(),
+                });
+                return null;
+            }
+            transaction.update(snapshot.ref, {
+                emailStatus: "sending",
+                emailStatusUpdatedAt: firestore_1.FieldValue.serverTimestamp(),
+                emailAttemptCount: firestore_1.FieldValue.increment(1),
+                emailLastAttemptAt: firestore_1.FieldValue.serverTimestamp(),
+                emailKind: "generic",
+                genericEmailDueAt: firestore_1.FieldValue.delete(),
+                emailError: firestore_1.FieldValue.delete(),
+            });
+            return {
+                email,
+                firstName: (0, survey_1.getFirstName)(current.userName),
+            };
+        });
+        if (!claim) {
+            continue;
+        }
+        try {
+            const referenceId = (0, survey_1.makeMailerooReferenceId)(snapshot.id);
+            const maileroo = await (0, maileroo_1.sendMailerooTemplateEmail)({
+                apiKey: MAILEROO_API_KEY.value(),
+                templateId: parseTemplateId(MAILEROO_TEMPLATE_ID.value()),
+                fromAddress: MAILEROO_FROM_ADDRESS.value(),
+                fromName: MAILEROO_FROM_NAME.value(),
+                replyToAddress: normalizedOptionalParam(MAILEROO_REPLY_TO_ADDRESS.value()),
+                toAddress: claim.email,
+                toName: claim.firstName,
+                subject: GENERIC_EMAIL_SUBJECT,
+                referenceId,
+                tagSource: "generic-followup",
+                templateData: {
+                    first_name: claim.firstName,
+                    user_suggestion: GENERIC_USER_SUGGESTION,
+                    user_past_experience: GENERIC_USER_PAST_EXPERIENCE,
+                    waitlist_doc_id: snapshot.id,
+                },
+            });
+            await snapshot.ref.update({
+                emailStatus: "sent",
+                emailStatusUpdatedAt: firestore_1.FieldValue.serverTimestamp(),
+                emailSentAt: firestore_1.FieldValue.serverTimestamp(),
+                emailLastAttemptAt: firestore_1.FieldValue.serverTimestamp(),
+                generatedEmailSubject: GENERIC_EMAIL_SUBJECT,
+                generatedUserSuggestion: GENERIC_USER_SUGGESTION,
+                generatedUserPastExperience: GENERIC_USER_PAST_EXPERIENCE,
+                mailerooReferenceId: maileroo.referenceId,
+                emailError: firestore_1.FieldValue.delete(),
+            });
+            firebase_functions_1.logger.info("Sent generic waitlist email", {
+                docId: snapshot.id,
+                mailerooReferenceId: maileroo.referenceId,
+            });
+        }
+        catch (error) {
+            const emailError = (0, survey_1.errorToMessage)(error);
+            await snapshot.ref.update({
+                emailStatus: "failed",
+                emailStatusUpdatedAt: firestore_1.FieldValue.serverTimestamp(),
+                emailError,
+                emailLastAttemptAt: firestore_1.FieldValue.serverTimestamp(),
+            });
+            firebase_functions_1.logger.error("Failed to send generic waitlist email", {
+                docId: snapshot.id,
+                error: emailError,
+            });
+        }
     }
 });
 function parseTemplateId(value) {

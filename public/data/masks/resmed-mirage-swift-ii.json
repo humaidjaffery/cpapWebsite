@@ -1,8 +1,20 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-mirage-swift-ii",
   "name": "ResMed Mirage Swift II",
   "catalogOrder": 121,
+  "search": {
+    "aliases": [
+      "Mirage Swift II Nasal Pillow CPAP Mask Kit"
+    ],
+    "abbreviations": [
+      "Resmed"
+    ],
+    "maskTypes": [
+      "Nasal Pillow",
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 1,
@@ -13,18 +25,20 @@
     "reviewDateEnd": "2026-04-25"
   },
   "overall": {
-    "compositeScore": null,
+    "score": null,
+    "grade": null,
+    "calculation": "unavailable",
     "ratingComponent": {
       "average": 5.0,
       "score": 100,
       "reviewCount": 1,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 10.0,
       "score": 100,
       "reviewCount": 1,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [],
@@ -53,7 +67,7 @@
   "evidence": {
     "positive": [
       {
-        "text": "Awesome product",
+        "text": "these are the only nasal pillows that work for me",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/mirage-swift-ii-nasal-pillow-cpap-mask-kit"
       }
@@ -61,9 +75,9 @@
     "negative": []
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

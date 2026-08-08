@@ -1,8 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "philips-respironics-comfortgel-blue-full-face",
   "name": "Philips Respironics ComfortGel Blue Full Face",
   "catalogOrder": 87,
+  "search": {
+    "aliases": [
+      "ComfortGel Blue Full Face CPAP Mask"
+    ],
+    "abbreviations": [
+      "PR",
+      "Philips",
+      "Respironics"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 9,
@@ -13,30 +26,33 @@
     "reviewDateEnd": "2024-06-20"
   },
   "overall": {
-    "compositeScore": 86,
+    "score": 82,
+    "grade": "B+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.22,
-      "score": 84,
+      "score": 81,
       "reviewCount": 9,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.9,
       "score": 89,
       "reviewCount": 7,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 72,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 8,
       "reviewShare": 0.8889,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.75,
       "negativeShare": 0.125,
@@ -86,6 +102,26 @@
           "text": "comfy cushion",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
+        },
+        {
+          "text": "The Forehead pad adds even more comfort",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
+        },
+        {
+          "text": "really like the feel of it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
+        },
+        {
+          "text": "Forehead pad is comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
+        },
+        {
+          "text": "Comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -106,12 +142,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 72,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 8,
       "reviewShare": 0.8889,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.75,
       "negativeShare": 0.125,
@@ -174,12 +211,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 89,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.9,
       "reviewCount": 7,
       "reviewShare": 0.7778,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -205,7 +243,7 @@
           "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
         },
         {
-          "text": "Highly recommend this mask",
+          "text": "This mask never lets me down",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
         }
@@ -222,33 +260,7 @@
   "bodySites": [],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 88,
-      "averageSentiment": 8.8,
-      "reviewCount": 6,
-      "reviewShare": 0.6667,
-      "positiveReviews": 6,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "By far the best Full Face Mask I have used",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": []
-    }
-  ],
+  "strengths": [],
   "concerns": [],
   "retailers": [
     {
@@ -273,12 +285,7 @@
         "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
       },
       {
-        "text": "affordable",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
-      },
-      {
-        "text": "comfy cushion",
+        "text": "This mask never lets me down",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
       },
@@ -288,7 +295,12 @@
         "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
       },
       {
-        "text": "This mask never lets me down",
+        "text": "Highly recommend this mask",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
+      },
+      {
+        "text": "comfy cushion",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/comfortgel-blue-full-face-cpap-mask"
       }
@@ -307,9 +319,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

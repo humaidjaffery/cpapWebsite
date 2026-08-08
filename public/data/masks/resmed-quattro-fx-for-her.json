@@ -1,8 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-quattro-fx-for-her",
   "name": "ResMed Quattro FX For Her",
   "catalogOrder": 72,
+  "search": {
+    "aliases": [
+      "Quattro FX For Her Full Face CPAP Mask",
+      "Quattro FX For Her Full Face CPAP Mask | ResMed",
+      "Quattro FX for Her Full Face Mask Kit",
+      "ResMed | Quattro FX For Her Full Face CPAP Mask",
+      "Resmed Quattro™ FX For Her Full Face CPAP Mask"
+    ],
+    "abbreviations": [
+      "Resmed"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 32,
@@ -13,30 +28,33 @@
     "reviewDateEnd": "2026-03-09"
   },
   "overall": {
-    "compositeScore": 81,
+    "score": 76,
+    "grade": "B",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.0,
-      "score": 80,
+      "score": 75,
       "reviewCount": 32,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.4,
       "score": 84,
       "reviewCount": 14,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 70,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 14,
       "reviewShare": 0.4375,
       "positiveReviews": 11,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.7857,
       "negativeShare": 0.1429,
@@ -94,24 +112,69 @@
       ],
       "positiveEvidence": [
         {
+          "text": "cushion is soft",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "along with comfort",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
           "text": "more comfortable",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         },
         {
-          "text": "Very light",
+          "text": "more comfortable as it doesn't have a headgear at the forehead",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "it doesn't give me discomfort at all",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
+        },
+        {
+          "text": "Very quiet and light mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "The headgear is soft",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "soft",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "the light weight of this mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "the mask is comfortable",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "Also caused my eyes to be swollen in the mornings",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
           "text": "it hurts my face",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
         },
         {
-          "text": "Also caused my eyes to be swollen in the mornings",
+          "text": "Will keep trying until I get one that is comfortable",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         }
@@ -120,14 +183,15 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 65,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.5,
       "reviewCount": 15,
       "reviewShare": 0.4688,
-      "positiveReviews": 9,
-      "mixedReviews": 2,
+      "positiveReviews": 10,
+      "neutralReviews": 1,
       "negativeReviews": 4,
-      "positiveShare": 0.6,
+      "positiveShare": 0.6667,
       "negativeShare": 0.2667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -193,19 +257,69 @@
           "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-mask-kit"
         },
         {
+          "text": "I have a smaller face and was having a difficult time finding a mask that fit properly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "the for Her version fits me better than the normal version",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "Finally they have made a mask that is just for me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
           "text": "Fits better",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "without having a need of forehead pad",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "it smaller for my face",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-mask-kit"
+        },
+        {
+          "text": "is easy to adjust",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "I wanted full coverage in the event I had a cold and was oral breathing",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "It took a couple days to adjust to sleeping with something on my face",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "The madk don't feel right on my face either",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "I cannot seem to get a good fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-mask-kit"
+        },
+        {
           "text": "If I tighten it to prevent leaks",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
         },
         {
-          "text": "The madk don't feel right on my face either",
+          "text": "The strap under the eyes is not working out very well",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         }
@@ -214,12 +328,13 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 67,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 18,
       "reviewShare": 0.5625,
       "positiveReviews": 13,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.7222,
       "negativeShare": 0.2778,
@@ -280,32 +395,88 @@
           "text": "the cushion seals good no leakage at all",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
+        },
+        {
+          "text": "There is a very nice seal on this mask that is very effective for the whole night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "maintain its seal while I slept",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "provide a good seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "it doesn't leak",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
+        },
+        {
+          "text": "It doesn't leak like the other one did",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-mask-kit"
+        },
+        {
+          "text": "a mask that can provide a good seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "Mask gives me secure seal I needed",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "the cushion gives a good seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "leaks",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
+          "text": "when the CPAP ramped up to full pressure, the air leaked out in a couple of places",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "It's very hard for me to get a good seal at the bridge of my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         },
         {
           "text": "needed tape and other tricks to keep it from face farting and leaking",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "Mask continues to leak",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-mask-kit"
+        },
+        {
+          "text": "leaks",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 54,
+      "label": "Stability",
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.4,
       "reviewCount": 7,
       "reviewShare": 0.2188,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.4286,
+      "positiveShare": 0.5714,
       "negativeShare": 0.4286,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -361,12 +532,22 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I can read and watch til I fall asleep",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
           "text": "It fits securely on my face without moving",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
         },
         {
-          "text": "I can read and watch til I fall asleep",
+          "text": "The headgear very soft and stable",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
+        },
+        {
+          "text": "slippage",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         }
@@ -381,20 +562,26 @@
           "text": "stays on at night",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "on occasion the velcro and I get tangled up",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 71,
+      "label": "Ease of Use",
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 7.1,
       "reviewCount": 7,
       "reviewShare": 0.2188,
-      "positiveReviews": 4,
-      "mixedReviews": 3,
+      "positiveReviews": 6,
+      "neutralReviews": 1,
       "negativeReviews": 0,
-      "positiveShare": 0.5714,
+      "positiveShare": 0.8571,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -443,6 +630,26 @@
           "text": "I can lay in bed and read with this mask on",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-mask-kit"
+        },
+        {
+          "text": "It was also easy to fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "is easy to adjust",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "It took a couple days to adjust to sleeping with something on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "it is my first I still have a learning curve",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -451,13 +658,14 @@
       "id": "skin-and-pain",
       "label": "Skin & pain",
       "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.9,
       "reviewCount": 7,
       "reviewShare": 0.2188,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.4286,
+      "positiveShare": 0.5714,
       "negativeShare": 0.4286,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -490,16 +698,26 @@
           "text": "it doesn't ever leave a mark on my face when I wear it",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
+        },
+        {
+          "text": "there isn't much soreness in the morning",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "Also caused my eyes to be swollen in the mornings",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
         {
           "text": "it hurts my face",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
         },
         {
-          "text": "Also caused my eyes to be swollen in the mornings",
+          "text": "having day-long marks on my face",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         }
@@ -508,12 +726,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 70,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 5,
       "reviewShare": 0.1562,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -526,6 +745,16 @@
           "text": "Very worthwhile!",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "You pay good money you get good results",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
+        },
+        {
+          "text": "It's really worth the price",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
         },
         {
           "text": "Good Price",
@@ -544,12 +773,13 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 75,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.5,
       "reviewCount": 6,
       "reviewShare": 0.1875,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -565,14 +795,24 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "I can't believe how much better I'm sleeping",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
           "text": "I am sleeping like a dream",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         },
         {
-          "text": "I can't believe how much better I'm sleeping",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
+          "text": "I have used the C-Pap every night for 5 years",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "It does its job well",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -588,12 +828,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 67,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 18,
       "reviewShare": 0.5625,
       "positiveReviews": 13,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.7222,
       "negativeShare": 0.2778,
@@ -658,12 +899,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "leaks",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
+          "text": "when the CPAP ramped up to full pressure, the air leaked out in a couple of places",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/resmed-quattro-fx-for-her-full-face-cpap-mask"
         },
         {
-          "text": "needed tape and other tricks to keep it from face farting and leaking",
+          "text": "It's very hard for me to get a good seal at the bridge of my nose",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         }
@@ -672,14 +913,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 84,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 8.4,
       "reviewCount": 14,
       "reviewShare": 0.4375,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
+      "positiveReviews": 13,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.8571,
+      "positiveShare": 0.9286,
       "negativeShare": 0.0714,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -708,12 +950,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 78,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 7.8,
       "reviewCount": 12,
       "reviewShare": 0.375,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9167,
       "negativeShare": 0.0833,
@@ -766,14 +1009,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "more comfortable",
+          "text": "cushion is soft",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         },
         {
-          "text": "cushion is soft",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
+          "text": "along with comfort",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -787,12 +1030,13 @@
     {
       "id": "appearance",
       "label": "Appearance",
-      "score": 77,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 7.7,
       "reviewCount": 11,
       "reviewShare": 0.3438,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9091,
       "negativeShare": 0.0909,
@@ -834,12 +1078,13 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 70,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 7.0,
       "reviewCount": 11,
       "reviewShare": 0.3438,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.7273,
       "negativeShare": 0.2727,
@@ -897,7 +1142,7 @@
           "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-mask-kit"
         },
         {
-          "text": "Fits better",
+          "text": "I have a smaller face and was having a difficult time finding a mask that fit properly",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         }
@@ -918,14 +1163,15 @@
     {
       "id": "face_marks",
       "label": "Face Marks",
-      "score": 74,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 5,
       "reviewShare": 0.1562,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.6,
+      "positiveShare": 0.8,
       "negativeShare": 0.2,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -966,12 +1212,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 74,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 5,
       "reviewShare": 0.1562,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -981,14 +1228,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I am sleeping like a dream",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
-        },
-        {
           "text": "I can't believe how much better I'm sleeping",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "I am sleeping like a dream",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1002,14 +1249,15 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 56,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 5.6,
       "reviewCount": 5,
       "reviewShare": 0.1562,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.4,
+      "positiveShare": 0.6,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1073,12 +1321,13 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 76,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.6,
       "reviewCount": 6,
       "reviewShare": 0.1875,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -1133,12 +1382,13 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 5,
       "reviewShare": 0.1562,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1159,14 +1409,14 @@
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
         },
         {
+          "text": "The headgear very soft and stable",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
+        },
+        {
           "text": "I like the pink straps",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
-        },
-        {
-          "text": "The headgear is soft",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [],
@@ -1178,12 +1428,13 @@
     {
       "id": "cushion|seal_leak",
       "label": "Cushion · Seal Leak",
-      "score": 74,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 5,
       "reviewShare": 0.1562,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -1213,70 +1464,7 @@
   "bodySites": [],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 14,
-      "reviewShare": 0.4375,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
-      "negativeReviews": 1,
-      "positiveShare": 0.8571,
-      "negativeShare": 0.0714,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "This is the perfect fit",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "It's a good mask but does not work for me!",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
-        }
-      ]
-    },
-    {
-      "id": "|||appearance",
-      "label": "Appearance",
-      "score": 76,
-      "averageSentiment": 7.6,
-      "reviewCount": 8,
-      "reviewShare": 0.25,
-      "positiveReviews": 7,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.875,
-      "negativeShare": 0.125,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I just love the color",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I don't really like how this version of the mask is pink",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
-        }
-      ]
-    }
-  ],
+  "strengths": [],
   "concerns": [],
   "retailers": [
     {
@@ -1320,14 +1508,14 @@
         "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
       },
       {
+        "text": "the cushion seals good no leakage at all",
+        "retailer": "CPAP Ninja",
+        "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
+      },
+      {
         "text": "This is the perfect fit",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
-      },
-      {
-        "text": "Love this CPAP mask",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
       },
       {
         "text": "I just love the color",
@@ -1335,24 +1523,24 @@
         "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
       },
       {
-        "text": "Perfect fit",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-mask-kit"
-      },
-      {
-        "text": "Great Mask",
+        "text": "Love this CPAP mask",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask"
+      },
+      {
+        "text": "Great mask love it",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
       }
     ],
     "negative": [
       {
-        "text": "Too loud",
-        "retailer": "CPAP Ninja",
-        "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
+        "text": "The silicone on this full-face mask was too thin and flimsy to withstand the air pressure of my prescription (14)",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/resmed-quattro-fx-for-her-full-face-cpap-mask"
       },
       {
-        "text": "it was because of the 15% discount",
+        "text": "It's very hard for me to get a good seal at the bridge of my nose",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
       },
@@ -1362,26 +1550,26 @@
         "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
       },
       {
-        "text": "The silicone on this full-face mask was too thin and flimsy to withstand the air pressure of my prescription (14)",
-        "retailer": "CPAPsupplies.com",
-        "productUrl": "https://cpapsupplies.com/resmed-quattro-fx-for-her-full-face-cpap-mask"
-      },
-      {
-        "text": "the air come out of the top",
+        "text": "The madk don't feel right on my face either",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/resmed-quattro-fx-for-her-full-face-cpap-mask"
       },
       {
-        "text": "Mask continues to leak",
+        "text": "I cannot seem to get a good fit",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-mask-kit"
+      },
+      {
+        "text": "If I tighten it to prevent leaks",
+        "retailer": "CPAP Ninja",
+        "productUrl": "https://www.cpapninja.com/products/quattro-fx-for-her-full-face-cpap-mask-resmed"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

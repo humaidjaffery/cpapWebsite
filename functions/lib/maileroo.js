@@ -17,12 +17,14 @@ async function sendMailerooTemplateEmail(params) {
         template_data: params.templateData,
         tracking: true,
         tags: {
-            source: "survey-complete",
+            source: params.tagSource ?? "survey-complete",
             waitlist_doc_id: params.templateData.waitlist_doc_id,
         },
         reference_id: params.referenceId,
-        scheduled_at: params.scheduledAt,
     };
+    if (params.scheduledAt) {
+        body.scheduled_at = params.scheduledAt;
+    }
     if (params.replyToAddress) {
         body.reply_to = {
             address: params.replyToAddress,

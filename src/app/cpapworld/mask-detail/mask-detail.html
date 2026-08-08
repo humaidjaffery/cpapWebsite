@@ -1,10 +1,16 @@
 <main class="mask-detail-page">
   <header class="detail-header">
-    <a class="brand" routerLink="/" aria-label="DreamSeal home">
-      <img src="/dreamseal_logo.png" alt="" width="42" height="42" />
-      <span>DreamSeal</span>
+    <a class="brand" href="/" aria-label="DreamSeal home">
+      <span class="logo-mark">
+        <img src="/dreamseal_logo.png" alt="DreamSeal logo" width="48" height="48" />
+      </span>
+      <span class="logo-text-block">
+        <span class="logo-title">DreamSeal</span>
+      </span>
     </a>
-    <a class="back-link" routerLink="/cpapworld">&larr; Explore all masks</a>
+    <nav class="detail-header-actions" aria-label="CPAP World navigation">
+      <app-waitlist-signup class="header-waitlist" [header]="true" />
+    </nav>
   </header>
 
   @if (loading()) {
@@ -34,59 +40,158 @@
       }
 
       <section class="mask-hero" aria-labelledby="mask-name">
-        <div class="hero-copy">
-          <p class="eyebrow">{{ statusLabel(mask) }}</p>
+        <div class="hero-heading-row">
+          <a class="back-link" routerLink="/cpapworld" aria-label="Back to all masks">&larr;</a>
           <h1 id="mask-name">{{ mask.name }}</h1>
-          <p class="hero-description">
-            A transparent analysis of what reviewers reported about fit, comfort, parts,
-            durability, sleep context, and recurring problems.
-          </p>
-
-          <div class="coverage-facts" aria-label="Review coverage">
-            <span>
-              <strong>{{ formatCount(mask.coverage.processedReviews) }}</strong> reviews analyzed
-            </span>
-            <span><strong>{{ mask.coverage.retailerCount }}</strong> retailer sources</span>
-            @if (mask.coverage.reviewDateStart && mask.coverage.reviewDateEnd) {
-              <span>
-                <strong>{{ mask.coverage.reviewDateStart }}</strong> to
-                <strong>{{ mask.coverage.reviewDateEnd }}</strong>
-              </span>
-            }
-          </div>
         </div>
 
-        <div class="score-panel">
-          <div class="score-orb" [class.score-unavailable]="mask.overall.compositeScore === null">
-            <strong>{{ formatScore(mask.overall.compositeScore) }}</strong>
-            <span>out of 100</span>
-          </div>
-          <div>
-            <h2>Overall review evidence score</h2>
-            <p>60% original star ratings + 40% satisfaction expressed in review text.</p>
-          </div>
-          <div class="score-components">
-            <div>
-              <span>Star rating</span>
-              <strong>
-                @if (mask.overall.ratingComponent.average !== null) {
-                  {{ mask.overall.ratingComponent.average }} / 5
-                } @else {
-                  —
-                }
-              </strong>
-              <small>{{ formatCount(mask.overall.ratingComponent.reviewCount) }} reviews</small>
+        <div class="coverage-facts" aria-label="Review coverage">
+          <span>
+            <strong>{{ formatCount(mask.coverage.processedReviews) }}</strong> reviews analyzed
+          </span>
+          <span><strong>{{ mask.coverage.retailerCount }}</strong> retailer sources</span>
+          @if (mask.coverage.reviewDateStart && mask.coverage.reviewDateEnd) {
+            <span>
+              <strong>{{ mask.coverage.reviewDateStart }}</strong> to
+              <strong>{{ mask.coverage.reviewDateEnd }}</strong>
+            </span>
+          }
+        </div>
+
+        <div class="hero-showcase" [class.hero-showcase-no-gallery]="!gallery()?.images?.length">
+          @if (gallery(); as galleryData) {
+            @if (activeImage(); as image) {
+              <section class="mask-gallery" aria-label="Mask gallery">
+
+                <div
+                  class="gallery-stage"
+                  tabindex="0"
+                  (keydown.arrowleft)="$event.preventDefault(); previousImage()"
+                  (keydown.arrowright)="$event.preventDefault(); nextImage()"
+                >
+                  <img
+                    class="gallery-image"
+                    [src]="image.src"
+                    [alt]="imageAlt(mask, image)"
+                    width="1600"
+                    height="1200"
+                    fetchpriority="high"
+                    decoding="async"
+                  />
+                  @if (galleryData.images.length > 1) {
+                    <button
+                      type="button"
+                      class="gallery-nav gallery-nav-previous"
+                      aria-label="Show previous mask image"
+                      (click)="previousImage()"
+                    >
+                      &larr;
+                    </button>
+                    <button
+                      type="button"
+                      class="gallery-nav gallery-nav-next"
+                      aria-label="Show next mask image"
+                      (click)="nextImage()"
+                    >
+                      &rarr;
+                    </button>
+                  }
+                </div>
+
+                <div class="gallery-meta" aria-live="polite">
+                  <div>
+                    <strong>{{ image.retailer }}</strong>
+                    <span>Retailer product image</span>
+                  </div>
+                  <span class="gallery-counter">
+                    {{ activeImageIndex() + 1 }} / {{ galleryData.imageCount }}
+                  </span>
+                  <a [href]="image.productUrl" target="_blank" rel="noopener noreferrer">
+                    View product page
+                  </a>
+                </div>
+
+                <div class="gallery-thumbnails" aria-label="Choose a mask image">
+                  @for (thumbnail of galleryData.images; track thumbnail.id; let index = $index) {
+                    <button
+                      type="button"
+                      class="gallery-thumbnail"
+                      [class.gallery-thumbnail-active]="index === activeImageIndex()"
+                      [attr.aria-current]="index === activeImageIndex() ? 'true' : null"
+                      [attr.aria-label]="
+                        'Show image ' + (index + 1) + ' from ' + thumbnail.retailer
+                      "
+                      (click)="selectImage(index)"
+                    >
+                      <img
+                        [src]="thumbnail.src"
+                        alt=""
+                        width="1600"
+                        height="1200"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </button>
+                  }
+                </div>
+              </section>
+            }
+          }
+
+          <aside class="score-panel">
+            <div class="score-orb" [class.score-unavailable]="mask.overall.grade === null">
+              <span>overall grade</span>
+              <strong>{{ mask.overall.grade ?? '—' }}</strong>
             </div>
-            <div>
-              <span>Text satisfaction</span>
-              <strong>{{ formatScore(mask.overall.textSatisfactionComponent.score) }} / 100</strong>
-              <small>
-                {{ formatCount(mask.overall.textSatisfactionComponent.reviewCount) }} reviews
-              </small>
+            <div class="score-breakdowns" aria-label="Mask grade breakdown">
+              @for (dimension of topGrades(); track dimension.id) {
+                <div class="score-breakdown-row">
+                  <div class="score-breakdown-heading">
+                    <div>
+                      <span>{{ dimension.label }}</span>
+                      <small>{{ formatCount(dimension.reviewCount) }} reviews</small>
+                    </div>
+                    <strong>{{ dimension.grade }}</strong>
+                  </div>
+                  <div class="score-track" aria-hidden="true">
+                    <span [style.width.%]="dimension.score"></span>
+                  </div>
+                  <div class="sentiment-legend" aria-label="Review sentiment counts">
+                    <span class="positive">{{ formatCount(dimension.positiveReviews) }} positive</span>
+                    <span class="mixed">{{ formatCount(dimension.neutralReviews) }} neutral</span>
+                    <span class="negative">{{ formatCount(dimension.negativeReviews) }} negative</span>
+                  </div>
+                </div>
+              }
             </div>
-          </div>
+          </aside>
         </div>
       </section>
+
+      <article class="custom-mask-banner" aria-labelledby="custom-mask-banner-title">
+        <div class="custom-mask-banner-visual" aria-hidden="true">
+          <img
+            class="custom-mask-banner-art"
+            [src]="customMaskImage"
+            alt=""
+            width="1024"
+            height="1024"
+            loading="lazy"
+          />
+          <span class="custom-mask-banner-badge">Coming soon</span>
+        </div>
+
+        <div class="custom-mask-banner-content">
+          <div>
+            <span class="custom-mask-banner-eyebrow">DreamSeal custom-fit mask</span>
+            <h2 id="custom-mask-banner-title">A CPAP mask made for you</h2>
+          </div>
+        </div>
+
+        <div class="custom-mask-banner-action">
+          <app-waitlist-signup [inlinePerks]="true" />
+        </div>
+      </article>
 
       @if (prices(); as pricing) {
         <section class="purchase-section" aria-labelledby="purchase-title">
@@ -95,27 +200,58 @@
               <p class="eyebrow">Current retailer prices</p>
               <h2 id="purchase-title">Where to buy this mask</h2>
             </div>
-            <p>
-              Prices are checked automatically. Shipping and tax are not included, so verify the
-              final total with the retailer.
-            </p>
           </div>
 
           @if (pricing.offers.length) {
             <div class="purchase-grid">
-              @if (pricing.cheapestOffer; as cheapest) {
+              @if (selectedOffer(); as selected) {
                 <article class="cheapest-card">
-                  <span>Lowest current price</span>
-                  <strong>{{ cheapest.price }}</strong>
-                  @if (cheapest.compareAtPrice) {
-                    <small class="old-price">Previously {{ cheapest.compareAtPrice }}</small>
+                  <span>Current price</span>
+                  <strong>{{ selected.price }}</strong>
+                  <b class="price-exclusions">Shipping and tax not included</b>
+                  @if (selected.compareAtPrice) {
+                    <small class="old-price">Previously {{ selected.compareAtPrice }}</small>
                   }
-                  <h3>{{ cheapest.retailer }}</h3>
-                  <p>{{ cheapest.productName }}</p>
-                  <small>{{ cheapest.variantName }} · Checked {{ formatChecked(cheapest.observedAt) }}</small>
-                  <a [href]="cheapest.productUrl" target="_blank" rel="noopener noreferrer">
-                    Verify price at {{ cheapest.retailer }}
+                  <h3>{{ selected.retailer }}</h3>
+                  <p>{{ selected.productName }}</p>
+                  <small>{{ selected.variantName }} · Checked {{ formatChecked(selected.observedAt) }}</small>
+                  <a [href]="selected.productUrl" target="_blank" rel="noopener noreferrer">
+                    Verify price at {{ selected.retailer }}
                   </a>
+
+                  @if (selectedRetailer(); as retailer) {
+                    <aside class="retailer-detail-panel" aria-live="polite">
+                      <div class="retailer-detail-heading">
+                        <div>
+                          <h3>{{ retailer.name }}</h3>
+                        </div>
+                        <strong [attr.data-grade-band]="gradeBand(retailer.reviewEvidence.serviceGrade)">
+                          {{ retailer.reviewEvidence.serviceGrade ?? '—' }}
+                          <small>overall</small>
+                        </strong>
+                      </div>
+
+                      <dl class="retailer-facts">
+                        <div><dt>Average rating</dt><dd>{{ retailer.reviewEvidence.averageRating ?? '—' }}@if (retailer.reviewEvidence.averageRating !== null) { / 5}</dd></div>
+                        <div><dt>Evidence</dt><dd>{{ retailer.reviewEvidence.evidenceStrength }}</dd></div>
+                      </dl>
+
+                      <div class="retailer-subscore-grid" aria-label="Retailer subscores">
+                        @for (aspect of retailerAspectGrades(retailer); track aspect.aspect) {
+                          <div [attr.data-grade-band]="gradeBand(aspect.grade)">
+                            <span>{{ aspect.label }}</span>
+                            <strong>{{ aspect.grade }}</strong>
+                            <small>{{ aspect.reviewCount }} reviews</small>
+                          </div>
+                        }
+                      </div>
+
+                      <div class="retailer-detail-links">
+                        <a [href]="retailer.websiteUrl" target="_blank" rel="noopener noreferrer">Visit website</a>
+                        <a routerLink="/cpapworld/retailers" [fragment]="retailer.slug">Full retailer report</a>
+                      </div>
+                    </aside>
+                  }
                 </article>
               } @else {
                 <article class="price-empty">
@@ -129,20 +265,46 @@
                   <thead>
                     <tr>
                       <th>Retailer</th>
+                      <th>Overall score</th>
                       <th>Price</th>
-                      <th>Configuration</th>
-                      <th>Checked</th>
-                      <th><span class="visually-hidden">Visit retailer</span></th>
                     </tr>
                   </thead>
                   <tbody>
                     @for (offer of pricing.offers; track offer.retailer + offer.productUrl) {
-                      <tr>
+                      <tr
+                        class="retailer-row-clickable"
+                        [class.retailer-row-selected]="
+                          offer.productUrl === selectedOffer()?.productUrl
+                        "
+                        (click)="selectRetailerDetails(offer)"
+                      >
                         <td>
-                          <strong>{{ offer.retailer }}</strong>
+                          @if (retailerProfile(offer.retailer); as retailer) {
+                            <button
+                              class="retailer-detail-trigger"
+                              type="button"
+                              [attr.aria-expanded]="selectedRetailer()?.slug === retailer.slug"
+                              (click)="selectRetailerDetails(offer)"
+                            >
+                              {{ offer.retailer }}
+                              <span aria-hidden="true">→</span>
+                            </button>
+                          } @else {
+                            <strong>{{ offer.retailer }}</strong>
+                          }
                           <small [class.out-of-stock]="!offer.inStock">
                             {{ offer.inStock ? 'In stock' : 'Unavailable' }}
                           </small>
+                        </td>
+                        <td class="retailer-overall-cell">
+                          @if (retailerProfile(offer.retailer); as retailer) {
+                            <strong
+                              class="retailer-overall-grade"
+                              [attr.data-grade-band]="gradeBand(retailer.reviewEvidence.serviceGrade)"
+                            >{{ retailer.reviewEvidence.serviceGrade ?? '—' }}</strong>
+                          } @else {
+                            <small>Not rated</small>
+                          }
                         </td>
                         <td>
                           <strong>{{ offer.price }}</strong>
@@ -150,35 +312,14 @@
                             <small class="old-price">{{ offer.compareAtPrice }}</small>
                           }
                         </td>
-                        <td>
-                          {{ offer.variantName }}
-                          @if (offer.configurationNote) {
-                            <small>{{ offer.configurationNote }}</small>
-                          }
-                        </td>
-                        <td>{{ formatChecked(offer.observedAt) }}</td>
-                        <td>
-                          <a [href]="offer.productUrl" target="_blank" rel="noopener noreferrer">
-                            View
-                          </a>
-                        </td>
                       </tr>
                     }
                   </tbody>
                 </table>
+
               </div>
             </div>
 
-            @if (recentPriceHistory().length) {
-              <details class="price-history">
-                <summary>Price history ({{ pricing.priceHistory.length }} observations)</summary>
-                <div class="price-history-grid">
-                  @for (point of recentPriceHistory(); track point.date + point.retailer) {
-                    <span><strong>{{ point.price }}</strong>{{ point.retailer }} · {{ point.date }}</span>
-                  }
-                </div>
-              </details>
-            }
           } @else {
             <div class="price-empty">
               <h3>No current retailer price is available yet</h3>
@@ -186,7 +327,6 @@
             </div>
           }
 
-          <p class="purchase-method">{{ pricing.methodology }}</p>
         </section>
       }
 
@@ -208,25 +348,23 @@
           }
         </section>
       } @else {
+        <nav class="analysis-tabs" aria-label="Mask review sections" role="tablist">
+          <button type="button" role="tab" data-tab="overview" [attr.aria-selected]="activeAnalysisTab() === 'overview'" [class.active]="activeAnalysisTab() === 'overview'" (click)="selectAnalysisTab('overview')">Key insights</button>
+          <button type="button" role="tab" data-tab="reviews" [attr.aria-selected]="activeAnalysisTab() === 'reviews'" [class.active]="activeAnalysisTab() === 'reviews'" (click)="selectAnalysisTab('reviews')">Reviews</button>
+          <button type="button" role="tab" data-tab="fit" [attr.aria-selected]="activeAnalysisTab() === 'fit'" [class.active]="activeAnalysisTab() === 'fit'" (click)="selectAnalysisTab('fit')">Who it fits</button>
+          <button type="button" role="tab" data-tab="components" [attr.aria-selected]="activeAnalysisTab() === 'components'" [class.active]="activeAnalysisTab() === 'components'" (click)="selectAnalysisTab('components')">Components</button>
+        </nav>
+
+        <div class="analysis-tab-panel" role="tabpanel">
+        @if (activeAnalysisTab() === 'overview') {
         <section class="interaction-analysis" aria-labelledby="interaction-title">
           <div class="interaction-heading">
-            <div>
-              <p class="eyebrow">Patient–mask interaction analysis</p>
-              <h2 id="interaction-title">What the broad scores do not explain</h2>
-            </div>
+            <p class="eyebrow">User–mask interaction analysis</p>
+            <h2 id="interaction-title" class="interaction-title">Key Insights</h2>
             <p class="interaction-method">
-              These findings cross a specific review context or body area with a mask component
-              and outcome. Each count represents distinct reviews.
+              Specific user-mask interaction commonly experienced through multiple reviews
             </p>
           </div>
-
-          @if (mask.interactionSummary.length) {
-            <div class="interaction-summary">
-              @for (sentence of mask.interactionSummary; track sentence) {
-                <p>{{ sentence }}</p>
-              }
-            </div>
-          }
 
           @if (mask.interactionInsights.length) {
             <div class="interaction-grid">
@@ -240,7 +378,7 @@
                   <div class="interaction-card-heading">
                     <div>
                       <span class="interaction-tone">{{ insight.tone }}</span>
-                      <h3>{{ insight.label }}</h3>
+                      <h3>{{ interactionLabel(insight) }}</h3>
                     </div>
                     <strong>{{ insight.score }}</strong>
                   </div>
@@ -268,7 +406,7 @@
 
                   <div class="interaction-evidence">
                     <span class="positive">{{ insight.positiveReviews }} positive</span>
-                    <span class="mixed">{{ insight.mixedReviews }} mixed</span>
+                    <span class="mixed">{{ insight.neutralReviews }} neutral</span>
                     <span class="negative">{{ insight.negativeReviews }} negative</span>
                     <small>
                       {{ insight.reviewCount }} reviews · {{ insight.evidenceStrength }} evidence
@@ -289,101 +427,115 @@
           }
         </section>
 
-        <section class="at-a-glance" aria-labelledby="glance-title">
-          <div class="section-heading">
-            <p class="eyebrow">At a glance</p>
-            <h2 id="glance-title">What stands out in the reviews</h2>
-          </div>
-          <div class="glance-grid">
-            <article class="glance-card strength-card">
-              <h3>Most reported strengths</h3>
-              @if (mask.strengths.length) {
-                <ol>
-                  @for (finding of mask.strengths.slice(0, 4); track finding.id) {
-                    <li>
-                      <span>{{ finding.label }}</span>
-                      <small>{{ finding.positiveReviews }} positive reports</small>
-                    </li>
-                  }
-                </ol>
-              } @else {
-                <p>No strength has enough consistent evidence yet.</p>
-              }
-            </article>
-            <article class="glance-card concern-card">
-              <h3>Most reported concerns</h3>
-              @if (mask.concerns.length) {
-                <ol>
-                  @for (finding of mask.concerns.slice(0, 4); track finding.id) {
-                    <li>
-                      <span>{{ finding.label }}</span>
-                      <small>{{ finding.negativeReviews }} negative reports</small>
-                    </li>
-                  }
-                </ol>
-              } @else {
-                <p>No concern has enough consistent evidence yet.</p>
-              }
-            </article>
-            <article class="glance-card fit-card">
-              <h3>Who reports a better fit</h3>
-              @if (bestFor().length) {
-                <ul class="context-list">
-                  @for (context of bestFor().slice(0, 4); track context.id) {
-                    <li>{{ context.label }} <small>{{ context.reviewCount }} reviews</small></li>
-                  }
-                </ul>
-              } @else {
-                <p>No patient group meets the strong favorable-evidence threshold yet.</p>
-              }
-            </article>
-            <article class="glance-card caution-card">
-              <h3>Who may want extra caution</h3>
-              @if (mayNotSuit().length) {
-                <ul class="context-list">
-                  @for (context of mayNotSuit().slice(0, 4); track context.id) {
-                    <li>{{ context.label }} <small>{{ context.reviewCount }} reviews</small></li>
-                  }
-                </ul>
-              } @else {
-                <p>No patient group meets the strong unfavorable-evidence threshold yet.</p>
-              }
-            </article>
-          </div>
-        </section>
+        }
 
-        <section class="analysis-section" aria-labelledby="dimensions-title">
-          <div class="section-heading">
-            <p class="eyebrow">Core dimensions</p>
-            <h2 id="dimensions-title">How reviewers describe the mask</h2>
-            <p>Scores use one combined value per review so long reviews cannot dominate.</p>
-          </div>
-          <div class="dimension-grid">
-            @for (dimension of mask.dimensions; track dimension.id) {
-              <article class="metric-card">
-                <div class="metric-card-header">
-                  <div>
-                    <h3>{{ dimension.label }}</h3>
-                    <p>
-                      {{ formatCount(dimension.reviewCount) }} reviews ·
-                      {{ dimension.evidenceStrength }} evidence
-                    </p>
-                  </div>
-                  <strong>{{ dimension.score }}</strong>
-                </div>
-                <div class="score-track" aria-hidden="true">
-                  <span [style.width.%]="dimension.score"></span>
-                </div>
-                <div class="sentiment-legend">
-                  <span class="positive">{{ dimension.positiveReviews }} positive</span>
-                  <span class="mixed">{{ dimension.mixedReviews }} mixed</span>
-                  <span class="negative">{{ dimension.negativeReviews }} negative</span>
-                </div>
-              </article>
+        @if (activeAnalysisTab() === 'reviews') {
+          <section class="analysis-section review-explorer" aria-labelledby="reviews-title">
+            <div class="section-heading">
+              <p class="eyebrow">Review explorer</p>
+              <h2 id="reviews-title">What reviewers are saying</h2>
+              <p>
+                Choose an aspect to see representative review excerpts directly related to it.
+              </p>
+            </div>
+
+            <div class="review-aspect-picker" aria-label="Filter reviews by aspect">
+              <button
+                type="button"
+                class="review-aspect"
+                [class.active]="selectedReviewAspect() === 'all'"
+                [attr.aria-pressed]="selectedReviewAspect() === 'all'"
+                (click)="selectReviewAspect('all')"
+              >
+                <span aria-hidden="true">★</span>
+                <strong>All reviews</strong>
+                <small>{{ formatCount(mask.coverage.processedReviews) }}</small>
+              </button>
+              @for (aspect of primaryReviewAspects(); track aspect.id) {
+                <button
+                  type="button"
+                  class="review-aspect"
+                  [attr.data-trend]="scoreTrend(aspect.score)"
+                  [class.active]="selectedReviewAspect() === aspect.id"
+                  [attr.aria-pressed]="selectedReviewAspect() === aspect.id"
+                  (click)="selectReviewAspect(aspect.id)"
+                >
+                  <span aria-hidden="true">{{ scoreTrendArrow(aspect.score) }}</span>
+                  <strong>{{ aspect.label }}</strong>
+                  <small>{{ formatCount(aspect.reviewCount) }}</small>
+                </button>
+              }
+              <button
+                type="button"
+                class="review-aspect see-all-aspects"
+                [class.active]="showAllReviewAspects()"
+                [attr.aria-expanded]="showAllReviewAspects()"
+                (click)="toggleAllReviewAspects()"
+              >
+                <strong>{{ showAllReviewAspects() ? 'Hide extra aspects' : 'See all aspects' }}</strong>
+                <span aria-hidden="true">{{ showAllReviewAspects() ? '−' : '+' }}</span>
+              </button>
+            </div>
+
+            @if (showAllReviewAspects()) {
+              <div class="review-aspect-picker secondary-aspects">
+                @for (aspect of secondaryReviewAspects(); track aspect.id) {
+                  <button
+                    type="button"
+                    class="review-aspect"
+                    [attr.data-trend]="scoreTrend(aspect.score)"
+                    [class.active]="selectedReviewAspect() === aspect.id"
+                    [attr.aria-pressed]="selectedReviewAspect() === aspect.id"
+                    (click)="selectReviewAspect(aspect.id)"
+                  >
+                    <span aria-hidden="true">{{ scoreTrendArrow(aspect.score) }}</span>
+                    <strong>{{ aspect.label }}</strong>
+                    <small>{{ formatCount(aspect.reviewCount) }}</small>
+                  </button>
+                }
+              </div>
             }
-          </div>
-        </section>
 
+            <div class="review-results-heading">
+              <div>
+                <h3>
+                  {{ selectedReviewAspect() === 'all' ? 'Reviews across all aspects' : 'Reviews about the selected aspect' }}
+                </h3>
+                <p>{{ formatCount(reviewEvidence().length) }} representative excerpts available</p>
+              </div>
+              <span>Page {{ reviewPage() }} of {{ reviewPageCount() }}</span>
+            </div>
+
+            @if (visibleReviewEvidence().length) {
+              <div class="review-list">
+                @for (review of visibleReviewEvidence(); track review.retailer + review.text) {
+                  <article class="review-card" [attr.data-tone]="review.tone">
+                    <div class="review-card-meta">
+                      <span>{{ review.aspectLabel }}</span>
+                      <strong>{{ review.tone === 'positive' ? 'Favorable' : 'Critical' }}</strong>
+                    </div>
+                    <blockquote>“{{ review.text }}”</blockquote>
+                    <a [href]="review.productUrl" target="_blank" rel="noopener noreferrer">
+                      Source: {{ review.retailer }}
+                    </a>
+                  </article>
+                }
+              </div>
+            } @else {
+              <p class="empty-card">No representative excerpts are available for this aspect yet.</p>
+            }
+
+            @if (reviewPageCount() > 1) {
+              <nav class="review-pagination" aria-label="Review pages">
+                <button type="button" [disabled]="reviewPage() === 1" (click)="changeReviewPage(-1)">Previous</button>
+                <span>{{ reviewPage() }} / {{ reviewPageCount() }}</span>
+                <button type="button" [disabled]="reviewPage() === reviewPageCount()" (click)="changeReviewPage(1)">Next</button>
+              </nav>
+            }
+          </section>
+        }
+
+        @if (activeAnalysisTab() === 'fit') {
         <section class="analysis-section" aria-labelledby="context-title">
           <div class="section-heading">
             <p class="eyebrow">Personal context</p>
@@ -404,7 +556,7 @@
                       <h4>{{ context.label }}</h4>
                       <p>{{ contextDescription(context) }}</p>
                     </div>
-                    <strong>{{ context.score }}</strong>
+                    <strong [attr.data-grade-band]="gradeBand(context.grade)">{{ context.grade }}</strong>
                     <small>
                       {{ context.positiveReviews }} positive ·
                       {{ context.negativeReviews }} negative ·
@@ -428,7 +580,7 @@
                       <h4>{{ context.label }}</h4>
                       <p>{{ contextDescription(context) }}</p>
                     </div>
-                    <strong>{{ context.score }}</strong>
+                    <strong [attr.data-grade-band]="gradeBand(context.grade)">{{ context.grade }}</strong>
                     <small>
                       {{ context.positiveReviews }} positive ·
                       {{ context.negativeReviews }} negative ·
@@ -443,21 +595,50 @@
                 <p class="empty-card">No group meets the strong unfavorable threshold yet.</p>
               }
             </div>
-          </div>
-
-          @if (mixedContexts().length) {
-            <details class="deep-details">
-              <summary>See mixed and limited context evidence ({{ mixedContexts().length }})</summary>
-              <div class="deep-grid">
+            <div>
+              <h3 class="column-title mixed-title">Mixed evidence</h3>
+              @if (mixedContexts().length) {
                 @for (context of mixedContexts(); track context.id) {
-                  <article class="compact-metric">
+                  <article class="context-card context-mixed">
                     <div>
-                      <h3>{{ context.label }}</h3>
+                      <h4>{{ context.label }}</h4>
                       <p>{{ contextDescription(context) }}</p>
                     </div>
-                    <strong>{{ context.score }}</strong>
+                    <strong [attr.data-grade-band]="gradeBand(context.grade)">{{ context.grade }}</strong>
                     <small>
-                      {{ context.reviewCount }} reviews · {{ context.evidenceStrength }} evidence
+                      {{ context.positiveReviews }} positive ·
+                      {{ context.negativeReviews }} negative ·
+                      {{ context.reviewCount }} reviews
+                    </small>
+                    @if (signalEvidence(context, true); as excerpt) {
+                      <blockquote>“{{ excerpt }}”</blockquote>
+                    }
+                    @if (signalEvidence(context, false); as excerpt) {
+                      <blockquote>“{{ excerpt }}”</blockquote>
+                    }
+                  </article>
+                }
+              } @else {
+                <p class="empty-card">No group currently has strong mixed evidence.</p>
+              }
+            </div>
+          </div>
+
+          @if (limitedContexts().length) {
+            <details class="deep-details">
+              <summary>Limited context evidence ({{ limitedContexts().length }})</summary>
+              <div class="deep-grid">
+                @for (context of limitedContexts(); track context.id) {
+                  <article class="context-card context-limited">
+                    <div>
+                      <h4>{{ context.label }}</h4>
+                      <p>{{ contextDescription(context) }}</p>
+                    </div>
+                    <strong [attr.data-grade-band]="gradeBand(context.grade)">{{ context.grade }}</strong>
+                    <small>
+                      {{ context.positiveReviews }} positive ·
+                      {{ context.negativeReviews }} negative ·
+                      {{ context.reviewCount }} reviews
                     </small>
                   </article>
                 }
@@ -466,6 +647,9 @@
           }
         </section>
 
+        }
+
+        @if (activeAnalysisTab() === 'components') {
         <section class="analysis-section" aria-labelledby="parts-title">
           <div class="section-heading">
             <p class="eyebrow">Mask component analysis</p>
@@ -473,58 +657,63 @@
             <p>Each component score combines all supported findings attached to that part.</p>
           </div>
 
-          <div class="part-heatmap" aria-label="Mask component evidence heatmap">
-            @for (part of mask.parts; track part.id) {
-              <div
-                class="part-tile"
-                [class.part-positive]="part.averageSentiment >= 7"
-                [class.part-negative]="part.averageSentiment <= 4"
-              >
-                <span>{{ part.label }}</span>
-                <strong>{{ part.score }}</strong>
-                <small>{{ part.reviewCount }} reviews</small>
-              </div>
-            }
-          </div>
-
           <div class="part-details">
-            @for (part of mask.parts; track part.id) {
-              <details>
-                <summary>
-                  <span>{{ part.label }}</span>
-                  <span>{{ part.score }} / 100 · {{ part.reviewCount }} reviews</span>
+            @for (part of visibleComponents(); track part.id) {
+              <details class="part-detail-row">
+                <summary class="part-detail-heading">
+                  <div class="part-detail-title">
+                    <span>{{ part.label }}</span>
+                    <small>{{ part.reviewCount }} comments · {{ part.evidenceStrength }} evidence</small>
+                  </div>
+                  <span class="part-detail-score">
+                    <strong
+                      class="component-grade"
+                    >{{ part.grade }}</strong>
+                    <span class="part-detail-toggle" aria-hidden="true"></span>
+                  </span>
                 </summary>
                 <div class="part-detail-body">
-                  <div class="sentiment-legend">
-                    <span class="positive">{{ part.positiveReviews }} positive</span>
-                    <span class="mixed">{{ part.mixedReviews }} mixed</span>
-                    <span class="negative">{{ part.negativeReviews }} negative</span>
-                  </div>
                   <div class="part-aspect-columns">
                     <div>
-                      <h4>Most praised</h4>
-                      @if (part.praisedAspects.length) {
-                        @for (aspect of part.praisedAspects; track aspect.id) {
+                      <h4>Positive</h4>
+                      @if (praisedComponentAspects(part).length) {
+                        @for (aspect of praisedComponentAspects(part); track aspect.id) {
                           <p>
                             <strong>{{ aspect.label }}</strong>
                             <span>{{ aspect.positiveReviews }} positive reports</span>
                           </p>
                         }
                       } @else {
-                        <p>No consistent praised aspect yet.</p>
+                        <p>No consistent positive finding yet.</p>
                       }
                     </div>
                     <div>
-                      <h4>Most criticized</h4>
-                      @if (part.criticizedAspects.length) {
-                        @for (aspect of part.criticizedAspects; track aspect.id) {
+                      <h4>Negative</h4>
+                      @if (criticizedComponentAspects(part).length) {
+                        @for (aspect of criticizedComponentAspects(part); track aspect.id) {
                           <p>
                             <strong>{{ aspect.label }}</strong>
                             <span>{{ aspect.negativeReviews }} negative reports</span>
                           </p>
                         }
                       } @else {
-                        <p>No consistent criticized aspect yet.</p>
+                        <p>No consistent negative finding yet.</p>
+                      }
+                    </div>
+                    <div>
+                      <h4>Divisive or mixed</h4>
+                      @if (divisiveComponentAspects(part).length) {
+                        @for (aspect of divisiveComponentAspects(part); track aspect.id) {
+                          <p>
+                            <strong>{{ aspect.label }}</strong>
+                            <span>
+                              {{ aspect.positiveReviews }} positive ·
+                              {{ aspect.negativeReviews }} negative
+                            </span>
+                          </p>
+                        }
+                      } @else {
+                        <p>No divisive finding yet.</p>
                       }
                     </div>
                   </div>
@@ -540,6 +729,12 @@
               </details>
             }
           </div>
+
+          @if (!showAllComponents() && rankedComponents().length > 8) {
+            <button class="see-more-components" type="button" (click)="showMoreComponents()">
+              See more ({{ rankedComponents().length - 8 }})
+            </button>
+          }
 
           <details class="deep-details">
             <summary>See the full part-by-aspect matrix ({{ mask.partAspectMatrix.length }})</summary>
@@ -572,192 +767,118 @@
           </details>
         </section>
 
-        <section class="analysis-section" aria-labelledby="hotspots-title">
+        <section class="analysis-section" aria-labelledby="body-area-title">
           <div class="section-heading">
-            <p class="eyebrow">Pain and irritation hotspots</p>
-            <h2 id="hotspots-title">Where reviewers report discomfort</h2>
-            <p>Only body areas with at least five distinct negative reports appear here.</p>
+            <p class="eyebrow">Comfort, discomfort, and mixed evidence by body area</p>
+            <h2 id="body-area-title">Where reviewers feel the mask most</h2>
+            <p>The top five areas in each category, based on at least five distinct reports.</p>
           </div>
-          @if (mask.bodySites.length) {
-            <div class="hotspot-grid">
-              @for (site of mask.bodySites; track site.id; let index = $index) {
-                <article class="hotspot-card" [style.--intensity]="site.complaintReviews">
-                  <span class="hotspot-rank">{{ index + 1 }}</span>
-                  <div>
-                    <h3>{{ site.label }}</h3>
-                    <p>
-                      {{ site.complaintReviews }} negative reports ·
-                      {{ formatPercent(site.complaintShare) }} of analyzed reviews
-                    </p>
-                    @if (site.complaintAspects.length) {
-                      <small>
-                        Mainly:
-                        @for (aspect of site.complaintAspects; track aspect.id; let last = $last) {
-                          {{ aspect.label }}@if (!last) {, }
+          <div class="body-area-columns">
+            <section aria-labelledby="comfort-sites-title">
+              <h3 id="comfort-sites-title" class="body-area-column-title comfort-title">
+                Top comfort areas
+              </h3>
+              @if (topComfortSites().length) {
+                <div class="hotspot-grid">
+                  @for (site of topComfortSites(); track site.id; let index = $index) {
+                    <article class="hotspot-card comfort-card">
+                      <span class="hotspot-rank">{{ index + 1 }}</span>
+                      <div>
+                        <h3>{{ site.label }}</h3>
+                        <p>
+                          {{ site.positiveReviews }} positive reports ·
+                          {{ reviewShare(site.positiveReviews) }} of analyzed reviews
+                        </p>
+                        @if (site.associatedParts; as associatedParts) {
+                          @if (associatedParts.length) {
+                          <small>
+                            Components:
+                            @for (part of associatedParts.slice(0, 5); track part.id; let last = $last) {
+                              {{ part.label }}@if (!last) {, }
+                            }
+                          </small>
+                          }
                         }
-                      </small>
-                    }
-                  </div>
-                  <strong>{{ site.complaintSeverity }}</strong>
-                </article>
-              }
-            </div>
-          } @else {
-            <p class="empty-card">No body area has enough negative reports to form a pattern.</p>
-          }
-        </section>
-
-        <section class="analysis-section" aria-labelledby="aspects-title">
-          <div class="section-heading">
-            <p class="eyebrow">Deep aspect analysis</p>
-            <h2 id="aspects-title">Every supported finding</h2>
-            <p>
-              This includes specific findings beyond the headline dimensions, each backed by at
-              least five distinct reviews.
-            </p>
-          </div>
-          <details class="deep-details" open>
-            <summary>Browse all analyzed aspects ({{ mask.aspects.length }})</summary>
-            <div class="aspect-list">
-              @for (aspect of mask.aspects; track aspect.id) {
-                <article class="aspect-row">
-                  <div class="aspect-main">
-                    <div>
-                      <h3>{{ aspect.label }}</h3>
-                      <p>
-                        {{ aspect.reviewCount }} reviews ·
-                        {{ formatPercent(aspect.reviewShare) }} mention rate ·
-                        {{ aspect.evidenceStrength }} evidence
-                      </p>
-                    </div>
-                    <strong>{{ aspect.score }}</strong>
-                  </div>
-                  <div class="score-track" aria-hidden="true">
-                    <span [style.width.%]="aspect.score"></span>
-                  </div>
-                  <div class="sentiment-legend">
-                    <span class="positive">{{ aspect.positiveReviews }} positive</span>
-                    <span class="mixed">{{ aspect.mixedReviews }} mixed</span>
-                    <span class="negative">{{ aspect.negativeReviews }} negative</span>
-                  </div>
-                  @if (aspect.associatedParts?.length) {
-                    <p class="associated-line">
-                      <strong>Commonly linked parts:</strong>
-                      @for (part of aspect.associatedParts; track part.id; let last = $last) {
-                        {{ part.label }}@if (!last) {, }
-                      }
-                    </p>
+                      </div>
+                    </article>
                   }
-                </article>
+                </div>
+              } @else {
+                <p class="empty-card">No body area has enough positive reports to form a pattern.</p>
               }
-            </div>
-          </details>
-        </section>
+            </section>
 
-        <section class="analysis-section evidence-section" aria-labelledby="evidence-title">
-          <div class="section-heading">
-            <p class="eyebrow">Review evidence</p>
-            <h2 id="evidence-title">Examples behind the analysis</h2>
-            <p>Excerpts are shortened to 25 words and linked to the retailer product source.</p>
-          </div>
-          <div class="evidence-columns">
-            <div>
-              <h3>Positive experiences</h3>
-              @for (excerpt of mask.evidence.positive; track excerpt.text) {
-                <blockquote>
-                  <p>“{{ excerpt.text }}”</p>
-                  @if (excerpt.productUrl) {
-                    <a [href]="excerpt.productUrl" target="_blank" rel="noopener noreferrer">
-                      {{ excerpt.retailer || 'Retailer source' }}
-                    </a>
-                  } @else {
-                    <cite>{{ excerpt.retailer }}</cite>
+            <section aria-labelledby="discomfort-sites-title">
+              <h3 id="discomfort-sites-title" class="body-area-column-title discomfort-title">
+                Top discomfort areas
+              </h3>
+              @if (topDiscomfortSites().length) {
+                <div class="hotspot-grid">
+                  @for (site of topDiscomfortSites(); track site.id; let index = $index) {
+                    <article class="hotspot-card discomfort-card">
+                      <span class="hotspot-rank">{{ index + 1 }}</span>
+                      <div>
+                        <h3>{{ site.label }}</h3>
+                        <p>
+                          {{ site.complaintReviews }} negative reports ·
+                          {{ formatPercent(site.complaintShare) }} of analyzed reviews
+                        </p>
+                        @if (site.complaintAspects.length) {
+                          <small>
+                            Mainly:
+                            @for (aspect of site.complaintAspects; track aspect.id; let last = $last) {
+                              {{ aspect.label }}@if (!last) {, }
+                            }
+                          </small>
+                        }
+                      </div>
+                    </article>
                   }
-                </blockquote>
+                </div>
+              } @else {
+                <p class="empty-card">No body area has enough negative reports to form a pattern.</p>
               }
-            </div>
-            <div>
-              <h3>Reported problems</h3>
-              @for (excerpt of mask.evidence.negative; track excerpt.text) {
-                <blockquote>
-                  <p>“{{ excerpt.text }}”</p>
-                  @if (excerpt.productUrl) {
-                    <a [href]="excerpt.productUrl" target="_blank" rel="noopener noreferrer">
-                      {{ excerpt.retailer || 'Retailer source' }}
-                    </a>
-                  } @else {
-                    <cite>{{ excerpt.retailer }}</cite>
+            </section>
+
+            <section aria-labelledby="mixed-sites-title">
+              <h3 id="mixed-sites-title" class="body-area-column-title mixed-title">
+                Mixed or divisive areas
+              </h3>
+              @if (mixedBodySites().length) {
+                <div class="hotspot-grid">
+                  @for (site of mixedBodySites(); track site.id; let index = $index) {
+                    <article class="hotspot-card mixed-card">
+                      <span class="hotspot-rank">{{ index + 1 }}</span>
+                      <div>
+                        <h3>{{ site.label }}</h3>
+                        <p>
+                          {{ site.positiveReviews }} positive ·
+                          {{ site.complaintReviews }} negative reports
+                        </p>
+                        @if (site.associatedParts?.length) {
+                          <small>
+                            Components:
+                            @for (part of site.associatedParts!.slice(0, 5); track part.id; let last = $last) {
+                              {{ part.label }}@if (!last) {, }
+                            }
+                          </small>
+                        }
+                      </div>
+                    </article>
                   }
-                </blockquote>
+                </div>
+              } @else {
+                <p class="empty-card">No body area has enough evidence on both sides yet.</p>
               }
-            </div>
+            </section>
           </div>
         </section>
 
-        <section class="analysis-section" aria-labelledby="retailers-title">
-          <div class="section-heading">
-            <p class="eyebrow">Source comparison</p>
-            <h2 id="retailers-title">Where these reviews came from</h2>
-            <p>Ratings describe each retailer’s review sample, not current price or availability.</p>
-          </div>
-          <div class="table-scroll">
-            <table class="retailer-table">
-              <thead>
-                <tr>
-                  <th>Retailer</th>
-                  <th>Reviews</th>
-                  <th>Average rating</th>
-                  <th>Evidence</th>
-                  <th>Source</th>
-                </tr>
-              </thead>
-              <tbody>
-                @for (retailer of mask.retailers; track retailer.retailer) {
-                  <tr>
-                    <td>{{ retailer.retailer }}</td>
-                    <td>{{ formatCount(retailer.reviewCount) }}</td>
-                    <td>
-                      @if (retailer.averageRating !== null) {
-                        {{ retailer.averageRating }} / 5
-                      } @else {
-                        —
-                      }
-                    </td>
-                    <td>{{ retailer.evidenceStrength }}</td>
-                    <td>
-                      @if (retailer.productUrl) {
-                        <a
-                          [href]="retailer.productUrl"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          View product
-                        </a>
-                      } @else {
-                        —
-                      }
-                    </td>
-                  </tr>
-                }
-              </tbody>
-            </table>
-          </div>
-        </section>
+        }
 
-        <section class="methodology" aria-labelledby="methodology-title">
-          <div>
-            <p class="eyebrow">How to read this page</p>
-            <h2 id="methodology-title">Transparent methodology</h2>
-          </div>
-          <ul>
-            <li>{{ mask.methodology.overallScore }}</li>
-            <li>{{ mask.methodology.aggregation }}</li>
-            <li>{{ mask.methodology.sentiment }}</li>
-            <li>{{ mask.methodology.minimumEvidence }}</li>
-            <li>{{ mask.methodology.limitations }}</li>
-          </ul>
-        </section>
+        </div>
       }
     </div>
   }
+  <app-custom-mask-popup />
 </main>

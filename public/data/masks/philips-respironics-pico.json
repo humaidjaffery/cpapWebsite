@@ -1,8 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "philips-respironics-pico",
   "name": "Philips Respironics Pico",
   "catalogOrder": 74,
+  "search": {
+    "aliases": [
+      "Philips | Pico Nasal CPAP Mask",
+      "Pico Nasal CPAP Mask System",
+      "Pico Nasal CPAP Mask | Philips"
+    ],
+    "abbreviations": [
+      "PR",
+      "Philips",
+      "Respironics"
+    ],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 27,
@@ -13,30 +28,33 @@
     "reviewDateEnd": "2026-04-23"
   },
   "overall": {
-    "compositeScore": 87,
+    "score": 87,
+    "grade": "A-",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.52,
-      "score": 90,
+      "score": 88,
       "reviewCount": 27,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.2,
       "score": 82,
       "reviewCount": 18,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 78,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 7.8,
       "reviewCount": 17,
       "reviewShare": 0.6296,
       "positiveReviews": 15,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.8824,
       "negativeShare": 0.0588,
@@ -114,9 +132,49 @@
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         },
         {
+          "text": "the mask and headgear are so much more comfortable than the ResMed Mirage Micro",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+        },
+        {
+          "text": "The material is like a thick, almost velour type cloth that’s very comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "Excellent Pico nasal mask I have used, comfortable",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/pico-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "es una mascara muy confortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "it's very comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "Very Light",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+        },
+        {
           "text": "Comfortable",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+        },
+        {
+          "text": "it sits comfortably on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "Comfortable mask and headgear",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -135,14 +193,15 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 74,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 7.4,
       "reviewCount": 16,
       "reviewShare": 0.5926,
-      "positiveReviews": 12,
-      "mixedReviews": 2,
+      "positiveReviews": 14,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.75,
+      "positiveShare": 0.875,
       "negativeShare": 0.125,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -208,9 +267,49 @@
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         },
         {
+          "text": "the small/medium cushion size is a great fit for me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+        },
+        {
+          "text": "It has four straps which can all be adjusted",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
           "text": "se acomoda perfecto a la cabeza",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "Fitpack option is a must",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "the fitpack gives you different sizes in case you don't know what size you would be",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/pico-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "I was able to find the right that gives me the comfortability and secure fit",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/pico-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "I appreciate being able to find a small size of nasal mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "I recommended this to anyone especially women with smaller faces",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+        },
+        {
+          "text": "It is small and light",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -223,18 +322,24 @@
           "text": "the XL mask still rides on the bridge of my rather large nose",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "a package that includes the headgear should have the option of size if indeed that is available",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 86,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 8.6,
       "reviewCount": 7,
       "reviewShare": 0.2593,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -261,14 +366,34 @@
       ],
       "positiveEvidence": [
         {
+          "text": "there have been no air leaks at all during the night around the nose/eye area",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+        },
+        {
           "text": "NO leakage detected",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         },
         {
-          "text": "there have been no air leaks at all during the night around the nose/eye area",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+          "text": "No leakage",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "capturing all of the air and not of it leaking past to hit my eyes like my previous older nasal pillow was doing",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "No air leakage",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "good seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -281,15 +406,16 @@
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 72,
+      "label": "Ease of Use",
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 7.2,
       "reviewCount": 10,
       "reviewShare": 0.3704,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.8,
+      "positiveShare": 0.9,
       "negativeShare": 0.1,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -329,14 +455,49 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "It has four straps which can all be adjusted",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
           "text": "easy to wear",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         },
         {
-          "text": "It has four straps which can all be adjusted",
+          "text": "the bottom straps clip into the cushion so I just take it off using that anyways",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "easy to attach to the frame",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+        },
+        {
+          "text": "easy to care for",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/pico-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "Very convenient while asleep",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "User friendly",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+        },
+        {
+          "text": "The service of providing help hints/videos were a good review on how to care for equipment",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "I am still experimenting with how loose I can adjust before I have trouble with air leaks",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -355,12 +516,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 66,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 6.6,
       "reviewCount": 5,
       "reviewShare": 0.1852,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -384,6 +546,16 @@
           "text": "Very affordable for me",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+        },
+        {
+          "text": "I am grateful that it was too pricey",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "reasonably priced",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -397,12 +569,13 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 87,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.7,
       "reviewCount": 6,
       "reviewShare": 0.2222,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -437,6 +610,26 @@
           "text": "allows me to get a good night's sleep",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "allowing me to sleep really well",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "I'm sleeping again",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "That really helped me get some more restful sleep",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "mask works great",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": []
@@ -446,12 +639,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 82,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 8.2,
       "reviewCount": 18,
       "reviewShare": 0.6667,
       "positiveReviews": 17,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9444,
       "negativeShare": 0.0556,
@@ -473,12 +667,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Awesome Product!",
+          "text": "I have nothing but positives to say",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         },
         {
-          "text": "Works great!",
+          "text": "Awesome Product!",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         }
@@ -494,12 +688,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 85,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.5,
       "reviewCount": 12,
       "reviewShare": 0.4444,
       "positiveReviews": 12,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -567,7 +762,7 @@
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         },
         {
-          "text": "Comfortable",
+          "text": "the mask and headgear are so much more comfortable than the ResMed Mirage Micro",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
         }
@@ -577,12 +772,13 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 79,
+      "score": 90,
+      "grade": "A",
       "averageSentiment": 7.9,
       "reviewCount": 9,
       "reviewShare": 0.3333,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8889,
       "negativeShare": 0.1111,
@@ -656,12 +852,13 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 74,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.4,
       "reviewCount": 7,
       "reviewShare": 0.2593,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -698,7 +895,7 @@
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         },
         {
-          "text": "There’s no fancy setup needed with this mask as it’s a straightforward system",
+          "text": "the bottom straps clip into the cushion so I just take it off using that anyways",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         }
@@ -714,12 +911,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 86,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 8.6,
       "reviewCount": 7,
       "reviewShare": 0.2593,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -746,14 +944,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "NO leakage detected",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
-        },
-        {
           "text": "there have been no air leaks at all during the night around the nose/eye area",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+        },
+        {
+          "text": "NO leakage detected",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -767,12 +965,13 @@
     {
       "id": "weight",
       "label": "Weight",
-      "score": 83,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.3,
       "reviewCount": 7,
       "reviewShare": 0.2593,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -793,14 +992,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "This is a very nice, lightweight mask",
+          "text": "It barely feels like it’s even there when I’m sleeping",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         },
         {
-          "text": "Very Light",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+          "text": "the headgear is a very light, cloth system",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -808,12 +1007,13 @@
     {
       "id": "size_availability",
       "label": "Size Availability",
-      "score": 74,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 5,
       "reviewShare": 0.1852,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -839,9 +1039,9 @@
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         },
         {
-          "text": "came with three different sizes of of cushions",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/pico-nasal-cpap-mask-philips"
+          "text": "if you order the Fitpack you’ll get all three sizes of nose cushions so that lets you play around with what fits you the best",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -855,14 +1055,15 @@
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 76,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.6,
       "reviewCount": 5,
       "reviewShare": 0.1852,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -892,9 +1093,9 @@
           "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
         },
         {
-          "text": "It is small and light",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+          "text": "the fitpack gives you different sizes in case you don't know what size you would be",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/pico-nasal-cpap-mask-philips"
         }
       ],
       "negativeEvidence": []
@@ -902,12 +1103,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 88,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 5,
       "reviewShare": 0.1852,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -951,12 +1153,13 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 78,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 7.8,
       "reviewCount": 7,
       "reviewShare": 0.2593,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.8571,
       "negativeShare": 0.0,
@@ -972,17 +1175,17 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "the headgear is a very light, cloth system",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
-        },
-        {
           "text": "the mask and headgear are so much more comfortable than the ResMed Mirage Micro",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
         },
         {
           "text": "The material is like a thick, almost velour type cloth that’s very comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "It has four straps which can all be adjusted",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         }
@@ -998,12 +1201,13 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 82,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.2,
           "reviewCount": 5,
           "reviewShare": 0.1852,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -1026,12 +1230,13 @@
     {
       "id": "fit_pack",
       "label": "Fit Pack",
-      "score": 80,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.0,
       "reviewCount": 5,
       "reviewShare": 0.1852,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1052,14 +1257,14 @@
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
         },
         {
-          "text": "came with three different sizes of of cushions",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/pico-nasal-cpap-mask-philips"
-        },
-        {
           "text": "if you order the Fitpack you’ll get all three sizes of nose cushions so that lets you play around with what fits you the best",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+        },
+        {
+          "text": "the fitpack gives you different sizes in case you don't know what size you would be",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/pico-nasal-cpap-mask-philips"
         }
       ],
       "negativeEvidence": [],
@@ -1071,12 +1276,13 @@
     {
       "id": "headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 5,
       "reviewShare": 0.1852,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -1102,70 +1308,15 @@
   "interactionInsights": [],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 16,
-      "reviewShare": 0.5926,
-      "positiveReviews": 15,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.9375,
-      "negativeShare": 0.0625,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Awesome Product!",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Did not like at",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 88,
-      "averageSentiment": 8.8,
-      "reviewCount": 5,
-      "reviewShare": 0.1852,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "very comfortable",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "headgear|||comfort",
+      "id": "part|headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 5,
       "reviewShare": 0.1852,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1182,31 +1333,6 @@
       "positiveEvidence": [
         {
           "text": "the mask and headgear are so much more comfortable than the ResMed Mirage Micro",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||weight",
-      "label": "Weight",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 5,
-      "reviewShare": 0.1852,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Very Light",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
         }
@@ -1244,22 +1370,7 @@
   "evidence": {
     "positive": [
       {
-        "text": "Awesome Product!",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
-      },
-      {
-        "text": "Works great!",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
-      },
-      {
-        "text": "very comfortable",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
-      },
-      {
-        "text": "no air in the eyes",
+        "text": "there have been no air leaks at all during the night around the nose/eye area",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
       },
@@ -1269,9 +1380,24 @@
         "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
       },
       {
-        "text": "Comfortable",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
+        "text": "a perfect fit",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+      },
+      {
+        "text": "NO leakage detected",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+      },
+      {
+        "text": "Awesome Product!",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+      },
+      {
+        "text": "capturing all of the air and not of it leaking past to hit my eyes like my previous older nasal pillow was doing",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
       }
     ],
     "negative": [
@@ -1291,7 +1417,12 @@
         "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
       },
       {
-        "text": "the clasp system is difficult to navigate for me",
+        "text": "the XL mask still rides on the bridge of my rather large nose",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
+      },
+      {
+        "text": "when laying down the sides ride up and then hurt my ears",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
       },
@@ -1299,18 +1430,13 @@
         "text": "they charge an extra $29 for the reduced size",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system"
-      },
-      {
-        "text": "when laying down the sides ride up and then hurt my ears",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/philips-pico-nasal-cpap-mask"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

@@ -7,7 +7,7 @@ import { RetailerDataService } from '../retailer-data.service';
 import { Retailers } from './retailers';
 
 const INDEX: RetailerIndex = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   generatedAt: '2026-08-02T00:00:00Z',
   verifiedOn: '2026-08-02',
   methodology: {
@@ -32,7 +32,7 @@ const INDEX: RetailerIndex = {
         reviewDateEnd: '2026-01-01',
         serviceScopedReviewCount: 30,
         serviceClaimReviewCount: 25,
-        serviceScore: 82,
+        serviceGrade: 'A-',
         evidenceStrength: 'moderate'
       },
       serviceAspects: [
@@ -40,8 +40,9 @@ const INDEX: RetailerIndex = {
           aspect: 'shipping',
           label: 'Shipping',
           reviewCount: 25,
-          averageSentiment: 8.2,
-          score: 82,
+          decisiveReviewCount: 24,
+          positiveShare: 92,
+          grade: 'A-',
           positiveReviews: 22,
           mixedReviews: 1,
           negativeReviews: 2,
@@ -88,9 +89,16 @@ describe('Retailers', () => {
 
   it('renders retailer evidence, policies, and official sources', () => {
     const element: HTMLElement = fixture.nativeElement;
+    expect(element.querySelector('.retailers-header-left > .back-link')?.textContent).toContain(
+      'Explore masks'
+    );
+    expect(element.querySelector('.retailers-header .header-waitlist input')).toBeTruthy();
+    expect(element.querySelector('.retailers-header .header-waitlist button')?.textContent).toContain(
+      'Win Lifetime Free Custom Masks!'
+    );
     expect(element.textContent).toContain('Example CPAP');
-    expect(element.textContent).toContain('82/100');
-    expect(element.textContent).toContain('The order arrived quickly.');
+    expect(element.textContent).toContain('A-');
+    expect(element.textContent).toContain('Service report card');
     expect(element.textContent).toContain('30 days');
     expect(element.querySelector('.policy-sources a')?.getAttribute('href')).toBe(
       'https://example.com/returns'

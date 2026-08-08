@@ -1,8 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "bleep-dreamport",
   "name": "Bleep DreamPort",
   "catalogOrder": 47,
+  "search": {
+    "aliases": [
+      "Bleep DreamPort",
+      "Bleep DreamPort CPAP Mask",
+      "Bleep DreamPort Sleep Solution CPAP Interface Starter Kit",
+      "Bleep DreamPort mask",
+      "Bleep DreamPort™ CPAP Mask Starter Kit",
+      "Bleep DreamPreps Witch Hazel Facial Pads",
+      "DreamPort",
+      "DreamPort Adhesive Patches 16 Night Supply",
+      "DreamPort mask"
+    ],
+    "abbreviations": [],
+    "maskTypes": []
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 123,
@@ -13,32 +28,35 @@
     "reviewDateEnd": "2026-03-19"
   },
   "overall": {
-    "compositeScore": 80,
+    "score": 76,
+    "grade": "B",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.02,
-      "score": 80,
+      "score": 76,
       "reviewCount": 123,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.0,
       "score": 80,
       "reviewCount": 75,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 65,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.5,
       "reviewCount": 60,
       "reviewShare": 0.4878,
-      "positiveReviews": 36,
-      "mixedReviews": 6,
+      "positiveReviews": 37,
+      "neutralReviews": 5,
       "negativeReviews": 18,
-      "positiveShare": 0.6,
+      "positiveShare": 0.6167,
       "negativeShare": 0.3,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -124,12 +142,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the Bleep system is so much more comfortable than any of them",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "no more straps across my Cheri or forehead it’s just amazing",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "It has truly made the CPAP experience comfortable for me!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "You cant even tell you have a mask on",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "this mask doesn't put any pressure on my teeth",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
           "text": "No pressure anywhere on the head or face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
           "text": "Great system for those who hate head straps!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "With the Bleep System I have no pain",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "waking in a panic (very claustrophobic)!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "free from headgear",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -141,23 +199,64 @@
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
+          "text": "any type of head gear was killing me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "really hated the strap across my head",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "even the nasal pillows I couldnt take",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "the place where the nasal adaptors hook to the hose at the level of the nose is sharp and puts uncomfortable pressure on the upper…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "every mask I’ve used would pull on my neck making my back hurt more",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "they push up and on to the fragile skin under my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "severe headaches from the straps of the other style of headgear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "the feeling of confinement with headgear / mask adjustments and hoses",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
+        },
+        {
+          "text": "struggle with headgear that is uncomfortable for side sleepers",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 58,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 5.8,
       "reviewCount": 30,
       "reviewShare": 0.2439,
-      "positiveReviews": 13,
-      "mixedReviews": 7,
+      "positiveReviews": 18,
+      "neutralReviews": 2,
       "negativeReviews": 10,
-      "positiveShare": 0.4333,
+      "positiveShare": 0.6,
       "negativeShare": 0.3333,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -248,9 +347,49 @@
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
+          "text": "If you follow the directions and use alcohol to clean your skin where the tape goes, it sticks VERY well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "Searching for a mask for my small face has been the search for the Holy Grail",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "This mask is attached directly to the nose by adhesive strips",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "Once you get the adhesives on right it's a great mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "I started researching options for the nose and found Bleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "glue nasal pillows or something similar directly to my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "Once you get use to properly installing the nose pieces",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "ensuring that the bleep was placed on the nostrils correctly",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "You cut the tape to fit your nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
@@ -263,20 +402,61 @@
           "text": "I hate and could not get used to head sets",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "could never find a head gear to fit my head",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "Spent half the night fiddling with it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "Possibly if someone has more surface area at the bottom of their nostril, it would probably work",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "harder to get used of using the nose plaster in the right position",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "there are some fairly serious design flaws that could be addressed",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "I don't know if the pillows were too big",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
+        },
+        {
+          "text": "still had to adjust it during the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "I would like this mask more if it would stay on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 71,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 7.1,
       "reviewCount": 53,
       "reviewShare": 0.4309,
-      "positiveReviews": 36,
-      "mixedReviews": 3,
+      "positiveReviews": 39,
+      "neutralReviews": 0,
       "negativeReviews": 14,
-      "positiveShare": 0.6792,
+      "positiveShare": 0.7358,
       "negativeShare": 0.2642,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -357,14 +537,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "No more waking to fix air leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "does not leak at all",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "with zero air leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "SAY GOODBYE TO LEAKS",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/dreamport-adhesive-patches-16-night-supply"
+        },
+        {
+          "text": "And it doesn't leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "the seal is complete",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "Absolutely no leaks",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
+          "text": "free from leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "without leaks",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "NO LEAKS!!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
@@ -377,20 +597,61 @@
           "text": "It won’t seal",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "Leaks like crazy",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "it tends to pull the tape away from that area, creating a leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "I never got then to stop leaking.. they never sealed right",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "I could not get a decent seal with the adhesive pads",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "it is difficult to get the nose piece to seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "I could not get it to stop leaking air",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
+        },
+        {
+          "text": "if you have any allergies, don’t buy this",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "otherwise they will leak",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 59,
+      "label": "Stability",
+      "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.9,
       "reviewCount": 38,
       "reviewShare": 0.3089,
-      "positiveReviews": 19,
-      "mixedReviews": 2,
+      "positiveReviews": 20,
+      "neutralReviews": 1,
       "negativeReviews": 17,
-      "positiveShare": 0.5,
+      "positiveShare": 0.5263,
       "negativeShare": 0.4474,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -476,19 +737,59 @@
       ],
       "positiveEvidence": [
         {
+          "text": "or stomach without leaks or feeling the mask hurt my face waking up constantly to adjust",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "Basically I am a side sleeper - and again this is amazing",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "SAY GOODBYE TO LEAKS, STRAPS, AND RESTRICTED MOBILITY",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/dreamport-adhesive-patches-16-night-supply"
+        },
+        {
           "text": "I can sleep in any position",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "I can finally sleep on my side",
+          "text": "No masks getting shifted!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "It never moves",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "No hair pulling",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "I worried about the ports coming off but the adhesive system they have come up with is full proof!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "I'm a side sleeper, and this works so well for me compared to all the other systems I tried",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "manages to stay on the face throughout the night",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Does not stay connected",
+          "text": "The strips keep falling off and do not stick",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
@@ -496,20 +797,61 @@
           "text": "it kept falling off",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "I can't keep straps on the back of my head, they keep slipping off regardless of how tight or loose the straps are",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "position your hose well with enough slack to prevent the weight of it pulling on the adhesive nose vents",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
+        },
+        {
+          "text": "I would like this mask more if it would stay on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "difficult to get the clips to secure on the nostril pieces",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "The full face masks shifted my bottom teeth out of alignment",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "it will come apart, if you move too much",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "the connections come apart too easily",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "Kept coming apart all night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 61,
+      "label": "Ease of Use",
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.1,
       "reviewCount": 81,
       "reviewShare": 0.6585,
-      "positiveReviews": 40,
-      "mixedReviews": 13,
+      "positiveReviews": 48,
+      "neutralReviews": 5,
       "negativeReviews": 28,
-      "positiveShare": 0.4938,
+      "positiveShare": 0.5926,
       "negativeShare": 0.3457,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -595,14 +937,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I have now been using it for a month and had no adjustment period at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "cannot have any straps or a mask touching my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "No more hassle no more straps across my Cheri",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "nothing pressing on my upper lip at all",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
+          "text": "there is no strap across my cheeks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "without the constant readjusting of masks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "it has no headgear",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "nothing is touching",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "Basically I put it on and never think of it again until I take off in the morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "it is as close as you are going to get to wearing nothing on your face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
@@ -612,23 +994,64 @@
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
+          "text": "if you have to blow your nose, you have to put on new sticky pads",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "the connections from the hose to the nose ports are very tough to navigate",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "If you get up during the night, you can't take the mask off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "The tubes need a better connect and disconnect to/from the vent tube",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "I hate and could not get used to head sets",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "not being able to detach it to blow my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "so hard to get the mask to snap into place",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "I found it impossible to apply without using a mirror",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "do not like anything covering my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 68,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.8,
       "reviewCount": 25,
       "reviewShare": 0.2033,
-      "positiveReviews": 13,
-      "mixedReviews": 5,
+      "positiveReviews": 16,
+      "neutralReviews": 2,
       "negativeReviews": 7,
-      "positiveShare": 0.52,
+      "positiveShare": 0.64,
       "negativeShare": 0.28,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -709,19 +1132,94 @@
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
+          "text": "No more waking to fix air leaks, noise",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "It is the most silent system I’ve used.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "by far the quietest",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "free from noise",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "Quiet",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "I also have small nostrils and a small airway and with the Bleep mask I felt like I was getting way more airflow!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "the mask becomes essentially silent",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "it's so quiet",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "No noise",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "blows air out",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "NOISE LEVEL.",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "blows air out",
+          "text": "the air blows in my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "no little spurts of air leaking out when I turn over and drying out my eyes",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "it doesn't allow much air to release for good air flow",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "the noise from the vents",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "I also get more of a draft from the mask mesh than on other masks I’ve tried",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
+        },
+        {
+          "text": "The first night, the air noise coming out of the system did bother me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "or going from a regular hose to the small hose accelerated the air",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -730,12 +1228,13 @@
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 61,
+      "score": 59,
+      "grade": "C-",
       "averageSentiment": 6.1,
       "reviewCount": 48,
       "reviewShare": 0.3902,
       "positiveReviews": 26,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 20,
       "positiveShare": 0.5417,
       "negativeShare": 0.4167,
@@ -828,19 +1327,99 @@
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
+          "text": "no headgear to mess with so no strap marks n my cheeks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "a face that looked great, no lines, no marks, no bruising",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "I have allergies and my skin is very sensitive",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
+        },
+        {
+          "text": "With the Bleep System I have no pain",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "It doesn't leave marks on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "doesn’t leave mark’s on your face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "My cheek is healing finally!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
           "text": "NO MORE DRY MOUTH.",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "free from face marks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "any type of head gear was killing me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
         {
           "text": "had rubbed my cheek raw",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "any type of head gear was killing me",
+          "text": "every mask I’ve used would pull on my neck making my back hurt more",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "the sticky residue left behind when I took off the adhesive pads",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "if the inside of your nose itches, you can't scratch it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "severe headaches from the straps of the other style of headgear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "my skin around my nose is not liking it so much.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "leaving marks on my face that wouldn't go away",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "no headgear giving me headaches at night either",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "both required headgear that drove me bonkers",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -849,14 +1428,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 38,
+      "score": 25,
+      "grade": "F",
       "averageSentiment": 3.8,
       "reviewCount": 21,
       "reviewShare": 0.1707,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 16,
-      "positiveShare": 0.1905,
+      "positiveShare": 0.2381,
       "negativeShare": 0.7619,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -930,6 +1510,21 @@
           "text": "No head gear so it doesn't pull my hair",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "that stayed on all night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "Heat-set Tube",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
+        },
+        {
+          "text": "I am on my second order of ports",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "negativeEvidence": [
@@ -939,7 +1534,47 @@
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
+          "text": "I have had problems with the mask coming apart in the middle of the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "cheap plastic pins that you had to squeeze to put them in or remove them",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "I worry every night I'm going to totally break the clips",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "the mask comes with enough adhesive pads for 16 days",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
           "text": "they were glued the paper without any real consistency",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "it only comes with 16 days of nose adhesives",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "it will come apart, if you move too much",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "One box of the nasal pillows was empty",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "all parts cheaply made and flimsy",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -949,13 +1584,14 @@
       "id": "value",
       "label": "Value",
       "score": 49,
+      "grade": "D",
       "averageSentiment": 4.9,
       "reviewCount": 15,
       "reviewShare": 0.122,
-      "positiveReviews": 6,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 1,
       "negativeReviews": 7,
-      "positiveShare": 0.4,
+      "positiveShare": 0.4667,
       "negativeShare": 0.4667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -977,6 +1613,26 @@
           "text": "so was price",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "they aren't completely necessary, just more of a convenience",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-dreampreps-witch-hazel-facial-pads"
+        },
+        {
+          "text": "supplies are relatively inexpensive",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "Worth the price",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-dreampreps-witch-hazel-facial-pads"
+        },
+        {
+          "text": "the single-use ports are recyclable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
@@ -989,20 +1645,46 @@
           "text": "Additional boxes of 16 cost 29.00",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "I also may not keep using this past the startup kit just due to cost",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
+        },
+        {
+          "text": "if you don't have insurance, this system may pose a cost factor",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "My only quibble is the cost of the adhesive ports",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "it seems expensive to continue",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "The adhesive ports are pricey",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 77,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.7,
       "reviewCount": 50,
       "reviewShare": 0.4065,
-      "positiveReviews": 39,
-      "mixedReviews": 2,
+      "positiveReviews": 40,
+      "neutralReviews": 1,
       "negativeReviews": 9,
-      "positiveShare": 0.78,
+      "positiveShare": 0.8,
       "negativeShare": 0.18,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1068,19 +1750,59 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I slept for 10 hours the first night I used the Bleep DreamPort",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "This will change everything for those who can use nasal only cpap solutions",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/dreamport-adhesive-patches-16-night-supply"
+        },
+        {
+          "text": "First and only CPAP interface I have been able to tolerate",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "Once I fell asleep I was out for the night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "I slept for 10 hours the first night I used the Bleep DreamPort",
+          "text": "the best is a full night of good restorative sleep",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "Best most restful sleep in 20+ yrs of cpap use!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "I slept through a full night using the Dreamport",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "it is the answer to a good nights sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "Dreamports are the ONLY mask I can wear",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "The only thing I e slept good with",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I could not go to sleep",
+          "text": "I tried for about 30 minutes and ended up going back to my old nasal pillow setup",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
@@ -1088,6 +1810,46 @@
           "text": "I tried it for several nights with zero success",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "prior to this I woke up every 20 30 minutes - adjusting masks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "Can't wear it all night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "waking me up",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "a rush of air would wake me up from a deep sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "after five nights of trying, I had to send it back",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "More events per night according to my res med device",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "I was using nasal pillows with very little success",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "my sleep ratings are not as good as they were",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ]
     }
@@ -1096,14 +1858,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 80,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 8.0,
       "reviewCount": 75,
       "reviewShare": 0.6098,
-      "positiveReviews": 58,
-      "mixedReviews": 6,
+      "positiveReviews": 61,
+      "neutralReviews": 3,
       "negativeReviews": 11,
-      "positiveShare": 0.7733,
+      "positiveShare": 0.8133,
       "negativeShare": 0.1467,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1164,24 +1927,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "What a difference!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "The BleepSleep DreamPorts give a freedom that I never imagined would ever be possible",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "Best mask available",
+          "text": "It is just wonderful to not be dealing with straps",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Useless mask",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "I was terribly disappointed with this",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "Can't even imagine anyone using",
+          "text": "Now the entire purchase us useless",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
@@ -1190,14 +1953,15 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 71,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 7.1,
       "reviewCount": 52,
       "reviewShare": 0.4228,
-      "positiveReviews": 35,
-      "mixedReviews": 3,
+      "positiveReviews": 38,
+      "neutralReviews": 0,
       "negativeReviews": 14,
-      "positiveShare": 0.6731,
+      "positiveShare": 0.7308,
       "negativeShare": 0.2692,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1273,12 +2037,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Absolutely no leaks",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "No more waking to fix air leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "without leaks",
+          "text": "does not leak at all",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
@@ -1299,14 +2063,15 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 68,
+      "score": 78,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 45,
       "reviewShare": 0.3659,
-      "positiveReviews": 30,
-      "mixedReviews": 5,
+      "positiveReviews": 34,
+      "neutralReviews": 1,
       "negativeReviews": 10,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.7556,
       "negativeShare": 0.2222,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1377,14 +2142,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "it has no headgear",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
-        {
           "text": "No more hassle no more straps across my Cheri",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "it has no headgear",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "negativeEvidence": [
@@ -1394,23 +2159,24 @@
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "The tubes need a better connect and disconnect to/from the vent tube",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "if you have to blow your nose, you have to put on new sticky pads",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ]
     },
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 73,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 42,
       "reviewShare": 0.3415,
-      "positiveReviews": 31,
-      "mixedReviews": 3,
+      "positiveReviews": 32,
+      "neutralReviews": 2,
       "negativeReviews": 8,
-      "positiveShare": 0.7381,
+      "positiveShare": 0.7619,
       "negativeShare": 0.1905,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1491,12 +2257,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Great system for those who hate head straps!",
+          "text": "the Bleep system is so much more comfortable than any of them",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "It has truly made the CPAP experience comfortable for me!",
+          "text": "no more straps across my Cheri or forehead it’s just amazing",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -1517,12 +2283,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 80,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 8.0,
       "reviewCount": 28,
       "reviewShare": 0.2276,
       "positiveReviews": 23,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.8214,
       "negativeShare": 0.1786,
@@ -1580,9 +2347,9 @@
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "I actually got a good night sleep",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "the best is a full night of good restorative sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
@@ -1601,14 +2368,15 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 53,
+      "score": 49,
+      "grade": "D",
       "averageSentiment": 5.3,
       "reviewCount": 28,
       "reviewShare": 0.2276,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
+      "positiveReviews": 13,
+      "neutralReviews": 0,
       "negativeReviews": 15,
-      "positiveShare": 0.4286,
+      "positiveShare": 0.4643,
       "negativeShare": 0.5357,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1694,9 +2462,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "It never moves",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "SAY GOODBYE TO LEAKS, STRAPS, AND RESTRICTED MOBILITY",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/dreamport-adhesive-patches-16-night-supply"
         },
         {
           "text": "No masks getting shifted!",
@@ -1706,7 +2474,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Does not stay connected",
+          "text": "The strips keep falling off and do not stick",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
@@ -1720,14 +2488,15 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 61,
+      "score": 67,
+      "grade": "C+",
       "averageSentiment": 6.1,
       "reviewCount": 23,
       "reviewShare": 0.187,
-      "positiveReviews": 12,
-      "mixedReviews": 4,
+      "positiveReviews": 14,
+      "neutralReviews": 2,
       "negativeReviews": 7,
-      "positiveShare": 0.5217,
+      "positiveShare": 0.6087,
       "negativeShare": 0.3043,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1808,9 +2577,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "This mask is attached directly to the nose by adhesive strips",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "If you follow the directions and use alcohol to clean your skin where the tape goes, it sticks VERY well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
           "text": "Searching for a mask for my small face has been the search for the Holy Grail",
@@ -1834,14 +2603,15 @@
     {
       "id": "noise",
       "label": "Noise",
-      "score": 72,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 7.2,
       "reviewCount": 19,
       "reviewShare": 0.1545,
-      "positiveReviews": 11,
-      "mixedReviews": 3,
+      "positiveReviews": 14,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.5789,
+      "positiveShare": 0.7368,
       "negativeShare": 0.2632,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1882,9 +2652,9 @@
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "Quiet",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "No more waking to fix air leaks, noise",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
@@ -1894,23 +2664,24 @@
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "works but noisy",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "I personally found the venting a little noisy",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ]
     },
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 78,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 7.8,
       "reviewCount": 16,
       "reviewShare": 0.1301,
-      "positiveReviews": 13,
-      "mixedReviews": 1,
+      "positiveReviews": 14,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.8125,
+      "positiveShare": 0.875,
       "negativeShare": 0.125,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1957,12 +2728,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "I was using nasal pillows with very little success",
+          "text": "More events per night according to my res med device",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "More events per night according to my res med device",
+          "text": "I was using nasal pillows with very little success",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
@@ -1971,12 +2742,13 @@
     {
       "id": "face_marks",
       "label": "Face Marks",
-      "score": 89,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 8.9,
       "reviewCount": 14,
       "reviewShare": 0.1138,
       "positiveReviews": 13,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9286,
       "negativeShare": 0.0714,
@@ -2023,12 +2795,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Finally, NO LINES!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "no headgear to mess with so no strap marks n my cheeks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "It doesn't leave marks on my face",
+          "text": "a face that looked great, no lines, no marks, no bruising",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -2044,14 +2816,15 @@
     {
       "id": "learning_curve",
       "label": "Learning Curve",
-      "score": 63,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 6.3,
       "reviewCount": 14,
       "reviewShare": 0.1138,
-      "positiveReviews": 6,
-      "mixedReviews": 5,
+      "positiveReviews": 11,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.4286,
+      "positiveShare": 0.7857,
       "negativeShare": 0.2143,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -2082,7 +2855,7 @@
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "It does take some work to figure out how to use it",
+          "text": "Perhaps this would have gotten better with practice - didn't make it that far",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -2091,12 +2864,13 @@
     {
       "id": "pain",
       "label": "Pain",
-      "score": 36,
+      "score": 23,
+      "grade": "F",
       "averageSentiment": 3.6,
       "reviewCount": 14,
       "reviewShare": 0.1138,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 11,
       "positiveShare": 0.2143,
       "negativeShare": 0.7857,
@@ -2171,21 +2945,22 @@
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "water balloons under the eyes",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "every mask I’ve used would pull on my neck making my back hurt more",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ]
     },
     {
       "id": "putting_on",
       "label": "Putting On",
-      "score": 44,
+      "score": 29,
+      "grade": "F",
       "averageSentiment": 4.4,
       "reviewCount": 13,
       "reviewShare": 0.1057,
       "positiveReviews": 3,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 9,
       "positiveShare": 0.2308,
       "negativeShare": 0.6923,
@@ -2255,9 +3030,9 @@
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "Difficult to put on",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "I found it impossible to apply without using a mirror",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ]
     },
@@ -2265,11 +3040,12 @@
       "id": "access_to_face",
       "label": "Access To Face",
       "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.9,
       "reviewCount": 12,
       "reviewShare": 0.0976,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -2332,24 +3108,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "nothing pressing on my upper lip at all",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
-        {
           "text": "cannot have any straps or a mask touching my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "nothing pressing on my upper lip at all",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "very hard to access",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "your nostrils are completely blocked by the hardware",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "your nostrils are completely blocked by the hardware",
+          "text": "do not like anything covering my face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
@@ -2358,14 +3134,15 @@
     {
       "id": "skin_reaction",
       "label": "Skin Reaction",
-      "score": 66,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.6,
       "reviewCount": 12,
       "reviewShare": 0.0976,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.5833,
+      "positiveShare": 0.6667,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2436,26 +3213,26 @@
       ],
       "positiveEvidence": [
         {
-          "text": "My cheek is healing finally!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
-        {
           "text": "I have allergies and my skin is very sensitive",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
+        },
+        {
+          "text": "My cheek is healing finally!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "leaving wrinkles and puffiness",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-        },
-        {
           "text": "the sticky residue left behind when I took off the adhesive pads",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "my skin around my nose is not liking it so much.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ]
     },
@@ -2463,11 +3240,12 @@
       "id": "therapy_compliance",
       "label": "Therapy Compliance",
       "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.5,
       "reviewCount": 11,
       "reviewShare": 0.0894,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.6364,
       "negativeShare": 0.3636,
@@ -2483,14 +3261,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "First and only CPAP interface I have been able to tolerate",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "Dreamports are the ONLY mask I can wear",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
-        {
-          "text": "can use my cpap every night",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
@@ -2509,14 +3287,15 @@
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 84,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 8.4,
       "reviewCount": 10,
       "reviewShare": 0.0813,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.8,
+      "positiveShare": 0.9,
       "negativeShare": 0.1,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -2540,14 +3319,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I can sleep in any position",
+          "text": "or stomach without leaks or feeling the mask hurt my face waking up constantly to adjust",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "I can finally sleep on my side",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "Basically I am a side sleeper - and again this is amazing",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
@@ -2561,14 +3340,15 @@
     {
       "id": "irritation",
       "label": "Irritation",
-      "score": 62,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 9,
       "reviewShare": 0.0732,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.5556,
+      "positiveShare": 0.6667,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2639,9 +3419,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "It doesn't irritate my skin",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "I do not get any soreness on my nose at all",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
           "text": "getting the air out of my eyes",
@@ -2665,14 +3445,15 @@
     {
       "id": "pressure",
       "label": "Pressure",
-      "score": 66,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.6,
       "reviewCount": 9,
       "reviewShare": 0.0732,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.5556,
+      "positiveShare": 0.6667,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2738,24 +3519,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "No pressure anywhere on the head or face",
+          "text": "this mask doesn't put any pressure on my teeth",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "this mask doesn't put any pressure on my teeth",
+          "text": "No pressure anywhere on the head or face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "they push up and on to the fragile skin under my eyes",
+          "text": "the place where the nasal adaptors hook to the hose at the level of the nose is sharp and puts uncomfortable pressure on the upper…",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "the place where the nasal adaptors hook to the hose at the level of the nose is sharp and puts uncomfortable pressure on the upper…",
+          "text": "they push up and on to the fragile skin under my eyes",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -2764,14 +3545,15 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 48,
+      "score": 54,
+      "grade": "D+",
       "averageSentiment": 4.8,
       "reviewCount": 8,
       "reviewShare": 0.065,
-      "positiveReviews": 1,
-      "mixedReviews": 4,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 3,
-      "positiveShare": 0.125,
+      "positiveShare": 0.5,
       "negativeShare": 0.375,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2832,12 +3614,13 @@
     {
       "id": "airflow",
       "label": "Airflow",
-      "score": 49,
+      "score": 40,
+      "grade": "D-",
       "averageSentiment": 4.9,
       "reviewCount": 8,
       "reviewShare": 0.065,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.375,
       "negativeShare": 0.625,
@@ -2900,9 +3683,9 @@
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "new up-dated Vent Diffuser",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
+          "text": "increased air to my nasal passages",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "negativeEvidence": [
@@ -2921,14 +3704,15 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 58,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 5.8,
       "reviewCount": 8,
       "reviewShare": 0.065,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.625,
+      "positiveShare": 0.75,
       "negativeShare": 0.25,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2947,7 +3731,7 @@
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "Worth the price",
+          "text": "they aren't completely necessary, just more of a convenience",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/bleep-dreampreps-witch-hazel-facial-pads"
         }
@@ -2968,14 +3752,15 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 67,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 6.7,
       "reviewCount": 7,
       "reviewShare": 0.0569,
-      "positiveReviews": 4,
-      "mixedReviews": 2,
+      "positiveReviews": 5,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.5714,
+      "positiveShare": 0.7143,
       "negativeShare": 0.1429,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3005,9 +3790,9 @@
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "after trying many different masks and products for dry mouth",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "Went through several nasal masks and nothing worked well for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
@@ -3021,12 +3806,13 @@
     {
       "id": "price",
       "label": "Price",
-      "score": 39,
+      "score": 22,
+      "grade": "F",
       "averageSentiment": 3.9,
       "reviewCount": 7,
       "reviewShare": 0.0569,
       "positiveReviews": 1,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 5,
       "positiveShare": 0.1429,
       "negativeShare": 0.7143,
@@ -3054,21 +3840,22 @@
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "if you don't have insurance, this system may pose a cost factor",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "I also may not keep using this past the startup kit just due to cost",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
         }
       ]
     },
     {
       "id": "breakage",
       "label": "Breakage",
-      "score": 22,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.2,
       "reviewCount": 6,
       "reviewShare": 0.0488,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -3130,12 +3917,13 @@
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 32,
+      "score": 17,
+      "grade": "F-",
       "averageSentiment": 3.2,
       "reviewCount": 6,
       "reviewShare": 0.0488,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.1667,
       "negativeShare": 0.8333,
@@ -3178,12 +3966,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "they were glued the paper without any real consistency",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "cheap plastic pins that you had to squeeze to put them in or remove them",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "all parts cheaply made and flimsy",
+          "text": "they were glued the paper without any real consistency",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -3192,14 +3980,15 @@
     {
       "id": "appearance",
       "label": "Appearance",
-      "score": 62,
+      "score": 78,
+      "grade": "B",
       "averageSentiment": 6.2,
       "reviewCount": 5,
       "reviewShare": 0.0407,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.6,
+      "positiveShare": 0.8,
       "negativeShare": 0.2,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3251,14 +4040,15 @@
     {
       "id": "cleaning",
       "label": "Cleaning",
-      "score": 58,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 5.8,
       "reviewCount": 5,
       "reviewShare": 0.0407,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.4,
+      "positiveShare": 0.6,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3309,12 +4099,13 @@
     {
       "id": "instructions",
       "label": "Instructions",
-      "score": 66,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.6,
       "reviewCount": 5,
       "reviewShare": 0.0407,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -3346,12 +4137,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Great instructions",
+          "text": "the videos on the Bleep website are great at explaining how to use the system",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "the videos on the Bleep website are great at explaining how to use the system",
+          "text": "Great instructions",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -3372,12 +4163,13 @@
     {
       "id": "movement_compatibility",
       "label": "Movement Compatibility",
-      "score": 80,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 8.0,
       "reviewCount": 5,
       "reviewShare": 0.0407,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -3436,12 +4228,13 @@
     {
       "id": "soreness",
       "label": "Soreness",
-      "score": 44,
+      "score": 32,
+      "grade": "F+",
       "averageSentiment": 4.4,
       "reviewCount": 5,
       "reviewShare": 0.0407,
       "positiveReviews": 1,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.2,
       "negativeShare": 0.6,
@@ -3496,26 +4289,27 @@
       ],
       "negativeEvidence": [
         {
-          "text": "nasal sores",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
-        {
           "text": "Always woke up with a stiff neck",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "nasal sores",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ]
     },
     {
       "id": "weight",
       "label": "Weight",
-      "score": 88,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 5,
       "reviewShare": 0.0407,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -3558,9 +4352,9 @@
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "Lightweight",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "It's light weight",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "negativeEvidence": []
@@ -3570,14 +4364,15 @@
     {
       "id": "replacement_part",
       "label": "Replacement Part",
-      "score": 49,
+      "score": 46,
+      "grade": "D",
       "averageSentiment": 4.9,
       "reviewCount": 26,
       "reviewShare": 0.2114,
-      "positiveReviews": 8,
-      "mixedReviews": 5,
+      "positiveReviews": 11,
+      "neutralReviews": 2,
       "negativeReviews": 13,
-      "positiveShare": 0.3077,
+      "positiveShare": 0.4231,
       "negativeShare": 0.5,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3645,28 +4440,62 @@
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "Kept coming apart all night",
+          "text": "if you have to blow your nose, you have to put on new sticky pads",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "One box of the nasal pillows was empty",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "the sticky residue left behind when I took off the adhesive pads",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
-      "praisedAspects": [],
+      "praisedAspects": [
+        {
+          "id": "ease_of_use",
+          "label": "Ease Of Use",
+          "score": 82,
+          "grade": "B+",
+          "averageSentiment": 6.2,
+          "reviewCount": 6,
+          "reviewShare": 0.0488,
+          "positiveReviews": 5,
+          "neutralReviews": 0,
+          "negativeReviews": 1,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "the process is smooth and quick now",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+            },
+            {
+              "text": "I do have a nasal pillow that I use if I get to bed late and don't want to mess with positioning the adhesive patches",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "if you have to blow your nose, you have to put on new sticky pads",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+            }
+          ]
+        }
+      ],
       "criticizedAspects": []
     },
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 65,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.5,
       "reviewCount": 25,
       "reviewShare": 0.2033,
       "positiveReviews": 15,
-      "mixedReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 7,
       "positiveShare": 0.6,
       "negativeShare": 0.28,
@@ -3724,19 +4553,19 @@
       ],
       "positiveEvidence": [
         {
-          "text": "it has no headgear",
+          "text": "no headgear to mess with so no strap marks n my cheeks",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "no more straps across my Cheri or forehead it’s just amazing",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
           "text": "no straps or head gear",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/bleep-dreampreps-witch-hazel-facial-pads"
-        },
-        {
-          "text": "GREAT PRODUCT!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "negativeEvidence": [
@@ -3746,38 +4575,39 @@
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "really hated the strap across my head",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
-        {
           "text": "any type of head gear was killing me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "really hated the strap across my head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "praisedAspects": [
         {
           "id": "overall_satisfaction",
           "label": "Overall Satisfaction",
-          "score": 84,
+          "score": 91,
+          "grade": "A",
           "averageSentiment": 8.4,
           "reviewCount": 9,
           "reviewShare": 0.0732,
           "positiveReviews": 8,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "GREAT PRODUCT!",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-            },
-            {
               "text": "Free at last!!!",
               "retailer": "DirectHomeMedical",
               "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+            },
+            {
+              "text": "GREAT PRODUCT!",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
             }
           ],
           "negativeEvidence": [
@@ -3793,12 +4623,13 @@
         {
           "id": "pain",
           "label": "Pain",
-          "score": 18,
+          "score": 0,
+          "grade": "F-",
           "averageSentiment": 1.8,
           "reviewCount": 5,
           "reviewShare": 0.0407,
           "positiveReviews": 0,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 5,
           "evidenceStrength": "limited",
           "positiveEvidence": [],
@@ -3809,9 +4640,9 @@
               "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
             },
             {
-              "text": "no headgear giving me headaches at night either",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+              "text": "severe headaches from the straps of the other style of headgear",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
             }
           ]
         }
@@ -3820,14 +4651,15 @@
     {
       "id": "connector",
       "label": "Connector",
-      "score": 44,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.4,
       "reviewCount": 20,
       "reviewShare": 0.1626,
-      "positiveReviews": 6,
-      "mixedReviews": 1,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
       "negativeReviews": 13,
-      "positiveShare": 0.3,
+      "positiveShare": 0.35,
       "negativeShare": 0.65,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3873,34 +4705,34 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Game changer",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/bleep-dreampreps-witch-hazel-facial-pads"
-        },
-        {
           "text": "Didn't have any trouble attaching the ports",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "once I got the process down it is the comfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "Game changer",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/bleep-dreampreps-witch-hazel-facial-pads"
+        },
+        {
+          "text": "I was actually able to do this easier without using a mirror and just feeling to ensure the ports were inline with the mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "negativeEvidence": [
-        {
-          "text": "The nasal ports do not quickly connect to the flex hose",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
         {
           "text": "After only two uses the connection plastic between hose and disposable nose portal became detached and is no longer to be found",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "The tubes need a better connect and disconnect to/from the vent tube",
+          "text": "The nasal ports do not quickly connect to the flex hose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "the place where the nasal adaptors hook to the hose at the level of the nose is sharp and puts uncomfortable pressure on the upper…",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -3911,14 +4743,15 @@
     {
       "id": "nasal_pillows",
       "label": "Nasal Pillows",
-      "score": 47,
+      "score": 37,
+      "grade": "F+",
       "averageSentiment": 4.7,
       "reviewCount": 20,
       "reviewShare": 0.1626,
-      "positiveReviews": 6,
-      "mixedReviews": 1,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
       "negativeReviews": 13,
-      "positiveShare": 0.3,
+      "positiveShare": 0.35,
       "negativeShare": 0.65,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3979,14 +4812,14 @@
       ],
       "positiveEvidence": [
         {
+          "text": "without the constant readjusting of masks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "Couldn’t be happier",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
-        {
-          "text": "No hair pulling",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
           "text": "The mask is excellent",
@@ -3996,6 +4829,11 @@
       ],
       "negativeEvidence": [
         {
+          "text": "even the nasal pillows I couldnt take",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "I could not go to sleep",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
@@ -4004,33 +4842,29 @@
           "text": "Useless mask",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
-        {
-          "text": "even the nasal pillows I couldnt take",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "praisedAspects": [
         {
           "id": "fit",
           "label": "Fit",
-          "score": 76,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 7.6,
           "reviewCount": 5,
           "reviewShare": 0.0407,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "You cut the tape to fit your nose",
-              "retailer": "DirectHomeMedical",
-              "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+              "text": "glue nasal pillows or something similar directly to my nose",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
             },
             {
-              "text": "glue nasal pillows or something similar directly to my nose",
+              "text": "Once you get use to properly installing the nose pieces",
               "retailer": "CPAP.com",
               "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
             }
@@ -4043,12 +4877,13 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 53,
+      "score": 45,
+      "grade": "D",
       "averageSentiment": 5.3,
       "reviewCount": 18,
       "reviewShare": 0.1463,
       "positiveReviews": 6,
-      "mixedReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 9,
       "positiveShare": 0.3333,
       "negativeShare": 0.5,
@@ -4111,17 +4946,17 @@
       ],
       "positiveEvidence": [
         {
+          "text": "The BleepSleep DreamPorts give a freedom that I never imagined would ever be possible",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "No pressure anywhere on the head or face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
           "text": "With the Bleep System I have no pain",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-        },
-        {
-          "text": "The BleepSleep DreamPorts give a freedom that I never imagined would ever be possible",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -4138,7 +4973,7 @@
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "water balloons under the eyes",
+          "text": "I would like this mask more if it would stay on my face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
@@ -4149,14 +4984,15 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 57,
+      "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 12,
       "reviewShare": 0.0976,
-      "positiveReviews": 5,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.4167,
+      "positiveShare": 0.5833,
       "negativeShare": 0.4167,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4212,7 +5048,7 @@
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "all of those issues were resolved",
+          "text": "I have very sensitive skin, but the adhesive in the DreamPorts doesn't cause me any issues",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
@@ -4224,6 +5060,11 @@
       ],
       "negativeEvidence": [
         {
+          "text": "it tends to pull the tape away from that area, creating a leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "it is difficult to get the nose piece to seal",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
@@ -4232,11 +5073,6 @@
           "text": "I found it impossible to apply without using a mirror",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
-        {
-          "text": "it tends to pull the tape away from that area, creating a leak",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "praisedAspects": [],
@@ -4245,12 +5081,13 @@
     {
       "id": "hose",
       "label": "Hose",
-      "score": 49,
+      "score": 39,
+      "grade": "F+",
       "averageSentiment": 4.9,
       "reviewCount": 11,
       "reviewShare": 0.0894,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.3636,
       "negativeShare": 0.6364,
@@ -4278,17 +5115,17 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I have felt that the more flexible hose made the mask more comfortable",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
-        {
           "text": "All I have to do is attach the hose before turning in - I have even learned how to attach the hose in the dark…",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
           "text": "I clip the hose to my pj's so it doesn't pull on my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "finding a hose management system that took the pressure off my nose was key",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
@@ -4300,12 +5137,12 @@
           "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
         },
         {
-          "text": "The hose came off twice as I tossed from side to side",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "The hose on the dreamport is rather flimsy and becomes detached on either end rather easily",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "the hose coming apart",
+          "text": "The hose came off twice as I tossed from side to side",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
@@ -4316,14 +5153,15 @@
     {
       "id": "vent",
       "label": "Vent",
-      "score": 62,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 11,
       "reviewShare": 0.0894,
-      "positiveReviews": 6,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 1,
       "negativeReviews": 3,
-      "positiveShare": 0.5455,
+      "positiveShare": 0.6364,
       "negativeShare": 0.2727,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4369,12 +5207,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "free from noise",
+          "text": "It is the most silent system I’ve used.",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "It is the most silent system I’ve used.",
+          "text": "free from noise",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
@@ -4396,7 +5234,7 @@
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "the noise from the vents",
+          "text": "no little spurts of air leaking out when I turn over and drying out my eyes",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
@@ -4407,12 +5245,13 @@
     {
       "id": "strap",
       "label": "Strap",
-      "score": 79,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.9,
       "reviewCount": 10,
       "reviewShare": 0.0813,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -4455,12 +5294,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "No straps sliding off!",
+          "text": "cannot have any straps or a mask touching my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "cannot have any straps or a mask touching my face",
+          "text": "It is just wonderful to not be dealing with straps",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
@@ -4488,12 +5327,13 @@
     {
       "id": "cushion_seal",
       "label": "Cushion Seal",
-      "score": 70,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 7.0,
       "reviewCount": 7,
       "reviewShare": 0.0569,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.7143,
       "negativeShare": 0.2857,
@@ -4520,12 +5360,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "free from leaks",
+          "text": "the seal is complete",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "the seal is complete",
+          "text": "free from leaks",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
@@ -4537,12 +5377,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Kept leaking air",
+          "text": "I could not get a decent seal with the adhesive pads",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "I could not get a decent seal with the adhesive pads",
+          "text": "Kept leaking air",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
@@ -4555,12 +5395,13 @@
     {
       "id": "connector|ease_of_use",
       "label": "Connector · Ease Of Use",
-      "score": 52,
+      "score": 55,
+      "grade": "C-",
       "averageSentiment": 5.2,
       "reviewCount": 9,
       "reviewShare": 0.0732,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4585,17 +5426,18 @@
     {
       "id": "headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 59,
+      "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.9,
       "reviewCount": 9,
       "reviewShare": 0.0732,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "free from headgear",
+          "text": "no more straps across my Cheri or forehead it’s just amazing",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -4615,19 +5457,20 @@
     {
       "id": "headgear|overall_satisfaction",
       "label": "Headgear · Overall Satisfaction",
-      "score": 84,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 8.4,
       "reviewCount": 9,
       "reviewShare": 0.0732,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "GREAT PRODUCT!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "Free at last!!!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
@@ -4645,17 +5488,18 @@
     {
       "id": "vent|noise",
       "label": "Vent · Noise",
-      "score": 62,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 9,
       "reviewShare": 0.0732,
-      "positiveReviews": 4,
-      "mixedReviews": 2,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "free from noise",
+          "text": "It is the most silent system I’ve used.",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -4675,24 +5519,25 @@
     {
       "id": "cushion_seal|seal_leak",
       "label": "Cushion Seal · Seal Leak",
-      "score": 67,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.7,
       "reviewCount": 6,
       "reviewShare": 0.0488,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "free from leaks",
+          "text": "the seal is complete",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Kept leaking air",
+          "text": "I could not get a decent seal with the adhesive pads",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
@@ -4705,12 +5550,13 @@
     {
       "id": "mask_body|overall_satisfaction",
       "label": "Mask Body · Overall Satisfaction",
-      "score": 58,
+      "score": 53,
+      "grade": "D+",
       "averageSentiment": 5.8,
       "reviewCount": 6,
       "reviewShare": 0.0488,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4735,12 +5581,13 @@
     {
       "id": "replacement_part|ease_of_use",
       "label": "Replacement Part · Ease Of Use",
-      "score": 62,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 6.2,
       "reviewCount": 6,
       "reviewShare": 0.0488,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4765,12 +5612,13 @@
     {
       "id": "cushion|seal_leak",
       "label": "Cushion · Seal Leak",
-      "score": 42,
+      "score": 39,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 5,
       "reviewShare": 0.0407,
-      "positiveReviews": 1,
-      "mixedReviews": 1,
+      "positiveReviews": 2,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4782,9 +5630,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "it is difficult to get the nose piece to seal",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "it tends to pull the tape away from that area, creating a leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "partId": "cushion",
@@ -4795,19 +5643,20 @@
     {
       "id": "headgear|ease_of_use",
       "label": "Headgear · Ease Of Use",
-      "score": 82,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 8.2,
       "reviewCount": 5,
       "reviewShare": 0.0407,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "it has no headgear",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "No more hassle no more straps across my Cheri",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
@@ -4825,12 +5674,13 @@
     {
       "id": "headgear|pain",
       "label": "Headgear · Pain",
-      "score": 18,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 1.8,
       "reviewCount": 5,
       "reviewShare": 0.0407,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "evidenceStrength": "limited",
       "positiveEvidence": [],
@@ -4849,15 +5699,22 @@
     {
       "id": "mask_body|fit",
       "label": "Mask Body · Fit",
-      "score": 40,
+      "score": 19,
+      "grade": "F-",
       "averageSentiment": 4.0,
       "reviewCount": 5,
       "reviewShare": 0.0407,
-      "positiveReviews": 0,
-      "mixedReviews": 1,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
-      "positiveEvidence": [],
+      "positiveEvidence": [
+        {
+          "text": "It took a little trial and error",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        }
+      ],
       "negativeEvidence": [
         {
           "text": "there are some fairly serious design flaws that could be addressed",
@@ -4873,19 +5730,20 @@
     {
       "id": "nasal_pillows|fit",
       "label": "Nasal Pillows · Fit",
-      "score": 76,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.6,
       "reviewCount": 5,
       "reviewShare": 0.0407,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "You cut the tape to fit your nose",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "glue nasal pillows or something similar directly to my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "negativeEvidence": [],
@@ -4899,12 +5757,13 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 70,
+      "score": 72,
+      "grade": "B-",
       "averageSentiment": 7.0,
       "reviewCount": 11,
       "reviewShare": 0.0894,
       "positiveReviews": 7,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.6364,
       "negativeShare": 0.2727,
@@ -4952,14 +5811,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I can finally sleep on my side",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
-        {
           "text": "Basically I am a side sleeper - and again this is amazing",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "I can finally sleep on my side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "negativeEvidence": [
@@ -4983,12 +5842,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 52,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.2,
       "reviewCount": 8,
       "reviewShare": 0.065,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -5035,14 +5895,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "Basically I put it on and never think of it again until I take off in the morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
           "text": "Despite all my turning it stayed secure all night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
-        {
-          "text": "stays in place the entire night",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
@@ -5052,7 +5912,7 @@
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "Kept coming apart all night",
+          "text": "it will come apart, if you move too much",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
@@ -5068,14 +5928,15 @@
     {
       "id": "easy-on-off",
       "label": "People who need easy on/off handling",
-      "score": 52,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.2,
       "reviewCount": 8,
       "reviewShare": 0.065,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.375,
+      "positiveShare": 0.5,
       "negativeShare": 0.5,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -5143,14 +6004,14 @@
       ],
       "negativeEvidence": [
         {
-          "text": "I hate and could not get used to head sets",
+          "text": "If you get up during the night, you can't take the mask off",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "If you get up during the night, you can't take the mask off",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "I worry every night I'm going to totally break the clips",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "sourceContexts": [
@@ -5164,12 +6025,13 @@
     {
       "id": "long-term-users",
       "label": "Long-term CPAP users",
-      "score": 89,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.9,
       "reviewCount": 7,
       "reviewShare": 0.0569,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -5185,14 +6047,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Simply the best.",
+          "text": "Best most restful sleep in 20+ yrs of cpap use!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         },
         {
-          "text": "Best most restful sleep in 20+ yrs of cpap use!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+          "text": "This mask is excellent",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "negativeEvidence": [],
@@ -5205,12 +6067,13 @@
     {
       "id": "sensitive-skin",
       "label": "People with sensitive skin",
-      "score": 70,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 7.0,
       "reviewCount": 5,
       "reviewShare": 0.0407,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -5258,26 +6121,26 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Lifesaver!!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-        },
-        {
           "text": "I have allergies and my skin is very sensitive",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
+        },
+        {
+          "text": "Lifesaver!!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "no little spurts of air leaking out when I turn over and drying out my eyes",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
           "text": "People with sensitive skin may get irritation from the adhesive",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
-        },
-        {
-          "text": "I personally found the venting a little noisy",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
       ],
       "sourceContexts": [
@@ -5292,19 +6155,20 @@
     {
       "id": "side-sleepers|sleep_position_compatibility",
       "label": "Side sleepers · Sleep Position Compatibility",
-      "score": 82,
+      "score": 90,
+      "grade": "A",
       "averageSentiment": 8.2,
       "reviewCount": 9,
       "reviewShare": 0.0732,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "I can finally sleep on my side",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "text": "Basically I am a side sleeper - and again this is amazing",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ],
       "negativeEvidence": [
@@ -5322,12 +6186,13 @@
     {
       "id": "active-sleepers|stability",
       "label": "Active or restless sleepers · Stability",
-      "score": 50,
+      "score": 43,
+      "grade": "D-",
       "averageSentiment": 5.0,
       "reviewCount": 5,
       "reviewShare": 0.0407,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5339,7 +6204,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Kept coming apart all night",
+          "text": "it will come apart, if you move too much",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         }
@@ -5358,14 +6223,15 @@
     {
       "id": "nose",
       "label": "Nose",
-      "score": 52,
+      "score": 49,
+      "grade": "D",
       "averageSentiment": 5.2,
       "reviewCount": 40,
       "reviewShare": 0.3252,
-      "positiveReviews": 17,
-      "mixedReviews": 2,
+      "positiveReviews": 19,
+      "neutralReviews": 0,
       "negativeReviews": 21,
-      "positiveShare": 0.425,
+      "positiveShare": 0.475,
       "negativeShare": 0.525,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -5433,17 +6299,17 @@
       ],
       "negativeEvidence": [
         {
-          "text": "it makes my nose itch",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-        },
-        {
-          "text": "nasal sores",
+          "text": "if you have to blow your nose, you have to put on new sticky pads",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
-          "text": "Nasal pillows hurt my nose",
+          "text": "I would like this mask more if it would stay on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        },
+        {
+          "text": "my skin around my nose is not liking it so much.",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -5509,12 +6375,13 @@
     {
       "id": "nostrils",
       "label": "Nostrils",
-      "score": 49,
+      "score": 40,
+      "grade": "D-",
       "averageSentiment": 4.9,
       "reviewCount": 8,
       "reviewShare": 0.065,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.375,
       "negativeShare": 0.625,
@@ -5574,14 +6441,14 @@
       ],
       "negativeEvidence": [
         {
-          "text": "your nostrils are completely blocked by the hardware",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        },
-        {
-          "text": "cause pain",
+          "text": "it tends to pull the tape away from that area, creating a leak",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        },
+        {
+          "text": "if the inside of your nose itches, you can't scratch it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
         },
         {
           "text": "difficult to get the clips to secure on the nostril pieces",
@@ -5647,185 +6514,37 @@
   "interactionInsights": [],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 53,
-      "reviewShare": 0.4309,
-      "positiveReviews": 41,
-      "mixedReviews": 6,
-      "negativeReviews": 6,
-      "positiveShare": 0.7736,
-      "negativeShare": 0.1132,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "What a difference!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Can't even imagine anyone using",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        }
-      ]
-    },
-    {
-      "id": "|||seal_leak",
-      "label": "Seal Leak",
-      "score": 80,
-      "averageSentiment": 8.0,
-      "reviewCount": 29,
-      "reviewShare": 0.2358,
-      "positiveReviews": 23,
-      "mixedReviews": 0,
-      "negativeReviews": 6,
-      "positiveShare": 0.7931,
-      "negativeShare": 0.2069,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Absolutely no leaks",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "It won’t seal",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-        }
-      ]
-    },
-    {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 87,
-      "averageSentiment": 8.7,
-      "reviewCount": 21,
-      "reviewShare": 0.1707,
-      "positiveReviews": 19,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.9048,
-      "negativeShare": 0.0952,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Once I fell asleep I was out for the night",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "wakes me up",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 75,
-      "averageSentiment": 7.5,
-      "reviewCount": 20,
-      "reviewShare": 0.1626,
-      "positiveReviews": 15,
-      "mixedReviews": 1,
-      "negativeReviews": 4,
-      "positiveShare": 0.75,
-      "negativeShare": 0.2,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Great system for those who hate head straps!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "it just was too uncomfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-        }
-      ]
-    },
-    {
-      "id": "|||ease_of_use",
-      "label": "Ease Of Use",
-      "score": 80,
-      "averageSentiment": 8.0,
-      "reviewCount": 14,
-      "reviewShare": 0.1138,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
-      "negativeReviews": 1,
-      "positiveShare": 0.8571,
-      "negativeShare": 0.0714,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I was able to put the DreamPorts on with no problem",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Each night is one use, it was clumsy getting everything attached/sealed",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-        }
-      ]
-    },
-    {
-      "id": "|face||face_marks",
+      "id": "site|face|face_marks",
       "label": "Face · Face Marks",
-      "score": 87,
-      "averageSentiment": 8.7,
-      "reviewCount": 10,
-      "reviewShare": 0.0813,
-      "positiveReviews": 9,
-      "mixedReviews": 0,
+      "score": 92,
+      "grade": "A",
+      "averageSentiment": 8.8,
+      "reviewCount": 12,
+      "reviewShare": 0.0976,
+      "positiveReviews": 11,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.9,
-      "negativeShare": 0.1,
+      "positiveShare": 0.9167,
+      "negativeShare": 0.0833,
       "evidenceStrength": "limited",
-      "associatedParts": [],
+      "associatedParts": [
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 2
+        }
+      ],
       "associatedContexts": [],
       "associatedBodySites": [
         {
           "id": "face",
           "label": "Face",
-          "reviewCount": 10
+          "reviewCount": 12
         }
       ],
       "positiveEvidence": [
         {
-          "text": "Finally, NO LINES!",
+          "text": "a face that looked great, no lines, no marks, no bruising",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
@@ -5839,174 +6558,283 @@
       ]
     },
     {
-      "id": "headgear|||overall_satisfaction",
-      "label": "Headgear · Overall Satisfaction",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 9,
-      "reviewShare": 0.0732,
-      "positiveReviews": 8,
-      "mixedReviews": 0,
+      "id": "site|nose|fit",
+      "label": "Nose · Fit",
+      "score": 87,
+      "grade": "A-",
+      "averageSentiment": 7.1,
+      "reviewCount": 7,
+      "reviewShare": 0.0569,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.8889,
-      "negativeShare": 0.1111,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 3
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 7
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "This mask is attached directly to the nose by adhesive strips",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "harder to get used of using the nose plaster in the right position",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        }
+      ]
+    },
+    {
+      "id": "part|replacement_part|ease_of_use",
+      "label": "Replacement Part · Ease Of Use",
+      "score": 82,
+      "grade": "B+",
+      "averageSentiment": 6.2,
+      "reviewCount": 6,
+      "reviewShare": 0.0488,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "allergies",
+          "label": "Allergies",
+          "reviewCount": 1
+        },
+        {
+          "id": "getting_up_at_night",
+          "label": "Getting Up At Night",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the process is smooth and quick now",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "if you have to blow your nose, you have to put on new sticky pads",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        }
+      ]
+    },
+    {
+      "id": "site|skin|skin_reaction",
+      "label": "Skin · Skin Reaction",
+      "score": 86,
+      "grade": "A-",
+      "averageSentiment": 7.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0488,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "replacement_part",
+          "label": "Replacement Part",
+          "reviewCount": 2
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_liner",
+          "label": "Mask Liner",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "clean_shaven",
+          "label": "Clean Shaven",
+          "reviewCount": 1
+        },
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 6
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I have allergies and my skin is very sensitive",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/dreamport-cpap-mask-starter-kit-by-bleep"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "they really pull on clean, dry skin",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+        }
+      ]
+    },
+    {
+      "id": "part|nasal_pillows|fit",
+      "label": "Nasal Pillows · Fit",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 7.6,
+      "reviewCount": 5,
+      "reviewShare": 0.0407,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "glue nasal pillows or something similar directly to my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+        }
+      ],
+      "negativeEvidence": []
+    }
+  ],
+  "concerns": [
+    {
+      "id": "part|headgear|pain",
+      "label": "Headgear · Pain",
+      "score": 0,
+      "grade": "F-",
+      "averageSentiment": 1.8,
+      "reviewCount": 5,
+      "reviewShare": 0.0407,
+      "positiveReviews": 0,
+      "neutralReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "headgear",
           "label": "Headgear",
-          "reviewCount": 9
+          "reviewCount": 5
         }
       ],
       "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
+      "associatedBodySites": [
         {
-          "text": "GREAT PRODUCT!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 3
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "neck",
+          "label": "Neck",
+          "reviewCount": 1
         }
       ],
+      "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "Didn’t work for me!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-        }
-      ]
-    },
-    {
-      "id": "|||therapy_effectiveness",
-      "label": "Therapy Effectiveness",
-      "score": 80,
-      "averageSentiment": 8.0,
-      "reviewCount": 9,
-      "reviewShare": 0.0732,
-      "positiveReviews": 8,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.8889,
-      "negativeShare": 0.1111,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "the results are worth it",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "More events per night according to my res med device",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        }
-      ]
-    },
-    {
-      "id": "||side_sleeping|sleep_position_compatibility",
-      "label": "Side Sleeping · Sleep Position Compatibility",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 9,
-      "reviewShare": 0.0732,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
-      "negativeReviews": 1,
-      "positiveShare": 0.7778,
-      "negativeShare": 0.1111,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [
-        {
-          "id": "side_sleeping",
-          "label": "Side Sleeping",
-          "reviewCount": 9
-        }
-      ],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I can finally sleep on my side",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "it has little flexibility for side sleepers",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        }
-      ]
-    },
-    {
-      "id": "|||noise",
-      "label": "Noise",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 8,
-      "reviewShare": 0.065,
-      "positiveReviews": 6,
-      "mixedReviews": 1,
-      "negativeReviews": 1,
-      "positiveShare": 0.75,
-      "negativeShare": 0.125,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "it’s so quiet I have to check to make sure it’s on!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "works but noisy",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-        }
-      ]
-    },
-    {
-      "id": "|||stability",
-      "label": "Stability",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 6,
-      "reviewShare": 0.0488,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.8333,
-      "negativeShare": 0.1667,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "It never moves",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "it kept falling off",
+          "text": "any type of head gear was killing me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
         }
       ]
     }
   ],
-  "concerns": [],
   "retailers": [
     {
       "retailer": "DirectHomeMedical",
@@ -6044,54 +6872,49 @@
   "evidence": {
     "positive": [
       {
-        "text": "Absolutely no leaks",
+        "text": "or stomach without leaks or feeling the mask hurt my face waking up constantly to adjust",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
       },
       {
-        "text": "Best mask available",
+        "text": "I have now been using it for a month and had no adjustment period at all",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
       },
       {
-        "text": "I can finally sleep on my side",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-      },
-      {
-        "text": "Couldn’t be happier",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-      },
-      {
-        "text": "NO MORE DRY MOUTH.",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
-      },
-      {
-        "text": "NO LEAKS!!",
+        "text": "The BleepSleep DreamPorts give a freedom that I never imagined would ever be possible",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+      },
+      {
+        "text": "I slept for 10 hours the first night I used the Bleep DreamPort",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+      },
+      {
+        "text": "This will change everything for those who can use nasal only cpap solutions",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/dreamport-adhesive-patches-16-night-supply"
+      },
+      {
+        "text": "it’s so quiet I have to check to make sure it’s on!",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
       }
     ],
     "negative": [
+      {
+        "text": "After only two uses the connection plastic between hose and disposable nose portal became detached and is no longer to be found",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
+      },
       {
         "text": "The 2nd one is leaking so bad I cannot use it after it came apart while I was sleeping",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
       },
       {
-        "text": "I hate and could not get used to head sets",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-      },
-      {
-        "text": "NOISE LEVEL.",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
-      },
-      {
-        "text": "It won’t seal",
+        "text": "I tried for about 30 minutes and ended up going back to my old nasal pillow setup",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
       },
@@ -6101,16 +6924,21 @@
         "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
       },
       {
-        "text": "had rubbed my cheek raw",
+        "text": "I hate and could not get used to head sets",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/dreamport-cpap-mask-solution-bleep-for-sleep"
+      },
+      {
+        "text": "I tried it for several nights with zero success",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask?variant=49040324854076"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

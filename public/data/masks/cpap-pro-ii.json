@@ -1,8 +1,18 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "cpap-pro-ii",
   "name": "CPAP PRO II",
   "catalogOrder": 78,
+  "search": {
+    "aliases": [
+      "CPAPPRO II (ApneaPAP) Nasal Pillows 'No Mask'"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Nasal Pillow",
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 16,
@@ -13,32 +23,35 @@
     "reviewDateEnd": "2025-08-03"
   },
   "overall": {
-    "compositeScore": 66,
+    "score": 57,
+    "grade": "C-",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 3.25,
-      "score": 65,
+      "score": 56,
       "reviewCount": 16,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 6.7,
       "score": 67,
       "reviewCount": 9,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 57,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 5.7,
       "reviewCount": 9,
       "reviewShare": 0.5625,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.5556,
+      "positiveShare": 0.6667,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -89,12 +102,32 @@
       ],
       "positiveEvidence": [
         {
+          "text": "loved the freedom it gives me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
           "text": "Comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         },
         {
-          "text": "loved the freedom it gives me",
+          "text": "I don't wake up with any mouth/teeth issues after sleeping with the CPAP Pro II",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "if you don’t like straps, or a face mask, this is for you",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "The mask is comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "The first set did work fairly well for my allergic skin situation (with medicated cream)",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         }
@@ -109,18 +142,24 @@
           "text": "hard on my teeth hurt all the time",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "I just could not handle it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 25,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.5,
       "reviewCount": 9,
       "reviewShare": 0.5625,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 9,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -191,16 +230,56 @@
           "text": "has a smaller mouth piece than the original CPAP Pro",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "Has only taken a few nights to get used to it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "The mouthpiece is too small for my mouth",
+          "text": "I couldn't bite down enough to form the depression for my front teeth",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         },
         {
           "text": "The mouth piece was made for about a 12 year old kid",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "Poor set up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "I only use the top mouth piece and not the bottom mouth piece because the shape of my bite does not match the bite shape…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "Mouth piece and extension were too much for my mouth and jaw",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "how tight I had to have the headgear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "Upper mouthpiece is not wide enough",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "the lower mouthpiece which I needed yo redo as initially it positioned my lower jaw too far forward",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "Went by the directions and boiled and form the mouth piece properly",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         }
@@ -209,12 +288,13 @@
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 24,
+      "score": 18,
+      "grade": "F-",
       "averageSentiment": 2.4,
       "reviewCount": 5,
       "reviewShare": 0.3125,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -271,7 +351,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "reduce the marks on my forehead from a traditional mask",
+          "text": "all the marks on my forehead and cheek areas are gone",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         }
@@ -283,7 +363,22 @@
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         },
         {
+          "text": "hard on my teeth hurt all the time",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
           "text": "so your tongue doesn't get rubbed raw",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "the marks the full face mask left on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "my dermatologist is suggesting a full face cream for pre-cancerous cells and I cannot see wearing a full face mask and using a cream that…",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         }
@@ -292,12 +387,13 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 61,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 6.1,
       "reviewCount": 7,
       "reviewShare": 0.4375,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.7143,
       "negativeShare": 0.2857,
@@ -313,7 +409,7 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "my numbers are outstanding",
+          "text": "I’m sleeping so much longer",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         },
@@ -321,16 +417,31 @@
           "text": "I'll never use anything else",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
-        }
-      ],
-      "negativeEvidence": [
+        },
         {
-          "text": "Did not work",
+          "text": "I fall asleep much faster than with my traditional full face mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         },
         {
+          "text": "it's been a great help",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "be able to wear it all night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        }
+      ],
+      "negativeEvidence": [
+        {
           "text": "you can't breathe out",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "Did not work",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         }
@@ -341,12 +452,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 67,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.7,
       "reviewCount": 9,
       "reviewShare": 0.5625,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -368,24 +480,24 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Best got better",
+          "text": "I'll never go back..",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         },
         {
-          "text": "I'll never go back..",
+          "text": "Best CPAP mask EVER!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Worst ever",
+          "text": "The mask was a total piece of junk",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         },
         {
-          "text": "The mask was a total piece of junk",
+          "text": "Worst ever",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         }
@@ -394,12 +506,13 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 21,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.1,
       "reviewCount": 8,
       "reviewShare": 0.5,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -467,14 +580,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 71,
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.1,
       "reviewCount": 7,
       "reviewShare": 0.4375,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.7143,
+      "positiveShare": 0.8571,
       "negativeShare": 0.1429,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -515,12 +629,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Comfortable",
+          "text": "loved the freedom it gives me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         },
         {
-          "text": "loved the freedom it gives me",
+          "text": "Comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         }
@@ -538,14 +652,15 @@
     {
       "id": "oral_cushion",
       "label": "Oral Cushion",
-      "score": 33,
+      "score": 25,
+      "grade": "F",
       "averageSentiment": 3.3,
       "reviewCount": 9,
       "reviewShare": 0.5625,
-      "positiveReviews": 1,
-      "mixedReviews": 2,
+      "positiveReviews": 2,
+      "neutralReviews": 1,
       "negativeReviews": 6,
-      "positiveShare": 0.1111,
+      "positiveShare": 0.2222,
       "negativeShare": 0.6667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -623,17 +738,17 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Did not work",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
-        },
-        {
-          "text": "The mouthpiece is too small for my mouth",
+          "text": "I couldn't bite down enough to form the depression for my front teeth",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         },
         {
           "text": "The mouth piece was made for about a 12 year old kid",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        },
+        {
+          "text": "air continuously seeping from the mouth price",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
         }
@@ -643,12 +758,13 @@
         {
           "id": "fit",
           "label": "Fit",
-          "score": 21,
+          "score": 0,
+          "grade": "F-",
           "averageSentiment": 2.1,
           "reviewCount": 7,
           "reviewShare": 0.4375,
           "positiveReviews": 0,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 7,
           "evidenceStrength": "limited",
           "positiveEvidence": [],
@@ -672,12 +788,13 @@
     {
       "id": "oral_cushion|fit",
       "label": "Oral Cushion · Fit",
-      "score": 21,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.1,
       "reviewCount": 7,
       "reviewShare": 0.4375,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "evidenceStrength": "limited",
       "positiveEvidence": [],
@@ -702,7 +819,67 @@
   "interactionSummary": [],
   "interactionInsights": [],
   "strengths": [],
-  "concerns": [],
+  "concerns": [
+    {
+      "id": "part|oral_cushion|fit",
+      "label": "Oral Cushion · Fit",
+      "score": 0,
+      "grade": "F-",
+      "averageSentiment": 2.1,
+      "reviewCount": 7,
+      "reviewShare": 0.4375,
+      "positiveReviews": 0,
+      "neutralReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "oral_cushion",
+          "label": "Oral Cushion",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "small_mouth",
+          "label": "Small Mouth",
+          "reviewCount": 2
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "teeth",
+          "label": "Teeth",
+          "reviewCount": 3
+        },
+        {
+          "id": "jaw",
+          "label": "Jaw",
+          "reviewCount": 2
+        },
+        {
+          "id": "mouth",
+          "label": "Mouth",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "I couldn't bite down enough to form the depression for my front teeth",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+        }
+      ]
+    }
+  ],
   "retailers": [
     {
       "retailer": "DirectHomeMedical",
@@ -716,11 +893,6 @@
   "evidence": {
     "positive": [
       {
-        "text": "Best got better",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
-      },
-      {
         "text": "I'll never go back..",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
@@ -731,12 +903,12 @@
         "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
       },
       {
-        "text": "reduce the marks on my forehead from a traditional mask",
+        "text": "Best got better",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
       },
       {
-        "text": "Blissful sleeper",
+        "text": "all the marks on my forehead and cheek areas are gone",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
       },
@@ -744,26 +916,21 @@
         "text": "loved the freedom it gives me",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+      },
+      {
+        "text": "Blissful sleeper",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
       }
     ],
     "negative": [
       {
-        "text": "Did not work",
+        "text": "I couldn't bite down enough to form the depression for my front teeth",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
       },
       {
-        "text": "The mouthpiece is too small for my mouth",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
-      },
-      {
-        "text": "The mask was a total piece of junk",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
-      },
-      {
-        "text": "Poor set up",
+        "text": "The mouth piece was made for about a 12 year old kid",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
       },
@@ -773,16 +940,26 @@
         "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
       },
       {
+        "text": "so your tongue doesn't get rubbed raw",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+      },
+      {
         "text": "air continuously seeping from the mouth price",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
+      },
+      {
+        "text": "Did not work",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

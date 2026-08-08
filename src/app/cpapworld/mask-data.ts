@@ -1,5 +1,21 @@
 export type CoverageStatus = 'complete' | 'preliminary' | 'pending' | 'unavailable';
 export type EvidenceStrength = 'limited' | 'moderate' | 'strong';
+export type LetterGrade =
+  | 'A+'
+  | 'A'
+  | 'A-'
+  | 'B+'
+  | 'B'
+  | 'B-'
+  | 'C+'
+  | 'C'
+  | 'C-'
+  | 'D+'
+  | 'D'
+  | 'D-'
+  | 'F+'
+  | 'F'
+  | 'F-';
 export type ContextClassification = 'favorable' | 'unfavorable' | 'mixed';
 export type InteractionKind = 'patient-context' | 'body-component';
 export type InteractionTone = 'favorable' | 'caution' | 'mixed';
@@ -23,7 +39,9 @@ export interface ScoreComponent {
 }
 
 export interface OverallResult {
-  compositeScore: number | null;
+  score: number | null;
+  grade: LetterGrade | null;
+  calculation: string;
   ratingComponent: ScoreComponent;
   textSatisfactionComponent: ScoreComponent;
 }
@@ -44,11 +62,12 @@ export interface MetricFinding {
   id: string;
   label: string;
   score: number;
+  grade: LetterGrade;
   averageSentiment: number;
   reviewCount: number;
   reviewShare: number;
   positiveReviews: number;
-  mixedReviews: number;
+  neutralReviews: number;
   negativeReviews: number;
   positiveShare?: number;
   negativeShare?: number;
@@ -101,6 +120,7 @@ export interface InteractionInsight extends MetricFinding {
   contextLabel: string | null;
   aspectId: string;
   aspectLabel: string;
+  outcomeAspects: RelatedFinding[];
   parts: RelatedFinding[];
   bodySites: RelatedFinding[];
   contexts: RelatedFinding[];
@@ -128,6 +148,7 @@ export interface MaskProfile {
   slug: string;
   name: string;
   catalogOrder: number;
+  search: MaskSearchMetadata;
   coverage: Coverage;
   overall: OverallResult;
   dimensions: MetricFinding[];
@@ -149,6 +170,27 @@ export interface MaskProfile {
     negative: EvidenceExcerpt[];
   };
   methodology: Methodology;
+}
+
+export interface MaskGalleryImage {
+  id: string;
+  src: string;
+  retailer: string;
+  sourceUrl: string;
+  productUrl: string;
+  originalWidth: number;
+  originalHeight: number;
+  hasTransparency: boolean;
+  isPrimary: boolean;
+}
+
+export interface MaskGallery {
+  schemaVersion: number;
+  maskId: number;
+  maskName: string;
+  slug: string;
+  imageCount: number;
+  images: MaskGalleryImage[];
 }
 
 export interface RetailerPriceOffer {
@@ -185,14 +227,55 @@ export interface MaskPrices {
   methodology: string;
 }
 
+export interface MaskPriceIndexItem {
+  name: string;
+  slug: string;
+  offerCount: number;
+  cheapestOffer: RetailerPriceOffer | null;
+}
+
+export interface MaskPriceIndex {
+  schemaVersion: number;
+  generatedAt: string;
+  masks: MaskPriceIndexItem[];
+}
+
 export interface MaskIndexItem {
   name: string;
   slug: string;
   catalogOrder: number;
+  search: MaskSearchMetadata;
   coverage: Coverage;
   overall: OverallResult;
+  cardGrades: CardGrade[];
+  bestReportedFor: CardContext[];
+  extraCaution: CardContext[];
   topStrengths: RelatedFinding[];
   topConcerns: RelatedFinding[];
+}
+
+export interface MaskSearchMetadata {
+  aliases: string[];
+  abbreviations: string[];
+  maskTypes: string[];
+}
+
+export interface CardGrade {
+  id: string;
+  label: string;
+  description: string;
+  grade: LetterGrade | null;
+  score: number | null;
+  reviewCount: number;
+  evidenceStrength: EvidenceStrength | null;
+}
+
+export interface CardContext {
+  id: string;
+  label: string;
+  reviewCount: number;
+  evidenceStrength: EvidenceStrength;
+  reason: string | null;
 }
 
 export interface MaskIndex {

@@ -1,8 +1,30 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-airfit-x30i",
   "name": "ResMed AirFit X30i",
   "catalogOrder": 55,
+  "search": {
+    "aliases": [
+      "AirFit X30i CPAP Full Face Mask | Starter Pack | ResMed",
+      "AirFit X30i CPAP Mask with Large Frame Fit Pack",
+      "AirFit X30i CPAP Mask with Small Frame Fit Pack",
+      "AirFit X30i Oral Nasal CPAP Mask Starter Pack",
+      "AirFit X30i Oral Nasal Pillow CPAP Mask with Headgear",
+      "ResMed AirFit X30i Oral Nasal CPAP Mask",
+      "ResMed AirFit™ X30i CPAP Mask - Complete System",
+      "ResMed | AirFit X30i CPAP Full Face Mask Starter Pack"
+    ],
+    "abbreviations": [
+      "Resmed",
+      "X30i"
+    ],
+    "maskTypes": [
+      "Full Face",
+      "Nasal Pillow",
+      "Oral",
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 77,
@@ -13,32 +35,35 @@
     "reviewDateEnd": "2026-06-05"
   },
   "overall": {
-    "compositeScore": 62,
+    "score": 55,
+    "grade": "C-",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 3.14,
-      "score": 63,
+      "score": 54,
       "reviewCount": 77,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 6.0,
       "score": 60,
       "reviewCount": 38,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 52,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.2,
       "reviewCount": 24,
       "reviewShare": 0.3117,
-      "positiveReviews": 9,
-      "mixedReviews": 3,
+      "positiveReviews": 12,
+      "neutralReviews": 0,
       "negativeReviews": 12,
-      "positiveShare": 0.375,
+      "positiveShare": 0.5,
       "negativeShare": 0.5,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -112,6 +137,46 @@
           "text": "Most comfortable mask ever!!",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "This is the most comfortable mask I have tried",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airfit-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "Very comfortable once it's adjusted to your comfort",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-cpap-mask-with-large-frame-fit-pack"
+        },
+        {
+          "text": "Very comfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "I find it comfortable to use",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "more comfortable then i expected",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "It's a great, comfortable mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "I like the feel",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "is it comfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ],
       "negativeEvidence": [
@@ -124,20 +189,61 @@
           "text": "If you put it snug on the nose it pushes on the bottom of your mouth",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/airfit-x30i-oral-nasal-pillow-cpap-mask-with-headgear"
+        },
+        {
+          "text": "it starts to feel like the pillow is digging into my skin",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airfit-x30i-oral-nasal-pillow-cpap-mask-with-headgear"
+        },
+        {
+          "text": "The hard square post of the nasal plugs bruised my upper lip",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "it hurts the nostrils inside the nostrils",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "It is not comfortable and",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "causing facial pain",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "Not comfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "At times I feel like I am not getting enough air",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "I occasionally get pressure sore on nose bridge from my F20",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 47,
+      "score": 43,
+      "grade": "D-",
       "averageSentiment": 4.7,
       "reviewCount": 37,
       "reviewShare": 0.4805,
-      "positiveReviews": 14,
-      "mixedReviews": 3,
+      "positiveReviews": 15,
+      "neutralReviews": 2,
       "negativeReviews": 20,
-      "positiveShare": 0.3784,
+      "positiveShare": 0.4054,
       "negativeShare": 0.5405,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -231,32 +337,113 @@
           "text": "I'm a side sleeper, and this mask is perfect for me",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "You are a mouth breather who loves the freedom of the F30i frame but constantly experiences leaks at the nose bridge/cradle when you move.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "i swapped out with a f30i cushion ( perfect fit, 3sec swap)",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "It also comes with 3 nasal pillows to choose from",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-cpap-mask-with-large-frame-fit-pack"
+        },
+        {
+          "text": "It is a superb mask for active sleepers",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "Really good for mouth breather like me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-cpap-mask-with-small-frame-fit-pack"
+        },
+        {
+          "text": "after that and adjusting it correctly",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "determined the proper size nasal pillows",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "The three sizing options were nice",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "The mouth piece being one size fits all was horrible for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
         {
           "text": "they do not make a SMALL headgear!!",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
-          "text": "The mouth piece being one size fits all was horrible for me",
+          "text": "Fitment is bad",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "the automatic start of my ResMed machine wasn't able to detect that I had my mask completely on ready for bed",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "I also have no idea how you’re supposed to know if you’ve got the right size",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airfit-x30i-oral-nasal-pillow-cpap-mask-with-headgear"
+        },
+        {
+          "text": "I couldn’t tolerate the styles that fit over my nose due to a deviated septum",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "I tried for a few more nights to fiddle and fit the mask right",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "one bottom strap 2 inches longer than the other one",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "I perform a fit test with each adjustment",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "No matter how I adjust the straps",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 37,
+      "score": 26,
+      "grade": "F",
       "averageSentiment": 3.7,
       "reviewCount": 39,
       "reviewShare": 0.5065,
-      "positiveReviews": 9,
-      "mixedReviews": 1,
+      "positiveReviews": 10,
+      "neutralReviews": 0,
       "negativeReviews": 29,
-      "positiveShare": 0.2308,
+      "positiveShare": 0.2564,
       "negativeShare": 0.7436,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -347,33 +534,114 @@
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         },
         {
+          "text": "My sleep score is mostly 100% on mask seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "works for nose breathers without needing mouth tape",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        },
+        {
+          "text": "A much better seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "without air leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
           "text": "No leaks",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "Even at my bipap pressures (23/19) it, against most things i read, held down my leaks - not perfect but well below the 19L threshold",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "constantly experiences leaks at the nose bridge/cradle when you move",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "occasional trouble with mouth leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "during the night my mouth opens so the combo would work great for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airfit-x30i-oral-nasal-pillow-cpap-mask-with-headgear"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I get leaks throughout the night which wake me up and require adjustment",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
         {
           "text": "Leaks around the oral mask no matter how i adjust it",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         },
         {
-          "text": "I get leaks throughout the night which wake me up and require adjustment",
+          "text": "I have had nothing but problems with the mask not sealing",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "cannot get mask leaks down to an acceptable level",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "I have massive leaks every night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "Won't stop leaking",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "leaked everywhere",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "it leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "at which time I start drooling out of the side of my mouth, and then the dripping keeps me awake",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "I have to pull the straps so tight to prevent leaks around my mouth",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airfit-x30i-oral-nasal-pillow-cpap-mask-with-headgear"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 49,
+      "label": "Stability",
+      "score": 41,
+      "grade": "D-",
       "averageSentiment": 4.9,
       "reviewCount": 13,
       "reviewShare": 0.1688,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.3846,
       "negativeShare": 0.6154,
@@ -464,16 +732,61 @@
           "text": "I am a side sleeper and the X30i also stays in place when I turn from one side to the other",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "The nasal pillows will \"lock\" the mask in place more securely than a cradle.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "Im a very active side sleeper",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "Works best on my side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "it slipped to the point that I had to make it so tight that the nasal pillows were irritating my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
         {
           "text": "Because of the headgear, my mask was off 10 times last night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
-          "text": "it slipped to the point that I had to make it so tight that the nasal pillows were irritating my nose",
+          "text": "start to feel like the mask was moving off my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "I end up taking it off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airfit-x30i-oral-nasal-pillow-cpap-mask-with-headgear"
+        },
+        {
+          "text": "I does tend to slide down a bit during the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "the hose attached on top is difficult to sleep with",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "the mask struggled to stay secure at higher pressures",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "I thought the hose attachment on top of the head would make for more freedom, but I don't really think so",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
@@ -481,15 +794,16 @@
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 49,
+      "label": "Ease of Use",
+      "score": 48,
+      "grade": "D",
       "averageSentiment": 4.9,
       "reviewCount": 24,
       "reviewShare": 0.3117,
-      "positiveReviews": 8,
-      "mixedReviews": 4,
+      "positiveReviews": 11,
+      "neutralReviews": 1,
       "negativeReviews": 12,
-      "positiveShare": 0.3333,
+      "positiveShare": 0.4583,
       "negativeShare": 0.5,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -568,9 +882,64 @@
           "text": "Great and easy to use",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "i swapped out with a f30i cushion ( perfect fit, 3sec swap)",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "the new type of elbow is very user friendly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "It is easy to clean (with hydrogen peroxide)",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "after that and adjusting it correctly",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "the correct strap adjustment",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "Once properly adjusted",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        },
+        {
+          "text": "It took a little to get used to",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "so switch to X30i for a few days",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I had to make it so tight",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "No matter how much I adjust it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "No matter how I adjust the straps",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        },
         {
           "text": "no matter how i adjust it",
           "retailer": "1800CPAP.COM",
@@ -580,20 +949,46 @@
           "text": "Could not adjust to this",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "have never used CPAP before",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "it's difficult to adjust",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "There is no way to adjust the mask to quiet it, unless I lay on my side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "Still trying to find correct tightness of straps but no success yet",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "I have to readjust it several times a night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 49,
+      "score": 47,
+      "grade": "D",
       "averageSentiment": 4.9,
       "reviewCount": 16,
       "reviewShare": 0.2078,
-      "positiveReviews": 6,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 1,
       "negativeReviews": 8,
-      "positiveShare": 0.375,
+      "positiveShare": 0.4375,
       "negativeShare": 0.5,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -669,14 +1064,44 @@
       ],
       "positiveEvidence": [
         {
+          "text": "The nose cushion diverts the air away from it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
           "text": "The nasal plugs deliver great air supply",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         },
         {
-          "text": "The nose cushion diverts the air away from it",
+          "text": "the airflow is honestly amazing",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "If I try to breathe through my mouth, I breathe in the same warm and humid air as with the nasal pillows",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "the prongs going up the nose forcing my passageways open made a big difference",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "some of pressurized air goes into the nasal passages",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "that didn't leak air into my eyes",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "A litle bit quieter, than other masks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
         }
       ],
       "negativeEvidence": [
@@ -689,18 +1114,54 @@
           "text": "to noisy",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        },
+        {
+          "text": "the air from every breath in and out is transmitted down this hollow frame to the mouth/nose piece",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "I fall asleep fine, only to be awakened in a couple of hours to noise and leaks everywhere",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "Every time my mouth opened, the area over my mouth would instantly fill up with air",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "it whistles from the vent on the mouth piece",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airfit-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "Air coming down the sides can be noisy as you sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "it is noisy compared to my nasal pillows",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "so gets noisy",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ]
     },
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 41,
+      "score": 27,
+      "grade": "F",
       "averageSentiment": 4.1,
       "reviewCount": 12,
       "reviewShare": 0.1558,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 9,
       "positiveShare": 0.25,
       "negativeShare": 0.75,
@@ -766,16 +1227,56 @@
           "text": "No more dry mouth",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "Also less dry mouth",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "it starts to feel like the pillow is digging into my skin",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airfit-x30i-oral-nasal-pillow-cpap-mask-with-headgear"
+        },
+        {
+          "text": "The hard square post of the nasal plugs bruised my upper lip",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "the nasal pillows were irritating my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "it hurts the nostrils inside the nostrils",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
         {
           "text": "You have sensitive nostrils",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
-          "text": "the nasal pillows were irritating my nose",
+          "text": "causing facial pain",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "I occasionally get pressure sore on nose bridge from my F20",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "some pressure points under my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "my nose took a little to get used to",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
@@ -784,12 +1285,13 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 32,
+      "score": 18,
+      "grade": "F-",
       "averageSentiment": 3.2,
       "reviewCount": 8,
       "reviewShare": 0.1039,
       "positiveReviews": 1,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 6,
       "positiveShare": 0.125,
       "negativeShare": 0.75,
@@ -841,18 +1343,39 @@
           "text": "Poor quality.",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        },
+        {
+          "text": "I threw it away after 2 nights",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        },
+        {
+          "text": "Unfortunately 20 days in",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airfit-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "the silicone softens as it gets warm",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "It’s very stiff",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ]
     },
     {
       "id": "value",
       "label": "Value",
-      "score": 26,
+      "score": 6,
+      "grade": "F-",
       "averageSentiment": 2.6,
       "reviewCount": 16,
       "reviewShare": 0.2078,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 15,
       "positiveShare": 0.0625,
       "negativeShare": 0.9375,
@@ -875,26 +1398,67 @@
       ],
       "negativeEvidence": [
         {
+          "text": "I am very disappointed that I paid such a large amount of money",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        },
+        {
           "text": "Looks like I've wasted a lot of money on this",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         },
         {
-          "text": "I am very disappointed that I paid such a large amount of money",
+          "text": "this has been a very expensive mistake costing me the best part of £300 in total",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        },
+        {
+          "text": "Pretty expensive to not even get a month out of",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/resmed-airfit-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "ESPECIALLY for $250, which is an absurd price point",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "$250/week or even every 2-3 weeks is quite excessive",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "My only complaint is the high price point",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "One of the most expensive options",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "worst $200 I have ever spent",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "It is way too expensive",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 52,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.2,
       "reviewCount": 32,
       "reviewShare": 0.4156,
       "positiveReviews": 16,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 16,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -965,18 +1529,98 @@
           "text": "my AHI and leak rate numbers have been nothing short of outstanding",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "I had the flu, and I wore it for over 14 hours",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "I wear it every night as long as I sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "So easy to breathe with the full mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        },
+        {
+          "text": "works both for mouth breathers or nose breathers",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        },
+        {
+          "text": "It gives a very open, natural breathing feel",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "0 AHI with 4 hours of use",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "I now sleep through the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "Lowers all AI numbers",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I thought this mask would solve the issue with my mouth opening during the night. It did not.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "I lasted 15 minutes trying to use it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        },
+        {
+          "text": "could not sleep with it on",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        },
+        {
+          "text": "MY C-PAP MACHINE SHUTTING DOWN",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
         {
           "text": "does not work properly",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         },
         {
-          "text": "I lasted 15 minutes trying to use it",
+          "text": "at which time I start drooling out of the side of my mouth, and then the dripping keeps me awake",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "I woke up several times with the mask on and the cpap machine had stopped working",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "I have been unable to continue using this mask after trying every night for a week",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        },
+        {
+          "text": "I through it on the floor and slept without it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        },
+        {
+          "text": "I have gone back to my old mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ]
     }
@@ -985,14 +1629,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 60,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 38,
       "reviewShare": 0.4935,
-      "positiveReviews": 22,
-      "mixedReviews": 2,
+      "positiveReviews": 23,
+      "neutralReviews": 1,
       "negativeReviews": 14,
-      "positiveShare": 0.5789,
+      "positiveShare": 0.6053,
       "negativeShare": 0.3684,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1017,14 +1662,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Perfect Mask",
+          "text": "The mask is Awesome and I love",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
         },
         {
-          "text": "Great mask",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+          "text": "Awesome mask.. This mask is awesome",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ],
       "negativeEvidence": [
@@ -1043,12 +1688,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 35,
+      "score": 23,
+      "grade": "F",
       "averageSentiment": 3.5,
       "reviewCount": 36,
       "reviewShare": 0.4675,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 28,
       "positiveShare": 0.2222,
       "negativeShare": 0.7778,
@@ -1141,35 +1787,36 @@
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         },
         {
-          "text": "No leaks",
+          "text": "My sleep score is mostly 100% on mask seal",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Leaks around the oral mask no matter how i adjust it",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
-        },
-        {
           "text": "I get leaks throughout the night which wake me up and require adjustment",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "Leaks around the oral mask no matter how i adjust it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         }
       ]
     },
     {
       "id": "fit",
       "label": "Fit",
-      "score": 50,
+      "score": 48,
+      "grade": "D",
       "averageSentiment": 5.0,
       "reviewCount": 26,
       "reviewShare": 0.3377,
-      "positiveReviews": 11,
-      "mixedReviews": 2,
+      "positiveReviews": 12,
+      "neutralReviews": 1,
       "negativeReviews": 13,
-      "positiveShare": 0.4231,
+      "positiveShare": 0.4615,
       "negativeShare": 0.5,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1281,14 +1928,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 63,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 17,
       "reviewShare": 0.2208,
-      "positiveReviews": 10,
-      "mixedReviews": 2,
+      "positiveReviews": 11,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.5882,
+      "positiveShare": 0.6471,
       "negativeShare": 0.2941,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1361,7 +2009,7 @@
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         },
         {
-          "text": "It is not comfortable and",
+          "text": "the pressure of the hard plastic",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
@@ -1370,14 +2018,15 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 39,
+      "score": 28,
+      "grade": "F",
       "averageSentiment": 3.9,
       "reviewCount": 14,
       "reviewShare": 0.1818,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 10,
-      "positiveShare": 0.2143,
+      "positiveShare": 0.2857,
       "negativeShare": 0.7143,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1430,26 +2079,27 @@
       ],
       "negativeEvidence": [
         {
-          "text": "no matter how i adjust it",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
-        },
-        {
-          "text": "Could not adjust to this",
+          "text": "I had to make it so tight",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "No matter how much I adjust it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
         }
       ]
     },
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 43,
+      "score": 41,
+      "grade": "D-",
       "averageSentiment": 4.3,
       "reviewCount": 12,
       "reviewShare": 0.1558,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.4167,
       "negativeShare": 0.5833,
@@ -1486,19 +2136,19 @@
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
-          "text": "Very comfortable has decreased my event’s nightly",
+          "text": "It is a superb mask for active sleepers with mouth-breathing habits",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "does not work properly",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+          "text": "I thought this mask would solve the issue with my mouth opening during the night. It did not.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
-          "text": "I thought this mask would solve the issue with my mouth opening during the night. It did not.",
+          "text": "MY C-PAP MACHINE SHUTTING DOWN",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
@@ -1507,14 +2157,15 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 49,
+      "score": 41,
+      "grade": "D-",
       "averageSentiment": 4.9,
       "reviewCount": 10,
       "reviewShare": 0.1299,
-      "positiveReviews": 2,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 6,
-      "positiveShare": 0.2,
+      "positiveShare": 0.4,
       "negativeShare": 0.6,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1544,14 +2195,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "the pillows type like the P30i work great",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
-        },
-        {
           "text": "I was using a nasal only and decided to try a full face",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-x30i-cpap-mask-with-large-frame-fit-pack"
+        },
+        {
+          "text": "the pillows type like the P30i work great",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ],
       "negativeEvidence": [
@@ -1561,23 +2212,24 @@
           "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
         },
         {
-          "text": "I am considering switching to full facial mask",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+          "text": "After a couple of hours, I went back to my regular nasal pillow along with my chin strap",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ]
     },
     {
       "id": "price",
       "label": "Price",
-      "score": 28,
+      "score": 9,
+      "grade": "F-",
       "averageSentiment": 2.8,
       "reviewCount": 10,
       "reviewShare": 0.1299,
-      "positiveReviews": 0,
-      "mixedReviews": 1,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
       "negativeReviews": 9,
-      "positiveShare": 0.0,
+      "positiveShare": 0.1,
       "negativeShare": 0.9,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1589,15 +2241,21 @@
       ],
       "associatedContexts": [],
       "associatedBodySites": [],
-      "positiveEvidence": [],
+      "positiveEvidence": [
+        {
+          "text": "It's a bit pricey but worth the investment",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-cpap-mask-with-large-frame-fit-pack"
+        }
+      ],
       "negativeEvidence": [
         {
-          "text": "One of the most expensive options",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+          "text": "this has been a very expensive mistake costing me the best part of £300 in total",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         },
         {
-          "text": "My only complaint is the high price point",
+          "text": "$250/week or even every 2-3 weeks is quite excessive",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
@@ -1606,14 +2264,15 @@
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 41,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.1,
       "reviewCount": 10,
       "reviewShare": 0.1299,
-      "positiveReviews": 2,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 6,
-      "positiveShare": 0.2,
+      "positiveShare": 0.4,
       "negativeShare": 0.6,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1676,23 +2335,24 @@
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
-          "text": "even trying all 3 sizes",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+          "text": "I also have no idea how you’re supposed to know if you’ve got the right size",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airfit-x30i-oral-nasal-pillow-cpap-mask-with-headgear"
         }
       ]
     },
     {
       "id": "noise",
       "label": "Noise",
-      "score": 26,
+      "score": 10,
+      "grade": "F-",
       "averageSentiment": 2.6,
       "reviewCount": 9,
       "reviewShare": 0.1169,
-      "positiveReviews": 0,
-      "mixedReviews": 1,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
       "negativeReviews": 8,
-      "positiveShare": 0.0,
+      "positiveShare": 0.1111,
       "negativeShare": 0.8889,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1721,7 +2381,13 @@
           "reviewCount": 1
         }
       ],
-      "positiveEvidence": [],
+      "positiveEvidence": [
+        {
+          "text": "A litle bit quieter, than other masks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+        }
+      ],
       "negativeEvidence": [
         {
           "text": "It sounded like I had one of those heart lung when I was breathing next to me",
@@ -1738,12 +2404,13 @@
     {
       "id": "breathing_support",
       "label": "Breathing Support",
-      "score": 79,
+      "score": 90,
+      "grade": "A",
       "averageSentiment": 7.9,
       "reviewCount": 8,
       "reviewShare": 0.1039,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.875,
       "negativeShare": 0.125,
@@ -1807,12 +2474,13 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 46,
+      "score": 39,
+      "grade": "F+",
       "averageSentiment": 4.6,
       "reviewCount": 8,
       "reviewShare": 0.1039,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.375,
       "negativeShare": 0.625,
@@ -1885,19 +2553,19 @@
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
-          "text": "Im a very active side sleeper",
+          "text": "The nasal pillows will \"lock\" the mask in place more securely than a cradle.",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Because of the headgear, my mask was off 10 times last night",
+          "text": "it slipped to the point that I had to make it so tight that the nasal pillows were irritating my nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
-          "text": "it slipped to the point that I had to make it so tight that the nasal pillows were irritating my nose",
+          "text": "Because of the headgear, my mask was off 10 times last night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
@@ -1906,12 +2574,13 @@
     {
       "id": "airflow",
       "label": "Airflow",
-      "score": 76,
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.6,
       "reviewCount": 7,
       "reviewShare": 0.0909,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -1969,14 +2638,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The nasal plugs deliver great air supply",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
-        },
-        {
           "text": "The nose cushion diverts the air away from it",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "The nasal plugs deliver great air supply",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         }
       ],
       "negativeEvidence": [
@@ -1990,12 +2659,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 31,
+      "score": 15,
+      "grade": "F-",
       "averageSentiment": 3.1,
       "reviewCount": 7,
       "reviewShare": 0.0909,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.1429,
       "negativeShare": 0.8571,
@@ -2034,7 +2704,7 @@
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         },
         {
-          "text": "I have not slept well with it",
+          "text": "at which time I start drooling out of the side of my mouth, and then the dripping keeps me awake",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
@@ -2043,12 +2713,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 29,
+      "score": 14,
+      "grade": "F-",
       "averageSentiment": 2.9,
       "reviewCount": 7,
       "reviewShare": 0.0909,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.1429,
       "negativeShare": 0.8571,
@@ -2065,12 +2736,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Looks like I've wasted a lot of money on this",
+          "text": "I am very disappointed that I paid such a large amount of money",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         },
         {
-          "text": "I am very disappointed that I paid such a large amount of money",
+          "text": "Looks like I've wasted a lot of money on this",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         }
@@ -2079,14 +2750,15 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 72,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.2,
       "reviewCount": 6,
       "reviewShare": 0.0779,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.8333,
       "negativeShare": 0.1667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2153,14 +2825,15 @@
     {
       "id": "learning_curve",
       "label": "Learning Curve",
-      "score": 50,
+      "score": 67,
+      "grade": "C+",
       "averageSentiment": 5.0,
       "reviewCount": 5,
       "reviewShare": 0.0649,
-      "positiveReviews": 0,
-      "mixedReviews": 4,
+      "positiveReviews": 3,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.0,
+      "positiveShare": 0.6,
       "negativeShare": 0.2,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2183,7 +2856,18 @@
         }
       ],
       "associatedBodySites": [],
-      "positiveEvidence": [],
+      "positiveEvidence": [
+        {
+          "text": "It does take a couple of days to get used to this mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "It took a little to get used to",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        }
+      ],
       "negativeEvidence": [
         {
           "text": "have never used CPAP before",
@@ -2195,12 +2879,13 @@
     {
       "id": "pain",
       "label": "Pain",
-      "score": 22,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.2,
       "reviewCount": 5,
       "reviewShare": 0.0649,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -2248,26 +2933,27 @@
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "causing facial pain",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
-        },
-        {
           "text": "it starts to feel like the pillow is digging into my skin",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/airfit-x30i-oral-nasal-pillow-cpap-mask-with-headgear"
+        },
+        {
+          "text": "The hard square post of the nasal plugs bruised my upper lip",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ]
     },
     {
       "id": "therapy_compliance",
       "label": "Therapy Compliance",
-      "score": 32,
+      "score": 21,
+      "grade": "F",
       "averageSentiment": 3.2,
       "reviewCount": 5,
       "reviewShare": 0.0649,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -2295,9 +2981,9 @@
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         },
         {
-          "text": "I through it on the floor and slept without it",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+          "text": "I have been unable to continue using this mask after trying every night for a week",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         }
       ]
     }
@@ -2307,11 +2993,12 @@
       "id": "nasal_pillows",
       "label": "Nasal Pillows",
       "score": 55,
+      "grade": "C-",
       "averageSentiment": 5.5,
       "reviewCount": 14,
       "reviewShare": 0.1818,
       "positiveReviews": 6,
-      "mixedReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 5,
       "positiveShare": 0.4286,
       "negativeShare": 0.3571,
@@ -2384,24 +3071,24 @@
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         },
         {
-          "text": "The nasal pillows will \"lock\" the mask in place more securely than a cradle.",
+          "text": "You are a mouth breather who loves the freedom of the F30i frame but constantly experiences leaks at the nose bridge/cradle when you move.",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
-          "text": "works like a nasal pillow",
+          "text": "If I try to breathe through my mouth, I breathe in the same warm and humid air as with the nasal pillows",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "You have sensitive nostrils",
+          "text": "it slipped to the point that I had to make it so tight that the nasal pillows were irritating my nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
-          "text": "it slipped to the point that I had to make it so tight that the nasal pillows were irritating my nose",
+          "text": "I tried for a few more nights to fiddle and fit the mask right",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
@@ -2417,14 +3104,15 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 38,
+      "score": 32,
+      "grade": "F+",
       "averageSentiment": 3.8,
       "reviewCount": 6,
       "reviewShare": 0.0779,
-      "positiveReviews": 1,
-      "mixedReviews": 1,
+      "positiveReviews": 2,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.1667,
+      "positiveShare": 0.3333,
       "negativeShare": 0.6667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2453,6 +3141,11 @@
           "text": "i swapped out with a f30i cushion ( perfect fit, 3sec swap)",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "if ResMed offered multiple cushion size options to really dial in the fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
         }
       ],
       "negativeEvidence": [
@@ -2478,12 +3171,13 @@
     {
       "id": "strap",
       "label": "Strap",
-      "score": 34,
+      "score": 20,
+      "grade": "F",
       "averageSentiment": 3.4,
       "reviewCount": 5,
       "reviewShare": 0.0649,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -2533,12 +3227,13 @@
     {
       "id": "top_hose_connection",
       "label": "Top Hose Connection",
-      "score": 56,
+      "score": 45,
+      "grade": "D",
       "averageSentiment": 5.6,
       "reviewCount": 5,
       "reviewShare": 0.0649,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -2602,11 +3297,12 @@
       "id": "nasal_pillows|fit",
       "label": "Nasal Pillows · Fit",
       "score": 50,
+      "grade": "D+",
       "averageSentiment": 5.0,
       "reviewCount": 5,
       "reviewShare": 0.0649,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -2633,14 +3329,15 @@
     {
       "id": "mouth-breathers",
       "label": "Mouth breathers",
-      "score": 57,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 5.7,
       "reviewCount": 14,
       "reviewShare": 0.1818,
-      "positiveReviews": 7,
-      "mixedReviews": 2,
+      "positiveReviews": 8,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.5,
+      "positiveShare": 0.5714,
       "negativeShare": 0.3571,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2686,7 +3383,7 @@
           "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         },
         {
-          "text": "It is a superb mask for active sleepers with mouth-breathing habits",
+          "text": "You are a mouth breather who loves the freedom of the F30i frame but constantly experiences leaks at the nose bridge/cradle when you move.",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
@@ -2713,14 +3410,15 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 50,
+      "score": 46,
+      "grade": "D",
       "averageSentiment": 5.0,
       "reviewCount": 11,
       "reviewShare": 0.1429,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 6,
-      "positiveShare": 0.3636,
+      "positiveShare": 0.4545,
       "negativeShare": 0.5455,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2783,9 +3481,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "if I roll to side the leaks start",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
+          "text": "at which time I start drooling out of the side of my mouth, and then the dripping keeps me awake",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
           "text": "The silicone mask around my mouth area would move when I turned on to my side",
@@ -2807,12 +3505,13 @@
     {
       "id": "mouth",
       "label": "Mouth",
-      "score": 34,
+      "score": 27,
+      "grade": "F",
       "averageSentiment": 3.4,
       "reviewCount": 11,
       "reviewShare": 0.1429,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.2727,
       "negativeShare": 0.7273,
@@ -2887,9 +3586,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Leaks around the oral mask no matter how i adjust it",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+          "text": "I thought this mask would solve the issue with my mouth opening during the night. It did not.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
           "text": "The mouth piece being one size fits all was horrible for me",
@@ -2897,9 +3596,9 @@
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
-          "text": "I thought this mask would solve the issue with my mouth opening during the night. It did not.",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+          "text": "Leaks around the oral mask no matter how i adjust it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
         }
       ],
       "complaintReviews": 8,
@@ -2963,12 +3662,13 @@
     {
       "id": "nose",
       "label": "Nose",
-      "score": 33,
+      "score": 17,
+      "grade": "F-",
       "averageSentiment": 3.3,
       "reviewCount": 9,
       "reviewShare": 0.1169,
       "positiveReviews": 1,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 7,
       "positiveShare": 0.1111,
       "negativeShare": 0.7778,
@@ -3019,11 +3719,16 @@
           "text": "I have a small bump inside my nose that gets irritated with the f30i.",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+        },
+        {
+          "text": "my nose took a little to get used to",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Air still escapes through nosepiece",
+          "text": "it slipped to the point that I had to make it so tight that the nasal pillows were irritating my nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
@@ -3033,9 +3738,9 @@
           "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
         },
         {
-          "text": "it slipped to the point that I had to make it so tight that the nasal pillows were irritating my nose",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+          "text": "I couldn’t tolerate the styles that fit over my nose due to a deviated septum",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
         }
       ],
       "complaintReviews": 8,
@@ -3094,215 +3799,8 @@
   ],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 70,
-      "averageSentiment": 7.0,
-      "reviewCount": 12,
-      "reviewShare": 0.1558,
-      "positiveReviews": 9,
-      "mixedReviews": 0,
-      "negativeReviews": 3,
-      "positiveShare": 0.75,
-      "negativeShare": 0.25,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Most comfortable mask I’ve ever worn",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "uncomfortable fit",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
-        }
-      ]
-    }
-  ],
-  "concerns": [
-    {
-      "id": "|||seal_leak",
-      "label": "Seal Leak",
-      "score": 38,
-      "averageSentiment": 3.8,
-      "reviewCount": 17,
-      "reviewShare": 0.2208,
-      "positiveReviews": 4,
-      "mixedReviews": 0,
-      "negativeReviews": 13,
-      "positiveShare": 0.2353,
-      "negativeShare": 0.7647,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Best seal I have gitten with any mask I have worn",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "cannot get mask leaks down to an acceptable level",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
-        }
-      ]
-    },
-    {
-      "id": "|||price",
-      "label": "Price",
-      "score": 29,
-      "averageSentiment": 2.9,
-      "reviewCount": 9,
-      "reviewShare": 0.1169,
-      "positiveReviews": 0,
-      "mixedReviews": 1,
-      "negativeReviews": 8,
-      "positiveShare": 0.0,
-      "negativeShare": 0.8889,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [],
-      "negativeEvidence": [
-        {
-          "text": "One of the most expensive options",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
-        }
-      ]
-    },
-    {
-      "id": "|||adjustment",
-      "label": "Adjustment",
-      "score": 38,
-      "averageSentiment": 3.8,
-      "reviewCount": 8,
-      "reviewShare": 0.1039,
-      "positiveReviews": 2,
-      "mixedReviews": 0,
-      "negativeReviews": 6,
-      "positiveShare": 0.25,
-      "negativeShare": 0.75,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "after that and adjusting it correctly",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Could not adjust to this",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
-        }
-      ]
-    },
-    {
-      "id": "|||noise",
-      "label": "Noise",
-      "score": 26,
-      "averageSentiment": 2.6,
-      "reviewCount": 7,
-      "reviewShare": 0.0909,
-      "positiveReviews": 0,
-      "mixedReviews": 1,
-      "negativeReviews": 6,
-      "positiveShare": 0.0,
-      "negativeShare": 0.8571,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [],
-      "negativeEvidence": [
-        {
-          "text": "It sounded like I had one of those heart lung when I was breathing next to me",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
-        }
-      ]
-    },
-    {
-      "id": "|||value",
-      "label": "Value",
-      "score": 29,
-      "averageSentiment": 2.9,
-      "reviewCount": 7,
-      "reviewShare": 0.0909,
-      "positiveReviews": 1,
-      "mixedReviews": 0,
-      "negativeReviews": 6,
-      "positiveShare": 0.1429,
-      "negativeShare": 0.8571,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "worth the investment",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-x30i-cpap-mask-with-large-frame-fit-pack"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Looks like I've wasted a lot of money on this",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
-        }
-      ]
-    },
-    {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 33,
-      "averageSentiment": 3.3,
-      "reviewCount": 6,
-      "reviewShare": 0.0779,
-      "positiveReviews": 1,
-      "mixedReviews": 0,
-      "negativeReviews": 5,
-      "positiveShare": 0.1667,
-      "negativeShare": 0.8333,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I now sleep through the night",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "could not sleep with it on",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
-        }
-      ]
-    }
-  ],
+  "strengths": [],
+  "concerns": [],
   "retailers": [
     {
       "retailer": "CPAP.com",
@@ -3348,32 +3846,32 @@
   "evidence": {
     "positive": [
       {
+        "text": "I have a small bump inside my nose that gets irritated with the f30i.",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+      },
+      {
         "text": "for the first time in 6 months, I had ZERO Events per hour",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
       },
       {
-        "text": "Perfect Mask",
+        "text": "my AHI and leak rate numbers have been nothing short of outstanding",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
+      },
+      {
+        "text": "Best seal I have gitten with any mask I have worn",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+      },
+      {
+        "text": "The mask is Awesome and I love",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
       },
       {
         "text": "Most comfortable mask I’ve ever worn",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
-      },
-      {
-        "text": "Great mask",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/resmed-x30i-cpap-full-face-mask-starter-pack"
-      },
-      {
-        "text": "I love it!",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/airfit-x30i-cpap-mask-with-large-frame-fit-pack"
-      },
-      {
-        "text": "my AHI and leak rate numbers have been nothing short of outstanding",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
       }
@@ -3390,17 +3888,17 @@
         "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
       },
       {
-        "text": "Headgear FAILURE",
+        "text": "I thought this mask would solve the issue with my mouth opening during the night. It did not.",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
       },
       {
-        "text": "Leaks around the oral mask no matter how i adjust it",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
+        "text": "THIS MASK IS NOW IN THE PILE OF FULL FACE MASK'S THAT DID NOT WORK FOR ME",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/resmed-airfit-x30i-oral-nasal-cpap-mask?variant=51725689979196"
       },
       {
-        "text": "Poor quality.",
+        "text": "I am very disappointed that I paid such a large amount of money",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/airfit-x30i-oral-nasal-cpap-mask-starter-pack"
       },
@@ -3412,9 +3910,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

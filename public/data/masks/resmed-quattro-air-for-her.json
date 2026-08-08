@@ -1,8 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-quattro-air-for-her",
   "name": "ResMed Quattro Air For Her",
   "catalogOrder": 70,
+  "search": {
+    "aliases": [
+      "Quattro Air for Her Full Face CPAP Mask",
+      "Quattro Air for Her Full Face CPAP Mask Kit",
+      "Resmed Quattro™ Air for Her Full Face CPAP Mask"
+    ],
+    "abbreviations": [
+      "Resmed"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 38,
@@ -13,32 +26,35 @@
     "reviewDateEnd": "2024-08-13"
   },
   "overall": {
-    "compositeScore": 93,
+    "score": 94,
+    "grade": "A",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.79,
-      "score": 96,
+      "score": 95,
       "reviewCount": 38,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 9.0,
       "score": 90,
       "reviewCount": 20,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 82,
+      "score": 96,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 22,
       "reviewShare": 0.5789,
-      "positiveReviews": 16,
-      "mixedReviews": 6,
+      "positiveReviews": 20,
+      "neutralReviews": 2,
       "negativeReviews": 0,
-      "positiveShare": 0.7273,
+      "positiveShare": 0.9091,
       "negativeShare": 0.0,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -99,19 +115,64 @@
       ],
       "positiveEvidence": [
         {
+          "text": "It doesn't even feel like you're wearing anything",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "from the first night I was truly amazed",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "This one is so light it NEVER hurts",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "so light and easy to fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "the most important thing is comfort",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "Super soft and comfortable headgear",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+        },
+        {
           "text": "it NEVER hurts",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         },
         {
-          "text": "It doesn't even feel like you're wearing anything",
+          "text": "Super comfortable",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/quattro-air-for-her-full-face-cpap-mask-by-resmed"
+        },
+        {
+          "text": "I'm very claustrophobic but this didn't bother me at all",
           "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "almost feels like nothing is on my head",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         }
       ],
       "negativeEvidence": [
         {
           "text": "the other Quattro's beat up my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "a reoccurring sore on my bridge of my nose",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         },
@@ -125,14 +186,15 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 81,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.1,
       "reviewCount": 6,
       "reviewShare": 0.1579,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8333,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -157,7 +219,27 @@
           "productUrl": "https://cpapsupplies.com/quattro-air-for-her-full-face-cpap-mask-by-resmed"
         },
         {
+          "text": "It is so light and easy to fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "You can hardly feel it on your face",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+        },
+        {
           "text": "It fits my small face too",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "It fit snuggly without pressure",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "It is small",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         }
@@ -173,12 +255,13 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 98,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.8,
       "reviewCount": 5,
       "reviewShare": 0.1316,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -208,13 +291,14 @@
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 72,
+      "label": "Stability",
+      "score": 77,
+      "grade": "B",
       "averageSentiment": 7.2,
       "reviewCount": 8,
       "reviewShare": 0.2105,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -262,6 +346,11 @@
       ],
       "positiveEvidence": [
         {
+          "text": "without bothering my wife with a huge blast of air",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+        },
+        {
           "text": "I can move around freely during the night",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
@@ -287,13 +376,14 @@
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 82,
+      "label": "Ease of Use",
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 6,
       "reviewShare": 0.1579,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -315,7 +405,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "easy to fit",
+          "text": "You can hardly feel it on your face",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
         },
@@ -323,6 +413,21 @@
           "text": "It is so light and easy to fit",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "easy to fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "It only covers my nose and mouth and I can still see",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "easy to clean and maintain",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -330,14 +435,15 @@
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 59,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.9,
       "reviewCount": 11,
       "reviewShare": 0.2895,
-      "positiveReviews": 4,
-      "mixedReviews": 3,
+      "positiveReviews": 6,
+      "neutralReviews": 1,
       "negativeReviews": 4,
-      "positiveShare": 0.3636,
+      "positiveShare": 0.5455,
       "negativeShare": 0.3636,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -377,14 +483,19 @@
       ],
       "positiveEvidence": [
         {
+          "text": "It doesn't leave any marks on my face at all",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+        },
+        {
           "text": "it NEVER hurts",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         },
         {
-          "text": "It doesn't leave any marks on my face at all",
+          "text": "3 layers of paper surgical tape eliminated the sores",
           "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         }
       ],
       "negativeEvidence": [
@@ -394,21 +505,32 @@
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         },
         {
+          "text": "a reoccurring sore on my bridge of my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+        },
+        {
           "text": "They poked me in the eyes",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/quattro-air-for-her-full-face-cpap-mask-by-resmed"
+        },
+        {
+          "text": "3 layers of paper surgical tape eliminated the sores",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 84,
+      "score": 96,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 9,
       "reviewShare": 0.2368,
       "positiveReviews": 8,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.8889,
       "negativeShare": 0.0,
@@ -418,12 +540,22 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "My AHI's are down to <1 as well",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+        },
+        {
           "text": "I'm waking up feeling great",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         },
         {
-          "text": "My AHI's are down to <1 as well",
+          "text": "This mask worked great!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "my incidents jumped from avg of 2.7 to 15",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
         }
@@ -441,14 +573,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 90,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.0,
       "reviewCount": 20,
       "reviewShare": 0.5263,
-      "positiveReviews": 19,
-      "mixedReviews": 1,
+      "positiveReviews": 20,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.95,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -462,14 +595,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "I can't say enough about how happy I am with this mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+        },
+        {
           "text": "this is the best one, period",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
-        },
-        {
-          "text": "AMAZING!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -477,14 +610,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 92,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.2,
       "reviewCount": 18,
       "reviewShare": 0.4737,
-      "positiveReviews": 17,
-      "mixedReviews": 1,
+      "positiveReviews": 18,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.9444,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -519,9 +653,9 @@
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
         },
         {
-          "text": "Super comfortable",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/quattro-air-for-her-full-face-cpap-mask-by-resmed"
+          "text": "from the first night I was truly amazed",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         }
       ],
       "negativeEvidence": []
@@ -529,12 +663,13 @@
     {
       "id": "weight",
       "label": "Weight",
-      "score": 91,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.1,
       "reviewCount": 17,
       "reviewShare": 0.4474,
       "positiveReviews": 17,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -582,9 +717,9 @@
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         },
         {
-          "text": "so light",
+          "text": "This one is so light",
           "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         }
       ],
       "negativeEvidence": []
@@ -592,12 +727,13 @@
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 78,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 7.8,
       "reviewCount": 8,
       "reviewShare": 0.2105,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.875,
       "negativeShare": 0.125,
@@ -607,12 +743,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "This mask worked great!",
+          "text": "My AHI's are down to <1 as well",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         },
         {
-          "text": "My AHI's are down to <1 as well",
+          "text": "This mask worked great!",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         }
@@ -628,12 +764,13 @@
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 67,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.7,
       "reviewCount": 6,
       "reviewShare": 0.1579,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -681,12 +818,13 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 90,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.0,
       "reviewCount": 5,
       "reviewShare": 0.1316,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -713,7 +851,7 @@
           "productUrl": "https://cpapsupplies.com/quattro-air-for-her-full-face-cpap-mask-by-resmed"
         },
         {
-          "text": "It fits my small face too",
+          "text": "It is so light and easy to fit",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
         }
@@ -723,14 +861,15 @@
     {
       "id": "pain",
       "label": "Pain",
-      "score": 26,
+      "score": 17,
+      "grade": "F-",
       "averageSentiment": 2.6,
       "reviewCount": 5,
       "reviewShare": 0.1316,
-      "positiveReviews": 0,
-      "mixedReviews": 1,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.0,
+      "positiveShare": 0.2,
       "negativeShare": 0.8,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -775,12 +914,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 98,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.8,
       "reviewCount": 5,
       "reviewShare": 0.1316,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -813,14 +953,15 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 78,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.8,
       "reviewCount": 5,
       "reviewShare": 0.1316,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.6,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -868,114 +1009,7 @@
   "bodySites": [],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 92,
-      "averageSentiment": 9.2,
-      "reviewCount": 19,
-      "reviewShare": 0.5,
-      "positiveReviews": 19,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "this is the best one, period",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 94,
-      "averageSentiment": 9.4,
-      "reviewCount": 14,
-      "reviewShare": 0.3684,
-      "positiveReviews": 14,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "It doesn't even feel like you're wearing anything",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||weight",
-      "label": "Weight",
-      "score": 90,
-      "averageSentiment": 9.0,
-      "reviewCount": 11,
-      "reviewShare": 0.2895,
-      "positiveReviews": 11,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "This one is so light",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||therapy_effectiveness",
-      "label": "Therapy Effectiveness",
-      "score": 78,
-      "averageSentiment": 7.8,
-      "reviewCount": 8,
-      "reviewShare": 0.2105,
-      "positiveReviews": 7,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.875,
-      "negativeShare": 0.125,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "This mask worked great!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "my incidents jumped from avg of 2.7 to 15",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
-        }
-      ]
-    }
-  ],
+  "strengths": [],
   "concerns": [],
   "retailers": [
     {
@@ -998,34 +1032,34 @@
   "evidence": {
     "positive": [
       {
+        "text": "I can't say enough about how happy I am with this mask",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+      },
+      {
+        "text": "It doesn't leave any marks on my face at all",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+      },
+      {
+        "text": "from the first night I was truly amazed",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+      },
+      {
+        "text": "This one is so light it NEVER hurts",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+      },
+      {
+        "text": "I never wake up with a leak",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
+      },
+      {
         "text": "this is the best one, period",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
-      },
-      {
-        "text": "AMAZING!",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
-      },
-      {
-        "text": "The mask is great!",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
-      },
-      {
-        "text": "Best Mask Ever.",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
-      },
-      {
-        "text": "fits perfectly- finally",
-        "retailer": "CPAPsupplies.com",
-        "productUrl": "https://cpapsupplies.com/quattro-air-for-her-full-face-cpap-mask-by-resmed"
-      },
-      {
-        "text": "Super soft and comfortable headgear",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
       }
     ],
     "negative": [
@@ -1040,12 +1074,7 @@
         "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
       },
       {
-        "text": "not recommended for side-sleepers",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
-      },
-      {
-        "text": "Fittings not firm",
+        "text": "a reoccurring sore on my bridge of my nose",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
       },
@@ -1055,16 +1084,21 @@
         "productUrl": "https://cpapsupplies.com/quattro-air-for-her-full-face-cpap-mask-by-resmed"
       },
       {
-        "text": "a reoccurring sore on my bridge of my nose",
+        "text": "not recommended for side-sleepers",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask"
+      },
+      {
+        "text": "Fittings not firm",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask-kit"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

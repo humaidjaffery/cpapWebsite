@@ -1,8 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-airfit-f10-for-her",
   "name": "ResMed AirFit F10 For Her",
   "catalogOrder": 67,
+  "search": {
+    "aliases": [
+      "AirFit F10 For Her Full Face CPAP Mask Kit",
+      "AirFit F10 for Her Full Face CPAP Mask",
+      "Resmed AirFit™ F10 for Her Full Face CPAP Mask"
+    ],
+    "abbreviations": [
+      "F10",
+      "Resmed"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 46,
@@ -13,30 +27,33 @@
     "reviewDateEnd": "2026-05-22"
   },
   "overall": {
-    "compositeScore": 89,
+    "score": 85,
+    "grade": "A-",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.35,
-      "score": 87,
+      "score": 84,
       "reviewCount": 46,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 9.3,
       "score": 93,
       "reviewCount": 23,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 84,
+      "score": 98,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 19,
       "reviewShare": 0.413,
       "positiveReviews": 18,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.9474,
       "negativeShare": 0.0,
@@ -79,7 +96,47 @@
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         },
         {
+          "text": "has not hurt my nose in any way",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
+        },
+        {
           "text": "has the most comfortable headgear",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "the most comfortable headgear",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "It all is just so comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "comfortable it's like not wearing one",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "its super light",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "Light and Comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "So light",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "These put a LOT less pressure on your face than the F20",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         }
@@ -95,14 +152,15 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 64,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.4,
       "reviewCount": 16,
       "reviewShare": 0.3478,
-      "positiveReviews": 8,
-      "mixedReviews": 3,
+      "positiveReviews": 9,
+      "neutralReviews": 2,
       "negativeReviews": 5,
-      "positiveShare": 0.5,
+      "positiveShare": 0.5625,
       "negativeShare": 0.3125,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -156,30 +214,76 @@
           "text": "Fits perfectly!",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "When I started PAP therapy about 2 yrs ago I had to try many different masks to find one that fit and would seal well",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airfit-f10-for-her-full-face-cpap-mask-by-resmed"
+        },
+        {
+          "text": "Finally found the right mask for me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "So far very satisfied with the fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "the way it fits my face",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "superior elbow fitting",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I have a pacemaker so right off I could not wear most of the full face models on the market",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airfit-f10-for-her-full-face-cpap-mask-by-resmed"
+        },
+        {
+          "text": "The mask (xs) is still too large for my face",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
         {
           "text": "I need a smaller",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         },
         {
-          "text": "I have a pacemaker so right off I could not wear most of the full face models on the market",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/airfit-f10-for-her-full-face-cpap-mask-by-resmed"
+          "text": "I wish they still made these in Extra Small!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "I just wish it came in a smaller size",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "I will order the bigger size to see if that helps",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 56,
+      "score": 46,
+      "grade": "D",
       "averageSentiment": 5.6,
       "reviewCount": 12,
       "reviewShare": 0.2609,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.4167,
       "negativeShare": 0.5833,
@@ -230,6 +334,11 @@
           "text": "the best seal",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "It has a better seal for me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         }
       ],
       "negativeEvidence": [
@@ -242,18 +351,29 @@
           "text": "I experience more leaks by the end of 60 days",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "it can leak a little on the right side of my chin when I'm on my back",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "the pressure hits as high as 18cmH20",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 82,
+      "label": "Ease of Use",
+      "score": 90,
+      "grade": "A",
       "averageSentiment": 8.2,
       "reviewCount": 9,
       "reviewShare": 0.1957,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8889,
       "negativeShare": 0.1111,
@@ -279,9 +399,29 @@
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         },
         {
+          "text": "I've never had a lighter and easier to use mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "and easier to use mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
+        },
+        {
           "text": "the ease of use",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "easier to use mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "very easy to do",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airfit-f10-for-her-full-face-cpap-mask-by-resmed"
         }
       ],
       "negativeEvidence": [
@@ -295,12 +435,13 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 49,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 4.9,
       "reviewCount": 6,
       "reviewShare": 0.1304,
       "positiveReviews": 2,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 2,
       "positiveShare": 0.3333,
       "negativeShare": 0.3333,
@@ -331,14 +472,19 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I have used the F10 for years",
+          "text": "I like the feel of the mask material better",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         },
         {
-          "text": "I like the feel of the mask material better",
+          "text": "I have used the F10 for years",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "they hold up pretty well",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         }
       ],
       "negativeEvidence": [
@@ -351,18 +497,29 @@
           "text": "The plastic pieces that join the headgear to the mask are rather flimsy",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "The plastic cushions become soft",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "I have gone from monthly replacements to once every 2 months",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 70,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 6,
       "reviewShare": 0.1304,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -380,6 +537,11 @@
           "text": "I’m getting good sleep NOW!",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "Works well",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         }
       ],
       "negativeEvidence": [
@@ -395,12 +557,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 93,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.3,
       "reviewCount": 23,
       "reviewShare": 0.5,
       "positiveReviews": 23,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -427,12 +590,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "So Happy I Found This Mask",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+          "text": "This literally was the only one that worked",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airfit-f10-for-her-full-face-cpap-mask-by-resmed"
         },
         {
-          "text": "very happy",
+          "text": "Finally found the right mask for me",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         }
@@ -442,12 +605,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 87,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.7,
       "reviewCount": 15,
       "reviewShare": 0.3261,
       "positiveReviews": 15,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -478,14 +642,15 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 75,
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.5,
       "reviewCount": 13,
       "reviewShare": 0.2826,
-      "positiveReviews": 10,
-      "mixedReviews": 1,
+      "positiveReviews": 11,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.7692,
+      "positiveShare": 0.8462,
       "negativeShare": 0.1538,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -531,9 +696,9 @@
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         },
         {
-          "text": "the mask fits great",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+          "text": "When I started PAP therapy about 2 yrs ago I had to try many different masks to find one that fit and would seal well",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/airfit-f10-for-her-full-face-cpap-mask-by-resmed"
         }
       ],
       "negativeEvidence": [
@@ -552,12 +717,13 @@
     {
       "id": "weight",
       "label": "Weight",
-      "score": 87,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.7,
       "reviewCount": 13,
       "reviewShare": 0.2826,
       "positiveReviews": 13,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -578,9 +744,9 @@
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         },
         {
-          "text": "So light",
+          "text": "Light and Comfortable",
           "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         }
       ],
       "negativeEvidence": []
@@ -588,12 +754,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 56,
+      "score": 46,
+      "grade": "D",
       "averageSentiment": 5.6,
       "reviewCount": 12,
       "reviewShare": 0.2609,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.4167,
       "negativeShare": 0.5833,
@@ -662,12 +829,13 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 89,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.9,
       "reviewCount": 7,
       "reviewShare": 0.1522,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -683,14 +851,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "the ease of use",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
-        },
-        {
           "text": "I've never had a lighter and easier to use mask",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+        },
+        {
+          "text": "and easier to use mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -698,12 +866,13 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 86,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.6,
       "reviewCount": 7,
       "reviewShare": 0.1522,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -713,14 +882,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "F10 works way better than the F20 for me",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
-        },
-        {
           "text": "The Airfit F 10 IS the best full face mask I have ever used",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
+        },
+        {
+          "text": "F10 works way better than the F20 for me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         }
       ],
       "negativeEvidence": []
@@ -728,12 +897,13 @@
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 42,
+      "score": 20,
+      "grade": "F",
       "averageSentiment": 4.2,
       "reviewCount": 6,
       "reviewShare": 0.1304,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.1667,
       "negativeShare": 0.8333,
@@ -767,12 +937,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "I need a smaller",
+          "text": "The mask (xs) is still too large for my face",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         },
         {
-          "text": "The mask (xs) is still too large for my face",
+          "text": "I need a smaller",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
         }
@@ -783,12 +953,13 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 90,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.0,
       "reviewCount": 6,
       "reviewShare": 0.1304,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -824,12 +995,13 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 90,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 9.0,
           "reviewCount": 5,
           "reviewShare": 0.1087,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -854,12 +1026,13 @@
     {
       "id": "headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 90,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.0,
       "reviewCount": 5,
       "reviewShare": 0.1087,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -885,164 +1058,15 @@
   "interactionInsights": [],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 94,
-      "averageSentiment": 9.4,
-      "reviewCount": 21,
-      "reviewShare": 0.4565,
-      "positiveReviews": 21,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "So Happy I Found This Mask",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 85,
-      "averageSentiment": 8.5,
-      "reviewCount": 10,
-      "reviewShare": 0.2174,
-      "positiveReviews": 10,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "So light and comfortable it's like not wearing one compared to what I used before",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||weight",
-      "label": "Weight",
-      "score": 89,
-      "averageSentiment": 8.9,
-      "reviewCount": 10,
-      "reviewShare": 0.2174,
-      "positiveReviews": 10,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "its super light",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||previous_mask_comparison",
-      "label": "Previous Mask Comparison",
-      "score": 86,
-      "averageSentiment": 8.6,
-      "reviewCount": 7,
-      "reviewShare": 0.1522,
-      "positiveReviews": 7,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "F10 works way better than the F20 for me",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||ease_of_use",
-      "label": "Ease Of Use",
-      "score": 88,
-      "averageSentiment": 8.8,
-      "reviewCount": 6,
-      "reviewShare": 0.1304,
-      "positiveReviews": 6,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "the ease of use",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 88,
-      "averageSentiment": 8.8,
-      "reviewCount": 6,
-      "reviewShare": 0.1304,
-      "positiveReviews": 6,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Fits perfectly!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "headgear|||comfort",
+      "id": "part|headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 90,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.0,
       "reviewCount": 5,
       "reviewShare": 0.1087,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1088,27 +1112,17 @@
   "evidence": {
     "positive": [
       {
+        "text": "So light and comfortable it's like not wearing one compared to what I used before",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+      },
+      {
         "text": "I use the medium size and it fit me perfectly",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
       },
       {
-        "text": "So Happy I Found This Mask",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
-      },
-      {
-        "text": "very happy",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
-      },
-      {
-        "text": "Best mask I've used",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
-      },
-      {
-        "text": "Best mask for me",
+        "text": "has not hurt my nose in any way",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
       },
@@ -1116,21 +1130,26 @@
         "text": "This literally was the only one that worked",
         "retailer": "CPAPsupplies.com",
         "productUrl": "https://cpapsupplies.com/airfit-f10-for-her-full-face-cpap-mask-by-resmed"
-      }
-    ],
-    "negative": [
+      },
       {
-        "text": "I need a smaller",
+        "text": "Finally found the right mask for me",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
       },
+      {
+        "text": "So Happy I Found This Mask",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
+      }
+    ],
+    "negative": [
       {
         "text": "I have a pacemaker so right off I could not wear most of the full face models on the market",
         "retailer": "CPAPsupplies.com",
         "productUrl": "https://cpapsupplies.com/airfit-f10-for-her-full-face-cpap-mask-by-resmed"
       },
       {
-        "text": "I've had these break a couple of times",
+        "text": "Prices have increased dramatically over the last few years for the same product",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
       },
@@ -1140,21 +1159,26 @@
         "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
       },
       {
-        "text": "Prices have increased dramatically over the last few years for the same product",
+        "text": "I've had these break a couple of times",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
       },
       {
-        "text": "I wish they still made these in Extra Small!",
+        "text": "I need a smaller",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask-kit"
+      },
+      {
+        "text": "The plastic pieces that join the headgear to the mask are rather flimsy",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

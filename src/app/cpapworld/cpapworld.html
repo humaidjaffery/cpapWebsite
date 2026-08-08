@@ -15,61 +15,237 @@
     </a>
 
     <nav class="header-actions" aria-label="CPAP World navigation">
-      <a class="retailer-guide-link" routerLink="/cpapworld/retailers">Compare retailers</a>
-      <a class="header-cta" routerLink="/">Win Lifetime Free Custom Masks!</a>
+      <app-waitlist-signup class="header-waitlist" [header]="true" />
     </nav>
   </header>
 
   <section class="hero-panel" aria-labelledby="cpapworld-title">
-    <h1 id="cpapworld-title">Find Your Perfect Mask</h1>
-    <p>The definitive guide to CPAP comfort. No more guessing, just better sleep.</p>
+    <h1 id="cpapworld-title">CPAP World</h1>
+    <p>
+      <strong>Find Your Perfect Mask</strong>
+      <span class="hero-description-line">The definitive guide to CPAP comfort.</span>
+    </p>
 
-    <form class="search-panel" aria-label="Search CPAP masks">
+    <form class="search-panel" aria-label="Search CPAP masks" (submit)="submitSearch($event)">
       <label class="search-field">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <circle cx="11" cy="11" r="7" />
           <path d="m16 16 4 4" />
         </svg>
         <span class="sr-only">Search masks</span>
-        <input type="search" placeholder="Search masks by model, brand, or feature..." />
+        <input
+          type="search"
+          placeholder="Try F20, nasal pillow, full face, or Fisher & Paykel..."
+          autocomplete="off"
+          [value]="searchQuery()"
+          (input)="updateSearch($event)"
+        />
       </label>
-      <button type="submit">Explore</button>
+      <button type="submit">Search</button>
     </form>
 
-    <div class="filter-chips" aria-label="Popular mask categories">
-      <button type="button">Side Sleeper</button>
-      <button type="button">Heavy Breather</button>
-      <button type="button">Nasal Only</button>
-      <button type="button">Full Face</button>
-      <button type="button">Active Sleep</button>
+    <div class="filter-panel" aria-label="Filter and sort masks">
+      <div class="filter-row filter-fields-row">
+        <div class="filter-control best-for-control">
+          <span>Best for</span>
+          <details
+            class="custom-select"
+            (toggle)="handleSelectToggle($event)"
+            (keydown.escape)="closeSelect($event)"
+          >
+            <summary>{{ bestForLabel() }}</summary>
+            <div class="custom-select-menu best-for-menu">
+              @for (attribute of bestForOptions(); track attribute) {
+                <label class="custom-option checkbox-option">
+                  <input
+                    type="checkbox"
+                    [checked]="isBestForSelected(attribute)"
+                    (change)="toggleBestFor(attribute)"
+                  />
+                  <span>{{ attribute }}</span>
+                </label>
+              }
+            </div>
+          </details>
+        </div>
+
+        <div class="filter-control sort-control">
+          <span>Sort by</span>
+          <details
+            #sortSelect
+            class="custom-select"
+            (toggle)="handleSelectToggle($event)"
+            (keydown.escape)="closeSelect($event)"
+          >
+            <summary>{{ sortLabel() }}</summary>
+            <div class="custom-select-menu sort-menu">
+              @for (option of [
+                { value: 'recommended', label: 'Recommended' },
+                { value: 'price-low', label: 'Price: low to high' },
+                { value: 'price-high', label: 'Price: high to low' },
+                { value: 'rating', label: 'Highest rated' }
+              ]; track option.value) {
+                <label class="custom-option radio-option">
+                  <input
+                    type="radio"
+                    name="mask-sort"
+                    [value]="option.value"
+                    [checked]="sortBy() === option.value"
+                    (change)="selectSort(option.value, sortSelect)"
+                  />
+                  <span>{{ option.label }}</span>
+                  @if (sortBy() === option.value) { <b aria-hidden="true">✓</b> }
+                </label>
+              }
+            </div>
+          </details>
+        </div>
+      </div>
+
+      <div class="filter-row mask-type-row">
+        <div class="filter-chips">
+          @for (filter of maskTypes; track filter) {
+            <button
+              type="button"
+              [class.filter-chip-active]="selectedMaskType() === filter"
+              [attr.aria-pressed]="selectedMaskType() === filter"
+              (click)="toggleMaskType(filter)"
+            >
+              {{ filter }}
+            </button>
+          }
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="mask-catalog" aria-labelledby="mask-catalog-title">
-    <h2 id="mask-catalog-title">Explore Every Mask</h2>
+  <section class="mask-catalog" aria-label="Mask catalog">
+    <div class="catalog-heading-row">
+      <div>
+        <p class="result-count" aria-live="polite">
+          {{ filteredMasks().length }} {{ filteredMasks().length === 1 ? 'mask' : 'masks' }}
+          @if (searchQuery().trim()) { matching “{{ searchQuery().trim() }}” }
+        </p>
+      </div>
+      @if (hasActiveCriteria()) {
+        <button type="button" class="clear-search" (click)="clearFilters()">Clear filters</button>
+      }
+    </div>
 
     <div class="mask-grid">
-      @for (mask of masks(); track mask.slug) {
+      <article class="mask-card custom-mask-card" aria-labelledby="custom-mask-title">
+        <div class="custom-mask-media" aria-hidden="true">
+          <img class="custom-mask-art" [src]="customMaskImage" alt="" width="1024" height="1024" />
+          <span class="coming-soon-badge">Coming soon</span>
+        </div>
+
+        <div class="mask-card-content custom-mask-content">
+          <div>
+            <span class="custom-mask-eyebrow">DreamSeal custom-fit mask</span>
+            <h3 id="custom-mask-title">A CPAP mask made for you</h3>
+          </div>
+
+          <app-waitlist-signup [compact]="true" />
+        </div>
+      </article>
+
+      @for (mask of filteredMasks(); track mask.slug) {
         <a class="mask-card" [routerLink]="['/cpapworld/masks', mask.slug]">
           <div class="mask-media" aria-hidden="true">
-            @if (mask.overall.compositeScore !== null) {
-              <span class="catalog-score">{{ mask.overall.compositeScore }}</span>
-              <span class="catalog-score-label">review evidence score</span>
-            } @else {
-              <span>Detailed analysis coming soon</span>
+            <img
+              class="mask-image"
+              [src]="'/images/masks/' + mask.slug + '.webp'"
+              alt=""
+              width="1200"
+              height="900"
+              loading="lazy"
+              decoding="async"
+            />
+            @if (mask.overall.grade !== null) {
+              <span class="catalog-grade">
+                <strong>{{ mask.overall.grade }}</strong>
+                <span>overall</span>
+              </span>
             }
           </div>
 
           <div class="mask-card-content">
-            <div>
+            <div class="mask-card-heading">
               <h3>{{ mask.name }}</h3>
               <p>{{ coverageLabel(mask) }}</p>
+              @if (mask.overall.ratingComponent.average !== null) {
+                <p class="rating-line">
+                  {{ mask.overall.ratingComponent.average }} / 5 stars ·
+                  {{ mask.overall.ratingComponent.reviewCount.toLocaleString() }} ratings
+                </p>
+              }
             </div>
-            <span class="mask-card-arrow" aria-hidden="true">&rarr;</span>
+
+            <div class="card-stat-grid" aria-label="Six review grades">
+              @for (stat of mask.cardGrades; track stat.id) {
+                <div class="card-stat" [attr.title]="stat.description">
+                  <div>
+                    <span>{{ stat.label }}</span>
+                  </div>
+                  <strong>{{ stat.grade ?? '—' }}</strong>
+                </div>
+              }
+            </div>
+
+            @if (mask.bestReportedFor.length || mask.extraCaution.length) {
+              <div class="card-fit-summary">
+                @if (mask.bestReportedFor.length) {
+                  <div class="fit-row fit-row-positive">
+                    <span>Best reported for</span>
+                    <p>
+                      @for (context of mask.bestReportedFor; track context.id) {
+                        <span class="context-item">
+                          {{ context.label }}
+                          @if (context.reason) {<small>· {{ context.reason }}</small>}
+                        </span>
+                      }
+                    </p>
+                  </div>
+                }
+                @if (mask.extraCaution.length) {
+                  <div class="fit-row fit-row-caution">
+                    <span>Extra caution for</span>
+                    <p>
+                      @for (context of mask.extraCaution; track context.id) {
+                        <span class="context-item">
+                          {{ context.label }}
+                          @if (context.reason) {<small>· {{ context.reason }}</small>}
+                        </span>
+                      }
+                    </p>
+                  </div>
+                }
+              </div>
+            }
+
+            <div class="mask-card-footer">
+              @if (minimumPrice(mask.slug); as price) {
+                <div class="card-minimum-price">
+                  <span>Cheapest</span>
+                  <strong>{{ price }}</strong>
+                </div>
+              } @else {
+                <span class="price-unavailable">Price unavailable</span>
+              }
+              <span class="mask-card-arrow" aria-hidden="true">&rarr;</span>
+            </div>
           </div>
         </a>
       }
     </div>
+
+    @if (!catalogLoading() && !catalogError() && filteredMasks().length === 0) {
+      <div class="no-results">
+        <h3>No matching masks</h3>
+        <p>Try a model such as “P10,” a manufacturer, or a type such as “nasal pillow.”</p>
+        <button type="button" (click)="clearFilters()">Show all masks</button>
+      </div>
+    }
 
     @if (catalogLoading()) {
       <p class="catalog-state">Loading mask evidence…</p>
@@ -79,4 +255,5 @@
       </p>
     }
   </section>
+  <app-custom-mask-popup />
 </main>

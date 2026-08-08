@@ -1,8 +1,21 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "philips-respironics-easylife",
   "name": "Philips Respironics EasyLife",
   "catalogOrder": 83,
+  "search": {
+    "aliases": [
+      "EasyLife Nasal CPAP Mask with Headgear"
+    ],
+    "abbreviations": [
+      "PR",
+      "Philips",
+      "Respironics"
+    ],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 14,
@@ -13,30 +26,33 @@
     "reviewDateEnd": "2019-08-28"
   },
   "overall": {
-    "compositeScore": 84,
+    "score": 82,
+    "grade": "B+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.29,
-      "score": 86,
+      "score": 82,
       "reviewCount": 14,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.1,
       "score": 81,
       "reviewCount": 9,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 66,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 6.6,
       "reviewCount": 8,
       "reviewShare": 0.5714,
       "positiveReviews": 5,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 1,
       "positiveShare": 0.625,
       "negativeShare": 0.125,
@@ -63,24 +79,49 @@
       ],
       "positiveEvidence": [
         {
+          "text": "very comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
           "text": "comfortable",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "very comfortable",
+          "text": "Very light",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "more comfort",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "comfy!!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "this is the most comfortable cpa mask ever made",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "discomfort on the bridge of the nose",
+          "text": "i got a pressure sore on the bridge of the nose after the first night",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "i got a pressure sore on the bridge of the nose after the first night",
+          "text": "If you are leaving marks on your skin after use, the mask is too tight",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "discomfort on the bridge of the nose",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         }
@@ -89,14 +130,15 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 62,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 9,
       "reviewShare": 0.6429,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.5556,
+      "positiveShare": 0.6667,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -145,16 +187,41 @@
           "text": "great fit",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "easy to adjust",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "After proper fitting",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "good fit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "am going to use a gel forehead piece from another mask to fix the only issue i had with this",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "Just couldn't use the kind that goes up my nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
         {
           "text": "inherent flaw in the design of the mask",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "Just couldn't use the kind that goes up my nose",
+          "text": "i have small features [between child & adult size] and don't have a mounded bridge at all",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         }
@@ -163,12 +230,13 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 86,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.6,
       "reviewCount": 5,
       "reviewShare": 0.3571,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -189,12 +257,27 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "gives me a great seal through the night",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
           "text": "sealed brilliantly",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "gives me a great seal through the night",
+          "text": "tight seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "has a nice seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "had a better seal",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         }
@@ -203,15 +286,16 @@
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 68,
+      "label": "Ease of Use",
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 9,
       "reviewShare": 0.6429,
-      "positiveReviews": 6,
-      "mixedReviews": 1,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.7778,
       "negativeShare": 0.2222,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -240,7 +324,32 @@
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         },
         {
+          "text": "Self adjusting mask, makes it easy to use",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Easy Mask for sure",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
           "text": "easy to use",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "easy to adjust",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "and clean",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "it is important that you read the EasyLife fitting instructions prior to use",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         }
@@ -263,14 +372,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 81,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 8.1,
       "reviewCount": 9,
       "reviewShare": 0.6429,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.7778,
+      "positiveShare": 0.8889,
       "negativeShare": 0.1111,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -283,7 +393,7 @@
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "Great recommendation.",
+          "text": "The mask so far lives up to it's name.",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         }
@@ -299,14 +409,15 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 61,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.1,
       "reviewCount": 8,
       "reviewShare": 0.5714,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.5,
+      "positiveShare": 0.625,
       "negativeShare": 0.375,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -354,12 +465,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "inherent flaw in the design of the mask",
+          "text": "Just couldn't use the kind that goes up my nose",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "Just couldn't use the kind that goes up my nose",
+          "text": "inherent flaw in the design of the mask",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         }
@@ -368,12 +479,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 6,
       "reviewShare": 0.4286,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -389,12 +501,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "comfortable",
+          "text": "very comfortable",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "very comfortable",
+          "text": "comfortable",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         }
@@ -404,12 +516,13 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 5,
       "reviewShare": 0.3571,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -430,7 +543,7 @@
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "easy to use",
+          "text": "Self adjusting mask, makes it easy to use",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         }
@@ -440,12 +553,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 86,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.6,
       "reviewCount": 5,
       "reviewShare": 0.3571,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -466,12 +580,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "sealed brilliantly",
+          "text": "gives me a great seal through the night",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "gives me a great seal through the night",
+          "text": "sealed brilliantly",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
         }
@@ -488,64 +602,7 @@
   "bodySites": [],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 9,
-      "reviewShare": 0.6429,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
-      "negativeReviews": 1,
-      "positiveShare": 0.7778,
-      "negativeShare": 0.1111,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I love this mask",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Not my favorite mask to use",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
-        }
-      ]
-    },
-    {
-      "id": "|||ease_of_use",
-      "label": "Ease Of Use",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 5,
-      "reviewShare": 0.3571,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "easy to use",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
-        }
-      ],
-      "negativeEvidence": []
-    }
-  ],
+  "strengths": [],
   "concerns": [],
   "retailers": [
     {
@@ -565,7 +622,7 @@
         "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
       },
       {
-        "text": "Great recommendation.",
+        "text": "this is exactly what I needed to get a good nights sleep",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
       },
@@ -575,32 +632,22 @@
         "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
       },
       {
+        "text": "gives me a great seal through the night",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+      },
+      {
         "text": "it did make my life alot easier",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
       },
       {
-        "text": "comfortable",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
-      },
-      {
-        "text": "sealed brilliantly",
+        "text": "highly recommend this mask",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
       }
     ],
     "negative": [
-      {
-        "text": "discomfort on the bridge of the nose",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
-      },
-      {
-        "text": "Just couldn't use the kind that goes up my nose",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
-      },
       {
         "text": "i got a pressure sore on the bridge of the nose after the first night",
         "retailer": "1800CPAP.COM",
@@ -612,6 +659,16 @@
         "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
       },
       {
+        "text": "had to remove it due to the discomfort on the bridge of the nose",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+      },
+      {
+        "text": "Just couldn't use the kind that goes up my nose",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
+      },
+      {
         "text": "The cushion is kind of a pain to get attached to the mask",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/easylife-nasal-cpap-mask-with-headgear"
@@ -619,9 +676,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

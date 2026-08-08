@@ -3,10 +3,11 @@ import { RouterLink } from '@angular/router';
 
 import { RetailerIndex, RetailerProfile } from '../retailer-data';
 import { RetailerDataService } from '../retailer-data.service';
+import { WaitlistSignup } from '../../waitlist-signup/waitlist-signup';
 
 @Component({
   selector: 'app-retailers',
-  imports: [RouterLink],
+  imports: [RouterLink, WaitlistSignup],
   templateUrl: './retailers.html',
   styleUrl: './retailers.css'
 })
@@ -52,5 +53,24 @@ export class Retailers {
       day: 'numeric',
       year: 'numeric'
     }).format(new Date(`${value}T00:00:00`));
+  }
+
+  protected gradeBand(grade: string | null): 'high' | 'middle' | 'low' | 'none' {
+    if (!grade) {
+      return 'none';
+    }
+    if (grade.startsWith('A') || grade.startsWith('B')) {
+      return 'high';
+    }
+    if (grade.startsWith('C') || grade.startsWith('D')) {
+      return 'middle';
+    }
+    return 'low';
+  }
+
+  protected scrollTo(sectionId: string, event: Event): void {
+    event.preventDefault();
+    document.getElementById(sectionId)?.scrollIntoView({ block: 'start' });
+    history.replaceState(null, '', `/cpapworld/retailers#${sectionId}`);
   }
 }

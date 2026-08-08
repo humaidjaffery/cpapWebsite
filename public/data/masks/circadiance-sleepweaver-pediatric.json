@@ -1,8 +1,18 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "circadiance-sleepweaver-pediatric",
   "name": "Circadiance SleepWeaver Pediatric",
   "catalogOrder": 90,
+  "search": {
+    "aliases": [
+      "SleepWeaver Advance Pediatric Nasal CPAP Mask (FOR REFERENCE ONLY)",
+      "SleepWeaver Pediatric Soft Cloth Mask"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 8,
@@ -13,30 +23,33 @@
     "reviewDateEnd": "2020-05-20"
   },
   "overall": {
-    "compositeScore": null,
+    "score": 78,
+    "grade": "B",
+    "calculation": "star rating only; insufficient review-text satisfaction evidence",
     "ratingComponent": {
       "average": 4.12,
-      "score": 82,
+      "score": 78,
       "reviewCount": 8,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 7.5,
       "score": 75,
       "reviewCount": 4,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 59,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 5.9,
       "reviewCount": 5,
       "reviewShare": 0.625,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -72,16 +85,21 @@
           "text": "I love stand it has further improved on my sleep",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
+        },
+        {
+          "text": "Now I am back to using the cpap",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "it shootshould air into her eyes all night",
+          "text": "Makes me feel that I'm not receiving the air needed",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
         },
         {
-          "text": "Makes me feel that I'm not receiving the air needed",
+          "text": "it shootshould air into her eyes all night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
         }
@@ -131,17 +149,17 @@
         "productUrl": "https://1800cpap.com/products/sleepweaver-pediatric-soft-cloth-mask"
       },
       {
-        "text": "Great",
+        "text": "This is as close to perfect as I have found yet",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
+      },
+      {
+        "text": "developed contact dermatitis from various masks",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
       },
       {
         "text": "Great improvement for me :)",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
-      },
-      {
-        "text": "This is as close to perfect as I have found yet",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
       },
@@ -158,22 +176,22 @@
         "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
       },
       {
+        "text": "Makes me feel that I'm not receiving the air needed",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
+      },
+      {
         "text": "the straps leave heavy marks on my cheeks",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
       },
       {
-        "text": "Uncomfortable",
+        "text": "I did have some air bypassing it near the top - which was breeze on my eyes",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
       },
       {
         "text": "we had the same problem as the other reviewer with leaks in my son's eyes",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
-      },
-      {
-        "text": "I did have some air bypassing it near the top - which was breeze on my eyes",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/sleepweaver-advance-pediatric-nasal-cpap-mask"
       },
@@ -185,9 +203,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

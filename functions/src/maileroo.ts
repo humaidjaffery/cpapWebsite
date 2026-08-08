@@ -8,7 +8,8 @@ export interface MailerooTemplateEmailParams {
   toName: string;
   subject: string;
   referenceId: string;
-  scheduledAt: string;
+  scheduledAt?: string;
+  tagSource?: string;
   templateData: {
     first_name: string;
     user_suggestion: string;
@@ -44,12 +45,15 @@ export async function sendMailerooTemplateEmail(
     template_data: params.templateData,
     tracking: true,
     tags: {
-      source: "survey-complete",
+      source: params.tagSource ?? "survey-complete",
       waitlist_doc_id: params.templateData.waitlist_doc_id,
     },
     reference_id: params.referenceId,
-    scheduled_at: params.scheduledAt,
   };
+
+  if (params.scheduledAt) {
+    body.scheduled_at = params.scheduledAt;
+  }
 
   if (params.replyToAddress) {
     body.reply_to = {

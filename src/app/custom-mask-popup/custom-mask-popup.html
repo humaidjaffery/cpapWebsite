@@ -1,0 +1,29 @@
+<button class="custom-mask-popup-launcher" type="button" (click)="open.set(true)">
+  <img src="/dreamseal_logo.png" alt="" width="42" height="42" />
+  <span><small>Coming soon</small>Get a custom-fit mask</span>
+</button>
+
+@if (open()) {
+  <div class="custom-mask-popup-backdrop" (click)="close()">
+    <section
+      class="custom-mask-popup"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="custom-mask-popup-title"
+      (click)="$event.stopPropagation()"
+    >
+      <button class="custom-mask-popup-close" type="button" aria-label="Close" (click)="close()">
+        &times;
+      </button>
+      <div class="custom-mask-popup-media" aria-hidden="true">
+        <img [src]="customMaskImage" alt="" width="1024" height="1024" />
+        <span class="custom-mask-popup-badge">Coming soon</span>
+      </div>
+      <div class="custom-mask-popup-content">
+        <p class="custom-mask-popup-eyebrow">DreamSeal custom-fit mask</p>
+        <h2 id="custom-mask-popup-title">A mask made around you</h2>
+        <app-waitlist-signup [inlinePerks]="true" />
+      </div>
+    </section>
+  </div>
+}

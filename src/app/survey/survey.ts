@@ -1,6 +1,6 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { initializeApp } from 'firebase/app';
+import { getApp, getApps, initializeApp } from 'firebase/app';
 import { getFirestore, doc, updateDoc, Timestamp } from 'firebase/firestore';
 import { environment } from '../../environments/environment';
 
@@ -32,7 +32,7 @@ export class Survey implements OnInit, AfterViewInit {
   
   constructor(private router: Router) {
     // Initialize Firebase using environment config
-    const app = initializeApp(environment.firebase);
+    const app = getApps().length ? getApp() : initializeApp(environment.firebase);
     this.db = getFirestore(app);
   }
   
@@ -88,8 +88,7 @@ export class Survey implements OnInit, AfterViewInit {
           this.showCompletionMessage();
         } catch (error) {
           console.error('Error saving survey:', error);
-          // Still continue even if Firebase fails
-          this.showCompletionMessage();
+          alert('We could not save your survey. Please check your connection and try again.');
         }
       } else {
         console.warn('No document ID available - survey data not saved to Firebase');
@@ -110,7 +109,6 @@ export class Survey implements OnInit, AfterViewInit {
     // Create update object with survey data and completion timestamp
     const updateData: any = {
       surveyCompletedAt: Timestamp.now(),
-      emailStatus: 'pending',
       ...answers
     };
     

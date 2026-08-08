@@ -1,8 +1,17 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "apex-wizard-510",
   "name": "Apex Wizard 510",
   "catalogOrder": 106,
+  "search": {
+    "aliases": [
+      "Wizard 510 Nasal CPAP Mask System"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 3,
@@ -13,18 +22,20 @@
     "reviewDateEnd": "2025-11-12"
   },
   "overall": {
-    "compositeScore": null,
+    "score": null,
+    "grade": null,
+    "calculation": "unavailable",
     "ratingComponent": {
       "average": 4.33,
-      "score": 87,
+      "score": 83,
       "reviewCount": 3,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 6.0,
       "score": 60,
       "reviewCount": 1,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [],
@@ -61,6 +72,11 @@
         "text": "the headgear stays well in place",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/wizard-510-nasal-cpap-mask-system"
+      },
+      {
+        "text": "First time trying this mask",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/wizard-510-nasal-cpap-mask-system"
       }
     ],
     "negative": [
@@ -72,9 +88,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

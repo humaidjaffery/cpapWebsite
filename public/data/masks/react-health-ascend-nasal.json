@@ -1,8 +1,18 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "react-health-ascend-nasal",
   "name": "React Health Ascend Nasal",
   "catalogOrder": 101,
+  "search": {
+    "aliases": [
+      "Ascend Nasal CPAP Mask Fit Pack",
+      "Ascend Nasal CPAP Mask with Headgear"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 4,
@@ -13,18 +23,20 @@
     "reviewDateEnd": "2026-06-01"
   },
   "overall": {
-    "compositeScore": null,
+    "score": null,
+    "grade": null,
+    "calculation": "unavailable",
     "ratingComponent": {
       "average": 2.75,
-      "score": 55,
+      "score": 44,
       "reviewCount": 4,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": null,
       "score": null,
       "reviewCount": 0,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [],
@@ -61,12 +73,12 @@
   "evidence": {
     "positive": [
       {
-        "text": "I like the sizing",
+        "text": "The velcro on the headgear makes it easy to find the best fit each night",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/ascend-nasal-cpap-mask-fit-pack"
       },
       {
-        "text": "Easy to fit",
+        "text": "I like the sizing",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/ascend-nasal-cpap-mask-fit-pack"
       },
@@ -95,9 +107,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

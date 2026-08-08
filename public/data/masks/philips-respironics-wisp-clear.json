@@ -1,8 +1,22 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "philips-respironics-wisp-clear",
   "name": "Philips Respironics Wisp Clear",
   "catalogOrder": 79,
+  "search": {
+    "aliases": [
+      "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "Wisp Clear Nasal CPAP Mask Fit Pack"
+    ],
+    "abbreviations": [
+      "PR",
+      "Philips",
+      "Respironics"
+    ],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 16,
@@ -13,30 +27,33 @@
     "reviewDateEnd": "2026-05-27"
   },
   "overall": {
-    "compositeScore": 86,
+    "score": 84,
+    "grade": "B+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.38,
-      "score": 88,
+      "score": 84,
       "reviewCount": 16,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.3,
       "score": 83,
       "reviewCount": 10,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 88,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 5,
       "reviewShare": 0.3125,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -57,7 +74,22 @@
           "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
         },
         {
+          "text": "the comfort level more than hoped for",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
+        },
+        {
           "text": "Very comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "it is very comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "is comfortable",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
         }
@@ -67,12 +99,13 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 6,
       "reviewShare": 0.375,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -109,12 +142,32 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the small/medium cushion is the perfect size for me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
+        },
+        {
           "text": "all cushion sizes to choose",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
         },
         {
-          "text": "The fit is great",
+          "text": "the headgear fits around the back of my head",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "fits well",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "Fits",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "I chose the fabric frame with the extra padding. Fits good",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
         }
@@ -123,13 +176,14 @@
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 82,
+      "label": "Ease of Use",
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 5,
       "reviewShare": 0.3125,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -185,6 +239,21 @@
           "text": "Easy to use mask that's doing the job for me",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "the short tube disconnects easy when I need to get up in the middle of the night",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "it makes it much easier to put on",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "easy on",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
         }
       ],
       "negativeEvidence": []
@@ -194,12 +263,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 83,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 8.3,
       "reviewCount": 10,
       "reviewShare": 0.625,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9,
       "negativeShare": 0.1,
@@ -215,14 +285,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Love it",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics"
-        },
-        {
           "text": "After trying multiple nasal masks and headgear I finally have found the Right Mask and Headgear for me",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
+        },
+        {
+          "text": "Love it",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics"
         }
       ],
       "negativeEvidence": [
@@ -236,12 +306,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 88,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 5,
       "reviewShare": 0.3125,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -262,7 +333,7 @@
           "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
         },
         {
-          "text": "Very comfortable",
+          "text": "the comfort level more than hoped for",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
         }
@@ -272,12 +343,13 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 80,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.0,
       "reviewCount": 5,
       "reviewShare": 0.3125,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -309,7 +381,7 @@
           "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
         },
         {
-          "text": "fits well",
+          "text": "the headgear fits around the back of my head",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
         }
@@ -326,39 +398,7 @@
   "bodySites": [],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 9,
-      "reviewShare": 0.5625,
-      "positiveReviews": 8,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.8889,
-      "negativeShare": 0.1111,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Love it",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Thumbsdown",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
-        }
-      ]
-    }
-  ],
+  "strengths": [],
   "concerns": [],
   "retailers": [
     {
@@ -381,6 +421,11 @@
   "evidence": {
     "positive": [
       {
+        "text": "After trying multiple nasal masks and headgear I finally have found the Right Mask and Headgear for me",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
+      },
+      {
         "text": "The most comfortable mask I've ever had",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
@@ -391,22 +436,17 @@
         "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics"
       },
       {
-        "text": "After trying multiple nasal masks and headgear I finally have found the Right Mask and Headgear for me",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
-      },
-      {
         "text": "leaving open field of vision with nothing on my forehead",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
       },
       {
-        "text": "all cushion sizes to choose",
+        "text": "Can't beat the price for all that comes with this",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
       },
       {
-        "text": "Great Mask",
+        "text": "Such a great mask for the price!",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack"
       }
@@ -430,9 +470,9 @@
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

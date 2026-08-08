@@ -1,8 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "philips-respironics-wisp",
   "name": "Philips Respironics Wisp",
   "catalogOrder": 36,
+  "search": {
+    "aliases": [
+      "Philips Respironics Wisp Nasal CPAP Mask Fit Pack",
+      "Philips Wisp",
+      "Philips | Wisp Nasal CPAP Mask",
+      "Respironics Wisp",
+      "Wisp Nasal CPAP FitPack Mask | Philips",
+      "Wisp Nasal CPAP Mask FitPack with Headgear",
+      "Wisp Nasal CPAP Mask System",
+      "Wisp mask",
+      "Wisp nasal mask"
+    ],
+    "abbreviations": [
+      "PR",
+      "Philips",
+      "Respironics"
+    ],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 278,
@@ -13,32 +34,35 @@
     "reviewDateEnd": "2026-06-04"
   },
   "overall": {
-    "compositeScore": 84,
+    "score": 81,
+    "grade": "B+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.23,
-      "score": 85,
+      "score": 81,
       "reviewCount": 278,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.4,
       "score": 84,
       "reviewCount": 140,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 71,
+      "score": 78,
+      "grade": "B",
       "averageSentiment": 7.1,
       "reviewCount": 125,
       "reviewShare": 0.4496,
-      "positiveReviews": 88,
-      "mixedReviews": 9,
+      "positiveReviews": 96,
+      "neutralReviews": 1,
       "negativeReviews": 28,
-      "positiveShare": 0.704,
+      "positiveShare": 0.768,
       "negativeShare": 0.224,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -124,17 +148,62 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I find it so comfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "These are the most comfortable CPAP mask I've found",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "It is the most comfortable mask I've ever have",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
           "text": "The most comfortable mask I've ever had",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "The most comfortable mask I've ever owned",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "super comfortable to wear when sleeping",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "The Wisp is great, extremely comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I find it so comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "This one is so comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "Such a comfortable mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Most comfortable mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "The WISP Nasal Mask with Headgear is horrible since I cannot sleep well with it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
         {
           "text": "Hurt like hell.. Hurt like hell",
           "retailer": "DirectHomeMedical",
@@ -144,20 +213,56 @@
           "text": "not enough support",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "it really hurt",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "It also left a deep groove in the bridge of my nose that was sore to the touch the whole rest of the day",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "this mask, with the top straps fully extended pulls the mask up to the point that is very uncomfortable under my nose and ears",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "The way the head joins with the frame is uncomfortable and seems to push in on my nasal passages",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "every morning I have loud face marks, raw on my bridge of my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I was using a nasal pillow and it was very uncomfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Where the magnets are they dig into my jaw and cheeks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 64,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 6.4,
       "reviewCount": 118,
       "reviewShare": 0.4245,
-      "positiveReviews": 72,
-      "mixedReviews": 11,
+      "positiveReviews": 78,
+      "neutralReviews": 5,
       "negativeReviews": 35,
-      "positiveShare": 0.6102,
+      "positiveShare": 0.661,
       "negativeShare": 0.2966,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -243,24 +348,104 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I also never have to readjust my mask in the middle of the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
           "text": "This headgear is exactly what I needed",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
+          "text": "the perfect fit for me",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
           "text": "It fits perfectly",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Awesome fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Perfect fitting",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I don't have to tighten it down to the extent that I have marks on my face the next morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I have no trouble at all fitting this mask to my head",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "it fits the shape of my skull very well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "the small/medium cushion is the perfect size for me",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "will not seal properly no matter how hard you tighten the gear",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Nose piece doesn’t fit- at all!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
         {
           "text": "fits terrible",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "Nose piece doesn’t fit- at all!",
+          "text": "I have tried two of the three nasal sizes, the medium and the large",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "there is no ability to adjust the mask any lower on my face",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "I had to have it really tight in order to create the seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The mid-sized one was way too big and rested on my cheeks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I could not get used to the nose only CPAP mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I have a fairly long nose with a narrow bridge",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Silicone cover get in the way of the nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -269,12 +454,13 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 63,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.3,
       "reviewCount": 53,
       "reviewShare": 0.1906,
       "positiveReviews": 33,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 20,
       "positiveShare": 0.6226,
       "negativeShare": 0.3774,
@@ -352,12 +538,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I sleep through the night with no mask leaks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The seal is for this mask very good",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
           "text": "it seals perfectly for me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "I sleep through the night with no mask leaks",
+          "text": "there are no leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "No air escapes",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "no leaks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I have no leakage due to the different sizes of nose pieces to choose from that came with mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The Wisp doesn’t leak or leave marks on my face!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "no leaking when i sleep on my side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Seals well even with a mustache",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
@@ -372,20 +598,61 @@
           "text": "Leaks like crazy",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "the mask leaked continually no matter how loose or tight I wore it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I don't seem to get it to seal off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "air started to leak out of the mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "side sleeping made it leak a lot",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "It leaked air onto my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "the L size leaked air terribly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "L/XL leaks too much",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "created huge leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 67,
+      "label": "Stability",
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 42,
       "reviewShare": 0.1511,
-      "positiveReviews": 26,
-      "mixedReviews": 6,
+      "positiveReviews": 29,
+      "neutralReviews": 3,
       "negativeReviews": 10,
-      "positiveShare": 0.619,
+      "positiveShare": 0.6905,
       "negativeShare": 0.2381,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -471,12 +738,62 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
+          "text": "stays on all night long with no disturbance",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
           "text": "doesn't move around while I sleep",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I tend to change positions a lot depending on the night so I don't have one sleep position",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I sleep on my side and have no issues with this mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the tube can turn easily with you when you turn in bed",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "soft secure, yet flexible for sleepers who change positions during the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "you can definitely sleep in any position with this mask",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "As a side sleeper other masks prevented a comfortable position",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the headgear are much more effective than other designs",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "was not able to get the head-piece to fit where it would stay on all night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The velcro straps are not strong enough to hold the cone in place",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
         {
           "text": "the mask did not remain over my nose",
           "retailer": "DirectHomeMedical",
@@ -486,20 +803,51 @@
           "text": "will not hold the masked hooked",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "slipped often during the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the mask would move",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "was easily dislodged",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The top strap across my face was pulling to far back toward my head",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "they seek each other out magnetically and create a tangled cord in your hands",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the mask can shift during the night if you move around a lot",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 74,
+      "label": "Ease of Use",
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.4,
       "reviewCount": 62,
       "reviewShare": 0.223,
-      "positiveReviews": 47,
-      "mixedReviews": 6,
+      "positiveReviews": 51,
+      "neutralReviews": 2,
       "negativeReviews": 9,
-      "positiveShare": 0.7581,
+      "positiveShare": 0.8226,
       "negativeShare": 0.1452,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -593,6 +941,46 @@
           "text": "you can easily detach the hose from the mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I can wear my glasses with it if I want to fall asleep watching TV, or do a puzzle or read",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I'm able to slip the headgear on and off easily without having to constantly fasten and unfasten the velcro straps",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "has magnetic clasps so you can easily take it off and put it on without losing your strap setting",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the short tube disconnects easy when I need to get up in the middle of the night",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "Simple to take off and put back on in the middle of the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the clip has been changed to two pieces, with a magnetic closure",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "Has a very easy to wash and manage magnetic face lock system",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "leaving open field of vision with nothing on my forehead",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -602,21 +990,57 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
+          "text": "No quick detach on the headgear means you have to drag this thing over your head",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
           "text": "The frame for this mask is seriously not user friendly",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "when I tried to make it looser",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I already loosen the strap as much as I could",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Also found the headgear to be somewhat cumbersome in comparison",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "No matter how I adjust the straps though",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "if the headgear could be modified",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "needs regular washing",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 57,
+      "score": 55,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 21,
       "reviewShare": 0.0755,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 10,
       "positiveShare": 0.5238,
       "negativeShare": 0.4762,
@@ -689,9 +1113,49 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
+          "text": "is so quiet i've had to put my hand near the exhaust ports to make sure it's running",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "it doesn’t make those whistling noises when air escapes",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "she doesn't have air blowing in her eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
           "text": "this mask is quiet!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "It's also very quiet!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "it's so quiet",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "so quiet",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Barely any resistance when exhaling",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "quite",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -704,18 +1168,59 @@
           "text": "starves me for air",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The air blows on the bridge of your nose not where you need it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "i get air in my eyes most of the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I move around at night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Not a good airflow",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "it’s noisy",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The vent can also blow air in a way that may bother you or your partner depending on pillow position",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I usually don't use a large size but I do for this mask because I need air",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Louder when is use but not too annoying",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ]
     },
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 47,
+      "score": 40,
+      "grade": "D-",
       "averageSentiment": 4.7,
       "reviewCount": 49,
       "reviewShare": 0.1763,
       "positiveReviews": 19,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 30,
       "positiveShare": 0.3878,
       "negativeShare": 0.6122,
@@ -803,7 +1308,47 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "I do not have marks on my face when I get up",
+          "text": "I use padding for my mask which might make a difference but I haven't noticed red marks on my face when I wake up",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I do not have marks on my face when I get up like I had with the Flexi-fit 405",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "they do not leave lines in my hair or on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The Wisp doesn’t leak or leave marks on my face!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "do not have a forehead piece to cause irritation",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "my dry mouth is gone thanks to wisp",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "does not cause bags under my eyes",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Doesn't leave marks on my face.",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "does not leave facial marks",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -818,20 +1363,61 @@
           "text": "it really hurt",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "It also left a deep groove in the bridge of my nose that was sore to the touch the whole rest of the day",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "every morning I have loud face marks, raw on my bridge of my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The problem with that was of course the dryness associated with nasal pillows",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "also seemed to cause a pressure blister on the bridge of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The bridge of my nose got very irritated just after 3 nights",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Where the magnets are they dig into my jaw and cheeks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "would have marks on my face the next day",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I woke up with a sore on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 48,
+      "score": 43,
+      "grade": "D-",
       "averageSentiment": 4.8,
       "reviewCount": 48,
       "reviewShare": 0.1727,
-      "positiveReviews": 16,
-      "mixedReviews": 6,
+      "positiveReviews": 19,
+      "neutralReviews": 3,
       "negativeReviews": 26,
-      "positiveShare": 0.3333,
+      "positiveShare": 0.3958,
       "negativeShare": 0.5417,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -902,38 +1488,119 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I have the fabric wisp mask and it is softer than any mask I've ever tried before",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "those who suggest getting rid of the silicone headgear, PR, please ignore that!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I have used this one for probably the last five plus years",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "This head gear last a long time",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
           "text": "Quality is wonderful",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         },
         {
-          "text": "I have the fabric wisp mask and it is softer than any mask I've ever tried before",
+          "text": "Excellent QUALITY",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "super quality",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The Phillips parts provide the right amount of give and cushion",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "This purchase was at least my 6th WISP",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "The material is breathable which is good",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "the headgear does not hold up",
+          "text": "It actually broke right at the joint after 2 weeks of use",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "Within 8 months 2 of these masks broke right around nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
           "text": "Both sides of the support bridges broke into two",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The silicone ripped",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Breaks in the same place every time, where the nose piece inserts into the frame",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "caused a bluish red bruise on my nose even after a short period of use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "the mask hard plastic pieces broke within a month of using it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "right where the nose part is the plastic inside was broken into",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "the face piece was already distorted and actually broke soon after",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I was expecting a more rigid product",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ]
     },
     {
       "id": "value",
       "label": "Value",
-      "score": 72,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 36,
       "reviewShare": 0.1295,
       "positiveReviews": 30,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -969,12 +1636,52 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "it was cheaper than what my co-pay would have been going through insurance",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Can't beat the price for all that comes with this",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "on sale at a very cheap price",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the prices are very good",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "at an excellent price",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "for half the costs",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "cheap and light",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
           "text": "Perfect price",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
           "text": "Great Price",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "super value",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
@@ -989,20 +1696,41 @@
           "text": "product is absolute garbage",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "To purchase a new one is 28% of my pension",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "$109 for a mask is not a great deal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The frame is $30 by itself",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "for the price",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 68,
+      "score": 77,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 53,
       "reviewShare": 0.1906,
-      "positiveReviews": 37,
-      "mixedReviews": 4,
+      "positiveReviews": 40,
+      "neutralReviews": 1,
       "negativeReviews": 12,
-      "positiveShare": 0.6981,
+      "positiveShare": 0.7547,
       "negativeShare": 0.2264,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1081,6 +1809,46 @@
           "text": "works fantastic!",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I've been getting a good night's rest from the wisp nasal mask for almost 3 years now",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "For the first time in 8 years I am using my mask everynight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "The Wisp is the answer to a 30+ year problem",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "I am having great success with the wisp",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I sleep through the night without any interruption",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "works very well for me",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "get a good nights sleep",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I wake rested and refreshed",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1090,7 +1858,47 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
+          "text": "For me it was unusable for this reason",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I cannot sleep well with it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
           "text": "does not help at all",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Had to swap back to my original mast until it clears up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I was constantly waking up gasping for air",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "which means waking to re-adjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "wake me up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "My husband has a goatee and the full masks didn't work for him",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I'm too much of a mouth-breather, so it didn't work for me",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -1101,14 +1909,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 84,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 8.4,
       "reviewCount": 140,
       "reviewShare": 0.5036,
-      "positiveReviews": 125,
-      "mixedReviews": 3,
+      "positiveReviews": 127,
+      "neutralReviews": 1,
       "negativeReviews": 12,
-      "positiveShare": 0.8929,
+      "positiveShare": 0.9071,
       "negativeShare": 0.0857,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -1158,21 +1967,21 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "This is the best nasal mask I have used",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "the very first mask I've ever used that stays on all night long with no disturbance",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "Love the Wisp!",
+          "text": "This mask has been the best one I have tried so far",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I hate it",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "This is the worst mask I have ever tried",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
           "text": "I don't recommend this at all",
@@ -1184,14 +1993,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 78,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 7.8,
       "reviewCount": 105,
       "reviewShare": 0.3777,
-      "positiveReviews": 85,
-      "mixedReviews": 7,
+      "positiveReviews": 92,
+      "neutralReviews": 0,
       "negativeReviews": 13,
-      "positiveShare": 0.8095,
+      "positiveShare": 0.8762,
       "negativeShare": 0.1238,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -1277,14 +2087,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I find it so comfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "These are the most comfortable CPAP mask I've found",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "The most comfortable mask I've ever had",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+          "text": "It is the most comfortable mask I've ever have",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1294,23 +2104,24 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "I was using a nasal pillow and it was very uncomfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "this mask, with the top straps fully extended pulls the mask up to the point that is very uncomfortable under my nose and ears",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         }
       ]
     },
     {
       "id": "fit",
       "label": "Fit",
-      "score": 66,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 91,
       "reviewShare": 0.3273,
-      "positiveReviews": 60,
-      "mixedReviews": 6,
+      "positiveReviews": 64,
+      "neutralReviews": 2,
       "negativeReviews": 25,
-      "positiveShare": 0.6593,
+      "positiveShare": 0.7033,
       "negativeShare": 0.2747,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1401,14 +2212,14 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "It fits perfectly",
+          "text": "the perfect fit for me",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "fits terrible",
+          "text": "will not seal properly no matter how hard you tighten the gear",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
@@ -1422,12 +2233,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 62,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 6.2,
       "reviewCount": 52,
       "reviewShare": 0.1871,
       "positiveReviews": 32,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 20,
       "positiveShare": 0.6154,
       "negativeShare": 0.3846,
@@ -1505,12 +2317,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "it seals perfectly for me",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "I sleep through the night with no mask leaks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "I sleep through the night with no mask leaks",
+          "text": "The seal is for this mask very good",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
@@ -1531,14 +2343,15 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 64,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.4,
       "reviewCount": 31,
       "reviewShare": 0.1115,
-      "positiveReviews": 18,
-      "mixedReviews": 3,
+      "positiveReviews": 20,
+      "neutralReviews": 1,
       "negativeReviews": 10,
-      "positiveShare": 0.5806,
+      "positiveShare": 0.6452,
       "negativeShare": 0.3226,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1624,35 +2437,36 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "doesn't move around while I sleep",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "stays on all night long with no disturbance",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "the mask did not remain over my nose",
+          "text": "was not able to get the head-piece to fit where it would stay on all night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "will not hold the masked hooked",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+          "text": "The velcro straps are not strong enough to hold the cone in place",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ]
     },
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 49,
+      "score": 44,
+      "grade": "D-",
       "averageSentiment": 4.9,
       "reviewCount": 28,
       "reviewShare": 0.1007,
-      "positiveReviews": 9,
-      "mixedReviews": 3,
+      "positiveReviews": 12,
+      "neutralReviews": 0,
       "negativeReviews": 16,
-      "positiveShare": 0.3214,
+      "positiveShare": 0.4286,
       "negativeShare": 0.5714,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1723,24 +2537,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Love the 3 size mask",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
-        },
-        {
           "text": "the small/medium cushion is the perfect size for me",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "Love the 3 size mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "regardless of size of pillow applied",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "I have tried two of the three nasal sizes, the medium and the large",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "I have tried two of the three nasal sizes, the medium and the large",
+          "text": "Even the large one gets in the way",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -1749,14 +2563,15 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 78,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 7.8,
       "reviewCount": 26,
       "reviewShare": 0.0935,
-      "positiveReviews": 22,
-      "mixedReviews": 2,
+      "positiveReviews": 24,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.8462,
+      "positiveShare": 0.9231,
       "negativeShare": 0.0769,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1806,14 +2621,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I didn't have any issues getting used to it",
+          "text": "I'm able to slip the headgear on and off easily without having to constantly fasten and unfasten the velcro straps",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "I'm able to slip the headgear on and off easily without having to constantly fasten and unfasten the velcro straps",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "the clip has been changed to two pieces, with a magnetic closure",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         }
       ],
       "negativeEvidence": [
@@ -1832,12 +2647,13 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 73,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 26,
       "reviewShare": 0.0935,
       "positiveReviews": 21,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.8077,
       "negativeShare": 0.1538,
@@ -1895,9 +2711,9 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "The Wisp is the answer to a 30+ year problem",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+          "text": "I've been getting a good night's rest from the wisp nasal mask for almost 3 years now",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1916,14 +2732,15 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 66,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 23,
       "reviewShare": 0.0827,
-      "positiveReviews": 13,
-      "mixedReviews": 4,
+      "positiveReviews": 16,
+      "neutralReviews": 1,
       "negativeReviews": 6,
-      "positiveShare": 0.5652,
+      "positiveShare": 0.6957,
       "negativeShare": 0.2609,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1979,9 +2796,9 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "constant adjustments",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "It swivels easily when I reposition",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
@@ -2000,12 +2817,13 @@
     {
       "id": "price",
       "label": "Price",
-      "score": 77,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 7.7,
       "reviewCount": 22,
       "reviewShare": 0.0791,
       "positiveReviews": 20,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.9091,
       "negativeShare": 0.0909,
@@ -2026,40 +2844,41 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Perfect price",
+          "text": "it was cheaper than what my co-pay would have been going through insurance",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "Great Price",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "Can't beat the price for all that comes with this",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "$109 for a mask is not a great deal",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
-        },
-        {
           "text": "To purchase a new one is 28% of my pension",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "$109 for a mask is not a great deal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 64,
+      "score": 67,
+      "grade": "C+",
       "averageSentiment": 6.4,
       "reviewCount": 21,
       "reviewShare": 0.0755,
-      "positiveReviews": 12,
-      "mixedReviews": 2,
+      "positiveReviews": 13,
+      "neutralReviews": 1,
       "negativeReviews": 7,
-      "positiveShare": 0.5714,
+      "positiveShare": 0.619,
       "negativeShare": 0.3333,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -2104,14 +2923,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Quality is wonderful",
+          "text": "I have the fabric wisp mask and it is softer than any mask I've ever tried before",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         },
         {
-          "text": "I have the fabric wisp mask and it is softer than any mask I've ever tried before",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+          "text": "those who suggest getting rid of the silicone headgear, PR, please ignore that!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
@@ -2121,23 +2940,24 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "The material that touches the face feels like plastic",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "I think the company need to discontinue the silicon headgear the cloth headgear is the way to go",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ]
     },
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 77,
+      "score": 95,
+      "grade": "A+",
       "averageSentiment": 7.7,
       "reviewCount": 21,
       "reviewShare": 0.0755,
-      "positiveReviews": 18,
-      "mixedReviews": 2,
+      "positiveReviews": 20,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.8571,
+      "positiveShare": 0.9524,
       "negativeShare": 0.0476,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -2183,14 +3003,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 42,
+      "score": 34,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 19,
       "reviewShare": 0.0683,
-      "positiveReviews": 4,
-      "mixedReviews": 3,
+      "positiveReviews": 6,
+      "neutralReviews": 1,
       "negativeReviews": 12,
-      "positiveShare": 0.2105,
+      "positiveShare": 0.3158,
       "negativeShare": 0.6316,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2247,28 +3068,29 @@
       ],
       "negativeEvidence": [
         {
-          "text": "the headgear does not hold up",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
-        },
-        {
           "text": "Within 8 months 2 of these masks broke right around nose",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the headgear does not hold up",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         }
       ]
     },
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 58,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 5.8,
       "reviewCount": 18,
       "reviewShare": 0.0647,
-      "positiveReviews": 9,
-      "mixedReviews": 3,
+      "positiveReviews": 11,
+      "neutralReviews": 1,
       "negativeReviews": 6,
-      "positiveShare": 0.5,
+      "positiveShare": 0.6111,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2330,21 +3152,22 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "I've also tried another mask that works much better for me",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "My husband has a goatee and the full masks didn't work for him",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 77,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 7.7,
       "reviewCount": 16,
       "reviewShare": 0.0576,
       "positiveReviews": 14,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.875,
       "negativeShare": 0.0625,
@@ -2392,14 +3215,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I can sleep on my side",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        },
-        {
           "text": "I sleep on my side and have no issues with this mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "you can definitely sleep in any position with this mask",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         }
       ],
       "negativeEvidence": [
@@ -2413,12 +3236,13 @@
     {
       "id": "face_marks",
       "label": "Face Marks",
-      "score": 64,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.4,
       "reviewCount": 14,
       "reviewShare": 0.0504,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.6429,
       "negativeShare": 0.3571,
@@ -2491,12 +3315,13 @@
     {
       "id": "noise",
       "label": "Noise",
-      "score": 65,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.5,
       "reviewCount": 14,
       "reviewShare": 0.0504,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.6429,
       "negativeShare": 0.3571,
@@ -2544,7 +3369,7 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "this mask is quiet!",
+          "text": "is so quiet i've had to put my hand near the exhaust ports to make sure it's running",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -2565,12 +3390,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 70,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 7.0,
       "reviewCount": 14,
       "reviewShare": 0.0504,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.7857,
       "negativeShare": 0.2143,
@@ -2591,14 +3417,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "super value",
+          "text": "on sale at a very cheap price",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "Great Value",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "for half the costs",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
@@ -2617,14 +3443,15 @@
     {
       "id": "weight",
       "label": "Weight",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 13,
       "reviewShare": 0.0468,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
+      "positiveReviews": 13,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.9231,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2664,14 +3491,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The Wisp is small and light weight",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        },
-        {
           "text": "This mask is as light as the newest on the market",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The Wisp is small and light weight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": []
@@ -2679,14 +3506,15 @@
     {
       "id": "pressure",
       "label": "Pressure",
-      "score": 49,
+      "score": 50,
+      "grade": "D+",
       "averageSentiment": 4.9,
       "reviewCount": 12,
       "reviewShare": 0.0432,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 6,
-      "positiveShare": 0.4167,
+      "positiveShare": 0.5,
       "negativeShare": 0.5,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2752,9 +3580,9 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "My forehead thanks you",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "Strap didn’t put pressure on my ear",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -2773,12 +3601,13 @@
     {
       "id": "breakage",
       "label": "Breakage",
-      "score": 22,
+      "score": 9,
+      "grade": "F-",
       "averageSentiment": 2.2,
       "reviewCount": 11,
       "reviewShare": 0.0396,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 10,
       "positiveShare": 0.0909,
       "negativeShare": 0.9091,
@@ -2843,7 +3672,7 @@
           "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         },
         {
-          "text": "Both sides of the support bridges broke into two",
+          "text": "Within 8 months 2 of these masks broke right around nose",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
@@ -2852,12 +3681,13 @@
     {
       "id": "size_availability",
       "label": "Size Availability",
-      "score": 61,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 6.1,
       "reviewCount": 11,
       "reviewShare": 0.0396,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.5455,
       "negativeShare": 0.3636,
@@ -2894,14 +3724,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "all cushion sizes to choose",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
-        },
-        {
           "text": "the package comes with all three sizes",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "all cushion sizes to choose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -2920,12 +3750,13 @@
     {
       "id": "irritation",
       "label": "Irritation",
-      "score": 38,
+      "score": 22,
+      "grade": "F",
       "averageSentiment": 3.8,
       "reviewCount": 10,
       "reviewShare": 0.036,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -3010,21 +3841,22 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "the cushion irriated my nose bridge",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "my nose is rubbing the inside with M/L",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "pain",
       "label": "Pain",
-      "score": 37,
+      "score": 29,
+      "grade": "F",
       "averageSentiment": 3.7,
       "reviewCount": 10,
       "reviewShare": 0.036,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.3,
       "negativeShare": 0.7,
@@ -3092,14 +3924,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "It doesn't hurt the nose",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
-        },
-        {
           "text": "no headaches from my neck at a strange angle",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "It doesn't hurt the nose",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         }
       ],
       "negativeEvidence": [
@@ -3118,12 +3950,13 @@
     {
       "id": "soreness",
       "label": "Soreness",
-      "score": 22,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.2,
       "reviewCount": 10,
       "reviewShare": 0.036,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 10,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -3187,21 +4020,22 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "sore nose",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "every morning I have loud face marks, raw on my bridge of my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "access_to_face",
       "label": "Access To Face",
-      "score": 84,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 8,
       "reviewShare": 0.0288,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -3274,12 +4108,13 @@
     {
       "id": "red_marks",
       "label": "Red Marks",
-      "score": 44,
+      "score": 28,
+      "grade": "F",
       "averageSentiment": 4.4,
       "reviewCount": 8,
       "reviewShare": 0.0288,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.25,
       "negativeShare": 0.75,
@@ -3316,24 +4151,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I do not have marks on my face when I get up",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        },
-        {
           "text": "I use padding for my mask which might make a difference but I haven't noticed red marks on my face when I wake up",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "I do not have marks on my face when I get up",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "and red",
+          "text": "left marks on my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "left marks on my nose",
+          "text": "and red",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -3342,12 +4177,13 @@
     {
       "id": "therapy_compliance",
       "label": "Therapy Compliance",
-      "score": 46,
+      "score": 39,
+      "grade": "F+",
       "averageSentiment": 4.6,
       "reviewCount": 8,
       "reviewShare": 0.0288,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.375,
       "negativeShare": 0.625,
@@ -3415,14 +4251,15 @@
     {
       "id": "hose_management",
       "label": "Hose Management",
-      "score": 63,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.3,
       "reviewCount": 7,
       "reviewShare": 0.0252,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.5714,
+      "positiveShare": 0.7143,
       "negativeShare": 0.2857,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3462,12 +4299,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "you do not have the tube hanging down in front of you",
+          "text": "there is a slot on the top of the head strap to hold the tube out of the way",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "there is a slot on the top of the head strap to hold the tube out of the way",
+          "text": "you do not have the tube hanging down in front of you",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
@@ -3488,12 +4325,13 @@
     {
       "id": "overtightening",
       "label": "Overtightening",
-      "score": 30,
+      "score": 15,
+      "grade": "F-",
       "averageSentiment": 3.0,
       "reviewCount": 7,
       "reviewShare": 0.0252,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.1429,
       "negativeShare": 0.8571,
@@ -3553,7 +4391,7 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "I had to tighten the mask more securely",
+          "text": "I had to have it really tight in order to create the seal",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
@@ -3562,12 +4400,13 @@
     {
       "id": "putting_on",
       "label": "Putting On",
-      "score": 71,
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.1,
       "reviewCount": 7,
       "reviewShare": 0.0252,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -3593,9 +4432,9 @@
           "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         },
         {
-          "text": "Seems easier to put on",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+          "text": "Easy to put on amd sits just right to get a good nights sleep",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -3609,12 +4448,13 @@
     {
       "id": "quick_release",
       "label": "Quick Release",
-      "score": 69,
+      "score": 72,
+      "grade": "B-",
       "averageSentiment": 6.9,
       "reviewCount": 7,
       "reviewShare": 0.0252,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.7143,
       "negativeShare": 0.2857,
@@ -3672,9 +4512,9 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "I love the way the hose disconnects with a simple snap",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "has magnetic clasps so you can easily take it off and put it on without losing your strap setting",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -3693,12 +4533,13 @@
     {
       "id": "appearance",
       "label": "Appearance",
-      "score": 72,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.2,
       "reviewCount": 6,
       "reviewShare": 0.0216,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -3725,9 +4566,9 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "just as pictured",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "I liked the low profile and small size",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
@@ -3741,12 +4582,13 @@
     {
       "id": "bulk",
       "label": "Bulk",
-      "score": 65,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.5,
       "reviewCount": 6,
       "reviewShare": 0.0216,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -3777,7 +4619,7 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "The mask is not bulky as other mask I had",
+          "text": "the minimal contact design makes it less bulky than other masks I have tried",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
@@ -3798,12 +4640,13 @@
     {
       "id": "movement_compatibility",
       "label": "Movement Compatibility",
-      "score": 75,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.5,
       "reviewCount": 6,
       "reviewShare": 0.0216,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -3840,12 +4683,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "the tube can turn easily with you when you turn in bed",
+          "text": "I tend to change positions a lot depending on the night so I don't have one sleep position",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "soft secure, yet flexible for sleepers who change positions during the night",
+          "text": "the tube can turn easily with you when you turn in bed",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
@@ -3861,12 +4704,13 @@
     {
       "id": "cleaning",
       "label": "Cleaning",
-      "score": 68,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.8,
       "reviewCount": 5,
       "reviewShare": 0.018,
       "positiveReviews": 3,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.6,
       "negativeShare": 0.2,
@@ -3898,9 +4742,9 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "easy to care for",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "The headgear and nasal mask clean easily",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
@@ -3914,12 +4758,13 @@
     {
       "id": "field_of_view",
       "label": "Field Of View",
-      "score": 90,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.0,
       "reviewCount": 5,
       "reviewShare": 0.018,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -3966,12 +4811,13 @@
     {
       "id": "removing",
       "label": "Removing",
-      "score": 72,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 5,
       "reviewShare": 0.018,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -4030,12 +4876,13 @@
     {
       "id": "stretching",
       "label": "Stretching",
-      "score": 30,
+      "score": 9,
+      "grade": "F-",
       "averageSentiment": 3.0,
       "reviewCount": 5,
       "reviewShare": 0.018,
       "positiveReviews": 0,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.0,
       "negativeShare": 0.8,
@@ -4062,14 +4909,14 @@
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "The button holes stretched out",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
-        },
-        {
           "text": "the headgear stretches after a few months",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "The button holes stretched out",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         }
       ]
     }
@@ -4078,14 +4925,15 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 55,
+      "score": 56,
+      "grade": "C-",
       "averageSentiment": 5.5,
       "reviewCount": 45,
       "reviewShare": 0.1619,
-      "positiveReviews": 22,
-      "mixedReviews": 3,
+      "positiveReviews": 24,
+      "neutralReviews": 1,
       "negativeReviews": 20,
-      "positiveShare": 0.4889,
+      "positiveShare": 0.5333,
       "negativeShare": 0.4444,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -4146,45 +4994,158 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "leaving open field of vision with nothing on my forehead",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+          "text": "I'm able to slip the headgear on and off easily without having to constantly fasten and unfasten the velcro straps",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "it fits the shape of my skull very well",
+          "text": "those who suggest getting rid of the silicone headgear, PR, please ignore that!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "the headgear does not hold up",
+          "text": "The WISP Nasal Mask with Headgear is horrible since I cannot sleep well with it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "It actually broke right at the joint after 2 weeks of use",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         },
         {
-          "text": "Hurt like hell.. Hurt like hell",
+          "text": "no matter how hard you tighten the gear",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        },
-        {
-          "text": "The WISP Nasal Mask with Headgear is horrible since I cannot sleep well with it",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
-      "praisedAspects": [],
+      "praisedAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "score": 75,
+          "grade": "B",
+          "averageSentiment": 6.4,
+          "reviewCount": 12,
+          "reviewShare": 0.0432,
+          "positiveReviews": 9,
+          "neutralReviews": 0,
+          "negativeReviews": 3,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "The head gear is so comfortable",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+            },
+            {
+              "text": "The head gear is more comfortable than the more traditional types",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "The WISP Nasal Mask with Headgear is horrible since I cannot sleep well with it",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+            },
+            {
+              "text": "The way the head joins with the frame is uncomfortable and seems to push in on my nasal passages",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+            }
+          ]
+        },
+        {
+          "id": "adjustment",
+          "label": "Adjustment",
+          "score": 72,
+          "grade": "B-",
+          "averageSentiment": 6.3,
+          "reviewCount": 7,
+          "reviewShare": 0.0252,
+          "positiveReviews": 5,
+          "neutralReviews": 0,
+          "negativeReviews": 2,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "The head gear is easy to adjust",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+            },
+            {
+              "text": "works well with a loose fit",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "no amount of adjusting the harness helps",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+            },
+            {
+              "text": "if the headgear could be modified",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+            }
+          ]
+        },
+        {
+          "id": "stability",
+          "label": "Stability",
+          "score": 71,
+          "grade": "B-",
+          "averageSentiment": 6.1,
+          "reviewCount": 7,
+          "reviewShare": 0.0252,
+          "positiveReviews": 5,
+          "neutralReviews": 0,
+          "negativeReviews": 2,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "the headgear are much more effective than other designs",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+            },
+            {
+              "text": "The one-size-fits-all Wisp harness is best at not sliding off the top",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "was not able to get the head-piece to fit where it would stay on all night",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+            },
+            {
+              "text": "will not hold the masked hooked",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+            }
+          ]
+        }
+      ],
       "criticizedAspects": []
     },
     {
       "id": "frame",
       "label": "Frame",
-      "score": 48,
+      "score": 45,
+      "grade": "D",
       "averageSentiment": 4.8,
       "reviewCount": 20,
       "reviewShare": 0.0719,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 11,
       "positiveShare": 0.45,
       "negativeShare": 0.55,
@@ -4236,9 +5197,9 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "I chose the fabric frame with the extra padding",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+          "text": "the minimal contact design makes it less bulky than other masks I have tried",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -4248,12 +5209,12 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "I was expecting a more rigid product",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "this mask, with the top straps fully extended pulls the mask up to the point that is very uncomfortable under my nose and ears",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         },
         {
-          "text": "The frame doesn't hold up well",
+          "text": "Breaks in the same place every time, where the nose piece inserts into the frame",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -4264,12 +5225,13 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 64,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.4,
       "reviewCount": 20,
       "reviewShare": 0.0719,
       "positiveReviews": 13,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 6,
       "positiveShare": 0.65,
       "negativeShare": 0.3,
@@ -4312,17 +5274,17 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Love the Wisp!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        },
-        {
           "text": "Wisp Nasal Cpap Mask is the best!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "The Wisp is small and light weight",
+          "text": "Love the Wisp!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "the best mask I have used with my CPAP in the eight years that I have been on treatment",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -4339,31 +5301,32 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "Not really comfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "air started to leak out of the mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "praisedAspects": [
         {
           "id": "overall_satisfaction",
           "label": "Overall Satisfaction",
-          "score": 81,
+          "score": 89,
+          "grade": "A-",
           "averageSentiment": 8.1,
           "reviewCount": 8,
           "reviewShare": 0.0288,
           "positiveReviews": 7,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "Love the Wisp!",
+              "text": "Wisp Nasal Cpap Mask is the best!",
               "retailer": "DirectHomeMedical",
               "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
             },
             {
-              "text": "Wisp Nasal Cpap Mask is the best!",
+              "text": "Love the Wisp!",
               "retailer": "DirectHomeMedical",
               "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
             }
@@ -4382,12 +5345,13 @@
     {
       "id": "nasal_pillows",
       "label": "Nasal Pillows",
-      "score": 45,
+      "score": 36,
+      "grade": "F+",
       "averageSentiment": 4.5,
       "reviewCount": 16,
       "reviewShare": 0.0576,
       "positiveReviews": 5,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 10,
       "positiveShare": 0.3125,
       "negativeShare": 0.625,
@@ -4440,17 +5404,17 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I love the actual nose piece",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        },
-        {
           "text": "I have no leakage due to the different sizes of nose pieces to choose from that came with mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
           "text": "they do not leave lines in my hair or on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "I love the actual nose piece",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -4462,12 +5426,12 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "I was using a nasal pillow and it was very uncomfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "The problem with that was of course the dryness associated with nasal pillows",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         },
         {
-          "text": "The smallest one pinched my nostrils shut slightly",
+          "text": "I was using a nasal pillow and it was very uncomfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -4478,14 +5442,15 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 56,
+      "score": 55,
+      "grade": "C-",
       "averageSentiment": 5.6,
       "reviewCount": 14,
       "reviewShare": 0.0504,
-      "positiveReviews": 5,
-      "mixedReviews": 3,
+      "positiveReviews": 7,
+      "neutralReviews": 1,
       "negativeReviews": 6,
-      "positiveShare": 0.3571,
+      "positiveShare": 0.5,
       "negativeShare": 0.4286,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4520,17 +5485,17 @@
       ],
       "positiveEvidence": [
         {
-          "text": "fits with a good seal",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
-        },
-        {
           "text": "the small/medium cushion is the perfect size for me",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         },
         {
-          "text": "came with three different sizes of of cushions",
+          "text": "fits with a good seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+        },
+        {
+          "text": "The Phillips parts provide the right amount of give and cushion",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
@@ -4547,25 +5512,64 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "The nose piece was hard to get a good deal",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "began leaking excessively due the distortion of the fabric face piece that holds the nasal cushion",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
-      "praisedAspects": [],
+      "praisedAspects": [
+        {
+          "id": "fit",
+          "label": "Fit",
+          "score": 73,
+          "grade": "B-",
+          "averageSentiment": 6.3,
+          "reviewCount": 7,
+          "reviewShare": 0.0252,
+          "positiveReviews": 5,
+          "neutralReviews": 0,
+          "negativeReviews": 2,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "they don’t have the same fit and comfort",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+            },
+            {
+              "text": "It sits right over your nose",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "The nose piece was hard to get a good deal",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+            },
+            {
+              "text": "it’s still a little bit tight",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+            }
+          ]
+        }
+      ],
       "criticizedAspects": []
     },
     {
       "id": "nasal_cushion",
       "label": "Nasal Cushion",
-      "score": 63,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 14,
       "reviewShare": 0.0504,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.5714,
+      "positiveShare": 0.6429,
       "negativeShare": 0.3571,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4631,9 +5635,9 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "does not cause bags under my eyes",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "The \"Wisp Nasal Mask\" solved my sleep problem",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -4648,7 +5652,7 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "The mid-sized one was way too big and rested on my cheeks",
+          "text": "It also left a deep groove in the bridge of my nose that was sore to the touch the whole rest of the day",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -4659,14 +5663,15 @@
     {
       "id": "fabric_headgear",
       "label": "Fabric Headgear",
-      "score": 73,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 7.3,
       "reviewCount": 11,
       "reviewShare": 0.0396,
-      "positiveReviews": 7,
-      "mixedReviews": 3,
+      "positiveReviews": 9,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.6364,
+      "positiveShare": 0.8182,
       "negativeShare": 0.0909,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4707,14 +5712,14 @@
           "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         },
         {
-          "text": "especially for side sleeping",
+          "text": "the soft fabric sides feel gentler on the face than rigid silicone",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "the soft fabric sides feel gentler on the face than rigid silicone",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "The fabric frame is so soft and comfortable to sleep with",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         }
       ],
       "negativeEvidence": [
@@ -4724,26 +5729,27 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "making the fabric frame more durable",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
-        },
-        {
           "text": "The fabric frame is comfortable but not the most durable over time",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "the fabric is more comfy but is less sturdier",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         }
       ],
       "praisedAspects": [
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 85,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.5,
           "reviewCount": 8,
           "reviewShare": 0.0288,
           "positiveReviews": 8,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -4766,14 +5772,15 @@
     {
       "id": "hose",
       "label": "Hose",
-      "score": 59,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 5.9,
       "reviewCount": 10,
       "reviewShare": 0.036,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.5,
+      "positiveShare": 0.6,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4818,9 +5825,9 @@
           "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         },
         {
-          "text": "the soft flex hose that comes with it keeps the heavier hose from misaligning the mask when i move",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
+          "text": "It is nice to have the option of securing the hose so that it goes over the head, or have it free hanging",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
@@ -4830,14 +5837,14 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "Average one new hose each month",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
-        },
-        {
           "text": "when the hose is in the down position while on my side",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "Average one new hose each month",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "praisedAspects": [],
@@ -4846,14 +5853,15 @@
     {
       "id": "magnetic_clip",
       "label": "Magnetic Clip",
-      "score": 72,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 10,
       "reviewShare": 0.036,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.7,
+      "positiveShare": 0.8,
       "negativeShare": 0.2,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4888,33 +5896,34 @@
           "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         },
         {
-          "text": "The magnetic snaps are great",
+          "text": "Has a very easy to wash and manage magnetic face lock system",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Where the magnets are they dig into my jaw and cheeks",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        },
-        {
           "text": "The magnet connectors are a sad joke and only make it impossible to put the harness on",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
+          "text": "Where the magnets are they dig into my jaw and cheeks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "praisedAspects": [
         {
           "id": "ease_of_use",
           "label": "Ease Of Use",
-          "score": 83,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.3,
           "reviewCount": 6,
           "reviewShare": 0.0216,
-          "positiveReviews": 5,
-          "mixedReviews": 1,
+          "positiveReviews": 6,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -4924,7 +5933,7 @@
               "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
             },
             {
-              "text": "The magnetic snaps are great",
+              "text": "Has a very easy to wash and manage magnetic face lock system",
               "retailer": "RespShop",
               "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
             }
@@ -4937,12 +5946,13 @@
     {
       "id": "silicone_cushion",
       "label": "Silicone Cushion",
-      "score": 63,
+      "score": 72,
+      "grade": "B-",
       "averageSentiment": 6.3,
       "reviewCount": 9,
       "reviewShare": 0.0324,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.2222,
@@ -4969,17 +5979,17 @@
       ],
       "positiveEvidence": [
         {
+          "text": "The Wisp (silicone gear) is not only more comfortable than anything else I've used",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
           "text": "I do not have marks on my face when I get up",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
           "text": "does not leave facial marks",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        },
-        {
-          "text": "The Wisp (silicone gear) is not only more comfortable than anything else I've used",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -4991,7 +6001,7 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "Not a good airflow",
+          "text": "Silicone cover get in the way of the nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -5002,12 +6012,13 @@
     {
       "id": "strap",
       "label": "Strap",
-      "score": 56,
+      "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.6,
       "reviewCount": 9,
       "reviewShare": 0.0324,
       "positiveReviews": 4,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 3,
       "positiveShare": 0.4444,
       "negativeShare": 0.3333,
@@ -5050,12 +6061,12 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "The straps are very comfy",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "Strap didn’t put pressure on my ear",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "adjustable",
+          "text": "easy to remove for bathroom trips",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -5067,14 +6078,14 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "the straps tend to stretch out after a few months",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
-        },
-        {
           "text": "No matter how I adjust the straps though, I have facial marks for hours after I take it off",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        },
+        {
+          "text": "the straps tend to stretch out after a few months",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "praisedAspects": [],
@@ -5083,12 +6094,13 @@
     {
       "id": "fit_pack",
       "label": "Fit Pack",
-      "score": 74,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.4,
       "reviewCount": 6,
       "reviewShare": 0.0216,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -5109,9 +6121,9 @@
           "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
         },
         {
-          "text": "3 cushions to use based on your needs",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "enclosed with a mask of 3 sizes, so you can choose what fits yourself",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         },
         {
           "text": "the different sizes of nose pieces to choose from that came with mask",
@@ -5132,12 +6144,13 @@
     {
       "id": "vent",
       "label": "Vent",
-      "score": 42,
+      "score": 23,
+      "grade": "F",
       "averageSentiment": 4.2,
       "reviewCount": 5,
       "reviewShare": 0.018,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -5189,12 +6202,13 @@
     {
       "id": "headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 64,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.4,
       "reviewCount": 12,
       "reviewShare": 0.0432,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5219,12 +6233,13 @@
     {
       "id": "fabric_headgear|comfort",
       "label": "Fabric Headgear · Comfort",
-      "score": 85,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.5,
       "reviewCount": 8,
       "reviewShare": 0.0288,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5243,12 +6258,13 @@
     {
       "id": "headgear|fit",
       "label": "Headgear · Fit",
-      "score": 62,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 8,
       "reviewShare": 0.0288,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5273,17 +6289,18 @@
     {
       "id": "mask_body|overall_satisfaction",
       "label": "Mask Body · Overall Satisfaction",
-      "score": 81,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 8.1,
       "reviewCount": 8,
       "reviewShare": 0.0288,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Love the Wisp!",
+          "text": "Wisp Nasal Cpap Mask is the best!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -5303,17 +6320,18 @@
     {
       "id": "cushion|fit",
       "label": "Cushion · Fit",
-      "score": 63,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.3,
       "reviewCount": 7,
       "reviewShare": 0.0252,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "secure fit",
+          "text": "they don’t have the same fit and comfort",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
@@ -5333,17 +6351,18 @@
     {
       "id": "headgear|adjustment",
       "label": "Headgear · Adjustment",
-      "score": 63,
+      "score": 72,
+      "grade": "B-",
       "averageSentiment": 6.3,
       "reviewCount": 7,
       "reviewShare": 0.0252,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "works well with a loose fit",
+          "text": "The head gear is easy to adjust",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -5363,12 +6382,13 @@
     {
       "id": "headgear|stability",
       "label": "Headgear · Stability",
-      "score": 61,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.1,
       "reviewCount": 7,
       "reviewShare": 0.0252,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5380,9 +6400,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "will not hold the masked hooked",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+          "text": "was not able to get the head-piece to fit where it would stay on all night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "partId": "headgear",
@@ -5393,12 +6413,13 @@
     {
       "id": "nasal_cushion|fit",
       "label": "Nasal Cushion · Fit",
-      "score": 54,
+      "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.4,
       "reviewCount": 7,
       "reviewShare": 0.0252,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5423,12 +6444,13 @@
     {
       "id": "headgear|material_quality",
       "label": "Headgear · Material Quality",
-      "score": 62,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 6,
       "reviewShare": 0.0216,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5453,12 +6475,13 @@
     {
       "id": "magnetic_clip|ease_of_use",
       "label": "Magnetic Clip · Ease Of Use",
-      "score": 83,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.3,
       "reviewCount": 6,
       "reviewShare": 0.0216,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5477,17 +6500,18 @@
     {
       "id": "cushion|comfort",
       "label": "Cushion · Comfort",
-      "score": 70,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 7.0,
       "reviewCount": 5,
       "reviewShare": 0.018,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "gives me the comfortability",
+          "text": "they don’t have the same fit and comfort",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
@@ -5501,12 +6525,13 @@
     {
       "id": "cushion|sizing",
       "label": "Cushion · Sizing",
-      "score": 70,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 5,
       "reviewShare": 0.018,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5533,12 +6558,13 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 71,
+      "score": 78,
+      "grade": "B",
       "averageSentiment": 7.1,
       "reviewCount": 19,
       "reviewShare": 0.0683,
       "positiveReviews": 14,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.7368,
       "negativeShare": 0.2105,
@@ -5586,9 +6612,9 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "I can sleep on my side",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "I sleep on my side and have no issues with this mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -5612,12 +6638,13 @@
     {
       "id": "long-term-users",
       "label": "Long-term CPAP users",
-      "score": 86,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 8.6,
       "reviewCount": 14,
       "reviewShare": 0.0504,
       "positiveReviews": 13,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9286,
       "negativeShare": 0.0714,
@@ -5655,9 +6682,9 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "Most comfortable mask",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "I've tried many masks, and this is my favorite",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         }
       ],
       "negativeEvidence": [
@@ -5676,12 +6703,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 42,
+      "score": 32,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 13,
       "reviewShare": 0.0468,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 9,
       "positiveShare": 0.3077,
       "negativeShare": 0.6923,
@@ -5749,26 +6777,26 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I dont have to fight with adjusting the nose cushion through the night",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
-        },
-        {
           "text": "the soft flex hose that comes with it keeps the heavier hose from misaligning the mask when i move",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
+        },
+        {
+          "text": "I dont have to fight with adjusting the nose cushion through the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "the mask did not remain over my nose",
+          "text": "The velcro straps are not strong enough to hold the cone in place",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "slipped often during the night",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "the mask did not remain over my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "sourceContexts": [
@@ -5776,20 +6804,21 @@
         "restless_sleeping",
         "tossing_turning"
       ],
-      "classification": "mixed",
+      "classification": "unfavorable",
       "limitedEvidence": false
     },
     {
       "id": "new-users",
       "label": "New CPAP users",
-      "score": 70,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 7.0,
       "reviewCount": 7,
       "reviewShare": 0.0252,
-      "positiveReviews": 5,
-      "mixedReviews": 2,
+      "positiveReviews": 6,
+      "neutralReviews": 1,
       "negativeReviews": 0,
-      "positiveShare": 0.7143,
+      "positiveShare": 0.8571,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -5835,12 +6864,13 @@
     {
       "id": "back-sleepers",
       "label": "Back sleepers",
-      "score": 69,
+      "score": 78,
+      "grade": "B",
       "averageSentiment": 6.9,
       "reviewCount": 6,
       "reviewShare": 0.0216,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.6667,
       "negativeShare": 0.1667,
@@ -5873,7 +6903,7 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "Good for back sleepers",
+          "text": "I am able to sleep on my back",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -5894,12 +6924,13 @@
     {
       "id": "combination-sleepers",
       "label": "Combination sleepers",
-      "score": 78,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.8,
       "reviewCount": 6,
       "reviewShare": 0.0216,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8333,
       "negativeShare": 0.1667,
@@ -5926,9 +6957,9 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "you can definitely sleep in any position with this mask",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
+          "text": "I tend to change positions a lot depending on the night so I don't have one sleep position",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
           "text": "the tube can turn easily with you when you turn in bed",
@@ -5952,12 +6983,13 @@
     {
       "id": "mouth-breathers",
       "label": "Mouth breathers",
-      "score": 53,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.3,
       "reviewCount": 6,
       "reviewShare": 0.0216,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -6004,12 +7036,13 @@
     {
       "id": "easy-on-off",
       "label": "People who need easy on/off handling",
-      "score": 69,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 6.9,
       "reviewCount": 6,
       "reviewShare": 0.0216,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -6082,12 +7115,13 @@
     {
       "id": "high-pressure",
       "label": "High-pressure users",
-      "score": 62,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 6.2,
       "reviewCount": 5,
       "reviewShare": 0.018,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -6119,19 +7153,19 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "works will with higher pressures",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "text": "I run fairly high pressure (15)",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "it can leak at higher settings",
+          "text": "The only issue I have with the Wisp is during high pressures when leaks start to come out",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "The only issue I have with the Wisp is during high pressures when leaks start to come out",
+          "text": "it can leak at higher settings",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
@@ -6145,12 +7179,13 @@
     {
       "id": "smaller-features",
       "label": "People with smaller facial features",
-      "score": 46,
+      "score": 40,
+      "grade": "D-",
       "averageSentiment": 4.6,
       "reviewCount": 5,
       "reviewShare": 0.018,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -6228,19 +7263,20 @@
     {
       "id": "side-sleepers|sleep_position_compatibility",
       "label": "Side sleepers · Sleep Position Compatibility",
-      "score": 81,
+      "score": 96,
+      "grade": "A+",
       "averageSentiment": 8.1,
       "reviewCount": 11,
       "reviewShare": 0.0396,
       "positiveReviews": 10,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "I can sleep on my side",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "I sleep on my side and have no issues with this mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [],
@@ -6252,12 +7288,13 @@
     {
       "id": "long-term-users|overall_satisfaction",
       "label": "Long-term CPAP users · Overall Satisfaction",
-      "score": 93,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.3,
       "reviewCount": 7,
       "reviewShare": 0.0252,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -6276,12 +7313,13 @@
     {
       "id": "active-sleepers|stability",
       "label": "Active or restless sleepers · Stability",
-      "score": 43,
+      "score": 34,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 6,
       "reviewShare": 0.0216,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -6293,7 +7331,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "the mask did not remain over my nose",
+          "text": "The velcro straps are not strong enough to hold the cone in place",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -6306,12 +7344,13 @@
     {
       "id": "side-sleepers|seal_leak",
       "label": "Side sleepers · Seal Leak",
-      "score": 66,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.6,
       "reviewCount": 5,
       "reviewShare": 0.018,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -6338,19 +7377,22 @@
     "side-sleepers",
     "long-term-users"
   ],
-  "mayNotSuit": [],
+  "mayNotSuit": [
+    "active-sleepers"
+  ],
   "bodySites": [
     {
       "id": "nose",
       "label": "Nose",
-      "score": 49,
+      "score": 46,
+      "grade": "D",
       "averageSentiment": 4.9,
       "reviewCount": 31,
       "reviewShare": 0.1115,
-      "positiveReviews": 11,
-      "mixedReviews": 4,
+      "positiveReviews": 13,
+      "neutralReviews": 2,
       "negativeReviews": 16,
-      "positiveShare": 0.3548,
+      "positiveShare": 0.4194,
       "negativeShare": 0.5161,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -6416,6 +7458,11 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I have no leakage due to the different sizes of nose pieces to choose from that came with mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        },
+        {
           "text": "the nose piece fits almost perfectly",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
@@ -6424,16 +7471,11 @@
           "text": "Nose cone extremely comfortable",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        },
-        {
-          "text": "doesn't leak",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Super loud air noise",
+          "text": "I got no sleep for the loud air hissing around my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
@@ -6509,12 +7551,13 @@
     {
       "id": "nose_bridge",
       "label": "Nose Bridge",
-      "score": 27,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.7,
       "reviewCount": 15,
       "reviewShare": 0.054,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 15,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -6563,7 +7606,7 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "The bridge of my nose got very irritated just after 3 nights",
+          "text": "caused a bluish red bruise on my nose even after a short period of use",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
@@ -6624,12 +7667,13 @@
     {
       "id": "face",
       "label": "Face",
-      "score": 62,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 30,
       "reviewShare": 0.1079,
       "positiveReviews": 18,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 10,
       "positiveShare": 0.6,
       "negativeShare": 0.3333,
@@ -6702,7 +7746,7 @@
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         },
         {
-          "text": "I do not have marks on my face when I get up",
+          "text": "I don't have to tighten it down to the extent that I have marks on my face the next morning",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -6714,12 +7758,12 @@
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "The largest of the three felt like it was swallowing my face!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "text": "I had to have it really tight in order to create the seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         },
         {
-          "text": "It leaked air onto my face",
+          "text": "The largest of the three felt like it was swallowing my face!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
@@ -6785,12 +7829,13 @@
     {
       "id": "nostrils",
       "label": "Nostrils",
-      "score": 30,
+      "score": 14,
+      "grade": "F-",
       "averageSentiment": 3.0,
       "reviewCount": 7,
       "reviewShare": 0.0252,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.1429,
       "negativeShare": 0.8571,
@@ -6905,18 +7950,19 @@
     }
   ],
   "interactionSummary": [
-    "The most divided finding was that nasal cushion interaction with the nose was divided (4 positive versus 1 negative reports)."
+    "The clearest favorable pattern was that nasal cushion interaction with the nose leaned favorable (4 positive versus 1 negative reports)."
   ],
   "interactionInsights": [
     {
       "id": "body|nasal_cushion|nose|fit",
       "label": "Nasal Cushion at Nose: Fit",
-      "score": 68,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 5,
       "reviewShare": 0.018,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -6955,6 +8001,13 @@
       "contextLabel": null,
       "aspectId": "fit",
       "aspectLabel": "Fit",
+      "outcomeAspects": [
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 5
+        }
+      ],
       "parts": [
         {
           "id": "nasal_cushion",
@@ -6970,250 +8023,109 @@
         }
       ],
       "contexts": [],
-      "tone": "mixed",
-      "description": "Reports about the nasal cushion where it contacts the nose were divided for fit: 4 positive, 0 mixed, and 1 negative across 5 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
+      "tone": "favorable",
+      "description": "Reports about the nasal cushion where it contacts the nose were mostly favorable for fit: 4 positive, 0 neutral, and 1 negative across 5 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
     }
   ],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 110,
-      "reviewShare": 0.3957,
-      "positiveReviews": 99,
-      "mixedReviews": 1,
-      "negativeReviews": 10,
-      "positiveShare": 0.9,
-      "negativeShare": 0.0909,
-      "evidenceStrength": "strong",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "This mask has been the best one I have tried so far",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I hate it",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 88,
-      "averageSentiment": 8.8,
-      "reviewCount": 57,
-      "reviewShare": 0.205,
-      "positiveReviews": 55,
-      "mixedReviews": 1,
-      "negativeReviews": 1,
-      "positiveShare": 0.9649,
-      "negativeShare": 0.0175,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I find it so comfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "It just didn't feel right",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        }
-      ]
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
+      "id": "site|face|face_marks",
+      "label": "Face · Face Marks",
       "score": 71,
-      "averageSentiment": 7.1,
-      "reviewCount": 43,
-      "reviewShare": 0.1547,
-      "positiveReviews": 32,
-      "mixedReviews": 2,
-      "negativeReviews": 9,
-      "positiveShare": 0.7442,
-      "negativeShare": 0.2093,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Awesome fit",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "fits terrible",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        }
-      ]
-    },
-    {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 79,
-      "averageSentiment": 7.9,
-      "reviewCount": 20,
-      "reviewShare": 0.0719,
-      "positiveReviews": 18,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.9,
-      "negativeShare": 0.1,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "went to sleep and slept right through the night without a problem",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I cannot sleep well with it",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||price",
-      "label": "Price",
-      "score": 76,
-      "averageSentiment": 7.6,
-      "reviewCount": 19,
-      "reviewShare": 0.0683,
-      "positiveReviews": 17,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.8947,
-      "negativeShare": 0.1053,
+      "grade": "B-",
+      "averageSentiment": 6.7,
+      "reviewCount": 13,
+      "reviewShare": 0.0468,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
+      "negativeReviews": 4,
+      "positiveShare": 0.6923,
+      "negativeShare": 0.3077,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
+      "associatedParts": [
         {
-          "text": "Great Price",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 2
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        },
+        {
+          "id": "plastic_frame",
+          "label": "Plastic Frame",
+          "reviewCount": 1
         }
       ],
-      "negativeEvidence": [
-        {
-          "text": "$109 for a mask is not a great deal",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||therapy_effectiveness",
-      "label": "Therapy Effectiveness",
-      "score": 76,
-      "averageSentiment": 7.6,
-      "reviewCount": 18,
-      "reviewShare": 0.0647,
-      "positiveReviews": 15,
-      "mixedReviews": 2,
-      "negativeReviews": 1,
-      "positiveShare": 0.8333,
-      "negativeShare": 0.0556,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
       "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
+      "associatedBodySites": [
         {
-          "text": "works fantastic!",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 13
         }
       ],
-      "negativeEvidence": [
+      "positiveEvidence": [
         {
-          "text": "does not help at all",
+          "text": "it doesn't leave marks on my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "would have marks on my face the next day",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        }
       ]
     },
     {
-      "id": "|||value",
-      "label": "Value",
-      "score": 72,
-      "averageSentiment": 7.2,
+      "id": "part|headgear|comfort",
+      "label": "Headgear · Comfort",
+      "score": 75,
+      "grade": "B",
+      "averageSentiment": 6.4,
       "reviewCount": 12,
       "reviewShare": 0.0432,
-      "positiveReviews": 10,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.8333,
-      "negativeShare": 0.1667,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "super value",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "of no value to me",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        }
-      ]
-    },
-    {
-      "id": "headgear|||comfort",
-      "label": "Headgear · Comfort",
-      "score": 72,
-      "averageSentiment": 7.2,
-      "reviewCount": 10,
-      "reviewShare": 0.036,
       "positiveReviews": 9,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.9,
-      "negativeShare": 0.1,
+      "neutralReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.75,
+      "negativeShare": 0.25,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "headgear",
           "label": "Headgear",
-          "reviewCount": 10
+          "reviewCount": 12
         }
       ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "cheeks",
+          "label": "Cheeks",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_passages",
+          "label": "Nasal Passages",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
           "text": "The head gear is so comfortable",
@@ -7230,80 +8142,42 @@
       ]
     },
     {
-      "id": "||side_sleeping|sleep_position_compatibility",
-      "label": "Side Sleeping · Sleep Position Compatibility",
-      "score": 80,
-      "averageSentiment": 8.0,
-      "reviewCount": 10,
-      "reviewShare": 0.036,
-      "positiveReviews": 9,
-      "mixedReviews": 1,
-      "negativeReviews": 0,
-      "positiveShare": 0.9,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [
-        {
-          "id": "side_sleeping",
-          "label": "Side Sleeping",
-          "reviewCount": 10
-        }
-      ],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I can sleep on my side",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||ease_of_use",
-      "label": "Ease Of Use",
-      "score": 83,
-      "averageSentiment": 8.3,
-      "reviewCount": 9,
-      "reviewShare": 0.0324,
-      "positiveReviews": 9,
-      "mixedReviews": 0,
+      "id": "part|fabric_headgear|comfort",
+      "label": "Fabric Headgear · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.5,
+      "reviewCount": 8,
+      "reviewShare": 0.0288,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
+      "associatedParts": [
         {
-          "text": "I didn't have any issues getting used to it",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 8
         }
       ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||weight",
-      "label": "Weight",
-      "score": 80,
-      "averageSentiment": 8.0,
-      "reviewCount": 8,
-      "reviewShare": 0.0288,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
-      "negativeReviews": 0,
-      "positiveShare": 0.875,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 3
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "This mask is as light as the newest on the market",
+          "text": "the soft fabric sides feel gentler on the face than rigid silicone",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
         }
@@ -7311,38 +8185,274 @@
       "negativeEvidence": []
     },
     {
-      "id": "|||stability",
-      "label": "Stability",
-      "score": 78,
-      "averageSentiment": 7.8,
-      "reviewCount": 8,
-      "reviewShare": 0.0288,
+      "id": "part|magnetic_clip|ease_of_use",
+      "label": "Magnetic Clip · Ease Of Use",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0216,
       "positiveReviews": 6,
-      "mixedReviews": 1,
-      "negativeReviews": 1,
-      "positiveShare": 0.75,
-      "negativeShare": 0.125,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
+      "associatedParts": [
+        {
+          "id": "magnetic_clip",
+          "label": "Magnetic Clip",
+          "reviewCount": 6
+        }
+      ],
       "associatedContexts": [],
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I have not had to adjust it once it is in place",
+          "text": "the clip has been changed to two pieces, with a magnetic closure",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "part|cushion|fit",
+      "label": "Cushion · Fit",
+      "score": 73,
+      "grade": "B-",
+      "averageSentiment": 6.3,
+      "reviewCount": 7,
+      "reviewShare": 0.0252,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "they don’t have the same fit and comfort",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The nose piece was hard to get a good deal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "part|headgear|adjustment",
+      "label": "Headgear · Adjustment",
+      "score": 72,
+      "grade": "B-",
+      "averageSentiment": 6.3,
+      "reviewCount": 7,
+      "reviewShare": 0.0252,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "The head gear is easy to adjust",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "was easily dislodged",
+          "text": "no amount of adjusting the harness helps",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "part|headgear|stability",
+      "label": "Headgear · Stability",
+      "score": 71,
+      "grade": "B-",
+      "averageSentiment": 6.1,
+      "reviewCount": 7,
+      "reviewShare": 0.0252,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "static_sleeping",
+          "label": "Static Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the headgear are much more effective than other designs",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "was not able to get the head-piece to fit where it would stay on all night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
         }
       ]
     }
   ],
-  "concerns": [],
+  "concerns": [
+    {
+      "id": "site|nose_bridge|soreness",
+      "label": "Nose Bridge · Soreness",
+      "score": 0,
+      "grade": "F-",
+      "averageSentiment": 2.3,
+      "reviewCount": 6,
+      "reviewShare": 0.0216,
+      "positiveReviews": 0,
+      "neutralReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 6
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "It also left a deep groove in the bridge of my nose that was sore to the touch the whole rest of the day",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    },
+    {
+      "id": "site|nose_bridge|red_marks",
+      "label": "Nose Bridge · Red Marks",
+      "score": 0,
+      "grade": "F-",
+      "averageSentiment": 2.8,
+      "reviewCount": 5,
+      "reviewShare": 0.018,
+      "positiveReviews": 0,
+      "neutralReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 5
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "left marks on my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        }
+      ]
+    }
+  ],
   "retailers": [
     {
       "retailer": "DirectHomeMedical",
@@ -7388,19 +8498,19 @@
   "evidence": {
     "positive": [
       {
-        "text": "This is the best nasal mask I have used",
+        "text": "the very first mask I've ever used that stays on all night long with no disturbance",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+      },
+      {
+        "text": "I also never have to readjust my mask in the middle of the night",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
       },
       {
-        "text": "This headgear is exactly what I needed",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-      },
-      {
-        "text": "Love the Wisp!",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
+        "text": "after using a nasal pillow mask for nearly 10 years - 1000% better",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
       },
       {
         "text": "This mask has been the best one I have tried so far",
@@ -7408,53 +8518,53 @@
         "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
       },
       {
-        "text": "Love My Wisp Mask",
+        "text": "went to sleep and slept right through the night without a problem",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
       },
       {
-        "text": "By far, the best mask that I've used",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+        "text": "I have not had to adjust it once it is in place",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
       }
     ],
     "negative": [
       {
-        "text": "the headgear does not hold up",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
-      },
-      {
-        "text": "Super loud air noise",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
-      },
-      {
-        "text": "I don't recommend this at all",
+        "text": "The WISP Nasal Mask with Headgear is horrible since I cannot sleep well with it",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
       },
       {
-        "text": "Hurt like hell.. Hurt like hell",
+        "text": "The hose elastic is useless because the hose-snap fishhooks make a quick disconnect impossible",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
+      },
+      {
+        "text": "It actually broke right at the joint after 2 weeks of use",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system"
+      },
+      {
+        "text": "I got no sleep for the loud air hissing around my nose",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
       },
       {
-        "text": "Cannot stop leakage",
+        "text": "will not seal properly no matter how hard you tighten the gear",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics"
       },
       {
-        "text": "This is the worst mask I have ever tried",
+        "text": "Within 8 months 2 of these masks broke right around nose",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

@@ -1,8 +1,23 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "fisher-paykel-flexifit-432",
   "name": "Fisher & Paykel FlexiFit 432",
   "catalogOrder": 65,
+  "search": {
+    "aliases": [
+      "Fisher & Paykel FlexiFit™ 432 Full Face CPAP Mask",
+      "FlexiFit 432 Full Face CPAP Mask",
+      "FlexiFit 432 Full Face CPAP Mask with Headgear"
+    ],
+    "abbreviations": [
+      "F&P",
+      "FP",
+      "Fisher Paykel"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 54,
@@ -13,30 +28,33 @@
     "reviewDateEnd": "2026-04-10"
   },
   "overall": {
-    "compositeScore": 72,
+    "score": 69,
+    "grade": "C+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 3.76,
-      "score": 75,
+      "score": 69,
       "reviewCount": 54,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 6.6,
       "score": 66,
       "reviewCount": 17,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 62,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 17,
       "reviewShare": 0.3148,
       "positiveReviews": 10,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 5,
       "positiveShare": 0.5882,
       "negativeShare": 0.2941,
@@ -99,7 +117,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "this mask is the most comfortable",
+          "text": "this mask is the most comfortable I have ever worn",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
@@ -107,16 +125,76 @@
           "text": "the most comfortable full size mask in the market",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "this mask is the most comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "Most comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "When I first used the extra foam insert I loved it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "Comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "the foam insert on the mask that is more comfortable on the bridge of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "Good cushion",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "I do think this would be comfortable mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "I like the foam now better",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-432-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "The upper portion of the mask that goes over your nose does not adjust and puts too much pressure on the bridge of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
         {
           "text": "pressure points that hurt my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
         {
-          "text": "The upper portion of the mask that goes over your nose does not adjust and puts too much pressure on the bridge of my nose",
+          "text": "it biting into the bridge of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "The foam inner part is uncomfortable",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/flexifittm-432-full-face-cpap-mask-and-headgear-by-fisher-paykel"
+        },
+        {
+          "text": "the headgear's pressure point is in the same spot for all sizes of cushions",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "I developed a nasal bridge sore over the past several months",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
@@ -125,14 +203,15 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 43,
+      "score": 34,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 27,
       "reviewShare": 0.5,
-      "positiveReviews": 7,
-      "mixedReviews": 3,
+      "positiveReviews": 8,
+      "neutralReviews": 2,
       "negativeReviews": 17,
-      "positiveShare": 0.2593,
+      "positiveShare": 0.2963,
       "negativeShare": 0.6296,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -198,24 +277,99 @@
       ],
       "positiveEvidence": [
         {
+          "text": "It does not require much tightening for a good seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "The Flexfit 432 full face mask is a great mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
           "text": "an excellent fit!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
         {
-          "text": "It does not require much tightening for a good seal",
+          "text": "it had all 3 sizes of the silicone part",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "The fit was good",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "fits well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "it tilted the mask downward to secure the mask under my chin",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "Good fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "with the headgear arrangement",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "Did not seal properly",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
           "text": "Terrible fitting mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
         {
-          "text": "Did not seal properly",
+          "text": "There is just one size frame, and then different size cushions to fit on it",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "I cannot use the top strap because it is set above my head",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "Your large is huge compared to others",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "I have to have it so tight",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "you have to tighten to far",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/flexifittm-432-full-face-cpap-mask-and-headgear-by-fisher-paykel"
+        },
+        {
+          "text": "even when extremely tight on face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "did not fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "needs constant adjusting",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
@@ -224,14 +378,15 @@
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 29,
+      "score": 13,
+      "grade": "F-",
       "averageSentiment": 2.9,
       "reviewCount": 15,
       "reviewShare": 0.2778,
-      "positiveReviews": 1,
-      "mixedReviews": 1,
+      "positiveReviews": 2,
+      "neutralReviews": 0,
       "negativeReviews": 13,
-      "positiveShare": 0.0667,
+      "positiveShare": 0.1333,
       "negativeShare": 0.8667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -295,11 +450,16 @@
           "text": "there is an insert of foam that helps seal the mask even better",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "mask seal including the foam",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "it kept leaking",
+          "text": "The mask leaked bad all night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
@@ -307,18 +467,59 @@
           "text": "Leaked most of night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "it kept leaking",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "the mask simply does not seal around my chin",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "blew out my mouth like a tornado",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "In order to stop leakage",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/flexifittm-432-full-face-cpap-mask-and-headgear-by-fisher-paykel"
+        },
+        {
+          "text": "This mask frequently leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "or seal well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "To many leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "to stop leaking",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 41,
+      "label": "Ease of Use",
+      "score": 28,
+      "grade": "F",
       "averageSentiment": 4.1,
       "reviewCount": 11,
       "reviewShare": 0.2037,
       "positiveReviews": 2,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 7,
       "positiveShare": 0.1818,
       "negativeShare": 0.6364,
@@ -365,24 +566,49 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "easy to assemble",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/flexifit-432-full-face-cpap-mask"
-        },
-        {
           "text": "It adjust on your face easy",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "easy to assemble",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-432-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "The coupling is small and is somewhat hard to clip up when you are awake let along when you have to clip it while you…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "It is a major challenge to take this mask off and put it back on in the middle of the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
         {
           "text": "No matter how I adjusted this mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
         {
-          "text": "It is a major challenge to take this mask off and put it back on in the middle of the night",
+          "text": "hard to get on and off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "I ma not sure if i have the mask connected correctly with hose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "I made a simple pad to place on my forehead",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "having trouble adjusting the fit",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
@@ -391,12 +617,13 @@
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 22,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.2,
       "reviewCount": 5,
       "reviewShare": 0.0926,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -429,12 +656,27 @@
       "positiveEvidence": [],
       "negativeEvidence": [
         {
+          "text": "awfullest loud noises out of the blue of any mask ever worn",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
           "text": "Terrible leaks and noise at bottom",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
         {
-          "text": "awfullest loud noises out of the blue of any mask ever worn",
+          "text": "whistling",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "the air blows into mask but makes quite a lot of noise",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "headgear noise",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
@@ -443,12 +685,13 @@
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 38,
+      "score": 22,
+      "grade": "F",
       "averageSentiment": 3.8,
       "reviewCount": 5,
       "reviewShare": 0.0926,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -497,7 +740,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "pressure points that hurt my face",
+          "text": "an open sore on the side of my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
@@ -505,18 +748,29 @@
           "text": "it biting into the bridge of my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "I developed a nasal bridge sore over the past several months",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "does not irritate too much",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/flexifit-432-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 62,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 6.2,
       "reviewCount": 5,
       "reviewShare": 0.0926,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -545,11 +799,16 @@
           "text": "Great quality",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "soft",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "The adjustment straps are a little more then paper thin",
+          "text": "i broke my first one on my first attempt at adjusting it",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
@@ -563,12 +822,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 56,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.6,
       "reviewCount": 5,
       "reviewShare": 0.0926,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -577,6 +837,11 @@
       "associatedContexts": [],
       "associatedBodySites": [],
       "positiveEvidence": [
+        {
+          "text": "You could get a mask that cost more, but it won't fit better than the FlexFit 432",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
         {
           "text": "Direct Home Medical had the best price",
           "retailer": "DirectHomeMedical",
@@ -604,12 +869,13 @@
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 57,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 5.7,
       "reviewCount": 6,
       "reviewShare": 0.1111,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -638,6 +904,16 @@
           "text": "Allows me to wear it all night for a restful sleep",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "Mask works good",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "Good nights sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -650,6 +926,11 @@
           "text": "It woke me up every night with a dry mouth",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+        },
+        {
+          "text": "I seemed to be snoring using this device",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
       ]
     }
@@ -658,14 +939,15 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 45,
+      "score": 39,
+      "grade": "F+",
       "averageSentiment": 4.5,
       "reviewCount": 22,
       "reviewShare": 0.4074,
-      "positiveReviews": 6,
-      "mixedReviews": 3,
+      "positiveReviews": 8,
+      "neutralReviews": 1,
       "negativeReviews": 13,
-      "positiveShare": 0.2727,
+      "positiveShare": 0.3636,
       "negativeShare": 0.5909,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -731,7 +1013,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "an excellent fit!",
+          "text": "The Flexfit 432 full face mask is a great mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
@@ -743,12 +1025,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Terrible fitting mask",
+          "text": "Did not seal properly",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
         {
-          "text": "Did not seal properly",
+          "text": "Terrible fitting mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
@@ -757,14 +1039,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 66,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 17,
       "reviewShare": 0.3148,
-      "positiveReviews": 11,
-      "mixedReviews": 1,
+      "positiveReviews": 12,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.6471,
+      "positiveShare": 0.7059,
       "negativeShare": 0.2941,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -783,12 +1066,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Perfect!",
+          "text": "This is the best mask ever!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
         {
-          "text": "Love this mask",
+          "text": "One Of the Best",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
@@ -800,7 +1083,7 @@
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
         {
-          "text": "Not for me.",
+          "text": "I didn’t like the 3 piece mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
@@ -809,12 +1092,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 31,
+      "score": 15,
+      "grade": "F-",
       "averageSentiment": 3.1,
       "reviewCount": 15,
       "reviewShare": 0.2778,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 13,
       "positiveShare": 0.1333,
       "negativeShare": 0.8667,
@@ -879,7 +1163,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "it kept leaking",
+          "text": "The mask leaked bad all night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
@@ -893,12 +1177,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 78,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 7.8,
       "reviewCount": 13,
       "reviewShare": 0.2407,
       "positiveReviews": 11,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.8462,
       "negativeShare": 0.0769,
@@ -936,7 +1221,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "this mask is the most comfortable",
+          "text": "this mask is the most comfortable I have ever worn",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
@@ -957,12 +1242,13 @@
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 43,
+      "score": 30,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 7,
       "reviewShare": 0.1296,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.2857,
       "negativeShare": 0.7143,
@@ -995,12 +1281,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Your large is huge compared to others",
+          "text": "There is just one size frame, and then different size cushions to fit on it",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
         {
-          "text": "There is just one size frame, and then different size cushions to fit on it",
+          "text": "too small in comparison to other mask of same size",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
@@ -1009,12 +1295,13 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 48,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.8,
       "reviewCount": 6,
       "reviewShare": 0.1111,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.3333,
       "negativeShare": 0.6667,
@@ -1042,12 +1329,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "the same style padded nasal mask worked so well",
+          "text": "The Resmend leaked no matter how tight you got it",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
         {
-          "text": "The Resmend leaked no matter how tight you got it",
+          "text": "the same style padded nasal mask worked so well",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
@@ -1056,12 +1343,13 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 42,
+      "score": 30,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 5,
       "reviewShare": 0.0926,
       "positiveReviews": 1,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.2,
       "negativeShare": 0.6,
@@ -1098,12 +1386,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 56,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.6,
       "reviewCount": 5,
       "reviewShare": 0.0926,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -1113,14 +1402,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Direct Home Medical had the best price",
+          "text": "You could get a mask that cost more, but it won't fit better than the FlexFit 432",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
         {
-          "text": "Great mask for this price",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/flexifit-432-full-face-cpap-mask"
+          "text": "Direct Home Medical had the best price",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1141,14 +1430,15 @@
     {
       "id": "foam_cushion",
       "label": "Foam Cushion",
-      "score": 62,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 6.2,
       "reviewCount": 5,
       "reviewShare": 0.0926,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.6,
+      "positiveShare": 0.8,
       "negativeShare": 0.2,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1184,9 +1474,9 @@
           "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         },
         {
-          "text": "I like the foam now better",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/flexifit-432-full-face-cpap-mask"
+          "text": "I do think this would be comfortable mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1204,12 +1494,13 @@
     {
       "id": "foam_cushion|comfort",
       "label": "Foam Cushion · Comfort",
-      "score": 66,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 6.6,
       "reviewCount": 5,
       "reviewShare": 0.0926,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -1239,97 +1530,8 @@
   "bodySites": [],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 73,
-      "averageSentiment": 7.3,
-      "reviewCount": 15,
-      "reviewShare": 0.2778,
-      "positiveReviews": 11,
-      "mixedReviews": 1,
-      "negativeReviews": 3,
-      "positiveShare": 0.7333,
-      "negativeShare": 0.2,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Perfect!",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Not for me.",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 89,
-      "averageSentiment": 8.9,
-      "reviewCount": 7,
-      "reviewShare": 0.1296,
-      "positiveReviews": 6,
-      "mixedReviews": 1,
-      "negativeReviews": 0,
-      "positiveShare": 0.8571,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "this mask is the most comfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": []
-    }
-  ],
-  "concerns": [
-    {
-      "id": "|||seal_leak",
-      "label": "Seal Leak",
-      "score": 26,
-      "averageSentiment": 2.6,
-      "reviewCount": 10,
-      "reviewShare": 0.1852,
-      "positiveReviews": 1,
-      "mixedReviews": 0,
-      "negativeReviews": 9,
-      "positiveShare": 0.1,
-      "negativeShare": 0.9,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "no leaks",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "it kept leaking",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
-        }
-      ]
-    }
-  ],
+  "strengths": [],
+  "concerns": [],
   "retailers": [
     {
       "retailer": "DirectHomeMedical",
@@ -1359,12 +1561,12 @@
   "evidence": {
     "positive": [
       {
-        "text": "Perfect!",
+        "text": "this mask is the most comfortable I have ever worn",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
       },
       {
-        "text": "Love this mask",
+        "text": "the most comfortable full size mask in the market",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
       },
@@ -1379,29 +1581,19 @@
         "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
       },
       {
-        "text": "the most comfortable full size mask in the market",
+        "text": "I sleep like a baby",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
       },
       {
-        "text": "Most comfortable",
+        "text": "Love this mask",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
       }
     ],
     "negative": [
       {
-        "text": "Terrible fitting mask",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
-      },
-      {
-        "text": "Terrible leaks and noise at bottom",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
-      },
-      {
-        "text": "it kept leaking",
+        "text": "The upper portion of the mask that goes over your nose does not adjust and puts too much pressure on the bridge of my nose",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
       },
@@ -1411,21 +1603,31 @@
         "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
       },
       {
-        "text": "The upper portion of the mask that goes over your nose does not adjust and puts too much pressure on the bridge of my nose",
+        "text": "an open sore on the side of my nose",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
       },
       {
-        "text": "terrible head gear",
+        "text": "Terrible leaks and noise at bottom",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+      },
+      {
+        "text": "The mask leaked bad all night",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
+      },
+      {
+        "text": "Leaked most of night",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

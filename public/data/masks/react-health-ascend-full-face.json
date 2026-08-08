@@ -1,8 +1,17 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "react-health-ascend-full-face",
   "name": "React Health Ascend Full Face",
   "catalogOrder": 95,
+  "search": {
+    "aliases": [
+      "Ascend Full Face Mask Fit Pack"
+    ],
+    "abbreviations": [],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 5,
@@ -13,18 +22,20 @@
     "reviewDateEnd": "2026-01-26"
   },
   "overall": {
-    "compositeScore": null,
+    "score": 75,
+    "grade": "B",
+    "calculation": "star rating only; insufficient review-text satisfaction evidence",
     "ratingComponent": {
       "average": 4.0,
-      "score": 80,
+      "score": 75,
       "reviewCount": 5,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": null,
       "score": null,
       "reviewCount": 0,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [],
@@ -58,12 +69,12 @@
         "productUrl": "https://1800cpap.com/products/ascend-full-face-mask-fit-pack"
       },
       {
-        "text": "Very comfy",
+        "text": "Easy to adjust without stopping air flow",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/ascend-full-face-mask-fit-pack"
       },
       {
-        "text": "Easy to adjust without stopping air flow",
+        "text": "Very comfy",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/ascend-full-face-mask-fit-pack"
       },
@@ -75,16 +86,16 @@
     ],
     "negative": [
       {
-        "text": "Mask does not fit me.",
+        "text": "I had many air leaks even at low intro pressure settings despite my best efforts to adjust this mask.",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/ascend-full-face-mask-fit-pack"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

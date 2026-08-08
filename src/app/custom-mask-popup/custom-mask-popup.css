@@ -1,0 +1,167 @@
+:host {
+  position: relative;
+  z-index: 1400;
+}
+
+.custom-mask-popup-launcher {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 9px 15px 9px 10px;
+  border: 2px solid transparent;
+  border-radius: 18px;
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(135deg, #7b1fa2, #e0b949) border-box;
+  box-shadow: 0 12px 32px rgba(69, 25, 88, 0.24);
+  color: #402249;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  cursor: pointer;
+}
+
+.custom-mask-popup-launcher img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.custom-mask-popup-launcher span,
+.custom-mask-popup-launcher small {
+  display: block;
+}
+
+.custom-mask-popup-launcher small {
+  margin-bottom: 1px;
+  color: #9a6c0d;
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.custom-mask-popup-backdrop {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(26, 14, 31, 0.52);
+  backdrop-filter: blur(5px);
+}
+
+.custom-mask-popup {
+  position: relative;
+  width: min(760px, 100%);
+  max-height: calc(100vh - 40px);
+  overflow: auto;
+  border: 2px solid transparent;
+  border-radius: 24px;
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(135deg, #7b1fa2, #c967df 45%, #f0c95f 78%, #b47b08) border-box;
+  box-shadow: 0 26px 80px rgba(31, 13, 39, 0.35);
+  color: #322437;
+  text-align: center;
+}
+
+.custom-mask-popup-media {
+  position: relative;
+  min-height: 360px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 15% 25%, rgba(139, 92, 246, 0.24), transparent 46%),
+    radial-gradient(circle at 85% 70%, rgba(245, 190, 55, 0.28), transparent 48%),
+    linear-gradient(135deg, #f7effc, #fff8e7);
+}
+
+.custom-mask-popup-media img {
+  display: block;
+  width: 100%;
+  height: 360px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.custom-mask-popup-content {
+  padding: 28px 42px 34px;
+}
+
+.custom-mask-popup-close {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: #f3edf5;
+  color: #5d286f;
+  font-size: 23px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.custom-mask-popup-badge {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 2;
+  padding: 6px 9px;
+  border-radius: var(--radius-full);
+  background: #732295;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.custom-mask-popup-eyebrow {
+  margin-top: 0;
+  color: #916611;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.custom-mask-popup h2 {
+  margin-top: 5px;
+  color: #5f197a;
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+.custom-mask-popup h2 + p {
+  margin: 9px auto 20px;
+  color: #635668;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .custom-mask-popup-launcher {
+    display: none;
+  }
+
+  .custom-mask-popup {
+    max-height: calc(100vh - 24px);
+  }
+
+  .custom-mask-popup-media,
+  .custom-mask-popup-media img {
+    min-height: 250px;
+    height: 250px;
+  }
+
+  .custom-mask-popup-content {
+    padding: 24px 20px 26px;
+  }
+}

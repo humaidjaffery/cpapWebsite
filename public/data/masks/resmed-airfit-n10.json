@@ -1,8 +1,25 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-airfit-n10",
   "name": "ResMed AirFit N10",
   "catalogOrder": 123,
+  "search": {
+    "aliases": [
+      "AirFit N 10",
+      "AirFit N10",
+      "N 10",
+      "N10",
+      "N10 mask",
+      "ResMed AirFit N10",
+      "ResMed N 10",
+      "ResMed N10"
+    ],
+    "abbreviations": [
+      "N10",
+      "Resmed"
+    ],
+    "maskTypes": []
+  },
   "coverage": {
     "status": "unavailable",
     "processedReviews": 0,
@@ -13,18 +30,20 @@
     "reviewDateEnd": null
   },
   "overall": {
-    "compositeScore": null,
+    "score": null,
+    "grade": null,
+    "calculation": "unavailable",
     "ratingComponent": {
       "average": null,
       "score": null,
       "reviewCount": 0,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": null,
       "score": null,
       "reviewCount": 0,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [],
@@ -46,9 +65,9 @@
     "negative": []
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

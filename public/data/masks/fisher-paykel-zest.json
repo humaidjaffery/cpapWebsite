@@ -1,8 +1,24 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "fisher-paykel-zest",
   "name": "Fisher & Paykel Zest",
   "catalogOrder": 58,
+  "search": {
+    "aliases": [
+      "Fisher & Paykel | Zest Nasal CPAP Mask",
+      "Zest Nasal CPAP Mask",
+      "Zest Nasal CPAP Mask with Headgear",
+      "Zest Nasal CPAP Mask | Fisher & Paykel"
+    ],
+    "abbreviations": [
+      "F&P",
+      "FP",
+      "Fisher Paykel"
+    ],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 67,
@@ -13,30 +29,33 @@
     "reviewDateEnd": "2026-03-23"
   },
   "overall": {
-    "compositeScore": 86,
+    "score": 87,
+    "grade": "A-",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.54,
-      "score": 91,
+      "score": 88,
       "reviewCount": 67,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.0,
       "score": 80,
       "reviewCount": 33,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 73,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 26,
       "reviewShare": 0.3881,
       "positiveReviews": 20,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 5,
       "positiveShare": 0.7692,
       "negativeShare": 0.1923,
@@ -97,6 +116,46 @@
           "text": "This one is the King of Comfort",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "has found this to be the most comfortable for her",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
+        },
+        {
+          "text": "The best light weight cpap mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "very comfortable from the start",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "This mask is very comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
+        },
+        {
+          "text": "very comfortable mask with headgear",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
+        },
+        {
+          "text": "mask is very comfy :)",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
+        },
+        {
+          "text": "The cushion is outstanding",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/zest-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "extremely comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -106,21 +165,37 @@
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         },
         {
-          "text": "Nasal pillows are out - really weird feeling",
+          "text": "I don't like masks where the tube goes over the top of your head",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "it's large enough it actually comes down over my top lip quite a bit causing a bit of discomfort",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "Not that comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "requires a bit of extra pressure to seal properly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 67,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.7,
       "reviewCount": 21,
       "reviewShare": 0.3134,
       "positiveReviews": 15,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 5,
       "positiveShare": 0.7143,
       "negativeShare": 0.2381,
@@ -191,30 +266,91 @@
           "text": "Fits great on my face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "This headgear was so stretchie it was able to fit my fat head!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "This mask is an almost identical fit from the previous mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "doesn't need to be cinched down tight to stay on",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "just the right weight and size",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "it fits snug to my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "Mask is easy to fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
+        },
+        {
+          "text": "It's a good fit",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "easy to adjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "Even if the seals were not a problem, the fit is",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
         {
           "text": "tried adjusting",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         },
         {
-          "text": "Even if the seals were not a problem, the fit is",
+          "text": "it's large enough it actually comes down over my top lip quite a bit causing a bit of discomfort",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "its forehead bar isnt adjustible might be the problem",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "the bottom sat on my upper lip",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "The fit for me is a little challenging",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 63,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 14,
       "reviewShare": 0.209,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.6429,
       "negativeShare": 0.3571,
@@ -275,6 +411,41 @@
           "text": "it allows little if any air out around the seal",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "with no leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "I have had a good experience with managing to keep a good seal during the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
+        },
+        {
+          "text": "very seldom leaks air into my eyes",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "no more sidewall leaking",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "no air leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "comfortable seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "leaks less",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -287,18 +458,34 @@
           "text": "Maintaining a seal while wearing this thing was always a problem",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "leaks in my eyes a little bit",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "requires a bit of extra pressure to seal properly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 74,
+      "label": "Stability",
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 9,
       "reviewShare": 0.1343,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.7778,
       "negativeShare": 0.2222,
@@ -360,7 +547,32 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
         },
         {
+          "text": "you can sleep on your side, back, or stomach without the mask moving or falling off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
           "text": "I can even sleep on my belly with it with my head to the side",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "if I move the wrong way",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "makes a good connection",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
+        },
+        {
+          "text": "no slipping",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/zest-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "secure",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         }
@@ -380,13 +592,14 @@
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 58,
+      "label": "Ease of Use",
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.8,
       "reviewCount": 13,
       "reviewShare": 0.194,
       "positiveReviews": 6,
-      "mixedReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 4,
       "positiveShare": 0.4615,
       "negativeShare": 0.3077,
@@ -436,6 +649,31 @@
           "text": "It is easy to take off and put on",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/zest-nasal-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "is easy to put on and take off",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "easy to take on and off",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "easy to adjust",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "Easily fitted",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "the headgear worked",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -445,21 +683,37 @@
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         },
         {
+          "text": "its forehead bar isnt adjustible might be the problem",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "The top of it touched my tear ducts",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
           "text": "I wish it wasnt two pieces",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "I was confused on how the headgear worked because there is a glider strap that you are suppose to use to attach the head gear…",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 49,
+      "score": 44,
+      "grade": "D-",
       "averageSentiment": 4.9,
       "reviewCount": 7,
       "reviewShare": 0.1045,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.4286,
       "negativeShare": 0.5714,
@@ -510,6 +764,11 @@
           "text": "there is no air blasts blowing in my face if I move the wrong way",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "is quiter",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -519,7 +778,17 @@
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         },
         {
-          "text": "NOISY AND RATTLES",
+          "text": "there are 3 small holes at the inlet port of the mask that allows air to constantly stream outward from the tube whether inhaling or…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "THIS MASK HAS THE EXHAUST HOLES IN THE MASK HOUSING",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "a little noisy",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         }
@@ -528,14 +797,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 59,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 5.9,
       "reviewCount": 13,
       "reviewShare": 0.194,
-      "positiveReviews": 7,
-      "mixedReviews": 2,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.5385,
+      "positiveShare": 0.6923,
       "negativeShare": 0.3077,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -575,6 +845,26 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "durable product that maintains its effectiveness for a significant amount of time",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "I have used this mask for a number of years",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "I have been using this mask for many years",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "replacing the foam seals as needed",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
           "text": "the headgear is stretchable",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/zest-nasal-cpap-mask-fisher-paykel"
@@ -583,16 +873,46 @@
           "text": "It does last long",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "long lasting",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
+        },
+        {
+          "text": "Well Made",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "I was replacing it after a good bit of use of the original",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "all of which cracked within 2-6 weeks becoming unusable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
         {
           "text": "Very flimsy plastic",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
         },
         {
-          "text": "the plastic frame on the seal started cracking",
+          "text": "I broke one of the glider strap channels while cleaning the mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "I only wish it were a little sturdier at the point where the hose hooks into the mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "the soft part of the old mask had deteriorated",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         }
@@ -601,12 +921,13 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 66,
+      "score": 78,
+      "grade": "B",
       "averageSentiment": 6.6,
       "reviewCount": 14,
       "reviewShare": 0.209,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.7857,
       "negativeShare": 0.2143,
@@ -632,9 +953,49 @@
           "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
         },
         {
+          "text": "Sometimes the simplest designs and lower priced masks are the best",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "Cost me less than the doctors appointment would have",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
           "text": "the price was reasonable as well",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "the Zest is an affordable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
+        },
+        {
+          "text": "the price was right",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "The price is great",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "so reasonably priced",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "a nice product for the money",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
+        },
+        {
+          "text": "Like the mask for it price",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -647,20 +1008,26 @@
           "text": "these CPAP Masks, of ANY BRAND, horribly expensive",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "I bought 3 replacement seals in total",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 69,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 6.9,
       "reviewCount": 10,
       "reviewShare": 0.1493,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.7,
+      "positiveShare": 0.8,
       "negativeShare": 0.2,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -696,7 +1063,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Works great!",
+          "text": "I have slept through the nights without waking up to adjust the air flow away from my eyes",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         },
@@ -704,6 +1071,36 @@
           "text": "I have tried many mask and finally found one that does not keep me up at night",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
+        },
+        {
+          "text": "Sleeping soundly for long periods",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "Works great!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "maintains its effectiveness for a significant amount of time",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "this one works well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "Breathing easier",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "I purchased two masks & headgear because I need one here in my home and bedroom. The second one is used in my motor home…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -724,12 +1121,13 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 80,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 8.0,
       "reviewCount": 33,
       "reviewShare": 0.4925,
       "positiveReviews": 28,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.8485,
       "negativeShare": 0.1212,
@@ -756,14 +1154,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "The best light weight cpap mask",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
-        },
-        {
           "text": "After Eleven years using nasal CPAP, this is the best one yet!",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+        },
+        {
+          "text": "The best light weight cpap mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -782,12 +1180,13 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 73,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 23,
       "reviewShare": 0.3433,
       "positiveReviews": 18,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.7826,
       "negativeShare": 0.1739,
@@ -857,7 +1256,7 @@
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         },
         {
-          "text": "Nasal pillows are out - really weird feeling",
+          "text": "I don't like masks where the tube goes over the top of your head",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         }
@@ -866,12 +1265,13 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 68,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 15,
       "reviewShare": 0.2239,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.7333,
       "negativeShare": 0.2667,
@@ -950,12 +1350,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 63,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 14,
       "reviewShare": 0.209,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.6429,
       "negativeShare": 0.3571,
@@ -1034,12 +1435,13 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 62,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 6.2,
       "reviewCount": 11,
       "reviewShare": 0.1642,
       "positiveReviews": 7,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.6364,
       "negativeShare": 0.2727,
@@ -1071,7 +1473,7 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "It does last long",
+          "text": "durable product that maintains its effectiveness for a significant amount of time",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
         },
@@ -1088,7 +1490,7 @@
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         },
         {
-          "text": "the soft part of the old mask had deteriorated",
+          "text": "I only wish it were a little sturdier at the point where the hose hooks into the mask",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         }
@@ -1097,12 +1499,13 @@
     {
       "id": "price",
       "label": "Price",
-      "score": 65,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.5,
       "reviewCount": 8,
       "reviewShare": 0.1194,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -1117,7 +1520,7 @@
           "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
         },
         {
-          "text": "the price was reasonable as well",
+          "text": "Sometimes the simplest designs and lower priced masks are the best",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         }
@@ -1138,12 +1541,13 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 70,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 7.0,
       "reviewCount": 6,
       "reviewShare": 0.0896,
       "positiveReviews": 5,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "positiveShare": 0.8333,
       "negativeShare": 0.0,
@@ -1186,12 +1590,13 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 80,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.0,
       "reviewCount": 5,
       "reviewShare": 0.0746,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1212,9 +1617,9 @@
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         },
         {
-          "text": "easy to take on and off",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+          "text": "is easy to put on and take off",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -1222,12 +1627,13 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 69,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 6.9,
       "reviewCount": 5,
       "reviewShare": 0.0746,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -1276,12 +1682,13 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 71,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.1,
       "reviewCount": 8,
       "reviewShare": 0.1194,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.875,
       "negativeShare": 0.125,
@@ -1324,9 +1731,9 @@
           "productUrl": "https://www.cpapninja.com/products/zest-nasal-cpap-mask-fisher-paykel"
         },
         {
-          "text": "doesn't need to be cinched down tight to stay on",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+          "text": "This headgear was so stretchie it was able to fit my fat head!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1342,14 +1749,15 @@
     {
       "id": "replacement_part",
       "label": "Replacement Part",
-      "score": 54,
+      "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.4,
       "reviewCount": 6,
       "reviewShare": 0.0896,
-      "positiveReviews": 2,
-      "mixedReviews": 2,
+      "positiveReviews": 3,
+      "neutralReviews": 1,
       "negativeReviews": 2,
-      "positiveShare": 0.3333,
+      "positiveShare": 0.5,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1363,12 +1771,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "replacing the foam seals as needed",
+          "text": "Cost me less than the doctors appointment would have",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         },
         {
-          "text": "Cost me less than the doctors appointment would have",
+          "text": "replacing the foam seals as needed",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         },
@@ -1401,12 +1809,13 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 73,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 5,
       "reviewShare": 0.0746,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -1459,12 +1868,13 @@
     {
       "id": "long-term-users",
       "label": "Long-term CPAP users",
-      "score": 89,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.9,
       "reviewCount": 5,
       "reviewShare": 0.0746,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1491,9 +1901,9 @@
           "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
         },
         {
-          "text": "I’ve been using this mask for about ten years",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+          "text": "has found this to be the most comfortable for her",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [],
@@ -1510,126 +1920,7 @@
   "bodySites": [],
   "interactionSummary": [],
   "interactionInsights": [],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 78,
-      "averageSentiment": 7.8,
-      "reviewCount": 29,
-      "reviewShare": 0.4328,
-      "positiveReviews": 24,
-      "mixedReviews": 1,
-      "negativeReviews": 4,
-      "positiveShare": 0.8276,
-      "negativeShare": 0.1379,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "The best light weight cpap mask",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "would not recommend",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 13,
-      "reviewShare": 0.194,
-      "positiveReviews": 11,
-      "mixedReviews": 1,
-      "negativeReviews": 1,
-      "positiveShare": 0.8462,
-      "negativeShare": 0.0769,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Zest continues to be the most comfortable mask for me",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Not that comfortable",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 70,
-      "averageSentiment": 7.0,
-      "reviewCount": 10,
-      "reviewShare": 0.1493,
-      "positiveReviews": 8,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.8,
-      "negativeShare": 0.2,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Mask fit perfectly right out of the box",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Even if the seals were not a problem, the fit is",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||durability",
-      "label": "Durability",
-      "score": 73,
-      "averageSentiment": 7.3,
-      "reviewCount": 6,
-      "reviewShare": 0.0896,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
-      "negativeReviews": 0,
-      "positiveShare": 0.8333,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "It does last long",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
-        }
-      ],
-      "negativeEvidence": []
-    }
-  ],
+  "strengths": [],
   "concerns": [],
   "retailers": [
     {
@@ -1668,37 +1959,47 @@
   "evidence": {
     "positive": [
       {
-        "text": "The best light weight cpap mask",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
-      },
-      {
         "text": "After Eleven years using nasal CPAP, this is the best one yet!",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
       },
       {
-        "text": "Life Saver",
+        "text": "the exhaust air does indeed flow away from the body as advertised",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
-      },
-      {
-        "text": "I'm totally happy with everything",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
-      },
-      {
-        "text": "seals perfectly with no leaks",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
       },
       {
         "text": "Zest continues to be the most comfortable mask for me",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+      },
+      {
+        "text": "This one is the King of Comfort",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+      },
+      {
+        "text": "The best light weight cpap mask",
+        "retailer": "1800CPAP.COM",
+        "productUrl": "https://1800cpap.com/products/zest-nasal-cpap-mask"
+      },
+      {
+        "text": "Best C-Pap mask I have owned",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
       }
     ],
     "negative": [
+      {
+        "text": "The difference in their price vs. this price was absurd",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+      },
+      {
+        "text": "all of which cracked within 2-6 weeks becoming unusable",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
+      },
       {
         "text": "The head \"cushion\" is not !.",
         "retailer": "DirectHomeMedical",
@@ -1715,26 +2016,16 @@
         "productUrl": "https://www.respshop.com/products/fisher-paykel-zest-nasal-cpap-mask"
       },
       {
-        "text": "the plastic frame on the seal started cracking",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
-      },
-      {
-        "text": "The difference in their price vs. this price was absurd",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
-      },
-      {
-        "text": "NOISY AND RATTLES",
+        "text": "there are 3 small holes at the inlet port of the mask that allows air to constantly stream outward from the tube whether inhaling or…",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

@@ -11,8 +11,9 @@ export interface RetailerServiceAspect {
   aspect: string;
   label: string;
   reviewCount: number;
-  averageSentiment: number;
-  score: number;
+  decisiveReviewCount: number;
+  positiveShare: number | null;
+  grade: string | null;
   positiveReviews: number;
   mixedReviews: number;
   negativeReviews: number;
@@ -50,7 +51,7 @@ export interface RetailerReviewEvidence {
   reviewDateEnd: string | null;
   serviceScopedReviewCount: number;
   serviceClaimReviewCount: number;
-  serviceScore: number | null;
+  serviceGrade: string | null;
   evidenceStrength: RetailerEvidenceStrength;
 }
 

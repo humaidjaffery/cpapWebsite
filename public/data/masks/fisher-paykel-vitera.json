@@ -1,8 +1,38 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "fisher-paykel-vitera",
   "name": "Fisher & Paykel Vitera",
   "catalogOrder": 40,
+  "search": {
+    "aliases": [
+      "F&P Vitera",
+      "F&P Vitera Full Face CPAP Mask with Headgear",
+      "F&P Vitera Full Mask (2 Medium Cushions)",
+      "F&P Vitera Full Mask (Cushions FitPack)",
+      "Fisher & Paykel Vitera Full Face Mask",
+      "Fisher & Paykel Vitera™ Full Face CPAP Mask",
+      "Fisher & Paykel Vitera™ Full Face CPAP Mask Fit Pack",
+      "Fisher & Paykel Vitera™ Full Face CPAP Mask with Headgear",
+      "Fisher & Paykel | Vitera Full Face CPAP Mask",
+      "Fisher Paykel Vitera",
+      "Fisher and Paykel Vitera",
+      "Vitera",
+      "Vitera Full Face CPAP Mask Fit Pack",
+      "Vitera Full Face CPAP Mask System",
+      "Vitera Full Face CPAP Mask | Fisher & Paykel",
+      "Vitera full face",
+      "Vitera full face mask",
+      "Vitera mask"
+    ],
+    "abbreviations": [
+      "F&P",
+      "FP",
+      "Fisher Paykel"
+    ],
+    "maskTypes": [
+      "Full Face"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 202,
@@ -13,32 +43,35 @@
     "reviewDateEnd": "2026-05-22"
   },
   "overall": {
-    "compositeScore": 81,
+    "score": 79,
+    "grade": "B",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.16,
-      "score": 83,
+      "score": 79,
       "reviewCount": 202,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 7.8,
       "score": 78,
       "reviewCount": 94,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 70,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 7.0,
       "reviewCount": 87,
       "reviewShare": 0.4307,
-      "positiveReviews": 61,
-      "mixedReviews": 10,
+      "positiveReviews": 65,
+      "neutralReviews": 6,
       "negativeReviews": 16,
-      "positiveShare": 0.7011,
+      "positiveShare": 0.7471,
       "negativeShare": 0.1839,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -132,6 +165,46 @@
           "text": "super comfortable",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "This has a silky soft cushion when it touches my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "I especially like the fact that there’s no forehead clamp",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "They were very comfortable for me all night long",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "the silicone seal and design is truly remarkable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "the memory foam cushion is top notch wonderful",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "Finally found a mask that is comfortable",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "with this mask, comes relief... it's comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "Very well designed and very comfortable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -141,7 +214,47 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
+          "text": "leaves painful red marks on my nose",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "Super uncomfortable head gear",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
           "text": "Uncomfortable",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "bulky",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "my nose still got sore, as if the mask were sliding downward to rest on my nose during my sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "started to get some serious pressure marks on the bridge of my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "if you're claustrophobic, or if you wear glasses,this mask is not for you",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "it often feels suffocating in the middle of the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "i felt claustrophobic in it when trying to sleep",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
         }
@@ -150,14 +263,15 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 63,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.3,
       "reviewCount": 86,
       "reviewShare": 0.4257,
-      "positiveReviews": 49,
-      "mixedReviews": 16,
+      "positiveReviews": 59,
+      "neutralReviews": 6,
       "negativeReviews": 21,
-      "positiveShare": 0.5698,
+      "positiveShare": 0.686,
       "negativeShare": 0.2442,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -251,32 +365,113 @@
           "text": "The fit is perfect",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "Fits me perfect",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "this is the one that fits me the best",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "fits the contour of my face very well",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "Might be the best-fitting mask ever",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "Great fitting and comfortable mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "it fits very well",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Excellent product comfort fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "THIS MASK FIT",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "To get the Vitera to seal, I had to tighten it so much it basically fused with my skull",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
         {
           "text": "unless I cinch it down so tight",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         },
         {
-          "text": "To get the Vitera to seal, I had to tighten it so much it basically fused with my skull",
+          "text": "I feel the lower straps on any mask should not retract the lower jaw",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "it's critical you have the correct cushion and head gear size",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "tighten the straps around the back of my head",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "Still Viteri mask & cushion not for me",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "I tried every which way to adjust this",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "have had a terrible time with fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "probably because I had it too tight",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "No matter what adjustments I made",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 62,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 72,
       "reviewShare": 0.3564,
-      "positiveReviews": 41,
-      "mixedReviews": 8,
+      "positiveReviews": 43,
+      "neutralReviews": 6,
       "negativeReviews": 23,
-      "positiveShare": 0.5694,
+      "positiveShare": 0.5972,
       "negativeShare": 0.3194,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -367,33 +562,114 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
+          "text": "seals, and stays sealed, better than any other",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
           "text": "NO LEAKS",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "No leakage",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "no leaks!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "I have a beard and have struggled with finding a mask that maintains a good seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "No leaks without having to stay on my back and/or constantly fiddle around with it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I have not experienced any leaks so far after 3 weeks of using my mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "Even if I'm in need of a shave the seal is still good",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "It has an excellent seal which rarely, if ever, lets any air escape",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "could not provide enough seal on the bridge of the nose",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "The mask will not seal (regardless of size)",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
         {
           "text": "everyone one leaked so bad",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         },
         {
+          "text": "Can’t keep it from leaking",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
           "text": "leaked so much air",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "leaky",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "I just had trouble maintaining a seal throughout the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I was unable to relieve air leaks into my eyes",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "still having trouble with the seal on the mask",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "it forces me to breath through my mouth",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 66,
+      "label": "Stability",
+      "score": 72,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 39,
       "reviewShare": 0.1931,
       "positiveReviews": 27,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 11,
       "positiveShare": 0.6923,
       "negativeShare": 0.2821,
@@ -476,7 +752,17 @@
       ],
       "positiveEvidence": [
         {
-          "text": "No leaks without having to stay on my back",
+          "text": "It sits correctly on my face throughout the night and I don't have to adjust it at all during the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "I can sleep on my side and not have to worry about leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "Stays on when I move around in bed and lie on my side",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
@@ -484,32 +770,103 @@
           "text": "I sleep on my side only with no issues with this mask",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "Sleeping on my side, I don't experience any leaks with this mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I’ve had a lot of trouble with masks shifting in the past",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "I am a side sleeper that moves constantly in my sleep",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "it adjusts to your face shape and movements during the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "Comfortable and you really can move all around at night",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "I sleep on my side and don't break the seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "If you are a side sleeper, it's like a constant hurricane blowing on anyone lying next to you",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "because of the bar that comes on the forehead, I am unable to use my glasses",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "I tried to lay on my side in bed and could not stop the leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
         {
           "text": "Having a mask suddenly pop off while asleep does provide for a rude awakening",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         },
         {
+          "text": "cause the mask to move on your face when it's disconnected or reconnected",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I have to duck tape it to keep it on the mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the mask would slip and slide off my face",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
           "text": "my partner is not victimized by the breeze",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "Velcro issues",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it blasted my wife in the face when we faced each other",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 61,
+      "label": "Ease of Use",
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.1,
       "reviewCount": 52,
       "reviewShare": 0.2574,
-      "positiveReviews": 29,
-      "mixedReviews": 8,
+      "positiveReviews": 33,
+      "neutralReviews": 4,
       "negativeReviews": 15,
-      "positiveShare": 0.5577,
+      "positiveShare": 0.6346,
       "negativeShare": 0.2885,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -595,12 +952,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "Clips at bottom are much easier to operate in connecting and removing",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "Easy slip on slip off cushion for replacement",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
+        },
+        {
           "text": "the design here is simple",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "Clips at bottom are much easier to operate in connecting and removing",
+          "text": "Very easy to use",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "Super adjustable mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "It has five points of adjustment, four for the cheeks and forehead, and one for the top of your head",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "it makes washing, drying, and reattaching the headgear to the mask easy without needing to readjust the straps",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "It is my first time using a machine, so I needed one that had the fit pack included",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "It's easy to fit, wear through the night, then take apart and clean in the morning",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "The new clips are easier to operate when putting it on and off",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -615,18 +1012,59 @@
           "text": "needed a mask without magnets",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I can remove the elbow (with a simple squeeze-to-release design; no force or fidgeting needed) and scratch my nose or the surrounding area if I…",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I couldn't wear either the Medium or the Large cushion for more than a few minutes before having to remove the mask and put it…",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "because of the bar that comes on the forehead, I am unable to use my glasses",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "if you're claustrophobic, or if you wear glasses,this mask is not for you",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "If I need to take it off during nightthe straps come unhooked",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I tried every which way to adjust this",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "You can't wear glasses with this mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "No matter what adjustments I made",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 43,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 22,
       "reviewShare": 0.1089,
       "positiveReviews": 7,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 14,
       "positiveShare": 0.3182,
       "negativeShare": 0.6364,
@@ -704,24 +1142,99 @@
       ],
       "positiveEvidence": [
         {
+          "text": "keeping my head cool at night",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
+        },
+        {
           "text": "No noise",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "keeping my head cool at night",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
+          "text": "I like the cushion and the venting",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "It is quieter than simplus",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "as quiet as resmed",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "for optimum air flow",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "quiet",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "it does seem to blow straight out, not upwards",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The venting was acceptable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "make a snapping noise that's loud enough to wake a sleeping partner",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
         {
           "text": "I HATED the air vent",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "make a snapping noise that's loud enough to wake a sleeping partner",
+          "text": "The leaking air throws off my CPAP reading, making it look like my mask seal is broken",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "The exhausted air comes out of perforations in the front of the mask at the nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I DO NOT like that it vents straight out the front",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I covered the area with tape and now it works correctly",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "the result is a restricted airway leading to obstructive apnea events",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I tried pillows and felt like my air was restricted",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "The air vent -breeze- is strong, like gale force",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "It was also very loud",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -730,12 +1243,13 @@
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 43,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 32,
       "reviewShare": 0.1584,
       "positiveReviews": 10,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 20,
       "positiveShare": 0.3125,
       "negativeShare": 0.625,
@@ -808,40 +1322,121 @@
       ],
       "positiveEvidence": [
         {
-          "text": "No wear marks on my nose",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "the headgear doesn't leave lines or imprints on my face",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-vitera-full-face-cpap-mask-with-headgear"
         },
         {
           "text": "doesn't leave any marks on your face",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
-        }
-      ],
-      "negativeEvidence": [
+        },
         {
-          "text": "leaves painful red marks on my nose",
+          "text": "No wear marks on my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "Any strap marks on my face disappear soon after I get out of bed",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "The only one that didn't feel like it was cutting my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "I have marks from the strap on one side of my head",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         },
         {
-          "text": "The marks left by the straps actually startled me when I looked at them in the mirror",
+          "text": "There are no pressure marks on my face or nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I don't get forehead imprints with this mask either",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "reducing pressure lines on your face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "No Nose Pain",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I also had a ring around my entire nose that was so bad it was actually distressing to see, and took hours to go away",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "leaves painful red marks on my nose, face and neck",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "my nose still got sore, as if the mask were sliding downward to rest on my nose during my sleep",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I have a lot of marks on my face that sometimes takes until noon to go away",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "started to get some serious pressure marks on the bridge of my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "You'll have lots of red marks if you get it too tight",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "getting a red bar on the bridge of my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I was suffering from really dry mouth",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I had irritations under my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "Leaves indentations on your head",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 53,
+      "score": 57,
+      "grade": "C-",
       "averageSentiment": 5.3,
       "reviewCount": 30,
       "reviewShare": 0.1485,
-      "positiveReviews": 13,
-      "mixedReviews": 5,
+      "positiveReviews": 16,
+      "neutralReviews": 2,
       "negativeReviews": 12,
-      "positiveShare": 0.4333,
+      "positiveShare": 0.5333,
       "negativeShare": 0.4,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -902,14 +1497,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "This has a silky soft cushion when it touches my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
           "text": "Excellent construction",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "This has a silky soft cushion when it touches my face",
+          "text": "I have been using it as my nightly mask for about three years now.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I also have very oily skin, and the silicone was never affected by it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "The headgear is really well made too compared to others",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "My mask and headgear are of a high quality",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "the straps are a light and breathable material",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "The headgear was comfortable and well-made",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "holds up well after time",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "Seems very well-constructed and durable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
@@ -922,20 +1557,61 @@
           "text": "The seal ripped during the first night of use",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "Mine fell apart in just a few months",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The headgear has already fallen apart",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "After 6 months of use (right out of warranty), the hook material separates from it laminated base that serves as the attaching point to the…",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the mask was very hard around the top area of the nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "It has a pretty flimsy piece of plastic holding it on",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "Face pad comes off at odd times",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "One thing missing is the air diffuser!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "it has stretched",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ]
     },
     {
       "id": "value",
       "label": "Value",
-      "score": 52,
+      "score": 54,
+      "grade": "D+",
       "averageSentiment": 5.2,
       "reviewCount": 12,
       "reviewShare": 0.0594,
-      "positiveReviews": 5,
-      "mixedReviews": 2,
+      "positiveReviews": 6,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.4167,
+      "positiveShare": 0.5,
       "negativeShare": 0.4167,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -969,9 +1645,29 @@
           "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         },
         {
+          "text": "I recommend just getting the FitPack since it’s the same price and you get all three cushions to try out",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
           "text": "Priced right",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "good pricing",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "The fit pack is a good thing",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "This mask was ok for the price",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -984,20 +1680,36 @@
           "text": "replacing the headgear every 6 months and its associated cost has forced me to move on to other masks",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "It became a paper weight for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I have 4 spare masks for the old headgear",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "seems a bit pricey (but competitive) for what you you get",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 67,
+      "score": 77,
+      "grade": "B",
       "averageSentiment": 6.7,
       "reviewCount": 45,
       "reviewShare": 0.2228,
-      "positiveReviews": 33,
-      "mixedReviews": 2,
+      "positiveReviews": 34,
+      "neutralReviews": 1,
       "negativeReviews": 10,
-      "positiveShare": 0.7333,
+      "positiveShare": 0.7556,
       "negativeShare": 0.2222,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1076,16 +1788,96 @@
           "text": "The mask is working perfectly",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "I've had blissful deep sleep",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "I wanted to be able to breathe in and out through both my mouth or my nose throughout the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "My CPAP is much more effective using this mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I am sleeping better than I ever have",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I fall asleep so fast wearing this",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "I sleep thru the nite waking refreshed",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-vitera-full-face-cpap-mask-with-headgear"
+        },
+        {
+          "text": "I have gotten very good sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I could not stay compliant",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I tried it for 3 nights straight and I could not get any sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "My sleep is just as bad as before I got this",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
         {
           "text": "Could not wear it",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         },
         {
-          "text": "My sleep is just as bad as before I got this",
+          "text": "could not get my BiPap to show that the seal is good",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "This mask did not work for me at all",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "Could only tolerate 4 nights and gave up",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "couldn't get a good night's sleep",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "it felt difficult to breathe",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Did not solve problem",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "is not really working well for me",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         }
@@ -1096,14 +1888,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 78,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 7.8,
       "reviewCount": 94,
       "reviewShare": 0.4653,
-      "positiveReviews": 75,
-      "mixedReviews": 10,
+      "positiveReviews": 80,
+      "neutralReviews": 5,
       "negativeReviews": 9,
-      "positiveShare": 0.7979,
+      "positiveShare": 0.8511,
       "negativeShare": 0.0957,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1143,35 +1936,36 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         },
         {
-          "text": "Love it",
+          "text": "The new Vitera is the best full face mask I have tried yet",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I really hate it",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+          "text": "The design on this mask is truly baffling to me",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
         },
         {
-          "text": "the vitera has a bad design",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+          "text": "This is the worst headgear F&P ever made",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 76,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 7.6,
       "reviewCount": 74,
       "reviewShare": 0.3663,
-      "positiveReviews": 61,
-      "mixedReviews": 6,
+      "positiveReviews": 64,
+      "neutralReviews": 3,
       "negativeReviews": 7,
-      "positiveShare": 0.8243,
+      "positiveShare": 0.8649,
       "negativeShare": 0.0946,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1269,28 +2063,29 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Uncomfortable",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
-        },
-        {
           "text": "Super uncomfortable head gear",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "Extremely uncomfortable",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         }
       ]
     },
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 63,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 71,
       "reviewShare": 0.3515,
-      "positiveReviews": 42,
-      "mixedReviews": 6,
+      "positiveReviews": 43,
+      "neutralReviews": 5,
       "negativeReviews": 23,
-      "positiveShare": 0.5915,
+      "positiveShare": 0.6056,
       "negativeShare": 0.3239,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1381,35 +2176,36 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "NO LEAKS",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+          "text": "seals, and stays sealed, better than any other",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "everyone one leaked so bad",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        },
-        {
-          "text": "leaked so much air",
+          "text": "could not provide enough seal on the bridge of the nose",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "The mask will not seal (regardless of size)",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         }
       ]
     },
     {
       "id": "fit",
       "label": "Fit",
-      "score": 71,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.1,
       "reviewCount": 62,
       "reviewShare": 0.3069,
-      "positiveReviews": 44,
-      "mixedReviews": 9,
+      "positiveReviews": 52,
+      "neutralReviews": 1,
       "negativeReviews": 9,
-      "positiveShare": 0.7097,
+      "positiveShare": 0.8387,
       "negativeShare": 0.1452,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1507,28 +2303,29 @@
       ],
       "negativeEvidence": [
         {
-          "text": "was displeased with the fit",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
-        },
-        {
           "text": "Still Viteri mask & cushion not for me",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "have had a terrible time with fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 64,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.4,
       "reviewCount": 31,
       "reviewShare": 0.1535,
-      "positiveReviews": 19,
-      "mixedReviews": 5,
+      "positiveReviews": 21,
+      "neutralReviews": 3,
       "negativeReviews": 7,
-      "positiveShare": 0.6129,
+      "positiveShare": 0.6774,
       "negativeShare": 0.2258,
       "evidenceStrength": "moderate",
       "associatedParts": [],
@@ -1562,7 +2359,7 @@
           "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
         },
         {
-          "text": "I was using a much more expensive model previously",
+          "text": "Been using this brand mask for years, Tried others. This has best fit for me",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -1583,12 +2380,13 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 65,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.5,
       "reviewCount": 23,
       "reviewShare": 0.1139,
       "positiveReviews": 16,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.6957,
       "negativeShare": 0.3043,
@@ -1656,24 +2454,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "the design here is simple",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "Easy slip on slip off cushion for replacement",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
         },
         {
-          "text": "Very easy to use",
+          "text": "the design here is simple",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "becomes a project if no light",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+          "text": "I can remove the elbow (with a simple squeeze-to-release design; no force or fidgeting needed) and scratch my nose or the surrounding area if I…",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "even getting it on was inconvenient",
+          "text": "I couldn't wear either the Medium or the Large cushion for more than a few minutes before having to remove the mask and put it…",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -1682,12 +2480,13 @@
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 68,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 6.8,
       "reviewCount": 21,
       "reviewShare": 0.104,
       "positiveReviews": 17,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.8095,
       "negativeShare": 0.1905,
@@ -1737,26 +2536,27 @@
       ],
       "negativeEvidence": [
         {
-          "text": "This mask did not work for me at all",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        },
-        {
           "text": "could not get my BiPap to show that the seal is good",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "This mask did not work for me at all",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "stability",
       "label": "Stability",
-      "score": 65,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.5,
       "reviewCount": 20,
       "reviewShare": 0.099,
       "positiveReviews": 13,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 6,
       "positiveShare": 0.65,
       "negativeShare": 0.3,
@@ -1841,28 +2641,29 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Velcro issues",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
-        },
-        {
-          "text": "it'll slide out of the tubing connector",
+          "text": "I tried to lay on my side in bed and could not stop the leaks",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I have to duck tape it to keep it on the mask",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 49,
+      "score": 45,
+      "grade": "D",
       "averageSentiment": 4.9,
       "reviewCount": 18,
       "reviewShare": 0.0891,
-      "positiveReviews": 5,
-      "mixedReviews": 4,
+      "positiveReviews": 7,
+      "neutralReviews": 2,
       "negativeReviews": 9,
-      "positiveShare": 0.2778,
+      "positiveShare": 0.3889,
       "negativeShare": 0.5,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1923,33 +2724,34 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         },
         {
-          "text": "using the medium size of the fit pack for me",
+          "text": "It comes with three sizes of masks so you can find the one that works for you",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "it's critical you have the correct cushion and head gear size",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
           "text": "I've tried all the cushion sizes",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        },
-        {
-          "text": "None of them fit",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ]
     },
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 74,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 17,
       "reviewShare": 0.0842,
       "positiveReviews": 13,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.7647,
       "negativeShare": 0.1765,
@@ -2001,14 +2803,15 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 56,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.6,
       "reviewCount": 16,
       "reviewShare": 0.0792,
-      "positiveReviews": 8,
-      "mixedReviews": 2,
+      "positiveReviews": 9,
+      "neutralReviews": 1,
       "negativeReviews": 6,
-      "positiveShare": 0.5,
+      "positiveShare": 0.5625,
       "negativeShare": 0.375,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2064,35 +2867,36 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "the adjustment for this one is 100% in the straps",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "It has five points of adjustment, four for the cheeks and forehead, and one for the top of your head",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "No matter what adjustments I made",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        },
-        {
           "text": "I tried every which way to adjust this",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "No matter what adjustments I made",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 51,
+      "score": 55,
+      "grade": "C-",
       "averageSentiment": 5.1,
       "reviewCount": 16,
       "reviewShare": 0.0792,
-      "positiveReviews": 7,
-      "mixedReviews": 2,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 7,
-      "positiveShare": 0.4375,
+      "positiveShare": 0.5625,
       "negativeShare": 0.4375,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2158,12 +2962,13 @@
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 79,
+      "score": 93,
+      "grade": "A",
       "averageSentiment": 7.9,
       "reviewCount": 14,
       "reviewShare": 0.0693,
       "positiveReviews": 13,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9286,
       "negativeShare": 0.0714,
@@ -2201,7 +3006,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "No leaks without having to stay on my back",
+          "text": "I can sleep on my side and not have to worry about leaks",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
@@ -2222,12 +3027,13 @@
     {
       "id": "noise",
       "label": "Noise",
-      "score": 41,
+      "score": 32,
+      "grade": "F+",
       "averageSentiment": 4.1,
       "reviewCount": 13,
       "reviewShare": 0.0644,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 9,
       "positiveShare": 0.3077,
       "negativeShare": 0.6923,
@@ -2279,33 +3085,34 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "as quiet as resmed",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+          "text": "It is quieter than simplus",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I HATED the air vent",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
-        },
-        {
           "text": "make a snapping noise that's loud enough to wake a sleeping partner",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "I HATED the air vent",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         }
       ]
     },
     {
       "id": "face_marks",
       "label": "Face Marks",
-      "score": 60,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 11,
       "reviewShare": 0.0545,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.6364,
       "negativeShare": 0.3636,
@@ -2367,9 +3174,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "No wear marks on my nose",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "the headgear doesn't leave lines or imprints on my face",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-vitera-full-face-cpap-mask-with-headgear"
         },
         {
           "text": "doesn't leave any marks on your face",
@@ -2393,12 +3200,13 @@
     {
       "id": "putting_on",
       "label": "Putting On",
-      "score": 63,
+      "score": 59,
+      "grade": "C-",
       "averageSentiment": 6.3,
       "reviewCount": 11,
       "reviewShare": 0.0545,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.5455,
       "negativeShare": 0.4545,
@@ -2453,7 +3261,7 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "getting it on",
+          "text": "i wish the headgear was a little easier to take on and off",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -2462,12 +3270,13 @@
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 69,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 6.9,
       "reviewCount": 10,
       "reviewShare": 0.0495,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -2525,24 +3334,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Excellent construction",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
-        },
-        {
           "text": "This has a silky soft cushion when it touches my face",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "Excellent construction",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "It has a pretty flimsy piece of plastic holding it on",
+          "text": "the mask was very hard around the top area of the nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "the mask was very hard around the top area of the nose",
+          "text": "It has a pretty flimsy piece of plastic holding it on",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -2551,12 +3360,13 @@
     {
       "id": "overtightening",
       "label": "Overtightening",
-      "score": 26,
+      "score": 9,
+      "grade": "F-",
       "averageSentiment": 2.6,
       "reviewCount": 10,
       "reviewShare": 0.0495,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 9,
       "positiveShare": 0.1,
       "negativeShare": 0.9,
@@ -2615,26 +3425,27 @@
       ],
       "negativeEvidence": [
         {
-          "text": "unless I cinch it down so tight",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
-        },
-        {
           "text": "To get the Vitera to seal, I had to tighten it so much it basically fused with my skull",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "unless I cinch it down so tight",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         }
       ]
     },
     {
       "id": "pain",
       "label": "Pain",
-      "score": 36,
+      "score": 23,
+      "grade": "F",
       "averageSentiment": 3.6,
       "reviewCount": 9,
       "reviewShare": 0.0446,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.2222,
       "negativeShare": 0.7778,
@@ -2686,14 +3497,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "No Nose Pain",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
-        },
-        {
           "text": "The only one that didn't feel like it was cutting my face",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "No Nose Pain",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
@@ -2712,12 +3523,13 @@
     {
       "id": "removing",
       "label": "Removing",
-      "score": 60,
+      "score": 59,
+      "grade": "C-",
       "averageSentiment": 6.0,
       "reviewCount": 9,
       "reviewShare": 0.0446,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.5556,
       "negativeShare": 0.4444,
@@ -2766,7 +3578,7 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "off easily",
+          "text": "A LITTLE DIFFICULT TO FASTEN AND UNFASTEN",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -2775,12 +3587,13 @@
     {
       "id": "therapy_compliance",
       "label": "Therapy Compliance",
-      "score": 46,
+      "score": 44,
+      "grade": "D-",
       "averageSentiment": 4.6,
       "reviewCount": 9,
       "reviewShare": 0.0446,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.4444,
       "negativeShare": 0.5556,
@@ -2835,26 +3648,27 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Could not wear it",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        },
-        {
           "text": "I tried it for 3 nights straight and I could not get any sleep",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "Could not wear it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ]
     },
     {
       "id": "red_marks",
       "label": "Red Marks",
-      "score": 41,
+      "score": 37,
+      "grade": "F+",
       "averageSentiment": 4.1,
       "reviewCount": 8,
       "reviewShare": 0.0396,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.375,
       "negativeShare": 0.625,
@@ -2906,38 +3720,39 @@
       ],
       "positiveEvidence": [
         {
-          "text": "There are no pressure marks on my face or nose",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "I have marks from the strap on one side of my head",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         },
         {
-          "text": "reducing pressure lines on your face",
+          "text": "There are no pressure marks on my face or nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "leaves painful red marks on my nose, face and neck",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
-        },
-        {
           "text": "The marks left by the straps actually startled me when I looked at them in the mirror",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "leaves painful red marks on my nose, face and neck",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         }
       ]
     },
     {
       "id": "size_availability",
       "label": "Size Availability",
-      "score": 68,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 6.8,
       "reviewCount": 8,
       "reviewShare": 0.0396,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.875,
       "negativeShare": 0.125,
@@ -2963,14 +3778,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "This mask came with all sizes to make sure the right one fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
           "text": "You have the 3 sizes for the cushion and headgear",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        },
-        {
-          "text": "came with small, medium and large cushion",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
         }
       ],
       "negativeEvidence": [
@@ -2984,14 +3799,15 @@
     {
       "id": "value",
       "label": "Value",
-      "score": 59,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 5.9,
       "reviewCount": 8,
       "reviewShare": 0.0396,
-      "positiveReviews": 4,
-      "mixedReviews": 2,
+      "positiveReviews": 5,
+      "neutralReviews": 1,
       "negativeReviews": 2,
-      "positiveShare": 0.5,
+      "positiveShare": 0.625,
       "negativeShare": 0.25,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3020,7 +3836,7 @@
           "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         },
         {
-          "text": "Priced right",
+          "text": "I recommend just getting the FitPack since it’s the same price and you get all three cushions to try out",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
@@ -3041,12 +3857,13 @@
     {
       "id": "weight",
       "label": "Weight",
-      "score": 81,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.1,
       "reviewCount": 8,
       "reviewShare": 0.0396,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -3078,9 +3895,9 @@
           "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
         },
         {
-          "text": "it seems “light”",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+          "text": "this feels lighter on the face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": []
@@ -3088,12 +3905,13 @@
     {
       "id": "access_to_face",
       "label": "Access To Face",
-      "score": 40,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.0,
       "reviewCount": 7,
       "reviewShare": 0.0347,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.2857,
       "negativeShare": 0.5714,
@@ -3161,14 +3979,14 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the vertical bar comes off your face pretty far",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
           "text": "This mask is excellent for those without glasses",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
-        },
-        {
-          "text": "This one goes over both nose and mouth",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
@@ -3187,12 +4005,13 @@
     {
       "id": "breakage",
       "label": "Breakage",
-      "score": 14,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 1.4,
       "reviewCount": 7,
       "reviewShare": 0.0347,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -3243,12 +4062,13 @@
     {
       "id": "breathing_support",
       "label": "Breathing Support",
-      "score": 73,
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.3,
       "reviewCount": 7,
       "reviewShare": 0.0347,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -3301,7 +4121,7 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         },
         {
-          "text": "the breathing is more natural with the FFM",
+          "text": "the ability to breath through the mouth if needed like if I am sick is nice",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -3317,14 +4137,15 @@
     {
       "id": "cleaning",
       "label": "Cleaning",
-      "score": 77,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.7,
       "reviewCount": 7,
       "reviewShare": 0.0347,
-      "positiveReviews": 6,
-      "mixedReviews": 1,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8571,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3343,14 +4164,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "The mask parts are easy to clean",
+          "text": "It's easy to fit, wear through the night, then take apart and clean in the morning",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "clean",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+          "text": "The mask parts are easy to clean",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": []
@@ -3358,12 +4179,13 @@
     {
       "id": "movement_compatibility",
       "label": "Movement Compatibility",
-      "score": 73,
+      "score": 86,
+      "grade": "A-",
       "averageSentiment": 7.3,
       "reviewCount": 7,
       "reviewShare": 0.0347,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -3416,12 +4238,13 @@
     {
       "id": "appearance",
       "label": "Appearance",
-      "score": 42,
+      "score": 34,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 6,
       "reviewShare": 0.0297,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.3333,
       "negativeShare": 0.6667,
@@ -3485,12 +4308,13 @@
     {
       "id": "bulk",
       "label": "Bulk",
-      "score": 38,
+      "score": 32,
+      "grade": "F+",
       "averageSentiment": 3.8,
       "reviewCount": 6,
       "reviewShare": 0.0297,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.3333,
       "negativeShare": 0.6667,
@@ -3553,14 +4377,15 @@
     {
       "id": "machine_compatibility",
       "label": "Machine Compatibility",
-      "score": 72,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 6,
       "reviewShare": 0.0297,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.8333,
       "negativeShare": 0.1667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3574,14 +4399,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "I hadn't set my CPAP machine to the full face mask setting",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
-        },
-        {
           "text": "SIM card for reporting to main terminal is wonderful and can get daily reports on how well it’s working for you",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        },
+        {
+          "text": "I hadn't set my CPAP machine to the full face mask setting",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -3595,12 +4420,13 @@
     {
       "id": "airflow",
       "label": "Airflow",
-      "score": 46,
+      "score": 41,
+      "grade": "D-",
       "averageSentiment": 4.6,
       "reviewCount": 5,
       "reviewShare": 0.0248,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -3650,28 +4476,29 @@
       ],
       "negativeEvidence": [
         {
-          "text": "The air vent -breeze- is strong, like gale force",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        },
-        {
           "text": "It's located right in front of your nose and blows a lot",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "I covered the area with tape and now it works correctly",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         }
       ]
     },
     {
       "id": "pressure",
       "label": "Pressure",
-      "score": 56,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 5.6,
       "reviewCount": 5,
       "reviewShare": 0.0248,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.4,
+      "positiveShare": 0.6,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3722,26 +4549,26 @@
       ],
       "positiveEvidence": [
         {
-          "text": "it doesn’t put pressure on my nose",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
-        },
-        {
           "text": "Large, well-padded cushion spreads the pressure quite well",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "it doesn’t put pressure on my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "the pressure from the forehead portion can sometimes be too much",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
-        },
-        {
           "text": "if you wear it tight it presses too much on the face",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "the pressure from the forehead portion can sometimes be too much",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ]
     }
@@ -3750,14 +4577,15 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 57,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.7,
       "reviewCount": 41,
       "reviewShare": 0.203,
-      "positiveReviews": 20,
-      "mixedReviews": 6,
+      "positiveReviews": 22,
+      "neutralReviews": 4,
       "negativeReviews": 15,
-      "positiveShare": 0.4878,
+      "positiveShare": 0.5366,
       "negativeShare": 0.3659,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3823,60 +4651,61 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I’ve had a lot of trouble with masks shifting in the past",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "the headgear doesn't leave lines or imprints on my face",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-vitera-full-face-cpap-mask-with-headgear"
+        },
+        {
           "text": "the head gear doesn't shift like other masks",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        },
-        {
-          "text": "No noise",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
-        },
-        {
-          "text": "The headgear is very comfortable",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
-        {
-          "text": "Super uncomfortable head gear",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        },
         {
           "text": "This is the worst headgear F&P ever made",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "Worst purchase I ever made",
+          "text": "The headgear has already fallen apart",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "Super uncomfortable head gear",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ],
       "praisedAspects": [
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 77,
+          "score": 94,
+          "grade": "A",
           "averageSentiment": 7.7,
           "reviewCount": 18,
           "reviewShare": 0.0891,
           "positiveReviews": 17,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "The headgear is very comfortable",
+              "text": "Headgear: I really appreciate the headgear.",
               "retailer": "CPAP.com",
               "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
             },
             {
-              "text": "Headgear: I really appreciate the headgear.",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+              "text": "keeping my head cool at night",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
             }
           ],
           "negativeEvidence": [
@@ -3886,6 +4715,43 @@
               "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
             }
           ]
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "score": 71,
+          "grade": "B-",
+          "averageSentiment": 5.9,
+          "reviewCount": 7,
+          "reviewShare": 0.0347,
+          "positiveReviews": 5,
+          "neutralReviews": 0,
+          "negativeReviews": 2,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "GOOD HEAD GEAR AND WORKS WELL WITH A FULL BEARD",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+            },
+            {
+              "text": "I had no problem finding a good fit",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "Still Viteri mask & cushion not for me",
+              "retailer": "Lofta",
+              "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+            },
+            {
+              "text": "it let air blow up into my eyes occasionally during the night",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+            }
+          ]
         }
       ],
       "criticizedAspects": []
@@ -3893,14 +4759,15 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 56,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 5.6,
       "reviewCount": 23,
       "reviewShare": 0.1139,
-      "positiveReviews": 11,
-      "mixedReviews": 4,
+      "positiveReviews": 13,
+      "neutralReviews": 2,
       "negativeReviews": 8,
-      "positiveShare": 0.4783,
+      "positiveShare": 0.5652,
       "negativeShare": 0.3478,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3951,14 +4818,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Great mask",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
-        },
-        {
           "text": "This has a silky soft cushion when it touches my face",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "Easy slip on slip off cushion for replacement",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
         },
         {
           "text": "low and behold, NO LEAKS!",
@@ -3968,31 +4835,32 @@
       ],
       "negativeEvidence": [
         {
+          "text": "I also had a ring around my entire nose that was so bad it was actually distressing to see, and took hours to go away",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
           "text": "everyone one leaked so bad",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         },
         {
-          "text": "To get the Vitera to seal, I had to tighten it so much it basically fused with my skull",
+          "text": "I couldn't wear either the Medium or the Large cushion for more than a few minutes before having to remove the mask and put it…",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
-        },
-        {
-          "text": "The cushion is abrasive",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ],
       "praisedAspects": [
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 72,
+          "score": 84,
+          "grade": "B+",
           "averageSentiment": 7.2,
           "reviewCount": 6,
           "reviewShare": 0.0297,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -4002,7 +4870,7 @@
               "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
             },
             {
-              "text": "the cushion is soft",
+              "text": "I liked the soft feel of the mask cushion",
               "retailer": "DirectHomeMedical",
               "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
             }
@@ -4014,6 +4882,43 @@
               "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
             }
           ]
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "score": 79,
+          "grade": "B",
+          "averageSentiment": 6.4,
+          "reviewCount": 7,
+          "reviewShare": 0.0347,
+          "positiveReviews": 5,
+          "neutralReviews": 1,
+          "negativeReviews": 1,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "the medium sits a little lower on my nose - meaning NOT at the bridge - but low and behold, NO LEAKS!",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+            },
+            {
+              "text": "The nose bridge area of the cushion is an improvement over other full-face masks I have tried",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "Still Viteri mask & cushion not for me",
+              "retailer": "Lofta",
+              "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+            },
+            {
+              "text": "did not push into the corners of my eyes",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+            }
+          ]
         }
       ],
       "criticizedAspects": []
@@ -4021,12 +4926,13 @@
     {
       "id": "fit_pack",
       "label": "Fit Pack",
-      "score": 77,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.7,
       "reviewCount": 12,
       "reviewShare": 0.0594,
       "positiveReviews": 12,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -4042,19 +4948,19 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Great way to get started",
+          "text": "I recommend just getting the FitPack since it’s the same price and you get all three cushions to try out",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        },
-        {
-          "text": "does not leak",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
           "text": "I like that you can get the \"fitpack\" with different sized cushions to figure out what fits the best",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "It is my first time using a machine, so I needed one that had the fit pack included",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [],
@@ -4062,24 +4968,25 @@
         {
           "id": "size_availability",
           "label": "Size Availability",
-          "score": 74,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 7.4,
           "reviewCount": 5,
           "reviewShare": 0.0248,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "You have the 3 sizes for the cushion and headgear",
-              "retailer": "RespShop",
-              "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-            },
-            {
               "text": "This mask came with all sizes to make sure the right one fit",
               "retailer": "CPAP.com",
               "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+            },
+            {
+              "text": "You have the 3 sizes for the cushion and headgear",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
             }
           ],
           "negativeEvidence": []
@@ -4090,12 +4997,13 @@
     {
       "id": "strap",
       "label": "Strap",
-      "score": 42,
+      "score": 33,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 12,
       "reviewShare": 0.0594,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.3333,
       "negativeShare": 0.6667,
@@ -4165,19 +5073,19 @@
       ],
       "negativeEvidence": [
         {
-          "text": "unless I cinch it down so tight",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
-        },
-        {
-          "text": "\"Lost a fight with a lattice fence\" aesthetic",
+          "text": "The marks left by the straps actually startled me when I looked at them in the mirror",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "tighten the straps around the back of my head",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+          "text": "leaves painful red marks on my nose, face and neck",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+        },
+        {
+          "text": "I feel the lower straps on any mask should not retract the lower jaw",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "praisedAspects": [],
@@ -4186,12 +5094,13 @@
     {
       "id": "forehead_support",
       "label": "Forehead Support",
-      "score": 42,
+      "score": 33,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 11,
       "reviewShare": 0.0545,
       "positiveReviews": 3,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 7,
       "positiveShare": 0.2727,
       "negativeShare": 0.6364,
@@ -4277,12 +5186,13 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 67,
+      "score": 74,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 9,
       "reviewShare": 0.0446,
       "positiveReviews": 6,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.2222,
@@ -4345,7 +5255,7 @@
           "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
         },
         {
-          "text": "The mask easily disassembles, making it easy to store in my travel case",
+          "text": "Any strap marks on my face disappear soon after I get out of bed",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -4357,14 +5267,14 @@
           "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "it's bulky due to being a full face mask",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
-        },
-        {
           "text": "I find I have to adjust the mask tighter and tighter before the 30 days is up",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "it's bulky due to being a full face mask",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         }
       ],
       "praisedAspects": [],
@@ -4373,12 +5283,13 @@
     {
       "id": "vent",
       "label": "Vent",
-      "score": 32,
+      "score": 12,
+      "grade": "F-",
       "averageSentiment": 3.2,
       "reviewCount": 9,
       "reviewShare": 0.0446,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.1111,
       "negativeShare": 0.8889,
@@ -4424,6 +5335,16 @@
           "text": "I like the cushion and the venting",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "it does seem to blow straight out, not upwards",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
+        },
+        {
+          "text": "The venting was acceptable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
@@ -4433,14 +5354,14 @@
           "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "The air vent -breeze- is strong, like gale force",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        },
-        {
-          "text": "I DO NOT like that it vents straight out the front",
+          "text": "If you are a side sleeper, it's like a constant hurricane blowing on anyone lying next to you",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "The leaking air throws off my CPAP reading, making it look like my mask seal is broken",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
         }
       ],
       "praisedAspects": [],
@@ -4449,12 +5370,13 @@
     {
       "id": "cushion_seal",
       "label": "Cushion Seal",
-      "score": 59,
+      "score": 65,
+      "grade": "C+",
       "averageSentiment": 5.9,
       "reviewCount": 7,
       "reviewShare": 0.0347,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.5714,
       "negativeShare": 0.2857,
@@ -4487,14 +5409,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Good seal",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
-        },
-        {
           "text": "Even if I'm in need of a shave the seal is still good",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "Good seal",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
         },
         {
           "text": "The sealing features have been pretty good",
@@ -4525,14 +5447,15 @@
     {
       "id": "replacement_part",
       "label": "Replacement Part",
-      "score": 48,
+      "score": 49,
+      "grade": "D",
       "averageSentiment": 4.8,
       "reviewCount": 7,
       "reviewShare": 0.0347,
-      "positiveReviews": 2,
-      "mixedReviews": 2,
+      "positiveReviews": 3,
+      "neutralReviews": 1,
       "negativeReviews": 3,
-      "positiveShare": 0.2857,
+      "positiveShare": 0.4286,
       "negativeShare": 0.4286,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4552,6 +5475,11 @@
         },
         {
           "text": "The mask parts are easy to clean",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "when one wears out",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -4579,14 +5507,15 @@
     {
       "id": "clip",
       "label": "Clip",
-      "score": 61,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.1,
       "reviewCount": 6,
       "reviewShare": 0.0297,
-      "positiveReviews": 3,
-      "mixedReviews": 1,
+      "positiveReviews": 4,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.5,
+      "positiveShare": 0.6667,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4633,12 +5562,13 @@
     {
       "id": "frame",
       "label": "Frame",
-      "score": 53,
+      "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.3,
       "reviewCount": 5,
       "reviewShare": 0.0248,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -4693,7 +5623,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "I also hate the plastic bar going up the center of my face",
+          "text": "I could not wear my glasses to read in bed or look at the #s on my machine",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         },
@@ -4709,12 +5639,13 @@
     {
       "id": "silicone_cushion",
       "label": "Silicone Cushion",
-      "score": 84,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 5,
       "reviewShare": 0.0248,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -4752,7 +5683,7 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         },
         {
-          "text": "No wear marks on my nose",
+          "text": "the silicone seal and design is truly remarkable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
@@ -4771,17 +5702,18 @@
     {
       "id": "headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 77,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 7.7,
       "reviewCount": 18,
       "reviewShare": 0.0891,
       "positiveReviews": 17,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "The headgear is very comfortable",
+          "text": "Headgear: I really appreciate the headgear.",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -4801,19 +5733,20 @@
     {
       "id": "cushion|fit",
       "label": "Cushion · Fit",
-      "score": 64,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 6.4,
       "reviewCount": 7,
       "reviewShare": 0.0347,
-      "positiveReviews": 4,
-      "mixedReviews": 2,
+      "positiveReviews": 5,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Great fit",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+          "text": "the medium sits a little lower on my nose - meaning NOT at the bridge - but low and behold, NO LEAKS!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
@@ -4831,17 +5764,18 @@
     {
       "id": "headgear|fit",
       "label": "Headgear · Fit",
-      "score": 59,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 5.9,
       "reviewCount": 7,
       "reviewShare": 0.0347,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "the headgear never fit well",
+          "text": "GOOD HEAD GEAR AND WORKS WELL WITH A FULL BEARD",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -4861,12 +5795,13 @@
     {
       "id": "cushion|comfort",
       "label": "Cushion · Comfort",
-      "score": 72,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 6,
       "reviewShare": 0.0297,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4891,12 +5826,13 @@
     {
       "id": "cushion|seal_leak",
       "label": "Cushion · Seal Leak",
-      "score": 43,
+      "score": 39,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 6,
       "reviewShare": 0.0297,
       "positiveReviews": 1,
-      "mixedReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4921,26 +5857,27 @@
     {
       "id": "headgear|adjustment",
       "label": "Headgear · Adjustment",
-      "score": 63,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 6,
       "reviewShare": 0.0297,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "without needing to readjust the straps",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "It has five points of adjustment, four for the cheeks and forehead, and one for the top of your head",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I need to tighten the headgear every other week",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "you'll need the headgear straps a bit LOOSER than you do on other full face masks",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         }
       ],
       "partId": "headgear",
@@ -4951,19 +5888,20 @@
     {
       "id": "cushion_seal|seal_leak",
       "label": "Cushion Seal · Seal Leak",
-      "score": 72,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 5,
       "reviewShare": 0.0248,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Good seal",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
+          "text": "Even if I'm in need of a shave the seal is still good",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
@@ -4981,15 +5919,22 @@
     {
       "id": "cushion|sizing",
       "label": "Cushion · Sizing",
-      "score": 36,
+      "score": 19,
+      "grade": "F-",
       "averageSentiment": 3.6,
       "reviewCount": 5,
       "reviewShare": 0.0248,
-      "positiveReviews": 0,
-      "mixedReviews": 1,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
-      "positiveEvidence": [],
+      "positiveEvidence": [
+        {
+          "text": "I use medium cushion in both Vitera and Simplus",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        }
+      ],
       "negativeEvidence": [
         {
           "text": "I've tried all the cushion sizes",
@@ -5005,19 +5950,20 @@
     {
       "id": "fit_pack|size_availability",
       "label": "Fit Pack · Size Availability",
-      "score": 74,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.4,
       "reviewCount": 5,
       "reviewShare": 0.0248,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "You have the 3 sizes for the cushion and headgear",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+          "text": "This mask came with all sizes to make sure the right one fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [],
@@ -5029,19 +5975,20 @@
     {
       "id": "headgear|stability",
       "label": "Headgear · Stability",
-      "score": 72,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 5,
       "reviewShare": 0.0248,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "who sleep in moving trucks",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
+          "text": "I’ve had a lot of trouble with masks shifting in the past",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -5061,14 +6008,15 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 74,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 7.4,
       "reviewCount": 18,
       "reviewShare": 0.0891,
-      "positiveReviews": 14,
-      "mixedReviews": 2,
+      "positiveReviews": 16,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.7778,
+      "positiveShare": 0.8889,
       "negativeShare": 0.1111,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -5114,12 +6062,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "I sleep on my side only with no issues with this mask",
+          "text": "I can sleep on my side and not have to worry about leaks",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "I can sleep on my side and not have to worry about leaks",
+          "text": "Stays on when I move around in bed and lie on my side",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -5145,14 +6093,15 @@
     {
       "id": "new-users",
       "label": "New CPAP users",
-      "score": 56,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 5.6,
       "reviewCount": 12,
       "reviewShare": 0.0594,
-      "positiveReviews": 5,
-      "mixedReviews": 4,
+      "positiveReviews": 6,
+      "neutralReviews": 3,
       "negativeReviews": 3,
-      "positiveShare": 0.4167,
+      "positiveShare": 0.5,
       "negativeShare": 0.25,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -5182,19 +6131,19 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         },
         {
-          "text": "very comfortable",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "I'm relatively new to CPAP",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-vitera-full-face-cpap-mask-with-headgear"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "leaky",
+          "text": "I am new to CPAP",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         },
         {
-          "text": "I am new to CPAP",
+          "text": "leaky",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         }
@@ -5209,12 +6158,13 @@
     {
       "id": "mouth-breathers",
       "label": "Mouth breathers",
-      "score": 70,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 10,
       "reviewShare": 0.0495,
       "positiveReviews": 7,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 1,
       "positiveShare": 0.7,
       "negativeShare": 0.1,
@@ -5252,14 +6202,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "this mask is a must for a comfortable and sound sleep",
+          "text": "I wanted to be able to breathe in and out through both my mouth or my nose throughout the night",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         },
         {
-          "text": "kept my mouth from opening",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "I answered yes to pretty much everything and we found out I would be most happy with a full face mask",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "negativeEvidence": [
@@ -5284,12 +6234,13 @@
     {
       "id": "facial-hair",
       "label": "People with facial hair",
-      "score": 74,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 7.3,
       "reviewCount": 10,
       "reviewShare": 0.0495,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9,
       "negativeShare": 0.1,
@@ -5342,14 +6293,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Even if I'm in need of a shave the seal is still good",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
-        },
-        {
           "text": "I have a beard and have struggled with finding a mask that maintains a good seal",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
+          "text": "Even if I'm in need of a shave the seal is still good",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
@@ -5370,12 +6321,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 70,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 7.0,
       "reviewCount": 8,
       "reviewShare": 0.0396,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -5451,12 +6403,13 @@
     {
       "id": "long-term-users",
       "label": "Long-term CPAP users",
-      "score": 90,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.0,
       "reviewCount": 7,
       "reviewShare": 0.0347,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -5472,12 +6425,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Excellent Mask",
+          "text": "By far this is the best mask I have ever used",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "By far this is the best mask I have ever used",
+          "text": "Excellent Mask",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -5494,17 +6447,18 @@
     {
       "id": "side-sleepers|sleep_position_compatibility",
       "label": "Side sleepers · Sleep Position Compatibility",
-      "score": 78,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 7.8,
       "reviewCount": 13,
       "reviewShare": 0.0644,
-      "positiveReviews": 11,
-      "mixedReviews": 1,
+      "positiveReviews": 12,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "I sleep on my side only with no issues with this mask",
+          "text": "I can sleep on my side and not have to worry about leaks",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -5524,19 +6478,20 @@
     {
       "id": "facial-hair|seal_leak",
       "label": "People with facial hair · Seal Leak",
-      "score": 72,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.2,
       "reviewCount": 8,
       "reviewShare": 0.0396,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Even if I'm in need of a shave the seal is still good",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "I have a beard and have struggled with finding a mask that maintains a good seal",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -5554,19 +6509,20 @@
     {
       "id": "side-sleepers|seal_leak",
       "label": "Side sleepers · Seal Leak",
-      "score": 81,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.1,
       "reviewCount": 6,
       "reviewShare": 0.0297,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "I sleep on my side and don't break the seal",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
+          "text": "Sleeping on my side, I don't experience any leaks with this mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [],
@@ -5578,17 +6534,18 @@
     {
       "id": "long-term-users|overall_satisfaction",
       "label": "Long-term CPAP users · Overall Satisfaction",
-      "score": 94,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.4,
       "reviewCount": 5,
       "reviewShare": 0.0248,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Excellent Mask",
+          "text": "By far this is the best mask I have ever used",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -5611,11 +6568,12 @@
       "id": "nose",
       "label": "Nose",
       "score": 50,
+      "grade": "D+",
       "averageSentiment": 5.0,
       "reviewCount": 17,
       "reviewShare": 0.0842,
       "positiveReviews": 7,
-      "mixedReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 7,
       "positiveShare": 0.4118,
       "negativeShare": 0.4118,
@@ -5678,22 +6636,27 @@
       ],
       "positiveEvidence": [
         {
-          "text": "No wear marks on my nose",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
-        },
-        {
           "text": "Even if I'm in need of a shave the seal is still good",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "let me breath through my nose",
+          "text": "No wear marks on my nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "The piece that goes over my nose and mouth is soft and comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I also had a ring around my entire nose that was so bad it was actually distressing to see, and took hours to go away",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
         {
           "text": "This mask squeezes the top of my nose shut",
           "retailer": "CPAP.com",
@@ -5703,11 +6666,6 @@
           "text": "unless I cinch it down so tight",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
-        },
-        {
-          "text": "I HATED the air vent",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         }
       ],
       "complaintReviews": 10,
@@ -5771,12 +6729,13 @@
     {
       "id": "face",
       "label": "Face",
-      "score": 60,
+      "score": 59,
+      "grade": "C-",
       "averageSentiment": 6.0,
       "reviewCount": 24,
       "reviewShare": 0.1188,
       "positiveReviews": 13,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 10,
       "positiveShare": 0.5417,
       "negativeShare": 0.4167,
@@ -5839,19 +6798,19 @@
       ],
       "positiveEvidence": [
         {
-          "text": "very comfortable around the face",
+          "text": "This has a silky soft cushion when it touches my face",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         },
         {
-          "text": "Good seal",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "the headgear doesn't leave lines or imprints on my face",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-vitera-full-face-cpap-mask-with-headgear"
         },
         {
-          "text": "doesn't leave any marks on your face",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
+          "text": "the mask creates a good seal on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -5866,9 +6825,9 @@
           "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
         },
         {
-          "text": "I have a lot of marks on my face that sometimes takes until noon to go away",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+          "text": "If you are a side sleeper, it's like a constant hurricane blowing on anyone lying next to you",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "complaintReviews": 10,
@@ -5927,14 +6886,15 @@
     {
       "id": "nose_bridge",
       "label": "Nose Bridge",
-      "score": 41,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.1,
       "reviewCount": 10,
       "reviewShare": 0.0495,
-      "positiveReviews": 1,
-      "mixedReviews": 4,
+      "positiveReviews": 3,
+      "neutralReviews": 2,
       "negativeReviews": 5,
-      "positiveShare": 0.1,
+      "positiveShare": 0.3,
       "negativeShare": 0.5,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -5980,17 +6940,17 @@
       ],
       "positiveEvidence": [
         {
-          "text": "No Nose Pain",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
-        },
-        {
           "text": "the medium sits a little lower on my nose - meaning NOT at the bridge - but low and behold, NO LEAKS!",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
           "text": "The nose bridge area of the cushion is an improvement over other full-face masks I have tried",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        },
+        {
+          "text": "a bit more comfortable especially at the bridge of the nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -6058,12 +7018,13 @@
     {
       "id": "head",
       "label": "Head",
-      "score": 55,
+      "score": 54,
+      "grade": "D+",
       "averageSentiment": 5.5,
       "reviewCount": 15,
       "reviewShare": 0.0743,
       "positiveReviews": 7,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 6,
       "positiveShare": 0.4667,
       "negativeShare": 0.4,
@@ -6126,6 +7087,11 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I’ve had a lot of trouble with masks shifting in the past",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        },
+        {
           "text": "keeping my head cool at night",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
@@ -6134,11 +7100,6 @@
           "text": "Keeps you cool at night!",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
-        },
-        {
-          "text": "I’ve had a lot of trouble with masks shifting in the past",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -6148,14 +7109,14 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "Velcro issues",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/vitera-full-face-cpap-mask-fisher-paykel"
-        },
-        {
           "text": "HEadgear overall is to much",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
+        },
+        {
+          "text": "Leaves indentations on your head",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
         }
       ],
       "complaintReviews": 8,
@@ -6219,14 +7180,15 @@
     {
       "id": "mouth",
       "label": "Mouth",
-      "score": 59,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 5.9,
       "reviewCount": 9,
       "reviewShare": 0.0446,
-      "positiveReviews": 4,
-      "mixedReviews": 2,
+      "positiveReviews": 5,
+      "neutralReviews": 1,
       "negativeReviews": 3,
-      "positiveShare": 0.4444,
+      "positiveShare": 0.5556,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -6272,14 +7234,14 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "kept my mouth from opening",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "I answered yes to pretty much everything and we found out I would be most happy with a full face mask",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/vitera-full-face-cpap-mask-fisher-paykel"
         },
         {
-          "text": "since my mouth won't stay closed",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+          "text": "the ability to breath through the mouth if needed like if I am sick is nice",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
@@ -6289,12 +7251,12 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "my mouth still manages to slip out of the bottom",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+          "text": "I got a bunch of air leaks at the sides of my mouth",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         },
         {
-          "text": "the mask drying out my mouth",
+          "text": "my mouth still manages to slip out of the bottom",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
         }
@@ -6343,14 +7305,15 @@
   ],
   "interactionInsights": [
     {
-      "id": "body|headgear|head|comfort",
-      "label": "Headgear at Head: Comfort",
-      "score": 83,
+      "id": "body|headgear|head|comfort_discomfort",
+      "label": "Headgear at Head: Comfort and Discomfort",
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.3,
       "reviewCount": 6,
       "reviewShare": 0.0297,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -6392,8 +7355,15 @@
       "kind": "body-component",
       "contextId": null,
       "contextLabel": null,
-      "aspectId": "comfort",
-      "aspectLabel": "Comfort",
+      "aspectId": "comfort_discomfort",
+      "aspectLabel": "Comfort and Discomfort",
+      "outcomeAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 6
+        }
+      ],
       "parts": [
         {
           "id": "headgear",
@@ -6410,159 +7380,63 @@
       ],
       "contexts": [],
       "tone": "favorable",
-      "description": "Reports about the headgear where it contacts the head were mostly favorable for comfort: 6 positive, 0 mixed, and 0 negative across 6 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
+      "description": "Reports about the headgear where it contacts the head were mostly favorable for comfort and discomfort: 6 positive, 0 neutral, and 0 negative across 6 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
     }
   ],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 79,
-      "averageSentiment": 7.9,
-      "reviewCount": 84,
-      "reviewShare": 0.4158,
-      "positiveReviews": 67,
-      "mixedReviews": 10,
-      "negativeReviews": 7,
-      "positiveShare": 0.7976,
-      "negativeShare": 0.0833,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I tried many different masks and this one hands down is the best",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I really hate it",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 80,
-      "averageSentiment": 8.0,
-      "reviewCount": 36,
-      "reviewShare": 0.1782,
-      "positiveReviews": 30,
-      "mixedReviews": 4,
-      "negativeReviews": 2,
-      "positiveShare": 0.8333,
-      "negativeShare": 0.0556,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "be comfortable to wear all night",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/fisher-paykel-vitera-full-face-mask-fit-pack"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Uncomfortable",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
-        }
-      ]
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 76,
-      "averageSentiment": 7.6,
-      "reviewCount": 33,
-      "reviewShare": 0.1634,
-      "positiveReviews": 29,
-      "mixedReviews": 0,
-      "negativeReviews": 4,
-      "positiveShare": 0.8788,
-      "negativeShare": 0.1212,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "The fit is perfect",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "was displeased with the fit",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
-        }
-      ]
-    },
-    {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 74,
-      "averageSentiment": 7.4,
-      "reviewCount": 14,
-      "reviewShare": 0.0693,
-      "positiveReviews": 11,
-      "mixedReviews": 0,
-      "negativeReviews": 3,
-      "positiveShare": 0.7857,
-      "negativeShare": 0.2143,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "sleeping like a baby just off the tit... Love it!",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "My sleep is just as bad as before I got this",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
-        }
-      ]
-    },
-    {
-      "id": "headgear|||comfort",
+      "id": "part|headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 74,
-      "averageSentiment": 7.4,
-      "reviewCount": 10,
-      "reviewShare": 0.0495,
-      "positiveReviews": 9,
-      "mixedReviews": 0,
+      "score": 94,
+      "grade": "A",
+      "averageSentiment": 7.7,
+      "reviewCount": 18,
+      "reviewShare": 0.0891,
+      "positiveReviews": 17,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.9,
-      "negativeShare": 0.1,
+      "positiveShare": 0.9444,
+      "negativeShare": 0.0556,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "headgear",
           "label": "Headgear",
-          "reviewCount": 10
+          "reviewCount": 18
         }
       ],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedContexts": [
+        {
+          "id": "first_week",
+          "label": "First Week",
+          "reviewCount": 1
+        },
+        {
+          "id": "hot_sleeper",
+          "label": "Hot Sleeper",
+          "reviewCount": 1
+        },
+        {
+          "id": "night_sweats",
+          "label": "Night Sweats",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 6
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "The headgear is very comfortable",
+          "text": "Headgear: I really appreciate the headgear.",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
@@ -6576,107 +7450,237 @@
       ]
     },
     {
-      "id": "||side_sleeping|sleep_position_compatibility",
-      "label": "Side Sleeping · Sleep Position Compatibility",
-      "score": 83,
+      "id": "site|head|comfort",
+      "label": "Head · Comfort",
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.3,
-      "reviewCount": 10,
-      "reviewShare": 0.0495,
-      "positiveReviews": 9,
-      "mixedReviews": 1,
+      "reviewCount": 6,
+      "reviewShare": 0.0297,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.9,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [
+      "associatedParts": [
         {
-          "id": "side_sleeping",
-          "label": "Side Sleeping",
-          "reviewCount": 10
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 6
+        },
+        {
+          "id": "back_strap",
+          "label": "Back Strap",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_body",
+          "label": "Mask Body",
+          "reviewCount": 1
+        },
+        {
+          "id": "top_strap",
+          "label": "Top Strap",
+          "reviewCount": 1
         }
       ],
-      "associatedBodySites": [],
+      "associatedContexts": [
+        {
+          "id": "hot_sleeper",
+          "label": "Hot Sleeper",
+          "reviewCount": 1
+        },
+        {
+          "id": "night_sweats",
+          "label": "Night Sweats",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 6
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "I sleep on my side only with no issues with this mask",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "keeping my head cool at night",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
         }
       ],
       "negativeEvidence": []
     },
     {
-      "id": "|||ease_of_use",
-      "label": "Ease Of Use",
-      "score": 78,
-      "averageSentiment": 7.8,
-      "reviewCount": 8,
-      "reviewShare": 0.0396,
-      "positiveReviews": 7,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.875,
-      "negativeShare": 0.125,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "the design here is simple",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "A LITTLE DIFFICULT",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
-        }
-      ]
-    },
-    {
-      "id": "|||durability",
-      "label": "Durability",
-      "score": 73,
-      "averageSentiment": 7.3,
+      "id": "part|cushion|fit",
+      "label": "Cushion · Fit",
+      "score": 79,
+      "grade": "B",
+      "averageSentiment": 6.4,
       "reviewCount": 7,
       "reviewShare": 0.0347,
-      "positiveReviews": 6,
-      "mixedReviews": 0,
+      "positiveReviews": 5,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.8571,
+      "positiveShare": 0.7143,
       "negativeShare": 0.1429,
       "evidenceStrength": "limited",
-      "associatedParts": [],
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 7
+        }
+      ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "nose_bridge",
+          "label": "Nose Bridge",
+          "reviewCount": 3
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        },
+        {
+          "id": "forehead",
+          "label": "Forehead",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "I have been using it as my nightly mask for about three years now.",
+          "text": "the medium sits a little lower on my nose - meaning NOT at the bridge - but low and behold, NO LEAKS!",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "then began vibrating",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+          "text": "Still Viteri mask & cushion not for me",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
         }
       ]
     },
     {
-      "id": "fit_pack|||size_availability",
+      "id": "part|headgear|fit",
+      "label": "Headgear · Fit",
+      "score": 71,
+      "grade": "B-",
+      "averageSentiment": 5.9,
+      "reviewCount": 7,
+      "reviewShare": 0.0347,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.7143,
+      "negativeShare": 0.2857,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "beard",
+          "label": "Beard",
+          "reviewCount": 1
+        },
+        {
+          "id": "large_head",
+          "label": "Large Head",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "eyes",
+          "label": "Eyes",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "GOOD HEAD GEAR AND WORKS WELL WITH A FULL BEARD",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Still Viteri mask & cushion not for me",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+        }
+      ]
+    },
+    {
+      "id": "part|cushion|comfort",
+      "label": "Cushion · Comfort",
+      "score": 84,
+      "grade": "B+",
+      "averageSentiment": 7.2,
+      "reviewCount": 6,
+      "reviewShare": 0.0297,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8333,
+      "negativeShare": 0.1667,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [],
+      "positiveEvidence": [
+        {
+          "text": "Super comfortable as well!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The cushion is abrasive",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "part|fit_pack|size_availability",
       "label": "Fit Pack · Size Availability",
-      "score": 74,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.4,
       "reviewCount": 5,
       "reviewShare": 0.0248,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -6692,96 +7696,9 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "You have the 3 sizes for the cushion and headgear",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "||long_term_cpap_user|overall_satisfaction",
-      "label": "Long Term CPAP User · Overall Satisfaction",
-      "score": 94,
-      "averageSentiment": 9.4,
-      "reviewCount": 5,
-      "reviewShare": 0.0248,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [
-        {
-          "id": "long_term_cpap_user",
-          "label": "Long Term CPAP User",
-          "reviewCount": 5
-        }
-      ],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Excellent Mask",
+          "text": "This mask came with all sizes to make sure the right one fit",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "||side_sleeping|seal_leak",
-      "label": "Side Sleeping · Seal Leak",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 5,
-      "reviewShare": 0.0248,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [
-        {
-          "id": "side_sleeping",
-          "label": "Side Sleeping",
-          "reviewCount": 5
-        }
-      ],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I sleep on my side and don't break the seal",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-fit-pack"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||weight",
-      "label": "Weight",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 5,
-      "reviewShare": 0.0248,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "light",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/vitera-full-face-cpap-mask-system"
         }
       ],
       "negativeEvidence": []
@@ -6849,41 +7766,46 @@
   "evidence": {
     "positive": [
       {
-        "text": "For me this mask is perfect for a silicone mask",
+        "text": "I tried many different masks and this one hands down is the best",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
       },
       {
-        "text": "Love it",
+        "text": "The new Vitera is the best full face mask I have tried yet",
         "retailer": "Lofta",
         "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
       },
       {
-        "text": "So good I've already ordered another one",
+        "text": "By far this is the best mask I have ever used",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
       },
       {
-        "text": "There is no leakage when wearing this mask",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        "text": "sleeping like a baby just off the tit... Love it!",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
       },
       {
-        "text": "NO LEAKS",
+        "text": "This is the best mask I found so far",
         "retailer": "Lofta",
         "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
       },
       {
-        "text": "I absolutely love this mask.",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+        "text": "I got the Vitera, and immediately fell in love",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/fisher-paykel-vitera-full-face-mask-fit-pack"
       }
     ],
     "negative": [
       {
-        "text": "This mask squeezes the top of my nose shut",
+        "text": "I also had a ring around my entire nose that was so bad it was actually distressing to see, and took hours to go away",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
+      },
+      {
+        "text": "I could not wear my glasses to read in bed or look at the #s on my machine",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
       },
       {
         "text": "One downside is the plastic piece that connects the headgear to the mask on the forehead",
@@ -6891,31 +7813,26 @@
         "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
       },
       {
-        "text": "I really hate it",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
+        "text": "I tried it for 3 nights straight and I could not get any sleep",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask?variant=49671904657724"
       },
       {
-        "text": "The seal ripped during the first night of use",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-      },
-      {
-        "text": "the vitera has a bad design",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/fisher-paykel-vitera-full-face-cpap-mask"
-      },
-      {
-        "text": "Uncomfortable",
+        "text": "could not provide enough seal on the bridge of the nose",
         "retailer": "Lofta",
         "productUrl": "https://lofta.com/collections/cpap-masks/products/vitera-full-mask"
+      },
+      {
+        "text": "My sleep is just as bad as before I got this",
+        "retailer": "CPAPsupplies.com",
+        "productUrl": "https://cpapsupplies.com/vitera-full-face-cpap-mask-by-fisher-paykel"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

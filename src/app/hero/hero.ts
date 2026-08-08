@@ -1,9 +1,24 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA, AfterViewInit, OnDestroy, ViewChild, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { initializeApp } from 'firebase/app';
+import { getApp, getApps, initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, Timestamp } from 'firebase/firestore';
 import { environment } from '../../environments/environment';
+import { randomCustomMaskImage } from '../custom-mask-image';
+
+export function createWaitlistRecord(
+  emailOrPhone: string,
+  timestamp: Timestamp,
+  userAgent: string
+) {
+  return {
+    emailOrPhone: emailOrPhone.trim(),
+    emailStatus: 'pending',
+    emailAttemptCount: 0,
+    timestamp,
+    userAgent
+  };
+}
 
 @Component({
   selector: 'app-hero',
@@ -14,13 +29,14 @@ import { environment } from '../../environments/environment';
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class Hero implements AfterViewInit, OnDestroy {
+  readonly customMaskImage = randomCustomMaskImage();
   emailOrPhone: string = '';
   showHeaderInput: boolean = false;
   private db;
 
   constructor(private router: Router) {
     // Initialize Firebase using environment config
-    const app = initializeApp(environment.firebase);
+    const app = getApps().length ? getApp() : initializeApp(environment.firebase);
     this.db = getFirestore(app);
   }
 
@@ -145,19 +161,18 @@ export class Hero implements AfterViewInit, OnDestroy {
   }
 
   async joinWaitlist() {
-    // Validate email/phone input
-    if (!this.emailOrPhone || this.emailOrPhone.trim() === '') {
-      alert('Please enter your email or phone number');
+    const email = this.emailOrPhone.trim();
+    if (!this.isValidEmail(email)) {
+      alert('Please enter a valid email address');
       return;
     }
 
     try {
       // Save to Firebase Firestore
-      const docRef = await addDoc(collection(this.db, 'waitlist'), {
-        emailOrPhone: this.emailOrPhone.trim(),
-        timestamp: Timestamp.now(),
-        userAgent: navigator.userAgent
-      });
+      const docRef = await addDoc(
+        collection(this.db, 'waitlist'),
+        createWaitlistRecord(email, Timestamp.now(), navigator.userAgent)
+      );
 
       console.log('Document written with ID: ', docRef.id);
       
@@ -177,5 +192,9 @@ export class Hero implements AfterViewInit, OnDestroy {
     if (el) {
       el.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+  }
+
+  private isValidEmail(value: string): boolean {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
   }
 }

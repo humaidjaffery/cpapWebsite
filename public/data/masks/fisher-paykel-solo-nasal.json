@@ -1,8 +1,34 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "fisher-paykel-solo-nasal",
   "name": "Fisher & Paykel Solo Nasal",
   "catalogOrder": 44,
+  "search": {
+    "aliases": [
+      "F&P Solo Nasal",
+      "F&P Solo Nasal CPAP Mask with Headgear",
+      "Fisher & Paykel Solo Nasal Mask",
+      "Fisher & Paykel Solo™ Nasal CPAP Mask",
+      "Fisher & Paykel Solo™ Nasal CPAP Mask with AutoLock™ Headgear",
+      "Fisher & Paykel | Solo Nasal CPAP Mask",
+      "Fisher Paykel Solo Nasal",
+      "Fisher and Paykel Solo Nasal",
+      "Solo Nasal",
+      "Solo Nasal CPAP Mask",
+      "Solo Nasal CPAP Mask FitPack",
+      "Solo Nasal CPAP Mask System",
+      "Solo Nasal CPAP Mask | Fisher & Paykel",
+      "Solo Nasal Mask with Headgear"
+    ],
+    "abbreviations": [
+      "F&P",
+      "FP",
+      "Fisher Paykel"
+    ],
+    "maskTypes": [
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 169,
@@ -13,32 +39,35 @@
     "reviewDateEnd": "2026-05-31"
   },
   "overall": {
-    "compositeScore": 74,
+    "score": 68,
+    "grade": "C+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 3.73,
-      "score": 75,
+      "score": 68,
       "reviewCount": 169,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 7.3,
       "score": 73,
       "reviewCount": 81,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 68,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 90,
       "reviewShare": 0.5325,
-      "positiveReviews": 60,
-      "mixedReviews": 9,
+      "positiveReviews": 64,
+      "neutralReviews": 5,
       "negativeReviews": 21,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.7111,
       "negativeShare": 0.2333,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -124,14 +153,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "This is the most comfortable mask I've ever used - in twenty years!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
           "text": "The headgear itself is the best I've ever used",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "This is the most comfortable mask I've ever used - in twenty years!",
+          "text": "this is by far the most comfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
+        },
+        {
+          "text": "I love how it feels",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        },
+        {
+          "text": "One of the most comfortable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "the lightest",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "extremely comfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "Very comfortable , can read and watch TV with it on",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "the mask is so lightweight that I barely notice it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "a much softer material that doesn't irritate the skin",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
         }
       ],
       "negativeEvidence": [
@@ -144,20 +213,61 @@
           "text": "the nasal cushions are useless",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "caused nose pain every morning",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        },
+        {
+          "text": "my nose felt bruised",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "the headgear that goes with it is twisted along the sides of your face and becomes uncomfortable",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+        },
+        {
+          "text": "The stiff sides caused nose pain when the mask would slip a little out of place",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "I kept waking up with the mask too tight and hurting my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "I, and I know many others, do not mesh well with nasal cradles",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "the plastic piece holding the pillow digs into my cheek bone",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "the hard plastic wings of the mask dig into my cheek",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 61,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.1,
       "reviewCount": 93,
       "reviewShare": 0.5503,
-      "positiveReviews": 49,
-      "mixedReviews": 14,
+      "positiveReviews": 54,
+      "neutralReviews": 9,
       "negativeReviews": 30,
-      "positiveShare": 0.5269,
+      "positiveShare": 0.5806,
       "negativeShare": 0.3226,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -243,19 +353,59 @@
       ],
       "positiveEvidence": [
         {
+          "text": "The ease of adjustment of my mask is a 5* rating!!!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
+        },
+        {
+          "text": "Absolutely love how easy it is to adjust!",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
           "text": "the auto adjust fit is a miracle",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
         },
         {
+          "text": "It is so easy to adjust!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "it fits perfectly",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "This fit perfectly!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
           "text": "Great fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "Best Fitting",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "Perfect fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "It's great to just be able to pull on the mask to adjust it or take it off, without clips or magnets",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Impossible to fit",
+          "text": "the mask itself is no reflection of what a nose looks like",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
@@ -263,18 +413,59 @@
           "text": "No matter which size cushion I use, the fit is terrible",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "Not for someone with a small head",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "Impossible to fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "so if you don't order the right size it won't seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "no way to find to tighten up for a better fit",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+        },
+        {
+          "text": "It would have been nice if it stayed where adjusted initially",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        },
+        {
+          "text": "the hard plastic wings of the mask dig into my cheek",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "there was not an option for pillows, only a cradle",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
+        },
+        {
+          "text": "Over time it just tightens and pinches the nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 57,
+      "score": 53,
+      "grade": "D+",
       "averageSentiment": 5.7,
       "reviewCount": 57,
       "reviewShare": 0.3373,
       "positiveReviews": 28,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 28,
       "positiveShare": 0.4912,
       "negativeShare": 0.4912,
@@ -352,40 +543,121 @@
       ],
       "positiveEvidence": [
         {
-          "text": "No leaks",
+          "text": "Leak rate graph on OSCAR is a flat line at 0 with no spike",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "Zero leaks the first night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "As a dedicated side-sleeper",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
         },
         {
           "text": "No more leaks",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "provides excellent seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "no mask leaks",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "No leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "No leakage",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "I haven't been able to enjoy a nasal cushion mask because I'm a side sleeper and I move a lot so normally experience a lot…",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "I have a full beard & mustache, and this F&P unit worked just fine with all the hair",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "even at a low pressure there is constant leaking",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+        },
+        {
+          "text": "It leaked air around my nose all the time",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "I can't get a seal at all",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "Does not seal for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
         {
           "text": "Did not seal",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "even at a low pressure there is constant leaking",
-          "retailer": "EasyBreathe",
-          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+          "text": "I feel like a lot of air escapes and leaks before it reaches your nose",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "I could not get a good seal with this mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "none of the nasal pillows keep a good seal",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "The nose pillows would not seal well for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "Constantly leaks when on my side",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 48,
+      "label": "Stability",
+      "score": 43,
+      "grade": "D-",
       "averageSentiment": 4.8,
       "reviewCount": 49,
       "reviewShare": 0.2899,
-      "positiveReviews": 14,
-      "mixedReviews": 10,
+      "positiveReviews": 17,
+      "neutralReviews": 7,
       "negativeReviews": 25,
-      "positiveShare": 0.2857,
+      "positiveShare": 0.3469,
       "negativeShare": 0.5102,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -471,14 +743,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "can sleep on my side without dislodging it or having it keep my head propped at odd angle",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
           "text": "Headgear stayed in place all night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "can sleep on my side without dislodging it or having it keep my head propped at odd angle",
+          "text": "As a dedicated side-sleeper",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
+        },
+        {
+          "text": "I haven't been able to enjoy a nasal cushion mask because I'm a side sleeper and I move a lot so normally experience a lot…",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
+        },
+        {
+          "text": "I am a back and side sleeper and it works for both",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "it really impresses when I change sleep positions",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
+        },
+        {
+          "text": "Stays in place all night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "I sleep on my side and have no issue with doing so comfortably",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
+        },
+        {
+          "text": "able to feel more secure in your nose compared to this mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
+        },
+        {
+          "text": "If you are a back sleeper you will love this mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -491,20 +803,61 @@
           "text": "It loosens up if you yawn, roll over or even blink",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "the adjustable headpiece actually tightened during sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        },
+        {
+          "text": "Laying on your side was impossible",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "Won't stay on my head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "Works loose constantly",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "This head gear is no strong enough to keep it in place while turning from back to side position",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "if you are an active/side sleeper, this product isn't for you",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "the straps over my head moved around too much",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
+        },
+        {
+          "text": "the same problems everyone else has with headgear",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 65,
+      "label": "Ease of Use",
+      "score": 72,
+      "grade": "B-",
       "averageSentiment": 6.5,
       "reviewCount": 77,
       "reviewShare": 0.4556,
-      "positiveReviews": 46,
-      "mixedReviews": 11,
+      "positiveReviews": 52,
+      "neutralReviews": 5,
       "negativeReviews": 20,
-      "positiveShare": 0.5974,
+      "positiveShare": 0.6753,
       "negativeShare": 0.2597,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -595,35 +948,116 @@
           "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
         },
         {
+          "text": "I don't feel as if I have anything on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
           "text": "Absolutely love how easy it is to adjust!",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "very clever system; requires no adjustment",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "It is so easy to adjust!",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "It's great to just be able to pull on the mask to adjust it or take it off, without clips or magnets",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "Simply pull the headgear over your head and place the cushion under your nose and the mask does the rest",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
+        },
+        {
+          "text": "the micro adjustments that you can make by lightly pushing or pulling the mask is a game changer",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "I also love the way to tighten up…A touch to the front & it is done",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "it is easy to put on and adjust, you can do it with one hand",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "The headgear has no fixed way of adjustment",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+        },
         {
           "text": "HATE the setup",
           "retailer": "EasyBreathe",
           "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         },
         {
-          "text": "The headgear has no fixed way of adjustment",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+          "text": "Two, each side tends to rub, or interfere with the side of each eye, highly annoying",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "no way to find to tighten up for a better fit",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+        },
+        {
+          "text": "It would have been nice if it stayed where adjusted initially",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        },
+        {
+          "text": "I tried adjusting the tensioning mechanism per instructions",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "And no way to tighten it up.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "that part is not adjustable",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "Couldn’t find a comfortable adjustment.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "doesn't tighten down far enough",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 50,
+      "score": 48,
+      "grade": "D",
       "averageSentiment": 5.0,
       "reviewCount": 19,
       "reviewShare": 0.1124,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 10,
-      "positiveShare": 0.4211,
+      "positiveShare": 0.4737,
       "negativeShare": 0.5263,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -687,9 +1121,54 @@
           "text": "quiet",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "I've purchased many others to keep the leakage noise down",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        },
+        {
+          "text": "is significantly quieter in operation than my other masks",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
+        },
+        {
+          "text": "vents up and out (preferred to down)",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "keep the leakage noise down",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
+        },
+        {
+          "text": "It's also very quiet",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "I found it no louder than other masks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "it is also much noisier than a normal mask since there's no diffuser",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "the exhaust shoots air to the blanket and bounces to my eyes",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "The only drawback so far is that it seems rather noisy",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+        },
         {
           "text": "causing one of my nasal passages to be blocked",
           "retailer": "Lofta",
@@ -699,20 +1178,46 @@
           "text": "I do not get enough air",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "the exhaust was very noisy",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "the noise level",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+        },
+        {
+          "text": "It is noisy",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "this mask is noisier than others I have tried",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "it was kind of loud",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ]
     },
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 46,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.6,
       "reviewCount": 38,
       "reviewShare": 0.2249,
-      "positiveReviews": 13,
-      "mixedReviews": 1,
+      "positiveReviews": 14,
+      "neutralReviews": 0,
       "negativeReviews": 24,
-      "positiveShare": 0.3421,
+      "positiveShare": 0.3684,
       "negativeShare": 0.6316,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -803,35 +1308,116 @@
           "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
         },
         {
+          "text": "No irritation whatsoever upon waking",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
           "text": "no more mask marks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "woken up with lines on my face every morning",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "I no longer have marks on my face",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "I don't get lines on my face",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
+        },
+        {
+          "text": "No strap lines in the morning!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "It does not hurt my nostrils",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        },
+        {
+          "text": "doesn't leave marks on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "No soreness around nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "caused nose pain every morning",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        },
+        {
           "text": "my nose felt bruised",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
         },
         {
-          "text": "caused nose pain every morning",
+          "text": "the mask that had the nose pillows which would sometimes cause irritation around the base of my nostrils",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "The stiff sides caused nose pain when the mask would slip a little out of place",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "Two, each side tends to rub, or interfere with the side of each eye, highly annoying",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "I kept waking up with the mask too tight and hurting my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "the plastic piece holding the pillow digs into my cheek bone",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "the hard plastic wings of the mask dig into my cheek",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "would sometimes cause irritation around the base of my nostrils",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        },
+        {
+          "text": "The nose piece dig into the side of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 42,
+      "score": 30,
+      "grade": "F+",
       "averageSentiment": 4.2,
       "reviewCount": 15,
       "reviewShare": 0.0888,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 10,
-      "positiveShare": 0.2,
+      "positiveShare": 0.2667,
       "negativeShare": 0.6667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -899,9 +1485,19 @@
           "text": "Well made",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
+          "text": "time will tell how durable the harness will be",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "within 9 days of using it a hole appeared in the top of the mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
         {
           "text": "My delivery did not include that cushion",
           "retailer": "EasyBreathe",
@@ -911,18 +1507,54 @@
           "text": "bruised the bridge of my nose/nostrils",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "gave out because it wasn't sturdy",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+        },
+        {
+          "text": "Hard plastic around the nosepiece",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "Head strap breaks easily",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "The connection between the thin plastic hose and the mask assembly seems weak and flimsy",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "how long the autofit components will retain their strength and work properly",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
+        },
+        {
+          "text": "I figured the connector on the N30 has slightly stretched my tube",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        },
+        {
+          "text": "made a smooth fabric",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ]
     },
     {
       "id": "value",
       "label": "Value",
-      "score": 28,
+      "score": 19,
+      "grade": "F-",
       "averageSentiment": 2.8,
       "reviewCount": 5,
       "reviewShare": 0.0296,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -963,20 +1595,31 @@
           "text": "$100+ wasted",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        },
+        {
+          "text": "I do not have the extra $123 that this cost me in the first place to just order a new one",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "I can't find the \"Nasal Pillow\" replacements on CPAP.com",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 59,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 5.9,
       "reviewCount": 28,
       "reviewShare": 0.1657,
-      "positiveReviews": 15,
-      "mixedReviews": 4,
+      "positiveReviews": 18,
+      "neutralReviews": 1,
       "negativeReviews": 9,
-      "positiveShare": 0.5357,
+      "positiveShare": 0.6429,
       "negativeShare": 0.3214,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1027,7 +1670,47 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
+          "text": "I could only tolerate wearing my mask for less than 2 hours per night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "My CPAP machine daily report results are the best I've ever had",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
           "text": "I sleep very very well with it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "my sleep is definitely much more restful",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "I’ve been sleeping with a CPAP mask for nearly 20 years",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "I definitely seemed to sleep better and felt more rested",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "This little mask has worked well for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "the first night of wearing it was awesome",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "It is working well --",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
@@ -1037,6 +1720,46 @@
           "text": "Cannot use",
           "retailer": "EasyBreathe",
           "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+        },
+        {
+          "text": "I wore it for two nights in a row before switching back to my old nasal pillow, so I have no use for it now",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "I found myself waking up to check if the headgear was still on my head, and that was very disturbing",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "I am stuck with a defective mask that I cannot use",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "Prevents me to go into deep sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "After the second night, I gave up",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "not comfortable to wear or sleep with",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+        },
+        {
+          "text": "i had to stop using it",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+        },
+        {
+          "text": "the masks were keeping me awake",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
           "text": "gave up trying to use",
@@ -1050,14 +1773,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 73,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 7.3,
       "reviewCount": 81,
       "reviewShare": 0.4793,
-      "positiveReviews": 59,
-      "mixedReviews": 2,
+      "positiveReviews": 60,
+      "neutralReviews": 1,
       "negativeReviews": 20,
-      "positiveShare": 0.7284,
+      "positiveShare": 0.7407,
       "negativeShare": 0.2469,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1087,12 +1811,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "My scores now perfect with this mask",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "I am blown away by the Solo CPAP mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
         },
         {
-          "text": "This is the most comfortable.",
+          "text": "My scores now perfect with this mask",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
@@ -1104,23 +1828,24 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "Not what I asked for!",
-          "retailer": "EasyBreathe",
-          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+          "text": "I am very dissatisfied with this product",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ]
     },
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 76,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.6,
       "reviewCount": 70,
       "reviewShare": 0.4142,
-      "positiveReviews": 56,
-      "mixedReviews": 3,
+      "positiveReviews": 57,
+      "neutralReviews": 2,
       "negativeReviews": 11,
-      "positiveShare": 0.8,
+      "positiveShare": 0.8143,
       "negativeShare": 0.1571,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1206,12 +1931,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The headgear itself is the best I've ever used",
+          "text": "This is the most comfortable mask I've ever used - in twenty years!",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "This is the most comfortable mask I've ever used - in twenty years!",
+          "text": "The headgear itself is the best I've ever used",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
@@ -1223,23 +1948,24 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "the cushion was very uncomfortable for my nose",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+          "text": "the headgear that goes with it is twisted along the sides of your face and becomes uncomfortable",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         }
       ]
     },
     {
       "id": "fit",
       "label": "Fit",
-      "score": 64,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.4,
       "reviewCount": 60,
       "reviewShare": 0.355,
-      "positiveReviews": 36,
-      "mixedReviews": 5,
+      "positiveReviews": 39,
+      "neutralReviews": 2,
       "negativeReviews": 19,
-      "positiveShare": 0.6,
+      "positiveShare": 0.65,
       "negativeShare": 0.3167,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1330,14 +2056,14 @@
           "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
         },
         {
-          "text": "Great fit",
+          "text": "it fits perfectly",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Impossible to fit",
+          "text": "the mask itself is no reflection of what a nose looks like",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
@@ -1351,12 +2077,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 57,
+      "score": 54,
+      "grade": "D+",
       "averageSentiment": 5.7,
       "reviewCount": 55,
       "reviewShare": 0.3254,
       "positiveReviews": 28,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 27,
       "positiveShare": 0.5091,
       "negativeShare": 0.4909,
@@ -1429,40 +2156,41 @@
       ],
       "positiveEvidence": [
         {
-          "text": "No leaks",
+          "text": "Zero leaks the first night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "No more leaks",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+          "text": "As a dedicated side-sleeper",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Did not seal",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
-        },
-        {
           "text": "even at a low pressure there is constant leaking",
           "retailer": "EasyBreathe",
           "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+        },
+        {
+          "text": "It leaked air around my nose all the time",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ]
     },
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 62,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 6.2,
       "reviewCount": 51,
       "reviewShare": 0.3018,
-      "positiveReviews": 29,
-      "mixedReviews": 6,
+      "positiveReviews": 31,
+      "neutralReviews": 4,
       "negativeReviews": 16,
-      "positiveShare": 0.5686,
+      "positiveShare": 0.6078,
       "negativeShare": 0.3137,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1550,23 +2278,24 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
         },
         {
-          "text": "And no way to tighten it up.",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "no way to find to tighten up for a better fit",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         }
       ]
     },
     {
       "id": "stability",
       "label": "Stability",
-      "score": 46,
+      "score": 41,
+      "grade": "D-",
       "averageSentiment": 4.6,
       "reviewCount": 33,
       "reviewShare": 0.1953,
-      "positiveReviews": 11,
-      "mixedReviews": 3,
+      "positiveReviews": 13,
+      "neutralReviews": 1,
       "negativeReviews": 19,
-      "positiveShare": 0.3333,
+      "positiveShare": 0.3939,
       "negativeShare": 0.5758,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1652,9 +2381,9 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "when I move it stays in place comfortably",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+          "text": "I haven't been able to enjoy a nasal cushion mask because I'm a side sleeper and I move a lot so normally experience a lot…",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
         }
       ],
       "negativeEvidence": [
@@ -1673,12 +2402,13 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 77,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 7.7,
       "reviewCount": 23,
       "reviewShare": 0.1361,
       "positiveReviews": 20,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.8696,
       "negativeShare": 0.1304,
@@ -1746,9 +2476,9 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "super easy to get on/off",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+          "text": "Simply pull the headgear over your head and place the cushion under your nose and the mask does the rest",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
         }
       ],
       "negativeEvidence": [
@@ -1767,14 +2497,15 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 64,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 6.4,
       "reviewCount": 20,
       "reviewShare": 0.1183,
-      "positiveReviews": 13,
-      "mixedReviews": 3,
+      "positiveReviews": 16,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.65,
+      "positiveShare": 0.8,
       "negativeShare": 0.2,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1814,9 +2545,9 @@
           "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
         },
         {
-          "text": "es mi primera tipo nasal",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+          "text": "I switched from an AirFit N20",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ],
       "negativeEvidence": [
@@ -1835,12 +2566,13 @@
     {
       "id": "weight",
       "label": "Weight",
-      "score": 82,
+      "score": 95,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 19,
       "reviewShare": 0.1124,
       "positiveReviews": 18,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9474,
       "negativeShare": 0.0526,
@@ -1887,9 +2619,9 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "It is light",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
+          "text": "the mask is so lightweight that I barely notice it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1904,13 +2636,14 @@
       "id": "noise",
       "label": "Noise",
       "score": 54,
+      "grade": "D+",
       "averageSentiment": 5.4,
       "reviewCount": 15,
       "reviewShare": 0.0888,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 7,
-      "positiveShare": 0.4667,
+      "positiveShare": 0.5333,
       "negativeShare": 0.4667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1956,21 +2689,22 @@
           "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
         },
         {
-          "text": "the noise level",
-          "retailer": "EasyBreathe",
-          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+          "text": "The only drawback so far is that it seems rather noisy",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 44,
+      "score": 30,
+      "grade": "F+",
       "averageSentiment": 4.4,
       "reviewCount": 14,
       "reviewShare": 0.0828,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 10,
       "positiveShare": 0.2857,
       "negativeShare": 0.7143,
@@ -2018,14 +2752,14 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I thought I would have have been a small cushion based on previous nasal masks ordered but the medium is the best fit for me",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
+        },
+        {
           "text": "I tried all the nasal masks (S, M, L) that came with the kit and easily found a size that fit very well",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
-        },
-        {
-          "text": "the small cushion workd best for me",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
         }
       ],
       "negativeEvidence": [
@@ -2044,14 +2778,15 @@
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 66,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 13,
       "reviewShare": 0.0769,
-      "positiveReviews": 7,
-      "mixedReviews": 3,
+      "positiveReviews": 8,
+      "neutralReviews": 2,
       "negativeReviews": 3,
-      "positiveShare": 0.5385,
+      "positiveShare": 0.6154,
       "negativeShare": 0.2308,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2123,12 +2858,13 @@
     {
       "id": "pain",
       "label": "Pain",
-      "score": 30,
+      "score": 17,
+      "grade": "F-",
       "averageSentiment": 3.0,
       "reviewCount": 12,
       "reviewShare": 0.071,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 10,
       "positiveShare": 0.1667,
       "negativeShare": 0.8333,
@@ -2218,28 +2954,29 @@
       ],
       "negativeEvidence": [
         {
-          "text": "my nose felt bruised",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
-        },
-        {
           "text": "caused nose pain every morning",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        },
+        {
+          "text": "my nose felt bruised",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 66,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.6,
       "reviewCount": 12,
       "reviewShare": 0.071,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 3,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.75,
       "negativeShare": 0.25,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -2279,14 +3016,15 @@
     {
       "id": "appearance",
       "label": "Appearance",
-      "score": 69,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 6.9,
       "reviewCount": 10,
       "reviewShare": 0.0592,
-      "positiveReviews": 7,
-      "mixedReviews": 2,
+      "positiveReviews": 8,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.7,
+      "positiveShare": 0.8,
       "negativeShare": 0.1,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2321,9 +3059,9 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "very innovative",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "It really is something my therapist says she hasn't seen in CPAP straps before",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
         }
       ],
       "negativeEvidence": [
@@ -2337,12 +3075,13 @@
     {
       "id": "access_to_face",
       "label": "Access To Face",
-      "score": 74,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 9,
       "reviewShare": 0.0533,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.7778,
       "negativeShare": 0.2222,
@@ -2421,14 +3160,15 @@
     {
       "id": "therapy_compliance",
       "label": "Therapy Compliance",
-      "score": 37,
+      "score": 32,
+      "grade": "F+",
       "averageSentiment": 3.7,
       "reviewCount": 9,
       "reviewShare": 0.0533,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 6,
-      "positiveShare": 0.2222,
+      "positiveShare": 0.3333,
       "negativeShare": 0.6667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2459,21 +3199,22 @@
           "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         },
         {
-          "text": "gave up trying to use",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "I wore it for two nights in a row before switching back to my old nasal pillow, so I have no use for it now",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
         }
       ]
     },
     {
       "id": "face_marks",
       "label": "Face Marks",
-      "score": 72,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 7.2,
       "reviewCount": 8,
       "reviewShare": 0.0473,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -2517,28 +3258,29 @@
       ],
       "negativeEvidence": [
         {
-          "text": "causing a deep mark",
-          "retailer": "EasyBreathe",
-          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
-        },
-        {
           "text": "less hardware marring my face",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
+        },
+        {
+          "text": "causing a deep mark",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         }
       ]
     },
     {
       "id": "irritation",
       "label": "Irritation",
-      "score": 45,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.5,
       "reviewCount": 8,
       "reviewShare": 0.0473,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 5,
-      "positiveShare": 0.25,
+      "positiveShare": 0.375,
       "negativeShare": 0.625,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2590,28 +3332,29 @@
       ],
       "negativeEvidence": [
         {
-          "text": "would sometimes cause irritation around the base of my nostrils",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
-        },
-        {
           "text": "the mask that had the nose pillows which would sometimes cause irritation around the base of my nostrils",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "Two, each side tends to rub, or interfere with the side of each eye, highly annoying",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ]
     },
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 76,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.6,
       "reviewCount": 8,
       "reviewShare": 0.0473,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.875,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -2635,7 +3378,7 @@
           "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
         },
         {
-          "text": "It is working well --",
+          "text": "This little mask has worked well for me",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
@@ -2645,12 +3388,13 @@
     {
       "id": "pressure",
       "label": "Pressure",
-      "score": 34,
+      "score": 16,
+      "grade": "F-",
       "averageSentiment": 3.4,
       "reviewCount": 7,
       "reviewShare": 0.0414,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.1429,
       "negativeShare": 0.8571,
@@ -2714,26 +3458,27 @@
       ],
       "negativeEvidence": [
         {
-          "text": "there was too much pressure",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
-        },
-        {
           "text": "The mask was pressing heavily against my nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "It pinches the nares of my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
         }
       ]
     },
     {
       "id": "shifting",
       "label": "Shifting",
-      "score": 39,
+      "score": 16,
+      "grade": "F-",
       "averageSentiment": 3.9,
       "reviewCount": 7,
       "reviewShare": 0.0414,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.1429,
       "negativeShare": 0.8571,
@@ -2798,21 +3543,22 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
         },
         {
-          "text": "It kept disconnecting from my CPAP hose",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
+          "text": "the silicone nose piece shifted causing one of my nasal passages to be blocked",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
         }
       ]
     },
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 53,
+      "score": 51,
+      "grade": "D+",
       "averageSentiment": 5.3,
       "reviewCount": 6,
       "reviewShare": 0.0355,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -2890,12 +3636,13 @@
     {
       "id": "movement_compatibility",
       "label": "Movement Compatibility",
-      "score": 65,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.5,
       "reviewCount": 6,
       "reviewShare": 0.0355,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -2973,12 +3720,13 @@
     {
       "id": "soreness",
       "label": "Soreness",
-      "score": 33,
+      "score": 18,
+      "grade": "F-",
       "averageSentiment": 3.3,
       "reviewCount": 6,
       "reviewShare": 0.0355,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.1667,
       "negativeShare": 0.8333,
@@ -3018,28 +3766,29 @@
       ],
       "negativeEvidence": [
         {
-          "text": "It made my nose sore",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
-        },
-        {
           "text": "I kept waking up with the mask too tight and hurting my nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
+          "text": "Makes my face sore on the sides!",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 39,
+      "score": 19,
+      "grade": "F-",
       "averageSentiment": 3.9,
       "reviewCount": 5,
       "reviewShare": 0.0296,
-      "positiveReviews": 0,
-      "mixedReviews": 1,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.0,
+      "positiveShare": 0.2,
       "negativeShare": 0.8,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3077,7 +3826,13 @@
           "reviewCount": 1
         }
       ],
-      "positiveEvidence": [],
+      "positiveEvidence": [
+        {
+          "text": "time will tell how durable the harness will be",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        }
+      ],
       "negativeEvidence": [
         {
           "text": "gave out because it wasn't sturdy",
@@ -3097,13 +3852,14 @@
       "id": "headgear",
       "label": "Headgear",
       "score": 53,
+      "grade": "D+",
       "averageSentiment": 5.3,
       "reviewCount": 51,
       "reviewShare": 0.3018,
-      "positiveReviews": 20,
-      "mixedReviews": 10,
+      "positiveReviews": 23,
+      "neutralReviews": 7,
       "negativeReviews": 21,
-      "positiveShare": 0.3922,
+      "positiveShare": 0.451,
       "negativeShare": 0.4118,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3179,9 +3935,9 @@
           "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
         },
         {
-          "text": "the head strap automatically adjusts to fit your head with the appropriate tension",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+          "text": "Simply pull the headgear over your head and place the cushion under your nose and the mask does the rest",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
         }
       ],
       "negativeEvidence": [
@@ -3191,26 +3947,27 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "Won't stay on my head",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "The headgear has no fixed way of adjustment",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
         },
         {
-          "text": "my nose felt bruised",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+          "text": "the adjustable headpiece actually tightened during sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
         }
       ],
       "praisedAspects": [
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 71,
+          "score": 80,
+          "grade": "B+",
           "averageSentiment": 7.1,
           "reviewCount": 14,
           "reviewShare": 0.0828,
           "positiveReviews": 11,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 3,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3227,12 +3984,12 @@
           ],
           "negativeEvidence": [
             {
-              "text": "not comfortable to wear or sleep with",
+              "text": "the headgear that goes with it is twisted along the sides of your face and becomes uncomfortable",
               "retailer": "EasyBreathe",
               "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
             },
             {
-              "text": "the headgear that goes with it is twisted along the sides of your face and becomes uncomfortable",
+              "text": "not comfortable to wear or sleep with",
               "retailer": "EasyBreathe",
               "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
             }
@@ -3241,12 +3998,13 @@
         {
           "id": "weight",
           "label": "Weight",
-          "score": 82,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.2,
           "reviewCount": 6,
           "reviewShare": 0.0355,
           "positiveReviews": 6,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3256,27 +4014,66 @@
               "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
             },
             {
-              "text": "how lightweight it is",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+              "text": "very light tube from pillows so not pulling on your face",
+              "retailer": "EasyBreathe",
+              "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
             }
           ],
           "negativeEvidence": []
         }
       ],
-      "criticizedAspects": []
+      "criticizedAspects": [
+        {
+          "id": "stability",
+          "label": "Stability",
+          "score": 35,
+          "grade": "F+",
+          "averageSentiment": 4.1,
+          "reviewCount": 17,
+          "reviewShare": 0.1006,
+          "positiveReviews": 6,
+          "neutralReviews": 0,
+          "negativeReviews": 11,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
+              "text": "Headgear stayed in place all night",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+            },
+            {
+              "text": "provides the exact tightness needed to achieve a leak-free fit",
+              "retailer": "Lofta",
+              "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "The way you fit it to your head does not stay",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+            },
+            {
+              "text": "the adjustable headpiece actually tightened during sleep",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "nasal_pillows",
       "label": "Nasal Pillows",
       "score": 48,
+      "grade": "D",
       "averageSentiment": 4.8,
       "reviewCount": 23,
       "reviewShare": 0.1361,
-      "positiveReviews": 10,
-      "mixedReviews": 1,
+      "positiveReviews": 11,
+      "neutralReviews": 0,
       "negativeReviews": 12,
-      "positiveShare": 0.4348,
+      "positiveShare": 0.4783,
       "negativeShare": 0.5217,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3306,19 +4103,19 @@
       ],
       "positiveEvidence": [
         {
-          "text": "the interchangeable nasal cradle and pillows",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+          "text": "a much softer material that doesn't irritate the skin",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
         },
         {
           "text": "It doesn't go inside the nasal opening",
           "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
         },
         {
-          "text": "It does not hurt my nostrils",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+          "text": "The comfort level is the best part",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -3328,14 +4125,14 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
+          "text": "the mask that had the nose pillows which would sometimes cause irritation around the base of my nostrils",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
           "text": "there was not an option for pillows, only a cradle",
           "retailer": "Lofta",
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
-        },
-        {
-          "text": "there are no nasal pillows (just one opening)",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ],
       "praisedAspects": [],
@@ -3343,12 +4140,13 @@
         {
           "id": "seal_leak",
           "label": "Seal Leak",
-          "score": 27,
+          "score": 0,
+          "grade": "F-",
           "averageSentiment": 2.7,
           "reviewCount": 6,
           "reviewShare": 0.0355,
           "positiveReviews": 0,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 6,
           "evidenceStrength": "limited",
           "positiveEvidence": [],
@@ -3370,12 +4168,13 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 54,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.4,
       "reviewCount": 16,
       "reviewShare": 0.0947,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -3443,9 +4242,9 @@
           "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
         },
         {
-          "text": "The soft silicone cushion feels comfortable against my skin",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+          "text": "it is a much softer material that doesn't irritate the skin",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -3455,12 +4254,12 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
         },
         {
-          "text": "the cushion was very uncomfortable for my nose",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+          "text": "I feel like a lot of air escapes and leaks before it reaches your nose",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
         },
         {
-          "text": "Doesn't seal well",
+          "text": "so if you don't order the right size it won't seal",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
@@ -3471,14 +4270,15 @@
     {
       "id": "strap",
       "label": "Strap",
-      "score": 59,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 5.9,
       "reviewCount": 14,
       "reviewShare": 0.0828,
-      "positiveReviews": 7,
-      "mixedReviews": 2,
+      "positiveReviews": 8,
+      "neutralReviews": 1,
       "negativeReviews": 5,
-      "positiveShare": 0.5,
+      "positiveShare": 0.5714,
       "negativeShare": 0.3571,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3509,19 +4309,19 @@
       ],
       "positiveEvidence": [
         {
-          "text": "tightens smoothly to stay in place",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "the strap and the new technology to fit and adjust the mask is amazing",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "it \"sets\"",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "It's the easiest one I've dealt with so far after years of other masks",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
         },
         {
-          "text": "I love the self adjusting straps",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "Easy to use, no Velcro straps or magnetic clips to worry about",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
         }
       ],
       "negativeEvidence": [
@@ -3531,7 +4331,7 @@
           "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         },
         {
-          "text": "Gray strap is too large",
+          "text": "The straps ride too high on the cheek bones",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
@@ -3547,12 +4347,13 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 49,
+      "score": 44,
+      "grade": "D-",
       "averageSentiment": 4.9,
       "reviewCount": 13,
       "reviewShare": 0.0769,
       "positiveReviews": 4,
-      "mixedReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 6,
       "positiveShare": 0.3077,
       "negativeShare": 0.4615,
@@ -3605,9 +4406,9 @@
           "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
         },
         {
-          "text": "super easy to get on/off",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+          "text": "just tap it on the side to fix any leak I had",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
         },
         {
           "text": "the mask is so lightweight that I barely notice it",
@@ -3622,14 +4423,14 @@
           "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         },
         {
-          "text": "The mask was pressing heavily against my nose",
+          "text": "I do not have the extra $123 that this cost me in the first place to just order a new one",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "Mini mask did not work for me",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "Over time it just tightens and pinches the nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
         }
       ],
       "praisedAspects": [],
@@ -3638,12 +4439,13 @@
     {
       "id": "nasal_cushion",
       "label": "Nasal Cushion",
-      "score": 45,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 4.5,
       "reviewCount": 11,
       "reviewShare": 0.0651,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.3636,
       "negativeShare": 0.6364,
@@ -3701,14 +4503,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "muy practica y cómoda",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
-        },
-        {
           "text": "I haven't been able to enjoy a nasal cushion mask because I'm a side sleeper and I move a lot so normally experience a lot…",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
+        },
+        {
+          "text": "muy practica y cómoda",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
         },
         {
           "text": "secure the mask to underneath your nose",
@@ -3723,7 +4525,7 @@
           "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         },
         {
-          "text": "the nasal cushions are useless",
+          "text": "I can't get a seal at all",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
@@ -3739,12 +4541,13 @@
     {
       "id": "hose",
       "label": "Hose",
-      "score": 50,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 5.0,
       "reviewCount": 7,
       "reviewShare": 0.0414,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.2857,
       "negativeShare": 0.5714,
@@ -3799,14 +4602,14 @@
           "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "a swivel attachment to the air tubing will be very helpful",
+          "text": "the air supply hose being routed down across my chest and arm",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "the air supply hose being routed down across my chest and arm",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "I figured the connector on the N30 has slightly stretched my tube",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
         }
       ],
       "praisedAspects": [],
@@ -3815,12 +4618,13 @@
     {
       "id": "vent",
       "label": "Vent",
-      "score": 44,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.4,
       "reviewCount": 6,
       "reviewShare": 0.0355,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.3333,
       "negativeShare": 0.6667,
@@ -3860,17 +4664,17 @@
       ],
       "negativeEvidence": [
         {
+          "text": "the exhaust shoots air to the blanket and bounces to my eyes",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        },
+        {
           "text": "the noise level",
           "retailer": "EasyBreathe",
           "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         },
         {
           "text": "It is noisy",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
-        },
-        {
-          "text": "the exhaust shoots air to the blanket and bounces to my eyes",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
@@ -3881,12 +4685,13 @@
     {
       "id": "frame",
       "label": "Frame",
-      "score": 34,
+      "score": 21,
+      "grade": "F",
       "averageSentiment": 3.4,
       "reviewCount": 5,
       "reviewShare": 0.0296,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.2,
       "negativeShare": 0.8,
@@ -3954,12 +4759,13 @@
     {
       "id": "headgear|adjustment",
       "label": "Headgear · Adjustment",
-      "score": 56,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 5.6,
       "reviewCount": 20,
       "reviewShare": 0.1183,
-      "positiveReviews": 10,
-      "mixedReviews": 2,
+      "positiveReviews": 11,
+      "neutralReviews": 1,
       "negativeReviews": 8,
       "evidenceStrength": "moderate",
       "positiveEvidence": [
@@ -3984,12 +4790,13 @@
     {
       "id": "headgear|stability",
       "label": "Headgear · Stability",
-      "score": 41,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.1,
       "reviewCount": 17,
       "reviewShare": 0.1006,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 11,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4014,19 +4821,20 @@
     {
       "id": "headgear|fit",
       "label": "Headgear · Fit",
-      "score": 58,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 5.8,
       "reviewCount": 15,
       "reviewShare": 0.0888,
-      "positiveReviews": 7,
-      "mixedReviews": 2,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "the head strap automatically adjusts to fit your head with the appropriate tension",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+          "text": "the head strap automatically adjusts to fit your head with the appropriate tension to create a nice feel",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -4044,12 +4852,13 @@
     {
       "id": "headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 71,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.1,
       "reviewCount": 14,
       "reviewShare": 0.0828,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4061,7 +4870,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "not comfortable to wear or sleep with",
+          "text": "the headgear that goes with it is twisted along the sides of your face and becomes uncomfortable",
           "retailer": "EasyBreathe",
           "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         }
@@ -4074,12 +4883,13 @@
     {
       "id": "cushion|seal_leak",
       "label": "Cushion · Seal Leak",
-      "score": 56,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.6,
       "reviewCount": 12,
       "reviewShare": 0.071,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4091,9 +4901,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Doesn't seal well",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "I feel like a lot of air escapes and leaks before it reaches your nose",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
         }
       ],
       "partId": "cushion",
@@ -4104,19 +4914,20 @@
     {
       "id": "strap|adjustment",
       "label": "Strap · Adjustment",
-      "score": 58,
+      "score": 53,
+      "grade": "D+",
       "averageSentiment": 5.8,
       "reviewCount": 9,
       "reviewShare": 0.0533,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "tightens smoothly to stay in place",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "the strap and the new technology to fit and adjust the mask is amazing",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask-with-headgear"
         }
       ],
       "negativeEvidence": [
@@ -4134,12 +4945,13 @@
     {
       "id": "headgear|weight",
       "label": "Headgear · Weight",
-      "score": 82,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.2,
       "reviewCount": 6,
       "reviewShare": 0.0355,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4158,12 +4970,13 @@
     {
       "id": "nasal_pillows|seal_leak",
       "label": "Nasal Pillows · Seal Leak",
-      "score": 27,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.7,
       "reviewCount": 6,
       "reviewShare": 0.0355,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "evidenceStrength": "limited",
       "positiveEvidence": [],
@@ -4182,19 +4995,20 @@
     {
       "id": "headgear|ease_of_use",
       "label": "Headgear · Ease Of Use",
-      "score": 72,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 5,
       "reviewShare": 0.0296,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "the head piece is truly amazing",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+          "text": "Simply pull the headgear over your head and place the cushion under your nose and the mask does the rest",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
         }
       ],
       "negativeEvidence": [
@@ -4212,12 +5026,13 @@
     {
       "id": "nasal_pillows|comfort",
       "label": "Nasal Pillows · Comfort",
-      "score": 70,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 5,
       "reviewShare": 0.0296,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4242,19 +5057,20 @@
     {
       "id": "strap|fit",
       "label": "Strap · Fit",
-      "score": 60,
+      "score": 61,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 5,
       "reviewShare": 0.0296,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "easier to get a precise, comfortable fit",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "the strap and the new technology to fit and adjust the mask is amazing",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask-with-headgear"
         }
       ],
       "negativeEvidence": [
@@ -4274,12 +5090,13 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 61,
+      "score": 58,
+      "grade": "C-",
       "averageSentiment": 6.1,
       "reviewCount": 19,
       "reviewShare": 0.1124,
       "positiveReviews": 10,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 8,
       "positiveShare": 0.5263,
       "negativeShare": 0.4211,
@@ -4364,9 +5181,9 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "And I sleep on one side ALL NIGHT. I don't move.",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+          "text": "the exhaust shoots air to the blanket and bounces to my eyes",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ],
       "sourceContexts": [
@@ -4378,12 +5195,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 40,
+      "score": 27,
+      "grade": "F",
       "averageSentiment": 4.0,
       "reviewCount": 16,
       "reviewShare": 0.0947,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 12,
       "positiveShare": 0.25,
       "negativeShare": 0.75,
@@ -4441,14 +5259,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "just tap it on the side to fix any leak I had",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
-        },
-        {
           "text": "I haven't been able to enjoy a nasal cushion mask because I'm a side sleeper and I move a lot so normally experience a lot…",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        },
+        {
+          "text": "just tap it on the side to fix any leak I had",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
         }
       ],
       "negativeEvidence": [
@@ -4474,14 +5292,15 @@
     {
       "id": "long-term-users",
       "label": "Long-term CPAP users",
-      "score": 73,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 11,
       "reviewShare": 0.0651,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.7273,
+      "positiveShare": 0.8182,
       "negativeShare": 0.1818,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4543,14 +5362,15 @@
     {
       "id": "back-sleepers",
       "label": "Back sleepers",
-      "score": 65,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 6.5,
       "reviewCount": 6,
       "reviewShare": 0.0355,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.8333,
       "negativeShare": 0.1667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4570,7 +5390,7 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "when I move it stays in place comfortably",
+          "text": "I am a back and side sleeper and it works for both",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
         },
@@ -4598,12 +5418,13 @@
     {
       "id": "active-sleepers|stability",
       "label": "Active or restless sleepers · Stability",
-      "score": 33,
+      "score": 21,
+      "grade": "F",
       "averageSentiment": 3.3,
       "reviewCount": 10,
       "reviewShare": 0.0592,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4628,12 +5449,13 @@
     {
       "id": "side-sleepers|sleep_position_compatibility",
       "label": "Side sleepers · Sleep Position Compatibility",
-      "score": 55,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.5,
       "reviewCount": 8,
       "reviewShare": 0.0473,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4659,11 +5481,12 @@
       "id": "long-term-users|overall_satisfaction",
       "label": "Long-term CPAP users · Overall Satisfaction",
       "score": 86,
+      "grade": "A-",
       "averageSentiment": 8.6,
       "reviewCount": 7,
       "reviewShare": 0.0414,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4688,12 +5511,13 @@
     {
       "id": "side-sleepers|seal_leak",
       "label": "Side sleepers · Seal Leak",
-      "score": 81,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 8.1,
       "reviewCount": 7,
       "reviewShare": 0.0414,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4718,12 +5542,13 @@
     {
       "id": "back-sleepers|sleep_position_compatibility",
       "label": "Back sleepers · Sleep Position Compatibility",
-      "score": 74,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.4,
       "reviewCount": 5,
       "reviewShare": 0.0296,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4750,12 +5575,13 @@
     {
       "id": "nose",
       "label": "Nose",
-      "score": 34,
+      "score": 23,
+      "grade": "F",
       "averageSentiment": 3.4,
       "reviewCount": 26,
       "reviewShare": 0.1538,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 20,
       "positiveShare": 0.2308,
       "negativeShare": 0.7692,
@@ -4828,21 +5654,21 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "able to feel more secure in your nose compared to this mask",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
-        },
-        {
           "text": "I have a deviated septum and sometimes have leaks on just one side",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "able to feel more secure in your nose compared to this mask",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "my nose felt bruised",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+          "text": "the mask itself is no reflection of what a nose looks like",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
           "text": "It leaked air around my nose all the time",
@@ -4850,9 +5676,9 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "the mask itself is no reflection of what a nose looks like",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "the adjustable headpiece actually tightened during sleep",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
         }
       ],
       "complaintReviews": 20,
@@ -4916,12 +5742,13 @@
     {
       "id": "head",
       "label": "Head",
-      "score": 52,
+      "score": 46,
+      "grade": "D",
       "averageSentiment": 5.2,
       "reviewCount": 17,
       "reviewShare": 0.1006,
       "positiveReviews": 7,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 9,
       "positiveShare": 0.4118,
       "negativeShare": 0.5294,
@@ -4984,14 +5811,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "the head strap automatically adjusts to fit your head with the appropriate tension",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
-        },
-        {
           "text": "the head strap automatically adjusts to fit your head with the appropriate tension to create a nice feel",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
+        },
+        {
+          "text": "the head strap automatically adjusts to fit your head with the appropriate tension",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
         },
         {
           "text": "having it keep my head propped at odd angle",
@@ -5073,11 +5900,12 @@
       "id": "face",
       "label": "Face",
       "score": 67,
+      "grade": "C+",
       "averageSentiment": 6.7,
       "reviewCount": 19,
       "reviewShare": 0.1124,
       "positiveReviews": 12,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.6316,
       "negativeShare": 0.3684,
@@ -5135,26 +5963,26 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "it fits perfectly",
+          "text": "no more mask marks",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         },
         {
-          "text": "no more mask marks",
+          "text": "it fits perfectly",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "less hardware marring my face",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
-        },
-        {
           "text": "the headgear that goes with it is twisted along the sides of your face and becomes uncomfortable",
           "retailer": "EasyBreathe",
           "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+        },
+        {
+          "text": "less hardware marring my face",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
         },
         {
           "text": "Pulling the strap tighter resulted in uncomfortable pressure points from the hard plastic housing",
@@ -5218,12 +6046,13 @@
     {
       "id": "cheeks",
       "label": "Cheeks",
-      "score": 20,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.0,
       "reviewCount": 5,
       "reviewShare": 0.0296,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -5262,19 +6091,19 @@
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "The sides of the strap dug into my cheek",
-          "retailer": "EasyBreathe",
-          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+          "text": "the plastic piece holding the pillow digs into my cheek bone",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
         },
         {
-          "text": "cheek bones under my eyes",
+          "text": "the hard plastic wings of the mask dig into my cheek",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
         },
         {
-          "text": "they cut into your cheeks",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+          "text": "The sides of the strap dug into my cheek",
+          "retailer": "EasyBreathe",
+          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         }
       ],
       "complaintReviews": 5,
@@ -5329,12 +6158,13 @@
     {
       "id": "body|headgear|head|stability",
       "label": "Headgear at Head: Stability",
-      "score": 36,
+      "score": 27,
+      "grade": "F",
       "averageSentiment": 3.6,
       "reviewCount": 7,
       "reviewShare": 0.0414,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.2857,
       "negativeShare": 0.7143,
@@ -5377,9 +6207,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "It stays on my head pretty well.",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
+          "text": "I found that it would stay on my head if I folded the head bands and taped them separately",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
         }
       ],
       "negativeEvidence": [
@@ -5394,6 +6224,13 @@
       "contextLabel": null,
       "aspectId": "stability",
       "aspectLabel": "Stability",
+      "outcomeAspects": [
+        {
+          "id": "stability",
+          "label": "Stability",
+          "reviewCount": 7
+        }
+      ],
       "parts": [
         {
           "id": "headgear",
@@ -5410,17 +6247,18 @@
       ],
       "contexts": [],
       "tone": "caution",
-      "description": "Reports about the headgear where it contacts the head were mostly unfavorable for stability: 2 positive, 0 mixed, and 5 negative across 7 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
+      "description": "Reports about the headgear where it contacts the head were mostly unfavorable for stability: 2 positive, 0 neutral, and 5 negative across 7 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
     },
     {
       "id": "body|headgear|head|fit",
       "label": "Headgear at Head: Fit",
-      "score": 66,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.6,
       "reviewCount": 5,
       "reviewShare": 0.0296,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -5448,9 +6286,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "the head strap automatically adjusts to fit your head with the appropriate tension",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+          "text": "the head strap automatically adjusts to fit your head with the appropriate tension to create a nice feel",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -5465,6 +6303,13 @@
       "contextLabel": null,
       "aspectId": "fit",
       "aspectLabel": "Fit",
+      "outcomeAspects": [
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 5
+        }
+      ],
       "parts": [
         {
           "id": "headgear",
@@ -5481,212 +6326,44 @@
       ],
       "contexts": [],
       "tone": "mixed",
-      "description": "Reports about the headgear where it contacts the head were divided for fit: 3 positive, 0 mixed, and 2 negative across 5 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
+      "description": "Reports about the headgear where it contacts the head were divided for fit: 3 positive, 0 neutral, and 2 negative across 5 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
     }
   ],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 73,
-      "averageSentiment": 7.3,
-      "reviewCount": 71,
-      "reviewShare": 0.4201,
-      "positiveReviews": 53,
-      "mixedReviews": 1,
-      "negativeReviews": 17,
-      "positiveShare": 0.7465,
-      "negativeShare": 0.2394,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "My scores now perfect with this mask",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Probably the worst mask ever",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 84,
-      "averageSentiment": 8.4,
-      "reviewCount": 32,
-      "reviewShare": 0.1893,
-      "positiveReviews": 29,
-      "mixedReviews": 1,
-      "negativeReviews": 2,
-      "positiveShare": 0.9062,
-      "negativeShare": 0.0625,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I love how it feels",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Uncomfortable",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
-        }
-      ]
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 72,
-      "averageSentiment": 7.2,
-      "reviewCount": 22,
-      "reviewShare": 0.1302,
-      "positiveReviews": 17,
-      "mixedReviews": 0,
-      "negativeReviews": 5,
-      "positiveShare": 0.7727,
-      "negativeShare": 0.2273,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "the auto adjust fit is a miracle",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Impossible to fit",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
-        }
-      ]
-    },
-    {
-      "id": "|||seal_leak",
-      "label": "Seal Leak",
-      "score": 72,
-      "averageSentiment": 7.2,
-      "reviewCount": 20,
-      "reviewShare": 0.1183,
-      "positiveReviews": 14,
-      "mixedReviews": 0,
-      "negativeReviews": 6,
-      "positiveShare": 0.7,
-      "negativeShare": 0.3,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "No leaks",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "causing leaks",
-          "retailer": "EasyBreathe",
-          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
-        }
-      ]
-    },
-    {
-      "id": "|||adjustment",
-      "label": "Adjustment",
-      "score": 77,
-      "averageSentiment": 7.7,
-      "reviewCount": 15,
-      "reviewShare": 0.0888,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
-      "negativeReviews": 2,
-      "positiveShare": 0.8,
-      "negativeShare": 0.1333,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "The ease of adjustment of my mask is a 5* rating!!!",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Couldn’t find a comfortable adjustment.",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
-        }
-      ]
-    },
-    {
-      "id": "|||weight",
-      "label": "Weight",
-      "score": 86,
-      "averageSentiment": 8.6,
-      "reviewCount": 11,
-      "reviewShare": 0.0651,
-      "positiveReviews": 11,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "the lightest",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "headgear|||comfort",
+      "id": "part|headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 73,
-      "averageSentiment": 7.3,
-      "reviewCount": 11,
-      "reviewShare": 0.0651,
-      "positiveReviews": 9,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.8182,
-      "negativeShare": 0.1818,
+      "score": 80,
+      "grade": "B+",
+      "averageSentiment": 7.1,
+      "reviewCount": 14,
+      "reviewShare": 0.0828,
+      "positiveReviews": 11,
+      "neutralReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.7857,
+      "negativeShare": 0.2143,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "headgear",
           "label": "Headgear",
-          "reviewCount": 11
+          "reviewCount": 14
         }
       ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
           "text": "The headgear itself is the best I've ever used",
@@ -5696,94 +6373,39 @@
       ],
       "negativeEvidence": [
         {
-          "text": "not comfortable to wear or sleep with",
+          "text": "the headgear that goes with it is twisted along the sides of your face and becomes uncomfortable",
           "retailer": "EasyBreathe",
           "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
         }
       ]
     },
     {
-      "id": "|||ease_of_use",
-      "label": "Ease Of Use",
+      "id": "site|face|face_marks",
+      "label": "Face · Face Marks",
       "score": 87,
-      "averageSentiment": 8.7,
-      "reviewCount": 7,
-      "reviewShare": 0.0414,
-      "positiveReviews": 7,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "very clever system; requires no adjustment",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "||long_term_cpap_user|overall_satisfaction",
-      "label": "Long Term CPAP User · Overall Satisfaction",
-      "score": 86,
-      "averageSentiment": 8.6,
+      "grade": "A-",
+      "averageSentiment": 8.0,
       "reviewCount": 7,
       "reviewShare": 0.0414,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [
+      "associatedParts": [
         {
-          "id": "long_term_cpap_user",
-          "label": "Long Term CPAP User",
-          "reviewCount": 7
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
         }
       ],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "This is the most comfortable.",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "I am very dissatisfied with this product",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
-        }
-      ]
-    },
-    {
-      "id": "|face||face_marks",
-      "label": "Face · Face Marks",
-      "score": 90,
-      "averageSentiment": 9.0,
-      "reviewCount": 6,
-      "reviewShare": 0.0355,
-      "positiveReviews": 6,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
       "associatedContexts": [],
       "associatedBodySites": [
         {
           "id": "face",
           "label": "Face",
-          "reviewCount": 6
+          "reviewCount": 7
         }
       ],
       "positiveEvidence": [
@@ -5793,42 +6415,24 @@
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ],
-      "negativeEvidence": []
+      "negativeEvidence": [
+        {
+          "text": "less hardware marring my face",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
+        }
+      ]
     },
     {
-      "id": "|||therapy_effectiveness",
-      "label": "Therapy Effectiveness",
-      "score": 77,
-      "averageSentiment": 7.7,
+      "id": "part|headgear|weight",
+      "label": "Headgear · Weight",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.2,
       "reviewCount": 6,
       "reviewShare": 0.0355,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
-      "negativeReviews": 0,
-      "positiveShare": 0.8333,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "My CPAP machine daily report results are the best I've ever had",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/fp-solo-nasal-cpap-bilevel-mask-with-headgear"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "headgear|||weight",
-      "label": "Headgear · Weight",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 5,
-      "reviewShare": 0.0296,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -5837,11 +6441,17 @@
         {
           "id": "headgear",
           "label": "Headgear",
-          "reviewCount": 5
+          "reviewCount": 6
         }
       ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
           "text": "The headgear and frame are nearly weightless",
@@ -5854,46 +6464,156 @@
   ],
   "concerns": [
     {
-      "id": "|||therapy_compliance",
-      "label": "Therapy Compliance",
-      "score": 39,
-      "averageSentiment": 3.9,
-      "reviewCount": 8,
-      "reviewShare": 0.0473,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
-      "negativeReviews": 5,
-      "positiveShare": 0.25,
-      "negativeShare": 0.625,
+      "id": "part|headgear|stability",
+      "label": "Headgear · Stability",
+      "score": 35,
+      "grade": "F+",
+      "averageSentiment": 4.1,
+      "reviewCount": 17,
+      "reviewShare": 0.1006,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
+      "negativeReviews": 11,
+      "positiveShare": 0.3529,
+      "negativeShare": 0.6471,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 17
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 2
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 2
+        },
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "back_sleeping",
+          "label": "Back Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 7
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "I could only tolerate wearing my mask for less than 2 hours per night",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
+          "text": "Headgear stayed in place all night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Cannot use",
-          "retailer": "EasyBreathe",
-          "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+          "text": "The way you fit it to your head does not stay",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
         }
       ]
     },
     {
-      "id": "nasal_pillows|||seal_leak",
+      "id": "site|nose|seal_leak",
+      "label": "Nose · Seal Leak",
+      "score": 14,
+      "grade": "F-",
+      "averageSentiment": 2.7,
+      "reviewCount": 7,
+      "reviewShare": 0.0414,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.1429,
+      "negativeShare": 0.8571,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 4
+        },
+        {
+          "id": "cushion_seal",
+          "label": "Cushion Seal",
+          "reviewCount": 2
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "deviated_septum",
+          "label": "Deviated Septum",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 7
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "I have a deviated septum and sometimes have leaks on just one side",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-solo-nasal-cpap-mask-with-headgear"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "It leaked air around my nose all the time",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        }
+      ]
+    },
+    {
+      "id": "part|nasal_pillows|seal_leak",
       "label": "Nasal Pillows · Seal Leak",
-      "score": 28,
-      "averageSentiment": 2.8,
-      "reviewCount": 5,
-      "reviewShare": 0.0296,
+      "score": 0,
+      "grade": "F-",
+      "averageSentiment": 2.7,
+      "reviewCount": 6,
+      "reviewShare": 0.0355,
       "positiveReviews": 0,
-      "mixedReviews": 0,
-      "negativeReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 6,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
       "evidenceStrength": "limited",
@@ -5901,17 +6621,157 @@
         {
           "id": "nasal_pillows",
           "label": "Nasal Pillows",
-          "reviewCount": 5
+          "reviewCount": 6
         }
       ],
       "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [],
       "negativeEvidence": [
         {
           "text": "Did not seal",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        }
+      ]
+    },
+    {
+      "id": "site|head|stability",
+      "label": "Head · Stability",
+      "score": 37,
+      "grade": "F+",
+      "averageSentiment": 4.1,
+      "reviewCount": 8,
+      "reviewShare": 0.0473,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.375,
+      "negativeShare": 0.625,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 7
+        },
+        {
+          "id": "strap",
+          "label": "Strap",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "long_term_cpap_user",
+          "label": "Long Term CPAP User",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "small_head",
+          "label": "Small Head",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 8
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "felt more secure on my head compared to the nose pillows",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/fisher-paykel-solo-nasal-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "The way you fit it to your head does not stay",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        }
+      ]
+    },
+    {
+      "id": "site|nose|pain",
+      "label": "Nose · Pain",
+      "score": 0,
+      "grade": "F-",
+      "averageSentiment": 1.8,
+      "reviewCount": 5,
+      "reviewShare": 0.0296,
+      "positiveReviews": 0,
+      "neutralReviews": 0,
+      "negativeReviews": 5,
+      "positiveShare": 0.0,
+      "negativeShare": 1.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 2
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_cradle_cushion",
+          "label": "Nasal Cradle Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "restless_sleeping",
+          "label": "Restless Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 5
+        }
+      ],
+      "positiveEvidence": [],
+      "negativeEvidence": [
+        {
+          "text": "caused nose pain every morning",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
         }
       ]
     }
@@ -5985,12 +6845,17 @@
   "evidence": {
     "positive": [
       {
-        "text": "The headgear itself is the best I've ever used",
+        "text": "can sleep on my side without dislodging it or having it keep my head propped at odd angle",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
       },
       {
-        "text": "My scores now perfect with this mask",
+        "text": "I have been getting the best sleep ever since my sleep therapy journey started",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+      },
+      {
+        "text": "Leak rate graph on OSCAR is a flat line at 0 with no spike",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
       },
@@ -6000,19 +6865,14 @@
         "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
       },
       {
-        "text": "I’ve owned many masks…this is the best",
-        "retailer": "RespShop",
-        "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
-      },
-      {
-        "text": "I am blown away by the Solo CPAP mask",
+        "text": "The ease of adjustment of my mask is a 5* rating!!!",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-system"
       },
       {
-        "text": "I love how it feels",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        "text": "I don't feel as if I have anything on my face",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
       }
     ],
     "negative": [
@@ -6022,9 +6882,9 @@
         "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
       },
       {
-        "text": "Not what I asked for!",
-        "retailer": "EasyBreathe",
-        "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
+        "text": "the mask itself is no reflection of what a nose looks like",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
       },
       {
         "text": "The way you fit it to your head does not stay",
@@ -6032,26 +6892,26 @@
         "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
       },
       {
-        "text": "Won't stay on my head",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        "text": "No matter which size cushion I use, the fit is terrible",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/fisher-paykel-solo-nasal-cpap-mask"
       },
       {
-        "text": "Did not seal",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
+        "text": "even at a low pressure there is constant leaking",
+        "retailer": "EasyBreathe",
+        "productUrl": "https://easybreathe.com/products/solo-nasal-mask-with-headgear"
       },
       {
-        "text": "is an exercise in suffocation",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/solo-nasal-cpap-mask-fitpack"
+        "text": "It leaked air around my nose all the time",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask?variant=49040454910268"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

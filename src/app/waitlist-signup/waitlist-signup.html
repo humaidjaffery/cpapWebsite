@@ -1,0 +1,36 @@
+<form
+  class="widget-waitlist-form"
+  [class.widget-waitlist-form-compact]="compact"
+  [class.widget-waitlist-form-header]="header"
+  (ngSubmit)="submit()"
+>
+  <label>
+    <span class="widget-waitlist-label">Email address</span>
+    <input
+      type="email"
+      name="waitlistEmail"
+      autocomplete="email"
+      placeholder="Enter your email"
+      [(ngModel)]="email"
+      [disabled]="submitting"
+      required
+    />
+  </label>
+  <button type="submit" [disabled]="submitting">
+    {{ submitting ? 'Joining…' : header ? 'Win Lifetime Free Custom Masks!' : 'Join the waitlist' }}
+    @if (!submitting) {<span aria-hidden="true">&rarr;</span>}
+  </button>
+</form>
+@if (errorMessage) {
+  <p class="widget-waitlist-error" role="alert">{{ errorMessage }}</p>
+}
+@if (!header) {
+  <ul
+    class="widget-waitlist-perks"
+    [class.widget-waitlist-perks-inline]="inlinePerks"
+    aria-label="Waitlist perks"
+  >
+    <li><span>Discounted Early Access</span></li>
+    <li><span>Chance to <strong>win FREE masks for LIFE</strong></span></li>
+  </ul>
+}

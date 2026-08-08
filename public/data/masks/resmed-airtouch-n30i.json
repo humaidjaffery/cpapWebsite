@@ -1,8 +1,29 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "resmed-airtouch-n30i",
   "name": "ResMed AirTouch N30i",
   "catalogOrder": 34,
+  "search": {
+    "aliases": [
+      "AirTouch N30i",
+      "AirTouch N30i Mask Small Frame Fit Pack",
+      "AirTouch N30i Mask Standard Frame Fit Pack",
+      "AirTouch N30i Nasal CPAP Mask",
+      "AirTouch N30i Nasal CPAP Mask with Headgear",
+      "AirTouch N30i Nasal CPAP Mask | ResMed",
+      "ResMed AirTouch N30i",
+      "ResMed AirTouch™ N30i Nasal Cradle CPAP Mask Complete System",
+      "ResMed | AirTouch N30i Nasal Cradle CPAP Mask with ComfiSoft™ Cushion - Most Comfortable CPAP Mask"
+    ],
+    "abbreviations": [
+      "N30i",
+      "Resmed"
+    ],
+    "maskTypes": [
+      "Nasal Cradle",
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 286,
@@ -13,32 +34,35 @@
     "reviewDateEnd": "2026-06-08"
   },
   "overall": {
-    "compositeScore": 89,
+    "score": 86,
+    "grade": "A-",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.45,
-      "score": 89,
+      "score": 86,
       "reviewCount": 286,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.8,
       "score": 88,
       "reviewCount": 152,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 85,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 8.5,
       "reviewCount": 176,
       "reviewShare": 0.6154,
-      "positiveReviews": 154,
-      "mixedReviews": 15,
+      "positiveReviews": 161,
+      "neutralReviews": 8,
       "negativeReviews": 7,
-      "positiveShare": 0.875,
+      "positiveShare": 0.9148,
       "negativeShare": 0.0398,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -124,24 +148,104 @@
       ],
       "positiveEvidence": [
         {
-          "text": "It is so comfortable!!!",
+          "text": "The AirTouch N30i nasal mask is the most comfortable mask I have ever worn",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "The lining fabric affixed to the AirTouch N30i cushion is a godsend!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "By far, this is the most comfortable nasal mask I have worn",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "the comfort causes me to forget I'm wearing it while sleeping",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "the most comfortable new style of headgear I have every received",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "without a doubt the most comfortable way I found",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "Just what I needed for a comfortable nights sleep!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "Its UltraSoft memory foam cushion provides exceptional comfort",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         },
         {
           "text": "Best most comfortable mask on the market",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "none were as comfortable as this one",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I especially hate the pressure that nasal masks put on my upper lip",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "I hate the feel of silicone on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
         {
           "text": "feeling like I was suffocating",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "I hate the feel of silicone on my face",
+          "text": "uncomfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "which has its tips shove into your nostrils which do provide a better seal but is uncomfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "not claustrophobic like I experienced with a full face mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "I tried a nasal pillow before which was uncomfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "my nose would sweat and irritate at times",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "This created sores in my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Don't like tube on he'd",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -150,14 +254,15 @@
     {
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
-      "score": 64,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.4,
       "reviewCount": 75,
       "reviewShare": 0.2622,
-      "positiveReviews": 42,
-      "mixedReviews": 11,
+      "positiveReviews": 46,
+      "neutralReviews": 7,
       "negativeReviews": 22,
-      "positiveShare": 0.56,
+      "positiveShare": 0.6133,
       "negativeShare": 0.2933,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -248,21 +353,101 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
+          "text": "This mask not only fits perfect",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "by far the best fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
           "text": "really fits my features",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airtouch-n30i-mask-small-frame-fit-pack"
+        },
+        {
+          "text": "Perfect fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "The nose piece is flexible and conforms to your nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "The hose connection on the top is great as well",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "I love the simplicity & fit of the mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "slightly hugging around the bottom of the nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "The fit is secure without feeling tight",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "Does not fit uptight to",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
         {
           "text": "bad fit",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "Does not fit uptight to",
+          "text": "When I kept my hair in a \" very short buzz cut\" the mask stayed attached to my head",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Could not seem to get mask seal despite trying different size pillows, strap adjustents, etc",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "no adjustments or anything I did made it work",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "it only includes the smaller wide & medium pillows",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Does not fit right on the nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "the sizing chart was off for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "did not stay tight to my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "continues to say needs adjustments",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n30i-mask-standard-frame-fit-pack"
         }
       ]
     },
@@ -270,11 +455,12 @@
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
       "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.9,
       "reviewCount": 62,
       "reviewShare": 0.2168,
       "positiveReviews": 35,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 27,
       "positiveShare": 0.5645,
       "negativeShare": 0.4355,
@@ -362,14 +548,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "The seal is excellent — no air leaks during the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "could never get full face masks to seal well",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
           "text": "with no leaks",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "The seal is excellent — no air leaks during the night",
+          "text": "does not leak",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "seals better than anything I've used before",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "yet still provides a great seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "this one is just as airtight",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "providing a leak proof seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "fixed my mask seal issues",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "not break the seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
@@ -379,23 +605,64 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         },
         {
+          "text": "Could not get it to seal!!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
           "text": "can't get mask to seal",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airtouch-n30i-mask-standard-frame-fit-pack"
+        },
+        {
+          "text": "my anatomy makes my mouth fill and burp out air, no matter where I put my tongue",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "my mouth kept opening anall the air would come out of my mouth",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "seems to be leaking form the air hose to the head gear",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n30i-mask-standard-frame-fit-pack"
+        },
+        {
+          "text": "As a side sleeper it leaks with head on pillow",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "I amd not completely happy with the nasal \"pillow\"",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "I'm a side sleeper and roll around a lot",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "Could not seem to get mask seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 66,
+      "label": "Stability",
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.6,
       "reviewCount": 56,
       "reviewShare": 0.1958,
-      "positiveReviews": 35,
-      "mixedReviews": 4,
+      "positiveReviews": 36,
+      "neutralReviews": 3,
       "negativeReviews": 17,
-      "positiveShare": 0.625,
+      "positiveShare": 0.6429,
       "negativeShare": 0.3036,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -481,12 +748,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "As a side sleeper, this mask has changed my dreamworld forever",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "ensuring an undisturbed night for both me and my partner",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
           "text": "Very comfortable and stable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
           "text": "Stays in place.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "It is the only one that stays in place to sleep comfortably on my side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "It makes it easier to roll over during the night without getting wrapped in hose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "you can just about do cartwheels with it on and not break the seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "The only mask that I won't take off in the middle of the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "since I sleep on my side and face down, it would move around",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "I can even sleep on my side and not lose air pressure",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -501,20 +808,61 @@
           "text": "the headgear part is horrible",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "the strap that goes around behind my head just slides up to the top",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "the tubes that deliver the air pulsate on your face with every breath",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "the pillow is pulled up and off when you turn onto your side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "couldn't get it to stay in the right place on my head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "When sleeping on my side, the mask presses against the airflow area",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "I used a Velcro cover that would not stay in place",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "It’s hard to move on your left or right it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "It just wouldn’t stay put at all",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ]
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 67,
+      "label": "Ease of Use",
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.7,
       "reviewCount": 53,
       "reviewShare": 0.1853,
-      "positiveReviews": 36,
-      "mixedReviews": 3,
+      "positiveReviews": 39,
+      "neutralReviews": 0,
       "negativeReviews": 14,
-      "positiveShare": 0.6792,
+      "positiveShare": 0.7358,
       "negativeShare": 0.2642,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -600,7 +948,32 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the part that delivers the air dos not go into your nostrils",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "the hose coming off the top of your head",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "you don't feel it on your face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "Both are surprisingly easy to clean",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
+        },
+        {
           "text": "perfect to kiss my wife",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "The magnetic clips are great",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         },
@@ -608,32 +981,88 @@
           "text": "having to adjust it",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "Top notche for glasses",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "It’s easy to adjust",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "easy to set",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "does not release from hose like it is supposed to",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
         {
           "text": "no adjustments or anything I did made it work",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "does not release from hose like it is supposed to",
+          "text": "continues to say needs adjustments",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n30i-mask-standard-frame-fit-pack"
+        },
+        {
+          "text": "strap adjustents, etc",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "The strap only tightens to the head and doesn't allow adjustments to how high the mask sits on the face over the cheeks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "I've been using nasal pillows but often wake and have to adjust the fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "I tried lessening the tension via straps but then air would leak",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Not enough adjustment to secure the nose pads",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "even when adjusted tightly",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Depending on how you move the mask does need some adjustments during the night",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 65,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 6.5,
       "reviewCount": 43,
       "reviewShare": 0.1503,
-      "positiveReviews": 27,
-      "mixedReviews": 4,
+      "positiveReviews": 28,
+      "neutralReviews": 3,
       "negativeReviews": 12,
-      "positiveShare": 0.6279,
+      "positiveShare": 0.6512,
       "negativeShare": 0.2791,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -699,14 +1128,54 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the QuietAir venting system is incredibly quiet",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
           "text": "So quiet",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/airtouch-n30i-mask-standard-frame-fit-pack"
         },
         {
-          "text": "the QuietAir venting system is incredibly quiet",
+          "text": "is super quiet",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "nice quite soft",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "great airflow",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "very quiet",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "quiet",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Quiet!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "it doesn't blow air into my wife's face while I sleep",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "no air hiss like a lot of the others I’ve tried",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
@@ -719,20 +1188,61 @@
           "text": "Noisiest mask I've tried",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Very noisy",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Super noisy",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Makes a lot of \"air noise\"",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Not as breath easy as",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "which creates significant noise",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "was very loud",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "I like the nasal better than the pillow because I could easily cut off air flow to one side of the pillow when I laid…",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "It is a lot louder than the Res Med nasal pillows I have used for 10 years",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ]
     },
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 68,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.8,
       "reviewCount": 50,
       "reviewShare": 0.1748,
-      "positiveReviews": 34,
-      "mixedReviews": 3,
+      "positiveReviews": 35,
+      "neutralReviews": 2,
       "negativeReviews": 13,
-      "positiveShare": 0.68,
+      "positiveShare": 0.7,
       "negativeShare": 0.26,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -826,30 +1336,111 @@
           "text": "my nose would sweat and irritate at times",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "leaves no marks on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "who’s allergic to silicone it’s fantastic to see more and more mask options coming into play for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "My nose was sweating from the silicon of the previous version",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "leave any marks on your face when you wake up",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "I do not wake up with lines on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "My skin is healthy and rash free each morning",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "No more redness and soreness around the nostrils",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "it doesn’t rub on or irritate my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I've always struggled with irritation from silicone cushions, especially with a brand new one.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
         {
           "text": "I just cannot tolerate the silicone next to my skin",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
         },
         {
-          "text": "I've always struggled with irritation from silicone cushions, especially with a brand new one.",
+          "text": "Made my nose very dry",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Masks that wrap all around my nose aggravate my seborrheic dermatitis on the bridge of my nose between my brows",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "leaves marks all over my face that take a long time to fade",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "drying skin which I had to deal with throughout the day",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "skin redness in the cheek area of my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "my nose would sweat and irritate at times",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "This created sores in my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "my mouth really dries out",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 71,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 7.1,
       "reviewCount": 28,
       "reviewShare": 0.0979,
       "positiveReviews": 22,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.7857,
       "negativeShare": 0.2143,
@@ -902,12 +1493,52 @@
       ],
       "positiveEvidence": [
         {
+          "text": "The addition of the fabric to the frame and cushion is brilliant",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "This one has material on the inside that wicks the moisture",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "my old headgear that didn’t have any cloth",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "with the fabric rather than the silicone",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "The nasal cushion is soft",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
           "text": "Very soft and comfortable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "The nasal cushion is soft",
+          "text": "soft mask I've worn",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Great quality equipment",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Smooth fabric",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "excellent quality",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
@@ -922,18 +1553,39 @@
           "text": "Poor quality",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "Does not wrinkle and bunch up like the silicone predecessor does",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "because of the felt lining it doesn’t last as long as the silicone ones",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "which though extremely comfortable changes shape way too easily",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "may need more frequent replacement than traditional silicone masks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ]
     },
     {
       "id": "value",
       "label": "Value",
-      "score": 49,
+      "score": 46,
+      "grade": "D",
       "averageSentiment": 4.9,
       "reviewCount": 10,
       "reviewShare": 0.035,
       "positiveReviews": 4,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 5,
       "positiveShare": 0.4,
       "negativeShare": 0.5,
@@ -959,14 +1611,24 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
+          "text": "This is a great investment",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
           "text": "Worth every penny",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "This is a great investment",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "priced right",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "Less parts then my N 320 no need for tube from mask to heater hose or mask frame",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
         }
       ],
       "negativeEvidence": [
@@ -976,23 +1638,39 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
+          "text": "This mask and headgear cost a lot of money",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
           "text": "which is very Stupid & a money grab",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Very expensive for how well it works",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "Despite its higher price point",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 70,
+      "score": 77,
+      "grade": "B",
       "averageSentiment": 7.0,
       "reviewCount": 70,
       "reviewShare": 0.2448,
-      "positiveReviews": 52,
-      "mixedReviews": 1,
+      "positiveReviews": 53,
+      "neutralReviews": 0,
       "negativeReviews": 17,
-      "positiveShare": 0.7429,
+      "positiveShare": 0.7571,
       "negativeShare": 0.2429,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1063,26 +1741,106 @@
       ],
       "positiveEvidence": [
         {
+          "text": "I definitely had the best sleep with this new mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "it truly helps me get the sleep I need",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
           "text": "me ayuda a dormir toda la noche",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         },
         {
-          "text": "I definitely had the best sleep with this new mask",
+          "text": "I have used CPAP masks for over 20 years, this mask is excellent and I will continue to use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "I've been using nasal pillows but often wake and have to adjust the fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "overall sleep quality has noticeably improved since I started using this mask",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "if I wake up, I fall back to sleep right away",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "I wear it longer and more often then any previous mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "This mask has made me love using my CPAP machine",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "gave me the best therapy I I have ever had",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "I can’t wear this N30i mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
         {
           "text": "could not sleep",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "I can’t wear this N30i mask",
+          "text": "I tried for a week but it's not a good mask",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "could not tolerate the pain, redness, rawness, and also drying skin",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "I cannot keep using it because my nose is really dry",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "It didn’t work for me.. It didn’t work for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "making it very difficult to fall asleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "waking me up 6-8 times a night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "you cannot be breathing thru your mouth",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "after one hour usage",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ]
     }
@@ -1091,14 +1849,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 87,
+      "score": 97,
+      "grade": "A+",
       "averageSentiment": 8.7,
       "reviewCount": 171,
       "reviewShare": 0.5979,
-      "positiveReviews": 158,
-      "mixedReviews": 8,
+      "positiveReviews": 163,
+      "neutralReviews": 3,
       "negativeReviews": 5,
-      "positiveShare": 0.924,
+      "positiveShare": 0.9532,
       "negativeShare": 0.0292,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -1184,24 +1943,24 @@
       ],
       "positiveEvidence": [
         {
-          "text": "It is so comfortable!!!",
+          "text": "The AirTouch N30i nasal mask is the most comfortable mask I have ever worn",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "Best most comfortable mask on the market",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+          "text": "The lining fabric affixed to the AirTouch N30i cushion is a godsend!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I hate the feel of silicone on my face",
+          "text": "I can't stand the feel of silicone on my nose/face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "uncomfortable",
+          "text": "I hate the feel of silicone on my face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -1210,14 +1969,15 @@
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 88,
+      "score": 95,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 152,
       "reviewShare": 0.5315,
-      "positiveReviews": 139,
-      "mixedReviews": 5,
+      "positiveReviews": 144,
+      "neutralReviews": 0,
       "negativeReviews": 8,
-      "positiveShare": 0.9145,
+      "positiveShare": 0.9474,
       "negativeShare": 0.0526,
       "evidenceStrength": "strong",
       "associatedParts": [
@@ -1277,26 +2037,26 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "Finally! This mask is the answer I have been looking for",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
+          "text": "This is the only mask I want to use form now on",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         },
         {
-          "text": "Best purchase ever",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "Best move I have made purchasing the new CPAP machine from ResMed",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "Hard pass",
+          "text": "put it bag in its package and threw it away",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "Expensive mistake",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "This mask did nit work for me",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ]
     },
@@ -1304,11 +2064,12 @@
       "id": "seal_leak",
       "label": "Seal Leak",
       "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.9,
       "reviewCount": 60,
       "reviewShare": 0.2098,
       "positiveReviews": 34,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 26,
       "positiveShare": 0.5667,
       "negativeShare": 0.4333,
@@ -1391,14 +2152,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "with no leaks",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        },
-        {
           "text": "The seal is excellent — no air leaks during the night",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "could never get full face masks to seal well",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
@@ -1408,23 +2169,24 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         },
         {
-          "text": "can't get mask to seal",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airtouch-n30i-mask-standard-frame-fit-pack"
+          "text": "Could not get it to seal!!",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ]
     },
     {
       "id": "fit",
       "label": "Fit",
-      "score": 68,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 59,
       "reviewShare": 0.2063,
-      "positiveReviews": 38,
-      "mixedReviews": 7,
+      "positiveReviews": 41,
+      "neutralReviews": 4,
       "negativeReviews": 14,
-      "positiveShare": 0.6441,
+      "positiveShare": 0.6949,
       "negativeShare": 0.2373,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1515,19 +2277,19 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "really fits my features",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airtouch-n30i-mask-small-frame-fit-pack"
+          "text": "This mask not only fits perfect",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "bad fit",
+          "text": "Does not fit uptight to",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "Does not fit uptight to",
+          "text": "bad fit",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -1536,12 +2298,13 @@
     {
       "id": "noise",
       "label": "Noise",
-      "score": 67,
+      "score": 71,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 35,
       "reviewShare": 0.1224,
       "positiveReviews": 24,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 10,
       "positiveShare": 0.6857,
       "negativeShare": 0.2857,
@@ -1589,14 +2352,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "So quiet",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airtouch-n30i-mask-standard-frame-fit-pack"
-        },
-        {
           "text": "the QuietAir venting system is incredibly quiet",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "So quiet",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n30i-mask-standard-frame-fit-pack"
         }
       ],
       "negativeEvidence": [
@@ -1615,14 +2378,15 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 57,
+      "score": 56,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 30,
       "reviewShare": 0.1049,
-      "positiveReviews": 15,
-      "mixedReviews": 1,
+      "positiveReviews": 16,
+      "neutralReviews": 0,
       "negativeReviews": 14,
-      "positiveShare": 0.5,
+      "positiveShare": 0.5333,
       "negativeShare": 0.4667,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1720,7 +2484,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "couldn't get it to stay in the right place on my head",
+          "text": "the pillow is pulled up and off when you turn onto your side",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -1729,14 +2493,15 @@
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 68,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 6.8,
       "reviewCount": 27,
       "reviewShare": 0.0944,
-      "positiveReviews": 20,
-      "mixedReviews": 3,
+      "positiveReviews": 21,
+      "neutralReviews": 2,
       "negativeReviews": 4,
-      "positiveShare": 0.7407,
+      "positiveShare": 0.7778,
       "negativeShare": 0.1481,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1776,12 +2541,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "the top hose connection is phenomenal in comparison to my previous mask",
+          "text": "On cpap for decades, have tried many different masks… this is by far the most comfortable!!",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "On cpap for decades, have tried many different masks… this is by far the most comfortable!!",
+          "text": "the top hose connection is phenomenal in comparison to my previous mask",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -1802,14 +2567,15 @@
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 80,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 8.0,
       "reviewCount": 24,
       "reviewShare": 0.0839,
-      "positiveReviews": 21,
-      "mixedReviews": 1,
+      "positiveReviews": 22,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.875,
+      "positiveShare": 0.9167,
       "negativeShare": 0.0833,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1875,12 +2641,13 @@
     {
       "id": "material_quality",
       "label": "Material Quality",
-      "score": 81,
+      "score": 95,
+      "grade": "A+",
       "averageSentiment": 8.1,
       "reviewCount": 22,
       "reviewShare": 0.0769,
       "positiveReviews": 21,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9545,
       "negativeShare": 0.0455,
@@ -1933,12 +2700,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Very soft and comfortable",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "The addition of the fabric to the frame and cushion is brilliant",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
         },
         {
-          "text": "The nasal cushion is soft",
+          "text": "This one has material on the inside that wicks the moisture",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
@@ -1954,12 +2721,13 @@
     {
       "id": "therapy_effectiveness",
       "label": "Therapy Effectiveness",
-      "score": 77,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.7,
       "reviewCount": 21,
       "reviewShare": 0.0734,
       "positiveReviews": 18,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -1975,12 +2743,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "My apnea scores are much less",
+          "text": "gave me the best therapy I I have ever had",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "works better than anything I have used",
+          "text": "this is a game changer for my CPAP therapy!",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -2001,12 +2769,13 @@
     {
       "id": "therapy_compliance",
       "label": "Therapy Compliance",
-      "score": 54,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.5,
       "reviewCount": 20,
       "reviewShare": 0.0699,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 10,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -2064,14 +2833,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Wear it nightly",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "I have used CPAP masks for over 20 years, this mask is excellent and I will continue to use",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
         },
         {
-          "text": "This mask has made me love using my CPAP machine",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "I wear it longer and more often then any previous mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -2090,12 +2859,13 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 81,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.1,
       "reviewCount": 19,
       "reviewShare": 0.0664,
       "positiveReviews": 19,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -2147,14 +2917,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "The magnetic clips are great",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
-        },
-        {
           "text": "the hose coming off the top of your head",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "The magnetic clips are great",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -2162,14 +2932,15 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 49,
+      "score": 42,
+      "grade": "D-",
       "averageSentiment": 4.9,
       "reviewCount": 17,
       "reviewShare": 0.0594,
-      "positiveReviews": 6,
-      "mixedReviews": 1,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
       "negativeReviews": 10,
-      "positiveShare": 0.3529,
+      "positiveShare": 0.4118,
       "negativeShare": 0.5882,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2252,21 +3023,22 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "strap adjustents, etc",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "continues to say needs adjustments",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/airtouch-n30i-mask-standard-frame-fit-pack"
         }
       ]
     },
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 81,
+      "score": 90,
+      "grade": "A",
       "averageSentiment": 8.1,
       "reviewCount": 17,
       "reviewShare": 0.0594,
       "positiveReviews": 15,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.8824,
       "negativeShare": 0.1176,
@@ -2323,7 +3095,7 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         },
         {
-          "text": "I can even sleep on my side and not lose air pressure",
+          "text": "It is the only one that stays in place to sleep comfortably on my side",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -2344,12 +3116,13 @@
     {
       "id": "irritation",
       "label": "Irritation",
-      "score": 68,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.8,
       "reviewCount": 16,
       "reviewShare": 0.0559,
       "positiveReviews": 12,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -2411,12 +3184,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "which doesn’t irritate my skin",
+          "text": "it doesn’t rub on or irritate my face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "doesn’t irritate your skin",
+          "text": "No irritation on face or head.",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -2428,7 +3201,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "I got really bad irritation on my nose",
+          "text": "Masks that wrap all around my nose aggravate my seborrheic dermatitis on the bridge of my nose between my brows",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -2437,12 +3210,13 @@
     {
       "id": "movement_compatibility",
       "label": "Movement Compatibility",
-      "score": 76,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.6,
       "reviewCount": 13,
       "reviewShare": 0.0455,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.8462,
       "negativeShare": 0.1538,
@@ -2500,14 +3274,14 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the top-of-the-head hose design gives me the freedom to move during sleep without feeling restricted",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
           "text": "you can just about do cartwheels with it on and not break the seal",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        },
-        {
-          "text": "since I sleep on my side and face down, it would move around",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -2526,12 +3300,13 @@
     {
       "id": "face_marks",
       "label": "Face Marks",
-      "score": 73,
+      "score": 77,
+      "grade": "B",
       "averageSentiment": 7.3,
       "reviewCount": 12,
       "reviewShare": 0.042,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -2563,7 +3338,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "No more marks on your face",
+          "text": "leave any marks on your face when you wake up",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -2575,21 +3350,22 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "queda la marca del arnés",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "It's still leaves marks on your face at times",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ]
     },
     {
       "id": "skin_reaction",
       "label": "Skin Reaction",
-      "score": 73,
+      "score": 78,
+      "grade": "B",
       "averageSentiment": 7.3,
       "reviewCount": 12,
       "reviewShare": 0.042,
       "positiveReviews": 8,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.1667,
@@ -2678,12 +3454,13 @@
     {
       "id": "weight",
       "label": "Weight",
-      "score": 79,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 7.9,
       "reviewCount": 10,
       "reviewShare": 0.035,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.9,
       "negativeShare": 0.1,
@@ -2736,7 +3513,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Lightweight",
+          "text": "It is lightweight I almost forget I have it on",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
@@ -2748,7 +3525,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "there is no rigid framing in any of the headpiece",
+          "text": "with all the weight of the tubing on the top of your head",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -2757,12 +3534,13 @@
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 47,
+      "score": 35,
+      "grade": "F+",
       "averageSentiment": 4.7,
       "reviewCount": 9,
       "reviewShare": 0.0315,
       "positiveReviews": 2,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 5,
       "positiveShare": 0.2222,
       "negativeShare": 0.5556,
@@ -2819,12 +3597,13 @@
     {
       "id": "cleaning",
       "label": "Cleaning",
-      "score": 72,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 7.2,
       "reviewCount": 8,
       "reviewShare": 0.028,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.75,
       "negativeShare": 0.25,
@@ -2860,14 +3639,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "easy to clean",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
-        },
-        {
           "text": "Both are surprisingly easy to clean",
           "retailer": "CPAP Ninja",
           "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "easy to clean",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -2886,12 +3665,13 @@
     {
       "id": "dryness",
       "label": "Dryness",
-      "score": 45,
+      "score": 42,
+      "grade": "D-",
       "averageSentiment": 4.5,
       "reviewCount": 7,
       "reviewShare": 0.0245,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.4286,
       "negativeShare": 0.5714,
@@ -2954,12 +3734,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Dries quickly",
+          "text": "I feel like my face stays cooler with the fabric covering the cushion",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "I feel like my face stays cooler with the fabric covering the cushion",
+          "text": "Dries quickly",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -2971,21 +3751,22 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "my mouth really dries out",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+          "text": "drying skin which I had to deal with throughout the day",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ]
     },
     {
       "id": "hose_management",
       "label": "Hose Management",
-      "score": 89,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.9,
       "reviewCount": 7,
       "reviewShare": 0.0245,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -3023,7 +3804,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "the hose connects at the top of my head and not at the front of my face",
+          "text": "I love the tube being on top so it doesn't get in the way when I'm moving around all night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -3033,12 +3814,13 @@
     {
       "id": "access_to_face",
       "label": "Access To Face",
-      "score": 88,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 6,
       "reviewShare": 0.021,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -3101,12 +3883,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "perfect to kiss my wife",
+          "text": "the part that delivers the air dos not go into your nostrils",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         },
         {
-          "text": "Top notche for glasses",
+          "text": "you don't feel it on your face",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
@@ -3116,14 +3898,15 @@
     {
       "id": "airflow",
       "label": "Airflow",
-      "score": 62,
+      "score": 75,
+      "grade": "B",
       "averageSentiment": 6.2,
       "reviewCount": 6,
       "reviewShare": 0.021,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.5,
+      "positiveShare": 0.6667,
       "negativeShare": 0.1667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3200,12 +3983,13 @@
     {
       "id": "appearance",
       "label": "Appearance",
-      "score": 60,
+      "score": 67,
+      "grade": "C+",
       "averageSentiment": 6.0,
       "reviewCount": 6,
       "reviewShare": 0.021,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -3231,9 +4015,9 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "low-profile",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+          "text": "the frame is nice",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
@@ -3252,12 +4036,13 @@
     {
       "id": "pressure",
       "label": "Pressure",
-      "score": 67,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 5,
       "reviewShare": 0.0175,
       "positiveReviews": 3,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 1,
       "positiveShare": 0.6,
       "negativeShare": 0.2,
@@ -3294,14 +4079,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "there is no pressure on my nose",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        },
-        {
           "text": "rests gently under my nose without putting pressure on the bridge",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "there is no pressure on my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
@@ -3320,12 +4105,13 @@
     {
       "id": "red_marks",
       "label": "Red Marks",
-      "score": 64,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 6.4,
       "reviewCount": 5,
       "reviewShare": 0.0175,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -3377,12 +4163,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "doesn't leave indentions on my face",
+          "text": "No more redness and soreness around the nostrils",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "No more redness and soreness around the nostrils",
+          "text": "doesn't leave indentions on my face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -3403,14 +4189,15 @@
     {
       "id": "waking_up",
       "label": "Waking Up",
-      "score": 54,
+      "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.4,
       "reviewCount": 5,
       "reviewShare": 0.0175,
-      "positiveReviews": 2,
-      "mixedReviews": 1,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.4,
+      "positiveShare": 0.6,
       "negativeShare": 0.4,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3458,12 +4245,13 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 67,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 34,
       "reviewShare": 0.1189,
       "positiveReviews": 22,
-      "mixedReviews": 4,
+      "neutralReviews": 4,
       "negativeReviews": 8,
       "positiveShare": 0.6471,
       "negativeShare": 0.2353,
@@ -3526,19 +4314,19 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Best purchase ever",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        },
-        {
-          "text": "Best headset I've ever had.",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "the most comfortable new style of headgear I have every received",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         },
         {
           "text": "I would recommend it to everyone",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "Best headset I've ever had.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
@@ -3562,24 +4350,25 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 85,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.5,
           "reviewCount": 13,
           "reviewShare": 0.0455,
-          "positiveReviews": 12,
-          "mixedReviews": 1,
+          "positiveReviews": 13,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "It is so comfortable!!!",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-            },
-            {
               "text": "the most comfortable new style of headgear I have every received",
               "retailer": "RespShop",
               "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+            },
+            {
+              "text": "It is so comfortable!!!",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
             }
           ],
           "negativeEvidence": []
@@ -3587,19 +4376,20 @@
         {
           "id": "overall_satisfaction",
           "label": "Overall Satisfaction",
-          "score": 92,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 9.2,
           "reviewCount": 6,
           "reviewShare": 0.021,
           "positiveReviews": 6,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "Best purchase ever",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+              "text": "I would recommend it to everyone",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
             },
             {
               "text": "Best headset I've ever had.",
@@ -3614,12 +4404,13 @@
         {
           "id": "stability",
           "label": "Stability",
-          "score": 32,
+          "score": 15,
+          "grade": "F-",
           "averageSentiment": 3.2,
           "reviewCount": 7,
           "reviewShare": 0.0245,
           "positiveReviews": 1,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 6,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3647,12 +4438,13 @@
     {
       "id": "cushion",
       "label": "Cushion",
-      "score": 81,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 8.1,
       "reviewCount": 23,
       "reviewShare": 0.0804,
       "positiveReviews": 20,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.8696,
       "negativeShare": 0.1304,
@@ -3742,12 +4534,12 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "The fit around the nose is not tight enough",
+          "text": "the cushions don't seal as well as the AirFit version",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "the cushions don't seal as well as the AirFit version",
+          "text": "The fit around the nose is not tight enough",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -3756,12 +4548,13 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 87,
+          "score": 94,
+          "grade": "A",
           "averageSentiment": 8.7,
           "reviewCount": 15,
           "reviewShare": 0.0524,
           "positiveReviews": 14,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -3787,22 +4580,23 @@
         {
           "id": "seal_leak",
           "label": "Seal Leak",
-          "score": 77,
+          "score": 87,
+          "grade": "A-",
           "averageSentiment": 7.7,
           "reviewCount": 7,
           "reviewShare": 0.0245,
           "positiveReviews": 6,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 1,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "great fit and seal!",
+              "text": "this one is just as airtight",
               "retailer": "CPAP.com",
               "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
             },
             {
-              "text": "this one is just as airtight",
+              "text": "great fit and seal!",
               "retailer": "CPAP.com",
               "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
             }
@@ -3821,14 +4615,15 @@
     {
       "id": "nasal_cushion",
       "label": "Nasal Cushion",
-      "score": 76,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.6,
       "reviewCount": 23,
       "reviewShare": 0.0804,
-      "positiveReviews": 18,
-      "mixedReviews": 1,
+      "positiveReviews": 19,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.7826,
+      "positiveShare": 0.8261,
       "negativeShare": 0.1739,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3874,11 +4669,6 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The nose piece is very comfortable!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        },
-        {
           "text": "The AirTouch N30i nasal mask is the most comfortable mask I have ever worn",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
@@ -3887,6 +4677,11 @@
           "text": "By far, this is the most comfortable nasal mask I have worn",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "The nose piece is very comfortable!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
@@ -3896,7 +4691,7 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         },
         {
-          "text": "Still having issues with moving on the night",
+          "text": "having air flow restricted by the very soft surface",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
@@ -3910,24 +4705,25 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 86,
+          "score": 98,
+          "grade": "A+",
           "averageSentiment": 8.6,
           "reviewCount": 18,
           "reviewShare": 0.0629,
           "positiveReviews": 17,
-          "mixedReviews": 1,
+          "neutralReviews": 1,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "The nose piece is very comfortable!",
+              "text": "The AirTouch N30i nasal mask is the most comfortable mask I have ever worn",
               "retailer": "CPAP.com",
               "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
             },
             {
-              "text": "The AirTouch N30i nasal mask is the most comfortable mask I have ever worn",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+              "text": "By far, this is the most comfortable nasal mask I have worn",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
             }
           ],
           "negativeEvidence": []
@@ -3938,14 +4734,15 @@
     {
       "id": "top_hose_connection",
       "label": "Top Hose Connection",
-      "score": 79,
+      "score": 92,
+      "grade": "A",
       "averageSentiment": 7.9,
       "reviewCount": 22,
       "reviewShare": 0.0769,
-      "positiveReviews": 18,
-      "mixedReviews": 3,
+      "positiveReviews": 19,
+      "neutralReviews": 2,
       "negativeReviews": 1,
-      "positiveShare": 0.8182,
+      "positiveShare": 0.8636,
       "negativeShare": 0.0455,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -3991,12 +4788,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Love having the hose behind me",
+          "text": "Think I've found my new favorite mask!",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "Think I've found my new favorite mask!",
+          "text": "Love having the hose behind me",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
@@ -4027,12 +4824,13 @@
         {
           "id": "hose_management",
           "label": "Hose Management",
-          "score": 88,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.8,
           "reviewCount": 6,
           "reviewShare": 0.021,
           "positiveReviews": 6,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -4055,12 +4853,13 @@
     {
       "id": "nasal_pillows",
       "label": "Nasal Pillows",
-      "score": 58,
+      "score": 60,
+      "grade": "C",
       "averageSentiment": 5.8,
       "reviewCount": 19,
       "reviewShare": 0.0664,
       "positiveReviews": 10,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 7,
       "positiveShare": 0.5263,
       "negativeShare": 0.3684,
@@ -4113,12 +4912,12 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "and pillows",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+          "text": "the cloth cover on the nasal pillow is soft and easy on the skin",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "Very comfortable",
+          "text": "and pillows",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
@@ -4130,12 +4929,12 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "the pillow is pulled up and off when you turn onto your side",
+          "text": "which has its tips shove into your nostrils which do provide a better seal but is uncomfortable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "This created sores in my nose",
+          "text": "Could not seem to get mask seal despite trying different size pillows, strap adjustents, etc",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -4146,12 +4945,13 @@
     {
       "id": "fabric_headgear",
       "label": "Fabric Headgear",
-      "score": 85,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.5,
       "reviewCount": 12,
       "reviewShare": 0.042,
       "positiveReviews": 12,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -4194,14 +4994,14 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "Smooth fabric",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        },
-        {
-          "text": "I love the soft fabric frame cover on the new N30i",
+          "text": "the top-of-the-head hose design gives me the freedom to move during sleep without feeling restricted",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "The straps are so supple and soft that I barely notice they're on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [],
@@ -4209,24 +5009,25 @@
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 81,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.1,
           "reviewCount": 7,
           "reviewShare": 0.0245,
           "positiveReviews": 7,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "I love the soft fabric frame cover on the new N30i",
-              "retailer": "RespShop",
-              "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
-            },
-            {
               "text": "The straps are so supple and soft that I barely notice they're on my face",
               "retailer": "CPAP.com",
               "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+            },
+            {
+              "text": "I love the soft fabric frame cover on the new N30i",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
             }
           ],
           "negativeEvidence": []
@@ -4237,12 +5038,13 @@
     {
       "id": "frame",
       "label": "Frame",
-      "score": 68,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 6.8,
       "reviewCount": 12,
       "reviewShare": 0.042,
       "positiveReviews": 9,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "positiveShare": 0.75,
       "negativeShare": 0.1667,
@@ -4274,9 +5076,9 @@
       ],
       "positiveEvidence": [
         {
-          "text": "quiet",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "The addition of the fabric to the frame and cushion is brilliant",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
         },
         {
           "text": "The fabric cover frame is comfortable",
@@ -4284,9 +5086,9 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "The addition of the fabric to the frame and cushion is brilliant",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
+          "text": "quiet",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
@@ -4307,14 +5109,15 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 76,
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.6,
       "reviewCount": 12,
       "reviewShare": 0.042,
-      "positiveReviews": 9,
-      "mixedReviews": 1,
+      "positiveReviews": 10,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.75,
+      "positiveShare": 0.8333,
       "negativeShare": 0.1667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4372,7 +5175,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "it does not stay in place well",
+          "text": "When sleeping on my side, the mask presses against the airflow area",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
@@ -4393,14 +5196,15 @@
     {
       "id": "silicone_cushion",
       "label": "Silicone Cushion",
-      "score": 57,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 5.7,
       "reviewCount": 12,
       "reviewShare": 0.042,
-      "positiveReviews": 6,
-      "mixedReviews": 2,
+      "positiveReviews": 7,
+      "neutralReviews": 1,
       "negativeReviews": 4,
-      "positiveShare": 0.5,
+      "positiveShare": 0.5833,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4441,31 +5245,31 @@
       ],
       "positiveEvidence": [
         {
-          "text": "With the AirTouch, I experience zero irritation",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        },
-        {
           "text": "who’s allergic to silicone it’s fantastic to see more and more mask options coming into play for me",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "I am allergic to the silicone masks",
+          "text": "My nose was sweating from the silicon of the previous version",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "With the AirTouch, I experience zero irritation",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I just cannot tolerate the silicone next to my skin",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
-        },
-        {
           "text": "I've always struggled with irritation from silicone cushions, especially with a brand new one.",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
+          "text": "I just cannot tolerate the silicone next to my skin",
+          "retailer": "CPAP Ninja",
+          "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
         },
         {
           "text": "I hate the feel of silicone on my face",
@@ -4479,14 +5283,15 @@
     {
       "id": "nasal_cradle_cushion",
       "label": "Nasal Cradle Cushion",
-      "score": 79,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 7.9,
       "reviewCount": 7,
       "reviewShare": 0.0245,
-      "positiveReviews": 5,
-      "mixedReviews": 2,
+      "positiveReviews": 6,
+      "neutralReviews": 1,
       "negativeReviews": 0,
-      "positiveShare": 0.7143,
+      "positiveShare": 0.8571,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -4554,26 +5359,27 @@
       ],
       "negativeEvidence": [
         {
-          "text": "A bit of soreness in nasal area for about 1/2 hour after waking",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
-        },
-        {
           "text": "Depending on how you move the mask does need some adjustments during the night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
+        },
+        {
+          "text": "A bit of soreness in nasal area for about 1/2 hour after waking",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "praisedAspects": [
         {
           "id": "comfort",
           "label": "Comfort",
-          "score": 90,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 9.0,
           "reviewCount": 5,
           "reviewShare": 0.0175,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
@@ -4596,12 +5402,13 @@
     {
       "id": "vent",
       "label": "Vent",
-      "score": 43,
+      "score": 41,
+      "grade": "D-",
       "averageSentiment": 4.3,
       "reviewCount": 6,
       "reviewShare": 0.021,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 3,
       "positiveShare": 0.3333,
       "negativeShare": 0.5,
@@ -4667,12 +5474,13 @@
     {
       "id": "cushion_seal",
       "label": "Cushion Seal",
-      "score": 79,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.9,
       "reviewCount": 5,
       "reviewShare": 0.0175,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -4694,14 +5502,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "with no leaks",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        },
-        {
           "text": "The seal is excellent — no air leaks during the night",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "with no leaks",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
           "text": "the seal is great",
@@ -4722,12 +5530,13 @@
     {
       "id": "hose",
       "label": "Hose",
-      "score": 60,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 5,
       "reviewShare": 0.0175,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.6,
       "negativeShare": 0.4,
@@ -4799,17 +5608,18 @@
     {
       "id": "nasal_cushion|comfort",
       "label": "Nasal Cushion · Comfort",
-      "score": 86,
+      "score": 98,
+      "grade": "A+",
       "averageSentiment": 8.6,
       "reviewCount": 18,
       "reviewShare": 0.0629,
       "positiveReviews": 17,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "The nose piece is very comfortable!",
+          "text": "The AirTouch N30i nasal mask is the most comfortable mask I have ever worn",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -4823,12 +5633,13 @@
     {
       "id": "cushion|comfort",
       "label": "Cushion · Comfort",
-      "score": 87,
+      "score": 94,
+      "grade": "A",
       "averageSentiment": 8.7,
       "reviewCount": 15,
       "reviewShare": 0.0524,
       "positiveReviews": 14,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4853,19 +5664,20 @@
     {
       "id": "headgear|comfort",
       "label": "Headgear · Comfort",
-      "score": 85,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.5,
       "reviewCount": 13,
       "reviewShare": 0.0455,
-      "positiveReviews": 12,
-      "mixedReviews": 1,
+      "positiveReviews": 13,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "It is so comfortable!!!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "the most comfortable new style of headgear I have every received",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "negativeEvidence": [],
@@ -4877,17 +5689,18 @@
     {
       "id": "cushion|seal_leak",
       "label": "Cushion · Seal Leak",
-      "score": 77,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.7,
       "reviewCount": 7,
       "reviewShare": 0.0245,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "great fit and seal!",
+          "text": "this one is just as airtight",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -4907,19 +5720,20 @@
     {
       "id": "fabric_headgear|comfort",
       "label": "Fabric Headgear · Comfort",
-      "score": 81,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.1,
       "reviewCount": 7,
       "reviewShare": 0.0245,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "I love the soft fabric frame cover on the new N30i",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+          "text": "The straps are so supple and soft that I barely notice they're on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [],
@@ -4931,12 +5745,13 @@
     {
       "id": "headgear|stability",
       "label": "Headgear · Stability",
-      "score": 32,
+      "score": 15,
+      "grade": "F-",
       "averageSentiment": 3.2,
       "reviewCount": 7,
       "reviewShare": 0.0245,
       "positiveReviews": 1,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -4961,19 +5776,20 @@
     {
       "id": "headgear|overall_satisfaction",
       "label": "Headgear · Overall Satisfaction",
-      "score": 92,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.2,
       "reviewCount": 6,
       "reviewShare": 0.021,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Best purchase ever",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "I would recommend it to everyone",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "negativeEvidence": [],
@@ -4985,19 +5801,20 @@
     {
       "id": "nasal_pillows|comfort",
       "label": "Nasal Pillows · Comfort",
-      "score": 63,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 6,
       "reviewShare": 0.021,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Very comfortable",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+          "text": "the cloth cover on the nasal pillow is soft and easy on the skin",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
@@ -5015,12 +5832,13 @@
     {
       "id": "top_hose_connection|hose_management",
       "label": "Top Hose Connection · Hose Management",
-      "score": 88,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 6,
       "reviewShare": 0.021,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5039,19 +5857,20 @@
     {
       "id": "cushion_seal|seal_leak",
       "label": "Cushion Seal · Seal Leak",
-      "score": 80,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 8.0,
       "reviewCount": 5,
       "reviewShare": 0.0175,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "with no leaks",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "The seal is excellent — no air leaks during the night",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -5069,12 +5888,13 @@
     {
       "id": "nasal_cradle_cushion|comfort",
       "label": "Nasal Cradle Cushion · Comfort",
-      "score": 90,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.0,
       "reviewCount": 5,
       "reviewShare": 0.0175,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5093,19 +5913,20 @@
     {
       "id": "nasal_cushion|seal_leak",
       "label": "Nasal Cushion · Seal Leak",
-      "score": 64,
+      "score": 63,
+      "grade": "C",
       "averageSentiment": 6.4,
       "reviewCount": 5,
       "reviewShare": 0.0175,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "yet still provides a great seal",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "seals better than anything I've used before",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -5123,12 +5944,13 @@
     {
       "id": "nasal_pillows|fit",
       "label": "Nasal Pillows · Fit",
-      "score": 48,
+      "score": 49,
+      "grade": "D",
       "averageSentiment": 4.8,
       "reviewCount": 5,
       "reviewShare": 0.0175,
       "positiveReviews": 2,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5140,7 +5962,7 @@
       ],
       "negativeEvidence": [
         {
-          "text": "the fit of the nostril piece is awful",
+          "text": "Could not seem to get mask seal despite trying different size pillows, strap adjustents, etc",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -5156,11 +5978,12 @@
       "id": "side-sleepers",
       "label": "Side sleepers",
       "score": 63,
+      "grade": "C",
       "averageSentiment": 6.3,
       "reviewCount": 19,
       "reviewShare": 0.0664,
       "positiveReviews": 11,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 7,
       "positiveShare": 0.5789,
       "negativeShare": 0.3684,
@@ -5208,7 +6031,7 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         },
         {
-          "text": "I can even sleep on my side and not lose air pressure",
+          "text": "It is the only one that stays in place to sleep comfortably on my side",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -5220,7 +6043,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "tends to shift during sleep",
+          "text": "When sleeping on my side, the mask presses against the airflow area",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -5234,12 +6057,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 66,
+      "score": 69,
+      "grade": "C+",
       "averageSentiment": 6.6,
       "reviewCount": 15,
       "reviewShare": 0.0524,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 5,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -5297,12 +6121,12 @@
       ],
       "positiveEvidence": [
         {
-          "text": "you can just about do cartwheels with it on and not break the seal",
+          "text": "I love the tube being on top so it doesn't get in the way when I'm moving around all night",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "I've been using nasal pillows but often wake and have to adjust the fit",
+          "text": "It makes it easier to roll over during the night without getting wrapped in hose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -5330,12 +6154,13 @@
     {
       "id": "long-term-users",
       "label": "Long-term CPAP users",
-      "score": 87,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.7,
       "reviewCount": 13,
       "reviewShare": 0.0455,
       "positiveReviews": 13,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -5363,14 +6188,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Been using cpap for 15 years",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        },
-        {
           "text": "Best CPAP mask ive worn to date (5+ yrs on cpap)",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "this is the best mask I have ever used",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [],
@@ -5383,14 +6208,15 @@
     {
       "id": "new-users",
       "label": "New CPAP users",
-      "score": 79,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 7.9,
       "reviewCount": 6,
       "reviewShare": 0.021,
-      "positiveReviews": 5,
-      "mixedReviews": 1,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8333,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [],
@@ -5430,12 +6256,13 @@
     {
       "id": "combination-sleepers",
       "label": "Combination sleepers",
-      "score": 90,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.0,
       "reviewCount": 5,
       "reviewShare": 0.0175,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -5462,12 +6289,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "it stays in place even when changing sleeping positions",
+          "text": "the top-of-the-head hose design gives me the freedom to move during sleep without feeling restricted",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         },
         {
-          "text": "Allows all movement",
+          "text": "moving your head around does not disturb the mask seal",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -5484,12 +6311,13 @@
     {
       "id": "side-sleepers|sleep_position_compatibility",
       "label": "Side sleepers · Sleep Position Compatibility",
-      "score": 78,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 7.8,
       "reviewCount": 11,
       "reviewShare": 0.0385,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -5514,19 +6342,20 @@
     {
       "id": "long-term-users|overall_satisfaction",
       "label": "Long-term CPAP users · Overall Satisfaction",
-      "score": 97,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.7,
       "reviewCount": 6,
       "reviewShare": 0.021,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Been using cpap for 15 years",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "Best CPAP mask ive worn to date (5+ yrs on cpap)",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "negativeEvidence": [],
@@ -5544,12 +6373,13 @@
     {
       "id": "nose",
       "label": "Nose",
-      "score": 63,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.3,
       "reviewCount": 40,
       "reviewShare": 0.1399,
       "positiveReviews": 24,
-      "mixedReviews": 5,
+      "neutralReviews": 5,
       "negativeReviews": 11,
       "positiveShare": 0.6,
       "negativeShare": 0.275,
@@ -5617,7 +6447,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The nose piece is very comfortable!",
+          "text": "my nose would sweat and irritate at times",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
@@ -5627,9 +6457,9 @@
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         },
         {
-          "text": "I have no nasal irritation anymore",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+          "text": "the cloth-lined nasal cushions are so soft I barely notice them pressing against my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
@@ -5644,7 +6474,7 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "the fit of the nostril piece is awful",
+          "text": "drying skin which I had to deal with throughout the day",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -5710,14 +6540,15 @@
     {
       "id": "face",
       "label": "Face",
-      "score": 78,
+      "score": 89,
+      "grade": "A-",
       "averageSentiment": 7.8,
       "reviewCount": 29,
       "reviewShare": 0.1014,
-      "positiveReviews": 22,
-      "mixedReviews": 5,
+      "positiveReviews": 24,
+      "neutralReviews": 3,
       "negativeReviews": 2,
-      "positiveShare": 0.7586,
+      "positiveShare": 0.8276,
       "negativeShare": 0.069,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -5773,6 +6604,11 @@
       ],
       "positiveEvidence": [
         {
+          "text": "leaves no marks on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        },
+        {
           "text": "Very comfortable on my face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
@@ -5781,21 +6617,16 @@
           "text": "So very comfortable",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
-        },
-        {
-          "text": "leaves no marks on my face",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I hate the feel of silicone on my face",
+          "text": "I can't stand the feel of silicone on my nose/face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "I can't stand the feel of silicone on my nose/face",
+          "text": "I hate the feel of silicone on my face",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
@@ -5851,12 +6682,13 @@
     {
       "id": "head",
       "label": "Head",
-      "score": 56,
+      "score": 55,
+      "grade": "C-",
       "averageSentiment": 5.6,
       "reviewCount": 13,
       "reviewShare": 0.0455,
       "positiveReviews": 7,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.5385,
       "negativeShare": 0.4615,
@@ -5914,22 +6746,17 @@
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "Stays on my head",
+          "text": "No irritation on face or head.",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         },
         {
-          "text": "No irritation on face or head.",
+          "text": "Stays on my head",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
-        {
-          "text": "Don't like tube on he'd",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        },
         {
           "text": "As a side sleeper it leaks with head on pillow",
           "retailer": "CPAP.com",
@@ -5939,6 +6766,11 @@
           "text": "Simlpy slips around on your head",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        },
+        {
+          "text": "Don't like tube on he'd",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "complaintReviews": 6,
@@ -6000,14 +6832,15 @@
   ],
   "interactionInsights": [
     {
-      "id": "body|nasal_cushion|nose|comfort",
-      "label": "Nasal Cushion at Nose: Comfort",
-      "score": 85,
+      "id": "body|nasal_cushion|nose|comfort_discomfort",
+      "label": "Nasal Cushion at Nose: Comfort and Discomfort",
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.5,
       "reviewCount": 10,
       "reviewShare": 0.035,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -6038,8 +6871,15 @@
       "kind": "body-component",
       "contextId": null,
       "contextLabel": null,
-      "aspectId": "comfort",
-      "aspectLabel": "Comfort",
+      "aspectId": "comfort_discomfort",
+      "aspectLabel": "Comfort and Discomfort",
+      "outcomeAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 10
+        }
+      ],
       "parts": [
         {
           "id": "nasal_cushion",
@@ -6056,245 +6896,99 @@
       ],
       "contexts": [],
       "tone": "favorable",
-      "description": "Reports about the nasal cushion where it contacts the nose were mostly favorable for comfort: 10 positive, 0 mixed, and 0 negative across 10 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
+      "description": "Reports about the nasal cushion where it contacts the nose were mostly favorable for comfort and discomfort: 10 positive, 0 neutral, and 0 negative across 10 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
     }
   ],
   "strengths": [
     {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 88,
-      "averageSentiment": 8.8,
-      "reviewCount": 127,
-      "reviewShare": 0.4441,
-      "positiveReviews": 115,
-      "mixedReviews": 4,
-      "negativeReviews": 8,
-      "positiveShare": 0.9055,
-      "negativeShare": 0.063,
-      "evidenceStrength": "strong",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Finally! This mask is the answer I have been looking for",
-          "retailer": "CPAP Ninja",
-          "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Hard pass",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        }
-      ]
-    },
-    {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 89,
-      "averageSentiment": 8.9,
-      "reviewCount": 95,
-      "reviewShare": 0.3322,
-      "positiveReviews": 91,
-      "mixedReviews": 1,
-      "negativeReviews": 3,
-      "positiveShare": 0.9579,
-      "negativeShare": 0.0316,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "Best most comfortable mask on the market",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "uncomfortable",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        }
-      ]
-    },
-    {
-      "id": "|||fit",
-      "label": "Fit",
-      "score": 77,
-      "averageSentiment": 7.7,
-      "reviewCount": 23,
-      "reviewShare": 0.0804,
-      "positiveReviews": 18,
-      "mixedReviews": 1,
-      "negativeReviews": 4,
-      "positiveShare": 0.7826,
-      "negativeShare": 0.1739,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "best fit I have ever used",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "bad fit",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        }
-      ]
-    },
-    {
-      "id": "|||therapy_effectiveness",
-      "label": "Therapy Effectiveness",
-      "score": 78,
-      "averageSentiment": 7.8,
-      "reviewCount": 20,
-      "reviewShare": 0.0699,
-      "positiveReviews": 18,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.9,
-      "negativeShare": 0.1,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "My apnea scores are much less",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "It didn’t work for me.. It didn’t work for me",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        }
-      ]
-    },
-    {
-      "id": "|||noise",
-      "label": "Noise",
-      "score": 72,
-      "averageSentiment": 7.2,
-      "reviewCount": 21,
-      "reviewShare": 0.0734,
-      "positiveReviews": 16,
-      "mixedReviews": 1,
-      "negativeReviews": 4,
-      "positiveShare": 0.7619,
-      "negativeShare": 0.1905,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "So quiet",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/airtouch-n30i-mask-standard-frame-fit-pack"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Noisiest mask I've tried",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        }
-      ]
-    },
-    {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 78,
-      "averageSentiment": 7.8,
+      "id": "site|nose|comfort",
+      "label": "Nose · Comfort",
+      "score": 95,
+      "grade": "A+",
+      "averageSentiment": 8.2,
       "reviewCount": 19,
       "reviewShare": 0.0664,
-      "positiveReviews": 16,
-      "mixedReviews": 1,
-      "negativeReviews": 2,
-      "positiveShare": 0.8421,
-      "negativeShare": 0.1053,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "I definitely had the best sleep with this new mask",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "could not sleep",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        }
-      ]
-    },
-    {
-      "id": "headgear|||comfort",
-      "label": "Headgear · Comfort",
-      "score": 86,
-      "averageSentiment": 8.6,
-      "reviewCount": 11,
-      "reviewShare": 0.0385,
-      "positiveReviews": 10,
-      "mixedReviews": 1,
-      "negativeReviews": 0,
-      "positiveShare": 0.9091,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [
-        {
-          "id": "headgear",
-          "label": "Headgear",
-          "reviewCount": 11
-        }
-      ],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "It is so comfortable!!!",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "nasal_cushion|nose||comfort",
-      "label": "Nasal Cushion · Nose · Comfort",
-      "score": 85,
-      "averageSentiment": 8.5,
-      "reviewCount": 10,
-      "reviewShare": 0.035,
-      "positiveReviews": 10,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
+      "positiveReviews": 18,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.9474,
+      "negativeShare": 0.0526,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "nasal_cushion",
           "label": "Nasal Cushion",
           "reviewCount": 10
+        },
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "nasal_cradle_cushion",
+          "label": "Nasal Cradle Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "foam_cushion",
+          "label": "Foam Cushion",
+          "reviewCount": 1
+        },
+        {
+          "id": "under_nose_cushion",
+          "label": "Under Nose Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 19
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The nose piece is very comfortable!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "Mask was not comfortable and",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        }
+      ]
+    },
+    {
+      "id": "part|nasal_cushion|comfort",
+      "label": "Nasal Cushion · Comfort",
+      "score": 98,
+      "grade": "A+",
+      "averageSentiment": 8.6,
+      "reviewCount": 18,
+      "reviewShare": 0.0629,
+      "positiveReviews": 17,
+      "neutralReviews": 1,
+      "negativeReviews": 0,
+      "positiveShare": 0.9444,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_cushion",
+          "label": "Nasal Cushion",
+          "reviewCount": 18
         }
       ],
       "associatedContexts": [],
@@ -6307,7 +7001,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "The nose piece is very comfortable!",
+          "text": "The AirTouch N30i nasal mask is the most comfortable mask I have ever worn",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -6315,56 +7009,215 @@
       "negativeEvidence": []
     },
     {
-      "id": "|||stability",
-      "label": "Stability",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 10,
-      "reviewShare": 0.035,
-      "positiveReviews": 9,
-      "mixedReviews": 0,
+      "id": "part|cushion|comfort",
+      "label": "Cushion · Comfort",
+      "score": 94,
+      "grade": "A",
+      "averageSentiment": 8.7,
+      "reviewCount": 15,
+      "reviewShare": 0.0524,
+      "positiveReviews": 14,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.9,
-      "negativeShare": 0.1,
+      "positiveShare": 0.9333,
+      "negativeShare": 0.0667,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 15
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "hot_sleeper",
+          "label": "Hot Sleeper",
+          "reviewCount": 1
+        },
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 3
+        },
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 3
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 2
+        },
+        {
+          "id": "under_nose",
+          "label": "Under Nose",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "Very comfortable and stable",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+          "text": "So very comfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "It just wouldn’t stay put at all",
+          "text": "Mask was not comfortable and",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ]
     },
     {
-      "id": "|face||face_marks",
-      "label": "Face · Face Marks",
-      "score": 77,
-      "averageSentiment": 7.7,
-      "reviewCount": 10,
-      "reviewShare": 0.035,
-      "positiveReviews": 8,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.8,
-      "negativeShare": 0.2,
+      "id": "part|headgear|comfort",
+      "label": "Headgear · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.5,
+      "reviewCount": 13,
+      "reviewShare": 0.0455,
+      "positiveReviews": 13,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 13
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "ears",
+          "label": "Ears",
+          "reviewCount": 1
+        },
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "the most comfortable new style of headgear I have every received",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "site|face|comfort",
+      "label": "Face · Comfort",
+      "score": 94,
+      "grade": "A",
+      "averageSentiment": 8.3,
+      "reviewCount": 13,
+      "reviewShare": 0.0455,
+      "positiveReviews": 11,
+      "neutralReviews": 2,
+      "negativeReviews": 0,
+      "positiveShare": 0.8462,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 3
+        },
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 3
+        },
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "liner",
+          "label": "Liner",
+          "reviewCount": 1
+        },
+        {
+          "id": "mask_liner",
+          "label": "Mask Liner",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "hot_sleeper",
+          "label": "Hot Sleeper",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 13
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Very comfortable on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "I can't stand the feel of silicone on my nose/face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        }
+      ]
+    },
+    {
+      "id": "site|face|face_marks",
+      "label": "Face · Face Marks",
+      "score": 83,
+      "grade": "B+",
+      "averageSentiment": 7.7,
+      "reviewCount": 11,
+      "reviewShare": 0.0385,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
+      "negativeReviews": 2,
+      "positiveShare": 0.8182,
+      "negativeShare": 0.1818,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 1
+        }
+      ],
       "associatedContexts": [],
       "associatedBodySites": [
         {
           "id": "face",
           "label": "Face",
-          "reviewCount": 10
+          "reviewCount": 11
         }
       ],
       "positiveEvidence": [
@@ -6383,61 +7236,270 @@
       ]
     },
     {
-      "id": "||side_sleeping|sleep_position_compatibility",
-      "label": "Side Sleeping · Sleep Position Compatibility",
-      "score": 83,
-      "averageSentiment": 8.3,
-      "reviewCount": 9,
-      "reviewShare": 0.0315,
-      "positiveReviews": 8,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.8889,
-      "negativeShare": 0.1111,
+      "id": "part|fabric_headgear|comfort",
+      "label": "Fabric Headgear · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.1,
+      "reviewCount": 7,
+      "reviewShare": 0.0245,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [
+      "associatedParts": [
         {
-          "id": "side_sleeping",
-          "label": "Side Sleeping",
-          "reviewCount": 9
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 7
         }
       ],
-      "associatedBodySites": [],
+      "associatedContexts": [
+        {
+          "id": "hot_sleeper",
+          "label": "Hot Sleeper",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "face",
+          "label": "Face",
+          "reviewCount": 3
+        },
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 1
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "As a side sleeper, this mask has changed my dreamworld forever",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+          "text": "The straps are so supple and soft that I barely notice they're on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "part|cushion|seal_leak",
+      "label": "Cushion · Seal Leak",
+      "score": 87,
+      "grade": "A-",
+      "averageSentiment": 7.7,
+      "reviewCount": 7,
+      "reviewShare": 0.0245,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
+      "positiveShare": 0.8571,
+      "negativeShare": 0.1429,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "under_nose",
+          "label": "Under Nose",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "this one is just as airtight",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "kind of a hassle to sleep on the side",
+          "text": "the cushions don't seal as well as the AirFit version",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
       ]
     },
     {
-      "id": "|||ease_of_use",
-      "label": "Ease Of Use",
-      "score": 80,
-      "averageSentiment": 8.0,
-      "reviewCount": 8,
-      "reviewShare": 0.028,
-      "positiveReviews": 8,
-      "mixedReviews": 0,
+      "id": "site|skin|comfort",
+      "label": "Skin · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.4,
+      "reviewCount": 6,
+      "reviewShare": 0.021,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
+      "associatedParts": [
+        {
+          "id": "cushion",
+          "label": "Cushion",
+          "reviewCount": 2
+        },
+        {
+          "id": "fabric_headgear",
+          "label": "Fabric Headgear",
+          "reviewCount": 1
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "sensitive_skin",
+          "label": "Sensitive Skin",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 6
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "this mask is! It is light and quiet too",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "part|top_hose_connection|hose_management",
+      "label": "Top Hose Connection · Hose Management",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.8,
+      "reviewCount": 6,
+      "reviewShare": 0.021,
+      "positiveReviews": 6,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "top_hose_connection",
+          "label": "Top Hose Connection",
+          "reviewCount": 6
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        }
+      ],
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "easy to set",
+          "text": "Love having the hose behind me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "part|nasal_cradle_cushion|comfort",
+      "label": "Nasal Cradle Cushion · Comfort",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 9.0,
+      "reviewCount": 5,
+      "reviewShare": 0.0175,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_cradle_cushion",
+          "label": "Nasal Cradle Cushion",
+          "reviewCount": 5
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "upper_lip",
+          "label": "Upper Lip",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "without a doubt the most comfortable way I found",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+        }
+      ],
+      "negativeEvidence": []
+    },
+    {
+      "id": "site|skin|irritation",
+      "label": "Skin · Irritation",
+      "score": 100,
+      "grade": "A+",
+      "averageSentiment": 8.4,
+      "reviewCount": 5,
+      "reviewShare": 0.0175,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
+      "negativeReviews": 0,
+      "positiveShare": 1.0,
+      "negativeShare": 0.0,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "frame",
+          "label": "Frame",
+          "reviewCount": 1
+        },
+        {
+          "id": "silicone_cushion",
+          "label": "Silicone Cushion",
+          "reviewCount": 1
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "skin",
+          "label": "Skin",
+          "reviewCount": 5
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "which doesn’t irritate my skin",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
         }
@@ -6445,7 +7507,73 @@
       "negativeEvidence": []
     }
   ],
-  "concerns": [],
+  "concerns": [
+    {
+      "id": "part|headgear|stability",
+      "label": "Headgear · Stability",
+      "score": 15,
+      "grade": "F-",
+      "averageSentiment": 3.2,
+      "reviewCount": 7,
+      "reviewShare": 0.0245,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.1429,
+      "negativeShare": 0.8571,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "headgear",
+          "label": "Headgear",
+          "reviewCount": 7
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "active_sleeping",
+          "label": "Active Sleeping",
+          "reviewCount": 1
+        },
+        {
+          "id": "short_lower_jaw",
+          "label": "Short Lower Jaw",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "head",
+          "label": "Head",
+          "reviewCount": 2
+        },
+        {
+          "id": "back_of_head",
+          "label": "Back Of Head",
+          "reviewCount": 1
+        },
+        {
+          "id": "hair",
+          "label": "Hair",
+          "reviewCount": 1
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "The upper part styas in place better",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the headgear part is horrible",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+        }
+      ]
+    }
+  ],
   "retailers": [
     {
       "retailer": "CPAP.com",
@@ -6491,73 +7619,73 @@
   "evidence": {
     "positive": [
       {
-        "text": "Finally! This mask is the answer I have been looking for",
-        "retailer": "CPAP Ninja",
-        "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
-      },
-      {
-        "text": "Best purchase ever",
+        "text": "The AirTouch N30i nasal mask is the most comfortable mask I have ever worn",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
       },
       {
-        "text": "Mask is excellent",
+        "text": "I also have sensitive skin, and this one gives me no issues",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
       },
       {
-        "text": "Best most comfortable mask on the market",
+        "text": "The lining fabric affixed to the AirTouch N30i cushion is a godsend!",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+      },
+      {
+        "text": "This is the only mask I want to use form now on",
         "retailer": "RespShop",
         "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
       },
       {
-        "text": "Great mask, works better than anything I have used",
+        "text": "By far, this is the most comfortable nasal mask I have worn",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+      },
+      {
+        "text": "Best move I have made purchasing the new CPAP machine from ResMed",
+        "retailer": "RespShop",
+        "productUrl": "https://www.respshop.com/products/resmed-airtouch-n30i-nasal-cradle-cpap-mask-with-comfisoft-8482-cushion-most-comfortable-cpap-mask"
+      }
+    ],
+    "negative": [
+      {
+        "text": "it's a Lousy design that never should have made it to the retail market",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
       },
       {
-        "text": "Love it!!",
+        "text": "I've always struggled with irritation from silicone cushions, especially with a brand new one.",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-      }
-    ],
-    "negative": [
+      },
+      {
+        "text": "I especially hate the pressure that nasal masks put on my upper lip",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
+      },
       {
         "text": "I just cannot tolerate the silicone next to my skin",
         "retailer": "CPAP Ninja",
         "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed"
       },
       {
-        "text": "it is extremely Loud",
+        "text": "put it bag in its package and threw it away",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
       },
       {
-        "text": "Noisiest mask I've tried",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-      },
-      {
-        "text": "bad fit",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-      },
-      {
-        "text": "feeling like I was suffocating",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
-      },
-      {
-        "text": "Does not fit uptight to",
+        "text": "the plastic piece that keeps falling out is maddening",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/resmed-airtouch-n30i-nasal-cpap-mask?variant=50206535516476"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }

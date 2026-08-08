@@ -1,8 +1,28 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "slug": "fisher-paykel-nova-micro",
   "name": "Fisher & Paykel Nova Micro",
   "catalogOrder": 52,
+  "search": {
+    "aliases": [
+      "F&P Nova Micro Nasal Pillow CPAP Mask with Headgear",
+      "Fisher & Paykel Nova Micro Nasal Pillows CPAP Mask",
+      "Fisher & Paykel Nova Micro™ Nasal Pillow CPAP Mask",
+      "Fisher & Paykel | Nova Micro Nasal Pillow CPAP Mask",
+      "Nova Micro Nasal Pillow CPAP Mask",
+      "Nova Micro Nasal Pillows Mask Kit",
+      "Nova Micro Pillows CPAP Mask Fit Pack"
+    ],
+    "abbreviations": [
+      "F&P",
+      "FP",
+      "Fisher Paykel"
+    ],
+    "maskTypes": [
+      "Nasal Pillow",
+      "Nasal"
+    ]
+  },
   "coverage": {
     "status": "complete",
     "processedReviews": 95,
@@ -13,32 +33,35 @@
     "reviewDateEnd": "2026-06-05"
   },
   "overall": {
-    "compositeScore": 85,
+    "score": 81,
+    "grade": "B+",
+    "calculation": "90% star rating + 10% review-text satisfaction",
     "ratingComponent": {
       "average": 4.23,
-      "score": 85,
+      "score": 81,
       "reviewCount": 95,
-      "weight": 0.6
+      "weight": 0.9
     },
     "textSatisfactionComponent": {
       "averageSentiment": 8.4,
       "score": 84,
       "reviewCount": 40,
-      "weight": 0.4
+      "weight": 0.1
     }
   },
   "dimensions": [
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 71,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.1,
       "reviewCount": 65,
       "reviewShare": 0.6842,
-      "positiveReviews": 44,
-      "mixedReviews": 9,
+      "positiveReviews": 51,
+      "neutralReviews": 2,
       "negativeReviews": 12,
-      "positiveShare": 0.6769,
+      "positiveShare": 0.7846,
       "negativeShare": 0.1846,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -129,21 +152,101 @@
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
+          "text": "A very comfortable lightweight mask",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "Pillows are so comfortable!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "us extremely soft",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
           "text": "extremely comfortable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "I really like F&Ps nasal pillows as they are the most comfortable I’ve tried",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "the nasal prongs would make my nostrils sore from sleeping on my side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "wanted a something nasal pillow mask that was small and light",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "this mask is so comfortable I barely notice it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+        },
+        {
+          "text": "more comfortable on my nose than the P10",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "the rubber cushion goes up into your nostrils which was very uncomfortable for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "the plastic portion seems to just dig in making it worse",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "the cushions were always too tight against the nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
           "text": "you can't breathe",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "The nose inserts really hurt your nose",
+          "text": "uncomfortable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+        },
+        {
+          "text": "the hard piece below the cushion dug into the skin right underneath my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "the starps do not cut into my face like my previous straps did",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "The large pillows hurt my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "cause my nose to hurt",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Nose piece was very uncomfortable",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
       ]
     },
@@ -151,13 +254,14 @@
       "id": "fit-and-sizing",
       "label": "Fit & sizing",
       "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.9,
       "reviewCount": 51,
       "reviewShare": 0.5368,
-      "positiveReviews": 24,
-      "mixedReviews": 8,
+      "positiveReviews": 26,
+      "neutralReviews": 6,
       "negativeReviews": 19,
-      "positiveShare": 0.4706,
+      "positiveShare": 0.5098,
       "negativeShare": 0.3725,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -251,6 +355,46 @@
           "text": "I fit it once and never readjusted it again",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "I have taken my CPAP mini in different trips",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "This worked from the minute I put it on",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Finally, a mask that works for small faces!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "the pillows fit nicely inside my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "you can actually adjust it properly",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-micro-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Easy and comfortable fit",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "it is so small",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "without constant adjustments",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
         }
       ],
       "negativeEvidence": [
@@ -260,21 +404,62 @@
           "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
         },
         {
+          "text": "It's really difficult to get the angle just right",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
           "text": "no matter how I try to adjust it",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+        },
+        {
+          "text": "Not a good fit for me.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "Make them for bigger heads",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "Even tight",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "It is important to not get the straps \"overly tight\" as that tends to defeat the fantastic pillow seal that makes this mask so great",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "The nasal openings have to be inserted further into the nostrils to work properly",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "The small nose pillow is even a bit too small for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "Make sure you breathing method fit this mask before purchasing",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ]
     },
     {
       "id": "seal-and-leaks",
       "label": "Seal & leaks",
-      "score": 73,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 7.3,
       "reviewCount": 25,
       "reviewShare": 0.2632,
       "positiveReviews": 19,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 5,
       "positiveShare": 0.76,
       "negativeShare": 0.2,
@@ -317,14 +502,59 @@
           "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
         },
         {
+          "text": "A very comfortable lightweight mask that seals well",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "seals well without needing to be tight",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
           "text": "actually inflate to form a seal",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "the leak rate was almost zero",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "I've had no issues with leaks",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "best seal for the longest time",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Tightest seal I have had",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "provides a nice leak-free fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "reduced my leak rate significantly",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "otherwise, it leaks air",
+          "text": "wasn't able to get a good seal with any size nostril piece",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "which leads to additional leaking",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
@@ -332,20 +562,36 @@
           "text": "it seems to leak air",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "So they either leak",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Medium leaks bad",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "may leak a little more when moving around while asleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ]
     },
     {
       "id": "sleep-compatibility",
-      "label": "Sleep compatibility",
-      "score": 64,
+      "label": "Stability",
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.4,
       "reviewCount": 30,
       "reviewShare": 0.3158,
-      "positiveReviews": 19,
-      "mixedReviews": 1,
+      "positiveReviews": 20,
+      "neutralReviews": 0,
       "negativeReviews": 10,
-      "positiveShare": 0.6333,
+      "positiveShare": 0.6667,
       "negativeShare": 0.3333,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -426,24 +672,94 @@
       ],
       "positiveEvidence": [
         {
+          "text": "the most comfortable mask I’ve found for sleeping on my side",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
           "text": "is perfect as a side sleeper",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
-          "text": "the most comfortable mask I’ve found for sleeping on my side",
+          "text": "The minimal headgear is like ,sleeping without a cpap yet is amazingly stable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "It stays in place all night",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+        },
+        {
+          "text": "allows for easy movement in bed",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+        },
+        {
+          "text": "Great mask for side sleepers",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-micro-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Perfect for side sleeping",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "stays in place",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "The headgear is comfortable and doesn’t shift as much during the night",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "I can sleep on my side with minimal adjustments to the mask",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
         {
+          "text": "all the mask so far get knocked loose or jammed into my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "if you move it disrupts that and leaks all over again",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
           "text": "the weak strap kept causing mask leaks",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
         },
         {
+          "text": "the pillows come off quite easily",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-micro-nasal-pillow-cpap-mask"
+        },
+        {
           "text": "It also moves during sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "The connector hose is approximately two or three inches shorter than that of comparable products",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
+        },
+        {
+          "text": "My hair also kept getting caught up in the straps",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Can get bumped off center easily",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
@@ -451,15 +767,16 @@
     },
     {
       "id": "ease-of-use",
-      "label": "Ease of use",
-      "score": 70,
+      "label": "Ease of Use",
+      "score": 85,
+      "grade": "A-",
       "averageSentiment": 7.0,
       "reviewCount": 27,
       "reviewShare": 0.2842,
-      "positiveReviews": 16,
-      "mixedReviews": 7,
+      "positiveReviews": 22,
+      "neutralReviews": 1,
       "negativeReviews": 4,
-      "positiveShare": 0.5926,
+      "positiveShare": 0.8148,
       "negativeShare": 0.1481,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -540,9 +857,49 @@
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
+          "text": "It's super easy to remove and reattach the pillow",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "you can actually adjust it properly",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-micro-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "had no problem switching to it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
+        },
+        {
           "text": "without constant adjustments",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+        },
+        {
+          "text": "easy to clean",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "the more adjustable head straps on the Nova Micro",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "I can still read or watch TV with it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "the nasal pillows are less intrusive",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "The nasal pillows arw easy tonputbon",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -552,21 +909,32 @@
           "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
         },
         {
-          "text": "it’s challenging getting the nose pads on correctly",
+          "text": "there are no marking on the pads showing top or bottom of the pads",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "Also if the top and back straps had different thicknesses",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
+        },
+        {
+          "text": "hate anything on my face",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
       ]
     },
     {
       "id": "airflow-and-noise",
       "label": "Airflow & noise",
-      "score": 59,
+      "score": 56,
+      "grade": "C-",
       "averageSentiment": 5.9,
       "reviewCount": 19,
       "reviewShare": 0.2,
       "positiveReviews": 10,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 9,
       "positiveShare": 0.5263,
       "negativeShare": 0.4737,
@@ -616,30 +984,76 @@
           "text": "the mask is very quiet",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "No noisy air leaks",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "the Micro's exhaust ports dampen the exhaust very well",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "the venting is as good as the P10",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "I think the Nova is more quiet",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
+        },
+        {
+          "text": "doesn't blast my eyes like others",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "The F&P is quiet",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "blasted in the eyes with the very strong amount of air from the vent holes",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
         {
           "text": "air blows all over my face",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
         },
         {
-          "text": "blasted in the eyes with the very strong amount of air from the vent holes",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+          "text": "I experience some difficulty achieving a free-flowing exhale with this particular nasal pillow",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+        },
+        {
+          "text": "I do wish their was a filter to silence the air flow port",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "The exhaust vents are noisy when air hits nearby surfaces",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
         }
       ]
     },
     {
       "id": "skin-and-pain",
       "label": "Skin & pain",
-      "score": 43,
+      "score": 34,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 25,
       "reviewShare": 0.2632,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 17,
       "positiveShare": 0.32,
       "negativeShare": 0.68,
@@ -725,32 +1139,93 @@
           "text": "the nasal prongs would make my nostrils sore from sleeping on my side",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "does not cause an irritation to my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "it doesn't leave marks on my face \"as is\" without needing Pad-a-Cheek cushions",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "I no longer have issues with a sore nose",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+        },
+        {
+          "text": "The Nova Micro is less irritating to my nostrils",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "The nose inserts really hurt your nose",
+          "text": "the plastic portion seems to just dig in making it worse",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "the hard piece below the cushion dug into the skin right underneath my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         },
         {
           "text": "Severe dry eyes occurred because of that air coming from the vent holes",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "the starps do not cut into my face like my previous straps did",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "The large pillows hurt my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "This mask caused significant irritation.",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "cause my nose to hurt",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "Discomfort on the nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "my nostrils are sore",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "causing irritation",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
         }
       ]
     },
     {
       "id": "durability",
       "label": "Durability",
-      "score": 49,
+      "score": 43,
+      "grade": "D-",
       "averageSentiment": 4.9,
       "reviewCount": 13,
       "reviewShare": 0.1368,
-      "positiveReviews": 3,
-      "mixedReviews": 4,
+      "positiveReviews": 4,
+      "neutralReviews": 3,
       "negativeReviews": 6,
-      "positiveShare": 0.2308,
+      "positiveShare": 0.3077,
       "negativeShare": 0.4615,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -809,30 +1284,71 @@
           "text": "it will last longer than 3 mos",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-micro-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "About a month in",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "may be a game changer if it's durable",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
+        },
+        {
+          "text": "if the F&P turns out to be durable",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
+        {
+          "text": "the nasal pillows do not last long at all",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
         {
           "text": "they compress",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "the nasal pillows do not last long at all",
+          "text": "it does not include a filter",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "the headgear strap rapidly deteriorates",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "May not last as long since it is so lite",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "though, like many, they stretch a bit with use",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "The straps are very thin",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
         }
       ]
     },
     {
       "id": "therapy-experience",
       "label": "Therapy experience",
-      "score": 75,
+      "score": 87,
+      "grade": "A-",
       "averageSentiment": 7.5,
       "reviewCount": 16,
       "reviewShare": 0.1684,
       "positiveReviews": 14,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 2,
       "positiveShare": 0.875,
       "negativeShare": 0.125,
@@ -862,18 +1378,58 @@
           "text": "allowing for restful sleep",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+        },
+        {
+          "text": "just peaceful sleep!",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Works",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
+        },
+        {
+          "text": "I could not tolerate the Resmed nasal pillows but these work for me",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "I feel that I get better therapy with pillows rather than nasal cradle",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "my apnea improves when I use the nasal pillows vs Airfit F40",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "Getting 7-& hours of sleep with this mask most nights",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "my Flow Limitation values decreased using this mask",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "managed 8 hours",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I can't use it",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
-        },
-        {
           "text": "I just couldn't make it through more than 3 hours without ripping it off",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "I can't use it",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
         }
       ]
     }
@@ -882,14 +1438,15 @@
     {
       "id": "comfort",
       "label": "Comfort",
-      "score": 74,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.4,
       "reviewCount": 48,
       "reviewShare": 0.5053,
-      "positiveReviews": 37,
-      "mixedReviews": 2,
+      "positiveReviews": 39,
+      "neutralReviews": 0,
       "negativeReviews": 9,
-      "positiveShare": 0.7708,
+      "positiveShare": 0.8125,
       "negativeShare": 0.1875,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -970,7 +1527,7 @@
       ],
       "positiveEvidence": [
         {
-          "text": "extremely comfortable",
+          "text": "A very comfortable lightweight mask",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
@@ -982,28 +1539,29 @@
       ],
       "negativeEvidence": [
         {
+          "text": "the rubber cushion goes up into your nostrils which was very uncomfortable for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
           "text": "It's too painful to wear multiple nights much less one night",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
-        },
-        {
-          "text": "uncomfortable",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
         }
       ]
     },
     {
       "id": "overall_satisfaction",
       "label": "Overall Satisfaction",
-      "score": 84,
+      "score": 91,
+      "grade": "A",
       "averageSentiment": 8.4,
       "reviewCount": 40,
       "reviewShare": 0.4211,
-      "positiveReviews": 32,
-      "mixedReviews": 5,
+      "positiveReviews": 35,
+      "neutralReviews": 2,
       "negativeReviews": 3,
-      "positiveShare": 0.8,
+      "positiveShare": 0.875,
       "negativeShare": 0.075,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -1033,12 +1591,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "love the new mask",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+          "text": "I found this bad boy and loved it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         },
         {
-          "text": "Highly recommend",
+          "text": "This mask is the best!",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
@@ -1059,12 +1617,13 @@
     {
       "id": "fit",
       "label": "Fit",
-      "score": 63,
+      "score": 62,
+      "grade": "C",
       "averageSentiment": 6.3,
       "reviewCount": 32,
       "reviewShare": 0.3368,
       "positiveReviews": 17,
-      "mixedReviews": 4,
+      "neutralReviews": 4,
       "negativeReviews": 11,
       "positiveShare": 0.5312,
       "negativeShare": 0.3438,
@@ -1154,12 +1713,12 @@
       ],
       "negativeEvidence": [
         {
-          "text": "Poor fit or wrong size",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+          "text": "It's really difficult to get the angle just right",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         },
         {
-          "text": "It's really difficult to get the angle just right",
+          "text": "Not a good fit for me.",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
@@ -1168,12 +1727,13 @@
     {
       "id": "seal_leak",
       "label": "Seal Leak",
-      "score": 73,
+      "score": 79,
+      "grade": "B",
       "averageSentiment": 7.3,
       "reviewCount": 24,
       "reviewShare": 0.2526,
       "positiveReviews": 18,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 5,
       "positiveShare": 0.75,
       "negativeShare": 0.2083,
@@ -1216,19 +1776,19 @@
           "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
         },
         {
-          "text": "actually inflate to form a seal",
+          "text": "A very comfortable lightweight mask that seals well",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "otherwise, it leaks air",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+          "text": "wasn't able to get a good seal with any size nostril piece",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         },
         {
-          "text": "it seems to leak air",
+          "text": "which leads to additional leaking",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
@@ -1237,12 +1797,13 @@
     {
       "id": "weight",
       "label": "Weight",
-      "score": 88,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 21,
       "reviewShare": 0.2211,
       "positiveReviews": 21,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -1268,9 +1829,9 @@
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
-          "text": "Light",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+          "text": "wanted a something nasal pillow mask that was small and light",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -1278,12 +1839,13 @@
     {
       "id": "stability",
       "label": "Stability",
-      "score": 57,
+      "score": 59,
+      "grade": "C-",
       "averageSentiment": 5.7,
       "reviewCount": 19,
       "reviewShare": 0.2,
       "positiveReviews": 11,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 8,
       "positiveShare": 0.5789,
       "negativeShare": 0.4211,
@@ -1351,40 +1913,41 @@
       ],
       "positiveEvidence": [
         {
-          "text": "It stays in place all night",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
-        },
-        {
           "text": "The minimal headgear is like ,sleeping without a cpap yet is amazingly stable",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "It stays in place all night",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "the weak strap kept causing mask leaks",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
+          "text": "all the mask so far get knocked loose or jammed into my nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "It also moves during sleep",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+          "text": "if you move it disrupts that and leaks all over again",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
       ]
     },
     {
       "id": "sizing",
       "label": "Sizing",
-      "score": 41,
+      "score": 29,
+      "grade": "F",
       "averageSentiment": 4.1,
       "reviewCount": 15,
       "reviewShare": 0.1579,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 10,
-      "positiveShare": 0.2,
+      "positiveShare": 0.2667,
       "negativeShare": 0.6667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1466,12 +2029,13 @@
     {
       "id": "noise",
       "label": "Noise",
-      "score": 67,
+      "score": 70,
+      "grade": "B-",
       "averageSentiment": 6.7,
       "reviewCount": 12,
       "reviewShare": 0.1263,
       "positiveReviews": 8,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.6667,
       "negativeShare": 0.3333,
@@ -1505,28 +2069,29 @@
       ],
       "negativeEvidence": [
         {
-          "text": "The exhaust vents are noisy when air hits nearby surfaces",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
-        },
-        {
           "text": "I do wish their was a filter to silence the air flow port",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "The exhaust vents are noisy when air hits nearby surfaces",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
         }
       ]
     },
     {
       "id": "previous_mask_comparison",
       "label": "Previous Mask Comparison",
-      "score": 68,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 6.8,
       "reviewCount": 12,
       "reviewShare": 0.1263,
-      "positiveReviews": 7,
-      "mixedReviews": 4,
+      "positiveReviews": 9,
+      "neutralReviews": 2,
       "negativeReviews": 1,
-      "positiveShare": 0.5833,
+      "positiveShare": 0.75,
       "negativeShare": 0.0833,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1566,14 +2131,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "tried four masks before finding this one",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
-        },
-        {
           "text": "I've tried a LOT of masks over the years",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "making it much less noticeable than a full mask",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillow-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -1592,14 +2157,15 @@
     {
       "id": "adjustment",
       "label": "Adjustment",
-      "score": 71,
+      "score": 83,
+      "grade": "B+",
       "averageSentiment": 7.1,
       "reviewCount": 11,
       "reviewShare": 0.1158,
-      "positiveReviews": 7,
-      "mixedReviews": 2,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.6364,
+      "positiveShare": 0.8182,
       "negativeShare": 0.1818,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1655,14 +2221,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "without constant adjustments",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
-        },
-        {
           "text": "you can actually adjust it properly",
           "retailer": "CPAPsupplies.com",
           "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-micro-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "without constant adjustments",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
         }
       ],
       "negativeEvidence": [
@@ -1681,12 +2247,13 @@
     {
       "id": "soreness",
       "label": "Soreness",
-      "score": 50,
+      "score": 42,
+      "grade": "D-",
       "averageSentiment": 5.0,
       "reviewCount": 10,
       "reviewShare": 0.1053,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -1765,14 +2332,15 @@
     {
       "id": "ease_of_use",
       "label": "Ease Of Use",
-      "score": 74,
+      "score": 95,
+      "grade": "A+",
       "averageSentiment": 7.4,
       "reviewCount": 8,
       "reviewShare": 0.0842,
-      "positiveReviews": 5,
-      "mixedReviews": 3,
+      "positiveReviews": 7,
+      "neutralReviews": 1,
       "negativeReviews": 0,
-      "positiveShare": 0.625,
+      "positiveShare": 0.875,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1818,9 +2386,9 @@
           "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
         },
         {
-          "text": "It is easy to wear",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+          "text": "The nasal pillows arw easy tonputbon",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
       ],
       "negativeEvidence": []
@@ -1828,12 +2396,13 @@
     {
       "id": "access_to_face",
       "label": "Access To Face",
-      "score": 74,
+      "score": 88,
+      "grade": "A-",
       "averageSentiment": 7.4,
       "reviewCount": 7,
       "reviewShare": 0.0737,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8571,
       "negativeShare": 0.1429,
@@ -1886,9 +2455,9 @@
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
-          "text": "the nasal pillows are less intrusive",
-          "retailer": "RespShop",
-          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+          "text": "I can still read or watch TV with it",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
@@ -1902,14 +2471,15 @@
     {
       "id": "durability",
       "label": "Durability",
-      "score": 58,
+      "score": 66,
+      "grade": "C+",
       "averageSentiment": 5.8,
       "reviewCount": 7,
       "reviewShare": 0.0737,
-      "positiveReviews": 2,
-      "mixedReviews": 4,
+      "positiveReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 1,
-      "positiveShare": 0.2857,
+      "positiveShare": 0.4286,
       "negativeShare": 0.1429,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -1954,12 +2524,13 @@
     {
       "id": "pain",
       "label": "Pain",
-      "score": 20,
+      "score": 0,
+      "grade": "F-",
       "averageSentiment": 2.0,
       "reviewCount": 7,
       "reviewShare": 0.0737,
       "positiveReviews": 0,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "positiveShare": 0.0,
       "negativeShare": 1.0,
@@ -2018,26 +2589,27 @@
       "positiveEvidence": [],
       "negativeEvidence": [
         {
-          "text": "The nose inserts really hurt your nose",
+          "text": "the plastic portion seems to just dig in making it worse",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "Discomfort on the nose",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+          "text": "the hard piece below the cushion dug into the skin right underneath my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
       ]
     },
     {
       "id": "size_availability",
       "label": "Size Availability",
-      "score": 54,
+      "score": 46,
+      "grade": "D",
       "averageSentiment": 5.4,
       "reviewCount": 7,
       "reviewShare": 0.0737,
       "positiveReviews": 3,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.4286,
       "negativeShare": 0.5714,
@@ -2089,14 +2661,15 @@
     {
       "id": "sleep_position_compatibility",
       "label": "Sleep Position Compatibility",
-      "score": 84,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 7,
       "reviewShare": 0.0737,
-      "positiveReviews": 6,
-      "mixedReviews": 1,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
       "negativeReviews": 0,
-      "positiveShare": 0.8571,
+      "positiveShare": 1.0,
       "negativeShare": 0.0,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2121,12 +2694,12 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "is perfect as a side sleeper",
+          "text": "the most comfortable mask I’ve found for sleeping on my side",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
-          "text": "the most comfortable mask I’ve found for sleeping on my side",
+          "text": "is perfect as a side sleeper",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
@@ -2136,14 +2709,15 @@
     {
       "id": "appearance",
       "label": "Appearance",
-      "score": 67,
+      "score": 84,
+      "grade": "B+",
       "averageSentiment": 6.7,
       "reviewCount": 6,
       "reviewShare": 0.0632,
-      "positiveReviews": 4,
-      "mixedReviews": 1,
+      "positiveReviews": 5,
+      "neutralReviews": 0,
       "negativeReviews": 1,
-      "positiveShare": 0.6667,
+      "positiveShare": 0.8333,
       "negativeShare": 0.1667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2174,14 +2748,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Extremely minimalist design",
-          "retailer": "Lofta",
-          "productUrl": "https://lofta.com/collections/cpap-masks/products/nova-micro-nasal-pillows-cpap-mask"
-        },
-        {
           "text": "compact, lightweight, and unobtrusive",
           "retailer": "1800CPAP.COM",
           "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillow-cpap-mask"
+        },
+        {
+          "text": "Extremely minimalist design",
+          "retailer": "Lofta",
+          "productUrl": "https://lofta.com/collections/cpap-masks/products/nova-micro-nasal-pillows-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -2195,12 +2769,13 @@
     {
       "id": "bulk",
       "label": "Bulk",
-      "score": 87,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.7,
       "reviewCount": 6,
       "reviewShare": 0.0632,
       "positiveReviews": 6,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -2232,9 +2807,9 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "minimal bulk",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+          "text": "does not take space in my luggage",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         },
         {
           "text": "compact, lightweight, and unobtrusive",
@@ -2247,12 +2822,13 @@
     {
       "id": "irritation",
       "label": "Irritation",
-      "score": 46,
+      "score": 41,
+      "grade": "D-",
       "averageSentiment": 4.6,
       "reviewCount": 5,
       "reviewShare": 0.0526,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "positiveShare": 0.4,
       "negativeShare": 0.6,
@@ -2301,21 +2877,22 @@
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
-          "text": "irritation",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+          "text": "causing irritation",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
         }
       ]
     },
     {
       "id": "sleep_quality",
       "label": "Sleep Quality",
-      "score": 88,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.8,
       "reviewCount": 5,
       "reviewShare": 0.0526,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -2342,14 +2919,15 @@
     {
       "id": "nasal_pillows",
       "label": "Nasal Pillows",
-      "score": 60,
+      "score": 64,
+      "grade": "C",
       "averageSentiment": 6.0,
       "reviewCount": 49,
       "reviewShare": 0.5158,
-      "positiveReviews": 24,
-      "mixedReviews": 11,
+      "positiveReviews": 26,
+      "neutralReviews": 9,
       "negativeReviews": 14,
-      "positiveShare": 0.4898,
+      "positiveShare": 0.5306,
       "negativeShare": 0.2857,
       "evidenceStrength": "moderate",
       "associatedParts": [
@@ -2405,14 +2983,14 @@
       ],
       "positiveEvidence": [
         {
-          "text": "extremely comfortable",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-        },
-        {
           "text": "I found this bad boy and loved it",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "No marks on my face",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
           "text": "Pillows are so comfortable!",
@@ -2422,9 +3000,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "you can't breathe",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+          "text": "the rubber cushion goes up into your nostrils which was very uncomfortable for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
           "text": "The nose inserts really hurt your nose",
@@ -2432,43 +3010,118 @@
           "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "uncomfortable",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+          "text": "you can't breathe",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
         }
       ],
       "praisedAspects": [
         {
-          "id": "seal_leak",
-          "label": "Seal Leak",
-          "score": 71,
-          "averageSentiment": 7.1,
-          "reviewCount": 12,
-          "reviewShare": 0.1263,
-          "positiveReviews": 9,
-          "mixedReviews": 0,
-          "negativeReviews": 3,
-          "evidenceStrength": "limited",
+          "id": "comfort",
+          "label": "Comfort",
+          "score": 73,
+          "grade": "B-",
+          "averageSentiment": 6.8,
+          "reviewCount": 24,
+          "reviewShare": 0.2526,
+          "positiveReviews": 17,
+          "neutralReviews": 0,
+          "negativeReviews": 7,
+          "evidenceStrength": "moderate",
           "positiveEvidence": [
             {
-              "text": "actually inflate to form a seal",
+              "text": "Pillows are so comfortable!",
               "retailer": "CPAP.com",
               "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
             },
             {
+              "text": "us extremely soft",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "the rubber cushion goes up into your nostrils which was very uncomfortable for me",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+            },
+            {
+              "text": "uncomfortable",
+              "retailer": "1800CPAP.COM",
+              "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+            }
+          ]
+        },
+        {
+          "id": "fit",
+          "label": "Fit",
+          "score": 73,
+          "grade": "B-",
+          "averageSentiment": 6.6,
+          "reviewCount": 21,
+          "reviewShare": 0.2211,
+          "positiveReviews": 15,
+          "neutralReviews": 0,
+          "negativeReviews": 6,
+          "evidenceStrength": "moderate",
+          "positiveEvidence": [
+            {
+              "text": "Perfect fit",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+            },
+            {
+              "text": "I fit it once and never readjusted it again",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+            }
+          ],
+          "negativeEvidence": [
+            {
+              "text": "It's really difficult to get the angle just right",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+            },
+            {
+              "text": "Not a good fit for me.",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+            }
+          ]
+        },
+        {
+          "id": "seal_leak",
+          "label": "Seal Leak",
+          "score": 76,
+          "grade": "B",
+          "averageSentiment": 7.1,
+          "reviewCount": 12,
+          "reviewShare": 0.1263,
+          "positiveReviews": 9,
+          "neutralReviews": 0,
+          "negativeReviews": 3,
+          "evidenceStrength": "limited",
+          "positiveEvidence": [
+            {
               "text": "seals well without needing to be tight",
+              "retailer": "CPAP.com",
+              "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+            },
+            {
+              "text": "actually inflate to form a seal",
               "retailer": "CPAP.com",
               "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
             }
           ],
           "negativeEvidence": [
             {
-              "text": "otherwise, it leaks air",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+              "text": "wasn't able to get a good seal with any size nostril piece",
+              "retailer": "RespShop",
+              "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
             },
             {
-              "text": "Medium leaks bad",
+              "text": "otherwise, it leaks air",
               "retailer": "CPAP.com",
               "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
             }
@@ -2477,24 +3130,25 @@
         {
           "id": "weight",
           "label": "Weight",
-          "score": 89,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 8.9,
           "reviewCount": 9,
           "reviewShare": 0.0947,
           "positiveReviews": 9,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "lightweight",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-            },
-            {
               "text": "wanted a something nasal pillow mask that was small and light",
               "retailer": "RespShop",
               "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+            },
+            {
+              "text": "This masks weighs about an ounce",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
             }
           ],
           "negativeEvidence": []
@@ -2502,24 +3156,25 @@
         {
           "id": "overall_satisfaction",
           "label": "Overall Satisfaction",
-          "score": 96,
+          "score": 100,
+          "grade": "A+",
           "averageSentiment": 9.6,
           "reviewCount": 5,
           "reviewShare": 0.0526,
           "positiveReviews": 5,
-          "mixedReviews": 0,
+          "neutralReviews": 0,
           "negativeReviews": 0,
           "evidenceStrength": "limited",
           "positiveEvidence": [
             {
-              "text": "Highly recommend",
-              "retailer": "CPAP.com",
-              "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-            },
-            {
               "text": "I found this bad boy and loved it",
               "retailer": "RespShop",
               "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+            },
+            {
+              "text": "The best pillow mask!",
+              "retailer": "DirectHomeMedical",
+              "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
             }
           ],
           "negativeEvidence": []
@@ -2530,14 +3185,15 @@
     {
       "id": "headgear",
       "label": "Headgear",
-      "score": 61,
+      "score": 68,
+      "grade": "C+",
       "averageSentiment": 6.1,
       "reviewCount": 12,
       "reviewShare": 0.1263,
-      "positiveReviews": 7,
-      "mixedReviews": 1,
+      "positiveReviews": 8,
+      "neutralReviews": 0,
       "negativeReviews": 4,
-      "positiveShare": 0.5833,
+      "positiveShare": 0.6667,
       "negativeShare": 0.3333,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2593,14 +3249,14 @@
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
-          "text": "you can actually adjust it properly",
-          "retailer": "CPAPsupplies.com",
-          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-micro-nasal-pillow-cpap-mask"
-        },
-        {
           "text": "Finally, a mask that works for small faces!",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "you can actually adjust it properly",
+          "retailer": "CPAPsupplies.com",
+          "productUrl": "https://cpapsupplies.com/fisher-paykel-nova-micro-nasal-pillow-cpap-mask"
         }
       ],
       "negativeEvidence": [
@@ -2610,7 +3266,7 @@
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
-          "text": "the headgear strap rapidly deteriorates",
+          "text": "the headgear is creating stick-up hair on the sides and a hair divot on the top",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
@@ -2626,14 +3282,15 @@
     {
       "id": "strap",
       "label": "Strap",
-      "score": 28,
+      "score": 11,
+      "grade": "F-",
       "averageSentiment": 2.8,
       "reviewCount": 8,
       "reviewShare": 0.0842,
-      "positiveReviews": 0,
-      "mixedReviews": 1,
+      "positiveReviews": 1,
+      "neutralReviews": 0,
       "negativeReviews": 7,
-      "positiveShare": 0.0,
+      "positiveShare": 0.125,
       "negativeShare": 0.875,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2691,14 +3348,14 @@
           "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "the weak strap kept causing mask leaks",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
-        },
-        {
           "text": "the starps do not cut into my face like my previous straps did",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "the weak strap kept causing mask leaks",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
         }
       ],
       "praisedAspects": [],
@@ -2707,12 +3364,13 @@
     {
       "id": "vent",
       "label": "Vent",
-      "score": 54,
+      "score": 47,
+      "grade": "D",
       "averageSentiment": 5.4,
       "reviewCount": 8,
       "reviewShare": 0.0842,
       "positiveReviews": 3,
-      "mixedReviews": 1,
+      "neutralReviews": 1,
       "negativeReviews": 4,
       "positiveShare": 0.375,
       "negativeShare": 0.5,
@@ -2744,7 +3402,7 @@
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
-          "text": "the air vent is quiet",
+          "text": "doesn't blast my eyes like others",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
@@ -2756,14 +3414,14 @@
           "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         },
         {
-          "text": "The exhaust vents are noisy when air hits nearby surfaces",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
-        },
-        {
           "text": "I do wish their was a filter to silence the air flow port",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        },
+        {
+          "text": "The exhaust vents are noisy when air hits nearby surfaces",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
         }
       ],
       "praisedAspects": [],
@@ -2772,14 +3430,15 @@
     {
       "id": "mask_body",
       "label": "Mask Body",
-      "score": 69,
+      "score": 78,
+      "grade": "B",
       "averageSentiment": 6.9,
       "reviewCount": 6,
       "reviewShare": 0.0632,
-      "positiveReviews": 3,
-      "mixedReviews": 2,
+      "positiveReviews": 4,
+      "neutralReviews": 1,
       "negativeReviews": 1,
-      "positiveShare": 0.5,
+      "positiveShare": 0.6667,
       "negativeShare": 0.1667,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -2804,14 +3463,14 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "This is by far the lightest",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-        },
-        {
           "text": "does not take space in my luggage",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "This is by far the lightest",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
           "text": "The mask is super lightweight",
@@ -2834,26 +3493,27 @@
     {
       "id": "nasal_pillows|comfort",
       "label": "Nasal Pillows · Comfort",
-      "score": 68,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.8,
       "reviewCount": 24,
       "reviewShare": 0.2526,
       "positiveReviews": 17,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 7,
       "evidenceStrength": "moderate",
       "positiveEvidence": [
         {
-          "text": "extremely comfortable",
+          "text": "Pillows are so comfortable!",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "uncomfortable",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+          "text": "the rubber cushion goes up into your nostrils which was very uncomfortable for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "partId": "nasal_pillows",
@@ -2864,12 +3524,13 @@
     {
       "id": "nasal_pillows|fit",
       "label": "Nasal Pillows · Fit",
-      "score": 66,
+      "score": 73,
+      "grade": "B-",
       "averageSentiment": 6.6,
       "reviewCount": 21,
       "reviewShare": 0.2211,
-      "positiveReviews": 14,
-      "mixedReviews": 1,
+      "positiveReviews": 15,
+      "neutralReviews": 0,
       "negativeReviews": 6,
       "evidenceStrength": "moderate",
       "positiveEvidence": [
@@ -2894,26 +3555,27 @@
     {
       "id": "nasal_pillows|seal_leak",
       "label": "Nasal Pillows · Seal Leak",
-      "score": 71,
+      "score": 76,
+      "grade": "B",
       "averageSentiment": 7.1,
       "reviewCount": 12,
       "reviewShare": 0.1263,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "actually inflate to form a seal",
+          "text": "seals well without needing to be tight",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "otherwise, it leaks air",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+          "text": "wasn't able to get a good seal with any size nostril piece",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
       ],
       "partId": "nasal_pillows",
@@ -2924,19 +3586,20 @@
     {
       "id": "nasal_pillows|weight",
       "label": "Nasal Pillows · Weight",
-      "score": 89,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.9,
       "reviewCount": 9,
       "reviewShare": 0.0947,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "lightweight",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+          "text": "wanted a something nasal pillow mask that was small and light",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
       ],
       "negativeEvidence": [],
@@ -2948,12 +3611,13 @@
     {
       "id": "nasal_pillows|sizing",
       "label": "Nasal Pillows · Sizing",
-      "score": 45,
+      "score": 34,
+      "grade": "F+",
       "averageSentiment": 4.5,
       "reviewCount": 6,
       "reviewShare": 0.0632,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -2965,9 +3629,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "The cushions are too small",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+          "text": "The small nose pillow is even a bit too small for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "partId": "nasal_pillows",
@@ -2978,12 +3642,13 @@
     {
       "id": "vent|noise",
       "label": "Vent · Noise",
-      "score": 52,
+      "score": 38,
+      "grade": "F+",
       "averageSentiment": 5.2,
       "reviewCount": 6,
       "reviewShare": 0.0632,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -2995,9 +3660,9 @@
       ],
       "negativeEvidence": [
         {
-          "text": "The exhaust vents are noisy when air hits nearby surfaces",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
+          "text": "I do wish their was a filter to silence the air flow port",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "partId": "vent",
@@ -3008,12 +3673,13 @@
     {
       "id": "headgear|stability",
       "label": "Headgear · Stability",
-      "score": 70,
+      "score": 81,
+      "grade": "B+",
       "averageSentiment": 7.0,
       "reviewCount": 5,
       "reviewShare": 0.0526,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -3038,19 +3704,20 @@
     {
       "id": "nasal_pillows|overall_satisfaction",
       "label": "Nasal Pillows · Overall Satisfaction",
-      "score": 96,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 9.6,
       "reviewCount": 5,
       "reviewShare": 0.0526,
       "positiveReviews": 5,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "Highly recommend",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+          "text": "I found this bad boy and loved it",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
       ],
       "negativeEvidence": [],
@@ -3062,12 +3729,13 @@
     {
       "id": "nasal_pillows|soreness",
       "label": "Nasal Pillows · Soreness",
-      "score": 52,
+      "score": 43,
+      "grade": "D-",
       "averageSentiment": 5.2,
       "reviewCount": 5,
       "reviewShare": 0.0526,
       "positiveReviews": 2,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 3,
       "evidenceStrength": "limited",
       "positiveEvidence": [
@@ -3094,14 +3762,15 @@
     {
       "id": "side-sleepers",
       "label": "Side sleepers",
-      "score": 72,
+      "score": 82,
+      "grade": "B+",
       "averageSentiment": 7.2,
       "reviewCount": 11,
       "reviewShare": 0.1158,
-      "positiveReviews": 8,
-      "mixedReviews": 1,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
       "negativeReviews": 2,
-      "positiveShare": 0.7273,
+      "positiveShare": 0.8182,
       "negativeShare": 0.1818,
       "evidenceStrength": "limited",
       "associatedParts": [
@@ -3132,26 +3801,26 @@
       ],
       "positiveEvidence": [
         {
-          "text": "is perfect as a side sleeper",
+          "text": "the most comfortable mask I’ve found for sleeping on my side",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
-          "text": "the most comfortable mask I’ve found for sleeping on my side",
+          "text": "is perfect as a side sleeper",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "It also moves during sleep",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-        },
-        {
           "text": "all the mask so far get knocked loose or jammed into my nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "It also moves during sleep",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "sourceContexts": [
@@ -3163,12 +3832,13 @@
     {
       "id": "active-sleepers",
       "label": "Active or restless sleepers",
-      "score": 59,
+      "score": 54,
+      "grade": "D+",
       "averageSentiment": 5.9,
       "reviewCount": 8,
       "reviewShare": 0.0842,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -3226,21 +3896,21 @@
           "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
         },
         {
-          "text": "without constant adjustments",
+          "text": "allows for easy movement in bed",
           "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillow-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "I don't like the hose coming from the bottom",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-        },
-        {
           "text": "if you move it disrupts that and leaks all over again",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "I don't like the hose coming from the bottom",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "sourceContexts": [
@@ -3256,17 +3926,18 @@
     {
       "id": "side-sleepers|sleep_position_compatibility",
       "label": "Side sleepers · Sleep Position Compatibility",
-      "score": 84,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.4,
       "reviewCount": 7,
       "reviewShare": 0.0737,
-      "positiveReviews": 6,
-      "mixedReviews": 1,
+      "positiveReviews": 7,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "evidenceStrength": "limited",
       "positiveEvidence": [
         {
-          "text": "is perfect as a side sleeper",
+          "text": "the most comfortable mask I’ve found for sleeping on my side",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
@@ -3286,12 +3957,13 @@
     {
       "id": "nose",
       "label": "Nose",
-      "score": 54,
+      "score": 56,
+      "grade": "C-",
       "averageSentiment": 5.4,
       "reviewCount": 19,
       "reviewShare": 0.2,
       "positiveReviews": 9,
-      "mixedReviews": 3,
+      "neutralReviews": 3,
       "negativeReviews": 7,
       "positiveShare": 0.4737,
       "negativeShare": 0.3684,
@@ -3344,34 +4016,34 @@
       ],
       "positiveEvidence": [
         {
-          "text": "Tightest seal I have had",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-        },
-        {
           "text": "more comfortable on my nose than the P10",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
-          "text": "Nova Micro with pillows is extremely comfortable",
+          "text": "does not cause an irritation to my nose",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "the pillows fit nicely inside my nose",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
-        {
-          "text": "The nose inserts really hurt your nose",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
-        },
         {
           "text": "the cushions were always too tight against the nose",
           "retailer": "DirectHomeMedical",
           "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
         },
         {
-          "text": "Discomfort on the nose",
+          "text": "The nose inserts really hurt your nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        },
+        {
+          "text": "the part the nasal cushion attaches too is rigid and uncomfortable on the nose compared to other nasal pillow masks I have used",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
@@ -3432,12 +4104,13 @@
     {
       "id": "nostrils",
       "label": "Nostrils",
-      "score": 43,
+      "score": 34,
+      "grade": "F+",
       "averageSentiment": 4.3,
       "reviewCount": 12,
       "reviewShare": 0.1263,
       "positiveReviews": 3,
-      "mixedReviews": 2,
+      "neutralReviews": 2,
       "negativeReviews": 7,
       "positiveShare": 0.25,
       "negativeShare": 0.5833,
@@ -3492,12 +4165,12 @@
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         },
         {
-          "text": "This mask caused significant irritation.",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+          "text": "wasn't able to get a good seal with any size nostril piece",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         },
         {
-          "text": "irritation",
+          "text": "This mask caused significant irritation.",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
@@ -3543,12 +4216,13 @@
     {
       "id": "face",
       "label": "Face",
-      "score": 55,
+      "score": 52,
+      "grade": "D+",
       "averageSentiment": 5.5,
       "reviewCount": 8,
       "reviewShare": 0.0842,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 4,
       "positiveShare": 0.5,
       "negativeShare": 0.5,
@@ -3628,14 +4302,14 @@
       ],
       "negativeEvidence": [
         {
-          "text": "air blows all over my face",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
-        },
-        {
           "text": "the starps do not cut into my face like my previous straps did",
           "retailer": "RespShop",
           "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        },
+        {
+          "text": "air blows all over my face",
+          "retailer": "1800CPAP.COM",
+          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
         },
         {
           "text": "the stiffdr plastic on the sides isn’t the most comfortable fit for patients with larger faces",
@@ -3688,18 +4362,20 @@
     }
   ],
   "interactionSummary": [
-    "The most divided finding was that nasal pillows interaction with the nose was divided (4 positive versus 1 negative reports)."
+    "The clearest favorable pattern was that nasal pillows interaction with the nose leaned favorable (4 positive versus 1 negative reports).",
+    "The clearest caution was that nasal pillows interaction with the nostrils leaned unfavorable (2 positive versus 6 negative reports)."
   ],
   "interactionInsights": [
     {
       "id": "body|nasal_pillows|nose|fit",
       "label": "Nasal Pillows at Nose: Fit",
-      "score": 68,
+      "score": 80,
+      "grade": "B+",
       "averageSentiment": 6.8,
       "reviewCount": 5,
       "reviewShare": 0.0526,
       "positiveReviews": 4,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 1,
       "positiveShare": 0.8,
       "negativeShare": 0.2,
@@ -3744,6 +4420,13 @@
       "contextLabel": null,
       "aspectId": "fit",
       "aspectLabel": "Fit",
+      "outcomeAspects": [
+        {
+          "id": "fit",
+          "label": "Fit",
+          "reviewCount": 5
+        }
+      ],
       "parts": [
         {
           "id": "nasal_pillows",
@@ -3759,175 +4442,378 @@
         }
       ],
       "contexts": [],
-      "tone": "mixed",
-      "description": "Reports about the nasal pillows where it contacts the nose were divided for fit: 4 positive, 0 mixed, and 1 negative across 5 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
-    }
-  ],
-  "strengths": [
-    {
-      "id": "|||overall_satisfaction",
-      "label": "Overall Satisfaction",
-      "score": 83,
-      "averageSentiment": 8.3,
-      "reviewCount": 32,
-      "reviewShare": 0.3368,
-      "positiveReviews": 25,
-      "mixedReviews": 5,
-      "negativeReviews": 2,
-      "positiveShare": 0.7812,
-      "negativeShare": 0.0625,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "love the new mask",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "Overall, the discomfort and leaking issues made it unsuitable for me",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-        }
-      ]
+      "tone": "favorable",
+      "description": "Reports about the nasal pillows where it contacts the nose were mostly favorable for fit: 4 positive, 0 neutral, and 1 negative across 5 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
     },
     {
-      "id": "|||comfort",
-      "label": "Comfort",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 21,
-      "reviewShare": 0.2211,
-      "positiveReviews": 19,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.9048,
-      "negativeShare": 0.0952,
-      "evidenceStrength": "moderate",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "A very comfortable lightweight mask",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "It's too painful to wear multiple nights much less one night",
-          "retailer": "DirectHomeMedical",
-          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
-        }
-      ]
-    },
-    {
-      "id": "nasal_pillows|||comfort",
-      "label": "Nasal Pillows · Comfort",
-      "score": 73,
-      "averageSentiment": 7.3,
-      "reviewCount": 15,
-      "reviewShare": 0.1579,
-      "positiveReviews": 11,
-      "mixedReviews": 0,
-      "negativeReviews": 4,
-      "positiveShare": 0.7333,
-      "negativeShare": 0.2667,
+      "id": "body|nasal_pillows|nostrils|comfort_discomfort",
+      "label": "Nasal Pillows at Nostrils: Comfort and Discomfort",
+      "score": 30,
+      "grade": "F+",
+      "averageSentiment": 4.2,
+      "reviewCount": 9,
+      "reviewShare": 0.0947,
+      "positiveReviews": 2,
+      "neutralReviews": 1,
+      "negativeReviews": 6,
+      "positiveShare": 0.2222,
+      "negativeShare": 0.6667,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
           "id": "nasal_pillows",
           "label": "Nasal Pillows",
-          "reviewCount": 15
+          "reviewCount": 9
         }
       ],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedContexts": [
+        {
+          "id": "first_week",
+          "label": "First Week",
+          "reviewCount": 2
+        },
+        {
+          "id": "side_sleeping",
+          "label": "Side Sleeping",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 9
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "extremely comfortable",
+          "text": "the nasal prongs would make my nostrils sore from sleeping on my side",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "uncomfortable",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+          "text": "the rubber cushion goes up into your nostrils which was very uncomfortable for me",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
-      ]
+      ],
+      "kind": "body-component",
+      "contextId": null,
+      "contextLabel": null,
+      "aspectId": "comfort_discomfort",
+      "aspectLabel": "Comfort and Discomfort",
+      "outcomeAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 4
+        },
+        {
+          "id": "soreness",
+          "label": "Soreness",
+          "reviewCount": 4
+        },
+        {
+          "id": "irritation",
+          "label": "Irritation",
+          "reviewCount": 2
+        },
+        {
+          "id": "pain",
+          "label": "Pain",
+          "reviewCount": 1
+        }
+      ],
+      "parts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 9
+        }
+      ],
+      "bodySites": [
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 9
+        }
+      ],
+      "contexts": [],
+      "tone": "caution",
+      "description": "Reports about the nasal pillows where it contacts the nostrils were mostly unfavorable for comfort and discomfort: 2 positive, 1 neutral, and 6 negative across 9 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
     },
     {
-      "id": "|||seal_leak",
-      "label": "Seal Leak",
-      "score": 81,
-      "averageSentiment": 8.1,
-      "reviewCount": 11,
-      "reviewShare": 0.1158,
-      "positiveReviews": 10,
-      "mixedReviews": 0,
-      "negativeReviews": 1,
-      "positiveShare": 0.9091,
-      "negativeShare": 0.0909,
+      "id": "body|nasal_pillows|nose|comfort_discomfort",
+      "label": "Nasal Pillows at Nose: Comfort and Discomfort",
+      "score": 33,
+      "grade": "F+",
+      "averageSentiment": 4.0,
+      "reviewCount": 9,
+      "reviewShare": 0.0947,
+      "positiveReviews": 3,
+      "neutralReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.3333,
+      "negativeShare": 0.6667,
       "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 9
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "nasal_breathing",
+          "label": "Nasal Breathing",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 9
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "I had almost zero leak over 8 hours of sleep",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
+          "text": "does not cause an irritation to my nose",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
       ],
       "negativeEvidence": [
         {
-          "text": "it seems to leak air",
+          "text": "The nose inserts really hurt your nose",
+          "retailer": "DirectHomeMedical",
+          "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+        }
+      ],
+      "kind": "body-component",
+      "contextId": null,
+      "contextLabel": null,
+      "aspectId": "comfort_discomfort",
+      "aspectLabel": "Comfort and Discomfort",
+      "outcomeAspects": [
+        {
+          "id": "comfort",
+          "label": "Comfort",
+          "reviewCount": 4
+        },
+        {
+          "id": "pain",
+          "label": "Pain",
+          "reviewCount": 3
+        },
+        {
+          "id": "irritation",
+          "label": "Irritation",
+          "reviewCount": 1
+        },
+        {
+          "id": "skin_breakdown",
+          "label": "Skin Breakdown",
+          "reviewCount": 1
+        },
+        {
+          "id": "soreness",
+          "label": "Soreness",
+          "reviewCount": 1
+        }
+      ],
+      "parts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 9
+        }
+      ],
+      "bodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 9
+        }
+      ],
+      "contexts": [],
+      "tone": "caution",
+      "description": "Reports about the nasal pillows where it contacts the nose were mostly unfavorable for comfort and discomfort: 3 positive, 0 neutral, and 6 negative across 9 reviews. This isolates a component-to-body interaction rather than general mask satisfaction."
+    }
+  ],
+  "strengths": [
+    {
+      "id": "part|nasal_pillows|comfort",
+      "label": "Nasal Pillows · Comfort",
+      "score": 73,
+      "grade": "B-",
+      "averageSentiment": 6.8,
+      "reviewCount": 24,
+      "reviewShare": 0.2526,
+      "positiveReviews": 17,
+      "neutralReviews": 0,
+      "negativeReviews": 7,
+      "positiveShare": 0.7083,
+      "negativeShare": 0.2917,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 24
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "night_sweats",
+          "label": "Night Sweats",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 4
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 4
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "Pillows are so comfortable!",
+          "retailer": "CPAP.com",
+          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "the rubber cushion goes up into your nostrils which was very uncomfortable for me",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ]
     },
     {
-      "id": "|||weight",
-      "label": "Weight",
-      "score": 87,
-      "averageSentiment": 8.7,
-      "reviewCount": 10,
-      "reviewShare": 0.1053,
-      "positiveReviews": 10,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "id": "part|nasal_pillows|fit",
+      "label": "Nasal Pillows · Fit",
+      "score": 72,
+      "grade": "B-",
+      "averageSentiment": 6.5,
+      "reviewCount": 20,
+      "reviewShare": 0.2105,
+      "positiveReviews": 14,
+      "neutralReviews": 0,
+      "negativeReviews": 6,
+      "positiveShare": 0.7,
+      "negativeShare": 0.3,
+      "evidenceStrength": "moderate",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 20
+        }
+      ],
+      "associatedContexts": [
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 5
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 2
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "Lightest and least intrusive mask",
+          "text": "Perfect fit",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        }
+      ],
+      "negativeEvidence": [
+        {
+          "text": "It's really difficult to get the angle just right",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        }
+      ]
+    },
+    {
+      "id": "part|nasal_pillows|seal_leak",
+      "label": "Nasal Pillows · Seal Leak",
+      "score": 76,
+      "grade": "B",
+      "averageSentiment": 7.1,
+      "reviewCount": 12,
+      "reviewShare": 0.1263,
+      "positiveReviews": 9,
+      "neutralReviews": 0,
+      "negativeReviews": 3,
+      "positiveShare": 0.75,
+      "negativeShare": 0.25,
+      "evidenceStrength": "limited",
+      "associatedParts": [
+        {
+          "id": "nasal_pillows",
+          "label": "Nasal Pillows",
+          "reviewCount": 12
+        }
+      ],
+      "associatedContexts": [],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 2
+        },
+        {
+          "id": "nostrils",
+          "label": "Nostrils",
+          "reviewCount": 2
+        }
+      ],
+      "positiveEvidence": [
+        {
+          "text": "seals well without needing to be tight",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
-      "negativeEvidence": []
+      "negativeEvidence": [
+        {
+          "text": "wasn't able to get a good seal with any size nostril piece",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
+        }
+      ]
     },
     {
-      "id": "nasal_pillows|||weight",
+      "id": "part|nasal_pillows|weight",
       "label": "Nasal Pillows · Weight",
-      "score": 89,
+      "score": 100,
+      "grade": "A+",
       "averageSentiment": 8.9,
       "reviewCount": 9,
       "reviewShare": 0.0947,
       "positiveReviews": 9,
-      "mixedReviews": 0,
+      "neutralReviews": 0,
       "negativeReviews": 0,
       "positiveShare": 1.0,
       "negativeShare": 0.0,
@@ -3943,118 +4829,26 @@
       "associatedBodySites": [],
       "positiveEvidence": [
         {
-          "text": "lightweight",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+          "text": "wanted a something nasal pillow mask that was small and light",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
       ],
       "negativeEvidence": []
     },
     {
-      "id": "nasal_pillows|||seal_leak",
-      "label": "Nasal Pillows · Seal Leak",
-      "score": 71,
-      "averageSentiment": 7.1,
-      "reviewCount": 8,
-      "reviewShare": 0.0842,
-      "positiveReviews": 6,
-      "mixedReviews": 0,
-      "negativeReviews": 2,
-      "positiveShare": 0.75,
-      "negativeShare": 0.25,
-      "evidenceStrength": "limited",
-      "associatedParts": [
-        {
-          "id": "nasal_pillows",
-          "label": "Nasal Pillows",
-          "reviewCount": 8
-        }
-      ],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "seals well without needing to be tight",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-        }
-      ],
-      "negativeEvidence": [
-        {
-          "text": "otherwise, it leaks air",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-        }
-      ]
-    },
-    {
-      "id": "|||noise",
-      "label": "Noise",
-      "score": 82,
-      "averageSentiment": 8.2,
-      "reviewCount": 6,
-      "reviewShare": 0.0632,
-      "positiveReviews": 6,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "the mask is very quiet",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "||side_sleeping|sleep_position_compatibility",
-      "label": "Side Sleeping · Sleep Position Compatibility",
+      "id": "site|nose|fit",
+      "label": "Nose · Fit",
       "score": 83,
-      "averageSentiment": 8.3,
+      "grade": "B+",
+      "averageSentiment": 7.0,
       "reviewCount": 6,
       "reviewShare": 0.0632,
       "positiveReviews": 5,
-      "mixedReviews": 1,
-      "negativeReviews": 0,
+      "neutralReviews": 0,
+      "negativeReviews": 1,
       "positiveShare": 0.8333,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [
-        {
-          "id": "side_sleeping",
-          "label": "Side Sleeping",
-          "reviewCount": 6
-        }
-      ],
-      "associatedBodySites": [],
-      "positiveEvidence": [
-        {
-          "text": "is perfect as a side sleeper",
-          "retailer": "CPAP.com",
-          "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-        }
-      ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "nasal_pillows|||overall_satisfaction",
-      "label": "Nasal Pillows · Overall Satisfaction",
-      "score": 96,
-      "averageSentiment": 9.6,
-      "reviewCount": 5,
-      "reviewShare": 0.0526,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
+      "negativeShare": 0.1667,
       "evidenceStrength": "limited",
       "associatedParts": [
         {
@@ -4063,41 +4857,34 @@
           "reviewCount": 5
         }
       ],
-      "associatedContexts": [],
-      "associatedBodySites": [],
+      "associatedContexts": [
+        {
+          "id": "small_nose",
+          "label": "Small Nose",
+          "reviewCount": 1
+        }
+      ],
+      "associatedBodySites": [
+        {
+          "id": "nose",
+          "label": "Nose",
+          "reviewCount": 6
+        }
+      ],
       "positiveEvidence": [
         {
-          "text": "Highly recommend",
+          "text": "the pillows fit nicely inside my nose",
           "retailer": "CPAP.com",
           "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
         }
       ],
-      "negativeEvidence": []
-    },
-    {
-      "id": "|||sleep_quality",
-      "label": "Sleep Quality",
-      "score": 88,
-      "averageSentiment": 8.8,
-      "reviewCount": 5,
-      "reviewShare": 0.0526,
-      "positiveReviews": 5,
-      "mixedReviews": 0,
-      "negativeReviews": 0,
-      "positiveShare": 1.0,
-      "negativeShare": 0.0,
-      "evidenceStrength": "limited",
-      "associatedParts": [],
-      "associatedContexts": [],
-      "associatedBodySites": [],
-      "positiveEvidence": [
+      "negativeEvidence": [
         {
-          "text": "allowing for restful sleep",
-          "retailer": "1800CPAP.COM",
-          "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+          "text": "Not a good fit for me.",
+          "retailer": "RespShop",
+          "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
         }
-      ],
-      "negativeEvidence": []
+      ]
     }
   ],
   "concerns": [],
@@ -4154,22 +4941,17 @@
   "evidence": {
     "positive": [
       {
+        "text": "the most comfortable mask I’ve found for sleeping on my side",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+      },
+      {
         "text": "I had almost zero leak over 8 hours of sleep",
         "retailer": "1800CPAP.COM",
         "productUrl": "https://1800cpap.com/products/nova-micro-pillows-cpap-mask-fit-pack"
       },
       {
-        "text": "love the new mask",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-      },
-      {
-        "text": "Lightest and least intrusive mask",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-      },
-      {
-        "text": "extremely comfortable",
+        "text": "Lightest and least intrusive mask I've used in 30 years",
         "retailer": "CPAP.com",
         "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
       },
@@ -4179,12 +4961,37 @@
         "productUrl": "https://www.respshop.com/products/fisher-paykel-nova-micro-nasal-pillows-cpap-mask"
       },
       {
-        "text": "Changed My Life",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
+        "text": "is perfect as a side sleeper",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+      },
+      {
+        "text": "This mask is the best!",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
       }
     ],
     "negative": [
+      {
+        "text": "I just couldn't make it through more than 3 hours without ripping it off",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+      },
+      {
+        "text": "the rubber cushion goes up into your nostrils which was very uncomfortable for me",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+      },
+      {
+        "text": "the cushions were always too tight against the nose",
+        "retailer": "DirectHomeMedical",
+        "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
+      },
+      {
+        "text": "I can’t connect my air.",
+        "retailer": "CPAP.com",
+        "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
+      },
       {
         "text": "I can't use it",
         "retailer": "1800CPAP.COM",
@@ -4194,33 +5001,13 @@
         "text": "you can't breathe",
         "retailer": "DirectHomeMedical",
         "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
-      },
-      {
-        "text": "The nose inserts really hurt your nose",
-        "retailer": "DirectHomeMedical",
-        "productUrl": "https://directhomemedical.com/products/fp-nova-micro-nasal-cpap-mask-with-headgear"
-      },
-      {
-        "text": "uncomfortable",
-        "retailer": "1800CPAP.COM",
-        "productUrl": "https://1800cpap.com/products/nova-micro-nasal-pillows-mask-kit"
-      },
-      {
-        "text": "the rubber cushion goes up into your nostrils which was very uncomfortable for me",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
-      },
-      {
-        "text": "I can’t connect my air.",
-        "retailer": "CPAP.com",
-        "productUrl": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask?variant=50236694495548"
       }
     ]
   },
   "methodology": {
-    "overallScore": "60% normalized original reviewer star rating and 40% extracted overall-satisfaction sentiment. Both components require at least five reviews.",
-    "aggregation": "Repeated claims are averaged within each review before review-level results are combined.",
-    "sentiment": "Positive 7–10, mixed 5–6, negative 0–4.",
+    "overallScore": "90% original reviewer star rating and 10% extracted review-text satisfaction. If fewer than five text-satisfaction reviews are available, the grade uses star ratings alone and says so.",
+    "aggregation": "Repeated claims are averaged within each review before review-level results are combined. Positive evidence is weighted from +1.0 at 6 to +1.4 at 10; negative evidence subtracts symmetrically from -1.0 at 4 to -1.4 at 0.",
+    "sentiment": "Positive 6–10, neutral 5, negative 0–4.",
     "minimumEvidence": "Findings require at least five distinct reviews.",
     "limitations": "Retailer reviews are self-selected and may not represent every CPAP patient. Text findings were extracted by an AI model and are not medical advice."
   }
