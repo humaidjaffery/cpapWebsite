@@ -69,13 +69,15 @@ jobs:
       - name: Scrape retailer prices
         run: |
           python price-pipeline/pipelines/prices/run_all.py \
-            --database "$PRICE_DATABASE"
+            --database "$PRICE_DATABASE" \
+            --skip-review-seeds \
+            --skip-discovery
 
       - name: Publish price files
         run: |
           python price-pipeline/pipelines/prices/publish.py \
             --database "$PRICE_DATABASE" \
-            --catalog price-pipeline/pipelines/reviews/data/processed/standard_mask_names.csv \
+            --catalog price-pipeline/pipelines/prices/seeds/products.json \
             --output public/data/prices
 
       - name: Validate prices
