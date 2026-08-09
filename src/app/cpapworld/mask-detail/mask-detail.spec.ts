@@ -452,19 +452,6 @@ describe('MaskDetail', () => {
     expect(element.querySelector('.cheapest-card > span')?.textContent).toContain('Current price');
     expect(element.querySelector('.cheapest-card')?.textContent).toContain('Example Store');
     expect(element.querySelector('.cheapest-card')?.textContent).toContain('$149.00');
-    expect(element.querySelector('.custom-mask-banner')?.textContent).toContain(
-      'A CPAP mask made for you'
-    );
-    const customMaskBanner = element.querySelector('.custom-mask-banner');
-    const purchaseSection = element.querySelector('.purchase-section');
-    expect(
-      Boolean(
-        customMaskBanner &&
-          purchaseSection &&
-          customMaskBanner.compareDocumentPosition(purchaseSection) &
-            Node.DOCUMENT_POSITION_FOLLOWING
-      )
-    ).toBeTrue();
     expect(element.querySelectorAll('.offer-table tbody tr').length).toBe(2);
     expect(element.querySelector('.offer-table thead')?.textContent).not.toContain('Configuration');
     expect(element.querySelector('.offer-table thead')?.textContent).not.toContain('Checked');

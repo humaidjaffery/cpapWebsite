@@ -168,31 +168,6 @@
         </div>
       </section>
 
-      <article class="custom-mask-banner" aria-labelledby="custom-mask-banner-title">
-        <div class="custom-mask-banner-visual" aria-hidden="true">
-          <img
-            class="custom-mask-banner-art"
-            [src]="customMaskImage"
-            alt=""
-            width="1024"
-            height="1024"
-            loading="lazy"
-          />
-          <span class="custom-mask-banner-badge">Coming soon</span>
-        </div>
-
-        <div class="custom-mask-banner-content">
-          <div>
-            <span class="custom-mask-banner-eyebrow">DreamSeal custom-fit mask</span>
-            <h2 id="custom-mask-banner-title">A CPAP mask made for you</h2>
-          </div>
-        </div>
-
-        <div class="custom-mask-banner-action">
-          <app-waitlist-signup [inlinePerks]="true" />
-        </div>
-      </article>
-
       @if (prices(); as pricing) {
         <section class="purchase-section" aria-labelledby="purchase-title">
           <div class="purchase-heading">

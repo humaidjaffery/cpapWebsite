@@ -881,136 +881,6 @@
   margin-top: 16px;
 }
 
-.custom-mask-banner {
-  display: grid;
-  grid-template-columns: minmax(230px, 0.7fr) minmax(0, 1.8fr);
-  column-gap: 30px;
-  align-items: start;
-  min-height: 250px;
-  margin-top: 30px;
-  overflow: hidden;
-  border: 2px solid transparent;
-  border-radius: 24px;
-  background:
-    linear-gradient(#fff, #fff) padding-box,
-    linear-gradient(135deg, #7b1fa2 0%, #b45de3 42%, #f0c95f 72%, #c28b18 100%) border-box;
-  box-shadow:
-    0 12px 34px rgba(94, 31, 124, 0.16),
-    0 5px 18px rgba(230, 196, 106, 0.16);
-}
-
-.custom-mask-banner-visual {
-  position: relative;
-  display: grid;
-  grid-row: 1 / span 2;
-  align-self: stretch;
-  min-height: 246px;
-  place-items: center;
-  overflow: hidden;
-  border-right: 1px solid rgba(106, 13, 173, 0.1);
-  background:
-    radial-gradient(circle at 15% 25%, rgba(139, 92, 246, 0.24), transparent 46%),
-    radial-gradient(circle at 85% 70%, rgba(245, 190, 55, 0.28), transparent 48%),
-    linear-gradient(135deg, #f7effc, #fff8e7);
-}
-
-.custom-mask-banner-art {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center bottom;
-}
-
-.custom-mask-banner-badge {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  z-index: 2;
-  padding: 7px 11px;
-  border-radius: var(--radius-full);
-  background: linear-gradient(120deg, #711795, #a56b17);
-  box-shadow: 0 6px 16px rgba(77, 18, 108, 0.22);
-  color: #fff;
-  font-size: 10px;
-  font-weight: 900;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.custom-mask-banner-content {
-  padding: 28px 28px 10px 0;
-}
-
-.custom-mask-banner-eyebrow {
-  display: block;
-  margin-bottom: 7px;
-  color: #8c6513;
-  font-size: 10px;
-  font-weight: 900;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.custom-mask-banner h2 {
-  background: linear-gradient(110deg, #641681 8%, #9b42bd 50%, #a9750d 100%);
-  background-clip: text;
-  color: transparent;
-  font-size: clamp(28px, 3vw, 38px);
-  letter-spacing: -0.035em;
-  line-height: 1.08;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.custom-mask-banner-action {
-  display: flex;
-  grid-column: 2;
-  align-items: stretch;
-  flex-direction: column;
-  gap: 9px;
-  padding: 0 28px 28px 0;
-}
-
-.custom-mask-banner-action a {
-  display: flex;
-  min-height: 52px;
-  align-items: center;
-  justify-content: space-between;
-  gap: 14px;
-  padding: 0 17px;
-  border-radius: 10px;
-  background: linear-gradient(120deg, #711795 0%, #9d42bc 52%, #b58114 100%);
-  box-shadow: 0 8px 20px rgba(92, 29, 119, 0.2);
-  color: #fff;
-  font-size: 14px;
-  font-weight: 900;
-  text-decoration: none;
-}
-
-.custom-mask-banner-action a span {
-  font-size: 22px;
-  transition: transform 180ms ease;
-}
-
-.custom-mask-banner-action a:hover span,
-.custom-mask-banner-action a:focus-visible span {
-  transform: translateX(3px);
-}
-
-.custom-mask-banner-action a:focus-visible {
-  outline: 3px solid rgba(106, 13, 173, 0.22);
-  outline-offset: 3px;
-}
-
-.custom-mask-banner-action small {
-  color: #827588;
-  font-size: 10px;
-  text-align: center;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -2197,14 +2067,6 @@ td a {
     min-height: 420px;
   }
 
-  .custom-mask-banner {
-    grid-template-columns: minmax(220px, 0.7fr) minmax(0, 1fr);
-  }
-
-  .custom-mask-banner-action {
-    grid-column: 2;
-  }
-
   .dimension-grid,
   .interaction-grid,
   .context-columns,
@@ -2313,28 +2175,6 @@ td a {
   .empty-analysis {
     padding: 22px 16px;
     border-radius: 18px;
-  }
-
-  .custom-mask-banner {
-    grid-template-columns: 1fr;
-    gap: 0;
-    border-radius: 18px;
-  }
-
-  .custom-mask-banner-visual {
-    grid-row: auto;
-    min-height: 238px;
-    border-right: 0;
-    border-bottom: 1px solid rgba(106, 13, 173, 0.1);
-  }
-
-  .custom-mask-banner-content {
-    padding: 26px 22px 20px;
-  }
-
-  .custom-mask-banner-action {
-    grid-column: auto;
-    padding: 0 22px 24px;
   }
 
   .hero-heading-row {

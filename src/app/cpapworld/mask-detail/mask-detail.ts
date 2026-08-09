@@ -20,7 +20,6 @@ import { RetailerProfile, RetailerServiceAspect } from '../retailer-data';
 import { RetailerDataService } from '../retailer-data.service';
 import { CustomMaskPopup } from '../../custom-mask-popup/custom-mask-popup';
 import { WaitlistSignup } from '../../waitlist-signup/waitlist-signup';
-import { randomCustomMaskImage } from '../../custom-mask-image';
 
 type AnalysisTab = 'overview' | 'reviews' | 'fit' | 'components';
 type EvidenceTone = 'positive' | 'negative';
@@ -34,7 +33,6 @@ type ReviewEvidence = ScoreEvidence & { aspectId: string; aspectLabel: string };
   styleUrl: './mask-detail.css'
 })
 export class MaskDetail {
-  protected readonly customMaskImage = randomCustomMaskImage();
   private static readonly TOP_GRADE_IDS = [
     'fit-and-sizing',
     'comfort',
