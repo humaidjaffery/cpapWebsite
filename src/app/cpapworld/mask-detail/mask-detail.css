@@ -2244,6 +2244,25 @@ td a {
   }
 
   .detail-header {
+    justify-content: center;
+    min-height: 72px;
+    padding: 12px 16px;
+  }
+
+  .detail-header .brand {
+    gap: 10px;
+  }
+
+  .detail-header .logo-mark {
+    width: 42px;
+    height: 42px;
+  }
+
+  .detail-header .logo-title {
+    font-size: 26px;
+  }
+
+  .detail-header-actions {
     display: none;
   }
 

@@ -1,7 +1,7 @@
 <main class="retailers-page">
   <header class="retailers-header">
     <div class="retailers-header-left">
-      <a class="back-link" routerLink="/cpapworld">← Explore masks</a>
+      <a class="back-link" routerLink="/cpaplibrary">← Explore masks</a>
       <a class="brand" href="/" aria-label="DreamSeal home">
         <img src="/dreamseal_logo.png" alt="" width="44" height="44" />
         <span>DreamSeal</span>
@@ -44,7 +44,7 @@
     <nav class="retailer-jump-list" aria-label="Jump to a retailer">
       @for (profile of profiles(); track profile.slug) {
         <a
-          [href]="'/cpapworld/retailers#' + profile.slug"
+          [href]="'/cpaplibrary/retailers#' + profile.slug"
           (click)="scrollTo(profile.slug, $event)"
         >
           <span>{{ profile.name }}</span>
@@ -200,7 +200,7 @@
 
           <a
             class="top-link"
-            href="/cpapworld/retailers#retailers-title"
+            href="/cpaplibrary/retailers#retailers-title"
             (click)="scrollTo('retailers-title', $event)"
           >Back to top ↑</a>
         </article>

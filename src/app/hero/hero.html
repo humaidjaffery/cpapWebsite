@@ -137,7 +137,6 @@
                   <img
                     [src]="customMaskImage"
                     [class.hero-person-male]="customMaskImage.includes('male')"
-                    [class.hero-person-female]="customMaskImage.includes('female')"
                     alt=""
                     width="1024"
                     height="1024"
@@ -153,7 +152,9 @@
             <div class="section-heading-block section-heading-centered">
               <h2 class="section-main-heading" style="font-size: 40px; white-space: nowrap">
                 You are <span class="heading-gradient">unique</span><br />
-                <span class="section-heading-accent">Your mask should be too</span>
+                <span class="section-heading-accent">
+                  Your <span class="heading-gradient">mask</span> should be too
+                </span>
               </h2>
             </div>
 
@@ -361,5 +362,22 @@
           </section>
         </div>
       </div>
+
+      @if (showCpapLibraryGuide) {
+        <a
+          class="cpapworld-launcher"
+          routerLink="/cpaplibrary"
+          aria-label="Explore CPAP Library"
+        >
+          <span class="cpapworld-launcher-icon" aria-hidden="true">
+            <img src="/dreamseal_logo.png" alt="" width="42" height="42" />
+          </span>
+          <span class="cpapworld-launcher-copy">
+            <small>CPAP Library</small>
+            <strong>Compare masks using real review evidence</strong>
+          </span>
+          <span class="cpapworld-launcher-arrow" aria-hidden="true">→</span>
+        </a>
+      }
   </body>
 </html>

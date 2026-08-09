@@ -170,6 +170,8 @@ describe('CpapWorld', () => {
 
   it('displays the evidence-backed catalog card', () => {
     const element: HTMLElement = fixture.nativeElement;
+    expect(element.querySelector('h1')?.textContent).toContain('CPAP Library');
+    expect(element.textContent).not.toContain('CPAP World');
     const card = element.querySelector('.mask-card:not(.custom-mask-card)');
     expect(card?.textContent).toContain('ResMed AirFit P10');
     expect(card?.textContent).toContain('100 reviews analyzed');
@@ -181,7 +183,7 @@ describe('CpapWorld', () => {
     expect(card?.textContent).toContain('Cheapest');
     expect(card?.textContent).toContain('$69.00');
     expect(card?.querySelector('.catalog-grade')?.textContent).toContain('A-');
-    expect(card?.getAttribute('href')).toContain('/cpapworld/masks/resmed-airfit-p10');
+    expect(card?.getAttribute('href')).toContain('/cpaplibrary/masks/resmed-airfit-p10');
     expect(card?.querySelector('img')?.getAttribute('src')).toBe(
       '/images/masks/resmed-airfit-p10.webp'
     );

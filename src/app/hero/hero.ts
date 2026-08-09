@@ -1,5 +1,5 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA, AfterViewInit, OnDestroy, ViewChild, ElementRef } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { getApp, getApps, initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, Timestamp } from 'firebase/firestore';
@@ -20,9 +20,24 @@ export function createWaitlistRecord(
   };
 }
 
+export function cameFromCpapLibrary(referrer: string, currentOrigin: string): boolean {
+  if (!referrer) return false;
+
+  try {
+    const previousPage = new URL(referrer);
+    return (
+      previousPage.origin === currentOrigin &&
+      (previousPage.pathname === '/cpaplibrary' ||
+        previousPage.pathname.startsWith('/cpaplibrary/'))
+    );
+  } catch {
+    return false;
+  }
+}
+
 @Component({
   selector: 'app-hero',
-  imports: [FormsModule],
+  imports: [FormsModule, RouterLink],
   templateUrl: './hero.html',
   styleUrl: './hero.css'
   ,
@@ -30,6 +45,7 @@ export function createWaitlistRecord(
 })
 export class Hero implements AfterViewInit, OnDestroy {
   readonly customMaskImage = randomCustomMaskImage();
+  readonly showCpapLibraryGuide = cameFromCpapLibrary(document.referrer, window.location.origin);
   emailOrPhone: string = '';
   showHeaderInput: boolean = false;
   private db;

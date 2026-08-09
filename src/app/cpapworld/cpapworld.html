@@ -14,13 +14,13 @@
       </span>
     </a>
 
-    <nav class="header-actions" aria-label="CPAP World navigation">
+    <nav class="header-actions" aria-label="CPAP Library navigation">
       <app-waitlist-signup class="header-waitlist" [header]="true" />
     </nav>
   </header>
 
   <section class="hero-panel" aria-labelledby="cpapworld-title">
-    <h1 id="cpapworld-title">CPAP World</h1>
+    <h1 id="cpapworld-title">CPAP Library</h1>
     <p>
       <strong>Find Your Perfect Mask</strong>
       <span class="hero-description-line">The definitive guide to CPAP comfort.</span>
@@ -150,7 +150,7 @@
       </article>
 
       @for (mask of filteredMasks(); track mask.slug) {
-        <a class="mask-card" [routerLink]="['/cpapworld/masks', mask.slug]">
+        <a class="mask-card" [routerLink]="['/cpaplibrary/masks', mask.slug]">
           <div class="mask-media" aria-hidden="true">
             <img
               class="mask-image"

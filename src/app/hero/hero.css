@@ -129,9 +129,6 @@
     transform: scaleX(-1) scale(1.14);
   }
 
-  .hero-product-frame .hero-person-female {
-    transform: scaleX(-1) scale(0.945);
-  }
 }
 
 @media (max-width: 768px) {
@@ -757,6 +754,97 @@ body {
   }
 }
 
+.cpapworld-launcher {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1300;
+  display: flex;
+  min-width: 300px;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px 10px 10px;
+  border: 2px solid transparent;
+  border-radius: 18px;
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(135deg, #7b1fa2, #e0b949) border-box;
+  box-shadow: 0 12px 32px rgba(69, 25, 88, 0.24);
+  color: #402249;
+  text-decoration: none;
+  transition:
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+.cpapworld-launcher:hover,
+.cpapworld-launcher:focus-visible {
+  box-shadow: 0 16px 38px rgba(69, 25, 88, 0.3);
+  outline: none;
+  transform: translateY(-2px);
+}
+
+.cpapworld-launcher-icon {
+  display: grid;
+  width: 46px;
+  height: 46px;
+  flex: 0 0 auto;
+  place-items: center;
+}
+
+.cpapworld-launcher-icon img {
+  display: block;
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.cpapworld-launcher-copy {
+  display: grid;
+  flex: 1;
+  gap: 1px;
+}
+
+.cpapworld-launcher-copy small {
+  color: #9a6c0d;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.cpapworld-launcher-copy strong {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.cpapworld-launcher-arrow {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 50%;
+  background: #f3eafa;
+  color: #74249a;
+  font-size: 18px;
+  transition: transform 180ms ease;
+}
+
+.cpapworld-launcher:hover .cpapworld-launcher-arrow,
+.cpapworld-launcher:focus-visible .cpapworld-launcher-arrow {
+  transform: translateX(2px);
+}
+
+@media (max-width: 640px) {
+  .cpapworld-launcher {
+    right: 12px;
+    bottom: 12px;
+    min-width: 0;
+    width: calc(100% - 24px);
+  }
+}
+
 @media (max-width: 480px) {
   .header-right {
     gap: 8px;
@@ -1330,7 +1418,7 @@ body {
 }
 
 .section-heading-accent {
-  color: var(--secondary);
+  color: var(--foreground);
 }
 
 .section-main-heading .heading-gradient {
@@ -1590,9 +1678,33 @@ body {
     width: 100%;
   }
   
-  /* Completely hide header on mobile */
+  /* Keep the DreamSeal brand visible on mobile without the header actions. */
   .header {
-    display: none !important;
+    position: relative;
+    display: flex !important;
+    min-height: 72px;
+    justify-content: center;
+    padding: 12px 16px;
+  }
+
+  .header::after {
+    opacity: 1;
+  }
+
+  .header-left {
+    position: static;
+    gap: 10px;
+    margin: 0;
+    transform: none;
+  }
+
+  .header .logo-mark {
+    width: 42px;
+    height: 42px;
+  }
+
+  .header .logo-title {
+    font-size: 26px;
   }
   
   /* Remove any header-related animations and positioning */

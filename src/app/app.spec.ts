@@ -23,7 +23,7 @@ describe('App', () => {
   });
 
   it('keeps the mask catalog and detail routes reachable', () => {
-    expect(routes.some((route) => route.path === 'cpapworld')).toBeTrue();
-    expect(routes.some((route) => route.path === 'cpapworld/masks/:maskSlug')).toBeTrue();
+    expect(routes.some((route) => route.path === 'cpaplibrary')).toBeTrue();
+    expect(routes.some((route) => route.path === 'cpaplibrary/masks/:maskSlug')).toBeTrue();
   });
 });

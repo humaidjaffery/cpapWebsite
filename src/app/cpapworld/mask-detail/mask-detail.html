@@ -8,7 +8,7 @@
         <span class="logo-title">DreamSeal</span>
       </span>
     </a>
-    <nav class="detail-header-actions" aria-label="CPAP World navigation">
+    <nav class="detail-header-actions" aria-label="CPAP Library navigation">
       <app-waitlist-signup class="header-waitlist" [header]="true" />
     </nav>
   </header>
@@ -24,7 +24,7 @@
       <p class="eyebrow">Mask analysis</p>
       <h1>We couldn’t load this mask</h1>
       <p>The profile may not exist yet, or the data is temporarily unavailable.</p>
-      <a class="primary-link" routerLink="/cpapworld">Return to all masks</a>
+      <a class="primary-link" routerLink="/cpaplibrary">Return to all masks</a>
     </section>
   } @else if (profile(); as mask) {
     <div class="detail-shell">
@@ -41,7 +41,7 @@
 
       <section class="mask-hero" aria-labelledby="mask-name">
         <div class="hero-heading-row">
-          <a class="back-link" routerLink="/cpapworld" aria-label="Back to all masks">&larr;</a>
+          <a class="back-link" routerLink="/cpaplibrary" aria-label="Back to all masks">&larr;</a>
           <h1 id="mask-name">{{ mask.name }}</h1>
         </div>
 
@@ -248,7 +248,7 @@
 
                       <div class="retailer-detail-links">
                         <a [href]="retailer.websiteUrl" target="_blank" rel="noopener noreferrer">Visit website</a>
-                        <a routerLink="/cpapworld/retailers" [fragment]="retailer.slug">Full retailer report</a>
+                        <a routerLink="/cpaplibrary/retailers" [fragment]="retailer.slug">Full retailer report</a>
                       </div>
                     </aside>
                   }

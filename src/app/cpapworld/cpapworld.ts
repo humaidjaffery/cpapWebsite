@@ -160,7 +160,7 @@ export class CpapWorld {
     event.preventDefault();
     const match = this.filteredMasks()[0];
     if (match && this.searchQuery().trim()) {
-      void this.router.navigate(['/cpapworld/masks', match.slug]);
+      void this.router.navigate(['/cpaplibrary/masks', match.slug]);
     }
   }
 

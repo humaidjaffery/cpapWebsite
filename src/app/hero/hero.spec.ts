@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { Timestamp } from 'firebase/firestore';
 
-import { createWaitlistRecord, Hero } from './hero';
+import { cameFromCpapLibrary, createWaitlistRecord, Hero } from './hero';
 
 describe('Hero', () => {
   let component: Hero;
@@ -32,5 +32,21 @@ describe('Hero', () => {
       timestamp,
       userAgent: 'test-agent'
     });
+  });
+
+  it('only identifies same-site CPAP Library pages as the previous page', () => {
+    expect(
+      cameFromCpapLibrary(
+        'https://dreamseal.com/cpaplibrary/masks/example',
+        'https://dreamseal.com'
+      )
+    ).toBeTrue();
+    expect(cameFromCpapLibrary('', 'https://dreamseal.com')).toBeFalse();
+    expect(
+      cameFromCpapLibrary('https://example.com/cpaplibrary', 'https://dreamseal.com')
+    ).toBeFalse();
+    expect(
+      cameFromCpapLibrary('https://dreamseal.com/survey', 'https://dreamseal.com')
+    ).toBeFalse();
   });
 });
