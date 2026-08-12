@@ -331,10 +331,11 @@ describe('MaskDetail', () => {
     expect(element.querySelector('.mask-hero .mask-gallery')).toBeTruthy();
     expect(element.querySelector('.mask-hero .score-panel')).toBeTruthy();
     expect(element.querySelector('.detail-header .back-link')).toBeNull();
-    expect(element.querySelector('.detail-header .header-waitlist input')).toBeTruthy();
-    expect(element.querySelector('.detail-header .header-waitlist button')?.textContent).toContain(
+    expect(element.querySelector('.detail-header .header-waitlist input')).toBeNull();
+    expect(element.querySelector('.detail-header .header-waitlist a')?.textContent).toContain(
       'Win Lifetime Free Custom Masks!'
     );
+    expect(element.querySelector('.detail-header .header-waitlist a')?.getAttribute('href')).toBe('/');
     expect(element.querySelector('.detail-header .retailer-guide-link')).toBeNull();
     expect(element.querySelector('.hero-heading-row .back-link')?.textContent?.trim()).toBe('←');
     expect(element.querySelector('.hero-heading-row .back-link')?.getAttribute('aria-label')).toBe(

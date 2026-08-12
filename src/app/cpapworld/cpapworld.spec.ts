@@ -191,10 +191,11 @@ describe('CpapWorld', () => {
 
   it('shows the DreamSeal header brand and CTA', () => {
     const brand = fixture.nativeElement.querySelector('.brand');
-    const cta = fixture.nativeElement.querySelector('.header-waitlist button');
+    const cta = fixture.nativeElement.querySelector('.header-waitlist a');
     expect(brand.textContent).toContain('DreamSeal');
     expect(cta.textContent).toContain('Win Lifetime Free Custom Masks!');
-    expect(fixture.nativeElement.querySelector('.header-waitlist input')).toBeTruthy();
+    expect(cta.getAttribute('href')).toBe('/');
+    expect(fixture.nativeElement.querySelector('.header-waitlist input')).toBeNull();
   });
 
   it('filters masks by abbreviation, alias, and mask type', () => {

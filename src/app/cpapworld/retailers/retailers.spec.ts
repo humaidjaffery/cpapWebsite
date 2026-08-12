@@ -92,10 +92,11 @@ describe('Retailers', () => {
     expect(element.querySelector('.retailers-header-left > .back-link')?.textContent).toContain(
       'Explore masks'
     );
-    expect(element.querySelector('.retailers-header .header-waitlist input')).toBeTruthy();
-    expect(element.querySelector('.retailers-header .header-waitlist button')?.textContent).toContain(
+    expect(element.querySelector('.retailers-header .header-waitlist input')).toBeNull();
+    expect(element.querySelector('.retailers-header .header-waitlist a')?.textContent).toContain(
       'Win Lifetime Free Custom Masks!'
     );
+    expect(element.querySelector('.retailers-header .header-waitlist a')?.getAttribute('href')).toBe('/');
     expect(element.textContent).toContain('Example CPAP');
     expect(element.textContent).toContain('A-');
     expect(element.textContent).toContain('Service report card');

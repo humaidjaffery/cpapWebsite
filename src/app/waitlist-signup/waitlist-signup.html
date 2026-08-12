@@ -1,30 +1,34 @@
-<form
-  class="widget-waitlist-form"
-  [class.widget-waitlist-form-compact]="compact"
-  [class.widget-waitlist-form-header]="header"
-  (ngSubmit)="submit()"
->
-  <label>
-    <span class="widget-waitlist-label">Email address</span>
-    <input
-      type="email"
-      name="waitlistEmail"
-      autocomplete="email"
-      placeholder="Enter your email"
-      [(ngModel)]="email"
-      [disabled]="submitting"
-      required
-    />
-  </label>
-  <button type="submit" [disabled]="submitting">
-    {{ submitting ? 'Joining…' : header ? 'Win Lifetime Free Custom Masks!' : 'Join the waitlist' }}
-    @if (!submitting) {<span aria-hidden="true">&rarr;</span>}
-  </button>
-</form>
-@if (errorMessage) {
-  <p class="widget-waitlist-error" role="alert">{{ errorMessage }}</p>
-}
-@if (!header) {
+@if (header) {
+  <a class="widget-header-cta" routerLink="/">
+    Win Lifetime Free Custom Masks!
+    <span aria-hidden="true">&rarr;</span>
+  </a>
+} @else {
+  <form
+    class="widget-waitlist-form"
+    [class.widget-waitlist-form-compact]="compact"
+    (ngSubmit)="submit()"
+  >
+    <label>
+      <span class="widget-waitlist-label">Email address</span>
+      <input
+        type="email"
+        name="waitlistEmail"
+        autocomplete="email"
+        placeholder="Enter your email"
+        [(ngModel)]="email"
+        [disabled]="submitting"
+        required
+      />
+    </label>
+    <button type="submit" [disabled]="submitting">
+      {{ submitting ? 'Joining…' : 'Join the waitlist' }}
+      @if (!submitting) {<span aria-hidden="true">&rarr;</span>}
+    </button>
+  </form>
+  @if (errorMessage) {
+    <p class="widget-waitlist-error" role="alert">{{ errorMessage }}</p>
+  }
   <ul
     class="widget-waitlist-perks"
     [class.widget-waitlist-perks-inline]="inlinePerks"

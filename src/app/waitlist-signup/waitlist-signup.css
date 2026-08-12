@@ -43,7 +43,8 @@
   box-shadow: 0 0 0 3px rgba(106, 13, 173, 0.12);
 }
 
-.widget-waitlist-form button {
+.widget-waitlist-form button,
+.widget-header-cta {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,26 +59,28 @@
   cursor: pointer;
 }
 
+.widget-header-cta {
+  min-height: 42px;
+  text-decoration: none;
+}
+
+.widget-header-cta:focus-visible {
+  outline: 3px solid rgba(106, 13, 173, 0.22);
+  outline-offset: 3px;
+}
+
 .widget-waitlist-form button:disabled {
   cursor: wait;
   opacity: 0.72;
 }
 
-.widget-waitlist-form button span {
+.widget-waitlist-form button span,
+.widget-header-cta span {
   font-size: 21px;
 }
 
 .widget-waitlist-form-compact {
   grid-template-columns: 1fr;
-}
-
-.widget-waitlist-form-header input,
-.widget-waitlist-form-header button {
-  min-height: 42px;
-}
-
-.widget-waitlist-form-header button {
-  padding-inline: 14px;
 }
 
 .widget-waitlist-error {
@@ -134,17 +137,7 @@
     grid-template-columns: 1fr;
   }
 
-  .widget-waitlist-form-header {
-    grid-template-columns: 1fr;
-    gap: 6px;
-  }
-
-  .widget-waitlist-form-header input {
-    padding-inline: 10px;
-    font-size: 12px;
-  }
-
-  .widget-waitlist-form-header button {
+  .widget-header-cta {
     gap: 6px;
     padding-inline: 10px;
     font-size: 12px;
