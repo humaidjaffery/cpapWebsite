@@ -198,6 +198,7 @@ export interface RetailerPriceOffer {
   productName: string;
   productUrl: string;
   variantName: string;
+  variantId: string;
   priceCents: number;
   price: string;
   compareAtPriceCents?: number;
@@ -206,6 +207,30 @@ export interface RetailerPriceOffer {
   inStock: boolean;
   observedAt: string;
   configurationNote: string;
+  configuration: PriceConfiguration;
+}
+
+export interface PriceConfigurationOption {
+  name: string;
+  value: string;
+}
+
+export interface PriceConfiguration {
+  offerType: 'complete' | 'without_headgear' | 'unknown';
+  headgearIncluded: boolean | null;
+  size: string | null;
+  frameSize: string | null;
+  headgearSize: string | null;
+  fitPack: boolean;
+  options: PriceConfigurationOption[];
+}
+
+export interface MaskSizePriceRange {
+  size: string;
+  minimumPriceCents: number;
+  maximumPriceCents: number;
+  minimumPrice: string;
+  maximumPrice: string;
 }
 
 export interface PriceHistoryPoint {
@@ -221,8 +246,10 @@ export interface MaskPrices {
   slug: string;
   generatedAt: string;
   status: 'available' | 'unavailable';
+  defaultHeadgearIncluded: boolean;
   cheapestOffer: RetailerPriceOffer | null;
   offers: RetailerPriceOffer[];
+  sizeRanges: MaskSizePriceRange[];
   priceHistory: PriceHistoryPoint[];
   methodology: string;
 }

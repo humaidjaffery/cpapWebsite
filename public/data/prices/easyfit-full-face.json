@@ -1,19 +1,30 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "EasyFit Full Face",
   "slug": "easyfit-full-face",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": {
     "retailer": "1800CPAP.COM",
     "productName": "EasyFit Full Face CPAP Mask System",
     "productUrl": "https://1800cpap.com/products/easyfit-full-face-cpap-mask-system",
+    "variantId": "46469200937204",
     "variantName": "Silicone - Small",
     "priceCents": 4899,
     "price": "$48.99",
     "currency": "USD",
     "inStock": true,
-    "observedAt": "2026-08-18T09:49:02+00:00",
+    "observedAt": "2026-08-13T16:45:57+00:00",
+    "configuration": {
+      "offerType": "complete",
+      "headgearIncluded": true,
+      "size": "Small",
+      "frameSize": null,
+      "headgearSize": null,
+      "fitPack": false,
+      "options": []
+    },
     "configurationNote": ""
   },
   "offers": [
@@ -21,30 +32,135 @@
       "retailer": "1800CPAP.COM",
       "productName": "EasyFit Full Face CPAP Mask System",
       "productUrl": "https://1800cpap.com/products/easyfit-full-face-cpap-mask-system",
+      "variantId": "46469200937204",
       "variantName": "Silicone - Small",
       "priceCents": 4899,
       "price": "$48.99",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:49:02+00:00",
+      "observedAt": "2026-08-13T16:45:57+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "EasyFit Full Face CPAP Mask System",
+      "productUrl": "https://1800cpap.com/products/easyfit-full-face-cpap-mask-system",
+      "variantId": "46469201035508",
+      "variantName": "Silk Gel - Sm",
+      "priceCents": 4899,
+      "price": "$48.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:45:57+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Style & Size",
+            "value": "Silk Gel - Sm"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "EasyFit Full Face CPAP Mask System",
+      "productUrl": "https://1800cpap.com/products/easyfit-full-face-cpap-mask-system",
+      "variantId": "46469200969972",
+      "variantName": "Silicone - XL",
+      "priceCents": 5999,
+      "price": "$59.99",
+      "currency": "USD",
+      "inStock": false,
+      "observedAt": "2026-08-13T16:45:57+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Extra Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "EasyFit Full Face CPAP Mask System",
+      "productUrl": "https://1800cpap.com/products/easyfit-full-face-cpap-mask-system",
+      "variantId": "46469200871668",
+      "variantName": "Gel Cushion - Med",
+      "priceCents": 5999,
+      "price": "$59.99",
+      "currency": "USD",
+      "inStock": false,
+      "observedAt": "2026-08-13T16:45:57+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Style & Size",
+            "value": "Gel Cushion - Med"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "EasyFit Full Face CPAP Mask System",
+      "productUrl": "https://1800cpap.com/products/easyfit-full-face-cpap-mask-system",
+      "variantId": "46469201002740",
+      "variantName": "Silk Gel - Medium",
+      "priceCents": 5999,
+      "price": "$59.99",
+      "currency": "USD",
+      "inStock": false,
+      "observedAt": "2026-08-13T16:45:57+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    }
+  ],
+  "sizeRanges": [
+    {
+      "size": "Small",
+      "minimumPriceCents": 4899,
+      "maximumPriceCents": 4899,
+      "minimumPrice": "$48.99",
+      "maximumPrice": "$48.99"
     }
   ],
   "priceHistory": [
     {
-      "date": "2026-08-09",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4899,
-      "price": "$48.99"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4899,
-      "price": "$48.99"
-    },
-    {
-      "date": "2026-08-11",
+      "date": "2026-08-03",
       "retailer": "1800CPAP.COM",
       "priceCents": 4899,
       "price": "$48.99"
@@ -60,37 +176,7 @@
       "retailer": "1800CPAP.COM",
       "priceCents": 4899,
       "price": "$48.99"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4899,
-      "price": "$48.99"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4899,
-      "price": "$48.99"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4899,
-      "price": "$48.99"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4899,
-      "price": "$48.99"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4899,
-      "price": "$48.99"
     }
   ],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

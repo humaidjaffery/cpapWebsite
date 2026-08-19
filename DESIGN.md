@@ -72,6 +72,7 @@ typography:
 rounded:
   sm: 4px
   mdCompact: 6px
+  button: 6px
   lgCompact: 8px
   md: 12px
   lg: 16px
@@ -186,7 +187,7 @@ Keep the first viewport focused on the product promise and waitlist action. The 
 
 ### Buttons
 
-Primary buttons use the purple-to-gold gradient, white text, compact radius, and restrained shadow. Keep labels exact where they already exist, especially "Join the waitlist", "Contact us", and "Submit Answers".
+Primary buttons use the purple-to-gold gradient, white text, a consistent 6px radius (`--radius-button`), and restrained shadow. Use this radius for standard action buttons throughout the site; reserve pill radii for chips, tags, and similar controls. Keep labels exact where they already exist, especially "Join the waitlist", "Contact us", and "Submit Answers".
 
 Gradient-outline buttons use the same gradient as a stroke with black foreground text. Use them for secondary actions such as "Contact us".
 

@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout website
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: master
 
@@ -37,14 +37,14 @@ jobs:
           fi
 
       - name: Checkout price pipeline
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: humaidjaffery/cpapWorld
           path: price-pipeline
           token: ${{ secrets.CPAPWORLD_READ_TOKEN }}
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -53,25 +53,46 @@ jobs:
       - name: Install price pipeline
         run: python -m pip install -r price-pipeline/pipelines/prices/requirements.txt
 
+      - name: Test refresh workflow and price pipeline
+        run: |
+          python scripts/test_refresh_workflow.py
+          PYTHONPATH=price-pipeline python -m unittest discover \
+            --start-directory price-pipeline/pipelines/prices/tests \
+            --pattern "test_*.py"
+
       - name: Restore price history
+        id: history-state
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           mkdir -p "$(dirname "$PRICE_DATABASE")"
-          gh release download "$PRICE_STATE_TAG" \
-            --pattern prices.sqlite3 \
-            --dir "$(dirname "$PRICE_DATABASE")" || true
+          release_response=""
+          if release_response=$(gh api --include "repos/${GITHUB_REPOSITORY}/releases/tags/${PRICE_STATE_TAG}" 2>&1); then
+            gh release download "$PRICE_STATE_TAG" \
+              --pattern prices.sqlite3 \
+              --dir "$(dirname "$PRICE_DATABASE")" \
+              --clobber
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          elif grep -qE '^HTTP/[0-9.]+ 404' <<< "$release_response"; then
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "No saved price history exists yet; starting a new database."
+          else
+            echo "$release_response" >&2
+            exit 1
+          fi
 
       - name: Record scrape start
         id: scrape-start
         run: echo "timestamp=$(date -u +'%Y-%m-%dT%H:%M:%S+00:00')" >> "$GITHUB_OUTPUT"
 
-      - name: Scrape retailer prices
+      - name: Scrape every current curated product and configuration
         run: |
           python price-pipeline/pipelines/prices/run_all.py \
             --database "$PRICE_DATABASE" \
             --skip-review-seeds \
-            --skip-discovery
+            --skip-discovery \
+            --timeout 45 \
+            --delay 1.0
 
       - name: Publish price files
         run: |
@@ -85,13 +106,15 @@ jobs:
           python price-pipeline/pipelines/prices/validate.py \
             --database "$PRICE_DATABASE" \
             --output public/data/prices \
-            --since "${{ steps.scrape-start.outputs.timestamp }}"
+            --since "${{ steps.scrape-start.outputs.timestamp }}" \
+            --minimum-configurations 2000 \
+            --minimum-success-ratio 1.0
 
       - name: Save price history
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if ! gh release view "$PRICE_STATE_TAG"; then
+          if [ "${{ steps.history-state.outputs.exists }}" != "true" ]; then
             gh release create "$PRICE_STATE_TAG" \
               --title "Daily price history state" \
               --notes "SQLite state used by the automated daily CPAP mask price refresh."

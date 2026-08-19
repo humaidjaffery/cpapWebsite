@@ -1,19 +1,30 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "Circadiance SleepWeaver 3D",
   "slug": "circadiance-sleepweaver-3d",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": {
     "retailer": "1800CPAP.COM",
     "productName": "SleepWeaver 3D Soft Cloth Nasal CPAP Mask",
     "productUrl": "https://1800cpap.com/products/sleepweaver-3d-soft-cloth-nasal-cpap-mask",
-    "variantName": "Large Headgear",
+    "variantId": "46469228626164",
+    "variantName": "Regular Headgear",
     "priceCents": 4900,
     "price": "$49.00",
     "currency": "USD",
     "inStock": true,
-    "observedAt": "2026-08-18T09:48:55+00:00",
+    "observedAt": "2026-08-13T16:45:42+00:00",
+    "configuration": {
+      "offerType": "complete",
+      "headgearIncluded": true,
+      "size": "Regular",
+      "frameSize": null,
+      "headgearSize": null,
+      "fitPack": false,
+      "options": []
+    },
     "configurationNote": ""
   },
   "offers": [
@@ -21,60 +32,145 @@
       "retailer": "1800CPAP.COM",
       "productName": "SleepWeaver 3D Soft Cloth Nasal CPAP Mask",
       "productUrl": "https://1800cpap.com/products/sleepweaver-3d-soft-cloth-nasal-cpap-mask",
+      "variantId": "46469228626164",
+      "variantName": "Regular Headgear",
+      "priceCents": 4900,
+      "price": "$49.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:45:42+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Regular",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "SleepWeaver 3D Soft Cloth Nasal CPAP Mask",
+      "productUrl": "https://1800cpap.com/products/sleepweaver-3d-soft-cloth-nasal-cpap-mask",
+      "variantId": "46469228593396",
       "variantName": "Large Headgear",
       "priceCents": 4900,
       "price": "$49.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:48:55+00:00",
+      "observedAt": "2026-08-13T16:45:42+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": ""
     },
     {
       "retailer": "DirectHomeMedical",
       "productName": "SleepWeaver 3D Soft Cloth Nasal CPAP Mask with Headgear",
       "productUrl": "https://directhomemedical.com/products/sleepweaver-3d-nasal-cpap-mask-starter-pack",
+      "variantId": "48113342152856",
       "variantName": "Mask with Regular Headgear",
       "priceCents": 5900,
       "price": "$59.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:54:06+00:00",
+      "observedAt": "2026-08-13T16:41:32+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Regular",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": ""
+    },
+    {
+      "retailer": "DirectHomeMedical",
+      "productName": "SleepWeaver 3D Soft Cloth Nasal CPAP Mask with Headgear",
+      "productUrl": "https://directhomemedical.com/products/sleepweaver-3d-nasal-cpap-mask-starter-pack",
+      "variantId": "48113342185624",
+      "variantName": "Mask with Large Headgear",
+      "priceCents": 5900,
+      "price": "$59.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:41:32+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "DirectHomeMedical",
+      "productName": "SleepWeaver 3D Soft Cloth Nasal CPAP Mask with Headgear",
+      "productUrl": "https://directhomemedical.com/products/sleepweaver-3d-nasal-cpap-mask-starter-pack",
+      "variantId": "48113342218392",
+      "variantName": "FitPack with Regular & Large Headgear",
+      "priceCents": 6900,
+      "price": "$69.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:41:32+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
+      "configurationNote": ""
+    }
+  ],
+  "sizeRanges": [
+    {
+      "size": "Regular",
+      "minimumPriceCents": 4900,
+      "maximumPriceCents": 5900,
+      "minimumPrice": "$49.00",
+      "maximumPrice": "$59.00"
+    },
+    {
+      "size": "Large",
+      "minimumPriceCents": 4900,
+      "maximumPriceCents": 5900,
+      "minimumPrice": "$49.00",
+      "maximumPrice": "$59.00"
+    },
+    {
+      "size": "Fit Pack",
+      "minimumPriceCents": 6900,
+      "maximumPriceCents": 6900,
+      "minimumPrice": "$69.00",
+      "maximumPrice": "$69.00"
     }
   ],
   "priceHistory": [
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "1800CPAP.COM",
       "priceCents": 4900,
       "price": "$49.00"
     },
     {
-      "date": "2026-08-09",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 5900,
-      "price": "$59.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 5900,
-      "price": "$59.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-11",
+      "date": "2026-08-03",
       "retailer": "DirectHomeMedical",
       "priceCents": 5900,
       "price": "$59.00"
@@ -99,70 +195,10 @@
     },
     {
       "date": "2026-08-13",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 5900,
-      "price": "$59.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 5900,
-      "price": "$59.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 5900,
-      "price": "$59.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 5900,
-      "price": "$59.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 5900,
-      "price": "$59.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-18",
       "retailer": "DirectHomeMedical",
       "priceCents": 5900,
       "price": "$59.00"
     }
   ],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

@@ -1,46 +1,75 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "Fisher & Paykel Opus 360",
   "slug": "fisher-paykel-opus-360",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": {
-    "retailer": "DirectHomeMedical",
-    "productName": "Opus 360 Nasal Pillows CPAP Mask FitPack with Headgear",
-    "productUrl": "https://directhomemedical.com/products/hc482-opus-nasal-pillows-cpap-mask",
-    "variantName": "Default Title",
-    "priceCents": 6600,
-    "price": "$66.00",
+    "retailer": "CPAPsupplies.com",
+    "productName": "Fisher & Paykel Opus\u2122 360 Nasal Pillow CPAP Mask",
+    "productUrl": "https://cpapsupplies.com/opus-360-nasal-pillow-cpap-mask-by-fisher-paykel",
+    "variantId": "bundle:1892",
+    "variantName": "Fisher & Paykel Opus\u2122 360 Nasal Pillow CPAP Mask Headgear + $24.99",
+    "priceCents": 6498,
+    "price": "$64.98",
     "currency": "USD",
     "inStock": true,
-    "observedAt": "2026-08-18T09:54:16+00:00",
-    "configurationNote": "",
-    "compareAtPriceCents": 7500,
-    "compareAtPrice": "$75.00"
+    "observedAt": "2026-08-13T16:39:27+00:00",
+    "configuration": {
+      "offerType": "complete",
+      "headgearIncluded": true,
+      "size": null,
+      "frameSize": null,
+      "headgearSize": null,
+      "fitPack": false,
+      "options": []
+    },
+    "configurationNote": ""
   },
   "offers": [
     {
       "retailer": "CPAPsupplies.com",
       "productName": "Fisher & Paykel Opus\u2122 360 Nasal Pillow CPAP Mask",
       "productUrl": "https://cpapsupplies.com/opus-360-nasal-pillow-cpap-mask-by-fisher-paykel",
-      "variantName": "Displayed price",
-      "priceCents": 3999,
-      "price": "$39.99",
+      "variantId": "bundle:1892",
+      "variantName": "Fisher & Paykel Opus\u2122 360 Nasal Pillow CPAP Mask Headgear + $24.99",
+      "priceCents": 6498,
+      "price": "$64.98",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:53:06+00:00",
-      "configurationNote": "Verify included components"
+      "observedAt": "2026-08-13T16:39:27+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
     },
     {
       "retailer": "DirectHomeMedical",
       "productName": "Opus 360 Nasal Pillows CPAP Mask FitPack with Headgear",
       "productUrl": "https://directhomemedical.com/products/hc482-opus-nasal-pillows-cpap-mask",
+      "variantId": "45823003394200",
       "variantName": "Default Title",
       "priceCents": 6600,
       "price": "$66.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:54:16+00:00",
+      "observedAt": "2026-08-13T16:41:40+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": "",
       "compareAtPriceCents": 7500,
       "compareAtPrice": "$75.00"
@@ -49,128 +78,237 @@
       "retailer": "1800CPAP.COM",
       "productName": "Opus 360 Nasal Pillow CPAP Mask",
       "productUrl": "https://1800cpap.com/products/opus-360-nasal-pillow-cpap-mask",
+      "variantId": "46477028851956",
       "variantName": "All Sizes",
       "priceCents": 6900,
       "price": "$69.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:49:15+00:00",
+      "observedAt": "2026-08-13T16:46:26+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Opus 360 Nasal Pillow CPAP Mask",
+      "productUrl": "https://1800cpap.com/products/opus-360-nasal-pillow-cpap-mask",
+      "variantId": "46477028950260",
+      "variantName": "Small",
+      "priceCents": 6900,
+      "price": "$69.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:46:26+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Opus 360 Nasal Pillow CPAP Mask",
+      "productUrl": "https://1800cpap.com/products/opus-360-nasal-pillow-cpap-mask",
+      "variantId": "46477028917492",
+      "variantName": "Medium",
+      "priceCents": 6900,
+      "price": "$69.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:46:26+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Opus 360 Nasal Pillow CPAP Mask",
+      "productUrl": "https://1800cpap.com/products/opus-360-nasal-pillow-cpap-mask",
+      "variantId": "46477028884724",
+      "variantName": "Large",
+      "priceCents": 6900,
+      "price": "$69.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:46:26+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": ""
     },
     {
       "retailer": "CPAP.com",
       "productName": "Opus 360 Nasal Pillow CPAP Mask",
       "productUrl": "https://www.cpap.com/products/fisher-paykel-opus-360-nasal-pillow-cpap-mask",
+      "variantId": "49671904756028",
       "variantName": "Complete Mask / Fit Pack",
       "priceCents": 7395,
       "price": "$73.95",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:51:44+00:00",
+      "observedAt": "2026-08-13T16:50:03+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Type",
+            "value": "Complete Mask"
+          }
+        ]
+      },
       "configurationNote": ""
     },
     {
       "retailer": "RespShop",
       "productName": "Fisher & Paykel | Opus 360 Nasal Pillow CPAP Mask",
       "productUrl": "https://www.respshop.com/products/fisher-paykel-opus-360-nasal-pillow-cpap-mask",
+      "variantId": "45739483398307",
       "variantName": "Default Title",
       "priceCents": 7450,
       "price": "$74.50",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:56:00+00:00",
+      "observedAt": "2026-08-13T16:42:48+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": "",
       "compareAtPriceCents": 11500,
       "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Fisher & Paykel Opus\u2122 360 Nasal Pillow CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/opus-360-nasal-pillow-cpap-mask-by-fisher-paykel",
+      "variantId": "bundle:null",
+      "variantName": "None\u00a0 +$0.00",
+      "priceCents": 3999,
+      "price": "$39.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:27+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "Opus 360 Nasal Pillow CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/fisher-paykel-opus-360-nasal-pillow-cpap-mask",
+      "variantId": "49694318756156",
+      "variantName": "Mask Only (No Headgear) / Fit Pack",
+      "priceCents": 6299,
+      "price": "$62.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:03+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
+      "configurationNote": ""
+    }
+  ],
+  "sizeRanges": [
+    {
+      "size": "Small",
+      "minimumPriceCents": 6900,
+      "maximumPriceCents": 6900,
+      "minimumPrice": "$69.00",
+      "maximumPrice": "$69.00"
+    },
+    {
+      "size": "Medium",
+      "minimumPriceCents": 6900,
+      "maximumPriceCents": 6900,
+      "minimumPrice": "$69.00",
+      "maximumPrice": "$69.00"
+    },
+    {
+      "size": "Large",
+      "minimumPriceCents": 6900,
+      "maximumPriceCents": 6900,
+      "minimumPrice": "$69.00",
+      "maximumPrice": "$69.00"
+    },
+    {
+      "size": "Fit Pack",
+      "minimumPriceCents": 6900,
+      "maximumPriceCents": 7395,
+      "minimumPrice": "$69.00",
+      "maximumPrice": "$73.95"
     }
   ],
   "priceHistory": [
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "1800CPAP.COM",
       "priceCents": 6900,
       "price": "$69.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "CPAP.com",
-      "priceCents": 6299,
-      "price": "$62.99"
+      "priceCents": 7395,
+      "price": "$73.95"
     },
     {
-      "date": "2026-08-09",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "DirectHomeMedical",
       "priceCents": 6600,
       "price": "$66.00"
     },
     {
-      "date": "2026-08-09",
-      "retailer": "RespShop",
-      "priceCents": 7450,
-      "price": "$74.50"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6900,
-      "price": "$69.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAP.com",
-      "priceCents": 6299,
-      "price": "$62.99"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 6600,
-      "price": "$66.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "RespShop",
-      "priceCents": 7450,
-      "price": "$74.50"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6900,
-      "price": "$69.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAP.com",
-      "priceCents": 6299,
-      "price": "$62.99"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 6600,
-      "price": "$66.00"
-    },
-    {
-      "date": "2026-08-11",
+      "date": "2026-08-03",
       "retailer": "RespShop",
       "priceCents": 7450,
       "price": "$74.50"
@@ -184,14 +322,8 @@
     {
       "date": "2026-08-12",
       "retailer": "CPAP.com",
-      "priceCents": 6299,
-      "price": "$62.99"
-    },
-    {
-      "date": "2026-08-12",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 3999,
-      "price": "$39.99"
+      "priceCents": 7395,
+      "price": "$73.95"
     },
     {
       "date": "2026-08-12",
@@ -214,14 +346,14 @@
     {
       "date": "2026-08-13",
       "retailer": "CPAP.com",
-      "priceCents": 6299,
-      "price": "$62.99"
+      "priceCents": 7395,
+      "price": "$73.95"
     },
     {
       "date": "2026-08-13",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 3999,
-      "price": "$39.99"
+      "priceCents": 6498,
+      "price": "$64.98"
     },
     {
       "date": "2026-08-13",
@@ -231,160 +363,10 @@
     },
     {
       "date": "2026-08-13",
-      "retailer": "RespShop",
-      "priceCents": 7450,
-      "price": "$74.50"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6900,
-      "price": "$69.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAP.com",
-      "priceCents": 6299,
-      "price": "$62.99"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 6600,
-      "price": "$66.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "RespShop",
-      "priceCents": 7450,
-      "price": "$74.50"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6900,
-      "price": "$69.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAP.com",
-      "priceCents": 6299,
-      "price": "$62.99"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 6600,
-      "price": "$66.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "RespShop",
-      "priceCents": 7450,
-      "price": "$74.50"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6900,
-      "price": "$69.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAP.com",
-      "priceCents": 6299,
-      "price": "$62.99"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 6600,
-      "price": "$66.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "RespShop",
-      "priceCents": 7450,
-      "price": "$74.50"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6900,
-      "price": "$69.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAP.com",
-      "priceCents": 6299,
-      "price": "$62.99"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 6600,
-      "price": "$66.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "RespShop",
-      "priceCents": 7450,
-      "price": "$74.50"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6900,
-      "price": "$69.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAP.com",
-      "priceCents": 6299,
-      "price": "$62.99"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 6600,
-      "price": "$66.00"
-    },
-    {
-      "date": "2026-08-18",
       "retailer": "RespShop",
       "priceCents": 7450,
       "price": "$74.50"
     }
   ],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

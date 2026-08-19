@@ -1,60 +1,384 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "ResMed AirFit N30i",
   "slug": "resmed-airfit-n30i",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": {
-    "retailer": "1800CPAP.COM",
-    "productName": "AirFit N30i CPAP Mask Kit",
-    "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
-    "variantName": "Medium / No / Small",
-    "priceCents": 7499,
-    "price": "$74.99",
+    "retailer": "CPAP Ninja",
+    "productName": "AirFit N30i Nasal CPAP Mask Starter Pack | ResMed",
+    "productUrl": "https://www.cpapninja.com/products/airfit-n30i-nasal-cpap-mask-starter-pack-resmed",
+    "variantId": "51880214298987",
+    "variantName": "Small",
+    "priceCents": 8500,
+    "price": "$85.00",
     "currency": "USD",
     "inStock": true,
-    "observedAt": "2026-08-18T09:50:41+00:00",
+    "observedAt": "2026-08-13T16:38:42+00:00",
+    "configuration": {
+      "offerType": "complete",
+      "headgearIncluded": true,
+      "size": "Small",
+      "frameSize": "Small",
+      "headgearSize": null,
+      "fitPack": true,
+      "options": [
+        {
+          "name": "Frame Size",
+          "value": "Small"
+        }
+      ]
+    },
     "configurationNote": "",
-    "compareAtPriceCents": 8400,
-    "compareAtPrice": "$84.00"
+    "compareAtPriceCents": 11500,
+    "compareAtPrice": "$115.00"
   },
   "offers": [
-    {
-      "retailer": "1800CPAP.COM",
-      "productName": "AirFit N30i CPAP Mask Kit",
-      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
-      "variantName": "Medium / No / Small",
-      "priceCents": 7499,
-      "price": "$74.99",
-      "currency": "USD",
-      "inStock": true,
-      "observedAt": "2026-08-18T09:50:41+00:00",
-      "configurationNote": "",
-      "compareAtPriceCents": 8400,
-      "compareAtPrice": "$84.00"
-    },
-    {
-      "retailer": "CPAPsupplies.com",
-      "productName": "Resmed AirFit\u2122 N30i Nasal CPAP Mask",
-      "productUrl": "https://cpapsupplies.com/resmed-airfit-n30i-nasal-cpap-mask",
-      "variantName": "Displayed price",
-      "priceCents": 8400,
-      "price": "$84.00",
-      "currency": "USD",
-      "inStock": true,
-      "observedAt": "2026-08-18T09:53:44+00:00",
-      "configurationNote": "Verify included components"
-    },
     {
       "retailer": "CPAP Ninja",
       "productName": "AirFit N30i Nasal CPAP Mask Starter Pack | ResMed",
       "productUrl": "https://www.cpapninja.com/products/airfit-n30i-nasal-cpap-mask-starter-pack-resmed",
+      "variantId": "51880214298987",
       "variantName": "Small",
       "priceCents": 8500,
       "price": "$85.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:52:37+00:00",
+      "observedAt": "2026-08-13T16:38:42+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "CPAP Ninja",
+      "productName": "AirFit N30i Nasal CPAP Mask Starter Pack | ResMed",
+      "productUrl": "https://www.cpapninja.com/products/airfit-n30i-nasal-cpap-mask-starter-pack-resmed",
+      "variantId": "51880214331755",
+      "variantName": "Standard",
+      "priceCents": 8500,
+      "price": "$85.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:38:42+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688512756",
+      "variantName": "Small / Yes / Small",
+      "priceCents": 9999,
+      "price": "$99.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688545524",
+      "variantName": "Small / Yes / Standard",
+      "priceCents": 9999,
+      "price": "$99.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688643828",
+      "variantName": "Small-Wide / Yes / Small",
+      "priceCents": 9999,
+      "price": "$99.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small Wide",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688676596",
+      "variantName": "Small-Wide / Yes / Standard",
+      "priceCents": 9999,
+      "price": "$99.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small Wide",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688381684",
+      "variantName": "Medium / Yes / Small",
+      "priceCents": 9999,
+      "price": "$99.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688414452",
+      "variantName": "Medium / Yes / Standard",
+      "priceCents": 9999,
+      "price": "$99.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688250612",
+      "variantName": "All Sizes / Yes / Small",
+      "priceCents": 10499,
+      "price": "$104.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688283380",
+      "variantName": "All Sizes / Yes / Standard",
+      "priceCents": 10499,
+      "price": "$104.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i Nasal CPAP Mask Fit Pack",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-nasal-cpap-mask-fit-pack",
+      "variantId": "46461688054004",
+      "variantName": "Small",
+      "priceCents": 10499,
+      "price": "$104.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:08+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i Nasal CPAP Mask Fit Pack",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-nasal-cpap-mask-fit-pack",
+      "variantId": "46461688086772",
+      "variantName": "Standard",
+      "priceCents": 10499,
+      "price": "$104.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:08+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
       "configurationNote": "",
       "compareAtPriceCents": 11500,
       "compareAtPrice": "$115.00"
@@ -63,36 +387,150 @@
       "retailer": "CPAP.com",
       "productName": "AirFit N30i Nasal CPAP Mask",
       "productUrl": "https://www.cpap.com/products/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "49040767418684",
       "variantName": "Complete Mask / Fit Pack / Small",
       "priceCents": 11500,
       "price": "$115.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:52:01+00:00",
+      "observedAt": "2026-08-13T16:50:18+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Type",
+            "value": "Complete Mask"
+          },
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit N30i Nasal CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "49040767549756",
+      "variantName": "Complete Mask / Fit Pack / Standard",
+      "priceCents": 11500,
+      "price": "$115.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:18+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Type",
+            "value": "Complete Mask"
+          },
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Resmed AirFit\u2122 N30i Nasal CPAP Mask Starter Pack",
+      "productUrl": "https://cpapsupplies.com/resmed-airfit-n30i-nasal-cpap-mask-starter-kit",
+      "variantId": "configurable:3327",
+      "variantName": "Standard",
+      "priceCents": 11500,
+      "price": "$115.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:49+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Resmed AirFit\u2122 N30i Nasal CPAP Mask Starter Pack",
+      "productUrl": "https://cpapsupplies.com/resmed-airfit-n30i-nasal-cpap-mask-starter-kit",
+      "variantId": "configurable:3328",
+      "variantName": "Small",
+      "priceCents": 11500,
+      "price": "$115.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:49+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": ""
     },
     {
       "retailer": "DirectHomeMedical",
       "productName": "AirFit N30i Nasal CPAP Mask with Headgear",
       "productUrl": "https://directhomemedical.com/products/airfit-n30i-nasal-cpap-mask-resmed",
+      "variantId": "48113296310424",
       "variantName": "Small Frame FitPack (Small, Medium & SmallWide Cushions)",
       "priceCents": 11500,
       "price": "$115.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:54:34+00:00",
+      "observedAt": "2026-08-13T16:41:54+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": ""
     },
     {
       "retailer": "Lofta",
       "productName": "ResMed AirFit\u2122 N30i Nasal Cradle CPAP Mask Complete System",
       "productUrl": "https://lofta.com/collections/cpap-masks/products/resmed-airfit-n30i",
-      "variantName": "Small Frame with Cushion FitPack",
+      "variantId": "9918942412847",
+      "variantName": "Medium Frame with Cushion FitPack",
       "priceCents": 11500,
       "price": "$115.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:55:46+00:00",
+      "observedAt": "2026-08-13T16:50:54+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": "",
       "compareAtPriceCents": 12900,
       "compareAtPrice": "$129.00"
@@ -101,170 +539,757 @@
       "retailer": "RespShop",
       "productName": "ResMed | AirFit N30i Nasal CPAP Mask Starter Pack",
       "productUrl": "https://www.respshop.com/products/resmed-airfit-n30i-nasal-cpap-mask-starter-pack",
+      "variantId": "45739478876323",
       "variantName": "Small Frame",
       "priceCents": 11500,
       "price": "$115.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:57:19+00:00",
+      "observedAt": "2026-08-13T16:43:40+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": "",
       "compareAtPriceCents": 14500,
       "compareAtPrice": "$145.00"
     },
     {
+      "retailer": "RespShop",
+      "productName": "ResMed | AirFit N30i Nasal CPAP Mask Starter Pack",
+      "productUrl": "https://www.respshop.com/products/resmed-airfit-n30i-nasal-cpap-mask-starter-pack",
+      "variantId": "45740019089571",
+      "variantName": "Standard Frame",
+      "priceCents": 11500,
+      "price": "$115.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:43:40+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 14500,
+      "compareAtPrice": "$145.00"
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Resmed AirFit\u2122 N30i Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "bundle:110:109",
+      "variantName": "Small Frame / Small Cushion - AirFit\u2122 N30i Mask System - without Headgear + $84.00 / Resmed AirTouch\u2122/AirFit\u2122 N30i/P30i CPAP Mask Headgear + $34.00",
+      "priceCents": 11800,
+      "price": "$118.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:49+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Resmed AirFit\u2122 N30i Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "bundle:114:109",
+      "variantName": "Standard Frame / Small Cushion - AirFit\u2122 N30i Mask System - without Headgear + $84.00 / Resmed AirTouch\u2122/AirFit\u2122 N30i/P30i CPAP Mask Headgear + $34.00",
+      "priceCents": 11800,
+      "price": "$118.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:49+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "DirectHomeMedical",
+      "productName": "AirFit N30i Nasal CPAP Mask with Headgear",
+      "productUrl": "https://directhomemedical.com/products/airfit-n30i-nasal-cpap-mask-resmed",
+      "variantId": "48113296343192",
+      "variantName": "Small Frame & Small Cushion",
+      "priceCents": 11800,
+      "price": "$118.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:41:54+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "DirectHomeMedical",
+      "productName": "AirFit N30i Nasal CPAP Mask with Headgear",
+      "productUrl": "https://directhomemedical.com/products/airfit-n30i-nasal-cpap-mask-resmed",
+      "variantId": "48113296507032",
+      "variantName": "Standard Frame & Small Cushion",
+      "priceCents": 11800,
+      "price": "$118.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:41:54+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
       "retailer": "EasyBreathe",
       "productName": "AirFit N30i Mask with Headgear",
       "productUrl": "https://easybreathe.com/products/airfit-n30i-mask-with-headgear",
+      "variantId": "44361586245927",
       "variantName": "Standard Frame",
       "priceCents": 11800,
       "price": "$118.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:55:22+00:00",
+      "observedAt": "2026-08-13T16:42:18+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": ""
+    },
+    {
+      "retailer": "EasyBreathe",
+      "productName": "AirFit N30i Mask with Headgear",
+      "productUrl": "https://easybreathe.com/products/airfit-n30i-mask-with-headgear",
+      "variantId": "44361586278695",
+      "variantName": "Small Frame",
+      "priceCents": 11800,
+      "price": "$118.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:42:18+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688447220",
+      "variantName": "Small / No / Small",
+      "priceCents": 7499,
+      "price": "$74.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8400,
+      "compareAtPrice": "$84.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688479988",
+      "variantName": "Small / No / Standard",
+      "priceCents": 7499,
+      "price": "$74.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8400,
+      "compareAtPrice": "$84.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688578292",
+      "variantName": "Small-Wide / No / Small",
+      "priceCents": 7499,
+      "price": "$74.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small Wide",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8400,
+      "compareAtPrice": "$84.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688611060",
+      "variantName": "Small-Wide / No / Standard",
+      "priceCents": 7499,
+      "price": "$74.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small Wide",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8400,
+      "compareAtPrice": "$84.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688316148",
+      "variantName": "Medium / No / Small",
+      "priceCents": 7499,
+      "price": "$74.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Medium",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8400,
+      "compareAtPrice": "$84.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688348916",
+      "variantName": "Medium / No / Standard",
+      "priceCents": 7499,
+      "price": "$74.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Medium",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8400,
+      "compareAtPrice": "$84.00"
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit N30i Nasal CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "49040767615292",
+      "variantName": "Mask Only (No Headgear) / Medium / Small",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Medium",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit N30i Nasal CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "49040767680828",
+      "variantName": "Mask Only (No Headgear) / Medium / Standard",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Medium",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit N30i Nasal CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "49040767746364",
+      "variantName": "Mask Only (No Headgear) / Small / Small",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit N30i Nasal CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "49040767811900",
+      "variantName": "Mask Only (No Headgear) / Small / Standard",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit N30i Nasal CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "49040767844668",
+      "variantName": "Mask Only (No Headgear) / Small Wide / Small",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small Wide",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit N30i Nasal CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "49040767910204",
+      "variantName": "Mask Only (No Headgear) / Small Wide / Standard",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small Wide",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit N30i Nasal CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "49040767975740",
+      "variantName": "Mask Only (No Headgear) / Wide / Small",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Wide",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit N30i Nasal CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "49040768008508",
+      "variantName": "Mask Only (No Headgear) / Wide / Standard",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Wide",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Resmed AirFit\u2122 N30i Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "bundle:110:null",
+      "variantName": "Small Frame / Small Cushion - AirFit\u2122 N30i Mask System - without Headgear + $84.00 / None\u00a0 +$0.00",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:49+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Resmed AirFit\u2122 N30i Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/resmed-airfit-n30i-nasal-cpap-mask",
+      "variantId": "bundle:114:null",
+      "variantName": "Standard Frame / Small Cushion - AirFit\u2122 N30i Mask System - without Headgear + $84.00 / None\u00a0 +$0.00",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:49+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688185076",
+      "variantName": "All Sizes / No / Small",
+      "priceCents": 8499,
+      "price": "$84.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Fit Pack",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8900,
+      "compareAtPrice": "$89.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit N30i CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
+      "variantId": "46461688217844",
+      "variantName": "All Sizes / No / Standard",
+      "priceCents": 8499,
+      "price": "$84.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:07+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Fit Pack",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8900,
+      "compareAtPrice": "$89.00"
+    }
+  ],
+  "sizeRanges": [
+    {
+      "size": "Small",
+      "minimumPriceCents": 8500,
+      "maximumPriceCents": 11800,
+      "minimumPrice": "$85.00",
+      "maximumPrice": "$118.00"
+    },
+    {
+      "size": "Small Wide",
+      "minimumPriceCents": 9999,
+      "maximumPriceCents": 9999,
+      "minimumPrice": "$99.99",
+      "maximumPrice": "$99.99"
+    },
+    {
+      "size": "Medium",
+      "minimumPriceCents": 9999,
+      "maximumPriceCents": 9999,
+      "minimumPrice": "$99.99",
+      "maximumPrice": "$99.99"
+    },
+    {
+      "size": "Standard",
+      "minimumPriceCents": 8500,
+      "maximumPriceCents": 11800,
+      "minimumPrice": "$85.00",
+      "maximumPrice": "$118.00"
+    },
+    {
+      "size": "Fit Pack",
+      "minimumPriceCents": 10499,
+      "maximumPriceCents": 11500,
+      "minimumPrice": "$104.99",
+      "maximumPrice": "$115.00"
     }
   ],
   "priceHistory": [
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
+      "priceCents": 9999,
+      "price": "$99.99"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "CPAP Ninja",
       "priceCents": 8500,
       "price": "$85.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
+      "priceCents": 11500,
+      "price": "$115.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
+      "priceCents": 11500,
+      "price": "$115.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "DirectHomeMedical",
       "priceCents": 11500,
       "price": "$115.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "EasyBreathe",
       "priceCents": 11800,
       "price": "$118.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "Lofta",
       "priceCents": 11500,
       "price": "$115.00"
     },
     {
-      "date": "2026-08-09",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8500,
-      "price": "$85.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8500,
-      "price": "$85.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-11",
+      "date": "2026-08-03",
       "retailer": "RespShop",
       "priceCents": 11500,
       "price": "$115.00"
@@ -272,8 +1297,8 @@
     {
       "date": "2026-08-12",
       "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
+      "priceCents": 9999,
+      "price": "$99.99"
     },
     {
       "date": "2026-08-12",
@@ -284,14 +1309,14 @@
     {
       "date": "2026-08-12",
       "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
+      "priceCents": 11500,
+      "price": "$115.00"
     },
     {
       "date": "2026-08-12",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
+      "priceCents": 11500,
+      "price": "$115.00"
     },
     {
       "date": "2026-08-12",
@@ -320,8 +1345,8 @@
     {
       "date": "2026-08-13",
       "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
+      "priceCents": 9999,
+      "price": "$99.99"
     },
     {
       "date": "2026-08-13",
@@ -332,14 +1357,14 @@
     {
       "date": "2026-08-13",
       "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
+      "priceCents": 11500,
+      "price": "$115.00"
     },
     {
       "date": "2026-08-13",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
+      "priceCents": 11500,
+      "price": "$115.00"
     },
     {
       "date": "2026-08-13",
@@ -361,250 +1386,10 @@
     },
     {
       "date": "2026-08-13",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8500,
-      "price": "$85.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8500,
-      "price": "$85.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8500,
-      "price": "$85.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8500,
-      "price": "$85.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8500,
-      "price": "$85.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-18",
       "retailer": "RespShop",
       "priceCents": 11500,
       "price": "$115.00"
     }
   ],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

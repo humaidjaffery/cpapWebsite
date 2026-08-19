@@ -1,19 +1,35 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "CPAP PRO",
   "slug": "cpap-pro",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": {
     "retailer": "DirectHomeMedical",
     "productName": "CPAPPRO Nasal Pillows 'No Mask'",
     "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup",
+    "variantId": "48113327997080",
     "variantName": "Setup Pack with 1 Pair of Nasal Puffs (Standard)",
     "priceCents": 16900,
     "price": "$169.00",
     "currency": "USD",
     "inStock": true,
-    "observedAt": "2026-08-18T09:54:04+00:00",
+    "observedAt": "2026-08-13T16:41:31+00:00",
+    "configuration": {
+      "offerType": "complete",
+      "headgearIncluded": true,
+      "size": "Standard",
+      "frameSize": null,
+      "headgearSize": null,
+      "fitPack": false,
+      "options": [
+        {
+          "name": "Package Options",
+          "value": "Setup Pack with 1 Pair of Nasal Puffs (Standard)"
+        }
+      ]
+    },
     "configurationNote": "",
     "compareAtPriceCents": 19900,
     "compareAtPrice": "$199.00"
@@ -23,32 +39,80 @@
       "retailer": "DirectHomeMedical",
       "productName": "CPAPPRO Nasal Pillows 'No Mask'",
       "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup",
+      "variantId": "48113327997080",
       "variantName": "Setup Pack with 1 Pair of Nasal Puffs (Standard)",
       "priceCents": 16900,
       "price": "$169.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:54:04+00:00",
+      "observedAt": "2026-08-13T16:41:31+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Package Options",
+            "value": "Setup Pack with 1 Pair of Nasal Puffs (Standard)"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 19900,
+      "compareAtPrice": "$199.00"
+    },
+    {
+      "retailer": "DirectHomeMedical",
+      "productName": "CPAPPRO Nasal Pillows 'No Mask'",
+      "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup",
+      "variantId": "48875178655896",
+      "variantName": "FitPack with 3 Pairs of Nasal Puffs (Small, Standard, Large)",
+      "priceCents": 16900,
+      "price": "$169.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:41:31+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Package Options",
+            "value": "FitPack with 3 Pairs of Nasal Puffs (Small, Standard, Large)"
+          }
+        ]
+      },
       "configurationNote": "",
       "compareAtPriceCents": 19900,
       "compareAtPrice": "$199.00"
     }
   ],
+  "sizeRanges": [
+    {
+      "size": "Standard",
+      "minimumPriceCents": 16900,
+      "maximumPriceCents": 16900,
+      "minimumPrice": "$169.00",
+      "maximumPrice": "$169.00"
+    },
+    {
+      "size": "Fit Pack",
+      "minimumPriceCents": 16900,
+      "maximumPriceCents": 16900,
+      "minimumPrice": "$169.00",
+      "maximumPrice": "$169.00"
+    }
+  ],
   "priceHistory": [
     {
-      "date": "2026-08-09",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 16900,
-      "price": "$169.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 16900,
-      "price": "$169.00"
-    },
-    {
-      "date": "2026-08-11",
+      "date": "2026-08-03",
       "retailer": "DirectHomeMedical",
       "priceCents": 16900,
       "price": "$169.00"
@@ -64,37 +128,7 @@
       "retailer": "DirectHomeMedical",
       "priceCents": 16900,
       "price": "$169.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 16900,
-      "price": "$169.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 16900,
-      "price": "$169.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 16900,
-      "price": "$169.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 16900,
-      "price": "$169.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 16900,
-      "price": "$169.00"
     }
   ],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

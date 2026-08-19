@@ -1,26 +1,62 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "ResMed Mirage Swift II",
   "slug": "resmed-mirage-swift-ii",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": null,
   "offers": [
     {
       "retailer": "1800CPAP.COM",
       "productName": "Mirage Swift II Nasal Pillow CPAP Mask Kit",
       "productUrl": "https://1800cpap.com/products/mirage-swift-ii-nasal-pillow-cpap-mask-kit",
+      "variantId": "46784891912436",
+      "variantName": "Small / No",
+      "priceCents": 6200,
+      "price": "$62.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:49+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 10900,
+      "compareAtPrice": "$109.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Mirage Swift II Nasal Pillow CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/mirage-swift-ii-nasal-pillow-cpap-mask-kit",
+      "variantId": "46784891781364",
       "variantName": "Large / No",
       "priceCents": 6200,
       "price": "$62.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:51:14+00:00",
-      "configurationNote": "Verify included components",
+      "observedAt": "2026-08-13T16:48:49+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": "",
       "compareAtPriceCents": 10900,
       "compareAtPrice": "$109.00"
     }
   ],
+  "sizeRanges": [],
   "priceHistory": [],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

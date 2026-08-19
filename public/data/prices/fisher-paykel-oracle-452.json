@@ -1,36 +1,85 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "Fisher & Paykel Oracle 452",
   "slug": "fisher-paykel-oracle-452",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": null,
   "offers": [
     {
       "retailer": "CPAPsupplies.com",
       "productName": "Fisher & Paykel Oracle\u2122 452 Oral CPAP Mask with Headgear",
       "productUrl": "https://cpapsupplies.com/oracle-452-oral-cpap-mask-by-fisher-paykel",
+      "variantId": "page",
       "variantName": "Displayed price",
       "priceCents": 7550,
       "price": "$75.50",
       "currency": "USD",
       "inStock": false,
-      "observedAt": "2026-08-18T09:53:07+00:00",
-      "configurationNote": "Currently unavailable"
+      "observedAt": "2026-08-13T16:39:31+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": "Standard",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
     },
     {
       "retailer": "1800CPAP.COM",
       "productName": "Oracle Oral CPAP Mask Kit",
       "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-kit",
+      "variantId": "46470466568436",
+      "variantName": "Yes",
+      "priceCents": 9900,
+      "price": "$99.00",
+      "currency": "USD",
+      "inStock": false,
+      "observedAt": "2026-08-13T16:46:27+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Oracle Oral CPAP Mask Kit",
+      "productUrl": "https://1800cpap.com/products/oracle-oral-cpap-mask-kit",
+      "variantId": "46470466535668",
       "variantName": "No",
       "priceCents": 8900,
       "price": "$89.00",
       "currency": "USD",
       "inStock": false,
-      "observedAt": "2026-08-18T09:49:16+00:00",
-      "configurationNote": "Currently unavailable"
+      "observedAt": "2026-08-13T16:46:27+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
     }
   ],
+  "sizeRanges": [],
   "priceHistory": [],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

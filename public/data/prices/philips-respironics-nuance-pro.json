@@ -1,46 +1,65 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "Philips Respironics Nuance Pro",
   "slug": "philips-respironics-nuance-pro",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": {
     "retailer": "CPAP.com",
     "productName": "Nuance & Nuance Pro Nasal Pillow CPAP Mask with Gel Nasal Pillows",
     "productUrl": "https://www.cpap.com/products/nuance-pro-nasal-cpap-mask-respironics",
+    "variantId": "49040654532924",
     "variantName": "Pro Gel Frame",
     "priceCents": 7399,
     "price": "$73.99",
     "currency": "USD",
     "inStock": true,
-    "observedAt": "2026-08-18T09:51:50+00:00",
+    "observedAt": "2026-08-13T16:50:11+00:00",
+    "configuration": {
+      "offerType": "complete",
+      "headgearIncluded": true,
+      "size": null,
+      "frameSize": null,
+      "headgearSize": null,
+      "fitPack": false,
+      "options": [
+        {
+          "name": "Type",
+          "value": "Pro Gel Frame"
+        }
+      ]
+    },
     "configurationNote": "",
     "compareAtPriceCents": 10900,
     "compareAtPrice": "$109.00"
   },
   "offers": [
     {
-      "retailer": "CPAPsupplies.com",
-      "productName": "Philips Respironics Nuance Pro Gel Nasal Pillow CPAP Mask",
-      "productUrl": "https://cpapsupplies.com/nuance-pro-gel-nasal-pillow-cpap-mask-by-respironics",
-      "variantName": "Displayed price",
-      "priceCents": 7200,
-      "price": "$72.00",
-      "currency": "USD",
-      "inStock": true,
-      "observedAt": "2026-08-18T09:53:29+00:00",
-      "configurationNote": "Verify included components"
-    },
-    {
       "retailer": "CPAP.com",
       "productName": "Nuance & Nuance Pro Nasal Pillow CPAP Mask with Gel Nasal Pillows",
       "productUrl": "https://www.cpap.com/products/nuance-pro-nasal-cpap-mask-respironics",
+      "variantId": "49040654532924",
       "variantName": "Pro Gel Frame",
       "priceCents": 7399,
       "price": "$73.99",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:51:50+00:00",
+      "observedAt": "2026-08-13T16:50:11+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Type",
+            "value": "Pro Gel Frame"
+          }
+        ]
+      },
       "configurationNote": "",
       "compareAtPriceCents": 10900,
       "compareAtPrice": "$109.00"
@@ -49,12 +68,22 @@
       "retailer": "DirectHomeMedical",
       "productName": "Nuance Pro Gel Nasal Pillows CPAP Mask FitPack with Headgear",
       "productUrl": "https://directhomemedical.com/products/nuance-pro-gel-nasal-pillows-cpap-mask-respironics",
+      "variantId": "45823002640536",
       "variantName": "Default Title",
       "priceCents": 7399,
       "price": "$73.99",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:54:26+00:00",
+      "observedAt": "2026-08-13T16:41:47+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": "",
       "compareAtPriceCents": 8900,
       "compareAtPrice": "$89.00"
@@ -63,89 +92,228 @@
       "retailer": "RespShop",
       "productName": "Philips | Nuance Pro Nasal Pillow CPAP Mask",
       "productUrl": "https://www.respshop.com/products/philips-respironics-nuance-pro-nasal-pillow-cpap-mask",
+      "variantId": "45761615921315",
       "variantName": "Silicone",
       "priceCents": 7900,
       "price": "$79.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:56:09+00:00",
+      "observedAt": "2026-08-13T16:43:01+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame",
+            "value": "Silicone"
+          }
+        ]
+      },
       "configurationNote": "",
       "compareAtPriceCents": 10900,
       "compareAtPrice": "$109.00"
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Nuance Pro Gel Nasal Pillow CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/nuance-pro-gel-nasal-pillow-cpap-mask-by-respironics",
+      "variantId": "bundle:1015:872",
+      "variantName": "Small - Nuance Pro Gel Mask System - without Headgear + $72.00 / Philips Respironics Nuance Pro CPAP Headgear + $36.00",
+      "priceCents": 10800,
+      "price": "$108.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:16+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Nuance Pro Gel Nasal Pillow CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/nuance-pro-gel-nasal-pillow-cpap-mask-by-respironics",
+      "variantId": "bundle:1016:872",
+      "variantName": "Medium - Nuance Pro Gel Mask System - without Headgear + $72.00 / Philips Respironics Nuance Pro CPAP Headgear + $36.00",
+      "priceCents": 10800,
+      "price": "$108.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:16+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Nuance Pro Gel Nasal Pillow CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/nuance-pro-gel-nasal-pillow-cpap-mask-by-respironics",
+      "variantId": "bundle:1017:872",
+      "variantName": "Large - Nuance Pro Gel Mask System - without Headgear + $72.00 / Philips Respironics Nuance Pro CPAP Headgear + $36.00",
+      "priceCents": 10800,
+      "price": "$108.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:16+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "Nuance & Nuance Pro Nasal Pillow CPAP Mask with Gel Nasal Pillows",
+      "productUrl": "https://www.cpap.com/products/nuance-pro-nasal-cpap-mask-respironics",
+      "variantId": "49040654500156",
+      "variantName": "Fabric Frame",
+      "priceCents": 7399,
+      "price": "$73.99",
+      "currency": "USD",
+      "inStock": false,
+      "observedAt": "2026-08-13T16:50:11+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Type",
+            "value": "Fabric Frame"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 10900,
+      "compareAtPrice": "$109.00"
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Nuance Pro Gel Nasal Pillow CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/nuance-pro-gel-nasal-pillow-cpap-mask-by-respironics",
+      "variantId": "bundle:1015:null",
+      "variantName": "Small - Nuance Pro Gel Mask System - without Headgear + $72.00 / None\u00a0 +$0.00",
+      "priceCents": 7200,
+      "price": "$72.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:16+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Nuance Pro Gel Nasal Pillow CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/nuance-pro-gel-nasal-pillow-cpap-mask-by-respironics",
+      "variantId": "bundle:1016:null",
+      "variantName": "Medium - Nuance Pro Gel Mask System - without Headgear + $72.00 / None\u00a0 +$0.00",
+      "priceCents": 7200,
+      "price": "$72.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:16+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Nuance Pro Gel Nasal Pillow CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/nuance-pro-gel-nasal-pillow-cpap-mask-by-respironics",
+      "variantId": "bundle:1017:null",
+      "variantName": "Large - Nuance Pro Gel Mask System - without Headgear + $72.00 / None\u00a0 +$0.00",
+      "priceCents": 7200,
+      "price": "$72.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:16+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    }
+  ],
+  "sizeRanges": [
+    {
+      "size": "Small",
+      "minimumPriceCents": 10800,
+      "maximumPriceCents": 10800,
+      "minimumPrice": "$108.00",
+      "maximumPrice": "$108.00"
+    },
+    {
+      "size": "Medium",
+      "minimumPriceCents": 10800,
+      "maximumPriceCents": 10800,
+      "minimumPrice": "$108.00",
+      "maximumPrice": "$108.00"
+    },
+    {
+      "size": "Large",
+      "minimumPriceCents": 10800,
+      "maximumPriceCents": 10800,
+      "minimumPrice": "$108.00",
+      "maximumPrice": "$108.00"
     }
   ],
   "priceHistory": [
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "CPAP.com",
       "priceCents": 7399,
       "price": "$73.99"
     },
     {
-      "date": "2026-08-09",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7200,
-      "price": "$72.00"
-    },
-    {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "DirectHomeMedical",
       "priceCents": 7399,
       "price": "$73.99"
-    },
-    {
-      "date": "2026-08-09",
-      "retailer": "RespShop",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAP.com",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7200,
-      "price": "$72.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "RespShop",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAP.com",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7200,
-      "price": "$72.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "RespShop",
-      "priceCents": 7900,
-      "price": "$79.00"
     },
     {
       "date": "2026-08-12",
@@ -156,8 +324,8 @@
     {
       "date": "2026-08-12",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 7200,
-      "price": "$72.00"
+      "priceCents": 10800,
+      "price": "$108.00"
     },
     {
       "date": "2026-08-12",
@@ -180,8 +348,8 @@
     {
       "date": "2026-08-13",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 7200,
-      "price": "$72.00"
+      "priceCents": 10800,
+      "price": "$108.00"
     },
     {
       "date": "2026-08-13",
@@ -191,130 +359,10 @@
     },
     {
       "date": "2026-08-13",
-      "retailer": "RespShop",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAP.com",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7200,
-      "price": "$72.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "RespShop",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAP.com",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7200,
-      "price": "$72.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "RespShop",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAP.com",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7200,
-      "price": "$72.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "RespShop",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAP.com",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7200,
-      "price": "$72.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "RespShop",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAP.com",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7200,
-      "price": "$72.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7399,
-      "price": "$73.99"
-    },
-    {
-      "date": "2026-08-18",
       "retailer": "RespShop",
       "priceCents": 7900,
       "price": "$79.00"
     }
   ],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

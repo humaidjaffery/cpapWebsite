@@ -178,8 +178,75 @@
           </div>
 
           @if (pricing.offers.length) {
+            <div class="price-configurator" aria-label="Choose mask price configuration">
+              <div class="price-filter-group">
+                <span>Headgear</span>
+                <div class="price-choice-list">
+                  <button
+                    type="button"
+                    [class.active]="headgearIncluded()"
+                    [attr.aria-pressed]="headgearIncluded()"
+                    (click)="selectHeadgear(true)"
+                  >Included</button>
+                  <button
+                    type="button"
+                    [class.active]="!headgearIncluded()"
+                    [attr.aria-pressed]="!headgearIncluded()"
+                    (click)="selectHeadgear(false)"
+                  >Not included</button>
+                </div>
+              </div>
+
+              @if (availablePriceSizes().length) {
+                <div class="price-filter-group price-filter-group-wide">
+                  <span>Mask size</span>
+                  <div class="price-choice-list">
+                    <button
+                      type="button"
+                      [class.active]="selectedSize() === 'all'"
+                      [attr.aria-pressed]="selectedSize() === 'all'"
+                      (click)="selectPriceSize('all')"
+                    >Any</button>
+                    @for (size of availablePriceSizes(); track size) {
+                      <button
+                        type="button"
+                        [class.active]="selectedSize() === size"
+                        [attr.aria-pressed]="selectedSize() === size"
+                        (click)="selectPriceSize(size)"
+                      >{{ size }}</button>
+                    }
+                  </div>
+                </div>
+              }
+
+              @if (priceOptionDimensions().length) {
+                @for (dimension of priceOptionDimensions(); track dimension.name) {
+                  <div class="price-filter-group">
+                    <span>{{ dimension.name }}</span>
+                    <div class="price-choice-list">
+                      <button
+                        type="button"
+                        [class.active]="!selectedPriceOptions()[dimension.name]"
+                        [attr.aria-pressed]="!selectedPriceOptions()[dimension.name]"
+                        (click)="selectPriceOption(dimension.name, '')"
+                      >Any</button>
+                      @for (value of dimension.values; track value) {
+                        <button
+                          type="button"
+                          [class.active]="selectedPriceOptions()[dimension.name] === value"
+                          [attr.aria-pressed]="selectedPriceOptions()[dimension.name] === value"
+                          (click)="selectPriceOption(dimension.name, value)"
+                        >{{ value }}</button>
+                      }
+                    </div>
+                  </div>
+                }
+              }
+            </div>
+
+            @if (visiblePriceOffers().length) {
             <div class="purchase-grid">
-              @if (selectedOffer(); as selected) {
+              @if (activePriceOffer(); as selected) {
                 <article class="cheapest-card">
                   <span>Current price</span>
                   <strong>{{ selected.price }}</strong>
@@ -245,12 +312,10 @@
                     </tr>
                   </thead>
                   <tbody>
-                    @for (offer of pricing.offers; track offer.retailer + offer.productUrl) {
+                    @for (offer of visiblePriceOffers(); track offer.retailer) {
                       <tr
                         class="retailer-row-clickable"
-                        [class.retailer-row-selected]="
-                          offer.productUrl === selectedOffer()?.productUrl
-                        "
+                        [class.retailer-row-selected]="isSelectedPriceOffer(offer)"
                         (click)="selectRetailerDetails(offer)"
                       >
                         <td>
@@ -294,6 +359,12 @@
 
               </div>
             </div>
+            } @else {
+              <div class="price-empty">
+                <h3>No retailer has this exact configuration in stock</h3>
+                <p>Try another size or configuration option.</p>
+              </div>
+            }
 
           } @else {
             <div class="price-empty">

@@ -1,19 +1,35 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "Philips Respironics Wisp",
   "slug": "philips-respironics-wisp",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": {
     "retailer": "CPAP Ninja",
     "productName": "Wisp Nasal CPAP FitPack Mask | Philips",
     "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips",
+    "variantId": "51880239104363",
     "variantName": "Fabric",
     "priceCents": 3999,
     "price": "$39.99",
     "currency": "USD",
     "inStock": true,
-    "observedAt": "2026-08-18T09:52:31+00:00",
+    "observedAt": "2026-08-13T16:38:38+00:00",
+    "configuration": {
+      "offerType": "complete",
+      "headgearIncluded": true,
+      "size": null,
+      "frameSize": null,
+      "headgearSize": null,
+      "fitPack": true,
+      "options": [
+        {
+          "name": "Frame Type",
+          "value": "Fabric"
+        }
+      ]
+    },
     "configurationNote": "",
     "compareAtPriceCents": 4900,
     "compareAtPrice": "$49.00"
@@ -23,12 +39,56 @@
       "retailer": "CPAP Ninja",
       "productName": "Wisp Nasal CPAP FitPack Mask | Philips",
       "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips",
+      "variantId": "51880239104363",
       "variantName": "Fabric",
       "priceCents": 3999,
       "price": "$39.99",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:52:31+00:00",
+      "observedAt": "2026-08-13T16:38:38+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Type",
+            "value": "Fabric"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 4900,
+      "compareAtPrice": "$49.00"
+    },
+    {
+      "retailer": "CPAP Ninja",
+      "productName": "Wisp Nasal CPAP FitPack Mask | Philips",
+      "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips",
+      "variantId": "51880239137131",
+      "variantName": "Clear Silicone",
+      "priceCents": 3999,
+      "price": "$39.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:38:38+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Type",
+            "value": "Clear Silicone"
+          }
+        ]
+      },
       "configurationNote": "",
       "compareAtPriceCents": 4900,
       "compareAtPrice": "$49.00"
@@ -37,50 +97,376 @@
       "retailer": "RespShop",
       "productName": "Philips | Wisp Nasal CPAP Mask",
       "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask",
+      "variantId": "45739479990435",
       "variantName": "Fit Pack with Fabric Frame",
       "priceCents": 4900,
       "price": "$49.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:56:15+00:00",
+      "observedAt": "2026-08-13T16:43:07+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": "Fit Pack",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame",
+            "value": "Fit Pack with Fabric Frame"
+          }
+        ]
+      },
       "configurationNote": "",
       "compareAtPriceCents": 12900,
       "compareAtPrice": "$129.00"
     },
     {
+      "retailer": "RespShop",
+      "productName": "Philips | Wisp Nasal CPAP Mask",
+      "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask",
+      "variantId": "45740020826275",
+      "variantName": "Fit Pack with Clear Frame",
+      "priceCents": 4900,
+      "price": "$49.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:43:07+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": "Fit Pack",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame",
+            "value": "Fit Pack with Clear Frame"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 12900,
+      "compareAtPrice": "$129.00"
+    },
+    {
+      "retailer": "CPAP Ninja",
+      "productName": "Wisp Nasal CPAP FitPack Mask | Philips",
+      "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips",
+      "variantId": "51880239169899",
+      "variantName": "Youth Fabric",
+      "priceCents": 5799,
+      "price": "$57.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:38:38+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Type",
+            "value": "Youth Fabric"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 7200,
+      "compareAtPrice": "$72.00"
+    },
+    {
       "retailer": "1800CPAP.COM",
       "productName": "Wisp Nasal CPAP Mask System",
       "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system",
+      "variantId": "46461749461236",
       "variantName": "All Sizes / Clear Silicone",
       "priceCents": 6495,
       "price": "$64.95",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:50:03+00:00",
+      "observedAt": "2026-08-13T16:47:15+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Type",
+            "value": "Clear Silicone"
+          }
+        ]
+      },
       "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Wisp Nasal CPAP Mask System",
+      "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system",
+      "variantId": "46461749494004",
+      "variantName": "All Sizes / Fabric",
+      "priceCents": 6495,
+      "price": "$64.95",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:47:15+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Type",
+            "value": "Fabric"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Wisp Nasal CPAP Mask System",
+      "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system",
+      "variantId": "46461749592308",
+      "variantName": "Small/Medium / Clear Silicone",
+      "priceCents": 6495,
+      "price": "$64.95",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:47:15+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small-Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Type",
+            "value": "Clear Silicone"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Wisp Nasal CPAP Mask System",
+      "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system",
+      "variantId": "46461749625076",
+      "variantName": "Small/Medium / Fabric",
+      "priceCents": 6495,
+      "price": "$64.95",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:47:15+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small-Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Type",
+            "value": "Fabric"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Wisp Nasal CPAP Mask System",
+      "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system",
+      "variantId": "46461749526772",
+      "variantName": "Large / Clear Silicone",
+      "priceCents": 6495,
+      "price": "$64.95",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:47:15+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Type",
+            "value": "Clear Silicone"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Wisp Nasal CPAP Mask System",
+      "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system",
+      "variantId": "46461749559540",
+      "variantName": "Large / Fabric",
+      "priceCents": 6495,
+      "price": "$64.95",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:47:15+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Type",
+            "value": "Fabric"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Wisp Nasal CPAP Mask System",
+      "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system",
+      "variantId": "46461749657844",
+      "variantName": "X-Large / Clear Silicone",
+      "priceCents": 6495,
+      "price": "$64.95",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:47:15+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Extra Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Type",
+            "value": "Clear Silicone"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Wisp Nasal CPAP Mask System",
+      "productUrl": "https://1800cpap.com/products/wisp-nasal-cpap-mask-system",
+      "variantId": "46461749690612",
+      "variantName": "X-Large / Fabric",
+      "priceCents": 6495,
+      "price": "$64.95",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:47:15+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Extra Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Type",
+            "value": "Fabric"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "RespShop",
+      "productName": "Philips | Wisp Nasal CPAP Mask",
+      "productUrl": "https://www.respshop.com/products/philips-wisp-nasal-cpap-mask",
+      "variantId": "45740020859043",
+      "variantName": "Youth Fit Pack with Fabric Frame",
+      "priceCents": 7200,
+      "price": "$72.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:43:07+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": "Fit Pack",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame",
+            "value": "Youth Fit Pack with Fabric Frame"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 12700,
+      "compareAtPrice": "$127.00"
     },
     {
       "retailer": "Sleeplay",
       "productName": "Wisp Nasal CPAP Mask with Headgear Fit Pack",
       "productUrl": "https://sleeplay.com/products/philips-respironics-wisp-nasal-cpap-mask-fit-pack",
+      "variantId": "34107530838147",
       "variantName": "Clear Frame Pack - All Sizes Included",
       "priceCents": 7800,
       "price": "$78.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:58:23+00:00",
+      "observedAt": "2026-08-13T16:44:46+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": ""
     },
     {
       "retailer": "DirectHomeMedical",
       "productName": "Wisp Nasal CPAP Mask FitPack with Headgear",
       "productUrl": "https://directhomemedical.com/products/wisp-nasal-cpap-mask-respironics",
+      "variantId": "48113298407576",
       "variantName": "Clear Frame FitPack (with SmallMedium, Large & ExtraLarge Cushions)",
       "priceCents": 7900,
       "price": "$79.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:54:26+00:00",
+      "observedAt": "2026-08-13T16:41:48+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": "",
       "compareAtPriceCents": 12900,
       "compareAtPrice": "$129.00"
@@ -89,120 +475,82 @@
       "retailer": "CPAPsupplies.com",
       "productName": "Philips Respironics Wisp Nasal CPAP Mask Fit Pack",
       "productUrl": "https://cpapsupplies.com/respironics-wisp-nasal-mask-frame",
-      "variantName": "Displayed price",
+      "variantId": "configurable:1840",
+      "variantName": "Fit Pack - Silicone Frame",
       "priceCents": 11500,
       "price": "$115.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:53:31+00:00",
-      "configurationNote": "Verify included components"
+      "observedAt": "2026-08-13T16:40:18+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
+      "configurationNote": ""
+    }
+  ],
+  "sizeRanges": [
+    {
+      "size": "Small-Medium",
+      "minimumPriceCents": 6495,
+      "maximumPriceCents": 6495,
+      "minimumPrice": "$64.95",
+      "maximumPrice": "$64.95"
+    },
+    {
+      "size": "Large",
+      "minimumPriceCents": 6495,
+      "maximumPriceCents": 6495,
+      "minimumPrice": "$64.95",
+      "maximumPrice": "$64.95"
+    },
+    {
+      "size": "Extra Large",
+      "minimumPriceCents": 6495,
+      "maximumPriceCents": 6495,
+      "minimumPrice": "$64.95",
+      "maximumPrice": "$64.95"
+    },
+    {
+      "size": "Fit Pack",
+      "minimumPriceCents": 4900,
+      "maximumPriceCents": 11500,
+      "minimumPrice": "$49.00",
+      "maximumPrice": "$115.00"
     }
   ],
   "priceHistory": [
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "1800CPAP.COM",
       "priceCents": 6495,
       "price": "$64.95"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "CPAP Ninja",
       "priceCents": 3999,
       "price": "$39.99"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "CPAPsupplies.com",
       "priceCents": 11500,
       "price": "$115.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "DirectHomeMedical",
       "priceCents": 7900,
       "price": "$79.00"
     },
     {
-      "date": "2026-08-09",
-      "retailer": "RespShop",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-09",
-      "retailer": "Sleeplay",
-      "priceCents": 7800,
-      "price": "$78.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAP Ninja",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "RespShop",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "Sleeplay",
-      "priceCents": 7800,
-      "price": "$78.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAP Ninja",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "RespShop",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-11",
+      "date": "2026-08-03",
       "retailer": "Sleeplay",
       "priceCents": 7800,
       "price": "$78.00"
@@ -275,190 +623,10 @@
     },
     {
       "date": "2026-08-13",
-      "retailer": "Sleeplay",
-      "priceCents": 7800,
-      "price": "$78.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAP Ninja",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "RespShop",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "Sleeplay",
-      "priceCents": 7800,
-      "price": "$78.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAP Ninja",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "RespShop",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "Sleeplay",
-      "priceCents": 7800,
-      "price": "$78.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAP Ninja",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "RespShop",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "Sleeplay",
-      "priceCents": 7800,
-      "price": "$78.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAP Ninja",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "RespShop",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "Sleeplay",
-      "priceCents": 7800,
-      "price": "$78.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAP Ninja",
-      "priceCents": 3999,
-      "price": "$39.99"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 7900,
-      "price": "$79.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "RespShop",
-      "priceCents": 4900,
-      "price": "$49.00"
-    },
-    {
-      "date": "2026-08-18",
       "retailer": "Sleeplay",
       "priceCents": 7800,
       "price": "$78.00"
     }
   ],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

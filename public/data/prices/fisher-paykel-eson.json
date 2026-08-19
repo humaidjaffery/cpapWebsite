@@ -1,46 +1,103 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "Fisher & Paykel Eson",
   "slug": "fisher-paykel-eson",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": {
     "retailer": "CPAP Ninja",
     "productName": "Eson Nasal CPAP Mask | Fisher & Paykel",
     "productUrl": "https://www.cpapninja.com/products/eson-nasal-cpap-mask-fisher-paykel",
+    "variantId": "51880213643627",
     "variantName": "Small",
     "priceCents": 8000,
     "price": "$80.00",
     "currency": "USD",
     "inStock": true,
-    "observedAt": "2026-08-18T09:52:18+00:00",
+    "observedAt": "2026-08-13T16:38:28+00:00",
+    "configuration": {
+      "offerType": "complete",
+      "headgearIncluded": true,
+      "size": "Small",
+      "frameSize": null,
+      "headgearSize": null,
+      "fitPack": false,
+      "options": []
+    },
     "configurationNote": "",
     "compareAtPriceCents": 8900,
     "compareAtPrice": "$89.00"
   },
   "offers": [
     {
-      "retailer": "CPAPsupplies.com",
-      "productName": "Fisher & Paykel Eson\u2122 Nasal CPAP Mask",
-      "productUrl": "https://cpapsupplies.com/eson-nasal-cpap-mask-by-fisher-paykel",
-      "variantName": "Displayed price",
-      "priceCents": 5800,
-      "price": "$58.00",
-      "currency": "USD",
-      "inStock": true,
-      "observedAt": "2026-08-18T09:52:56+00:00",
-      "configurationNote": "Verify included components"
-    },
-    {
       "retailer": "CPAP Ninja",
       "productName": "Eson Nasal CPAP Mask | Fisher & Paykel",
       "productUrl": "https://www.cpapninja.com/products/eson-nasal-cpap-mask-fisher-paykel",
+      "variantId": "51880213643627",
       "variantName": "Small",
       "priceCents": 8000,
       "price": "$80.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:52:18+00:00",
+      "observedAt": "2026-08-13T16:38:28+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8900,
+      "compareAtPrice": "$89.00"
+    },
+    {
+      "retailer": "CPAP Ninja",
+      "productName": "Eson Nasal CPAP Mask | Fisher & Paykel",
+      "productUrl": "https://www.cpapninja.com/products/eson-nasal-cpap-mask-fisher-paykel",
+      "variantId": "51880213676395",
+      "variantName": "Medium",
+      "priceCents": 8000,
+      "price": "$80.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:38:28+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8900,
+      "compareAtPrice": "$89.00"
+    },
+    {
+      "retailer": "CPAP Ninja",
+      "productName": "Eson Nasal CPAP Mask | Fisher & Paykel",
+      "productUrl": "https://www.cpapninja.com/products/eson-nasal-cpap-mask-fisher-paykel",
+      "variantId": "51880213709163",
+      "variantName": "Large",
+      "priceCents": 8000,
+      "price": "$80.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:38:28+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": "",
       "compareAtPriceCents": 8900,
       "compareAtPrice": "$89.00"
@@ -49,36 +106,364 @@
       "retailer": "1800CPAP.COM",
       "productName": "Eson Nasal CPAP Mask with Headgear",
       "productUrl": "https://1800cpap.com/products/eson-nasal-cpap-mask-with-headgear",
+      "variantId": "46469237801204",
+      "variantName": "Small",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:46:02+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Eson Nasal CPAP Mask with Headgear",
+      "productUrl": "https://1800cpap.com/products/eson-nasal-cpap-mask-with-headgear",
+      "variantId": "46469237768436",
+      "variantName": "Medium",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:46:02+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Eson Nasal CPAP Mask with Headgear",
+      "productUrl": "https://1800cpap.com/products/eson-nasal-cpap-mask-with-headgear",
+      "variantId": "46469237735668",
       "variantName": "Large",
       "priceCents": 8900,
       "price": "$89.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:49:05+00:00",
+      "observedAt": "2026-08-13T16:46:02+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Fisher & Paykel Eson\u2122 Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/eson-nasal-cpap-mask-by-fisher-paykel",
+      "variantId": "bundle:153:150",
+      "variantName": "Small - Eson\u2122 Mask System - without Headgear + $58.00 / Eson\u2122 Headgear - Small + $31.00",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:04+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": "Small",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Fisher & Paykel Eson\u2122 Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/eson-nasal-cpap-mask-by-fisher-paykel",
+      "variantId": "bundle:153:149",
+      "variantName": "Small - Eson\u2122 Mask System - without Headgear + $58.00 / Eson\u2122 Headgear - Medium/Large + $31.00",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:04+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": "Medium-Large",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Medium-Large"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Fisher & Paykel Eson\u2122 Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/eson-nasal-cpap-mask-by-fisher-paykel",
+      "variantId": "bundle:151:150",
+      "variantName": "Medium - Eson\u2122 Mask System - without Headgear + $58.00 / Eson\u2122 Headgear - Small + $31.00",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:04+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": "Small",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Fisher & Paykel Eson\u2122 Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/eson-nasal-cpap-mask-by-fisher-paykel",
+      "variantId": "bundle:151:149",
+      "variantName": "Medium - Eson\u2122 Mask System - without Headgear + $58.00 / Eson\u2122 Headgear - Medium/Large + $31.00",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:04+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": "Medium-Large",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Medium-Large"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Fisher & Paykel Eson\u2122 Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/eson-nasal-cpap-mask-by-fisher-paykel",
+      "variantId": "bundle:152:150",
+      "variantName": "Large - Eson\u2122 Mask System - without Headgear + $58.00 / Eson\u2122 Headgear - Small + $31.00",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:04+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": "Small",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Fisher & Paykel Eson\u2122 Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/eson-nasal-cpap-mask-by-fisher-paykel",
+      "variantId": "bundle:152:149",
+      "variantName": "Large - Eson\u2122 Mask System - without Headgear + $58.00 / Eson\u2122 Headgear - Medium/Large + $31.00",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:04+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": "Medium-Large",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Medium-Large"
+          }
+        ]
+      },
       "configurationNote": ""
     },
     {
       "retailer": "DirectHomeMedical",
       "productName": "F&P Eson Nasal CPAP Mask with Headgear",
       "productUrl": "https://directhomemedical.com/products/eson-nasal-cpap-mask-fisher-paykel-healthcare",
+      "variantId": "48113333207192",
       "variantName": "Small",
       "priceCents": 8900,
       "price": "$89.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:54:10+00:00",
+      "observedAt": "2026-08-13T16:41:35+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "DirectHomeMedical",
+      "productName": "F&P Eson Nasal CPAP Mask with Headgear",
+      "productUrl": "https://directhomemedical.com/products/eson-nasal-cpap-mask-fisher-paykel-healthcare",
+      "variantId": "48113333239960",
+      "variantName": "Medium",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:41:35+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "DirectHomeMedical",
+      "productName": "F&P Eson Nasal CPAP Mask with Headgear",
+      "productUrl": "https://directhomemedical.com/products/eson-nasal-cpap-mask-fisher-paykel-healthcare",
+      "variantId": "48113333272728",
+      "variantName": "Large",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:41:35+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": ""
     },
     {
       "retailer": "RespShop",
       "productName": "Fisher & Paykel|  Eson Nasal CPAP Mask",
       "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-nasal-cpap-mask",
+      "variantId": "45739484414115",
       "variantName": "Small",
       "priceCents": 8900,
       "price": "$89.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:55:55+00:00",
+      "observedAt": "2026-08-13T16:42:44+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 10900,
+      "compareAtPrice": "$109.00"
+    },
+    {
+      "retailer": "RespShop",
+      "productName": "Fisher & Paykel|  Eson Nasal CPAP Mask",
+      "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-nasal-cpap-mask",
+      "variantId": "45740026036387",
+      "variantName": "Medium",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:42:44+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 10900,
+      "compareAtPrice": "$109.00"
+    },
+    {
+      "retailer": "RespShop",
+      "productName": "Fisher & Paykel|  Eson Nasal CPAP Mask",
+      "productUrl": "https://www.respshop.com/products/fisher-paykel-eson-nasal-cpap-mask",
+      "variantId": "45740026069155",
+      "variantName": "Large",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:42:44+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": "",
       "compareAtPriceCents": 10900,
       "compareAtPrice": "$109.00"
@@ -87,120 +472,185 @@
       "retailer": "Sleeplay",
       "productName": "Fisher & Paykel Eson Nasal CPAP Mask with Headgear",
       "productUrl": "https://sleeplay.com/products/eson-nasal-cpap-mask-with-headgear",
+      "variantId": "34163531251843",
       "variantName": "Small",
       "priceCents": 8900,
       "price": "$89.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:58:16+00:00",
+      "observedAt": "2026-08-13T16:44:40+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": ""
+    },
+    {
+      "retailer": "Sleeplay",
+      "productName": "Fisher & Paykel Eson Nasal CPAP Mask with Headgear",
+      "productUrl": "https://sleeplay.com/products/eson-nasal-cpap-mask-with-headgear",
+      "variantId": "34163531284611",
+      "variantName": "Medium",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:44:40+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "Sleeplay",
+      "productName": "Fisher & Paykel Eson Nasal CPAP Mask with Headgear",
+      "productUrl": "https://sleeplay.com/products/eson-nasal-cpap-mask-with-headgear",
+      "variantId": "34163531317379",
+      "variantName": "Large",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:44:40+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Fisher & Paykel Eson\u2122 Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/eson-nasal-cpap-mask-by-fisher-paykel",
+      "variantId": "bundle:153:null",
+      "variantName": "Small - Eson\u2122 Mask System - without Headgear + $58.00 / None\u00a0 +$0.00",
+      "priceCents": 5800,
+      "price": "$58.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:04+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Fisher & Paykel Eson\u2122 Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/eson-nasal-cpap-mask-by-fisher-paykel",
+      "variantId": "bundle:151:null",
+      "variantName": "Medium - Eson\u2122 Mask System - without Headgear + $58.00 / None\u00a0 +$0.00",
+      "priceCents": 5800,
+      "price": "$58.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:04+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Fisher & Paykel Eson\u2122 Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/eson-nasal-cpap-mask-by-fisher-paykel",
+      "variantId": "bundle:152:null",
+      "variantName": "Large - Eson\u2122 Mask System - without Headgear + $58.00 / None\u00a0 +$0.00",
+      "priceCents": 5800,
+      "price": "$58.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:04+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    }
+  ],
+  "sizeRanges": [
+    {
+      "size": "Small",
+      "minimumPriceCents": 8000,
+      "maximumPriceCents": 8900,
+      "minimumPrice": "$80.00",
+      "maximumPrice": "$89.00"
+    },
+    {
+      "size": "Medium",
+      "minimumPriceCents": 8000,
+      "maximumPriceCents": 8900,
+      "minimumPrice": "$80.00",
+      "maximumPrice": "$89.00"
+    },
+    {
+      "size": "Large",
+      "minimumPriceCents": 8000,
+      "maximumPriceCents": 8900,
+      "minimumPrice": "$80.00",
+      "maximumPrice": "$89.00"
     }
   ],
   "priceHistory": [
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "1800CPAP.COM",
       "priceCents": 8900,
       "price": "$89.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "CPAP Ninja",
       "priceCents": 8000,
       "price": "$80.00"
     },
     {
-      "date": "2026-08-09",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5800,
-      "price": "$58.00"
-    },
-    {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "DirectHomeMedical",
       "priceCents": 8900,
       "price": "$89.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "RespShop",
       "priceCents": 8900,
       "price": "$89.00"
     },
     {
-      "date": "2026-08-09",
-      "retailer": "Sleeplay",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8000,
-      "price": "$80.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5800,
-      "price": "$58.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "Sleeplay",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8000,
-      "price": "$80.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5800,
-      "price": "$58.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-11",
+      "date": "2026-08-03",
       "retailer": "Sleeplay",
       "priceCents": 8900,
       "price": "$89.00"
@@ -220,8 +670,8 @@
     {
       "date": "2026-08-12",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 5800,
-      "price": "$58.00"
+      "priceCents": 8900,
+      "price": "$89.00"
     },
     {
       "date": "2026-08-12",
@@ -256,207 +706,27 @@
     {
       "date": "2026-08-13",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 5800,
-      "price": "$58.00"
-    },
-    {
-      "date": "2026-08-13",
-      "retailer": "DirectHomeMedical",
       "priceCents": 8900,
       "price": "$89.00"
     },
     {
       "date": "2026-08-13",
+      "retailer": "DirectHomeMedical",
+      "priceCents": 8900,
+      "price": "$89.00"
+    },
+    {
+      "date": "2026-08-13",
       "retailer": "RespShop",
       "priceCents": 8900,
       "price": "$89.00"
     },
     {
       "date": "2026-08-13",
-      "retailer": "Sleeplay",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8000,
-      "price": "$80.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5800,
-      "price": "$58.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "Sleeplay",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8000,
-      "price": "$80.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5800,
-      "price": "$58.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "Sleeplay",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8000,
-      "price": "$80.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5800,
-      "price": "$58.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "Sleeplay",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8000,
-      "price": "$80.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5800,
-      "price": "$58.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "Sleeplay",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAP Ninja",
-      "priceCents": 8000,
-      "price": "$80.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5800,
-      "price": "$58.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-18",
       "retailer": "Sleeplay",
       "priceCents": 8900,
       "price": "$89.00"
     }
   ],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

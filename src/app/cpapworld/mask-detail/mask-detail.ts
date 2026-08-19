@@ -55,6 +55,9 @@ export class MaskDetail {
   protected readonly retailerProfiles = signal(new Map<string, RetailerProfile>());
   protected readonly selectedOffer = signal<RetailerPriceOffer | null>(null);
   protected readonly selectedRetailer = signal<RetailerProfile | null>(null);
+  protected readonly selectedSize = signal('all');
+  protected readonly headgearIncluded = signal(true);
+  protected readonly selectedPriceOptions = signal<Record<string, string>>({});
   protected readonly activeImageIndex = signal(0);
   protected readonly activeAnalysisTab = signal<AnalysisTab>('overview');
   protected readonly showAllComponents = signal(false);
@@ -65,6 +68,80 @@ export class MaskDetail {
   protected readonly reviewPageSize = 50;
   protected readonly loading = signal(true);
   protected readonly loadError = signal(false);
+  protected readonly availablePriceSizes = computed(() => {
+    const sizes = new Set(
+      (this.prices()?.offers ?? [])
+        .filter(
+          (offer) =>
+            offer.configuration.headgearIncluded === this.headgearIncluded() &&
+            offer.configuration.size
+        )
+        .map((offer) => offer.configuration.size as string)
+    );
+    return [...sizes]
+      .filter((size) => size !== 'One Size')
+      .sort((left, right) => this.priceSizeRank(left) - this.priceSizeRank(right));
+  });
+  protected readonly priceOptionDimensions = computed(() => {
+    const values = new Map<string, Set<string>>();
+    for (const offer of this.prices()?.offers ?? []) {
+      if (offer.configuration.headgearIncluded !== this.headgearIncluded()) continue;
+      if (this.selectedSize() !== 'all' && offer.configuration.size !== this.selectedSize()) continue;
+      for (const option of offer.configuration.options) {
+        if (!values.has(option.name)) values.set(option.name, new Set());
+        values.get(option.name)?.add(option.value);
+      }
+    }
+    return [...values.entries()]
+      .filter(([, options]) => options.size > 1)
+      .map(([name, options]) => ({ name, values: [...options].sort() }));
+  });
+  protected readonly matchingPriceOffers = computed(() => {
+    const selectedOptions = this.selectedPriceOptions();
+    return (this.prices()?.offers ?? []).filter((offer) => {
+      if (offer.configuration.headgearIncluded !== this.headgearIncluded()) return false;
+      if (this.selectedSize() !== 'all' && offer.configuration.size !== this.selectedSize()) {
+        return false;
+      }
+      return Object.entries(selectedOptions).every(([name, value]) => {
+        if (!value) return true;
+        return offer.configuration.options.some(
+          (option) => option.name === name && option.value === value
+        );
+      });
+    });
+  });
+  protected readonly visiblePriceOffers = computed(() => {
+    const byRetailer = new Map<string, RetailerPriceOffer>();
+    for (const offer of this.matchingPriceOffers()) {
+      const current = byRetailer.get(offer.retailer);
+      if (
+        !current ||
+        (offer.inStock && !current.inStock) ||
+        (offer.inStock === current.inStock && offer.priceCents < current.priceCents)
+      ) {
+        byRetailer.set(offer.retailer, offer);
+      }
+    }
+    return [...byRetailer.values()].sort(
+      (left, right) =>
+        Number(right.inStock) - Number(left.inStock) ||
+        left.priceCents - right.priceCents ||
+        left.retailer.localeCompare(right.retailer)
+    );
+  });
+  protected readonly activePriceOffer = computed(() => {
+    const offers = this.visiblePriceOffers();
+    const selected = this.selectedOffer();
+    return (
+      offers.find(
+        (offer) =>
+          offer.retailer === selected?.retailer &&
+          offer.productUrl === selected.productUrl &&
+          offer.variantId === selected.variantId
+      ) ?? offers[0] ?? null
+    );
+  });
   protected readonly activeImage = computed(
     () => this.gallery()?.images[this.activeImageIndex()] ?? null
   );
@@ -194,6 +271,9 @@ export class MaskDetail {
           this.gallery.set(null);
           this.selectedOffer.set(null);
           this.selectedRetailer.set(null);
+          this.selectedSize.set('all');
+          this.headgearIncluded.set(true);
+          this.selectedPriceOptions.set({});
           this.activeImageIndex.set(0);
           this.activeAnalysisTab.set('overview');
           this.showAllComponents.set(false);
@@ -395,6 +475,33 @@ export class MaskDetail {
     this.selectedRetailer.set(this.retailerProfile(offer.retailer));
   }
 
+  protected isSelectedPriceOffer(offer: RetailerPriceOffer): boolean {
+    const selected = this.activePriceOffer();
+    return (
+      selected?.retailer === offer.retailer &&
+      selected.productUrl === offer.productUrl &&
+      selected.variantId === offer.variantId
+    );
+  }
+
+  protected selectPriceSize(size: string): void {
+    this.selectedSize.set(size);
+    this.selectedPriceOptions.set({});
+    this.resetSelectedPriceOffer();
+  }
+
+  protected selectHeadgear(included: boolean): void {
+    this.headgearIncluded.set(included);
+    this.selectedSize.set('all');
+    this.selectedPriceOptions.set({});
+    this.resetSelectedPriceOffer();
+  }
+
+  protected selectPriceOption(name: string, value: string): void {
+    this.selectedPriceOptions.update((selected) => ({ ...selected, [name]: value }));
+    this.resetSelectedPriceOffer();
+  }
+
   protected gradeBand(grade: string | null): 'high' | 'middle' | 'low' | 'none' {
     if (!grade) return 'none';
     if (grade.startsWith('A') || grade.startsWith('B')) return 'high';
@@ -464,6 +571,34 @@ export class MaskDetail {
 
   private normalizeRetailerName(value: string): string {
     return value.toLowerCase().replace(/[^a-z0-9]/g, '');
+  }
+
+  private resetSelectedPriceOffer(): void {
+    this.selectedOffer.set(null);
+    const offer = this.visiblePriceOffers()[0] ?? null;
+    this.selectedRetailer.set(offer ? this.retailerProfile(offer.retailer) : null);
+  }
+
+  private priceSizeRank(size: string): number {
+    const sizes = [
+      'Extra Small',
+      'Small',
+      'Small-Medium',
+      'Small Wide',
+      'Medium',
+      'Medium-Large',
+      'Medium Wide',
+      'Regular',
+      'Standard',
+      'Wide',
+      'Large',
+      'Large Wide',
+      'Extra Large',
+      'One Size',
+      'Fit Pack'
+    ];
+    const position = sizes.indexOf(size);
+    return position === -1 ? sizes.length : position;
   }
 
   private moveGallery(offset: number): void {

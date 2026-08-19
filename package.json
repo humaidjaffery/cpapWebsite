@@ -7,7 +7,8 @@
     "build": "ng build",
     "postbuild": "cp dist/cpapWebsite/browser/index.html dist/cpapWebsite/browser/404.html",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "test:workflow": "python3 scripts/test_refresh_workflow.py"
   },
   "prettier": {
     "printWidth": 100,

@@ -157,24 +157,51 @@ const PROFILE: MaskProfile = {
 };
 
 const PRICES: MaskPrices = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   mask: PROFILE.name,
   slug: PROFILE.slug,
   generatedAt: '2026-08-02T12:00:00Z',
   status: 'available',
+  defaultHeadgearIncluded: true,
   cheapestOffer: {
     retailer: 'Example Store',
     productName: 'AirFit F20 complete mask',
     productUrl: 'https://example.test/f20',
+    variantId: 'complete-medium',
     variantName: 'Complete Mask / Medium',
     priceCents: 14900,
     price: '$149.00',
     currency: 'USD',
     inStock: true,
     observedAt: '2026-08-02T12:00:00Z',
-    configurationNote: ''
+    configurationNote: '',
+    configuration: {
+      offerType: 'complete',
+      headgearIncluded: true,
+      size: 'Medium',
+      frameSize: null,
+      headgearSize: null,
+      fitPack: false,
+      options: []
+    }
   },
   offers: [],
+  sizeRanges: [
+    {
+      size: 'Medium',
+      minimumPriceCents: 14900,
+      maximumPriceCents: 14900,
+      minimumPrice: '$149.00',
+      maximumPrice: '$149.00'
+    },
+    {
+      size: 'Large',
+      minimumPriceCents: 17900,
+      maximumPriceCents: 17900,
+      minimumPrice: '$179.00',
+      maximumPrice: '$179.00'
+    }
+  ],
   priceHistory: [
     { date: '2026-08-01', retailer: 'Example Store', priceCents: 14900, price: '$149.00' }
   ],
@@ -186,6 +213,7 @@ PRICES.offers = [
     retailer: 'Second Store',
     productName: 'AirFit F20 mask kit',
     productUrl: 'https://second.example.test/f20',
+    variantId: 'complete-large',
     variantName: 'Large',
     priceCents: 17900,
     price: '$179.00',
@@ -194,7 +222,16 @@ PRICES.offers = [
     currency: 'USD',
     inStock: true,
     observedAt: '2026-08-03T15:30:00Z',
-    configurationNote: ''
+    configurationNote: '',
+    configuration: {
+      offerType: 'complete',
+      headgearIncluded: true,
+      size: 'Large',
+      frameSize: null,
+      headgearSize: null,
+      fitPack: false,
+      options: []
+    }
   }
 ];
 
@@ -488,6 +525,58 @@ describe('MaskDetail', () => {
     expect(element.querySelectorAll('.offer-table tbody tr')[1].classList).toContain(
       'retailer-row-selected'
     );
+  });
+
+  it('filters retailer prices by size and defaults to included headgear', () => {
+    const element: HTMLElement = fixture.nativeElement;
+    expect(element.querySelector('.price-choice-list button.active')?.textContent).toContain(
+      'Included'
+    );
+    expect(element.textContent).toContain('Any');
+    expect(element.textContent).not.toContain('One Size');
+    expect(element.querySelector('.size-range-list')).toBeNull();
+    expect(element.querySelector('.selected-price-range')).toBeNull();
+
+    const largeButton = [...element.querySelectorAll<HTMLButtonElement>('.price-choice-list button')]
+      .find((button) => button.textContent?.trim() === 'Large');
+    largeButton?.click();
+    fixture.detectChanges();
+    expect(element.querySelectorAll('.offer-table tbody tr').length).toBe(1);
+    expect(element.querySelector('.cheapest-card')?.textContent).toContain('Second Store');
+
+    const withoutHeadgear = [...element.querySelectorAll<HTMLButtonElement>('.price-choice-list button')]
+      .find((button) => button.textContent?.trim() === 'Not included');
+    withoutHeadgear?.click();
+    fixture.detectChanges();
+    expect(element.querySelector('.price-empty')?.textContent).toContain('exact configuration');
+  });
+
+  it('combines the neutral size choice and one-size offers under one label', () => {
+    const component = fixture.componentInstance as any;
+    component.prices.set({
+      ...PRICES,
+      offers: [
+        ...PRICES.offers,
+        {
+          ...PRICES.cheapestOffer!,
+          variantId: 'complete-one-size',
+          variantName: 'One Size',
+          configuration: {
+            ...PRICES.cheapestOffer!.configuration,
+            size: 'One Size'
+          }
+        }
+      ]
+    });
+    fixture.detectChanges();
+
+    const element: HTMLElement = fixture.nativeElement;
+    const sizeButtons = [...element.querySelectorAll<HTMLButtonElement>(
+      '.price-filter-group-wide button'
+    )].map((button) => button.textContent?.trim());
+    expect(sizeButtons.filter((label) => label === 'Any').length).toBe(1);
+    expect(sizeButtons).not.toContain('Any size');
+    expect(sizeButtons).not.toContain('One Size');
   });
 
   it('shows a load error state', () => {

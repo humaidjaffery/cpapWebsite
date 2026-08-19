@@ -1,110 +1,538 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "ResMed AirFit P30i",
   "slug": "resmed-airfit-p30i",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": {
-    "retailer": "1800CPAP.COM",
-    "productName": "AirFit P30i Nasal Pillow Mask Kit",
-    "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
-    "variantName": "All Sizes / No / Small",
-    "priceCents": 7499,
-    "price": "$74.99",
+    "retailer": "CPAP Ninja",
+    "productName": "AirFit P30i Nasal Pillow CPAP Mask Starter Pack | ResMed",
+    "productUrl": "https://www.cpapninja.com/products/airfit-p30i-nasal-pillow-cpap-mask-starter-pack-resmed",
+    "variantId": "51880215216491",
+    "variantName": "Small Frame with S/M Cushions",
+    "priceCents": 7500,
+    "price": "$75.00",
     "currency": "USD",
     "inStock": true,
-    "observedAt": "2026-08-18T09:50:51+00:00",
+    "observedAt": "2026-08-13T16:38:44+00:00",
+    "configuration": {
+      "offerType": "complete",
+      "headgearIncluded": true,
+      "size": "Small",
+      "frameSize": null,
+      "headgearSize": null,
+      "fitPack": true,
+      "options": []
+    },
     "configurationNote": "",
-    "compareAtPriceCents": 8400,
-    "compareAtPrice": "$84.00"
+    "compareAtPriceCents": 11500,
+    "compareAtPrice": "$115.00"
   },
   "offers": [
-    {
-      "retailer": "1800CPAP.COM",
-      "productName": "AirFit P30i Nasal Pillow Mask Kit",
-      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
-      "variantName": "All Sizes / No / Small",
-      "priceCents": 7499,
-      "price": "$74.99",
-      "currency": "USD",
-      "inStock": true,
-      "observedAt": "2026-08-18T09:50:51+00:00",
-      "configurationNote": "",
-      "compareAtPriceCents": 8400,
-      "compareAtPrice": "$84.00"
-    },
     {
       "retailer": "CPAP Ninja",
       "productName": "AirFit P30i Nasal Pillow CPAP Mask Starter Pack | ResMed",
       "productUrl": "https://www.cpapninja.com/products/airfit-p30i-nasal-pillow-cpap-mask-starter-pack-resmed",
-      "variantName": "Standard Frame with S/M/L Cushions",
+      "variantId": "51880215216491",
+      "variantName": "Small Frame with S/M Cushions",
       "priceCents": 7500,
       "price": "$75.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:52:39+00:00",
+      "observedAt": "2026-08-13T16:38:44+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": "",
       "compareAtPriceCents": 11500,
       "compareAtPrice": "$115.00"
     },
     {
-      "retailer": "CPAPsupplies.com",
-      "productName": "Resmed AirFit\u2122 P30i Nasal Pillow CPAP Mask",
-      "productUrl": "https://cpapsupplies.com/airfit-p30i-nasal-pillow-cpap-mask-by-resmed",
-      "variantName": "Displayed price",
-      "priceCents": 8400,
-      "price": "$84.00",
+      "retailer": "CPAP Ninja",
+      "productName": "AirFit P30i Nasal Pillow CPAP Mask Starter Pack | ResMed",
+      "productUrl": "https://www.cpapninja.com/products/airfit-p30i-nasal-pillow-cpap-mask-starter-pack-resmed",
+      "variantId": "51880215183723",
+      "variantName": "Standard Frame with S/M/L Cushions",
+      "priceCents": 7500,
+      "price": "$75.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:53:46+00:00",
-      "configurationNote": "Verify included components"
+      "observedAt": "2026-08-13T16:38:44+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i CPAP Mask Fit Pack",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-cpap-mask-fit-pack",
+      "variantId": "46477022986484",
+      "variantName": "Small",
+      "priceCents": 10499,
+      "price": "$104.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:16+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i CPAP Mask Fit Pack",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-cpap-mask-fit-pack",
+      "variantId": "46477023019252",
+      "variantName": "Standard",
+      "priceCents": 10499,
+      "price": "$104.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:16+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460160049396",
+      "variantName": "Small / Yes / Standard",
+      "priceCents": 10499,
+      "price": "$104.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460160016628",
+      "variantName": "Small / Yes / Small",
+      "priceCents": 10499,
+      "price": "$104.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460159918324",
+      "variantName": "Medium / Yes / Standard",
+      "priceCents": 10499,
+      "price": "$104.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460159885556",
+      "variantName": "Medium / Yes / Small",
+      "priceCents": 10499,
+      "price": "$104.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460159787252",
+      "variantName": "Large / Yes / Standard",
+      "priceCents": 10499,
+      "price": "$104.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460159721716",
+      "variantName": "All Sizes / Yes / Standard",
+      "priceCents": 10499,
+      "price": "$104.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460159688948",
+      "variantName": "All Sizes / Yes / Small",
+      "priceCents": 10499,
+      "price": "$104.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 11500,
+      "compareAtPrice": "$115.00"
     },
     {
       "retailer": "CPAP.com",
       "productName": "AirFit P30i Nasal Pillow CPAP Mask",
       "productUrl": "https://www.cpap.com/products/resmed-airfit-p30i-nasal-pillow-cpap-mask",
+      "variantId": "49040769810748",
       "variantName": "Complete Mask / Fit Pack / Small",
       "priceCents": 11500,
       "price": "$115.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:52:03+00:00",
+      "observedAt": "2026-08-13T16:50:20+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Type",
+            "value": "Complete Mask"
+          },
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit P30i Nasal Pillow CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-p30i-nasal-pillow-cpap-mask",
+      "variantId": "49040769909052",
+      "variantName": "Complete Mask / Fit Pack / Standard",
+      "priceCents": 11500,
+      "price": "$115.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:20+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Type",
+            "value": "Complete Mask"
+          },
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Resmed AirFit\u2122 P30i Nasal Pillow CPAP Mask Starter Pack",
+      "productUrl": "https://cpapsupplies.com/resmed-airfit-p30i-nasal-pillow-cpap-mask-starter-pack",
+      "variantId": "configurable:3363",
+      "variantName": "Small",
+      "priceCents": 11500,
+      "price": "$115.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:55+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Resmed AirFit\u2122 P30i Nasal Pillow CPAP Mask Starter Pack",
+      "productUrl": "https://cpapsupplies.com/resmed-airfit-p30i-nasal-pillow-cpap-mask-starter-pack",
+      "variantId": "configurable:3369",
+      "variantName": "Standard",
+      "priceCents": 11500,
+      "price": "$115.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:55+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": ""
     },
     {
       "retailer": "DirectHomeMedical",
       "productName": "AirFit P30i Nasal Pillows CPAP Mask with Headgear",
       "productUrl": "https://directhomemedical.com/products/airfit-p30i-nasal-pillows-cpap-mask-resmed",
+      "variantId": "48113297522840",
       "variantName": "Small Frame FitPack (with Small & Medium Pillows)",
       "priceCents": 11500,
       "price": "$115.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:54:36+00:00",
+      "observedAt": "2026-08-13T16:41:56+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": ""
     },
     {
       "retailer": "Lofta",
       "productName": "ResMed AirFit\u2122 P30i Nasal Pillow CPAP Mask Complete System",
       "productUrl": "https://lofta.com/collections/cpap-masks/products/airfit-p30i",
-      "variantName": "Small Frame with Cushion FitPack",
+      "variantId": "11295569379375",
+      "variantName": "Medium Frame with Cushion FitPack",
       "priceCents": 11500,
       "price": "$115.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:55:48+00:00",
+      "observedAt": "2026-08-13T16:50:57+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": ""
     },
     {
       "retailer": "RespShop",
       "productName": "ResMed | AirFit P30i Nasal Pillow CPAP Mask",
       "productUrl": "https://www.respshop.com/products/resmed-airfit-p30i-nasal-pillow-cpap-mask",
+      "variantId": "45740025905315",
+      "variantName": "Small Frame with S/M Cushions",
+      "priceCents": 11500,
+      "price": "$115.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:43:52+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 13500,
+      "compareAtPrice": "$135.00"
+    },
+    {
+      "retailer": "RespShop",
+      "productName": "ResMed | AirFit P30i Nasal Pillow CPAP Mask",
+      "productUrl": "https://www.respshop.com/products/resmed-airfit-p30i-nasal-pillow-cpap-mask",
+      "variantId": "45739483496611",
       "variantName": "Standard Frame with S/M/L Cushions",
       "priceCents": 11500,
       "price": "$115.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:57:27+00:00",
+      "observedAt": "2026-08-13T16:43:52+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": "",
       "compareAtPriceCents": 13500,
       "compareAtPrice": "$135.00"
@@ -113,186 +541,686 @@
       "retailer": "Sleeplay",
       "productName": "ResMed AirFit P30i Nasal Pillow CPAP Mask Starter Pack",
       "productUrl": "https://sleeplay.com/products/airfit-p30i-starter-pack",
+      "variantId": "33466545569923",
       "variantName": "Standard / Fit Pack",
       "priceCents": 11500,
       "price": "$115.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:58:31+00:00",
+      "observedAt": "2026-08-13T16:44:52+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "Sleeplay",
+      "productName": "ResMed AirFit P30i Nasal Pillow CPAP Mask Starter Pack",
+      "productUrl": "https://sleeplay.com/products/airfit-p30i-starter-pack",
+      "variantId": "34060699828355",
+      "variantName": "Small / Fit Pack",
+      "priceCents": 11500,
+      "price": "$115.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:44:52+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Fit Pack",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Resmed AirFit\u2122 P30i Nasal Pillow CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/airfit-p30i-nasal-pillow-cpap-mask-by-resmed",
+      "variantId": "bundle:299:293",
+      "variantName": "Small Frame / Small Cushion - AirFit\u2122 P30i Mask System - without Headgear + $84.00 / Resmed AirTouch\u2122/AirFit\u2122 N30i/P30i CPAP Mask Headgear + $34.00",
+      "priceCents": 11800,
+      "price": "$118.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:54+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Resmed AirFit\u2122 P30i Nasal Pillow CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/airfit-p30i-nasal-pillow-cpap-mask-by-resmed",
+      "variantId": "bundle:298:293",
+      "variantName": "Standard Frame / Small Cushion - AirFit\u2122 P30i Mask System - without Headgear + $84.00 / Resmed AirTouch\u2122/AirFit\u2122 N30i/P30i CPAP Mask Headgear + $34.00",
+      "priceCents": 11800,
+      "price": "$118.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:54+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "DirectHomeMedical",
+      "productName": "AirFit P30i Nasal Pillows CPAP Mask with Headgear",
+      "productUrl": "https://directhomemedical.com/products/airfit-p30i-nasal-pillows-cpap-mask-resmed",
+      "variantId": "48113297588376",
+      "variantName": "Small Frame & Small Pillows",
+      "priceCents": 11800,
+      "price": "$118.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:41:56+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "DirectHomeMedical",
+      "productName": "AirFit P30i Nasal Pillows CPAP Mask with Headgear",
+      "productUrl": "https://directhomemedical.com/products/airfit-p30i-nasal-pillows-cpap-mask-resmed",
+      "variantId": "48113297686680",
+      "variantName": "Standard Frame & Small Pillows",
+      "priceCents": 11800,
+      "price": "$118.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:41:56+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": ""
     },
     {
       "retailer": "EasyBreathe",
       "productName": "AirFit P30i Nasal Pillow Mask",
       "productUrl": "https://easybreathe.com/products/airfit-p30i-nasal-pillow-mask",
+      "variantId": "44361546596647",
       "variantName": "Standard Frame",
       "priceCents": 11800,
       "price": "$118.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:55:23+00:00",
+      "observedAt": "2026-08-13T16:42:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": ""
+    },
+    {
+      "retailer": "EasyBreathe",
+      "productName": "AirFit P30i Nasal Pillow Mask",
+      "productUrl": "https://easybreathe.com/products/airfit-p30i-nasal-pillow-mask",
+      "variantId": "44361546629415",
+      "variantName": "Small Frame",
+      "priceCents": 11800,
+      "price": "$118.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:42:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460159983860",
+      "variantName": "Small / No / Standard",
+      "priceCents": 7499,
+      "price": "$74.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8400,
+      "compareAtPrice": "$84.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460159951092",
+      "variantName": "Small / No / Small",
+      "priceCents": 7499,
+      "price": "$74.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8400,
+      "compareAtPrice": "$84.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460159852788",
+      "variantName": "Medium / No / Standard",
+      "priceCents": 7499,
+      "price": "$74.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Medium",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8400,
+      "compareAtPrice": "$84.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460159820020",
+      "variantName": "Medium / No / Small",
+      "priceCents": 7499,
+      "price": "$74.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Medium",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8400,
+      "compareAtPrice": "$84.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460159754484",
+      "variantName": "Large / No / Standard",
+      "priceCents": 7499,
+      "price": "$74.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Large",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8400,
+      "compareAtPrice": "$84.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460159656180",
+      "variantName": "All Sizes / No / Standard",
+      "priceCents": 7499,
+      "price": "$74.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Fit Pack",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8400,
+      "compareAtPrice": "$84.00"
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "AirFit P30i Nasal Pillow Mask Kit",
+      "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
+      "variantId": "46460159623412",
+      "variantName": "All Sizes / No / Small",
+      "priceCents": 7499,
+      "price": "$74.99",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:48:18+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Fit Pack",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": true,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 8400,
+      "compareAtPrice": "$84.00"
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit P30i Nasal Pillow CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-p30i-nasal-pillow-cpap-mask",
+      "variantId": "49040770072892",
+      "variantName": "Mask Only (No Headgear) / Large / Standard",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:20+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Large",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit P30i Nasal Pillow CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-p30i-nasal-pillow-cpap-mask",
+      "variantId": "49040770138428",
+      "variantName": "Mask Only (No Headgear) / Medium / Small",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:20+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Medium",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit P30i Nasal Pillow CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-p30i-nasal-pillow-cpap-mask",
+      "variantId": "49040770236732",
+      "variantName": "Mask Only (No Headgear) / Medium / Standard",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:20+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Medium",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit P30i Nasal Pillow CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-p30i-nasal-pillow-cpap-mask",
+      "variantId": "49040770302268",
+      "variantName": "Mask Only (No Headgear) / Small / Small",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:20+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit P30i Nasal Pillow CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-p30i-nasal-pillow-cpap-mask",
+      "variantId": "49040770335036",
+      "variantName": "Mask Only (No Headgear) / Small / Standard",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:50:20+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": "Standard",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Resmed AirFit\u2122 P30i Nasal Pillow CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/airfit-p30i-nasal-pillow-cpap-mask-by-resmed",
+      "variantId": "bundle:299:null",
+      "variantName": "Small Frame / Small Cushion - AirFit\u2122 P30i Mask System - without Headgear + $84.00 / None\u00a0 +$0.00",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:54+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Resmed AirFit\u2122 P30i Nasal Pillow CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/airfit-p30i-nasal-pillow-cpap-mask-by-resmed",
+      "variantId": "bundle:298:null",
+      "variantName": "Standard Frame / Small Cushion - AirFit\u2122 P30i Mask System - without Headgear + $84.00 / None\u00a0 +$0.00",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:54+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Standard",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAP.com",
+      "productName": "AirFit P30i Nasal Pillow CPAP Mask",
+      "productUrl": "https://www.cpap.com/products/resmed-airfit-p30i-nasal-pillow-cpap-mask",
+      "variantId": "49040770007356",
+      "variantName": "Mask Only (No Headgear) / Large / Small",
+      "priceCents": 8400,
+      "price": "$84.00",
+      "currency": "USD",
+      "inStock": false,
+      "observedAt": "2026-08-13T16:50:20+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Large",
+        "frameSize": "Small",
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Frame Size",
+            "value": "Small"
+          }
+        ]
+      },
+      "configurationNote": ""
+    }
+  ],
+  "sizeRanges": [
+    {
+      "size": "Small",
+      "minimumPriceCents": 7500,
+      "maximumPriceCents": 11800,
+      "minimumPrice": "$75.00",
+      "maximumPrice": "$118.00"
+    },
+    {
+      "size": "Medium",
+      "minimumPriceCents": 10499,
+      "maximumPriceCents": 10499,
+      "minimumPrice": "$104.99",
+      "maximumPrice": "$104.99"
+    },
+    {
+      "size": "Standard",
+      "minimumPriceCents": 7500,
+      "maximumPriceCents": 11800,
+      "minimumPrice": "$75.00",
+      "maximumPrice": "$118.00"
+    },
+    {
+      "size": "Large",
+      "minimumPriceCents": 10499,
+      "maximumPriceCents": 10499,
+      "minimumPrice": "$104.99",
+      "maximumPrice": "$104.99"
+    },
+    {
+      "size": "Fit Pack",
+      "minimumPriceCents": 10499,
+      "maximumPriceCents": 11500,
+      "minimumPrice": "$104.99",
+      "maximumPrice": "$115.00"
     }
   ],
   "priceHistory": [
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
+      "priceCents": 10499,
+      "price": "$104.99"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "CPAP Ninja",
       "priceCents": 7500,
       "price": "$75.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
+      "priceCents": 11500,
+      "price": "$115.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
+      "priceCents": 11500,
+      "price": "$115.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "DirectHomeMedical",
       "priceCents": 11500,
       "price": "$115.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "EasyBreathe",
       "priceCents": 11800,
       "price": "$118.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "Lofta",
       "priceCents": 11500,
       "price": "$115.00"
     },
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "RespShop",
       "priceCents": 11500,
       "price": "$115.00"
     },
     {
-      "date": "2026-08-09",
-      "retailer": "Sleeplay",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "Sleeplay",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-11",
+      "date": "2026-08-03",
       "retailer": "Sleeplay",
       "priceCents": 11500,
       "price": "$115.00"
@@ -300,8 +1228,8 @@
     {
       "date": "2026-08-12",
       "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
+      "priceCents": 10499,
+      "price": "$104.99"
     },
     {
       "date": "2026-08-12",
@@ -312,14 +1240,14 @@
     {
       "date": "2026-08-12",
       "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
+      "priceCents": 11500,
+      "price": "$115.00"
     },
     {
       "date": "2026-08-12",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
+      "priceCents": 11500,
+      "price": "$115.00"
     },
     {
       "date": "2026-08-12",
@@ -354,8 +1282,8 @@
     {
       "date": "2026-08-13",
       "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
+      "priceCents": 10499,
+      "price": "$104.99"
     },
     {
       "date": "2026-08-13",
@@ -366,14 +1294,14 @@
     {
       "date": "2026-08-13",
       "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
+      "priceCents": 11500,
+      "price": "$115.00"
     },
     {
       "date": "2026-08-13",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
+      "priceCents": 11500,
+      "price": "$115.00"
     },
     {
       "date": "2026-08-13",
@@ -401,280 +1329,10 @@
     },
     {
       "date": "2026-08-13",
-      "retailer": "Sleeplay",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "Sleeplay",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "Sleeplay",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "Sleeplay",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "Sleeplay",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 7499,
-      "price": "$74.99"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAP.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "EasyBreathe",
-      "priceCents": 11800,
-      "price": "$118.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "Lofta",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "RespShop",
-      "priceCents": 11500,
-      "price": "$115.00"
-    },
-    {
-      "date": "2026-08-18",
       "retailer": "Sleeplay",
       "priceCents": 11500,
       "price": "$115.00"
     }
   ],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

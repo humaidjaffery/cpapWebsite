@@ -1,19 +1,30 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "Fisher & Paykel FlexiFit 431",
   "slug": "fisher-paykel-flexifit-431",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": {
     "retailer": "DirectHomeMedical",
     "productName": "FlexiFit 431 Full Face CPAP Mask FitPack with Headgear",
     "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel",
+    "variantId": "46714360758424",
     "variantName": "Default Title",
     "priceCents": 8400,
     "price": "$84.00",
     "currency": "USD",
     "inStock": true,
-    "observedAt": "2026-08-18T09:54:13+00:00",
+    "observedAt": "2026-08-13T16:41:37+00:00",
+    "configuration": {
+      "offerType": "complete",
+      "headgearIncluded": true,
+      "size": null,
+      "frameSize": null,
+      "headgearSize": null,
+      "fitPack": true,
+      "options": []
+    },
     "configurationNote": "",
     "compareAtPriceCents": 12900,
     "compareAtPrice": "$129.00"
@@ -23,12 +34,22 @@
       "retailer": "DirectHomeMedical",
       "productName": "FlexiFit 431 Full Face CPAP Mask FitPack with Headgear",
       "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel",
+      "variantId": "46714360758424",
       "variantName": "Default Title",
       "priceCents": 8400,
       "price": "$84.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:54:13+00:00",
+      "observedAt": "2026-08-13T16:41:37+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": "",
       "compareAtPriceCents": 12900,
       "compareAtPrice": "$129.00"
@@ -37,108 +58,85 @@
       "retailer": "1800CPAP.COM",
       "productName": "FlexiFit 431 Full Face CPAP Mask",
       "productUrl": "https://1800cpap.com/products/flexifit-431-full-face-cpap-mask",
+      "variantId": "46469196022004",
       "variantName": "Default Title",
       "priceCents": 10499,
       "price": "$104.99",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:49:10+00:00",
+      "observedAt": "2026-08-13T16:46:15+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "RespShop",
+      "productName": "Fisher & Paykel | FlexiFit 431 Full Face CPAP Mask",
+      "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask",
+      "variantId": "45739488903331",
+      "variantName": "Default Title",
+      "priceCents": 12900,
+      "price": "$129.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:42:47+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": ""
     },
     {
       "retailer": "CPAPsupplies.com",
       "productName": "Fisher & Paykel FlexiFit\u2122 431 Full Face CPAP Mask Fit Pack without Headgear",
       "productUrl": "https://cpapsupplies.com/fisher-paykel-flexifit-431-full-face-cpap-mask-fit-pack-without-headgear",
+      "variantId": "page",
       "variantName": "Displayed price",
       "priceCents": 12000,
       "price": "$120.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:53:03+00:00",
-      "configurationNote": "Verify included components"
-    },
-    {
-      "retailer": "RespShop",
-      "productName": "Fisher & Paykel | FlexiFit 431 Full Face CPAP Mask",
-      "productUrl": "https://www.respshop.com/products/fisher-paykel-flexifit-431-full-face-cpap-mask",
-      "variantName": "Default Title",
-      "priceCents": 12900,
-      "price": "$129.00",
-      "currency": "USD",
-      "inStock": true,
-      "observedAt": "2026-08-18T09:55:58+00:00",
+      "observedAt": "2026-08-13T16:39:19+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": ""
     }
   ],
+  "sizeRanges": [],
   "priceHistory": [
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "1800CPAP.COM",
       "priceCents": 10499,
       "price": "$104.99"
     },
     {
-      "date": "2026-08-09",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 12000,
-      "price": "$120.00"
-    },
-    {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "DirectHomeMedical",
       "priceCents": 8400,
       "price": "$84.00"
     },
     {
-      "date": "2026-08-09",
-      "retailer": "RespShop",
-      "priceCents": 12900,
-      "price": "$129.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 10499,
-      "price": "$104.99"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 12000,
-      "price": "$120.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "RespShop",
-      "priceCents": 12900,
-      "price": "$129.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 10499,
-      "price": "$104.99"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 12000,
-      "price": "$120.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-11",
+      "date": "2026-08-03",
       "retailer": "RespShop",
       "priceCents": 12900,
       "price": "$129.00"
@@ -148,12 +146,6 @@
       "retailer": "1800CPAP.COM",
       "priceCents": 10499,
       "price": "$104.99"
-    },
-    {
-      "date": "2026-08-12",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 12000,
-      "price": "$120.00"
     },
     {
       "date": "2026-08-12",
@@ -175,142 +167,16 @@
     },
     {
       "date": "2026-08-13",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 12000,
-      "price": "$120.00"
-    },
-    {
-      "date": "2026-08-13",
       "retailer": "DirectHomeMedical",
       "priceCents": 8400,
       "price": "$84.00"
     },
     {
       "date": "2026-08-13",
-      "retailer": "RespShop",
-      "priceCents": 12900,
-      "price": "$129.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 10499,
-      "price": "$104.99"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 12000,
-      "price": "$120.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "RespShop",
-      "priceCents": 12900,
-      "price": "$129.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 10499,
-      "price": "$104.99"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 12000,
-      "price": "$120.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "RespShop",
-      "priceCents": 12900,
-      "price": "$129.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 10499,
-      "price": "$104.99"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 12000,
-      "price": "$120.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "RespShop",
-      "priceCents": 12900,
-      "price": "$129.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 10499,
-      "price": "$104.99"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 12000,
-      "price": "$120.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "RespShop",
-      "priceCents": 12900,
-      "price": "$129.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 10499,
-      "price": "$104.99"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 12000,
-      "price": "$120.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "DirectHomeMedical",
-      "priceCents": 8400,
-      "price": "$84.00"
-    },
-    {
-      "date": "2026-08-18",
       "retailer": "RespShop",
       "priceCents": 12900,
       "price": "$129.00"
     }
   ],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

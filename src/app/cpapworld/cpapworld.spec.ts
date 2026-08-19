@@ -143,13 +143,23 @@ describe('CpapWorld', () => {
                       retailer: 'Example Store',
                       productName: 'P10 complete mask',
                       productUrl: 'https://example.test/p10',
+                      variantId: 'standard',
                       variantName: 'Standard',
                       priceCents: 6900,
                       price: '$69.00',
                       currency: 'USD',
                       inStock: true,
                       observedAt: '2026-08-03T00:00:00Z',
-                      configurationNote: ''
+                      configurationNote: '',
+                      configuration: {
+                        offerType: 'complete',
+                        headgearIncluded: true,
+                        size: 'One Size',
+                        frameSize: null,
+                        headgearSize: null,
+                        fitPack: false,
+                        options: []
+                      }
                     }
                   }
                 ]

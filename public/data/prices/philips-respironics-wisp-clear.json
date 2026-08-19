@@ -1,19 +1,30 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "Philips Respironics Wisp Clear",
   "slug": "philips-respironics-wisp-clear",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": {
     "retailer": "1800CPAP.COM",
     "productName": "Wisp Clear Nasal CPAP Mask Fit Pack",
     "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack",
+    "variantId": "46461751001332",
     "variantName": "Default Title",
     "priceCents": 6495,
     "price": "$64.95",
     "currency": "USD",
     "inStock": true,
-    "observedAt": "2026-08-18T09:50:03+00:00",
+    "observedAt": "2026-08-13T16:47:17+00:00",
+    "configuration": {
+      "offerType": "complete",
+      "headgearIncluded": true,
+      "size": null,
+      "frameSize": null,
+      "headgearSize": null,
+      "fitPack": true,
+      "options": []
+    },
     "configurationNote": ""
   },
   "offers": [
@@ -21,63 +32,588 @@
       "retailer": "1800CPAP.COM",
       "productName": "Wisp Clear Nasal CPAP Mask Fit Pack",
       "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack",
+      "variantId": "46461751001332",
       "variantName": "Default Title",
       "priceCents": 6495,
       "price": "$64.95",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:50:03+00:00",
+      "observedAt": "2026-08-13T16:47:17+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": null,
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": true,
+        "options": []
+      },
       "configurationNote": ""
     },
     {
       "retailer": "CPAPsupplies.com",
       "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
       "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
-      "variantName": "Displayed price",
+      "variantId": "bundle:976:285:null",
+      "variantName": "Small/Medium - Wisp Silicone Mask System - without Headgear + $74.00 / Wisp Headgear - Standard + $34.00 / None\u00a0 +$0.00",
+      "priceCents": 10800,
+      "price": "$108.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small-Medium",
+        "frameSize": null,
+        "headgearSize": "Standard",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Standard"
+          },
+          {
+            "name": "Tube Assembly",
+            "value": "None +$0.00"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:976:284:null",
+      "variantName": "Small/Medium - Wisp Silicone Mask System - without Headgear + $74.00 / Wisp Headgear - Large + $34.00 / None\u00a0 +$0.00",
+      "priceCents": 10800,
+      "price": "$108.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small-Medium",
+        "frameSize": null,
+        "headgearSize": "Large",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Large"
+          },
+          {
+            "name": "Tube Assembly",
+            "value": "None +$0.00"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:975:285:null",
+      "variantName": "Large - Wisp Silicone Mask System - without Headgear + $74.00 / Wisp Headgear - Standard + $34.00 / None\u00a0 +$0.00",
+      "priceCents": 10800,
+      "price": "$108.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": "Standard",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Standard"
+          },
+          {
+            "name": "Tube Assembly",
+            "value": "None +$0.00"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:975:284:null",
+      "variantName": "Large - Wisp Silicone Mask System - without Headgear + $74.00 / Wisp Headgear - Large + $34.00 / None\u00a0 +$0.00",
+      "priceCents": 10800,
+      "price": "$108.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": "Large",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Large"
+          },
+          {
+            "name": "Tube Assembly",
+            "value": "None +$0.00"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:977:285:null",
+      "variantName": "Extra Large - Wisp Silicone Mask System - without Headgear + $74.00 / Wisp Headgear - Standard + $34.00 / None\u00a0 +$0.00",
+      "priceCents": 10800,
+      "price": "$108.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Extra Large",
+        "frameSize": null,
+        "headgearSize": "Standard",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Standard"
+          },
+          {
+            "name": "Tube Assembly",
+            "value": "None +$0.00"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:977:284:null",
+      "variantName": "Extra Large - Wisp Silicone Mask System - without Headgear + $74.00 / Wisp Headgear - Large + $34.00 / None\u00a0 +$0.00",
+      "priceCents": 10800,
+      "price": "$108.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Extra Large",
+        "frameSize": null,
+        "headgearSize": "Large",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Large"
+          },
+          {
+            "name": "Tube Assembly",
+            "value": "None +$0.00"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:976:285:369",
+      "variantName": "Small/Medium - Wisp Silicone Mask System - without Headgear + $74.00 / Wisp Headgear - Standard + $34.00 / Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask + $40.00",
+      "priceCents": 14800,
+      "price": "$148.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small-Medium",
+        "frameSize": null,
+        "headgearSize": "Standard",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Standard"
+          },
+          {
+            "name": "Tube Assembly",
+            "value": "Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:976:284:369",
+      "variantName": "Small/Medium - Wisp Silicone Mask System - without Headgear + $74.00 / Wisp Headgear - Large + $34.00 / Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask + $40.00",
+      "priceCents": 14800,
+      "price": "$148.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small-Medium",
+        "frameSize": null,
+        "headgearSize": "Large",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Large"
+          },
+          {
+            "name": "Tube Assembly",
+            "value": "Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:975:285:369",
+      "variantName": "Large - Wisp Silicone Mask System - without Headgear + $74.00 / Wisp Headgear - Standard + $34.00 / Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask + $40.00",
+      "priceCents": 14800,
+      "price": "$148.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": "Standard",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Standard"
+          },
+          {
+            "name": "Tube Assembly",
+            "value": "Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:975:284:369",
+      "variantName": "Large - Wisp Silicone Mask System - without Headgear + $74.00 / Wisp Headgear - Large + $34.00 / Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask + $40.00",
+      "priceCents": 14800,
+      "price": "$148.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": "Large",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Large"
+          },
+          {
+            "name": "Tube Assembly",
+            "value": "Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:977:285:369",
+      "variantName": "Extra Large - Wisp Silicone Mask System - without Headgear + $74.00 / Wisp Headgear - Standard + $34.00 / Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask + $40.00",
+      "priceCents": 14800,
+      "price": "$148.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Extra Large",
+        "frameSize": null,
+        "headgearSize": "Standard",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Standard"
+          },
+          {
+            "name": "Tube Assembly",
+            "value": "Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:977:284:369",
+      "variantName": "Extra Large - Wisp Silicone Mask System - without Headgear + $74.00 / Wisp Headgear - Large + $34.00 / Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask + $40.00",
+      "priceCents": 14800,
+      "price": "$148.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Extra Large",
+        "frameSize": null,
+        "headgearSize": "Large",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Large"
+          },
+          {
+            "name": "Tube Assembly",
+            "value": "Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:976:null:null",
+      "variantName": "Small/Medium - Wisp Silicone Mask System - without Headgear + $74.00 / None\u00a0 +$0.00 / None\u00a0 +$0.00",
       "priceCents": 7400,
       "price": "$74.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:53:32+00:00",
-      "configurationNote": "Verify included components"
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small-Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Tube Assembly",
+            "value": "None +$0.00"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:975:null:null",
+      "variantName": "Large - Wisp Silicone Mask System - without Headgear + $74.00 / None\u00a0 +$0.00 / None\u00a0 +$0.00",
+      "priceCents": 7400,
+      "price": "$74.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Tube Assembly",
+            "value": "None +$0.00"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:977:null:null",
+      "variantName": "Extra Large - Wisp Silicone Mask System - without Headgear + $74.00 / None\u00a0 +$0.00 / None\u00a0 +$0.00",
+      "priceCents": 7400,
+      "price": "$74.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Extra Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Tube Assembly",
+            "value": "None +$0.00"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:976:null:369",
+      "variantName": "Small/Medium - Wisp Silicone Mask System - without Headgear + $74.00 / None\u00a0 +$0.00 / Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask + $40.00",
+      "priceCents": 11400,
+      "price": "$114.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small-Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Tube Assembly",
+            "value": "Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:975:null:369",
+      "variantName": "Large - Wisp Silicone Mask System - without Headgear + $74.00 / None\u00a0 +$0.00 / Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask + $40.00",
+      "priceCents": 11400,
+      "price": "$114.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Tube Assembly",
+            "value": "Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Wisp Clear Silicone Nasal CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/wisp-nasal-cpap-mask-by-respironics",
+      "variantId": "bundle:977:null:369",
+      "variantName": "Extra Large - Wisp Silicone Mask System - without Headgear + $74.00 / None\u00a0 +$0.00 / Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask + $40.00",
+      "priceCents": 11400,
+      "price": "$114.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:40:19+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Extra Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Tube Assembly",
+            "value": "Philips Respironics Short Tube Assembly for Wisp Nasal CPAP Mask"
+          }
+        ]
+      },
+      "configurationNote": ""
+    }
+  ],
+  "sizeRanges": [
+    {
+      "size": "Small-Medium",
+      "minimumPriceCents": 10800,
+      "maximumPriceCents": 14800,
+      "minimumPrice": "$108.00",
+      "maximumPrice": "$148.00"
+    },
+    {
+      "size": "Large",
+      "minimumPriceCents": 10800,
+      "maximumPriceCents": 14800,
+      "minimumPrice": "$108.00",
+      "maximumPrice": "$148.00"
+    },
+    {
+      "size": "Extra Large",
+      "minimumPriceCents": 10800,
+      "maximumPriceCents": 14800,
+      "minimumPrice": "$108.00",
+      "maximumPrice": "$148.00"
     }
   ],
   "priceHistory": [
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "1800CPAP.COM",
       "priceCents": 6495,
       "price": "$64.95"
-    },
-    {
-      "date": "2026-08-09",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7400,
-      "price": "$74.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7400,
-      "price": "$74.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7400,
-      "price": "$74.00"
     },
     {
       "date": "2026-08-12",
@@ -88,8 +624,8 @@
     {
       "date": "2026-08-12",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 7400,
-      "price": "$74.00"
+      "priceCents": 10800,
+      "price": "$108.00"
     },
     {
       "date": "2026-08-13",
@@ -100,69 +636,9 @@
     {
       "date": "2026-08-13",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 7400,
-      "price": "$74.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7400,
-      "price": "$74.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7400,
-      "price": "$74.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7400,
-      "price": "$74.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7400,
-      "price": "$74.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "1800CPAP.COM",
-      "priceCents": 6495,
-      "price": "$64.95"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 7400,
-      "price": "$74.00"
+      "priceCents": 10800,
+      "price": "$108.00"
     }
   ],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

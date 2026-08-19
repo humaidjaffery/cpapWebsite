@@ -1,46 +1,299 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "Philips Respironics Amara Gel",
   "slug": "philips-respironics-amara-gel",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": {
     "retailer": "CPAP Ninja",
     "productName": "Amara Gel Full Face CPAP Mask | Philips",
     "productUrl": "https://www.cpapninja.com/products/amara-gel-full-face-cpap-mask-philips",
+    "variantId": "51880237760875",
     "variantName": "Small",
     "priceCents": 7500,
     "price": "$75.00",
     "currency": "USD",
     "inStock": true,
-    "observedAt": "2026-08-18T09:52:26+00:00",
+    "observedAt": "2026-08-13T16:38:33+00:00",
+    "configuration": {
+      "offerType": "complete",
+      "headgearIncluded": true,
+      "size": "Small",
+      "frameSize": null,
+      "headgearSize": null,
+      "fitPack": false,
+      "options": []
+    },
     "configurationNote": "",
     "compareAtPriceCents": 9500,
     "compareAtPrice": "$95.00"
   },
   "offers": [
     {
-      "retailer": "CPAPsupplies.com",
-      "productName": "Philips Respironics Amara Gel Full Face CPAP Mask",
-      "productUrl": "https://cpapsupplies.com/amara-gel-full-face-cpap-mask-by-respironics",
-      "variantName": "Displayed price",
-      "priceCents": 5300,
-      "price": "$53.00",
-      "currency": "USD",
-      "inStock": true,
-      "observedAt": "2026-08-18T09:53:18+00:00",
-      "configurationNote": "Verify included components"
-    },
-    {
       "retailer": "CPAP Ninja",
       "productName": "Amara Gel Full Face CPAP Mask | Philips",
       "productUrl": "https://www.cpapninja.com/products/amara-gel-full-face-cpap-mask-philips",
+      "variantId": "51880237760875",
       "variantName": "Small",
       "priceCents": 7500,
       "price": "$75.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:52:26+00:00",
+      "observedAt": "2026-08-13T16:38:33+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 9500,
+      "compareAtPrice": "$95.00"
+    },
+    {
+      "retailer": "CPAP Ninja",
+      "productName": "Amara Gel Full Face CPAP Mask | Philips",
+      "productUrl": "https://www.cpapninja.com/products/amara-gel-full-face-cpap-mask-philips",
+      "variantId": "51880237793643",
+      "variantName": "Medium",
+      "priceCents": 7500,
+      "price": "$75.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:38:33+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": "",
+      "compareAtPriceCents": 9500,
+      "compareAtPrice": "$95.00"
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Amara Gel Full Face CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/amara-gel-full-face-cpap-mask-by-respironics",
+      "variantId": "bundle:132:137",
+      "variantName": "(DISCONTINUED) Petite - Amara Gel Full Face Mask System - without Headgear + $53.00 / Amara FFM Headgear - Standard + $34.00",
+      "priceCents": 8700,
+      "price": "$87.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:51+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Extra Small",
+        "frameSize": null,
+        "headgearSize": "Standard",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Amara Gel Full Face CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/amara-gel-full-face-cpap-mask-by-respironics",
+      "variantId": "bundle:132:136",
+      "variantName": "(DISCONTINUED) Petite - Amara Gel Full Face Mask System - without Headgear + $53.00 / Amara FFM Headgear - Reduced + $34.00",
+      "priceCents": 8700,
+      "price": "$87.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:51+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Extra Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Amara Gel Full Face CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/amara-gel-full-face-cpap-mask-by-respironics",
+      "variantId": "bundle:133:137",
+      "variantName": "Small - Amara Gel Full Face Mask System - without Headgear + $53.00 / Amara FFM Headgear - Standard + $34.00",
+      "priceCents": 8700,
+      "price": "$87.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:51+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": "Standard",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Amara Gel Full Face CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/amara-gel-full-face-cpap-mask-by-respironics",
+      "variantId": "bundle:133:136",
+      "variantName": "Small - Amara Gel Full Face Mask System - without Headgear + $53.00 / Amara FFM Headgear - Reduced + $34.00",
+      "priceCents": 8700,
+      "price": "$87.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:51+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Amara Gel Full Face CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/amara-gel-full-face-cpap-mask-by-respironics",
+      "variantId": "bundle:134:137",
+      "variantName": "Medium - Amara Gel Full Face Mask System - without Headgear + $53.00 / Amara FFM Headgear - Standard + $34.00",
+      "priceCents": 8700,
+      "price": "$87.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:51+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": "Standard",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Amara Gel Full Face CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/amara-gel-full-face-cpap-mask-by-respironics",
+      "variantId": "bundle:134:136",
+      "variantName": "Medium - Amara Gel Full Face Mask System - without Headgear + $53.00 / Amara FFM Headgear - Reduced + $34.00",
+      "priceCents": 8700,
+      "price": "$87.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:51+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Amara Gel Full Face CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/amara-gel-full-face-cpap-mask-by-respironics",
+      "variantId": "bundle:135:137",
+      "variantName": "(DISCONTINUED) Large - Amara Gel Full Face Mask System - without Headgear + $53.00 / Amara FFM Headgear - Standard + $34.00",
+      "priceCents": 8700,
+      "price": "$87.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:51+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": "Standard",
+        "fitPack": false,
+        "options": [
+          {
+            "name": "Headgear Size",
+            "value": "Standard"
+          }
+        ]
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Amara Gel Full Face CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/amara-gel-full-face-cpap-mask-by-respironics",
+      "variantId": "bundle:135:136",
+      "variantName": "(DISCONTINUED) Large - Amara Gel Full Face Mask System - without Headgear + $53.00 / Amara FFM Headgear - Reduced + $34.00",
+      "priceCents": 8700,
+      "price": "$87.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:51+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "RespShop",
+      "productName": "Philips | Amara Gel Full Face CPAP Mask With Headgear",
+      "productUrl": "https://www.respshop.com/products/philips-amara-gel-full-face-cpap-mask-with-headgear",
+      "variantId": "45740026331299",
+      "variantName": "Small",
+      "priceCents": 8900,
+      "price": "$89.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:42:52+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": "",
       "compareAtPriceCents": 9500,
       "compareAtPrice": "$95.00"
@@ -49,68 +302,154 @@
       "retailer": "RespShop",
       "productName": "Philips | Amara Gel Full Face CPAP Mask With Headgear",
       "productUrl": "https://www.respshop.com/products/philips-amara-gel-full-face-cpap-mask-with-headgear",
+      "variantId": "45739484315811",
       "variantName": "Medium",
       "priceCents": 8900,
       "price": "$89.00",
       "currency": "USD",
       "inStock": true,
-      "observedAt": "2026-08-18T09:56:05+00:00",
+      "observedAt": "2026-08-13T16:42:52+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
       "configurationNote": "",
       "compareAtPriceCents": 9500,
       "compareAtPrice": "$95.00"
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Amara Gel Full Face CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/amara-gel-full-face-cpap-mask-by-respironics",
+      "variantId": "bundle:132:null",
+      "variantName": "(DISCONTINUED) Petite - Amara Gel Full Face Mask System - without Headgear + $53.00 / None\u00a0 +$0.00",
+      "priceCents": 5300,
+      "price": "$53.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:51+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Extra Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Amara Gel Full Face CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/amara-gel-full-face-cpap-mask-by-respironics",
+      "variantId": "bundle:133:null",
+      "variantName": "Small - Amara Gel Full Face Mask System - without Headgear + $53.00 / None\u00a0 +$0.00",
+      "priceCents": 5300,
+      "price": "$53.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:51+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Amara Gel Full Face CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/amara-gel-full-face-cpap-mask-by-respironics",
+      "variantId": "bundle:134:null",
+      "variantName": "Medium - Amara Gel Full Face Mask System - without Headgear + $53.00 / None\u00a0 +$0.00",
+      "priceCents": 5300,
+      "price": "$53.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:51+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "CPAPsupplies.com",
+      "productName": "Philips Respironics Amara Gel Full Face CPAP Mask",
+      "productUrl": "https://cpapsupplies.com/amara-gel-full-face-cpap-mask-by-respironics",
+      "variantId": "bundle:135:null",
+      "variantName": "(DISCONTINUED) Large - Amara Gel Full Face Mask System - without Headgear + $53.00 / None\u00a0 +$0.00",
+      "priceCents": 5300,
+      "price": "$53.00",
+      "currency": "USD",
+      "inStock": true,
+      "observedAt": "2026-08-13T16:39:51+00:00",
+      "configuration": {
+        "offerType": "without_headgear",
+        "headgearIncluded": false,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    }
+  ],
+  "sizeRanges": [
+    {
+      "size": "Extra Small",
+      "minimumPriceCents": 8700,
+      "maximumPriceCents": 8700,
+      "minimumPrice": "$87.00",
+      "maximumPrice": "$87.00"
+    },
+    {
+      "size": "Small",
+      "minimumPriceCents": 7500,
+      "maximumPriceCents": 8900,
+      "minimumPrice": "$75.00",
+      "maximumPrice": "$89.00"
+    },
+    {
+      "size": "Medium",
+      "minimumPriceCents": 7500,
+      "maximumPriceCents": 8900,
+      "minimumPrice": "$75.00",
+      "maximumPrice": "$89.00"
+    },
+    {
+      "size": "Large",
+      "minimumPriceCents": 8700,
+      "maximumPriceCents": 8700,
+      "minimumPrice": "$87.00",
+      "maximumPrice": "$87.00"
     }
   ],
   "priceHistory": [
     {
-      "date": "2026-08-09",
+      "date": "2026-08-03",
       "retailer": "CPAP Ninja",
       "priceCents": 7500,
       "price": "$75.00"
     },
     {
-      "date": "2026-08-09",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5300,
-      "price": "$53.00"
-    },
-    {
-      "date": "2026-08-09",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5300,
-      "price": "$53.00"
-    },
-    {
-      "date": "2026-08-10",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-11",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5300,
-      "price": "$53.00"
-    },
-    {
-      "date": "2026-08-11",
+      "date": "2026-08-03",
       "retailer": "RespShop",
       "priceCents": 8900,
       "price": "$89.00"
@@ -124,8 +463,8 @@
     {
       "date": "2026-08-12",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 5300,
-      "price": "$53.00"
+      "priceCents": 8700,
+      "price": "$87.00"
     },
     {
       "date": "2026-08-12",
@@ -142,105 +481,15 @@
     {
       "date": "2026-08-13",
       "retailer": "CPAPsupplies.com",
-      "priceCents": 5300,
-      "price": "$53.00"
+      "priceCents": 8700,
+      "price": "$87.00"
     },
     {
       "date": "2026-08-13",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5300,
-      "price": "$53.00"
-    },
-    {
-      "date": "2026-08-14",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5300,
-      "price": "$53.00"
-    },
-    {
-      "date": "2026-08-15",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5300,
-      "price": "$53.00"
-    },
-    {
-      "date": "2026-08-16",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5300,
-      "price": "$53.00"
-    },
-    {
-      "date": "2026-08-17",
-      "retailer": "RespShop",
-      "priceCents": 8900,
-      "price": "$89.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAP Ninja",
-      "priceCents": 7500,
-      "price": "$75.00"
-    },
-    {
-      "date": "2026-08-18",
-      "retailer": "CPAPsupplies.com",
-      "priceCents": 5300,
-      "price": "$53.00"
-    },
-    {
-      "date": "2026-08-18",
       "retailer": "RespShop",
       "priceCents": 8900,
       "price": "$89.00"
     }
   ],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

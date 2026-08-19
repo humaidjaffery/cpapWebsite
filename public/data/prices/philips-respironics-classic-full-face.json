@@ -1,24 +1,80 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "mask": "Philips Respironics Classic Full Face",
   "slug": "philips-respironics-classic-full-face",
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "status": "available",
+  "defaultHeadgearIncluded": true,
   "cheapestOffer": null,
   "offers": [
     {
       "retailer": "1800CPAP.COM",
       "productName": "Classic Full Face CPAP Mask with Headgear",
       "productUrl": "https://1800cpap.com/products/classic-full-face-cpap-mask-with-headgear",
+      "variantId": "46469204148468",
+      "variantName": "Small",
+      "priceCents": 5800,
+      "price": "$58.00",
+      "currency": "USD",
+      "inStock": false,
+      "observedAt": "2026-08-13T16:46:55+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Small",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Classic Full Face CPAP Mask with Headgear",
+      "productUrl": "https://1800cpap.com/products/classic-full-face-cpap-mask-with-headgear",
+      "variantId": "46469204115700",
+      "variantName": "Medium",
+      "priceCents": 5800,
+      "price": "$58.00",
+      "currency": "USD",
+      "inStock": false,
+      "observedAt": "2026-08-13T16:46:55+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Medium",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
+    },
+    {
+      "retailer": "1800CPAP.COM",
+      "productName": "Classic Full Face CPAP Mask with Headgear",
+      "productUrl": "https://1800cpap.com/products/classic-full-face-cpap-mask-with-headgear",
+      "variantId": "46469204082932",
       "variantName": "Large",
       "priceCents": 5800,
       "price": "$58.00",
       "currency": "USD",
       "inStock": false,
-      "observedAt": "2026-08-18T09:49:28+00:00",
-      "configurationNote": "Currently unavailable"
+      "observedAt": "2026-08-13T16:46:55+00:00",
+      "configuration": {
+        "offerType": "complete",
+        "headgearIncluded": true,
+        "size": "Large",
+        "frameSize": null,
+        "headgearSize": null,
+        "fitPack": false,
+        "options": []
+      },
+      "configurationNote": ""
     }
   ],
+  "sizeRanges": [],
   "priceHistory": [],
-  "methodology": "Prices are the latest observed product or selected-variant prices. Shipping and tax are not included."
+  "methodology": "Every current one-time retailer configuration is shown. The default comparison includes headgear. Shipping and tax are not included."
 }

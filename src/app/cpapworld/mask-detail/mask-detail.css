@@ -535,6 +535,67 @@
   line-height: 1.6;
 }
 
+.price-configurator {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 28px;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.price-filter-group > span {
+  color: var(--muted-foreground);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.price-filter-group {
+  display: grid;
+  max-width: 100%;
+  flex: 0 1 auto;
+  gap: 7px;
+}
+
+.price-filter-group-wide {
+  min-width: 0;
+}
+
+.price-choice-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.price-choice-list button {
+  min-height: 35px;
+  padding: 0 14px;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 3px 10px rgba(42, 31, 48, 0.04);
+  color: #1f1f22;
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.price-choice-list button.active {
+  border-color: rgba(106, 13, 173, 0.45);
+  background: #f3eafb;
+  color: #681e91;
+}
+
+.price-choice-list button:focus-visible {
+  outline: 3px solid rgba(230, 196, 106, 0.65);
+  outline-offset: 2px;
+}
+
 .purchase-grid {
   display: grid;
   grid-template-columns: minmax(350px, 0.9fr) minmax(0, 1.35fr);
@@ -2085,6 +2146,15 @@ td a {
   .retailer-facts,
   .retailer-subscore-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .price-filter-group {
+    flex-basis: 100%;
+  }
+
+  .price-choice-list {
+    flex-wrap: wrap;
+    overflow-x: visible;
   }
 
 }

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-08-18T09:58:41+00:00",
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-13T17:08:30+00:00",
   "masks": [
     {
       "name": "3B Medical Viva Nasal",
@@ -10,12 +10,22 @@
         "retailer": "1800CPAP.COM",
         "productName": "Viva Nasal CPAP Mask Fit Pack",
         "productUrl": "https://1800cpap.com/products/viva-nasal-cpap-mask-fit-pack",
+        "variantId": "46476984778996",
         "variantName": "Default Title",
         "priceCents": 9900,
         "price": "$99.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:48:47+00:00",
+        "observedAt": "2026-08-13T16:45:25+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": true,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 11900,
         "compareAtPrice": "$119.00"
@@ -24,74 +34,114 @@
     {
       "name": "Aloha",
       "slug": "aloha",
-      "offerCount": 1,
+      "offerCount": 0,
       "cheapestOffer": null
     },
     {
       "name": "Apex Wizard 310",
       "slug": "apex-wizard-310",
-      "offerCount": 1,
+      "offerCount": 3,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Wizard 310 Nasal CPAP Mask",
         "productUrl": "https://1800cpap.com/products/wizard-310-nasal-cpap-mask",
-        "variantName": "Large",
+        "variantId": "46476984516852",
+        "variantName": "Small",
         "priceCents": 7000,
         "price": "$70.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:48:48+00:00",
+        "observedAt": "2026-08-13T16:45:27+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Apex Wizard 320",
       "slug": "apex-wizard-320",
-      "offerCount": 1,
+      "offerCount": 3,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Wizard 320 Full Face CPAP Mask",
         "productUrl": "https://1800cpap.com/products/wizard-320-full-face-cpap-mask",
-        "variantName": "Large",
+        "variantId": "46470399394036",
+        "variantName": "Small",
         "priceCents": 9000,
         "price": "$90.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:48:48+00:00",
+        "observedAt": "2026-08-13T16:45:28+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Apex Wizard 510",
       "slug": "apex-wizard-510",
-      "offerCount": 1,
+      "offerCount": 2,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Wizard 510 Nasal CPAP Mask System",
         "productUrl": "https://1800cpap.com/products/wizard-510-nasal-cpap-mask-system",
-        "variantName": "Large",
+        "variantId": "46476984975604",
+        "variantName": "Small/Medium",
         "priceCents": 7900,
         "price": "$79.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:48:49+00:00",
+        "observedAt": "2026-08-13T16:45:30+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small-Medium",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Aura Gel Nasal",
       "slug": "aura-gel-nasal",
-      "offerCount": 1,
+      "offerCount": 2,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Aura Gel Nasal Mask with EZ Fit Headgear",
         "productUrl": "https://1800cpap.com/products/aura-gel-nasal-mask-with-ez-fit-headgear",
-        "variantName": "Medium",
+        "variantId": "46475454284020",
+        "variantName": "Small",
         "priceCents": 9900,
         "price": "$99.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:48:49+00:00",
+        "observedAt": "2026-08-13T16:45:31+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
@@ -103,12 +153,22 @@
         "retailer": "CPAP.com",
         "productName": "Bleep DreamPort CPAP Mask",
         "productUrl": "https://www.cpap.com/products/bleep-dreamport-cpap-mask",
+        "variantId": "49040324854076",
         "variantName": "Default Title",
         "priceCents": 5499,
         "price": "$54.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:39+00:00",
+        "observedAt": "2026-08-13T16:49:58+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 12900,
         "compareAtPrice": "$129.00"
@@ -122,46 +182,76 @@
         "retailer": "1800CPAP.COM",
         "productName": "Bleep Eclipse Halos and Frame Starter Kit",
         "productUrl": "https://1800cpap.com/products/bleep-eclipse-halos-and-frame-starter-kit",
+        "variantId": "46470279364852",
         "variantName": "Default Title",
         "priceCents": 8999,
         "price": "$89.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:48:52+00:00",
+        "observedAt": "2026-08-13T16:45:35+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": true,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "BreathWear Full Face",
       "slug": "breathwear-full-face",
-      "offerCount": 1,
+      "offerCount": 3,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "BreathWear Series Full Face CPAP Mask System",
         "productUrl": "https://1800cpap.com/products/breathwear-series-full-face-cpap-mask-system",
-        "variantName": "Large",
+        "variantId": "46469202477300",
+        "variantName": "Small",
         "priceCents": 9500,
         "price": "$95.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:48:53+00:00",
+        "observedAt": "2026-08-13T16:45:38+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "BreathWear Nasal",
       "slug": "breathwear-nasal",
-      "offerCount": 1,
+      "offerCount": 3,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "BreathWear Series Nasal CPAP Mask",
         "productUrl": "https://1800cpap.com/products/breathwear-series-nasal-cpap-mask",
-        "variantName": "Large",
+        "variantId": "46469231116532",
+        "variantName": "Small",
         "priceCents": 7495,
         "price": "$74.95",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:48:54+00:00",
+        "observedAt": "2026-08-13T16:45:39+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
@@ -173,29 +263,54 @@
         "retailer": "1800CPAP.COM",
         "productName": "BreathWear Nasal Pillow Mask Fit Pack",
         "productUrl": "https://1800cpap.com/products/breathwear-nasal-pillow-mask-fit-pack",
+        "variantId": "46477023183092",
         "variantName": "Default Title",
         "priceCents": 8495,
         "price": "$84.95",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:48:55+00:00",
+        "observedAt": "2026-08-13T16:45:40+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": true,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "CPAP PRO",
       "slug": "cpap-pro",
-      "offerCount": 1,
+      "offerCount": 2,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "CPAPPRO Nasal Pillows 'No Mask'",
         "productUrl": "https://directhomemedical.com/products/cpappro-nasal-pillows-nomask-cpap-bipap-mask-setup",
+        "variantId": "48113327997080",
         "variantName": "Setup Pack with 1 Pair of Nasal Puffs (Standard)",
         "priceCents": 16900,
         "price": "$169.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:04+00:00",
+        "observedAt": "2026-08-13T16:41:31+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Standard",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Package Options",
+              "value": "Setup Pack with 1 Pair of Nasal Puffs (Standard)"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 19900,
         "compareAtPrice": "$199.00"
@@ -204,17 +319,32 @@
     {
       "name": "CPAP PRO II",
       "slug": "cpap-pro-ii",
-      "offerCount": 1,
+      "offerCount": 2,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "CPAPPRO II (ApneaPAP) Nasal Pillows 'No Mask'",
         "productUrl": "https://directhomemedical.com/products/apneapap-nasal-pillows-no-mask-cpap-bipap-setup",
+        "variantId": "48113327866008",
         "variantName": "Setup Pack with 1 Pair of Nasal Puffs (Standard)",
         "priceCents": 18900,
         "price": "$189.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:05+00:00",
+        "observedAt": "2026-08-13T16:41:31+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Standard",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Package Options",
+              "value": "Setup Pack with 1 Pair of Nasal Puffs (Standard)"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 21900,
         "compareAtPrice": "$219.00"
@@ -223,85 +353,140 @@
     {
       "name": "Circadiance SleepWeaver 3D",
       "slug": "circadiance-sleepweaver-3d",
-      "offerCount": 2,
+      "offerCount": 5,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "SleepWeaver 3D Soft Cloth Nasal CPAP Mask",
         "productUrl": "https://1800cpap.com/products/sleepweaver-3d-soft-cloth-nasal-cpap-mask",
-        "variantName": "Large Headgear",
+        "variantId": "46469228626164",
+        "variantName": "Regular Headgear",
         "priceCents": 4900,
         "price": "$49.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:48:55+00:00",
+        "observedAt": "2026-08-13T16:45:42+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Regular",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Circadiance SleepWeaver Advance",
       "slug": "circadiance-sleepweaver-advance",
-      "offerCount": 4,
+      "offerCount": 19,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "SleepWeaver Advance Cloth CPAP Mask",
         "productUrl": "https://1800cpap.com/products/sleepweaver-advance-cloth-cpap-mask",
+        "variantId": "46469233180916",
         "variantName": "Pink",
         "priceCents": 4899,
         "price": "$48.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:48:56+00:00",
+        "observedAt": "2026-08-13T16:45:43+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Pink"
+            }
+          ]
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Circadiance SleepWeaver Anew",
       "slug": "circadiance-sleepweaver-anew",
-      "offerCount": 4,
+      "offerCount": 12,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "SleepWeaver Anew Soft Cloth Full Face CPAP Mask with Headgear",
         "productUrl": "https://directhomemedical.com/products/sleepweaver-anew-full-face-cpap-mask",
+        "variantId": "48113322754200",
         "variantName": "Regular",
         "priceCents": 8900,
         "price": "$89.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:07+00:00",
+        "observedAt": "2026-08-13T16:41:33+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Regular",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Circadiance SleepWeaver Elan",
       "slug": "circadiance-sleepweaver-elan",
-      "offerCount": 2,
+      "offerCount": 10,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "SleepWeaver Elan Soft Cloth Nasal CPAP Mask with Headgear",
         "productUrl": "https://directhomemedical.com/products/sleepweaver-elan-cpap-bipap-mask-circadiance",
+        "variantId": "48113322819736",
         "variantName": "Small Beige",
         "priceCents": 5600,
         "price": "$56.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:08+00:00",
+        "observedAt": "2026-08-13T16:41:33+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Circadiance SleepWeaver Pediatric",
       "slug": "circadiance-sleepweaver-pediatric",
-      "offerCount": 2,
+      "offerCount": 1,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "SleepWeaver Pediatric Soft Cloth Mask",
         "productUrl": "https://1800cpap.com/products/sleepweaver-pediatric-soft-cloth-mask",
+        "variantId": "46683921907956",
         "variantName": "Default Title",
         "priceCents": 8900,
         "price": "$89.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:48:59+00:00",
+        "observedAt": "2026-08-13T16:45:50+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
@@ -315,7 +500,28 @@
       "name": "DeltaWave",
       "slug": "deltawave",
       "offerCount": 1,
-      "cheapestOffer": null
+      "cheapestOffer": {
+        "retailer": "1800CPAP.COM",
+        "productName": "DeltaWave CPAP Mask System",
+        "productUrl": "https://1800cpap.com/products/deltawave-cpap-mask-system",
+        "variantId": "46555494285556",
+        "variantName": "Default Title",
+        "priceCents": 12500,
+        "price": "$125.00",
+        "currency": "USD",
+        "inStock": true,
+        "observedAt": "2026-08-13T16:45:53+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
+        "configurationNote": ""
+      }
     },
     {
       "name": "Deluxe Nasal Pillow",
@@ -325,12 +531,22 @@
         "retailer": "1800CPAP.COM",
         "productName": "Deluxe Nasal Pillow CPAP Mask System",
         "productUrl": "https://1800cpap.com/products/deluxe-nasal-pillow-cpap-mask-system",
+        "variantId": "46470279299316",
         "variantName": "Default Title",
         "priceCents": 6799,
         "price": "$67.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:49:01+00:00",
+        "observedAt": "2026-08-13T16:45:54+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
@@ -342,63 +558,103 @@
         "retailer": "1800CPAP.COM",
         "productName": "DreamEasy Nasal CPAP Mask Size Small",
         "productUrl": "https://1800cpap.com/products/dreameasy-nasal-cpap-mask-size-small",
+        "variantId": "46470398968052",
         "variantName": "Default Title",
         "priceCents": 3295,
         "price": "$32.95",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:49:02+00:00",
+        "observedAt": "2026-08-13T16:45:55+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "EasyFit Full Face",
       "slug": "easyfit-full-face",
-      "offerCount": 1,
+      "offerCount": 5,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "EasyFit Full Face CPAP Mask System",
         "productUrl": "https://1800cpap.com/products/easyfit-full-face-cpap-mask-system",
+        "variantId": "46469200937204",
         "variantName": "Silicone - Small",
         "priceCents": 4899,
         "price": "$48.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:49:02+00:00",
+        "observedAt": "2026-08-13T16:45:57+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "EasyFit Nasal",
       "slug": "easyfit-nasal",
-      "offerCount": 1,
+      "offerCount": 2,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "EasyFit Nasal CPAP Mask",
         "productUrl": "https://1800cpap.com/products/easyfit-nasal-cpap-mask",
-        "variantName": "Silk Gel - Sm",
+        "variantId": "46469229740276",
+        "variantName": "Gel Cushion - Small",
         "priceCents": 2999,
         "price": "$29.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:49:03+00:00",
+        "observedAt": "2026-08-13T16:45:58+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Fisher & Paykel Brevida",
       "slug": "fisher-paykel-brevida",
-      "offerCount": 9,
+      "offerCount": 34,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Brevida Nasal Pillow CPAP Mask | Fisher & Paykel",
         "productUrl": "https://www.cpapninja.com/products/brevida-nasal-pillow-cpap-mask-fisher-paykel",
+        "variantId": "52262859342187",
         "variantName": "Small (XS-S)",
         "priceCents": 7200,
         "price": "$72.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:17+00:00",
+        "observedAt": "2026-08-13T16:38:28+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 8900,
         "compareAtPrice": "$89.00"
@@ -407,17 +663,27 @@
     {
       "name": "Fisher & Paykel Eson",
       "slug": "fisher-paykel-eson",
-      "offerCount": 6,
+      "offerCount": 24,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Eson Nasal CPAP Mask | Fisher & Paykel",
         "productUrl": "https://www.cpapninja.com/products/eson-nasal-cpap-mask-fisher-paykel",
+        "variantId": "51880213643627",
         "variantName": "Small",
         "priceCents": 8000,
         "price": "$80.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:18+00:00",
+        "observedAt": "2026-08-13T16:38:28+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 8900,
         "compareAtPrice": "$89.00"
@@ -426,17 +692,27 @@
     {
       "name": "Fisher & Paykel Eson 2",
       "slug": "fisher-paykel-eson-2",
-      "offerCount": 6,
+      "offerCount": 36,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Eson 2 Nasal CPAP Mask | Fisher & Paykel",
         "productUrl": "https://www.cpapninja.com/products/eson-2-nasal-cpap-mask-fisher-paykel",
+        "variantId": "51880215576939",
         "variantName": "Small",
         "priceCents": 7200,
         "price": "$72.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:19+00:00",
+        "observedAt": "2026-08-13T16:38:29+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 9500,
         "compareAtPrice": "$95.00"
@@ -445,17 +721,27 @@
     {
       "name": "Fisher & Paykel Evora Full",
       "slug": "fisher-paykel-evora-full",
-      "offerCount": 8,
+      "offerCount": 35,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Evora Full Face CPAP Mask | Fisher & Paykel",
         "productUrl": "https://www.cpapninja.com/products/evora-full-face-cpap-mask-fisher-paykel",
+        "variantId": "51880222130539",
         "variantName": "X-Small",
         "priceCents": 11500,
         "price": "$115.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:20+00:00",
+        "observedAt": "2026-08-13T16:38:29+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Extra Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 14900,
         "compareAtPrice": "$149.00"
@@ -464,17 +750,27 @@
     {
       "name": "Fisher & Paykel Evora Nasal",
       "slug": "fisher-paykel-evora-nasal",
-      "offerCount": 8,
+      "offerCount": 40,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Evora Nasal CPAP Mask | Fisher & Paykel",
         "productUrl": "https://www.cpapninja.com/products/evora-nasal-cpap-mask-fisher-paykel",
+        "variantId": "51880237138283",
         "variantName": "Small",
         "priceCents": 7300,
         "price": "$73.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:21+00:00",
+        "observedAt": "2026-08-13T16:38:30+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 9500,
         "compareAtPrice": "$95.00"
@@ -488,12 +784,22 @@
         "retailer": "DirectHomeMedical",
         "productName": "FlexiFit 405 Nasal CPAP Mask FitPack with Headgear",
         "productUrl": "https://directhomemedical.com/products/hc405-nasal-cpap-mask-fisher-paykel",
+        "variantId": "46720246579352",
         "variantName": "Default Title",
         "priceCents": 4500,
         "price": "$45.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:12+00:00",
+        "observedAt": "2026-08-13T16:41:37+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": true,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 5900,
         "compareAtPrice": "$59.00"
@@ -507,12 +813,22 @@
         "retailer": "DirectHomeMedical",
         "productName": "FlexiFit 407 Nasal CPAP Mask with Headgear",
         "productUrl": "https://directhomemedical.com/products/hc407-flexifit-407-nasal-cpap-mask",
+        "variantId": "46720319062168",
         "variantName": "Default Title",
         "priceCents": 5400,
         "price": "$54.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:13+00:00",
+        "observedAt": "2026-08-13T16:41:37+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 6900,
         "compareAtPrice": "$69.00"
@@ -526,12 +842,22 @@
         "retailer": "DirectHomeMedical",
         "productName": "FlexiFit 431 Full Face CPAP Mask FitPack with Headgear",
         "productUrl": "https://directhomemedical.com/products/hc431-full-face-cpap-mask-fisher-paykel",
+        "variantId": "46714360758424",
         "variantName": "Default Title",
         "priceCents": 8400,
         "price": "$84.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:13+00:00",
+        "observedAt": "2026-08-13T16:41:37+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": true,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 12900,
         "compareAtPrice": "$129.00"
@@ -540,17 +866,27 @@
     {
       "name": "Fisher & Paykel FlexiFit 432",
       "slug": "fisher-paykel-flexifit-432",
-      "offerCount": 3,
+      "offerCount": 16,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "FlexiFit 432 Full Face CPAP Mask with Headgear",
         "productUrl": "https://directhomemedical.com/products/hc432-flexifit-432-full-face-cpap-mask",
+        "variantId": "48113297129624",
         "variantName": "Small",
         "priceCents": 8400,
         "price": "$84.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:14+00:00",
+        "observedAt": "2026-08-13T16:41:38+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 9900,
         "compareAtPrice": "$99.00"
@@ -559,17 +895,27 @@
     {
       "name": "Fisher & Paykel Forma",
       "slug": "fisher-paykel-forma",
-      "offerCount": 3,
+      "offerCount": 8,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "Forma Full Face CPAP Mask with Headgear",
         "productUrl": "https://directhomemedical.com/products/forma-full-face-cpap-mask-fisher-paykel",
+        "variantId": "48113326620824",
         "variantName": "Small",
         "priceCents": 7899,
         "price": "$78.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:14+00:00",
+        "observedAt": "2026-08-13T16:41:38+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 8899,
         "compareAtPrice": "$88.99"
@@ -578,93 +924,141 @@
     {
       "name": "Fisher & Paykel Nova Micro",
       "slug": "fisher-paykel-nova-micro",
-      "offerCount": 6,
+      "offerCount": 33,
       "cheapestOffer": {
         "retailer": "Lofta",
         "productName": "Fisher & Paykel Nova Micro Nasal Pillows CPAP Mask",
         "productUrl": "https://lofta.com/collections/cpap-masks/products/nova-micro-nasal-pillows-cpap-mask",
+        "variantId": "43455213699119",
         "variantName": "Small",
         "priceCents": 8900,
         "price": "$89.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:55:31+00:00",
+        "observedAt": "2026-08-13T16:50:40+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Fisher & Paykel Nova Nasal",
       "slug": "fisher-paykel-nova-nasal",
-      "offerCount": 6,
+      "offerCount": 32,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Nova Nasal CPAP Mask System",
         "productUrl": "https://1800cpap.com/products/nova-nasal-cpap-mask-system",
+        "variantId": "47311921610996",
         "variantName": "Large",
         "priceCents": 9900,
         "price": "$99.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:49:14+00:00",
+        "observedAt": "2026-08-13T16:46:23+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Large",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Fisher & Paykel Opus 360",
       "slug": "fisher-paykel-opus-360",
-      "offerCount": 5,
+      "offerCount": 10,
       "cheapestOffer": {
-        "retailer": "DirectHomeMedical",
-        "productName": "Opus 360 Nasal Pillows CPAP Mask FitPack with Headgear",
-        "productUrl": "https://directhomemedical.com/products/hc482-opus-nasal-pillows-cpap-mask",
-        "variantName": "Default Title",
-        "priceCents": 6600,
-        "price": "$66.00",
+        "retailer": "CPAPsupplies.com",
+        "productName": "Fisher & Paykel Opus\u2122 360 Nasal Pillow CPAP Mask",
+        "productUrl": "https://cpapsupplies.com/opus-360-nasal-pillow-cpap-mask-by-fisher-paykel",
+        "variantId": "bundle:1892",
+        "variantName": "Fisher & Paykel Opus\u2122 360 Nasal Pillow CPAP Mask Headgear + $24.99",
+        "priceCents": 6498,
+        "price": "$64.98",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:16+00:00",
-        "configurationNote": "",
-        "compareAtPriceCents": 7500,
-        "compareAtPrice": "$75.00"
+        "observedAt": "2026-08-13T16:39:27+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
+        "configurationNote": ""
       }
     },
     {
       "name": "Fisher & Paykel Oracle 452",
       "slug": "fisher-paykel-oracle-452",
-      "offerCount": 2,
+      "offerCount": 3,
       "cheapestOffer": null
     },
     {
       "name": "Fisher & Paykel Pilairo Q",
       "slug": "fisher-paykel-pilairo-q",
-      "offerCount": 5,
+      "offerCount": 6,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "F&P Pilairo Q Nasal Pillows CPAP Mask with Headgear",
         "productUrl": "https://directhomemedical.com/products/pilairo-q-nasal-pillows-cpap-mask-fisher-paykel",
+        "variantId": "47387679916184",
         "variantName": "Default Title",
         "priceCents": 7400,
         "price": "$74.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:17+00:00",
+        "observedAt": "2026-08-13T16:41:40+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Fisher & Paykel Simplus",
       "slug": "fisher-paykel-simplus",
-      "offerCount": 7,
+      "offerCount": 37,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Simplus Full Face CPAP Mask | Fisher & Paykel",
         "productUrl": "https://www.cpapninja.com/products/simplus-full-face-cpap-mask-fisher-paykel",
-        "variantName": "Medium",
+        "variantId": "51880239235435",
+        "variantName": "Small",
         "priceCents": 11500,
         "price": "$115.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:23+00:00",
+        "observedAt": "2026-08-13T16:38:31+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 13500,
         "compareAtPrice": "$135.00"
@@ -673,17 +1067,27 @@
     {
       "name": "Fisher & Paykel Solo Nasal",
       "slug": "fisher-paykel-solo-nasal",
-      "offerCount": 8,
+      "offerCount": 38,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Solo Nasal CPAP Mask | Fisher & Paykel",
         "productUrl": "https://www.cpapninja.com/products/solo-nasal-cpap-mask-fisher-paykel",
+        "variantId": "51880208793963",
         "variantName": "Medium",
         "priceCents": 10500,
         "price": "$105.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:23+00:00",
+        "observedAt": "2026-08-13T16:38:31+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Medium",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 11900,
         "compareAtPrice": "$119.00"
@@ -692,34 +1096,54 @@
     {
       "name": "Fisher & Paykel Solo Nasal Pillow",
       "slug": "fisher-paykel-solo-nasal-pillow",
-      "offerCount": 7,
+      "offerCount": 32,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Solo Pillows CPAP Mask Kit",
         "productUrl": "https://1800cpap.com/products/solo-pillows-cpap-mask-kit",
+        "variantId": "46477023510772",
         "variantName": "All Sizes / Yes",
         "priceCents": 9900,
         "price": "$99.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:49:21+00:00",
+        "observedAt": "2026-08-13T16:46:40+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Fit Pack",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": true,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Fisher & Paykel Vitera",
       "slug": "fisher-paykel-vitera",
-      "offerCount": 8,
+      "offerCount": 42,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Vitera Full Face CPAP Mask | Fisher & Paykel",
         "productUrl": "https://www.cpapninja.com/products/vitera-full-face-cpap-mask-fisher-paykel",
+        "variantId": "51880212496747",
         "variantName": "Small",
         "priceCents": 11500,
         "price": "$115.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:25+00:00",
+        "observedAt": "2026-08-13T16:38:32+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 14900,
         "compareAtPrice": "$149.00"
@@ -728,17 +1152,32 @@
     {
       "name": "Fisher & Paykel Zest",
       "slug": "fisher-paykel-zest",
-      "offerCount": 4,
+      "offerCount": 8,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "Zest Nasal CPAP Mask with Headgear",
         "productUrl": "https://directhomemedical.com/products/zest-nasal-cpap-mask",
+        "variantId": "48113339170968",
         "variantName": "Petite",
         "priceCents": 5800,
         "price": "$58.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:20+00:00",
+        "observedAt": "2026-08-13T16:41:43+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Extra Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Package Options",
+              "value": "Petite"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 7400,
         "compareAtPrice": "$74.00"
@@ -747,102 +1186,162 @@
     {
       "name": "Fisher & Paykel Zest Q",
       "slug": "fisher-paykel-zest-q",
-      "offerCount": 3,
+      "offerCount": 13,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Zest Q Nasal CPAP Mask",
         "productUrl": "https://1800cpap.com/products/zest-q-nasal-cpap-mask",
+        "variantId": "46476985630964",
         "variantName": "Petite",
         "priceCents": 6299,
         "price": "$62.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:49:24+00:00",
+        "observedAt": "2026-08-13T16:46:45+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Extra Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Hans Rudolph V2",
       "slug": "hans-rudolph-v2",
-      "offerCount": 1,
+      "offerCount": 4,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Hans Rudolph V2 Full Face CPAP Mask with Headgear",
         "productUrl": "https://1800cpap.com/products/hans-rudolph-v2-full-face-cpap-mask-with-headgear",
+        "variantId": "46469194809588",
         "variantName": "Petite",
         "priceCents": 7900,
         "price": "$79.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:49:24+00:00",
+        "observedAt": "2026-08-13T16:46:47+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Extra Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Innova Full Face",
       "slug": "innova-full-face",
-      "offerCount": 1,
+      "offerCount": 3,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Innova Full Face CPAP Mask",
         "productUrl": "https://1800cpap.com/products/innova-full-face-cpap-mask",
-        "variantName": "Large",
+        "variantId": "46469194678516",
+        "variantName": "Small",
         "priceCents": 12900,
         "price": "$129.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:49:25+00:00",
+        "observedAt": "2026-08-13T16:46:48+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Innova Nasal",
       "slug": "innova-nasal",
-      "offerCount": 1,
+      "offerCount": 3,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Innova Nasal CPAP Mask",
         "productUrl": "https://1800cpap.com/products/innova-nasal-cpap-mask",
-        "variantName": "Medium/Large",
+        "variantId": "46469229019380",
+        "variantName": "Small",
         "priceCents": 5900,
         "price": "$59.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:49:25+00:00",
+        "observedAt": "2026-08-13T16:46:50+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Philips Respironics Amara",
       "slug": "philips-respironics-amara",
-      "offerCount": 3,
+      "offerCount": 14,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "Amara Full Face CPAP Mask with Headgear",
         "productUrl": "https://directhomemedical.com/products/amara-full-face-cpap-mask-respironics",
+        "variantId": "48113341038744",
         "variantName": "Petite (Silicone Cushion)",
         "priceCents": 9250,
         "price": "$92.50",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:21+00:00",
+        "observedAt": "2026-08-13T16:41:43+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Extra Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Philips Respironics Amara Gel",
       "slug": "philips-respironics-amara-gel",
-      "offerCount": 3,
+      "offerCount": 16,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Amara Gel Full Face CPAP Mask | Philips",
         "productUrl": "https://www.cpapninja.com/products/amara-gel-full-face-cpap-mask-philips",
+        "variantId": "51880237760875",
         "variantName": "Small",
         "priceCents": 7500,
         "price": "$75.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:26+00:00",
+        "observedAt": "2026-08-13T16:38:33+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 9500,
         "compareAtPrice": "$95.00"
@@ -851,54 +1350,102 @@
     {
       "name": "Philips Respironics Amara Silicone",
       "slug": "philips-respironics-amara-silicone",
-      "offerCount": 1,
-      "cheapestOffer": null
+      "offerCount": 12,
+      "cheapestOffer": {
+        "retailer": "CPAPsupplies.com",
+        "productName": "Philips Respironics Amara Silicone Full Face CPAP Mask",
+        "productUrl": "https://cpapsupplies.com/philips-respironics-amara-full-face-cpap-mask",
+        "variantId": "bundle:140:139",
+        "variantName": "Small - Amara Silicone Full Face Mask System - without Headgear + $120.00 / Amara FFM Headgear - Standard + $34.00",
+        "priceCents": 15400,
+        "price": "$154.00",
+        "currency": "USD",
+        "inStock": true,
+        "observedAt": "2026-08-13T16:39:52+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": "Standard",
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Mask",
+              "value": "Small - Amara Silicone Full Face Mask System - without Headgear"
+            },
+            {
+              "name": "Headgear Size",
+              "value": "Standard"
+            }
+          ]
+        },
+        "configurationNote": ""
+      }
     },
     {
       "name": "Philips Respironics Amara View",
       "slug": "philips-respironics-amara-view",
-      "offerCount": 7,
+      "offerCount": 33,
       "cheapestOffer": {
-        "retailer": "CPAP Ninja",
-        "productName": "Amara View Full Face CPAP Mask | Philips",
-        "productUrl": "https://www.cpapninja.com/products/amara-view-full-face-cpap-mask-philips",
-        "variantName": "Medium",
-        "priceCents": 7599,
-        "price": "$75.99",
+        "retailer": "CPAP.com",
+        "productName": "Amara View Full Face CPAP Mask with Headgear",
+        "productUrl": "https://www.cpap.com/products/amara-view-full-face-cpap-mask-with-headgear",
+        "variantId": "49040316760380",
+        "variantName": "Large",
+        "priceCents": 6900,
+        "price": "$69.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:26+00:00",
-        "configurationNote": "",
-        "compareAtPriceCents": 8900,
-        "compareAtPrice": "$89.00"
+        "observedAt": "2026-08-13T16:50:06+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Large",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
+        "configurationNote": ""
       }
     },
     {
       "name": "Philips Respironics Classic Full Face",
       "slug": "philips-respironics-classic-full-face",
-      "offerCount": 1,
+      "offerCount": 3,
       "cheapestOffer": null
     },
     {
       "name": "Philips Respironics ComfortGel Blue Full Face",
       "slug": "philips-respironics-comfortgel-blue-full-face",
-      "offerCount": 1,
+      "offerCount": 4,
       "cheapestOffer": null
     },
     {
       "name": "Philips Respironics ComfortGel Blue Nasal",
       "slug": "philips-respironics-comfortgel-blue-nasal",
-      "offerCount": 7,
+      "offerCount": 41,
       "cheapestOffer": {
         "retailer": "RespShop",
         "productName": "Philips | ComfortGel Blue Nasal CPAP Mask",
         "productUrl": "https://www.respshop.com/products/philips-respironics-comfortgel-blue-nasal-cpap-mask",
+        "variantId": "45739483627683",
         "variantName": "Petite",
         "priceCents": 4400,
         "price": "$44.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:56:06+00:00",
+        "observedAt": "2026-08-13T16:42:53+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Extra Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 10900,
         "compareAtPrice": "$109.00"
@@ -907,23 +1454,38 @@
     {
       "name": "Philips Respironics ComfortGel Full Face",
       "slug": "philips-respironics-comfortgel-full-face",
-      "offerCount": 1,
+      "offerCount": 3,
       "cheapestOffer": null
     },
     {
       "name": "Philips Respironics DreamWear Full Face",
       "slug": "philips-respironics-dreamwear-full-face",
-      "offerCount": 8,
+      "offerCount": 68,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "DreamWear Full Face CPAP Mask | Philips Respironics",
         "productUrl": "https://www.cpapninja.com/products/dreamwear-full-face-cpap-mask-philips",
+        "variantId": "51880216101227",
         "variantName": "Small / Small",
         "priceCents": 7600,
         "price": "$76.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:28+00:00",
+        "observedAt": "2026-08-13T16:38:35+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": "Small",
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Frame Size",
+              "value": "Small"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 9500,
         "compareAtPrice": "$95.00"
@@ -932,36 +1494,66 @@
     {
       "name": "Philips Respironics DreamWear Nasal",
       "slug": "philips-respironics-dreamwear-nasal",
-      "offerCount": 8,
+      "offerCount": 82,
       "cheapestOffer": {
-        "retailer": "CPAP Ninja",
-        "productName": "Dreamwear Nasal CPAP Mask | Philips Respironics",
-        "productUrl": "https://www.cpapninja.com/products/dreamwear-nasal-cpap-mask-with-updated-arm-headgear-philips",
-        "variantName": "Small / Small",
-        "priceCents": 6299,
-        "price": "$62.99",
+        "retailer": "CPAP.com",
+        "productName": "DreamWear Nasal Mask",
+        "productUrl": "https://www.cpap.com/products/dreamwear-nasal-cpap-mask",
+        "variantId": "49040377053500",
+        "variantName": "Large / Small",
+        "priceCents": 5580,
+        "price": "$55.80",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:28+00:00",
+        "observedAt": "2026-08-13T16:50:08+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Large",
+          "frameSize": "Small",
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Frame Size",
+              "value": "Small"
+            }
+          ]
+        },
         "configurationNote": "",
-        "compareAtPriceCents": 7900,
-        "compareAtPrice": "$79.00"
+        "compareAtPriceCents": 9300,
+        "compareAtPrice": "$93.00"
       }
     },
     {
       "name": "Philips Respironics DreamWear Nasal Pillow",
       "slug": "philips-respironics-dreamwear-nasal-pillow",
-      "offerCount": 8,
+      "offerCount": 69,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "DreamWear Silicone Nasal Pillow CPAP Mask | Philips",
         "productUrl": "https://www.cpapninja.com/products/dreamwear-silicone-nasal-pillow-cpap-mask-philips",
+        "variantId": "51880240185707",
         "variantName": "Small / Small",
         "priceCents": 5599,
         "price": "$55.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:29+00:00",
+        "observedAt": "2026-08-13T16:38:36+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": "Small",
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Frame Size",
+              "value": "Small"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 6900,
         "compareAtPrice": "$69.00"
@@ -970,17 +1562,27 @@
     {
       "name": "Philips Respironics DreamWisp",
       "slug": "philips-respironics-dreamwisp",
-      "offerCount": 6,
+      "offerCount": 41,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "DreamWisp Nasal CPAP Mask | Philips",
         "productUrl": "https://www.cpapninja.com/products/dreamwisp-nasal-cpap-mask-philips",
+        "variantId": "51880215904619",
         "variantName": "X-Large",
         "priceCents": 3895,
         "price": "$38.95",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:30+00:00",
+        "observedAt": "2026-08-13T16:38:36+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Extra Large",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 5900,
         "compareAtPrice": "$59.00"
@@ -989,23 +1591,33 @@
     {
       "name": "Philips Respironics EasyLife",
       "slug": "philips-respironics-easylife",
-      "offerCount": 1,
+      "offerCount": 4,
       "cheapestOffer": null
     },
     {
       "name": "Philips Respironics FitLife",
       "slug": "philips-respironics-fitlife",
-      "offerCount": 6,
+      "offerCount": 17,
       "cheapestOffer": {
         "retailer": "CPAP.com",
         "productName": "FitLife Total Face CPAP Mask with Headgear",
         "productUrl": "https://www.cpap.com/products/respironics-fitlife-total-full-face-cpap-mask-headgear",
+        "variantId": "49040887251260",
         "variantName": "Extra Large",
         "priceCents": 9500,
         "price": "$95.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:50+00:00",
+        "observedAt": "2026-08-13T16:50:09+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Extra Large",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 16900,
         "compareAtPrice": "$169.00"
@@ -1014,34 +1626,64 @@
     {
       "name": "Philips Respironics Nuance",
       "slug": "philips-respironics-nuance",
-      "offerCount": 1,
+      "offerCount": 4,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Nuance Gel Nasal Pillow CPAP Mask",
         "productUrl": "https://1800cpap.com/products/nuance-gel-nasal-pillow-cpap-mask",
+        "variantId": "46794926981364",
         "variantName": "All Sizes / Gel Style",
         "priceCents": 7900,
         "price": "$79.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:49:56+00:00",
+        "observedAt": "2026-08-13T16:47:11+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Fit Pack",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": true,
+          "options": [
+            {
+              "name": "Style",
+              "value": "Gel Style"
+            }
+          ]
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Philips Respironics Nuance Pro",
       "slug": "philips-respironics-nuance-pro",
-      "offerCount": 4,
+      "offerCount": 10,
       "cheapestOffer": {
         "retailer": "CPAP.com",
         "productName": "Nuance & Nuance Pro Nasal Pillow CPAP Mask with Gel Nasal Pillows",
         "productUrl": "https://www.cpap.com/products/nuance-pro-nasal-cpap-mask-respironics",
+        "variantId": "49040654532924",
         "variantName": "Pro Gel Frame",
         "priceCents": 7399,
         "price": "$73.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:50+00:00",
+        "observedAt": "2026-08-13T16:50:11+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Type",
+              "value": "Pro Gel Frame"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 10900,
         "compareAtPrice": "$109.00"
@@ -1050,17 +1692,27 @@
     {
       "name": "Philips Respironics Pico",
       "slug": "philips-respironics-pico",
-      "offerCount": 4,
+      "offerCount": 16,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Pico Nasal CPAP Mask System",
         "productUrl": "https://1800cpap.com/products/pico-nasal-cpap-mask-system",
+        "variantId": "46461747364084",
         "variantName": "All Sizes",
         "priceCents": 3900,
         "price": "$39.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:49:56+00:00",
+        "observedAt": "2026-08-13T16:47:13+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Fit Pack",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": true,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 9900,
         "compareAtPrice": "$99.00"
@@ -1069,17 +1721,32 @@
     {
       "name": "Philips Respironics Pixi",
       "slug": "philips-respironics-pixi",
-      "offerCount": 1,
+      "offerCount": 2,
       "cheapestOffer": {
         "retailer": "CPAP.com",
         "productName": "Pixi Pediatric CPAP Mask with Headgear",
         "productUrl": "https://www.cpap.com/products/pixi-pediatric-cpap-mask",
+        "variantId": "49040690839868",
         "variantName": "Complete Mask / One Size",
         "priceCents": 12500,
         "price": "$125.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:51+00:00",
+        "observedAt": "2026-08-13T16:50:11+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "One Size",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Type",
+              "value": "Complete Mask"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 13700,
         "compareAtPrice": "$137.00"
@@ -1094,17 +1761,32 @@
     {
       "name": "Philips Respironics Wisp",
       "slug": "philips-respironics-wisp",
-      "offerCount": 6,
+      "offerCount": 17,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Wisp Nasal CPAP FitPack Mask | Philips",
         "productUrl": "https://www.cpapninja.com/products/wisp-nasal-cpap-mask-philips",
+        "variantId": "51880239104363",
         "variantName": "Fabric",
         "priceCents": 3999,
         "price": "$39.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:31+00:00",
+        "observedAt": "2026-08-13T16:38:38+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": true,
+          "options": [
+            {
+              "name": "Frame Type",
+              "value": "Fabric"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 4900,
         "compareAtPrice": "$49.00"
@@ -1113,17 +1795,27 @@
     {
       "name": "Philips Respironics Wisp Clear",
       "slug": "philips-respironics-wisp-clear",
-      "offerCount": 2,
+      "offerCount": 19,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Wisp Clear Nasal CPAP Mask Fit Pack",
         "productUrl": "https://1800cpap.com/products/wisp-clear-nasal-cpap-mask-fit-pack",
+        "variantId": "46461751001332",
         "variantName": "Default Title",
         "priceCents": 6495,
         "price": "$64.95",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:50:03+00:00",
+        "observedAt": "2026-08-13T16:47:17+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": true,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
@@ -1135,12 +1827,22 @@
         "retailer": "RespShop",
         "productName": "Philips | Wisp Pediatric Nasal CPAP Mask",
         "productUrl": "https://www.respshop.com/products/philips-wisp-pediatric-nasal-cpap-mask",
+        "variantId": "45739485135011",
         "variantName": "Default Title",
         "priceCents": 11900,
         "price": "$119.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:56:21+00:00",
+        "observedAt": "2026-08-13T16:43:13+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 14900,
         "compareAtPrice": "$149.00"
@@ -1149,119 +1851,189 @@
     {
       "name": "React Health AmeriFlex Comfort Full Face",
       "slug": "react-health-ameriflex-comfort-full-face",
-      "offerCount": 1,
+      "offerCount": 3,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "AmeriFlex Comfort Full Face CPAP Mask",
         "productUrl": "https://1800cpap.com/products/ameriflex-comfort-full-face-cpap-mask",
-        "variantName": "Large",
+        "variantId": "46469201985780",
+        "variantName": "Small",
         "priceCents": 8500,
         "price": "$85.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:50:05+00:00",
+        "observedAt": "2026-08-13T16:47:21+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "React Health AmeriFlex Nasal",
       "slug": "react-health-ameriflex-nasal",
-      "offerCount": 1,
+      "offerCount": 3,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "AmeriFlex Comfort Nasal CPAP Mask",
         "productUrl": "https://1800cpap.com/products/ameriflex-comfort-nasal-cpap-mask",
-        "variantName": "Large",
+        "variantId": "46469227249908",
+        "variantName": "Small",
         "priceCents": 6499,
         "price": "$64.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:50:12+00:00",
+        "observedAt": "2026-08-13T16:47:24+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "React Health Ascend Full Face",
       "slug": "react-health-ascend-full-face",
-      "offerCount": 2,
+      "offerCount": 5,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Ascend Full Face Mask Fit Pack",
         "productUrl": "https://1800cpap.com/products/ascend-full-face-mask-fit-pack",
+        "variantId": "46469197168884",
         "variantName": "Default Title",
         "priceCents": 12999,
         "price": "$129.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:50:13+00:00",
+        "observedAt": "2026-08-13T16:47:26+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": true,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "React Health Ascend Nasal",
       "slug": "react-health-ascend-nasal",
-      "offerCount": 3,
+      "offerCount": 9,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "Ascend Nasal CPAP Mask with Headgear",
         "productUrl": "https://directhomemedical.com/products/ascend-nasal-cpap-mask-with-headgear",
+        "variantId": "48113286840472",
         "variantName": "Small",
         "priceCents": 6900,
         "price": "$69.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:27+00:00",
+        "observedAt": "2026-08-13T16:41:48+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "React Health Rio II Full Face",
       "slug": "react-health-rio-ii-full-face",
-      "offerCount": 2,
+      "offerCount": 8,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "Rio II Full Face CPAP Mask with Headgear",
         "productUrl": "https://directhomemedical.com/products/react-rio-ii-full-face-cpap-bipap-mask",
+        "variantId": "48113333633176",
         "variantName": "Small",
         "priceCents": 11400,
         "price": "$114.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:27+00:00",
+        "observedAt": "2026-08-13T16:41:49+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "React Health Rio II Nasal Pillow",
       "slug": "react-health-rio-ii-nasal-pillow",
-      "offerCount": 4,
+      "offerCount": 8,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "Rio II Nasal Pillows CPAP Mask with Headgear",
         "productUrl": "https://directhomemedical.com/products/rii1000-rio-nasal-pillow-mask-fitpack-3b",
+        "variantId": "48113334190232",
         "variantName": "Small",
         "priceCents": 6900,
         "price": "$69.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:28+00:00",
+        "observedAt": "2026-08-13T16:41:49+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "React Health Siesta Full Face",
       "slug": "react-health-siesta-full-face",
-      "offerCount": 4,
+      "offerCount": 12,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "Siesta Full Face CPAP Mask with Headgear",
         "productUrl": "https://directhomemedical.com/products/siesta-full-face-cpap-mask-headgear",
+        "variantId": "48113333436568",
         "variantName": "Small",
         "priceCents": 9900,
         "price": "$99.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:29+00:00",
+        "observedAt": "2026-08-13T16:41:50+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 12000,
         "compareAtPrice": "$120.00"
@@ -1270,17 +2042,27 @@
     {
       "name": "React Health Siesta Nasal",
       "slug": "react-health-siesta-nasal",
-      "offerCount": 3,
+      "offerCount": 12,
       "cheapestOffer": {
         "retailer": "DirectHomeMedical",
         "productName": "Siesta Nasal CPAP Mask with Headgear",
         "productUrl": "https://directhomemedical.com/products/siesta-nasal-cpap-bipap-mask-with-headgear",
+        "variantId": "48113332650136",
         "variantName": "Small",
         "priceCents": 4900,
         "price": "$49.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:54:29+00:00",
+        "observedAt": "2026-08-13T16:41:50+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 6500,
         "compareAtPrice": "$65.00"
@@ -1289,17 +2071,27 @@
     {
       "name": "ResMed AirFit F10",
       "slug": "resmed-airfit-f10",
-      "offerCount": 7,
+      "offerCount": 43,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirFit F10 Full Face CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airfit-f10-full-face-cpap-mask-resmed",
-        "variantName": "Medium",
+        "variantId": "51880228847979",
+        "variantName": "Small",
         "priceCents": 12500,
         "price": "$125.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:32+00:00",
+        "observedAt": "2026-08-13T16:38:38+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 15400,
         "compareAtPrice": "$154.00"
@@ -1308,17 +2100,27 @@
     {
       "name": "ResMed AirFit F10 For Her",
       "slug": "resmed-airfit-f10-for-her",
-      "offerCount": 2,
+      "offerCount": 14,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "AirFit F10 for Her Full Face CPAP Mask",
         "productUrl": "https://1800cpap.com/products/airfit-f10-for-her-full-face-cpap-mask",
-        "variantName": "Medium",
+        "variantId": "46469199954164",
+        "variantName": "X-Small",
         "priceCents": 13600,
         "price": "$136.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:50:19+00:00",
+        "observedAt": "2026-08-13T16:47:38+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Extra Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 15400,
         "compareAtPrice": "$154.00"
@@ -1327,17 +2129,32 @@
     {
       "name": "ResMed AirFit F20",
       "slug": "resmed-airfit-f20",
-      "offerCount": 9,
+      "offerCount": 50,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirFit F20 Full Face CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airfit-f20-full-face-cpap-mask-resmed",
+        "variantId": "51880245363051",
         "variantName": "Magnetic / Small",
         "priceCents": 10800,
         "price": "$108.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:33+00:00",
+        "observedAt": "2026-08-13T16:38:39+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Clips",
+              "value": "Magnetic"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 15500,
         "compareAtPrice": "$155.00"
@@ -1346,17 +2163,27 @@
     {
       "name": "ResMed AirFit F20 For Her",
       "slug": "resmed-airfit-f20-for-her",
-      "offerCount": 5,
+      "offerCount": 17,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirFit F20 For Her Full Face CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airfit-f20-for-her-full-face-cpap-mask-resmed",
+        "variantId": "51880244642155",
         "variantName": "Small",
         "priceCents": 11500,
         "price": "$115.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:33+00:00",
+        "observedAt": "2026-08-13T16:38:39+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 15900,
         "compareAtPrice": "$159.00"
@@ -1365,17 +2192,27 @@
     {
       "name": "ResMed AirFit F30",
       "slug": "resmed-airfit-f30",
-      "offerCount": 8,
+      "offerCount": 22,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirFit F30 Full Face CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airfit-f30-full-face-cpap-mask-resmed",
+        "variantId": "51880246247787",
         "variantName": "Small",
         "priceCents": 11500,
         "price": "$115.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:34+00:00",
+        "observedAt": "2026-08-13T16:38:40+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 15500,
         "compareAtPrice": "$155.00"
@@ -1384,17 +2221,36 @@
     {
       "name": "ResMed AirFit F30i",
       "slug": "resmed-airfit-f30i",
-      "offerCount": 8,
+      "offerCount": 57,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirFit F30i Full Face CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airfit-f30i-full-face-cpap-mask-resmed",
+        "variantId": "51880222785899",
         "variantName": "Magnetic / Small / Small",
         "priceCents": 11500,
         "price": "$115.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:34+00:00",
+        "observedAt": "2026-08-13T16:38:40+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": "Small",
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Clips",
+              "value": "Magnetic"
+            },
+            {
+              "name": "Frame Size",
+              "value": "Small"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 15900,
         "compareAtPrice": "$159.00"
@@ -1409,17 +2265,32 @@
     {
       "name": "ResMed AirFit F40",
       "slug": "resmed-airfit-f40",
-      "offerCount": 9,
+      "offerCount": 46,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirFit F40 Full Face CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airfit-f40-full-face-cpap-mask-resmed",
+        "variantId": "51880217149803",
         "variantName": "Small / Medium",
         "priceCents": 11500,
         "price": "$115.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:35+00:00",
+        "observedAt": "2026-08-13T16:38:41+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Medium",
+          "frameSize": null,
+          "headgearSize": "Small",
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Headgear Size",
+              "value": "Small"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 15500,
         "compareAtPrice": "$155.00"
@@ -1434,17 +2305,27 @@
     {
       "name": "ResMed AirFit N10 For Her",
       "slug": "resmed-airfit-n10-for-her",
-      "offerCount": 1,
+      "offerCount": 2,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "AirFit N10 For Her Nasal CPAP Mask",
         "productUrl": "https://1800cpap.com/products/airfit-n10-for-her-nasal-cpap-mask",
+        "variantId": "46460343451892",
         "variantName": "Default Title",
         "priceCents": 6800,
         "price": "$68.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:50:32+00:00",
+        "observedAt": "2026-08-13T16:47:56+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 10500,
         "compareAtPrice": "$105.00"
@@ -1453,17 +2334,27 @@
     {
       "name": "ResMed AirFit N20",
       "slug": "resmed-airfit-n20",
-      "offerCount": 8,
+      "offerCount": 46,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirFit N20 Nasal CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airfit-n20-nasal-cpap-mask-resmed",
+        "variantId": "51880244805995",
         "variantName": "Small",
         "priceCents": 6900,
         "price": "$69.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:36+00:00",
+        "observedAt": "2026-08-13T16:38:41+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 10500,
         "compareAtPrice": "$105.00"
@@ -1472,17 +2363,27 @@
     {
       "name": "ResMed AirFit N20 For Her",
       "slug": "resmed-airfit-n20-for-her",
-      "offerCount": 4,
+      "offerCount": 7,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirFit N20 For Her Nasal CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airfit-n20-for-her-nasal-cpap-mask-resmed",
+        "variantId": "51880215249259",
         "variantName": "For Her Small",
         "priceCents": 7500,
         "price": "$75.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:36+00:00",
+        "observedAt": "2026-08-13T16:38:41+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 10500,
         "compareAtPrice": "$105.00"
@@ -1491,17 +2392,27 @@
     {
       "name": "ResMed AirFit N30",
       "slug": "resmed-airfit-n30",
-      "offerCount": 8,
+      "offerCount": 35,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirFit N30 Nasal Cradle CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airfit-n30-nasal-cradle-cpap-mask-resmed",
+        "variantId": "51880218329451",
         "variantName": "Small",
         "priceCents": 8500,
         "price": "$85.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:37+00:00",
+        "observedAt": "2026-08-13T16:38:42+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 10500,
         "compareAtPrice": "$105.00"
@@ -1510,36 +2421,61 @@
     {
       "name": "ResMed AirFit N30i",
       "slug": "resmed-airfit-n30i",
-      "offerCount": 8,
+      "offerCount": 44,
       "cheapestOffer": {
-        "retailer": "1800CPAP.COM",
-        "productName": "AirFit N30i CPAP Mask Kit",
-        "productUrl": "https://1800cpap.com/products/airfit-n30i-cpap-mask-kit",
-        "variantName": "Medium / No / Small",
-        "priceCents": 7499,
-        "price": "$74.99",
+        "retailer": "CPAP Ninja",
+        "productName": "AirFit N30i Nasal CPAP Mask Starter Pack | ResMed",
+        "productUrl": "https://www.cpapninja.com/products/airfit-n30i-nasal-cpap-mask-starter-pack-resmed",
+        "variantId": "51880214298987",
+        "variantName": "Small",
+        "priceCents": 8500,
+        "price": "$85.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:50:41+00:00",
+        "observedAt": "2026-08-13T16:38:42+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": "Small",
+          "headgearSize": null,
+          "fitPack": true,
+          "options": [
+            {
+              "name": "Frame Size",
+              "value": "Small"
+            }
+          ]
+        },
         "configurationNote": "",
-        "compareAtPriceCents": 8400,
-        "compareAtPrice": "$84.00"
+        "compareAtPriceCents": 11500,
+        "compareAtPrice": "$115.00"
       }
     },
     {
       "name": "ResMed AirFit P10",
       "slug": "resmed-airfit-p10",
-      "offerCount": 9,
+      "offerCount": 32,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirFit P10 Nasal Pillow CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airfit-p10-nasal-pillow-cpap-mask-resmed",
+        "variantId": "51880218427755",
         "variantName": "Default Title",
         "priceCents": 6900,
         "price": "$69.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:38+00:00",
+        "observedAt": "2026-08-13T16:38:43+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "One Size",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 10500,
         "compareAtPrice": "$105.00"
@@ -1548,17 +2484,27 @@
     {
       "name": "ResMed AirFit P10 For Her",
       "slug": "resmed-airfit-p10-for-her",
-      "offerCount": 5,
+      "offerCount": 19,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirFit P10 For Her Nasal Pillows CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airfit-p10-for-her-nasal-pillows-cpap-mask-resmed",
+        "variantId": "51880238711147",
         "variantName": "Default Title",
         "priceCents": 7500,
         "price": "$75.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:38+00:00",
+        "observedAt": "2026-08-13T16:38:43+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "One Size",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 10500,
         "compareAtPrice": "$105.00"
@@ -1567,36 +2513,61 @@
     {
       "name": "ResMed AirFit P30i",
       "slug": "resmed-airfit-p30i",
-      "offerCount": 9,
+      "offerCount": 42,
       "cheapestOffer": {
-        "retailer": "1800CPAP.COM",
-        "productName": "AirFit P30i Nasal Pillow Mask Kit",
-        "productUrl": "https://1800cpap.com/products/airfit-p30i-nasal-pillow-mask-kit",
-        "variantName": "All Sizes / No / Small",
-        "priceCents": 7499,
-        "price": "$74.99",
+        "retailer": "CPAP Ninja",
+        "productName": "AirFit P30i Nasal Pillow CPAP Mask Starter Pack | ResMed",
+        "productUrl": "https://www.cpapninja.com/products/airfit-p30i-nasal-pillow-cpap-mask-starter-pack-resmed",
+        "variantId": "51880215216491",
+        "variantName": "Small Frame with S/M Cushions",
+        "priceCents": 7500,
+        "price": "$75.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:50:51+00:00",
+        "observedAt": "2026-08-13T16:38:44+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": true,
+          "options": []
+        },
         "configurationNote": "",
-        "compareAtPriceCents": 8400,
-        "compareAtPrice": "$84.00"
+        "compareAtPriceCents": 11500,
+        "compareAtPrice": "$115.00"
       }
     },
     {
       "name": "ResMed AirFit X30i",
       "slug": "resmed-airfit-x30i",
-      "offerCount": 7,
+      "offerCount": 20,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirFit X30i CPAP Full Face Mask | Starter Pack | ResMed",
         "productUrl": "https://www.cpapninja.com/products/resmed-airfit-x30i-cpap-full-face-mask-starter-pack",
+        "variantId": "52114594791787",
         "variantName": "Small",
         "priceCents": 15500,
         "price": "$155.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:40+00:00",
+        "observedAt": "2026-08-13T16:38:44+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": "Small",
+          "headgearSize": null,
+          "fitPack": true,
+          "options": [
+            {
+              "name": "Frame",
+              "value": "Small"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 25000,
         "compareAtPrice": "$250.00"
@@ -1605,17 +2576,27 @@
     {
       "name": "ResMed AirTouch F20",
       "slug": "resmed-airtouch-f20",
-      "offerCount": 8,
+      "offerCount": 40,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirTouch F20 Full Face CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airtouch-f20-full-face-cpap-mask-resmed",
+        "variantId": "51880235041131",
         "variantName": "Small",
         "priceCents": 11500,
         "price": "$115.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:40+00:00",
+        "observedAt": "2026-08-13T16:38:45+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 15900,
         "compareAtPrice": "$159.00"
@@ -1624,17 +2605,27 @@
     {
       "name": "ResMed AirTouch F20 For Her",
       "slug": "resmed-airtouch-f20-for-her",
-      "offerCount": 5,
+      "offerCount": 16,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirTouch F20 For Her Full Face CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airtouch-f20-for-her-full-face-cpap-mask-resmed",
+        "variantId": "51880234746219",
         "variantName": "Small",
         "priceCents": 11500,
         "price": "$115.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:41+00:00",
+        "observedAt": "2026-08-13T16:38:46+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 15900,
         "compareAtPrice": "$159.00"
@@ -1643,34 +2634,68 @@
     {
       "name": "ResMed AirTouch F30i",
       "slug": "resmed-airtouch-f30i",
-      "offerCount": 7,
+      "offerCount": 62,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirTouch F30i Clear/Comfort Full Face CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/resmed-airtouch-f30i-full-face-cpap-mask",
+        "variantId": "52904587428203",
         "variantName": "Clear / Standard / Small Wide",
         "priceCents": 13200,
         "price": "$132.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:41+00:00",
+        "observedAt": "2026-08-13T16:38:46+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small Wide",
+          "frameSize": "Standard",
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Type",
+              "value": "Clear"
+            },
+            {
+              "name": "Frame",
+              "value": "Standard"
+            }
+          ]
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "ResMed AirTouch N20",
       "slug": "resmed-airtouch-n20",
-      "offerCount": 7,
+      "offerCount": 33,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirTouch N20 Nasal CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airtouch-n20-nasal-cpap-mask-resmed",
+        "variantId": "51880221507947",
         "variantName": "Small",
         "priceCents": 7500,
         "price": "$75.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:42+00:00",
+        "observedAt": "2026-08-13T16:38:47+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": "Small",
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Frame & Cushion Size",
+              "value": "Small"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 10800,
         "compareAtPrice": "$108.00"
@@ -1679,17 +2704,27 @@
     {
       "name": "ResMed AirTouch N20 For Her",
       "slug": "resmed-airtouch-n20-for-her",
-      "offerCount": 1,
+      "offerCount": 2,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "AirTouch N20 For Her Memory Foam Mask",
         "productUrl": "https://1800cpap.com/products/airtouch-n20-for-her-memory-foam-mask",
+        "variantId": "46461689102580",
         "variantName": "Default Title",
         "priceCents": 10200,
         "price": "$102.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:02+00:00",
+        "observedAt": "2026-08-13T16:48:33+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 10800,
         "compareAtPrice": "$108.00"
@@ -1698,17 +2733,32 @@
     {
       "name": "ResMed AirTouch N30i",
       "slug": "resmed-airtouch-n30i",
-      "offerCount": 7,
+      "offerCount": 56,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "AirTouch N30i Nasal CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/airtouch-n30i-nasal-cpap-mask-resmed",
-        "variantName": "Small Wide / Standard",
+        "variantId": "51926935306603",
+        "variantName": "Small Wide / Small",
         "priceCents": 9200,
         "price": "$92.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:43+00:00",
+        "observedAt": "2026-08-13T16:38:47+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small Wide",
+          "frameSize": "Small",
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Frame Size",
+              "value": "Small"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 11900,
         "compareAtPrice": "$119.00"
@@ -1717,17 +2767,27 @@
     {
       "name": "ResMed Mirage Activa LT",
       "slug": "resmed-mirage-activa-lt",
-      "offerCount": 7,
+      "offerCount": 41,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Mirage Activa LT Nasal CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/mirage-activa-lt-nasal-cpap-mask-resmed",
-        "variantName": "Medium",
+        "variantId": "51880226193771",
+        "variantName": "Small",
         "priceCents": 7900,
         "price": "$79.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:43+00:00",
+        "observedAt": "2026-08-13T16:38:48+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 10500,
         "compareAtPrice": "$105.00"
@@ -1736,17 +2796,32 @@
     {
       "name": "ResMed Mirage FX",
       "slug": "resmed-mirage-fx",
-      "offerCount": 7,
+      "offerCount": 22,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Mirage FX Nasal CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/mirage-fx-nasal-cpap-mask-resmed",
+        "variantId": "51880214856043",
         "variantName": "Standard",
         "priceCents": 7200,
         "price": "$72.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:44+00:00",
+        "observedAt": "2026-08-13T16:38:49+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Standard",
+          "frameSize": "Standard",
+          "headgearSize": null,
+          "fitPack": false,
+          "options": [
+            {
+              "name": "Frame & Cushion Size",
+              "value": "Standard"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 11500,
         "compareAtPrice": "$115.00"
@@ -1755,17 +2830,27 @@
     {
       "name": "ResMed Mirage FX For Her",
       "slug": "resmed-mirage-fx-for-her",
-      "offerCount": 4,
+      "offerCount": 14,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Mirage FX For Her Nasal CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/mirage-fx-for-her-nasal-cpap-mask-resmed",
-        "variantName": "Standard",
+        "variantId": "51880213610859",
+        "variantName": "Small",
         "priceCents": 7500,
         "price": "$75.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:44+00:00",
+        "observedAt": "2026-08-13T16:38:49+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 11500,
         "compareAtPrice": "$115.00"
@@ -1774,17 +2859,27 @@
     {
       "name": "ResMed Mirage Liberty",
       "slug": "resmed-mirage-liberty",
-      "offerCount": 1,
+      "offerCount": 6,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Mirage Liberty Full Face Mask Kit",
         "productUrl": "https://1800cpap.com/products/mirage-liberty-full-face-mask-kit",
-        "variantName": "Large / Small / Yes",
+        "variantId": "46785109885172",
+        "variantName": "Small / Small / Yes",
         "priceCents": 13900,
         "price": "$139.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:13+00:00",
+        "observedAt": "2026-08-13T16:48:46+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 19900,
         "compareAtPrice": "$199.00"
@@ -1793,17 +2888,27 @@
     {
       "name": "ResMed Mirage Quattro",
       "slug": "resmed-mirage-quattro",
-      "offerCount": 7,
+      "offerCount": 44,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Mirage Quattro Full Face CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/mirage-quattro-full-face-cpap-mask-resmed",
+        "variantId": "51880210858347",
         "variantName": "Small",
         "priceCents": 12400,
         "price": "$124.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:45+00:00",
+        "observedAt": "2026-08-13T16:38:50+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 18200,
         "compareAtPrice": "$182.00"
@@ -1812,40 +2917,60 @@
     {
       "name": "ResMed Mirage Swift II",
       "slug": "resmed-mirage-swift-ii",
-      "offerCount": 1,
+      "offerCount": 2,
       "cheapestOffer": null
     },
     {
       "name": "ResMed Quattro Air",
       "slug": "resmed-quattro-air",
-      "offerCount": 7,
+      "offerCount": 35,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Quattro Air Full Face CPAP Mask",
         "productUrl": "https://1800cpap.com/products/quattro-air-full-face-cpap-mask",
+        "variantId": "46469193761012",
         "variantName": "Small",
         "priceCents": 11500,
         "price": "$115.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:15+00:00",
+        "observedAt": "2026-08-13T16:48:50+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "ResMed Quattro Air For Her",
       "slug": "resmed-quattro-air-for-her",
-      "offerCount": 2,
+      "offerCount": 18,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Quattro Air for Her Full Face CPAP Mask",
         "productUrl": "https://1800cpap.com/products/quattro-air-for-her-full-face-cpap-mask",
-        "variantName": "Medium",
+        "variantId": "46469193924852",
+        "variantName": "X-Small",
         "priceCents": 12199,
         "price": "$121.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:15+00:00",
+        "observedAt": "2026-08-13T16:48:52+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Extra Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 12500,
         "compareAtPrice": "$125.00"
@@ -1854,17 +2979,27 @@
     {
       "name": "ResMed Quattro FX",
       "slug": "resmed-quattro-fx",
-      "offerCount": 7,
+      "offerCount": 33,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Quattro FX Full Face CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/quattro-fx-full-face-cpap-mask-resmed",
+        "variantId": "51880229110123",
         "variantName": "Small",
         "priceCents": 12100,
         "price": "$121.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:46+00:00",
+        "observedAt": "2026-08-13T16:38:51+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 12500,
         "compareAtPrice": "$125.00"
@@ -1873,17 +3008,27 @@
     {
       "name": "ResMed Quattro FX For Her",
       "slug": "resmed-quattro-fx-for-her",
-      "offerCount": 4,
+      "offerCount": 12,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Quattro FX For Her Full Face CPAP Mask",
         "productUrl": "https://1800cpap.com/products/quattro-fx-for-her-full-face-cpap-mask",
-        "variantName": "Medium",
+        "variantId": "46469193629940",
+        "variantName": "Small",
         "priceCents": 12100,
         "price": "$121.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:17+00:00",
+        "observedAt": "2026-08-13T16:48:56+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 12500,
         "compareAtPrice": "$125.00"
@@ -1892,17 +3037,27 @@
     {
       "name": "ResMed Swift FX",
       "slug": "resmed-swift-fx",
-      "offerCount": 8,
+      "offerCount": 30,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Swift FX Nasal Pillows CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/swift-fx-nasal-pillows-cpap-mask-resmed",
+        "variantId": "51880213217643",
         "variantName": "Default Title",
         "priceCents": 8200,
         "price": "$82.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:47+00:00",
+        "observedAt": "2026-08-13T16:38:52+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "One Size",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 10400,
         "compareAtPrice": "$104.00"
@@ -1911,17 +3066,27 @@
     {
       "name": "ResMed Swift FX Bella For Her",
       "slug": "resmed-swift-fx-bella-for-her",
-      "offerCount": 5,
+      "offerCount": 15,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Swift FX Bella Gray Nasal Pillow CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/swift-fx-bella-gray-nasal-pillow-cpap-mask-resmed",
+        "variantId": "51880240021867",
         "variantName": "Default Title",
         "priceCents": 10500,
         "price": "$105.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:49+00:00",
+        "observedAt": "2026-08-13T16:38:53+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "One Size",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 12800,
         "compareAtPrice": "$128.00"
@@ -1930,17 +3095,27 @@
     {
       "name": "ResMed Swift FX For Her",
       "slug": "resmed-swift-fx-for-her",
-      "offerCount": 4,
+      "offerCount": 20,
       "cheapestOffer": {
         "retailer": "CPAP Ninja",
         "productName": "Swift FX For Her Nasal Pillows CPAP Mask | ResMed",
         "productUrl": "https://www.cpapninja.com/products/swift-fx-for-her-nasal-pillows-cpap-mask-resmed",
+        "variantId": "51880228487531",
         "variantName": "Default Title",
         "priceCents": 8200,
         "price": "$82.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:49+00:00",
+        "observedAt": "2026-08-13T16:38:53+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "One Size",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 12700,
         "compareAtPrice": "$127.00"
@@ -1955,57 +3130,87 @@
     {
       "name": "ResMed Ultra Mirage",
       "slug": "resmed-ultra-mirage",
-      "offerCount": 2,
+      "offerCount": 3,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Ultra Mirage Full Face CPAP Mask",
         "productUrl": "https://1800cpap.com/products/ultra-mirage-full-face-cpap-mask",
+        "variantId": "46469193203956",
         "variantName": "Medium/Standard",
         "priceCents": 15999,
         "price": "$159.99",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:30+00:00",
+        "observedAt": "2026-08-13T16:49:13+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Medium",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "SleepNet IQ Blue Gel",
       "slug": "sleepnet-iq-blue-gel",
-      "offerCount": 1,
+      "offerCount": 0,
       "cheapestOffer": null
     },
     {
       "name": "SleepNet Mojo Gel",
       "slug": "sleepnet-mojo-gel",
-      "offerCount": 1,
+      "offerCount": 4,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Mojo Gel Full CPAP Mask with Headgear",
         "productUrl": "https://1800cpap.com/products/mojo-gel-full-cpap-mask-with-headgear",
+        "variantId": "46469205885172",
         "variantName": "Small",
         "priceCents": 13900,
         "price": "$139.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:31+00:00",
+        "observedAt": "2026-08-13T16:49:15+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "SleepNet Numa",
       "slug": "sleepnet-numa",
-      "offerCount": 2,
+      "offerCount": 6,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Numa Full Face CPAP Mask",
         "productUrl": "https://1800cpap.com/products/numa-full-face-cpap-mask",
-        "variantName": "Large",
+        "variantId": "46469201199348",
+        "variantName": "Small",
         "priceCents": 10900,
         "price": "$109.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:31+00:00",
+        "observedAt": "2026-08-13T16:49:16+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": "",
         "compareAtPriceCents": 13900,
         "compareAtPrice": "$139.00"
@@ -2019,46 +3224,81 @@
         "retailer": "1800CPAP.COM",
         "productName": "SleepNet iQ2 Nasal CPAP Mask System",
         "productUrl": "https://1800cpap.com/products/sleepnet-iq2-nasal-cpap-mask-system",
+        "variantId": "46470279659764",
         "variantName": "Default Title",
         "priceCents": 6900,
         "price": "$69.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:37+00:00",
+        "observedAt": "2026-08-13T16:49:18+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": null,
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "Sunset Deluxe Full Face",
       "slug": "sunset-deluxe-full-face",
-      "offerCount": 1,
+      "offerCount": 3,
       "cheapestOffer": {
         "retailer": "1800CPAP.COM",
         "productName": "Sunset Deluxe Full Face CPAP Mask",
         "productUrl": "https://1800cpap.com/products/sunset-deluxe-full-face-cpap-mask",
-        "variantName": "Large",
+        "variantId": "46469195006196",
+        "variantName": "Small",
         "priceCents": 5900,
         "price": "$59.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:51:37+00:00",
+        "observedAt": "2026-08-13T16:49:19+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Small",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": false,
+          "options": []
+        },
         "configurationNote": ""
       }
     },
     {
       "name": "myTAP PAP",
       "slug": "mytap-pap",
-      "offerCount": 4,
+      "offerCount": 5,
       "cheapestOffer": {
         "retailer": "CPAP.com",
         "productName": "myTAP PAP Nasal Pillow CPAP Mask with Improved Stability Mouthpiece",
         "productUrl": "https://www.cpap.com/products/tap-pap-nasal-pillow-cpap-mask-with-improved-stability-mouthpiece",
+        "variantId": "49040985030972",
         "variantName": "Complete Mask / Fit Pack",
         "priceCents": 7500,
         "price": "$75.00",
         "currency": "USD",
         "inStock": true,
-        "observedAt": "2026-08-18T09:52:16+00:00",
+        "observedAt": "2026-08-13T16:50:29+00:00",
+        "configuration": {
+          "offerType": "complete",
+          "headgearIncluded": true,
+          "size": "Fit Pack",
+          "frameSize": null,
+          "headgearSize": null,
+          "fitPack": true,
+          "options": [
+            {
+              "name": "Type",
+              "value": "Complete Mask"
+            }
+          ]
+        },
         "configurationNote": "",
         "compareAtPriceCents": 12900,
         "compareAtPrice": "$129.00"

@@ -1187,7 +1187,7 @@ body {
 }
 
 .btn {
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-button);
   font-size: 14px;
   font-weight: 500;
   padding: 10px 24px;
@@ -1218,7 +1218,7 @@ body {
 .btn-outline-gradient {
   position: relative;
   padding: 0;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-button);
   border: none;
   background: transparent;
   cursor: pointer;
