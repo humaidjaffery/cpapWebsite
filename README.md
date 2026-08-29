@@ -12,6 +12,10 @@ ng serve
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
+### Comfort heatmap test harness
+
+Open `http://localhost:4200/development/comfort-heatmap` while the development server is running to exercise the face comfort heatmap against the ten-mask Test Cohort. This route is excluded from production builds.
+
 ## Code scaffolding
 
 Angular CLI includes powerful code scaffolding tools. To generate a new component, run:

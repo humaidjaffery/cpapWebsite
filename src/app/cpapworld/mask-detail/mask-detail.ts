@@ -22,6 +22,7 @@ import { CustomMaskPopup } from '../../custom-mask-popup/custom-mask-popup';
 import { WaitlistSignup } from '../../waitlist-signup/waitlist-signup';
 import { ComparisonControls } from '../comparison/comparison-controls';
 import { ComparisonSelectionService } from '../comparison/comparison-selection.service';
+import { FaceComfortHeatmap } from '../comfort-heatmap/face-comfort-heatmap';
 
 type AnalysisTab = 'overview' | 'reviews' | 'fit' | 'components';
 type EvidenceTone = 'positive' | 'negative';
@@ -30,7 +31,7 @@ type ReviewEvidence = ScoreEvidence & { aspectId: string; aspectLabel: string };
 
 @Component({
   selector: 'app-mask-detail',
-  imports: [RouterLink, CustomMaskPopup, WaitlistSignup, ComparisonControls],
+  imports: [RouterLink, CustomMaskPopup, WaitlistSignup, ComparisonControls, FaceComfortHeatmap],
   templateUrl: './mask-detail.html',
   styleUrl: './mask-detail.css'
 })
@@ -171,29 +172,6 @@ export class MaskDetail {
   });
   protected readonly visibleComponents = computed(() =>
     this.showAllComponents() ? this.rankedComponents() : this.rankedComponents().slice(0, 8)
-  );
-  protected readonly topComfortSites = computed(() =>
-    [...(this.profile()?.bodySites ?? [])]
-      .filter((site) => site.positiveReviews >= 5 && site.complaintReviews < 5)
-      .sort((left, right) => right.positiveReviews - left.positiveReviews)
-      .slice(0, 5)
-  );
-  protected readonly topDiscomfortSites = computed(() =>
-    [...(this.profile()?.bodySites ?? [])]
-      .filter((site) => site.complaintReviews >= 5 && site.positiveReviews < 5)
-      .sort((left, right) => right.complaintReviews - left.complaintReviews)
-      .slice(0, 5)
-  );
-  protected readonly mixedBodySites = computed(() =>
-    [...(this.profile()?.bodySites ?? [])]
-      .filter((site) => site.positiveReviews >= 5 && site.complaintReviews >= 5)
-      .sort(
-        (left, right) =>
-          right.positiveReviews +
-          right.complaintReviews -
-          (left.positiveReviews + left.complaintReviews)
-      )
-      .slice(0, 5)
   );
   protected readonly additionalAspects = computed(() => {
     const dimensionIds = new Set(this.profile()?.dimensions.map((dimension) => dimension.id) ?? []);

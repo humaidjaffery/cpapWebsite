@@ -1,0 +1,171 @@
+<section class="comfort-heatmap" [attr.aria-label]="'Face comfort evidence for ' + maskName()">
+  <header class="heatmap-heading">
+    <div>
+      <p class="eyebrow">Patient-reported comfort</p>
+      <h2>Where people feel the difference</h2>
+      <p>Select a colored Heatmap Region to explore the supporting review evidence.</p>
+    </div>
+    <button
+      type="button"
+      class="detail-toggle"
+      [attr.aria-pressed]="detailedView()"
+      (click)="toggleDetailedView()"
+    >
+      <span aria-hidden="true">{{ detailedView() ? '−' : '+' }}</span>
+      Detailed view
+    </button>
+  </header>
+
+  @if (regions().length) {
+    <div class="heatmap-stage" [class.detailed]="detailedView()">
+      <div class="figure-wrap">
+        <svg
+          class="face-map"
+          viewBox="0 0 560 680"
+          role="group"
+          aria-label="Interactive front view of face, head, and neck"
+        >
+          <defs>
+            <filter id="region-shadow" x="-30%" y="-30%" width="160%" height="160%">
+              <feDropShadow dx="0" dy="7" stdDeviation="8" flood-opacity="0.14" />
+            </filter>
+            <linearGradient id="face-base" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#faf8fc" />
+              <stop offset="1" stop-color="#eee9f0" />
+            </linearGradient>
+          </defs>
+
+          <path class="neck-base" d="M204 520 C210 594 184 626 160 680 H400 C376 626 350 594 356 520 Z" />
+          <path
+            class="face-base"
+            d="M280 44 C176 44 126 123 132 245 C136 359 157 478 231 542 C260 567 300 567 329 542 C403 478 424 359 428 245 C434 123 384 44 280 44 Z"
+          />
+
+          @for (definition of regionDefinitions; track definition.id) {
+            <svg:g
+              class="region"
+              [attr.data-region-id]="definition.id"
+              [class.selected]="selectedRegionId() === definition.id"
+              [class.unavailable]="!region(definition.id)"
+              [attr.role]="region(definition.id) ? 'button' : null"
+              [attr.tabindex]="regionTabIndex(definition.id)"
+              [attr.aria-label]="regionAriaLabel(definition.id)"
+              [attr.aria-pressed]="selectedRegionId() === definition.id"
+              (click)="selectRegion(definition.id)"
+              (keydown)="handleRegionKeydown($event, definition.id)"
+            >
+              @for (path of definition.paths; track $index) {
+                <svg:path
+                  [attr.d]="path"
+                  [attr.fill]="regionFill(definition.id)"
+                  [attr.fill-opacity]="regionOpacity(definition.id)"
+                />
+              }
+              @for (line of definition.featureLines ?? []; track $index) {
+                <svg:path class="feature-line" [attr.d]="line" />
+              }
+            </svg:g>
+          }
+
+        </svg>
+
+        <div class="summary-layer" aria-live="polite">
+          @for (region of summaryRegions(); track region.id) {
+            <button
+              type="button"
+              class="summary-widget"
+              data-testid="summary-widget"
+              [class.summary-left]="region.side === 'left'"
+              [class.summary-right]="region.side === 'right'"
+              [class.selected]="selectedRegionId() === region.id"
+              [style.--widget-top.%]="region.widgetTop"
+              (click)="selectRegion(region.id)"
+            >
+              <span class="summary-tone" [attr.data-tone]="region.tone">{{ toneLabel(region) }}</span>
+              <strong>{{ region.label }}</strong>
+              <small>{{ reportSummary(region) }}</small>
+            </button>
+          }
+        </div>
+      </div>
+
+      <div class="heatmap-legend" aria-label="Heatmap color key">
+        <span><i class="comfort"></i> Leans comfortable</span>
+        <span><i class="mixed"></i> Mixed experience</span>
+        <span><i class="discomfort"></i> Leans uncomfortable</span>
+        <small>Color strength reflects the amount of available evidence.</small>
+      </div>
+    </div>
+
+    @if (selectedRegion(); as selected) {
+      <aside class="expanded-evidence" data-testid="expanded-evidence" aria-live="polite">
+        <header>
+          <div>
+            <span class="summary-tone" [attr.data-tone]="selected.tone">{{ toneLabel(selected) }}</span>
+            <h3>{{ selected.label }}</h3>
+            <p>
+              {{ reportSummary(selected) }} across {{ selected.bodySites.length }} mapped
+              {{ selected.bodySites.length === 1 ? 'area' : 'areas' }}.
+            </p>
+          </div>
+          <button type="button" aria-label="Close expanded evidence" (click)="closeExpandedView()">×</button>
+        </header>
+
+        <div class="evidence-facts">
+          <div><strong>{{ selected.positiveReviews }}</strong><span>comfort mentions</span></div>
+          <div><strong>{{ selected.complaintReviews }}</strong><span>discomfort mentions</span></div>
+          <div><strong>{{ selected.evidenceStrength }}</strong><span>evidence strength</span></div>
+        </div>
+
+        @if (selected.associatedParts.length || selected.complaintAspects.length) {
+          <div class="evidence-links">
+            @if (selected.associatedParts.length) {
+              <div>
+                <h4>Associated mask components</h4>
+                <p>
+                  @for (part of selected.associatedParts.slice(0, 4); track part.id; let last = $last) {
+                    {{ part.label }} ({{ part.reviewCount }}){{ last ? '' : ' · ' }}
+                  }
+                </p>
+              </div>
+            }
+            @if (selected.complaintAspects.length) {
+              <div>
+                <h4>Reported concerns</h4>
+                <p>
+                  @for (aspect of selected.complaintAspects.slice(0, 4); track aspect.id; let last = $last) {
+                    {{ aspect.label }} ({{ aspect.reviewCount }}){{ last ? '' : ' · ' }}
+                  }
+                </p>
+              </div>
+            }
+          </div>
+        }
+
+        @if (selected.positiveEvidence.length || selected.negativeEvidence.length) {
+          <div class="evidence-quotes">
+            @if (selected.positiveEvidence[0]; as quote) {
+              <blockquote class="positive-quote">
+                <span>Comfort evidence</span>
+                <p>“{{ quote.text }}”</p>
+                <cite>{{ quote.retailer }}</cite>
+              </blockquote>
+            }
+            @if (selected.negativeEvidence[0]; as quote) {
+              <blockquote class="negative-quote">
+                <span>Discomfort evidence</span>
+                <p>“{{ quote.text }}”</p>
+                <cite>{{ quote.retailer }}</cite>
+              </blockquote>
+            }
+          </div>
+        }
+      </aside>
+    }
+  } @else {
+    <div class="empty-heatmap">
+      <h3>No mapped face comfort evidence yet</h3>
+      <p>This mask does not have enough body-area reporting to draw the heatmap.</p>
+    </div>
+  }
+</section>

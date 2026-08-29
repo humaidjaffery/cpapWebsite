@@ -358,6 +358,16 @@ describe('MaskDetail', () => {
     fixture.detectChanges();
   });
 
+  it('presents the face comfort heatmap on the mask page', () => {
+    const componentsTab = fixture.nativeElement.querySelector(
+      '[data-tab="components"]'
+    ) as HTMLButtonElement | null;
+    componentsTab?.click();
+    fixture.detectChanges();
+
+    expect(fixture.nativeElement.querySelector('app-face-comfort-heatmap')).toBeTruthy();
+  });
+
   it('renders the mask score, dimensions, and favorable patient context', () => {
     const element: HTMLElement = fixture.nativeElement;
     expect(element.querySelector('h1')?.textContent).toContain(PROFILE.name);

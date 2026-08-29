@@ -1,0 +1,54 @@
+<main class="harness-page">
+  <header class="harness-header">
+    <div>
+      <p>Development tool</p>
+      <h1>Heatmap development harness</h1>
+      <span>Compare mapped comfort evidence across the ten-mask Test Cohort.</span>
+    </div>
+    <a routerLink="/cpaplibrary">Return to mask library</a>
+  </header>
+
+  <section class="harness-controls" aria-label="Heatmap test controls">
+    <label for="test-mask">Test mask</label>
+    <select id="test-mask" [value]="selectedSlug()" (change)="selectMask($event)">
+      @for (mask of cohort; track mask.slug) {
+        <option [value]="mask.slug">{{ mask.name }}</option>
+      }
+    </select>
+    <div class="control-status" aria-live="polite">
+      <span>{{ profiles().size }} / {{ cohort.length }} profiles loaded</span>
+      <code>{{ selectedSlug() }}</code>
+    </div>
+  </section>
+
+  @if (loading()) {
+    <section class="harness-state" aria-live="polite">
+      <span></span>
+      <h2>Loading the Test Cohort…</h2>
+    </section>
+  } @else if (loadError()) {
+    <section class="harness-state error">
+      <h2>The heatmap profiles could not be loaded</h2>
+      <p>Check that the development server can serve the mask data files.</p>
+    </section>
+  } @else if (selectedProfile(); as profile) {
+    <section class="heatmap-preview">
+      <div class="preview-meta">
+        <div>
+          <span>Live component preview</span>
+          <h2>{{ profile.name }}</h2>
+        </div>
+        <dl>
+          <div><dt>Raw body sites</dt><dd>{{ profile.bodySites.length }}</dd></div>
+          <div><dt>Processed reviews</dt><dd>{{ profile.coverage.processedReviews }}</dd></div>
+        </dl>
+      </div>
+      <app-face-comfort-heatmap [maskName]="profile.name" [bodySites]="profile.bodySites" />
+    </section>
+  } @else {
+    <section class="harness-state error">
+      <h2>This test profile could not be loaded</h2>
+      <p>Choose another mask from the Test Cohort.</p>
+    </section>
+  }
+</main>

@@ -6,6 +6,19 @@ import { Hero } from './hero/hero';
 import { Survey } from './survey/survey';
 import { ThankYou } from './thank-you/thank-you';
 import { ComparePage } from './cpapworld/comparison/compare-page';
+import { environment } from '../environments/environment';
+
+const developmentRoutes: Routes = environment.production
+  ? []
+  : [
+      {
+        path: 'development/comfort-heatmap',
+        loadComponent: () =>
+          import('./cpapworld/comfort-heatmap/comfort-heatmap-harness').then(
+            (module) => module.ComfortHeatmapHarness
+          )
+      }
+    ];
 
 export const routes: Routes = [
   { path: '', component: Hero },
@@ -23,5 +36,6 @@ export const routes: Routes = [
     redirectTo: 'cpaplibrary/masks/:maskSlug',
     pathMatch: 'full'
   },
+  ...developmentRoutes,
   { path: '**', redirectTo: '' }
 ];

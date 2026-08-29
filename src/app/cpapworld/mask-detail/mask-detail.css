@@ -1945,86 +1945,6 @@ td a {
   font-weight: 700;
 }
 
-.body-area-columns {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 22px;
-}
-
-.body-area-column-title {
-  margin-bottom: 12px;
-  font-size: 17px;
-}
-
-.comfort-title {
-  color: #21683b;
-}
-
-.discomfort-title {
-  color: #963726;
-}
-
-.mixed-title {
-  color: #6a0dad;
-}
-
-.hotspot-grid {
-  display: grid;
-  gap: 12px;
-}
-
-.hotspot-card {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: 14px;
-  align-items: center;
-  padding: 18px;
-  border: 1px solid rgba(150, 55, 38, 0.12);
-  border-radius: 14px;
-  background: linear-gradient(120deg, #fff7f5, #fff);
-}
-
-.comfort-card {
-  border-color: rgba(33, 104, 59, 0.14);
-  background: linear-gradient(120deg, #f3faf5, #fff);
-}
-
-.comfort-card .hotspot-rank {
-  background: #e4f5e9;
-  color: #21683b;
-}
-
-.mixed-card {
-  border-color: rgba(106, 13, 173, 0.14);
-  background: linear-gradient(120deg, #faf5fd, #fff);
-}
-
-.mixed-card .hotspot-rank {
-  background: #f0e4f7;
-  color: #6a0dad;
-}
-
-.hotspot-rank {
-  display: grid;
-  width: 34px;
-  height: 34px;
-  place-items: center;
-  border-radius: 50%;
-  background: #feeae7;
-  color: #963726;
-  font-weight: 850;
-}
-
-.hotspot-card h3 {
-  font-size: 16px;
-}
-
-.hotspot-card p,
-.hotspot-card small {
-  color: var(--muted-foreground);
-  font-size: 12px;
-}
-
 .aspect-list {
   display: flex;
   flex-wrap: wrap;
@@ -2154,8 +2074,6 @@ td a {
   .dimension-grid,
   .interaction-grid,
   .context-columns,
-  .body-area-columns,
-  .hotspot-grid,
   .aspect-list,
   .evidence-columns,
   .part-aspect-columns {
@@ -2363,14 +2281,6 @@ td a {
 
   .context-card blockquote {
     grid-column: 1;
-  }
-
-  .hotspot-card {
-    grid-template-columns: auto minmax(0, 1fr);
-  }
-
-  .hotspot-card > strong {
-    grid-column: 2;
   }
 
   /* Convert the desktop comparison table into compact, tappable price rows. */
