@@ -9,6 +9,7 @@ import {
   buildMaskComparison,
   COMPARISON_RULES_VERSION,
   DEFAULT_COMPARISON_CRITERIA,
+  describePriceConfiguration,
   MaskComparisonModel
 } from './comparison-model';
 import { ComparisonSummary, ComparisonSummaryService } from './comparison-summary.service';
@@ -44,6 +45,7 @@ export class ComparePage {
     });
   });
   private loaded: LoadedComparison | null = null;
+  private summaryRequestId = 0;
 
   constructor(
     route: ActivatedRoute,
@@ -114,19 +116,26 @@ export class ComparePage {
     return `${Math.round(value * 100)}%`;
   }
 
+  protected formatSeverity(value: number): string {
+    return `${Math.round(value)}%`;
+  }
+
+  protected readonly describePriceConfiguration = describePriceConfiguration;
+
   private requestSummary(mask1: string, mask2: string): void {
+    const requestId = ++this.summaryRequestId;
     this.summaryState.set('loading');
     this.summaries
       .getSummary(mask1, mask2, COMPARISON_RULES_VERSION)
       .pipe(
         takeUntilDestroyed(this.destroyRef),
         catchError(() => {
-          this.summaryState.set('error');
+          if (requestId === this.summaryRequestId) this.summaryState.set('error');
           return of(null);
         })
       )
       .subscribe((result) => {
-        if (!result) return;
+        if (!result || requestId !== this.summaryRequestId) return;
         this.summary.set(result.summary);
         this.summaryState.set('ready');
       });
@@ -146,6 +155,7 @@ export class ComparePage {
   }
 
   private reset(): void {
+    this.summaryRequestId += 1;
     this.loading.set(true);
     this.error.set('');
     this.model.set(null);

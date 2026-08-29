@@ -3,19 +3,15 @@ import { inject, Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
 import { environment } from '../../../environments/environment';
+import {
+  ComparisonSummaryRequest,
+  ComparisonSummaryResponse
+} from '../../../../shared/comparison-model';
 
-export interface ComparisonSummary {
-  decisionTakeaway: string;
-  reasonsToPreferMask1: string[];
-  reasonsToPreferMask2: string[];
-  similarities: string[];
-  importantUncertainties: string[];
-}
-
-export interface ComparisonSummaryResponse {
-  source: 'cache' | 'generated';
-  summary: ComparisonSummary;
-}
+export type {
+  ComparisonSummary,
+  ComparisonSummaryResponse
+} from '../../../../shared/comparison-model';
 
 @Injectable({ providedIn: 'root' })
 export class ComparisonSummaryService {
@@ -27,10 +23,11 @@ export class ComparisonSummaryService {
     mask2: string,
     comparisonRevision: string
   ): Observable<ComparisonSummaryResponse> {
-    return this.http.post<ComparisonSummaryResponse>(this.endpoint, {
+    const request: ComparisonSummaryRequest = {
       mask1,
       mask2,
       comparisonRevision
-    });
+    };
+    return this.http.post<ComparisonSummaryResponse>(this.endpoint, request);
   }
 }

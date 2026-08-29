@@ -193,7 +193,7 @@ describe('ComparePage', () => {
         ...dimension('nose', 'Nose', 70),
         complaintReviews: 5,
         complaintShare: 0.05,
-        complaintSeverity: 0.4,
+        complaintSeverity: 40,
         complaintAspects: [],
         involvedParts: []
       }];
@@ -203,6 +203,36 @@ describe('ComparePage', () => {
     fixture.detectChanges();
 
     expect(fixture.nativeElement.textContent).toContain('Complaint severity 40%');
+  });
+
+  it('ignores a summary response from a previous mask pair', () => {
+    const currentSummary = new Subject<ComparisonSummaryResponse>();
+    summaries.getSummary.and.returnValue(currentSummary);
+    queryParams.next(convertToParamMap({ mask1: 'mask-b', mask2: 'mask-a' }));
+    currentSummary.next({
+      source: 'generated',
+      summary: {
+        decisionTakeaway: 'Current pair takeaway',
+        reasonsToPreferMask1: [],
+        reasonsToPreferMask2: [],
+        similarities: [],
+        importantUncertainties: []
+      }
+    });
+    summaryResult.next({
+      source: 'generated',
+      summary: {
+        decisionTakeaway: 'Stale pair takeaway',
+        reasonsToPreferMask1: [],
+        reasonsToPreferMask2: [],
+        similarities: [],
+        importantUncertainties: []
+      }
+    });
+    fixture.detectChanges();
+
+    expect(fixture.nativeElement.textContent).toContain('Current pair takeaway');
+    expect(fixture.nativeElement.textContent).not.toContain('Stale pair takeaway');
   });
 
   it('renders a structured summary and changing criteria does not request another summary', () => {
@@ -276,6 +306,9 @@ describe('ComparePage', () => {
     expect(toggle.checked).toBeTrue();
     expect(fixture.nativeElement.querySelector('.comparison-pricing')?.textContent).toContain(
       '$99.00'
+    );
+    expect(fixture.nativeElement.querySelector('.comparison-pricing')?.textContent).toContain(
+      'Standard · Size Medium'
     );
 
     toggle.click();

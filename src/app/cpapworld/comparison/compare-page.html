@@ -203,7 +203,7 @@
                       @if (side; as area) {
                         <strong>{{ formatPercent(area.positiveProportion) }} comfort</strong>
                         <span>{{ formatPercent(area.complaintProportion) }} complaint reports · {{ area.labels.join(' · ') }}</span>
-                        <span>Complaint severity {{ formatPercent(area.complaintSeverity) }}</span>
+                        <span>Complaint severity {{ formatSeverity(area.complaintSeverity) }}</span>
                         <small>{{ area.relevantReviews }} relevant reports · {{ area.finding.evidenceStrength }} evidence</small>
                       } @else { <strong>Unavailable</strong><span>No matching evidence</span> }
                     </div>
@@ -239,7 +239,7 @@
               <div class="price-card">
                 @if (side.offer; as offer) {
                   <strong>{{ offer.price }}</strong><span>{{ offer.retailer }}</span>
-                  <small>{{ offer.configuration.offerType === 'complete' ? 'Complete mask with headgear' : 'Mask without headgear' }} · observed {{ formatDate(offer.observedAt) }}</small>
+                  <small>{{ describePriceConfiguration(offer) }} · observed {{ formatDate(offer.observedAt) }}</small>
                 } @else { <strong>No comparable offer</strong><span>{{ side.message }}</span> }
               </div>
             }

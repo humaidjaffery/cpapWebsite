@@ -7,6 +7,9 @@ import {
   ContextFinding,
   ComparisonBodySide,
   ComparisonMaskHeader,
+  ComparisonSummary,
+  ComparisonSummaryRequest,
+  describePriceConfiguration,
   LIMITED_COMPARISON_REVIEWS,
   MaskProfile,
   MEANINGFUL_COMPARISON_DIFFERENCE,
@@ -15,9 +18,9 @@ import {
   MetricFinding,
   PartFinding,
   RetailerPriceOffer,
-} from "./comparison-model";
+} from "../../shared/comparison-model";
 
-export { COMPARISON_RULES_VERSION } from "./comparison-model";
+export { COMPARISON_RULES_VERSION } from "../../shared/comparison-model";
 export const COMPARISON_PROMPT_VERSION = "comparison-summary-v2";
 
 export interface SourceFinding {
@@ -38,14 +41,7 @@ export interface SourceFinding {
   complaintSeverity?: number;
 }
 
-export interface SourceOffer {
-  retailer: string;
-  price: string;
-  priceCents: number;
-  inStock: boolean;
-  observedAt: string;
-  configuration: { headgearIncluded: boolean | null; offerType: string };
-}
+export interface SourceOffer extends RetailerPriceOffer {}
 
 export interface MaskSourceRecord {
   revision: string;
@@ -66,13 +62,7 @@ export interface MaskSourceRecord {
   } | null;
 }
 
-export interface ComparisonSummary {
-  decisionTakeaway: string;
-  reasonsToPreferMask1: string[];
-  reasonsToPreferMask2: string[];
-  similarities: string[];
-  importantUncertainties: string[];
-}
+export type { ComparisonSummary } from "../../shared/comparison-model";
 
 export interface CuratedComparisonInput {
   masks: Array<{
@@ -123,11 +113,15 @@ interface CuratedFinding {
   reviewShare?: number;
   complaintSeverity?: number;
   category?: string;
+  positiveReviews?: number;
+  negativeReviews?: number;
+  complaintReviews?: number;
 }
 
 interface CuratedPrice {
   retailer: string;
   price: string;
+  configuration: string;
   observedAt: string;
 }
 
@@ -158,7 +152,7 @@ export interface ComparisonDependencies {
 }
 
 export async function getComparisonSummary(
-  request: { mask1: string; mask2: string; comparisonRevision: string },
+  request: ComparisonSummaryRequest,
   dependencies: ComparisonDependencies,
 ): Promise<{ source: "cache" | "generated"; summary: ComparisonSummary }> {
   validateRequest(request);
@@ -268,11 +262,7 @@ export function buildCuratedComparisonInput(
   };
 }
 
-function validateRequest(request: {
-  mask1: string;
-  mask2: string;
-  comparisonRevision: string;
-}): void {
+function validateRequest(request: ComparisonSummaryRequest): void {
   const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
   if (
     !slugPattern.test(request.mask1) ||
@@ -372,7 +362,12 @@ function curatedBodySide(side: ComparisonBodySide): CuratedFinding {
 
 function curatedPrice(offer: RetailerPriceOffer | null): CuratedPrice | null {
   return offer
-    ? { retailer: offer.retailer, price: offer.price, observedAt: offer.observedAt }
+    ? {
+        retailer: offer.retailer,
+        price: offer.price,
+        configuration: describePriceConfiguration(offer),
+        observedAt: offer.observedAt,
+      }
     : null;
 }
 
@@ -395,6 +390,15 @@ function coreFinding(finding: SourceFinding): CuratedFinding {
     ...(typeof finding.complaintSeverity === "number"
       ? { complaintSeverity: finding.complaintSeverity }
       : {}),
+    ...(typeof finding.positiveReviews === "number"
+      ? { positiveReviews: finding.positiveReviews }
+      : {}),
+    ...(typeof finding.negativeReviews === "number"
+      ? { negativeReviews: finding.negativeReviews }
+      : {}),
+    ...(typeof finding.complaintReviews === "number"
+      ? { complaintReviews: finding.complaintReviews }
+      : {}),
   };
 }
 
@@ -416,10 +420,18 @@ function fingerprint(record: MaskSourceRecord): string {
           generatedAt: record.prices.generatedAt,
           offers: record.prices.offers.map((offer) => ({
             retailer: offer.retailer,
+            price: offer.price,
             priceCents: offer.priceCents,
             inStock: offer.inStock,
             observedAt: offer.observedAt,
             headgearIncluded: offer.configuration.headgearIncluded,
+            offerType: offer.configuration.offerType,
+            variantName: offer.variantName ?? null,
+            size: offer.configuration.size ?? null,
+            frameSize: offer.configuration.frameSize ?? null,
+            headgearSize: offer.configuration.headgearSize ?? null,
+            fitPack: offer.configuration.fitPack ?? null,
+            options: offer.configuration.options ?? [],
           })),
         }
       : null,

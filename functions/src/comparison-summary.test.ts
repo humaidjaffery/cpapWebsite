@@ -52,7 +52,19 @@ function mask(slug: string, revision: string, score: number): MaskSourceRecord {
     },
     prices: {
       generatedAt: revision,
-      offers: [],
+      offers: [{
+        retailer: "Example Store",
+        price: "$99.00",
+        priceCents: 9900,
+        inStock: true,
+        observedAt: "2026-08-20T00:00:00Z",
+        variantName: "Standard",
+        configuration: {
+          headgearIncluded: true,
+          offerType: "complete",
+          size: "Medium",
+        },
+      }],
     },
   };
 }
@@ -215,6 +227,30 @@ test("invalidates cache when component review share changes without a source rev
   const original = harness.cache.get("mask-a__mask-b")!;
   const changedMask = mask("mask-a", "revision-a", 85);
   changedMask.profile.parts[0].reviewShare = 0.9;
+  const changed = dependencies(new Map([
+    ["mask-a", changedMask],
+    ["mask-b", mask("mask-b", "revision-b", 75)],
+  ]));
+  changed.cache.set("mask-a__mask-b", original);
+
+  await getComparisonSummary(
+    { mask1: "mask-a", mask2: "mask-b", comparisonRevision: COMPARISON_RULES_VERSION },
+    changed.dependencies,
+  );
+
+  assert.equal(changed.generatedInputs.length, 1);
+});
+
+test("invalidates cache when aggregate counts or displayed price change without a revision change", async () => {
+  const harness = dependencies();
+  await getComparisonSummary(
+    { mask1: "mask-a", mask2: "mask-b", comparisonRevision: COMPARISON_RULES_VERSION },
+    harness.dependencies,
+  );
+  const original = harness.cache.get("mask-a__mask-b")!;
+  const changedMask = mask("mask-a", "revision-a", 85);
+  changedMask.profile.dimensions[0].positiveReviews = 19;
+  changedMask.prices!.offers[0].price = "$99.99";
   const changed = dependencies(new Map([
     ["mask-a", changedMask],
     ["mask-b", mask("mask-b", "revision-b", 75)],

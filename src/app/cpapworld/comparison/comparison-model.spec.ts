@@ -270,7 +270,7 @@ describe('buildMaskComparison', () => {
       negativeReviews: 10,
       complaintReviews: 10,
       complaintShare: 0.1,
-      complaintSeverity: 0.3,
+      complaintSeverity: 30,
       complaintAspects: [],
       involvedParts: []
     } satisfies BodySiteFinding;
@@ -280,7 +280,7 @@ describe('buildMaskComparison', () => {
       negativeReviews: 12,
       complaintReviews: 12,
       complaintShare: 0.12,
-      complaintSeverity: 0.5,
+      complaintSeverity: 50,
       complaintAspects: [],
       involvedParts: []
     } satisfies BodySiteFinding;
@@ -296,8 +296,8 @@ describe('buildMaskComparison', () => {
     expect(model.contexts[0].right?.group).toBe('Mixed results');
     expect(model.bodyAreas[0].left?.positiveProportion).toBe(0.75);
     expect(model.bodyAreas[0].right?.positiveProportion).toBe(0.4);
-    expect(model.bodyAreas[0].left?.complaintSeverity).toBe(0.3);
-    expect(model.bodyAreas[0].right?.complaintSeverity).toBe(0.5);
+    expect(model.bodyAreas[0].left?.complaintSeverity).toBe(30);
+    expect(model.bodyAreas[0].right?.complaintSeverity).toBe(50);
     expect(model.bodyAreas[0].left?.state).toBe('higher');
     expect(model.bodyAreas[0].right?.state).toBe('lower');
   });

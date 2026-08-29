@@ -23,6 +23,25 @@ export interface MetricFinding {
   negativeEvidence: EvidenceExcerpt[];
 }
 
+export interface ComparisonSummary {
+  decisionTakeaway: string;
+  reasonsToPreferMask1: string[];
+  reasonsToPreferMask2: string[];
+  similarities: string[];
+  importantUncertainties: string[];
+}
+
+export interface ComparisonSummaryResponse {
+  source: 'cache' | 'generated';
+  summary: ComparisonSummary;
+}
+
+export interface ComparisonSummaryRequest {
+  mask1: string;
+  mask2: string;
+  comparisonRevision: string;
+}
+
 export interface PartFinding extends MetricFinding {}
 
 export interface ContextFinding extends MetricFinding {
@@ -47,11 +66,22 @@ export interface MaskProfile {
 
 export interface RetailerPriceOffer {
   retailer: string;
+  productName?: string;
+  variantName?: string;
   price: string;
   priceCents: number;
   inStock: boolean;
   observedAt: string;
-  configuration: { headgearIncluded: boolean | null; offerType: string };
+  configurationNote?: string;
+  configuration: {
+    headgearIncluded: boolean | null;
+    offerType: string;
+    size?: string | null;
+    frameSize?: string | null;
+    headgearSize?: string | null;
+    fitPack?: boolean;
+    options?: Array<{ name: string; value: string }>;
+  };
 }
 
 export interface MaskPrices {
@@ -262,10 +292,7 @@ function alignFindings(
   leftFindings: MetricFinding[],
   rightFindings: MetricFinding[]
 ): AlignedComparisonFinding[] {
-  const ids = orderedUnion(leftFindings, rightFindings);
-  return ids.map((id) => {
-    const leftFinding = leftFindings.find((finding) => finding.id === id) ?? null;
-    const rightFinding = rightFindings.find((finding) => finding.id === id) ?? null;
+  return alignById(leftFindings, rightFindings).map(({ id, left: leftFinding, right: rightFinding }) => {
     const label = leftFinding?.label ?? rightFinding?.label ?? id;
     const [left, right] = classifyFindings(leftFinding, rightFinding);
     return { id, label, left, right };
@@ -332,9 +359,7 @@ function alignContexts(
   leftContexts: ContextFinding[],
   rightContexts: ContextFinding[]
 ): AlignedComparisonContext[] {
-  return orderedUnion(leftContexts, rightContexts).map((id) => {
-    const leftFinding = leftContexts.find((finding) => finding.id === id) ?? null;
-    const rightFinding = rightContexts.find((finding) => finding.id === id) ?? null;
+  return alignById(leftContexts, rightContexts).map(({ id, left: leftFinding, right: rightFinding }) => {
     return {
       id,
       label: leftFinding?.label ?? rightFinding?.label ?? id,
@@ -373,9 +398,7 @@ function alignBodyAreas(
   leftAreas: BodySiteFinding[],
   rightAreas: BodySiteFinding[]
 ): AlignedBodyArea[] {
-  return orderedUnion(leftAreas, rightAreas).map((id) => {
-    const leftFinding = leftAreas.find((finding) => finding.id === id) ?? null;
-    const rightFinding = rightAreas.find((finding) => finding.id === id) ?? null;
+  return alignById(leftAreas, rightAreas).map(({ id, left: leftFinding, right: rightFinding }) => {
     const left = leftFinding ? bodySide(leftFinding) : null;
     const right = rightFinding ? bodySide(rightFinding) : null;
     classifyBodySides(left, right);
@@ -503,8 +526,31 @@ function comparisonPrice(
       };
 }
 
-function orderedUnion<T extends { id: string }>(left: T[], right: T[]): string[] {
-  return [...new Set([...left.map((item) => item.id), ...right.map((item) => item.id)])];
+function alignById<T extends { id: string }>(
+  left: T[],
+  right: T[]
+): Array<{ id: string; left: T | null; right: T | null }> {
+  const leftById = new Map(left.map((item) => [item.id, item]));
+  const rightById = new Map(right.map((item) => [item.id, item]));
+  return [...new Set([...leftById.keys(), ...rightById.keys()])].map((id) => ({
+    id,
+    left: leftById.get(id) ?? null,
+    right: rightById.get(id) ?? null
+  }));
+}
+
+export function describePriceConfiguration(offer: RetailerPriceOffer): string {
+  const configuration = offer.configuration;
+  const details = [
+    offer.variantName,
+    configuration.size ? `Size ${configuration.size}` : null,
+    configuration.frameSize ? `Frame ${configuration.frameSize}` : null,
+    configuration.headgearSize ? `Headgear ${configuration.headgearSize}` : null,
+    configuration.fitPack ? 'Fit pack' : null,
+    ...(configuration.options ?? []).map((option) => `${option.name}: ${option.value}`)
+  ].filter((detail): detail is string => Boolean(detail));
+  return details.join(' · ') ||
+    (configuration.offerType === 'complete' ? 'Complete mask with headgear' : 'Mask without headgear');
 }
 
 function proportion(value: number, total: number): number {

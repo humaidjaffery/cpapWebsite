@@ -1,1 +1,1 @@
-export * from '../../../../functions/src/comparison-model';
+export * from '../../../../shared/comparison-model';
