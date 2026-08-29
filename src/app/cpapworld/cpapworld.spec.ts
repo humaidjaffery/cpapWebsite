@@ -5,6 +5,7 @@ import { of } from 'rxjs';
 import { MaskIndex } from './mask-data';
 import { MaskDataService } from './mask-data.service';
 import { CpapWorld } from './cpapworld';
+import { ComparisonSelectionService } from './comparison/comparison-selection.service';
 
 const INDEX: MaskIndex = {
   schemaVersion: 3,
@@ -122,6 +123,7 @@ describe('CpapWorld', () => {
   let fixture: ComponentFixture<CpapWorld>;
 
   beforeEach(async () => {
+    sessionStorage.clear();
     await TestBed.configureTestingModule({
       imports: [CpapWorld],
       providers: [
@@ -206,6 +208,31 @@ describe('CpapWorld', () => {
     expect(cta.textContent).toContain('Win Lifetime Free Custom Masks!');
     expect(cta.getAttribute('href')).toBe('/');
     expect(fixture.nativeElement.querySelector('.header-waitlist input')).toBeNull();
+  });
+
+  it('selects catalog cards in comparison mode and keeps the tray accessible', () => {
+    const element: HTMLElement = fixture.nativeElement;
+    const selection = TestBed.inject(ComparisonSelectionService);
+
+    (element.querySelector('button[aria-label="Compare masks"]') as HTMLButtonElement).click();
+    fixture.detectChanges();
+
+    const card = element.querySelector('.mask-card-shell');
+    const control = card?.querySelector<HTMLButtonElement>('button[aria-label*="Select ResMed"]');
+    expect(card?.classList).toContain('mask-card-selectable');
+    expect(control?.getAttribute('aria-pressed')).toBe('false');
+
+    control?.click();
+    fixture.detectChanges();
+
+    expect(selection.selected().map((mask) => mask.slug)).toEqual(['resmed-airfit-p10']);
+    expect(card?.classList).toContain('mask-card-selected');
+    expect(control?.getAttribute('aria-pressed')).toBe('true');
+    expect(element.querySelector('.comparison-tray')?.textContent).toContain('ResMed AirFit P10');
+    expect(element.querySelector('.comparison-tray img')?.getAttribute('src')).toBe(
+      '/images/masks/resmed-airfit-p10.webp'
+    );
+    expect(element.querySelector('.comparison-tray [aria-label="Compare selected masks"]')).toBeNull();
   });
 
   it('filters masks by abbreviation, alias, and mask type', () => {

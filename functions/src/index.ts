@@ -3,10 +3,20 @@ import { initializeApp } from "firebase-admin/app";
 import { FieldValue, getFirestore, Timestamp } from "firebase-admin/firestore";
 import { onDocumentCreated, onDocumentUpdated } from "firebase-functions/v2/firestore";
 import { onSchedule } from "firebase-functions/v2/scheduler";
+import { onRequest } from "firebase-functions/v2/https";
 import { defineSecret, defineString } from "firebase-functions/params";
 import { logger } from "firebase-functions";
 import { sendMailerooTemplateEmail } from "./maileroo";
-import { generateEmailPhrases } from "./openai";
+import { generateComparisonSummary, generateEmailPhrases } from "./openai";
+import {
+  FirestoreComparisonCache,
+  PublishedMaskDataSource,
+  PublishedMaskNotFoundError,
+} from "./comparison-adapters";
+import {
+  COMPARISON_RULES_VERSION,
+  getComparisonSummary,
+} from "./comparison-summary";
 import {
   errorToMessage,
   extractEmail,
@@ -28,6 +38,9 @@ const MAILEROO_FROM_ADDRESS = defineString("MAILEROO_FROM_ADDRESS", {
 });
 const MAILEROO_FROM_NAME = defineString("MAILEROO_FROM_NAME", { default: "Shaheer Rehman" });
 const MAILEROO_REPLY_TO_ADDRESS = defineString("MAILEROO_REPLY_TO_ADDRESS", { default: "shaheerkr77@gmail.com" });
+const CPAP_DATA_BASE_URL = defineString("CPAP_DATA_BASE_URL", {
+  default: "https://cpapwebsite.web.app/data",
+});
 
 const EMAIL_SUBJECT_PREFIX = "Your CPAP survey: ";
 const MIN_EMAIL_SEND_DELAY_MINUTES = 1;
@@ -39,6 +52,87 @@ const GENERIC_USER_SUGGESTION =
   "your interest in a CPAP mask designed around a more comfortable, reliable fit";
 const GENERIC_USER_PAST_EXPERIENCE =
   "the fit, comfort, and seal issues that can make standard CPAP masks frustrating";
+
+const COMPARISON_ORIGINS = new Set([
+  "https://dreamseals.com",
+  "https://www.dreamseals.com",
+  "https://cpapwebsite.web.app",
+  "http://localhost:4200",
+]);
+
+export const getMaskComparisonSummary = onRequest(
+  {
+    region: "us-central1",
+    secrets: [OPENAI_API_KEY],
+    timeoutSeconds: 120,
+    memory: "512MiB",
+  },
+  async (request, response) => {
+    const origin = request.get("origin");
+    if (origin && !COMPARISON_ORIGINS.has(origin)) {
+      response.status(403).json({ error: "Origin is not allowed" });
+      return;
+    }
+    if (origin) {
+      response.set("Access-Control-Allow-Origin", origin);
+      response.set("Vary", "Origin");
+    }
+    response.set("Access-Control-Allow-Headers", "Content-Type");
+    response.set("Access-Control-Allow-Methods", "POST, OPTIONS");
+    if (request.method === "OPTIONS") {
+      response.status(204).send("");
+      return;
+    }
+    if (request.method !== "POST") {
+      response.status(405).json({ error: "Method not allowed" });
+      return;
+    }
+
+    const body = request.body as Partial<{
+      mask1: string;
+      mask2: string;
+      comparisonRevision: string;
+    }>;
+    try {
+      const result = await getComparisonSummary(
+        {
+          mask1: typeof body.mask1 === "string" ? body.mask1 : "",
+          mask2: typeof body.mask2 === "string" ? body.mask2 : "",
+          comparisonRevision:
+            typeof body.comparisonRevision === "string" ? body.comparisonRevision : "",
+        },
+        {
+          data: new PublishedMaskDataSource(CPAP_DATA_BASE_URL.value().replace(/\/$/, "")),
+          cache: new FirestoreComparisonCache(getFirestore()),
+          openai: {
+            generate: (comparison) =>
+              generateComparisonSummary({
+                apiKey: OPENAI_API_KEY.value(),
+                model: OPENAI_MODEL.value(),
+                comparison,
+              }),
+          },
+        },
+      );
+      response.status(200).json(result);
+    } catch (error) {
+      if (error instanceof PublishedMaskNotFoundError) {
+        response.status(404).json({ error: "One or both masks could not be found" });
+        return;
+      }
+      if (error instanceof Error && error.message === "Invalid comparison request") {
+        response.status(400).json({
+          error: `Request must contain two different published mask slugs and revision ${COMPARISON_RULES_VERSION}`,
+        });
+        return;
+      }
+      logger.error("Failed to generate mask comparison summary", {
+        error: errorToMessage(error),
+      });
+      response.status(503).json({ error: "Comparison summary is temporarily unavailable" });
+    }
+  },
+);
 
 export const initializeWaitlistEmailStatus = onDocumentCreated(
   {

@@ -7,6 +7,7 @@ import { MaskDataService } from '../mask-data.service';
 import { RetailerIndex } from '../retailer-data';
 import { RetailerDataService } from '../retailer-data.service';
 import { MaskDetail } from './mask-detail';
+import { ComparisonSelectionService } from '../comparison/comparison-selection.service';
 
 const PROFILE: MaskProfile = {
   schemaVersion: 3,
@@ -332,6 +333,7 @@ describe('MaskDetail', () => {
   let data: jasmine.SpyObj<MaskDataService>;
 
   beforeEach(async () => {
+    sessionStorage.clear();
     params = new BehaviorSubject(convertToParamMap({ maskSlug: PROFILE.slug }));
     data = jasmine.createSpyObj<MaskDataService>('MaskDataService', [
       'getProfile',
@@ -467,6 +469,20 @@ describe('MaskDetail', () => {
     expect(data.getProfile).toHaveBeenCalledWith(PROFILE.slug);
     expect(data.getGallery).toHaveBeenCalledWith(PROFILE.slug);
     expect(data.getPrices).toHaveBeenCalledWith(PROFILE.slug);
+  });
+
+  it('selects this mask for comparison from the analysis page', () => {
+    const element: HTMLElement = fixture.nativeElement;
+    const control = element.querySelector<HTMLButtonElement>(
+      'button[aria-label="Select this mask for comparison"]'
+    );
+
+    expect(control?.textContent).toContain('Select this mask for comparison');
+    control?.click();
+    fixture.detectChanges();
+
+    expect(TestBed.inject(ComparisonSelectionService).selected()[0].slug).toBe(PROFILE.slug);
+    expect(element.querySelector('.comparison-tray')?.textContent).toContain(PROFILE.name);
   });
 
   it('renders every gallery image and advances the carousel', () => {

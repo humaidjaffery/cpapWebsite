@@ -1,9 +1,15 @@
 import { SanitizedSurvey } from "./survey";
+import { ComparisonSummary, CuratedComparisonInput } from "./comparison-summary";
 
 export interface OpenAiEmailPhraseResult {
   userSuggestion: string;
   userPastExperience: string;
   emailSubject: string;
+  responseId: string;
+}
+
+export interface OpenAiComparisonResult {
+  summary: ComparisonSummary;
   responseId: string;
 }
 
@@ -18,6 +24,96 @@ interface OpenAiResponse {
 }
 
 const OPENAI_RESPONSES_URL = "https://api.openai.com/v1/responses";
+
+export async function generateComparisonSummary(params: {
+  apiKey: string;
+  model: string;
+  comparison: CuratedComparisonInput;
+}): Promise<OpenAiComparisonResult> {
+  const response = await fetch(OPENAI_RESPONSES_URL, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${params.apiKey}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      model: params.model,
+      instructions: [
+        "Write a concise, evidence-grounded CPAP mask comparison.",
+        "Use only the supplied curated facts. Do not calculate new winners or infer medical suitability.",
+        "Explain reasons a shopper might prefer either mask without declaring a universal winner.",
+        "Treat missing findings as unknown, not negative evidence.",
+        "Mention limited evidence and cross-type uncertainty when supplied.",
+        "Keep every list item short and avoid recommendations or clinical claims.",
+      ].join(" "),
+      input: [
+        {
+          role: "user",
+          content: JSON.stringify({
+            task: "Explain the central tradeoffs in this deterministic comparison.",
+            comparison: params.comparison,
+          }),
+        },
+      ],
+      text: {
+        format: {
+          type: "json_schema",
+          name: "cpap_mask_comparison_summary",
+          strict: true,
+          schema: {
+            type: "object",
+            additionalProperties: false,
+            properties: {
+              decisionTakeaway: { type: "string", minLength: 20, maxLength: 600 },
+              reasonsToPreferMask1: {
+                type: "array",
+                minItems: 0,
+                maxItems: 4,
+                items: { type: "string", minLength: 3, maxLength: 180 },
+              },
+              reasonsToPreferMask2: {
+                type: "array",
+                minItems: 0,
+                maxItems: 4,
+                items: { type: "string", minLength: 3, maxLength: 180 },
+              },
+              similarities: {
+                type: "array",
+                minItems: 0,
+                maxItems: 4,
+                items: { type: "string", minLength: 3, maxLength: 180 },
+              },
+              importantUncertainties: {
+                type: "array",
+                minItems: 0,
+                maxItems: 4,
+                items: { type: "string", minLength: 3, maxLength: 180 },
+              },
+            },
+            required: [
+              "decisionTakeaway",
+              "reasonsToPreferMask1",
+              "reasonsToPreferMask2",
+              "similarities",
+              "importantUncertainties",
+            ],
+          },
+        },
+      },
+      max_output_tokens: 700,
+      store: false,
+    }),
+  });
+
+  const responseBody = await response.text();
+  if (!response.ok) {
+    throw new Error(`OpenAI request failed (${response.status})`);
+  }
+
+  const parsed = JSON.parse(responseBody) as OpenAiResponse;
+  const summary = JSON.parse(extractOutputText(parsed)) as ComparisonSummary;
+  return { summary, responseId: parsed.id ?? "" };
+}
 
 export async function generateEmailPhrases(params: {
   apiKey: string;

@@ -45,6 +45,22 @@
           <h1 id="mask-name">{{ mask.name }}</h1>
         </div>
 
+        <div class="hero-comparison-row">
+          <button
+            type="button"
+            class="select-comparison-button"
+            aria-label="Select this mask for comparison"
+            [attr.aria-pressed]="isSelectedForComparison(mask.slug)"
+            (click)="selectForComparison(mask)"
+          >
+            {{
+              isSelectedForComparison(mask.slug)
+                ? 'Selected for comparison'
+                : 'Select this mask for comparison'
+            }}
+          </button>
+        </div>
+
         <div class="coverage-facts" aria-label="Review coverage">
           <span>
             <strong>{{ formatCount(mask.coverage.processedReviews) }}</strong> reviews analyzed
@@ -926,5 +942,8 @@
       }
     </div>
   }
-  <app-custom-mask-popup />
+  <app-comparison-controls />
+  @if (!comparison.active()) {
+    <app-custom-mask-popup />
+  }
 </main>

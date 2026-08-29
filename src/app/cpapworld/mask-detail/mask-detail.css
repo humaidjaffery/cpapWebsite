@@ -167,6 +167,29 @@
   text-decoration: none;
 }
 
+.hero-comparison-row {
+  display: flex;
+  justify-content: center;
+}
+
+.select-comparison-button {
+  min-height: 40px;
+  padding: 0 15px;
+  border: 1px solid rgba(106, 13, 173, 0.24);
+  border-radius: 999px;
+  background: #f7f0fb;
+  color: #681e91;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.select-comparison-button[aria-pressed='true'] {
+  background: #6a0dad;
+  color: #fff;
+}
+
 .hero-showcase {
   display: grid;
   grid-template-columns: minmax(0, 1.35fr) minmax(360px, 0.8fr);

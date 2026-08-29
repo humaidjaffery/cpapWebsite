@@ -1,4 +1,4 @@
-import { Component, computed, signal } from '@angular/core';
+import { Component, computed, inject, signal } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { forkJoin } from 'rxjs';
 
@@ -7,14 +7,17 @@ import { MaskDataService } from './mask-data.service';
 import { CustomMaskPopup } from '../custom-mask-popup/custom-mask-popup';
 import { WaitlistSignup } from '../waitlist-signup/waitlist-signup';
 import { randomCustomMaskImage } from '../custom-mask-image';
+import { ComparisonControls } from './comparison/comparison-controls';
+import { ComparisonSelectionService } from './comparison/comparison-selection.service';
 
 @Component({
   selector: 'app-cpapworld',
-  imports: [RouterLink, CustomMaskPopup, WaitlistSignup],
+  imports: [RouterLink, CustomMaskPopup, WaitlistSignup, ComparisonControls],
   templateUrl: './cpapworld.html',
   styleUrl: './cpapworld.css'
 })
 export class CpapWorld {
+  protected readonly comparison = inject(ComparisonSelectionService);
   protected readonly maskTypes = ['Full Face', 'Nasal', 'Nasal Pillow', 'Hybrid'];
   protected readonly customMaskImage = randomCustomMaskImage();
   protected readonly masks = signal<MaskIndexItem[]>([]);
@@ -175,6 +178,29 @@ export class CpapWorld {
       return 'No eligible review evidence';
     }
     return 'Analysis in progress';
+  }
+
+  protected isSelectedForComparison(slug: string): boolean {
+    return this.comparison.selected().some((mask) => mask.slug === slug);
+  }
+
+  protected selectForComparison(mask: MaskIndexItem): void {
+    if (this.isSelectedForComparison(mask.slug)) {
+      this.comparison.remove(mask.slug);
+      return;
+    }
+    this.comparison.select({
+      slug: mask.slug,
+      name: mask.name,
+      imageUrl: `/images/masks/${mask.slug}.webp`,
+      processedReviews: mask.coverage.processedReviews
+    });
+  }
+
+  protected handleMaskCard(event: MouseEvent, mask: MaskIndexItem): void {
+    if (!this.comparison.active()) return;
+    event.preventDefault();
+    this.selectForComparison(mask);
   }
 
   private searchScore(mask: MaskIndexItem, query: string): number | null {

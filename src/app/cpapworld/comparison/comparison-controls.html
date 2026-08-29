@@ -1,0 +1,53 @@
+@if (!selection.active()) {
+  <button
+    type="button"
+    class="compare-launcher"
+    aria-label="Compare masks"
+    (click)="selection.enter()"
+  >
+    <span class="compare-launcher-icon" aria-hidden="true">⇄</span>
+    <span><strong>Compare masks</strong><small>See differences side by side</small></span>
+  </button>
+} @else {
+  <aside class="comparison-tray" aria-label="Selected masks for comparison">
+    @if (selection.warning()) {
+      <p class="comparison-warning" role="status">{{ selection.warning() }}</p>
+    }
+
+    <div class="comparison-tray-content">
+      <strong class="comparison-tray-title">Compare masks</strong>
+      <div class="comparison-slots">
+        @for (mask of selection.selected(); track mask.slug) {
+          <div class="comparison-slot comparison-slot-filled">
+            <img [src]="mask.imageUrl" alt="" width="44" height="44" />
+            <span>{{ mask.name }}</span>
+            <button
+              type="button"
+              aria-label="Remove {{ mask.name }} from comparison"
+              (click)="selection.remove(mask.slug)"
+            >
+              ×
+            </button>
+          </div>
+        }
+        @if (selection.selected().length < 2) {
+          <div class="comparison-slot comparison-slot-empty">
+            <span>{{ selection.selected().length ? 'Choose one more mask' : 'Choose a mask' }}</span>
+          </div>
+        }
+      </div>
+
+      <div class="comparison-tray-actions">
+        <button type="button" class="comparison-exit" (click)="selection.exit()">Exit</button>
+        @if (selection.comparisonParams(); as params) {
+          <a
+            class="comparison-submit"
+            routerLink="/compare"
+            [queryParams]="params"
+            aria-label="Compare selected masks"
+          >Compare</a>
+        }
+      </div>
+    </div>
+  </aside>
+}

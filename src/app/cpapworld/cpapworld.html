@@ -150,7 +150,31 @@
       </article>
 
       @for (mask of filteredMasks(); track mask.slug) {
-        <a class="mask-card" [routerLink]="['/cpaplibrary/masks', mask.slug]">
+        <article
+          class="mask-card-shell"
+          [class.mask-card-selectable]="comparison.active()"
+          [class.mask-card-selected]="isSelectedForComparison(mask.slug)"
+        >
+          @if (comparison.active()) {
+            <button
+              type="button"
+              class="mask-select-control"
+              [attr.aria-label]="
+                (isSelectedForComparison(mask.slug) ? 'Remove ' : 'Select ') +
+                mask.name +
+                ' for comparison'
+              "
+              [attr.aria-pressed]="isSelectedForComparison(mask.slug)"
+              (click)="selectForComparison(mask)"
+            >
+              {{ isSelectedForComparison(mask.slug) ? 'Selected' : 'Select' }}
+            </button>
+          }
+          <a
+            class="mask-card"
+            [routerLink]="['/cpaplibrary/masks', mask.slug]"
+            (click)="handleMaskCard($event, mask)"
+          >
           <div class="mask-media" aria-hidden="true">
             <img
               class="mask-image"
@@ -235,7 +259,8 @@
               <span class="mask-card-arrow" aria-hidden="true">&rarr;</span>
             </div>
           </div>
-        </a>
+          </a>
+        </article>
       }
     </div>
 
@@ -255,5 +280,8 @@
       </p>
     }
   </section>
-  <app-custom-mask-popup />
+  <app-comparison-controls />
+  @if (!comparison.active()) {
+    <app-custom-mask-popup />
+  }
 </main>

@@ -1,4 +1,4 @@
-import { Component, computed, signal } from '@angular/core';
+import { Component, computed, inject, signal } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { catchError, distinctUntilChanged, forkJoin, map, of, switchMap } from 'rxjs';
@@ -20,6 +20,8 @@ import { RetailerProfile, RetailerServiceAspect } from '../retailer-data';
 import { RetailerDataService } from '../retailer-data.service';
 import { CustomMaskPopup } from '../../custom-mask-popup/custom-mask-popup';
 import { WaitlistSignup } from '../../waitlist-signup/waitlist-signup';
+import { ComparisonControls } from '../comparison/comparison-controls';
+import { ComparisonSelectionService } from '../comparison/comparison-selection.service';
 
 type AnalysisTab = 'overview' | 'reviews' | 'fit' | 'components';
 type EvidenceTone = 'positive' | 'negative';
@@ -28,11 +30,12 @@ type ReviewEvidence = ScoreEvidence & { aspectId: string; aspectLabel: string };
 
 @Component({
   selector: 'app-mask-detail',
-  imports: [RouterLink, CustomMaskPopup, WaitlistSignup],
+  imports: [RouterLink, CustomMaskPopup, WaitlistSignup, ComparisonControls],
   templateUrl: './mask-detail.html',
   styleUrl: './mask-detail.css'
 })
 export class MaskDetail {
+  protected readonly comparison = inject(ComparisonSelectionService);
   private static readonly TOP_GRADE_IDS = [
     'fit-and-sizing',
     'comfort',
@@ -322,6 +325,21 @@ export class MaskDetail {
 
   protected hasAnalysis(profile: MaskProfile): boolean {
     return profile.coverage.processedReviews > 0;
+  }
+
+  protected selectForComparison(mask: MaskProfile): void {
+    this.comparison.select({
+      slug: mask.slug,
+      name: mask.name,
+      imageUrl:
+        this.gallery()?.images.find((image) => image.isPrimary)?.src ??
+        `/images/masks/${mask.slug}.webp`,
+      processedReviews: mask.coverage.processedReviews
+    });
+  }
+
+  protected isSelectedForComparison(slug: string): boolean {
+    return this.comparison.selected().some((mask) => mask.slug === slug);
   }
 
   protected selectAnalysisTab(tab: AnalysisTab): void {

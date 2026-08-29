@@ -5,6 +5,7 @@ import { Retailers } from './cpapworld/retailers/retailers';
 import { Hero } from './hero/hero';
 import { Survey } from './survey/survey';
 import { ThankYou } from './thank-you/thank-you';
+import { ComparePage } from './cpapworld/comparison/compare-page';
 
 export const routes: Routes = [
   { path: '', component: Hero },
@@ -14,6 +15,7 @@ export const routes: Routes = [
   { path: 'cpaplibrary', component: CpapWorld },
   { path: 'cpaplibrary/retailers', component: Retailers },
   { path: 'cpaplibrary/masks/:maskSlug', component: MaskDetail },
+  { path: 'compare', component: ComparePage },
   { path: 'cpapworld', redirectTo: 'cpaplibrary', pathMatch: 'full' },
   { path: 'cpapworld/retailers', redirectTo: 'cpaplibrary/retailers', pathMatch: 'full' },
   {

@@ -1,0 +1,162 @@
+import { Component, computed, DestroyRef, inject, signal } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { ActivatedRoute, RouterLink } from '@angular/router';
+import { catchError, distinctUntilChanged, forkJoin, map, of, switchMap } from 'rxjs';
+
+import { MaskPrices, MaskProfile } from '../mask-data';
+import { MaskDataService } from '../mask-data.service';
+import {
+  buildMaskComparison,
+  COMPARISON_RULES_VERSION,
+  DEFAULT_COMPARISON_CRITERIA,
+  MaskComparisonModel
+} from './comparison-model';
+import { ComparisonSummary, ComparisonSummaryService } from './comparison-summary.service';
+
+type LoadedComparison = {
+  leftProfile: MaskProfile;
+  leftPrices: MaskPrices | null;
+  rightProfile: MaskProfile;
+  rightPrices: MaskPrices | null;
+};
+
+@Component({
+  selector: 'app-compare-page',
+  imports: [RouterLink],
+  templateUrl: './compare-page.html',
+  styleUrl: './compare-page.css'
+})
+export class ComparePage {
+  private readonly destroyRef = inject(DestroyRef);
+  protected readonly loading = signal(true);
+  protected readonly error = signal('');
+  protected readonly model = signal<MaskComparisonModel | null>(null);
+  protected readonly includeHeadgear = signal(true);
+  protected readonly selectedCriteria = signal<string[]>([...DEFAULT_COMPARISON_CRITERIA]);
+  protected readonly summaryState = signal<'idle' | 'loading' | 'ready' | 'error'>('idle');
+  protected readonly summary = signal<ComparisonSummary | null>(null);
+  protected readonly visibleCriteria = computed(() => {
+    const model = this.model();
+    if (!model) return [];
+    return this.selectedCriteria().flatMap((id) => {
+      const row = model.criteria.find((criterion) => criterion.id === id);
+      return row ? [row] : [];
+    });
+  });
+  private loaded: LoadedComparison | null = null;
+
+  constructor(
+    route: ActivatedRoute,
+    maskData: MaskDataService,
+    private readonly summaries: ComparisonSummaryService
+  ) {
+    route.queryParamMap
+      .pipe(
+        map((params) => ({ mask1: params.get('mask1') ?? '', mask2: params.get('mask2') ?? '' })),
+        distinctUntilChanged(
+          (previous, current) =>
+            previous.mask1 === current.mask1 && previous.mask2 === current.mask2
+        ),
+        switchMap(({ mask1, mask2 }) => {
+          this.reset();
+          if (!this.validSlug(mask1) || !this.validSlug(mask2) || mask1 === mask2) {
+            this.loading.set(false);
+            this.error.set('Choose two different masks to create a comparison.');
+            return of(null);
+          }
+          return forkJoin({
+            leftProfile: maskData.getProfile(mask1),
+            leftPrices: maskData.getPrices(mask1),
+            rightProfile: maskData.getProfile(mask2),
+            rightPrices: maskData.getPrices(mask2)
+          }).pipe(
+            catchError(() => {
+              this.loading.set(false);
+              this.error.set('One or both masks could not be found. Choose two masks from the library.');
+              return of(null);
+            })
+          );
+        }),
+        takeUntilDestroyed()
+      )
+      .subscribe((loaded) => {
+        if (!loaded) return;
+        this.loaded = loaded;
+        this.rebuildModel();
+        this.loading.set(false);
+        const model = this.model();
+        if (model?.eligibility.eligible) {
+          this.requestSummary(loaded.leftProfile.slug, loaded.rightProfile.slug);
+        }
+      });
+  }
+
+  protected selectCriterion(index: number, event: Event): void {
+    const value = (event.target as HTMLSelectElement).value;
+    this.selectedCriteria.update((criteria) =>
+      criteria.map((criterion, criterionIndex) => (criterionIndex === index ? value : criterion))
+    );
+  }
+
+  protected toggleHeadgear(event: Event): void {
+    this.includeHeadgear.set((event.target as HTMLInputElement).checked);
+    this.rebuildModel();
+  }
+
+  protected formatDate(value: string): string {
+    const date = new Date(value);
+    return Number.isNaN(date.getTime())
+      ? value
+      : date.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+
+  protected formatPercent(value: number): string {
+    return `${Math.round(value * 100)}%`;
+  }
+
+  private requestSummary(mask1: string, mask2: string): void {
+    this.summaryState.set('loading');
+    this.summaries
+      .getSummary(mask1, mask2, COMPARISON_RULES_VERSION)
+      .pipe(
+        takeUntilDestroyed(this.destroyRef),
+        catchError(() => {
+          this.summaryState.set('error');
+          return of(null);
+        })
+      )
+      .subscribe((result) => {
+        if (!result) return;
+        this.summary.set(result.summary);
+        this.summaryState.set('ready');
+      });
+  }
+
+  private rebuildModel(): void {
+    if (!this.loaded) return;
+    this.model.set(
+      buildMaskComparison(
+        this.loaded.leftProfile,
+        this.loaded.leftPrices,
+        this.loaded.rightProfile,
+        this.loaded.rightPrices,
+        { includeHeadgear: this.includeHeadgear() }
+      )
+    );
+  }
+
+  private reset(): void {
+    this.loading.set(true);
+    this.error.set('');
+    this.model.set(null);
+    this.loaded = null;
+    this.includeHeadgear.set(true);
+    this.selectedCriteria.set([...DEFAULT_COMPARISON_CRITERIA]);
+    this.summary.set(null);
+    this.summaryState.set('idle');
+  }
+
+  private validSlug(slug: string): boolean {
+    return /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug);
+  }
+}

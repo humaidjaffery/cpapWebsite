@@ -485,6 +485,52 @@
     transform 180ms ease;
 }
 
+.mask-card-shell {
+  position: relative;
+  min-width: 0;
+}
+
+.mask-card-shell .mask-card {
+  height: 100%;
+}
+
+.mask-card-selectable .mask-card {
+  border: 2px solid rgba(106, 13, 173, 0.55);
+  box-shadow: 0 0 0 4px rgba(106, 13, 173, 0.08);
+  cursor: pointer;
+}
+
+.mask-card-selected .mask-card {
+  border-color: #6a0dad;
+  box-shadow:
+    0 0 0 4px rgba(106, 13, 173, 0.18),
+    0 12px 30px rgba(74, 22, 99, 0.16);
+}
+
+.mask-select-control {
+  position: absolute;
+  z-index: 4;
+  top: 12px;
+  right: 12px;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid rgba(106, 13, 173, 0.35);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 5px 14px rgba(49, 24, 60, 0.13);
+  color: #681e91;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.mask-card-selected .mask-select-control {
+  border-color: #6a0dad;
+  background: #6a0dad;
+  color: #fff;
+}
+
 .mask-card:hover,
 .mask-card:focus-visible {
   border-color: transparent;
