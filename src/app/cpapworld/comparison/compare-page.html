@@ -203,6 +203,7 @@
                       @if (side; as area) {
                         <strong>{{ formatPercent(area.positiveProportion) }} comfort</strong>
                         <span>{{ formatPercent(area.complaintProportion) }} complaint reports · {{ area.labels.join(' · ') }}</span>
+                        <span>{{ area.finding.positiveReviews }} comfort reports · {{ area.finding.complaintReviews }} complaint reports</span>
                         <span>Complaint severity {{ formatSeverity(area.complaintSeverity) }}</span>
                         <small>{{ area.relevantReviews }} relevant reports · {{ area.finding.evidenceStrength }} evidence</small>
                       } @else { <strong>Unavailable</strong><span>No matching evidence</span> }

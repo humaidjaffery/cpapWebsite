@@ -9,6 +9,7 @@ import {
   ComparisonMaskHeader,
   ComparisonSummary,
   ComparisonSummaryRequest,
+  ComparisonSummaryResponse,
   describePriceConfiguration,
   LIMITED_COMPARISON_REVIEWS,
   MaskProfile,
@@ -41,8 +42,6 @@ export interface SourceFinding {
   complaintSeverity?: number;
 }
 
-export interface SourceOffer extends RetailerPriceOffer {}
-
 export interface MaskSourceRecord {
   revision: string;
   profile: {
@@ -58,7 +57,7 @@ export interface MaskSourceRecord {
   };
   prices: {
     generatedAt: string;
-    offers: SourceOffer[];
+    offers: RetailerPriceOffer[];
   } | null;
 }
 
@@ -154,7 +153,7 @@ export interface ComparisonDependencies {
 export async function getComparisonSummary(
   request: ComparisonSummaryRequest,
   dependencies: ComparisonDependencies,
-): Promise<{ source: "cache" | "generated"; summary: ComparisonSummary }> {
+): Promise<ComparisonSummaryResponse> {
   validateRequest(request);
   const canonicalMaskOrder = [request.mask1, request.mask2].sort() as [string, string];
   const cacheKey = canonicalMaskOrder.join("__");

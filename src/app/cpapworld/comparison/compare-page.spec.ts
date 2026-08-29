@@ -203,6 +203,7 @@ describe('ComparePage', () => {
     fixture.detectChanges();
 
     expect(fixture.nativeElement.textContent).toContain('Complaint severity 40%');
+    expect(fixture.nativeElement.textContent).toContain('15 comfort reports · 5 complaint reports');
   });
 
   it('ignores a summary response from a previous mask pair', () => {

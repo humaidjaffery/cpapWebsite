@@ -17,6 +17,7 @@ import {
   COMPARISON_RULES_VERSION,
   getComparisonSummary,
 } from "./comparison-summary";
+import { ComparisonSummaryRequest } from "../../shared/comparison-model";
 import {
   errorToMessage,
   extractEmail,
@@ -88,11 +89,7 @@ export const getMaskComparisonSummary = onRequest(
       return;
     }
 
-    const body = request.body as Partial<{
-      mask1: string;
-      mask2: string;
-      comparisonRevision: string;
-    }>;
+    const body = request.body as Partial<ComparisonSummaryRequest>;
     try {
       const result = await getComparisonSummary(
         {
