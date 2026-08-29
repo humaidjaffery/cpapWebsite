@@ -44,6 +44,7 @@ export async function generateComparisonSummary(params: {
         "Explain reasons a shopper might prefer either mask without declaring a universal winner.",
         "Treat missing findings as unknown, not negative evidence.",
         "Mention limited evidence and cross-type uncertainty when supplied.",
+        "Refer to masks by their supplied names. Never use Mask 1, Mask 2, first mask, second mask, left mask, or right mask.",
         "Keep every list item short and avoid recommendations or clinical claims.",
       ].join(" "),
       input: [

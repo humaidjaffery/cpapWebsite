@@ -1,12 +1,24 @@
 import { createHash } from "node:crypto";
 
-export const COMPARISON_RULES_VERSION = "comparison-rules-v1";
-export const COMPARISON_PROMPT_VERSION = "comparison-summary-v1";
+import {
+  AlignedComparisonFinding,
+  buildMaskComparison,
+  COMPARISON_RULES_VERSION,
+  ContextFinding,
+  ComparisonBodySide,
+  ComparisonMaskHeader,
+  LIMITED_COMPARISON_REVIEWS,
+  MaskProfile,
+  MEANINGFUL_COMPARISON_DIFFERENCE,
+  MIN_COMPARISON_FINDING_REVIEWS,
+  MIN_COMPARISON_REVIEWS,
+  MetricFinding,
+  PartFinding,
+  RetailerPriceOffer,
+} from "./comparison-model";
 
-const MIN_MASK_REVIEWS = 50;
-const LIMITED_MASK_REVIEWS = 100;
-const MIN_FINDING_REVIEWS = 10;
-const MEANINGFUL_SCORE_DIFFERENCE = 5;
+export { COMPARISON_RULES_VERSION } from "./comparison-model";
+export const COMPARISON_PROMPT_VERSION = "comparison-summary-v2";
 
 export interface SourceFinding {
   id: string;
@@ -23,6 +35,7 @@ export interface SourceFinding {
   reviewShare?: number;
   classification?: string;
   limitedEvidence?: boolean;
+  complaintSeverity?: number;
 }
 
 export interface SourceOffer {
@@ -107,6 +120,9 @@ interface CuratedFinding {
   classification?: string;
   positiveShare?: number;
   negativeShare?: number;
+  reviewShare?: number;
+  complaintSeverity?: number;
+  category?: string;
 }
 
 interface CuratedPrice {
@@ -203,39 +219,51 @@ export function buildCuratedComparisonInput(
   records: [MaskSourceRecord, MaskSourceRecord],
 ): CuratedComparisonInput {
   const [first, second] = records;
-  const masks = records.map((record) => ({
-    slug: record.profile.slug,
-    name: record.profile.name,
-    maskType: maskType(record),
-    processedReviews: record.profile.coverage.processedReviews,
-    limitedEvidence:
-      record.profile.coverage.processedReviews >= MIN_MASK_REVIEWS &&
-      record.profile.coverage.processedReviews < LIMITED_MASK_REVIEWS,
-  }));
-  const alignedDimensions = alignQualified(first.profile.dimensions, second.profile.dimensions);
+  const model = buildMaskComparison(
+    comparisonProfile(first),
+    first.prices,
+    comparisonProfile(second),
+    second.prices,
+  );
 
   return {
-    masks,
-    differentMaskTypes: masks[0].maskType !== masks[1].maskType,
-    meaningfulDifferences: alignedDimensions.filter(
-      (row) => Math.abs(row.mask1.score - row.mask2.score) >= MEANINGFUL_SCORE_DIFFERENCE,
-    ),
-    similarities: alignedDimensions.filter(
-      (row) => Math.abs(row.mask1.score - row.mask2.score) < MEANINGFUL_SCORE_DIFFERENCE,
-    ),
-    userFit: alignOptional(first.profile.contexts, second.profile.contexts),
-    bodyAreas: alignOptional(first.profile.bodySites, second.profile.bodySites),
+    masks: [curatedMask(model.masks.left), curatedMask(model.masks.right)],
+    differentMaskTypes: model.differentMaskTypes,
+    meaningfulDifferences: model.meaningfulDifferences.flatMap(curatedAlignedFinding),
+    similarities: model.similarities.flatMap(curatedAlignedFinding),
+    userFit: model.contexts.map((row) => ({
+      id: row.id,
+      label: row.label,
+      mask1: row.left
+        ? { ...coreFinding(row.left.finding), classification: row.left.group }
+        : null,
+      mask2: row.right
+        ? { ...coreFinding(row.right.finding), classification: row.right.group }
+        : null,
+    })),
+    bodyAreas: model.bodyAreas.map((row) => ({
+      id: row.id,
+      label: row.label,
+      mask1: row.left ? curatedBodySide(row.left) : null,
+      mask2: row.right ? curatedBodySide(row.right) : null,
+    })),
     notableComponents: {
-      mask1: qualifiedComponents(first.profile.parts),
-      mask2: qualifiedComponents(second.profile.parts),
+      mask1: model.components.left.map((item) => ({
+        ...coreFinding(item.finding),
+        category: item.category,
+      })),
+      mask2: model.components.right.map((item) => ({
+        ...coreFinding(item.finding),
+        category: item.category,
+      })),
     },
     pricesWithHeadgear: {
-      mask1: lowestPrice(first),
-      mask2: lowestPrice(second),
+      mask1: curatedPrice(model.pricing.left.offer),
+      mask2: curatedPrice(model.pricing.right.offer),
     },
     rules: {
-      minimumFindingReviews: MIN_FINDING_REVIEWS,
-      meaningfulScoreDifference: MEANINGFUL_SCORE_DIFFERENCE,
+      minimumFindingReviews: MIN_COMPARISON_FINDING_REVIEWS,
+      meaningfulScoreDifference: MEANINGFUL_COMPARISON_DIFFERENCE,
     },
   };
 }
@@ -259,69 +287,93 @@ function validateRequest(request: {
 function validateSource(record: MaskSourceRecord, requestedSlug: string): void {
   if (
     record.profile.slug !== requestedSlug ||
-    record.profile.coverage.processedReviews < MIN_MASK_REVIEWS
+    record.profile.coverage.processedReviews < MIN_COMPARISON_REVIEWS
   ) {
     throw new Error("Invalid comparison source data");
   }
 }
 
-function alignQualified(
-  first: SourceFinding[],
-  second: SourceFinding[],
+function comparisonProfile(record: MaskSourceRecord): MaskProfile {
+  const finding = (source: SourceFinding): MetricFinding => ({
+    id: source.id,
+    label: source.label,
+    score: source.score,
+    grade: source.grade,
+    reviewCount: source.reviewCount,
+    reviewShare: source.reviewShare ?? 0,
+    positiveReviews: source.positiveReviews ?? 0,
+    negativeReviews: source.negativeReviews ?? 0,
+    evidenceStrength: source.evidenceStrength,
+    ...(typeof source.positiveShare === "number"
+      ? { positiveShare: source.positiveShare }
+      : {}),
+    ...(typeof source.negativeShare === "number"
+      ? { negativeShare: source.negativeShare }
+      : {}),
+    positiveEvidence: [],
+    negativeEvidence: [],
+  });
+  return {
+    slug: record.profile.slug,
+    name: record.profile.name,
+    search: record.profile.search,
+    coverage: record.profile.coverage,
+    dimensions: record.profile.dimensions.map(finding),
+    contexts: record.profile.contexts.map(
+      (source): ContextFinding => ({
+        ...finding(source),
+        classification: source.classification ?? "mixed",
+      }),
+    ),
+    bodySites: record.profile.bodySites.map((source) => ({
+      ...finding(source),
+      complaintReviews: source.complaintReviews ?? source.negativeReviews ?? 0,
+      complaintSeverity: source.complaintSeverity ?? 0,
+    })),
+    parts: record.profile.parts.map((source): PartFinding => finding(source)),
+  };
+}
+
+function curatedMask(mask: ComparisonMaskHeader): CuratedComparisonInput["masks"][number] {
+  return {
+    slug: mask.slug,
+    name: mask.name,
+    maskType: mask.maskType,
+    processedReviews: mask.processedReviews,
+    limitedEvidence:
+      mask.processedReviews >= MIN_COMPARISON_REVIEWS &&
+      mask.processedReviews < LIMITED_COMPARISON_REVIEWS,
+  };
+}
+
+function curatedAlignedFinding(
+  row: AlignedComparisonFinding,
 ): CuratedComparisonInput["meaningfulDifferences"] {
-  return first.flatMap((left) => {
-    const right = second.find((finding) => finding.id === left.id);
-    if (
-      !right ||
-      left.reviewCount < MIN_FINDING_REVIEWS ||
-      right.reviewCount < MIN_FINDING_REVIEWS
-    ) {
-      return [];
-    }
-    return [
-      {
-        id: left.id,
-        label: left.label,
-        mask1: coreFinding(left),
-        mask2: coreFinding(right),
-      },
-    ];
-  });
+  return row.left.finding && row.right.finding
+    ? [
+        {
+          id: row.id,
+          label: row.label,
+          mask1: coreFinding(row.left.finding),
+          mask2: coreFinding(row.right.finding),
+        },
+      ]
+    : [];
 }
 
-function alignOptional(
-  first: SourceFinding[],
-  second: SourceFinding[],
-): Array<{
-  id: string;
-  label: string;
-  mask1: CuratedFinding | null;
-  mask2: CuratedFinding | null;
-}> {
-  const ids = [...new Set([...first.map((finding) => finding.id), ...second.map((finding) => finding.id)])];
-  return ids.map((id) => {
-    const left = first.find((finding) => finding.id === id);
-    const right = second.find((finding) => finding.id === id);
-    return {
-      id,
-      label: left?.label ?? right?.label ?? id,
-      mask1: left ? coreFinding(left) : null,
-      mask2: right ? coreFinding(right) : null,
-    };
-  });
+function curatedBodySide(side: ComparisonBodySide): CuratedFinding {
+  return {
+    ...coreFinding(side.finding),
+    positiveShare: side.positiveProportion,
+    negativeShare: side.complaintProportion,
+    complaintSeverity: side.complaintSeverity,
+  };
 }
 
-function qualifiedComponents(parts: SourceFinding[]): CuratedFinding[] {
-  return parts
-    .filter(
-      (part) => part.reviewCount >= MIN_FINDING_REVIEWS && part.evidenceStrength !== "limited",
-    )
-    .sort(
-      (left, right) =>
-        (right.reviewShare ?? 0) - (left.reviewShare ?? 0) || right.reviewCount - left.reviewCount,
-    )
-    .slice(0, 6)
-    .map(coreFinding);
+function curatedPrice(offer: RetailerPriceOffer | null): CuratedPrice | null {
+  return offer
+    ? { retailer: offer.retailer, price: offer.price, observedAt: offer.observedAt }
+    : null;
 }
 
 function coreFinding(finding: SourceFinding): CuratedFinding {
@@ -339,25 +391,11 @@ function coreFinding(finding: SourceFinding): CuratedFinding {
     ...(typeof finding.negativeShare === "number"
       ? { negativeShare: finding.negativeShare }
       : {}),
+    ...(typeof finding.reviewShare === "number" ? { reviewShare: finding.reviewShare } : {}),
+    ...(typeof finding.complaintSeverity === "number"
+      ? { complaintSeverity: finding.complaintSeverity }
+      : {}),
   };
-}
-
-function lowestPrice(record: MaskSourceRecord): CuratedPrice | null {
-  const offer = [...(record.prices?.offers ?? [])]
-    .filter((candidate) => candidate.inStock && candidate.configuration.headgearIncluded === true)
-    .sort((left, right) => left.priceCents - right.priceCents)[0];
-  return offer
-    ? { retailer: offer.retailer, price: offer.price, observedAt: offer.observedAt }
-    : null;
-}
-
-function maskType(record: MaskSourceRecord): string {
-  const types = record.profile.search.maskTypes.map((type) => type.toLowerCase());
-  if (types.includes("full face")) return "Full Face";
-  if (types.includes("nasal pillow")) return "Nasal Pillow";
-  if (types.includes("hybrid")) return "Hybrid";
-  if (types.includes("nasal")) return "Nasal";
-  return record.profile.search.maskTypes[0] ?? "Unknown";
 }
 
 function fingerprint(record: MaskSourceRecord): string {
@@ -368,10 +406,10 @@ function fingerprint(record: MaskSourceRecord): string {
       name: record.profile.name,
       search: record.profile.search,
       coverage: record.profile.coverage,
-      dimensions: record.profile.dimensions.map(coreFindingWithId),
-      contexts: record.profile.contexts.map(coreFindingWithId),
-      bodySites: record.profile.bodySites.map(coreFindingWithId),
-      parts: record.profile.parts.map(coreFindingWithId),
+      dimensions: record.profile.dimensions.map(coreFinding),
+      contexts: record.profile.contexts.map(coreFinding),
+      bodySites: record.profile.bodySites.map(coreFinding),
+      parts: record.profile.parts.map(coreFinding),
     },
     prices: record.prices
       ? {
@@ -389,10 +427,6 @@ function fingerprint(record: MaskSourceRecord): string {
   return createHash("sha256").update(JSON.stringify(curated)).digest("hex");
 }
 
-function coreFindingWithId(finding: SourceFinding): CuratedFinding {
-  return coreFinding(finding);
-}
-
 function validSummary(value: ComparisonSummary): boolean {
   return (
     typeof value?.decisionTakeaway === "string" &&
@@ -400,8 +434,20 @@ function validSummary(value: ComparisonSummary): boolean {
     stringArray(value.reasonsToPreferMask1) &&
     stringArray(value.reasonsToPreferMask2) &&
     stringArray(value.similarities) &&
-    stringArray(value.importantUncertainties)
+    stringArray(value.importantUncertainties) &&
+    !containsPositionalMaskReference([
+      value.decisionTakeaway,
+      ...value.reasonsToPreferMask1,
+      ...value.reasonsToPreferMask2,
+      ...value.similarities,
+      ...value.importantUncertainties,
+    ])
   );
+}
+
+function containsPositionalMaskReference(values: string[]): boolean {
+  const positionalMask = /\b(?:mask\s*[12]|(?:first|second|left|right)\s+mask|mask\s+on\s+the\s+(?:left|right))\b/i;
+  return values.some((value) => positionalMask.test(value));
 }
 
 function stringArray(value: unknown): value is string[] {

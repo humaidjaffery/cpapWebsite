@@ -180,12 +180,8 @@ export class CpapWorld {
     return 'Analysis in progress';
   }
 
-  protected isSelectedForComparison(slug: string): boolean {
-    return this.comparison.selected().some((mask) => mask.slug === slug);
-  }
-
   protected selectForComparison(mask: MaskIndexItem): void {
-    if (this.isSelectedForComparison(mask.slug)) {
+    if (this.comparison.isSelected(mask.slug)) {
       this.comparison.remove(mask.slug);
       return;
     }

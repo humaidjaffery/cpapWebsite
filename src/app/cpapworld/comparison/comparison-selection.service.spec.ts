@@ -84,6 +84,8 @@ describe('ComparisonSelectionService', () => {
 
     expect(selection.active()).toBeTrue();
     expect(selection.selected()).toEqual([MASK_A, MASK_B]);
+    expect(selection.isSelected(MASK_A.slug)).toBeTrue();
+    expect(selection.isSelected('not-selected')).toBeFalse();
     expect(selection.comparisonParams()).toEqual({ mask1: 'mask-a', mask2: 'mask-b' });
   });
 

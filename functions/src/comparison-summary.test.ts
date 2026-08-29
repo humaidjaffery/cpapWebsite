@@ -153,6 +153,25 @@ test("reuses the canonical cache for a reversed pair and preserves display order
   assert.equal(harness.cache.size, 1);
 });
 
+test("rejects positional summary wording that would become stale when order reverses", async () => {
+  const harness = dependencies();
+  harness.dependencies.openai.generate = async () => ({
+    summary: {
+      ...GENERATED_SUMMARY,
+      importantUncertainties: ["Mask 1 has limited evidence"],
+    },
+    responseId: "response-positional",
+  });
+
+  await assert.rejects(
+    getComparisonSummary(
+      { mask1: "mask-a", mask2: "mask-b", comparisonRevision: COMPARISON_RULES_VERSION },
+      harness.dependencies,
+    ),
+    /structured comparison summary/,
+  );
+});
+
 test("invalidates cache when curated data, prompt, or comparison rules change", async () => {
   const harness = dependencies();
   await getComparisonSummary(
@@ -184,6 +203,29 @@ test("invalidates cache when curated data, prompt, or comparison rules change", 
   );
 
   assert.equal(harness.generatedInputs.length, 3);
+  assert.equal(changed.generatedInputs.length, 1);
+});
+
+test("invalidates cache when component review share changes without a source revision change", async () => {
+  const harness = dependencies();
+  await getComparisonSummary(
+    { mask1: "mask-a", mask2: "mask-b", comparisonRevision: COMPARISON_RULES_VERSION },
+    harness.dependencies,
+  );
+  const original = harness.cache.get("mask-a__mask-b")!;
+  const changedMask = mask("mask-a", "revision-a", 85);
+  changedMask.profile.parts[0].reviewShare = 0.9;
+  const changed = dependencies(new Map([
+    ["mask-a", changedMask],
+    ["mask-b", mask("mask-b", "revision-b", 75)],
+  ]));
+  changed.cache.set("mask-a__mask-b", original);
+
+  await getComparisonSummary(
+    { mask1: "mask-a", mask2: "mask-b", comparisonRevision: COMPARISON_RULES_VERSION },
+    changed.dependencies,
+  );
+
   assert.equal(changed.generatedInputs.length, 1);
 });
 

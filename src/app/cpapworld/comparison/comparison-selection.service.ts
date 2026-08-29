@@ -1,5 +1,7 @@
 import { computed, inject, Injectable, InjectionToken, signal } from '@angular/core';
 
+import { MIN_COMPARISON_REVIEWS } from './comparison-model';
+
 const STORAGE_KEY = 'cpap-library-comparison';
 
 export interface SelectedMask {
@@ -42,16 +44,20 @@ export class ComparisonSelectionService {
     this.persist();
   }
 
+  isSelected(slug: string): boolean {
+    return this.selected().some((mask) => mask.slug === slug);
+  }
+
   select(mask: SelectedMask): void {
     this.active.set(true);
     this.warning.set('');
-    if (mask.processedReviews < 50) {
+    if (mask.processedReviews < MIN_COMPARISON_REVIEWS) {
       this.warning.set(
         `${mask.name} does not have enough evidence to compare. At least 50 processed reviews are required.`
       );
       return;
     }
-    if (this.selected().some((selected) => selected.slug === mask.slug)) return;
+    if (this.isSelected(mask.slug)) return;
     if (this.selected().length === 2) {
       this.warning.set('Only two masks can be compared at a time');
       return;

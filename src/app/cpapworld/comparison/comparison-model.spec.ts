@@ -225,8 +225,9 @@ describe('buildMaskComparison', () => {
       'ease-of-use',
       'airflow-and-noise'
     ]);
-    expect(model.defaultCriteria.map((row) => row.id)).toEqual(DEFAULT_COMPARISON_CRITERIA);
-    expect(model.availableCriteria.map((row) => row.id)).toContain('skin-and-pain');
+    expect(model.criteria.map((row) => row.id)).toContain('skin-and-pain');
+    expect(DEFAULT_COMPARISON_CRITERIA.every((id) => model.criteria.some((row) => row.id === id)))
+      .toBeTrue();
     expect(model).not.toEqual(jasmine.objectContaining({ overall: jasmine.anything() }));
   });
 
@@ -295,6 +296,8 @@ describe('buildMaskComparison', () => {
     expect(model.contexts[0].right?.group).toBe('Mixed results');
     expect(model.bodyAreas[0].left?.positiveProportion).toBe(0.75);
     expect(model.bodyAreas[0].right?.positiveProportion).toBe(0.4);
+    expect(model.bodyAreas[0].left?.complaintSeverity).toBe(0.3);
+    expect(model.bodyAreas[0].right?.complaintSeverity).toBe(0.5);
     expect(model.bodyAreas[0].left?.state).toBe('higher');
     expect(model.bodyAreas[0].right?.state).toBe('lower');
   });

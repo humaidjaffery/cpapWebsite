@@ -164,6 +164,8 @@ describe('ComparePage', () => {
     expect(element.textContent).toContain('Mask B');
     expect(element.textContent).toContain('Different mask types');
     expect(element.textContent).toContain('Limited evidence');
+    expect(element.querySelector('.evidence-notice[data-side="left"]')?.getAttribute('aria-label'))
+      .toContain('Mask A');
     expect(element.textContent).toContain('Generating comparison summary');
     expect(element.querySelectorAll('.criterion-row').length).toBe(6);
     expect(element.querySelector('.criterion-row')?.textContent).toContain('Fit & sizing');
@@ -182,6 +184,25 @@ describe('ComparePage', () => {
     expect(element.textContent).not.toContain('A+');
     expect(element.textContent?.toLowerCase()).not.toContain('overall winner');
     expect(element.querySelectorAll('a[aria-label^="View full analysis"]').length).toBe(2);
+  });
+
+  it('renders complaint severity when body-area evidence provides it', () => {
+    data.getProfile.and.callFake((slug) => {
+      const result = profile(slug, slug === 'mask-a' ? 'Nasal' : 'Full Face');
+      result.bodySites = [{
+        ...dimension('nose', 'Nose', 70),
+        complaintReviews: 5,
+        complaintShare: 0.05,
+        complaintSeverity: 0.4,
+        complaintAspects: [],
+        involvedParts: []
+      }];
+      return of(result);
+    });
+    queryParams.next(convertToParamMap({ mask1: 'mask-b', mask2: 'mask-a' }));
+    fixture.detectChanges();
+
+    expect(fixture.nativeElement.textContent).toContain('Complaint severity 40%');
   });
 
   it('renders a structured summary and changing criteria does not request another summary', () => {

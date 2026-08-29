@@ -46,7 +46,17 @@
             <p class="type-notice"><strong>Different mask types</strong> — compare tradeoffs carefully.</p>
           }
           @for (warning of comparison.maskWarnings; track warning.side) {
-            <p class="evidence-notice" [attr.data-side]="warning.side">
+            <p
+              class="evidence-notice"
+              [attr.data-side]="warning.side"
+              [attr.aria-label]="
+                (warning.side === 'left'
+                  ? comparison.masks.left.name
+                  : comparison.masks.right.name) +
+                ': ' +
+                warning.label
+              "
+            >
               <strong>{{ warning.label }}</strong> — {{ warning.message }}
             </p>
           }
@@ -118,7 +128,7 @@
                   [value]="selected"
                   (change)="selectCriterion(index, $event)"
                 >
-                  @for (option of comparison.availableCriteria; track option.id) {
+                  @for (option of comparison.criteria; track option.id) {
                     <option [value]="option.id" [selected]="option.id === selected">
                       {{ option.label }}
                     </option>
@@ -193,6 +203,7 @@
                       @if (side; as area) {
                         <strong>{{ formatPercent(area.positiveProportion) }} comfort</strong>
                         <span>{{ formatPercent(area.complaintProportion) }} complaint reports · {{ area.labels.join(' · ') }}</span>
+                        <span>Complaint severity {{ formatPercent(area.complaintSeverity) }}</span>
                         <small>{{ area.relevantReviews }} relevant reports · {{ area.finding.evidenceStrength }} evidence</small>
                       } @else { <strong>Unavailable</strong><span>No matching evidence</span> }
                     </div>

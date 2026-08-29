@@ -153,21 +153,21 @@
         <article
           class="mask-card-shell"
           [class.mask-card-selectable]="comparison.active()"
-          [class.mask-card-selected]="isSelectedForComparison(mask.slug)"
+          [class.mask-card-selected]="comparison.isSelected(mask.slug)"
         >
           @if (comparison.active()) {
             <button
               type="button"
               class="mask-select-control"
               [attr.aria-label]="
-                (isSelectedForComparison(mask.slug) ? 'Remove ' : 'Select ') +
+                (comparison.isSelected(mask.slug) ? 'Remove ' : 'Select ') +
                 mask.name +
                 ' for comparison'
               "
-              [attr.aria-pressed]="isSelectedForComparison(mask.slug)"
+              [attr.aria-pressed]="comparison.isSelected(mask.slug)"
               (click)="selectForComparison(mask)"
             >
-              {{ isSelectedForComparison(mask.slug) ? 'Selected' : 'Select' }}
+              {{ comparison.isSelected(mask.slug) ? 'Selected' : 'Select' }}
             </button>
           }
           <a

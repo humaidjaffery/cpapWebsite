@@ -338,10 +338,6 @@ export class MaskDetail {
     });
   }
 
-  protected isSelectedForComparison(slug: string): boolean {
-    return this.comparison.selected().some((mask) => mask.slug === slug);
-  }
-
   protected selectAnalysisTab(tab: AnalysisTab): void {
     this.activeAnalysisTab.set(tab);
   }

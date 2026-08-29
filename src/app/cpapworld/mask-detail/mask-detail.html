@@ -50,11 +50,11 @@
             type="button"
             class="select-comparison-button"
             aria-label="Select this mask for comparison"
-            [attr.aria-pressed]="isSelectedForComparison(mask.slug)"
+            [attr.aria-pressed]="comparison.isSelected(mask.slug)"
             (click)="selectForComparison(mask)"
           >
             {{
-              isSelectedForComparison(mask.slug)
+              comparison.isSelected(mask.slug)
                 ? 'Selected for comparison'
                 : 'Select this mask for comparison'
             }}
