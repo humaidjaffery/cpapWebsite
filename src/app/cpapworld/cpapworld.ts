@@ -4,7 +4,6 @@ import { forkJoin } from 'rxjs';
 
 import { MaskIndexItem } from './mask-data';
 import { MaskDataService } from './mask-data.service';
-import { CustomMaskPopup } from '../custom-mask-popup/custom-mask-popup';
 import { WaitlistSignup } from '../waitlist-signup/waitlist-signup';
 import { randomCustomMaskImage } from '../custom-mask-image';
 import { ComparisonControls } from './comparison/comparison-controls';
@@ -12,7 +11,7 @@ import { ComparisonSelectionService } from './comparison/comparison-selection.se
 
 @Component({
   selector: 'app-cpapworld',
-  imports: [RouterLink, CustomMaskPopup, WaitlistSignup, ComparisonControls],
+  imports: [RouterLink, WaitlistSignup, ComparisonControls],
   templateUrl: './cpapworld.html',
   styleUrl: './cpapworld.css'
 })
@@ -25,6 +24,7 @@ export class CpapWorld {
   protected readonly selectedMaskType = signal('');
   protected readonly selectedBestFor = signal<string[]>([]);
   protected readonly sortBy = signal('recommended');
+  protected readonly activeRefineTab = signal<'best-for' | 'sort'>('sort');
   protected readonly bestForOptions = computed(() =>
     [...new Set(this.masks().flatMap((mask) => mask.bestReportedFor.map((item) => item.label)))].sort(
       (a, b) => a.localeCompare(b)
@@ -117,27 +117,18 @@ export class CpapWorld {
     return this.selectedBestFor().includes(value);
   }
 
-  protected bestForLabel(): string {
-    const selected = this.selectedBestFor();
-    if (!selected.length) return 'Any sleep style';
-    if (selected.length === 1) return selected[0];
-    return `${selected.length} selected`;
-  }
-
-  protected selectSort(value: string, select?: HTMLDetailsElement): void {
+  protected selectSort(value: string): void {
     this.sortBy.set(value);
-    select?.removeAttribute('open');
   }
 
-  protected handleSelectToggle(event: Event): void {
-    const openedSelect = event.currentTarget as HTMLDetailsElement;
-    if (!openedSelect.open) return;
-    openedSelect
-      .closest('.filter-fields-row')
-      ?.querySelectorAll<HTMLDetailsElement>('.custom-select[open]')
-      .forEach((select) => {
-        if (select !== openedSelect) select.removeAttribute('open');
-      });
+  protected selectRefineTab(tab: 'best-for' | 'sort'): void {
+    this.activeRefineTab.set(tab);
+  }
+
+  protected clearRefinements(): void {
+    this.selectedMaskType.set('');
+    this.selectedBestFor.set([]);
+    this.sortBy.set('recommended');
   }
 
   protected closeSelect(event: Event): void {
@@ -146,13 +137,13 @@ export class CpapWorld {
     select.querySelector<HTMLElement>('summary')?.focus();
   }
 
-  protected sortLabel(): string {
-    return {
-      recommended: 'Recommended',
-      'price-low': 'Price: low to high',
-      'price-high': 'Price: high to low',
-      rating: 'Highest rated'
-    }[this.sortBy()] ?? 'Recommended';
+  protected closeSelectFromButton(select: HTMLDetailsElement): void {
+    select.removeAttribute('open');
+    select.querySelector<HTMLElement>('summary')?.focus();
+  }
+
+  protected hasRefinements(): boolean {
+    return Boolean(this.activeFilterCount() || this.sortBy() !== 'recommended');
   }
 
   protected hasActiveCriteria(): boolean {
@@ -163,7 +154,7 @@ export class CpapWorld {
     event.preventDefault();
     const match = this.filteredMasks()[0];
     if (match && this.searchQuery().trim()) {
-      void this.router.navigate(['/cpaplibrary/masks', match.slug]);
+      void this.router.navigate(['/library/masks', match.slug]);
     }
   }
 

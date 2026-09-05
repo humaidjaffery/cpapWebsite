@@ -71,6 +71,6 @@ export class Retailers {
   protected scrollTo(sectionId: string, event: Event): void {
     event.preventDefault();
     document.getElementById(sectionId)?.scrollIntoView({ block: 'start' });
-    history.replaceState(null, '', `/cpaplibrary/retailers#${sectionId}`);
+    history.replaceState(null, '', `/library/retailers#${sectionId}`);
   }
 }

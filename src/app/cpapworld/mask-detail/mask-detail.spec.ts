@@ -374,9 +374,10 @@ describe('MaskDetail', () => {
     expect(element.querySelector('.score-orb')?.textContent).toContain('B+');
     expect(element.querySelector('.score-breakdowns')?.textContent).toContain('Comfort');
     expect(element.querySelector('.score-patient-fit')).toBeNull();
-    expect(element.querySelector('.score-breakdowns')?.textContent).toContain('50 positive');
-    expect(element.querySelector('.score-breakdowns')?.textContent).toContain('5 neutral');
-    expect(element.querySelector('.score-breakdowns')?.textContent).toContain('5 negative');
+    expect(element.querySelector('.score-breakdowns .sentiment-legend')).toBeNull();
+    expect(element.querySelector('.score-breakdowns')?.textContent).not.toContain('50 positive');
+    expect(element.querySelector('.score-breakdowns')?.textContent).not.toContain('5 neutral');
+    expect(element.querySelector('.score-breakdowns')?.textContent).not.toContain('5 negative');
     expect(element.querySelector('.mask-hero .mask-gallery')).toBeTruthy();
     expect(element.querySelector('.mask-hero .score-panel')).toBeTruthy();
     expect(element.querySelector('.detail-header .back-link')).toBeNull();
@@ -481,12 +482,24 @@ describe('MaskDetail', () => {
     expect(data.getPrices).toHaveBeenCalledWith(PROFILE.slug);
   });
 
-  it('selects this mask for comparison from the analysis page', () => {
+  it('hides mask selection during normal browsing', () => {
+    const element: HTMLElement = fixture.nativeElement;
+
+    expect(
+      element.querySelector('button[aria-label="Select this mask for comparison"]')
+    ).toBeNull();
+  });
+
+  it('selects this mask from the analysis page in comparison mode', () => {
+    TestBed.inject(ComparisonSelectionService).enter();
+    fixture.detectChanges();
+
     const element: HTMLElement = fixture.nativeElement;
     const control = element.querySelector<HTMLButtonElement>(
       'button[aria-label="Select this mask for comparison"]'
     );
 
+    expect(element.querySelector('app-custom-mask-popup')).toBeNull();
     expect(control?.textContent).toContain('Select this mask for comparison');
     control?.click();
     fixture.detectChanges();

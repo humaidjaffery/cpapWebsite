@@ -19,6 +19,7 @@ export const COMPARISON_STORAGE = new InjectionToken<Storage>('comparison sessio
 @Injectable({ providedIn: 'root' })
 export class ComparisonSelectionService {
   private readonly storage = inject(COMPARISON_STORAGE);
+  private warningTimer: ReturnType<typeof setTimeout> | null = null;
   readonly active = signal(false);
   readonly selected = signal<SelectedMask[]>([]);
   readonly warning = signal('');
@@ -33,14 +34,14 @@ export class ComparisonSelectionService {
 
   enter(): void {
     this.active.set(true);
-    this.warning.set('');
+    this.clearWarning();
     this.persist();
   }
 
   exit(): void {
     this.active.set(false);
     this.selected.set([]);
-    this.warning.set('');
+    this.clearWarning();
     this.persist();
   }
 
@@ -50,16 +51,16 @@ export class ComparisonSelectionService {
 
   select(mask: SelectedMask): void {
     this.active.set(true);
-    this.warning.set('');
+    this.clearWarning();
     if (mask.processedReviews < MIN_COMPARISON_REVIEWS) {
-      this.warning.set(
+      this.showWarning(
         `${mask.name} does not have enough evidence to compare. At least 50 processed reviews are required.`
       );
       return;
     }
     if (this.isSelected(mask.slug)) return;
     if (this.selected().length === 2) {
-      this.warning.set('Only two masks can be compared at a time');
+      this.showWarning('Only two masks can be compared at a time');
       return;
     }
     this.selected.update((selected) => [...selected, mask]);
@@ -68,7 +69,7 @@ export class ComparisonSelectionService {
 
   remove(slug: string): void {
     this.selected.update((selected) => selected.filter((mask) => mask.slug !== slug));
-    this.warning.set('');
+    this.clearWarning();
     this.persist();
   }
 
@@ -77,6 +78,20 @@ export class ComparisonSelectionService {
       STORAGE_KEY,
       JSON.stringify({ active: this.active(), selected: this.selected() })
     );
+  }
+
+  private showWarning(message: string): void {
+    this.warning.set(message);
+    this.warningTimer = setTimeout(() => {
+      this.warning.set('');
+      this.warningTimer = null;
+    }, 4000);
+  }
+
+  private clearWarning(): void {
+    if (this.warningTimer !== null) clearTimeout(this.warningTimer);
+    this.warningTimer = null;
+    this.warning.set('');
   }
 
   private restore(): void {

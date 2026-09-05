@@ -55,7 +55,12 @@ function profile(slug: string, type: string, scoreOffset = 0): MaskProfile {
       score: 99,
       grade: 'A+',
       calculation: '',
-      ratingComponent: { score: 99, reviewCount: 100, weight: 0.9 },
+      ratingComponent: {
+        score: 99,
+        reviewCount: slug === 'mask-a' ? 75 : 100,
+        weight: 0.9,
+        average: slug === 'mask-a' ? 4.4 : 4.1
+      },
       textSatisfactionComponent: { score: 99, reviewCount: 100, weight: 0.1 }
     },
     dimensions: DIMENSIONS.map((item) => ({ ...item, score: item.score + scoreOffset })),
@@ -160,27 +165,28 @@ describe('ComparePage', () => {
 
     expect(data.getProfile.calls.allArgs()).toEqual([['mask-a'], ['mask-b']]);
     expect(element.querySelectorAll('.comparison-mask-header').length).toBe(2);
+    expect(element.querySelector('.cpapworld-header .brand')?.textContent).toContain('DreamSeal');
+    expect(element.querySelector('.header-waitlist')?.textContent).toContain(
+      'Win Lifetime Free Custom Masks!'
+    );
+    expect(element.querySelector('.compare-title-row h1')?.textContent).toContain(
+      'Mask A vs Mask B'
+    );
+    expect(element.querySelector('.back-button')?.getAttribute('href')).toBe('/library');
+    expect(element.querySelector('.library-link')).toBeNull();
     expect(element.textContent).toContain('Mask A');
     expect(element.textContent).toContain('Mask B');
-    expect(element.textContent).toContain('Different mask types');
+    expect(element.querySelector('.overview-type')).toBeNull();
     expect(element.textContent).toContain('Limited evidence');
     expect(element.querySelector('.evidence-notice[data-side="left"]')?.getAttribute('aria-label'))
       .toContain('Mask A');
     expect(element.textContent).toContain('Generating comparison summary');
     expect(element.querySelectorAll('.criterion-row').length).toBe(6);
     expect(element.querySelector('.criterion-row')?.textContent).toContain('Fit & sizing');
-    expect(
-      [...element.querySelectorAll<HTMLSelectElement>('.criteria-selectors select')].map(
-        (select) => select.value
-      )
-    ).toEqual([
-      'fit-and-sizing',
-      'comfort',
-      'seal-and-leaks',
-      'sleep-compatibility',
-      'ease-of-use',
-      'airflow-and-noise'
-    ]);
+    expect(element.querySelector('.criteria-selectors')).toBeNull();
+    expect(element.textContent).toContain('4.4');
+    expect(element.textContent).toContain('75 reviews');
+    expect(element.querySelectorAll('.overview-offer a[target="_blank"]').length).toBe(2);
     expect(element.textContent).not.toContain('A+');
     expect(element.textContent?.toLowerCase()).not.toContain('overall winner');
     expect(element.querySelectorAll('a[aria-label^="View full analysis"]').length).toBe(2);
@@ -189,14 +195,16 @@ describe('ComparePage', () => {
   it('renders complaint severity when body-area evidence provides it', () => {
     data.getProfile.and.callFake((slug) => {
       const result = profile(slug, slug === 'mask-a' ? 'Nasal' : 'Full Face');
-      result.bodySites = [{
-        ...dimension('nose', 'Nose', 70),
-        complaintReviews: 5,
-        complaintShare: 0.05,
-        complaintSeverity: 40,
-        complaintAspects: [],
-        involvedParts: []
-      }];
+      result.bodySites = [
+        {
+          ...dimension('nose', 'Nose', 70),
+          complaintReviews: 5,
+          complaintShare: 0.05,
+          complaintSeverity: 40,
+          complaintAspects: [],
+          involvedParts: []
+        }
+      ];
       return of(result);
     });
     queryParams.next(convertToParamMap({ mask1: 'mask-b', mask2: 'mask-a' }));
@@ -236,7 +244,7 @@ describe('ComparePage', () => {
     expect(fixture.nativeElement.textContent).not.toContain('Stale pair takeaway');
   });
 
-  it('renders a structured summary and changing criteria does not request another summary', () => {
+  it('renders a structured summary without criterion-selection controls', () => {
     summaryResult.next({
       source: 'generated',
       summary: {
@@ -254,17 +262,35 @@ describe('ComparePage', () => {
     expect(fixture.nativeElement.textContent).toContain('Comfort is similar');
     expect(fixture.nativeElement.textContent).not.toContain('Generating comparison summary');
 
-    const criterionSelect = fixture.nativeElement.querySelector(
-      'select[aria-label="Comparison criterion 1"]'
-    ) as HTMLSelectElement;
-    criterionSelect.value = 'skin-and-pain';
-    criterionSelect.dispatchEvent(new Event('change'));
+    expect(
+      fixture.nativeElement.querySelector('select[aria-label^="Comparison criterion"]')
+    ).toBeNull();
+    expect(summaries.getSummary).toHaveBeenCalledTimes(1);
+  });
+
+  it('falls back to the lowest individual-mask offer when headgear is unavailable', () => {
+    data.getPrices.and.callFake((slug) => {
+      const result = prices(slug);
+      result.offers[0] = {
+        ...result.offers[0],
+        price: '$49.00',
+        priceCents: 4900,
+        configuration: {
+          ...result.offers[0].configuration,
+          offerType: 'without_headgear',
+          headgearIncluded: false
+        }
+      };
+      return of(result);
+    });
+    queryParams.next(convertToParamMap({ mask1: 'mask-b', mask2: 'mask-a' }));
     fixture.detectChanges();
 
-    expect(fixture.nativeElement.querySelector('.criterion-row')?.textContent).toContain(
-      'Skin & pain'
+    expect(fixture.nativeElement.querySelector('.product-overview')?.textContent).toContain(
+      '$49.00'
     );
-    expect(summaries.getSummary).toHaveBeenCalledTimes(1);
+    expect(fixture.nativeElement.querySelectorAll('.headgear-warning').length).toBe(2);
+    expect(fixture.nativeElement.textContent).toContain('Headgear is not included');
   });
 
   it('keeps deterministic comparison usable when summary generation fails', () => {
@@ -288,7 +314,7 @@ describe('ComparePage', () => {
         'Choose two different masks'
       );
       expect(fixture.nativeElement.querySelector('.comparison-error a')?.getAttribute('href')).toBe(
-        '/cpaplibrary'
+        '/library'
       );
     }
 

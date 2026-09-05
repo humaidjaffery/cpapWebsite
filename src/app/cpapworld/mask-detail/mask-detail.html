@@ -24,7 +24,7 @@
       <p class="eyebrow">Mask analysis</p>
       <h1>We couldn’t load this mask</h1>
       <p>The profile may not exist yet, or the data is temporarily unavailable.</p>
-      <a class="primary-link" routerLink="/cpaplibrary">Return to all masks</a>
+      <a class="primary-link" routerLink="/library">Return to all masks</a>
     </section>
   } @else if (profile(); as mask) {
     <div class="detail-shell">
@@ -41,25 +41,27 @@
 
       <section class="mask-hero" aria-labelledby="mask-name">
         <div class="hero-heading-row">
-          <a class="back-link" routerLink="/cpaplibrary" aria-label="Back to all masks">&larr;</a>
+          <a class="back-link" routerLink="/library" aria-label="Back to all masks">&larr;</a>
           <h1 id="mask-name">{{ mask.name }}</h1>
         </div>
 
-        <div class="hero-comparison-row">
-          <button
-            type="button"
-            class="select-comparison-button"
-            aria-label="Select this mask for comparison"
-            [attr.aria-pressed]="comparison.isSelected(mask.slug)"
-            (click)="selectForComparison(mask)"
-          >
-            {{
-              comparison.isSelected(mask.slug)
-                ? 'Selected for comparison'
-                : 'Select this mask for comparison'
-            }}
-          </button>
-        </div>
+        @if (comparison.active()) {
+          <div class="hero-comparison-row">
+            <button
+              type="button"
+              class="select-comparison-button"
+              aria-label="Select this mask for comparison"
+              [attr.aria-pressed]="comparison.isSelected(mask.slug)"
+              (click)="selectForComparison(mask)"
+            >
+              {{
+                comparison.isSelected(mask.slug)
+                  ? 'Selected for comparison'
+                  : 'Select this mask for comparison'
+              }}
+            </button>
+          </div>
+        }
 
         <div class="coverage-facts" aria-label="Review coverage">
           <span>
@@ -171,11 +173,6 @@
                   </div>
                   <div class="score-track" aria-hidden="true">
                     <span [style.width.%]="dimension.score"></span>
-                  </div>
-                  <div class="sentiment-legend" aria-label="Review sentiment counts">
-                    <span class="positive">{{ formatCount(dimension.positiveReviews) }} positive</span>
-                    <span class="mixed">{{ formatCount(dimension.neutralReviews) }} neutral</span>
-                    <span class="negative">{{ formatCount(dimension.negativeReviews) }} negative</span>
                   </div>
                 </div>
               }
@@ -306,7 +303,7 @@
 
                       <div class="retailer-detail-links">
                         <a [href]="retailer.websiteUrl" target="_blank" rel="noopener noreferrer">Visit website</a>
-                        <a routerLink="/cpaplibrary/retailers" [fragment]="retailer.slug">Full retailer report</a>
+                        <a routerLink="/library/retailers" [fragment]="retailer.slug">Full retailer report</a>
                       </div>
                     </aside>
                   }
@@ -840,7 +837,4 @@
     </div>
   }
   <app-comparison-controls />
-  @if (!comparison.active()) {
-    <app-custom-mask-popup />
-  }
 </main>

@@ -22,18 +22,25 @@ const developmentRoutes: Routes = environment.production
 
 export const routes: Routes = [
   { path: '', component: Hero },
-  { path: 'guide', redirectTo: 'cpaplibrary', pathMatch: 'full' },
+  { path: 'guide', redirectTo: 'library', pathMatch: 'full' },
   { path: 'survey', component: Survey },
   { path: 'thank-you', component: ThankYou },
-  { path: 'cpaplibrary', component: CpapWorld },
-  { path: 'cpaplibrary/retailers', component: Retailers },
-  { path: 'cpaplibrary/masks/:maskSlug', component: MaskDetail },
+  { path: 'library', component: CpapWorld },
+  { path: 'library/retailers', component: Retailers },
+  { path: 'library/masks/:maskSlug', component: MaskDetail },
   { path: 'compare', component: ComparePage },
-  { path: 'cpapworld', redirectTo: 'cpaplibrary', pathMatch: 'full' },
-  { path: 'cpapworld/retailers', redirectTo: 'cpaplibrary/retailers', pathMatch: 'full' },
+  { path: 'cpaplibrary', redirectTo: 'library', pathMatch: 'full' },
+  { path: 'cpaplibrary/retailers', redirectTo: 'library/retailers', pathMatch: 'full' },
+  {
+    path: 'cpaplibrary/masks/:maskSlug',
+    redirectTo: 'library/masks/:maskSlug',
+    pathMatch: 'full'
+  },
+  { path: 'cpapworld', redirectTo: 'library', pathMatch: 'full' },
+  { path: 'cpapworld/retailers', redirectTo: 'library/retailers', pathMatch: 'full' },
   {
     path: 'cpapworld/masks/:maskSlug',
-    redirectTo: 'cpaplibrary/masks/:maskSlug',
+    redirectTo: 'library/masks/:maskSlug',
     pathMatch: 'full'
   },
   ...developmentRoutes,

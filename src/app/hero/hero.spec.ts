@@ -37,13 +37,13 @@ describe('Hero', () => {
   it('only identifies same-site CPAP Library pages as the previous page', () => {
     expect(
       cameFromCpapLibrary(
-        'https://dreamseal.com/cpaplibrary/masks/example',
+        'https://dreamseal.com/library/masks/example',
         'https://dreamseal.com'
       )
     ).toBeTrue();
     expect(cameFromCpapLibrary('', 'https://dreamseal.com')).toBeFalse();
     expect(
-      cameFromCpapLibrary('https://example.com/cpaplibrary', 'https://dreamseal.com')
+      cameFromCpapLibrary('https://example.com/library', 'https://dreamseal.com')
     ).toBeFalse();
     expect(
       cameFromCpapLibrary('https://dreamseal.com/survey', 'https://dreamseal.com')

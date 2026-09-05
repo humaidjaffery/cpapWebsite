@@ -130,10 +130,6 @@
 
 .mask-hero {
   padding: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.07);
-  border-radius: 24px;
-  background: rgba(255, 255, 255, 0.84);
-  box-shadow: var(--shadow-card);
 }
 
 .hero-heading-row {
@@ -299,10 +295,8 @@
   width: 46px;
   height: 46px;
   place-items: center;
-  border: 1px solid rgba(106, 13, 173, 0.12);
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.92);
-  box-shadow: 0 8px 24px rgba(43, 30, 48, 0.15);
+  border: 0;
+  background: transparent;
   color: var(--primary);
   font-size: 20px;
   cursor: pointer;
@@ -311,13 +305,12 @@
     background 160ms ease,
     color 160ms ease,
     transform 160ms ease;
-  backdrop-filter: blur(8px);
 }
 
 .gallery-nav:hover,
 .gallery-nav:focus-visible {
-  background: var(--primary);
-  color: #fff;
+  background: transparent;
+  color: var(--primary);
   outline: none;
   transform: translateY(-50%) scale(1.05);
 }
@@ -516,16 +509,6 @@
 .score-breakdown-row .score-track {
   height: 6px;
   margin-top: 8px;
-}
-
-.score-breakdown-row .sentiment-legend {
-  gap: 5px;
-  margin-top: 8px;
-}
-
-.score-breakdown-row .sentiment-legend span {
-  padding: 4px 6px;
-  font-size: 9px;
 }
 
 .purchase-section {
@@ -2207,10 +2190,6 @@ td a {
 
   .score-panel {
     padding-block: 24px;
-  }
-
-  .score-breakdown-row .sentiment-legend {
-    display: none;
   }
 
   .hero-showcase {

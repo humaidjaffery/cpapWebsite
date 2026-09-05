@@ -45,65 +45,8 @@
     </form>
 
     <div class="filter-panel" aria-label="Filter and sort masks">
-      <div class="filter-row filter-fields-row">
-        <div class="filter-control best-for-control">
-          <span>Best for</span>
-          <details
-            class="custom-select"
-            (toggle)="handleSelectToggle($event)"
-            (keydown.escape)="closeSelect($event)"
-          >
-            <summary>{{ bestForLabel() }}</summary>
-            <div class="custom-select-menu best-for-menu">
-              @for (attribute of bestForOptions(); track attribute) {
-                <label class="custom-option checkbox-option">
-                  <input
-                    type="checkbox"
-                    [checked]="isBestForSelected(attribute)"
-                    (change)="toggleBestFor(attribute)"
-                  />
-                  <span>{{ attribute }}</span>
-                </label>
-              }
-            </div>
-          </details>
-        </div>
-
-        <div class="filter-control sort-control">
-          <span>Sort by</span>
-          <details
-            #sortSelect
-            class="custom-select"
-            (toggle)="handleSelectToggle($event)"
-            (keydown.escape)="closeSelect($event)"
-          >
-            <summary>{{ sortLabel() }}</summary>
-            <div class="custom-select-menu sort-menu">
-              @for (option of [
-                { value: 'recommended', label: 'Recommended' },
-                { value: 'price-low', label: 'Price: low to high' },
-                { value: 'price-high', label: 'Price: high to low' },
-                { value: 'rating', label: 'Highest rated' }
-              ]; track option.value) {
-                <label class="custom-option radio-option">
-                  <input
-                    type="radio"
-                    name="mask-sort"
-                    [value]="option.value"
-                    [checked]="sortBy() === option.value"
-                    (change)="selectSort(option.value, sortSelect)"
-                  />
-                  <span>{{ option.label }}</span>
-                  @if (sortBy() === option.value) { <b aria-hidden="true">✓</b> }
-                </label>
-              }
-            </div>
-          </details>
-        </div>
-      </div>
-
-      <div class="filter-row mask-type-row">
-        <div class="filter-chips">
+      <div class="filter-toolbar">
+        <div class="filter-chips" aria-label="Filter by mask type">
           @for (filter of maskTypes; track filter) {
             <button
               type="button"
@@ -115,6 +58,110 @@
             </button>
           }
         </div>
+
+        <details #refineSelect class="refine-select" (keydown.escape)="closeSelect($event)">
+          <summary class="refine-trigger">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 7h10M18 7h2M4 17h2M10 17h10M14 4v6M6 14v6" />
+            </svg>
+            <span>Refine</span>
+            @if (activeFilterCount()) {
+              <span class="refine-count" aria-label="{{ activeFilterCount() }} active filters">
+                {{ activeFilterCount() }}
+              </span>
+            }
+          </summary>
+
+          <button
+            type="button"
+            class="refine-backdrop"
+            aria-label="Close refine options"
+            (click)="closeSelectFromButton(refineSelect)"
+          ></button>
+
+          <div class="refine-menu">
+            <div class="refine-menu-header">
+              <strong>Refine results</strong>
+              <button
+                type="button"
+                class="refine-reset"
+                [disabled]="!hasRefinements()"
+                (click)="clearRefinements()"
+              >
+                Reset
+              </button>
+            </div>
+
+            <div class="refine-tabs" aria-label="Refine options">
+              <button
+                type="button"
+                [class.refine-tab-active]="activeRefineTab() === 'best-for'"
+                [attr.aria-pressed]="activeRefineTab() === 'best-for'"
+                (click)="selectRefineTab('best-for')"
+              >
+                Best for
+              </button>
+              <button
+                type="button"
+                [class.refine-tab-active]="activeRefineTab() === 'sort'"
+                [attr.aria-pressed]="activeRefineTab() === 'sort'"
+                (click)="selectRefineTab('sort')"
+              >
+                Sort by
+              </button>
+            </div>
+
+            @if (activeRefineTab() === 'best-for') {
+              <fieldset class="refine-tab-panel">
+                <legend class="sr-only">Best for</legend>
+                <p>Choose any that matter to you.</p>
+                <div class="best-for-options">
+                  @for (attribute of bestForOptions(); track attribute) {
+                    <label class="custom-option checkbox-option">
+                      <input
+                        type="checkbox"
+                        [checked]="isBestForSelected(attribute)"
+                        (change)="toggleBestFor(attribute)"
+                      />
+                      <span>{{ attribute }}</span>
+                    </label>
+                  }
+                </div>
+              </fieldset>
+            } @else {
+              <fieldset class="refine-tab-panel sort-options">
+                <legend class="sr-only">Sort by</legend>
+                @for (option of [
+                  { value: 'recommended', label: 'Recommended' },
+                  { value: 'rating', label: 'Highest rated' },
+                  { value: 'price-low', label: 'Price: low to high' },
+                  { value: 'price-high', label: 'Price: high to low' }
+                ]; track option.value) {
+                  <label class="custom-option radio-option">
+                    <input
+                      type="radio"
+                      name="mask-sort"
+                      [value]="option.value"
+                      [checked]="sortBy() === option.value"
+                      (change)="selectSort(option.value)"
+                    />
+                    <span>{{ option.label }}</span>
+                    @if (sortBy() === option.value) { <b aria-hidden="true">✓</b> }
+                  </label>
+                }
+              </fieldset>
+            }
+
+            <button
+              type="button"
+              class="refine-done"
+              (click)="closeSelectFromButton(refineSelect)"
+            >
+              Show {{ filteredMasks().length }}
+              {{ filteredMasks().length === 1 ? 'mask' : 'masks' }}
+            </button>
+          </div>
+        </details>
       </div>
     </div>
   </section>
@@ -155,24 +202,26 @@
           [class.mask-card-selectable]="comparison.active()"
           [class.mask-card-selected]="comparison.isSelected(mask.slug)"
         >
-          @if (comparison.active()) {
-            <button
-              type="button"
-              class="mask-select-control"
-              [attr.aria-label]="
-                (comparison.isSelected(mask.slug) ? 'Remove ' : 'Select ') +
-                mask.name +
-                ' for comparison'
-              "
-              [attr.aria-pressed]="comparison.isSelected(mask.slug)"
-              (click)="selectForComparison(mask)"
-            >
-              {{ comparison.isSelected(mask.slug) ? 'Selected' : 'Select' }}
-            </button>
-          }
+          <button
+            type="button"
+            class="mask-select-control"
+            [attr.aria-label]="
+              (comparison.isSelected(mask.slug) ? 'Remove ' : 'Select ') +
+              mask.name +
+              ' for comparison'
+            "
+            [attr.aria-pressed]="comparison.isSelected(mask.slug)"
+            (click)="selectForComparison(mask)"
+          >
+            @if (comparison.isSelected(mask.slug)) {
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m6.5 12.5 3.5 3.5 7.5-8" />
+              </svg>
+            }
+          </button>
           <a
             class="mask-card"
-            [routerLink]="['/cpaplibrary/masks', mask.slug]"
+            [routerLink]="['/library/masks', mask.slug]"
             (click)="handleMaskCard($event, mask)"
           >
           <div class="mask-media" aria-hidden="true">
@@ -281,7 +330,4 @@
     }
   </section>
   <app-comparison-controls />
-  @if (!comparison.active()) {
-    <app-custom-mask-popup />
-  }
 </main>

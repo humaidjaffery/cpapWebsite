@@ -32,6 +32,12 @@ initializeApp();
 const OPENAI_API_KEY = defineSecret("OPENAI_API_KEY");
 const MAILEROO_API_KEY = defineSecret("MAILEROO_API_KEY");
 
+const COMPARISON_SUMMARY_OPENAI_API_KEY = defineString(
+  "COMPARISON_SUMMARY_OPENAI_API_KEY",
+);
+const COMPARISON_SUMMARY_MODEL = defineString("COMPARISON_SUMMARY_MODEL", {
+  default: "gpt-5.6-sol",
+});
 const OPENAI_MODEL = defineString("OPENAI_MODEL", { default: "gpt-5.4-mini" });
 const MAILEROO_TEMPLATE_ID = defineString("MAILEROO_TEMPLATE_ID", { default: "7779" });
 const MAILEROO_FROM_ADDRESS = defineString("MAILEROO_FROM_ADDRESS", {
@@ -40,7 +46,7 @@ const MAILEROO_FROM_ADDRESS = defineString("MAILEROO_FROM_ADDRESS", {
 const MAILEROO_FROM_NAME = defineString("MAILEROO_FROM_NAME", { default: "Shaheer Rehman" });
 const MAILEROO_REPLY_TO_ADDRESS = defineString("MAILEROO_REPLY_TO_ADDRESS", { default: "shaheerkr77@gmail.com" });
 const CPAP_DATA_BASE_URL = defineString("CPAP_DATA_BASE_URL", {
-  default: "https://cpapwebsite.web.app/data",
+  default: "https://www.dreamseals.com/data",
 });
 
 const EMAIL_SUBJECT_PREFIX = "Your CPAP survey: ";
@@ -59,12 +65,12 @@ const COMPARISON_ORIGINS = new Set([
   "https://www.dreamseals.com",
   "https://cpapwebsite.web.app",
   "http://localhost:4200",
+  "http://127.0.0.1:4200",
 ]);
 
 export const getMaskComparisonSummary = onRequest(
   {
     region: "us-central1",
-    secrets: [OPENAI_API_KEY],
     timeoutSeconds: 120,
     memory: "512MiB",
   },
@@ -104,8 +110,8 @@ export const getMaskComparisonSummary = onRequest(
           openai: {
             generate: (comparison) =>
               generateComparisonSummary({
-                apiKey: OPENAI_API_KEY.value(),
-                model: OPENAI_MODEL.value(),
+                apiKey: COMPARISON_SUMMARY_OPENAI_API_KEY.value(),
+                model: COMPARISON_SUMMARY_MODEL.value(),
                 comparison,
               }),
           },

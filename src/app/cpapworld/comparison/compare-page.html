@@ -1,10 +1,16 @@
 <main class="compare-page">
-  <header class="compare-header">
+  <header class="cpapworld-header">
     <a class="brand" href="/" aria-label="DreamSeal home">
-      <img src="/dreamseal_logo.png" alt="" width="44" height="44" />
-      <span>DreamSeal</span>
+      <span class="logo-mark">
+        <img src="/dreamseal_logo.png" alt="DreamSeal logo" width="48" height="48" />
+      </span>
+      <span class="logo-text-block">
+        <span class="logo-title">DreamSeal</span>
+      </span>
     </a>
-    <a class="library-link" routerLink="/cpaplibrary">← CPAP Library</a>
+    <nav class="header-actions" aria-label="CPAP Library navigation">
+      <app-waitlist-signup class="header-waitlist" [header]="true" />
+    </nav>
   </header>
 
   @if (loading()) {
@@ -15,7 +21,7 @@
     <section class="comparison-state comparison-error">
       <h1>We couldn’t build this comparison</h1>
       <p>{{ error() }}</p>
-      <a routerLink="/cpaplibrary">Choose masks in the library</a>
+      <a routerLink="/library">Choose masks in the library</a>
     </section>
   } @else if (model(); as comparison) {
     @if (!comparison.eligibility.eligible) {
@@ -24,46 +30,89 @@
         @for (issue of comparison.eligibility.errors; track issue.side) {
           <p>{{ issue.message }}</p>
         }
-        <a routerLink="/cpaplibrary">Choose other masks</a>
+        <a routerLink="/library">Choose other masks</a>
       </section>
-    } @else {
+    } @else if (productOverviews(); as overviews) {
+      <div class="compare-title-row">
+        <a class="back-button" routerLink="/library" aria-label="Back to CPAP Library">←</a>
+        <h1>{{ comparison.masks.left.name }} vs {{ comparison.masks.right.name }}</h1>
+      </div>
       <div class="comparison-shell">
-        <section class="paired-headers" aria-label="Masks being compared">
-          @for (mask of [comparison.masks.left, comparison.masks.right]; track mask.slug) {
+        <section class="product-overview" aria-label="Product overview">
+          <div class="paired-headers">
             <article class="comparison-mask-header">
-              <img [src]="mask.imageUrl" alt="" width="180" height="135" />
-              <div>
-                <span>{{ mask.maskType }}</span>
-                <h1>{{ mask.name }}</h1>
-                <small>{{ mask.processedReviews.toLocaleString() }} reviews analyzed</small>
-              </div>
+              <img [src]="comparison.masks.left.imageUrl" alt="" width="240" height="180" />
+              <h1>{{ comparison.masks.left.name }}</h1>
+              <p
+                class="raw-rating"
+                aria-label="{{ formatRating(overviews.left.rating) }} out of 5 from {{ overviews.left.ratingCount }} reviews"
+              >
+                <span aria-hidden="true">★</span>
+                <strong>{{ formatRating(overviews.left.rating) }}</strong>
+                <small>{{ overviews.left.ratingCount.toLocaleString() }} reviews</small>
+              </p>
             </article>
-          }
-        </section>
+            <article class="comparison-mask-header">
+              <img [src]="comparison.masks.right.imageUrl" alt="" width="240" height="180" />
+              <h1>{{ comparison.masks.right.name }}</h1>
+              <p
+                class="raw-rating"
+                aria-label="{{ formatRating(overviews.right.rating) }} out of 5 from {{ overviews.right.ratingCount }} reviews"
+              >
+                <span aria-hidden="true">★</span>
+                <strong>{{ formatRating(overviews.right.rating) }}</strong>
+                <small>{{ overviews.right.ratingCount.toLocaleString() }} reviews</small>
+              </p>
+            </article>
+          </div>
 
-        <section class="comparison-notices" aria-label="Comparison notices">
-          @if (comparison.differentMaskTypes) {
-            <p class="type-notice"><strong>Different mask types</strong> — compare tradeoffs carefully.</p>
-          }
-          @for (warning of comparison.maskWarnings; track warning.side) {
-            <p
-              class="evidence-notice"
-              [attr.data-side]="warning.side"
-              [attr.aria-label]="
-                (warning.side === 'left'
-                  ? comparison.masks.left.name
-                  : comparison.masks.right.name) +
-                ': ' +
-                warning.label
-              "
-            >
-              <strong>{{ warning.label }}</strong> — {{ warning.message }}
-            </p>
+          <div class="rail-row overview-price">
+            <div class="paired-values overview-values">
+              @for (side of [overviews.left, overviews.right]; track $index) {
+                <div class="overview-offer">
+                  @if (side.offer; as offer) {
+                    <div class="offer-line">
+                      <strong>{{ offer.price }}</strong>
+                      <span>{{ offer.retailer }}</span>
+                      <a
+                        [href]="offer.productUrl"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="View offer from {{ offer.retailer }} (opens in a new tab)"
+                      >↗</a>
+                    </div>
+                    @if (!side.headgearIncluded) {
+                      <small class="headgear-warning">Headgear is not included</small>
+                    }
+                  } @else {
+                    <strong>Price unavailable</strong>
+                  }
+                </div>
+              }
+            </div>
+          </div>
+
+          @if (comparison.maskWarnings.length) {
+            <div class="comparison-notices" aria-label="Evidence notices">
+              @for (warning of comparison.maskWarnings; track warning.side) {
+                <p
+                  class="evidence-notice"
+                  [attr.data-side]="warning.side"
+                  [attr.aria-label]="
+                    (warning.side === 'left' ? comparison.masks.left.name : comparison.masks.right.name) +
+                    ': ' +
+                    warning.label
+                  "
+                >
+                  <strong>{{ warning.label }}:</strong> {{ warning.message }}
+                </p>
+              }
+            </div>
           }
         </section>
 
         <section class="summary-card" aria-labelledby="takeaway-title">
-          <p class="eyebrow">Decision takeaway</p>
+          <p class="eyebrow">Summary</p>
           <h2 id="takeaway-title">The central tradeoff</h2>
           @if (summaryState() === 'loading') {
             <p class="summary-status" role="status">Generating comparison summary…</p>
@@ -73,11 +122,11 @@
             <p class="decision-takeaway">{{ generated.decisionTakeaway }}</p>
             <div class="summary-columns">
               <div>
-                <h3>Reasons to prefer {{ comparison.masks.left.name }}</h3>
+                <h3>{{ comparison.masks.left.name }}</h3>
                 <ul>@for (reason of generated.reasonsToPreferMask1; track reason) { <li>{{ reason }}</li> }</ul>
               </div>
               <div>
-                <h3>Reasons to prefer {{ comparison.masks.right.name }}</h3>
+                <h3>{{ comparison.masks.right.name }}</h3>
                 <ul>@for (reason of generated.reasonsToPreferMask2; track reason) { <li>{{ reason }}</li> }</ul>
               </div>
             </div>
@@ -92,63 +141,47 @@
               </p>
             }
           }
-        </section>
 
-        <section class="quick-findings" aria-label="Meaningful findings">
-          <div>
-            <h2>Meaningful differences</h2>
-            @if (comparison.meaningfulDifferences.length) {
-              <ul>
-                @for (row of comparison.meaningfulDifferences; track row.id) {
-                  <li>{{ row.label }}: {{ row.left.labels[0] }} / {{ row.right.labels[0] }}</li>
-                }
-              </ul>
-            } @else { <p>No qualified five-point differences.</p> }
-          </div>
-          <div>
-            <h2>Similarities</h2>
-            @if (comparison.similarities.length) {
-              <ul>@for (row of comparison.similarities; track row.id) { <li>{{ row.label }}</li> }</ul>
-            } @else { <p>No qualified similarities yet.</p> }
+          <div class="quick-findings" aria-label="Meaningful findings">
+            <div>
+              <h3>Meaningful differences</h3>
+              @if (comparison.meaningfulDifferences.length) {
+                <ul>
+                  @for (row of comparison.meaningfulDifferences; track row.id) {
+                    <li>{{ row.label }}: {{ row.left.labels[0] }} / {{ row.right.labels[0] }}</li>
+                  }
+                </ul>
+              } @else { <p>No qualified five-point differences.</p> }
+            </div>
+            <div>
+              <h3>Similarities</h3>
+              @if (comparison.similarities.length) {
+                <ul>@for (row of comparison.similarities; track row.id) { <li>{{ row.label }}</li> }</ul>
+              } @else { <p>No qualified similarities yet.</p> }
+            </div>
           </div>
         </section>
 
         <section class="comparison-section criteria-section" aria-labelledby="criteria-title">
-          <div class="section-heading">
-            <div><p class="eyebrow">Review dimensions</p><h2 id="criteria-title">Compare the evidence</h2></div>
-            <p>Replace any criterion to focus the comparison.</p>
-          </div>
-
-          <div class="criteria-selectors" aria-label="Visible comparison criteria">
-            @for (selected of selectedCriteria(); track $index; let index = $index) {
-              <label>
-                <span class="sr-only">Comparison criterion {{ index + 1 }}</span>
-                <select
-                  [attr.aria-label]="'Comparison criterion ' + (index + 1)"
-                  [value]="selected"
-                  (change)="selectCriterion(index, $event)"
-                >
-                  @for (option of comparison.criteria; track option.id) {
-                    <option [value]="option.id" [selected]="option.id === selected">
-                      {{ option.label }}
-                    </option>
-                  }
-                </select>
-              </label>
-            }
+          <div class="section-marker">
+            <p class="eyebrow">Review dimensions</p>
+            <h2 id="criteria-title">Compare the evidence</h2>
           </div>
 
           <div class="comparison-rows">
-            @for (row of visibleCriteria(); track $index) {
+            @for (row of visibleCriteria(); track row.id) {
               <article class="criterion-row">
-                <h3>{{ row.label }}</h3>
+                <div class="row-marker"><h3>{{ row.label }}</h3></div>
                 <div class="paired-values">
                   @for (side of [row.left, row.right]; track $index) {
                     <div class="comparison-value" [attr.data-state]="side.state">
                       @if (side.finding; as finding) {
                         <strong>{{ finding.grade }} <small>{{ finding.score }}/100</small></strong>
                         <span>{{ side.labels.join(' · ') }}</span>
-                        <small>{{ finding.reviewCount }} relevant reviews · {{ finding.evidenceStrength }} evidence</small>
+                        <small
+                          >{{ finding.reviewCount }} relevant reviews ·
+                          {{ finding.evidenceStrength }} evidence</small
+                        >
                         @if (finding.positiveEvidence.length || finding.negativeEvidence.length) {
                           <details>
                             <summary>Supporting evidence</summary>
@@ -173,20 +206,29 @@
 
         @if (comparison.contexts.length) {
           <section class="comparison-section" aria-labelledby="contexts-title">
-            <p class="eyebrow">User fit</p><h2 id="contexts-title">Reported fit contexts</h2>
+            <div class="section-marker">
+              <p class="eyebrow">User fit</p>
+              <h2 id="contexts-title">Reported fit contexts</h2>
+            </div>
             <div class="comparison-rows">
               @for (row of comparison.contexts; track row.id) {
-                <article class="evidence-row"><h3>{{ row.label }}</h3><div class="paired-values">
-                  @for (side of [row.left, row.right]; track $index) {
-                    <div class="comparison-value neutral-value">
-                      @if (side; as context) {
-                        <strong>{{ context.group }}</strong>
-                        <span>{{ context.reason }}</span>
-                        <span>{{ context.finding.reviewCount }} relevant reviews · {{ context.finding.evidenceStrength }} evidence</span>
-                      } @else { <strong>Unknown</strong><span>No matching evidence</span> }
-                    </div>
-                  }
-                </div></article>
+                <article class="evidence-row">
+                  <div class="row-marker"><h3>{{ row.label }}</h3></div>
+                  <div class="paired-values">
+                    @for (side of [row.left, row.right]; track $index) {
+                      <div class="comparison-value neutral-value">
+                        @if (side; as context) {
+                          <strong>{{ context.group }}</strong>
+                          <span>{{ context.reason }}</span>
+                          <small
+                            >{{ context.finding.reviewCount }} relevant reviews ·
+                            {{ context.finding.evidenceStrength }} evidence</small
+                          >
+                        } @else { <strong>Unknown</strong><span>No matching evidence</span> }
+                      </div>
+                    }
+                  </div>
+                </article>
               }
             </div>
           </section>
@@ -194,22 +236,37 @@
 
         @if (comparison.bodyAreas.length) {
           <section class="comparison-section" aria-labelledby="body-title">
-            <p class="eyebrow">Comfort & discomfort</p><h2 id="body-title">Body areas</h2>
+            <div class="section-marker">
+              <p class="eyebrow">Comfort & discomfort</p>
+              <h2 id="body-title">Body areas</h2>
+            </div>
             <div class="comparison-rows">
               @for (row of comparison.bodyAreas; track row.id) {
-                <article class="evidence-row"><h3>{{ row.label }}</h3><div class="paired-values">
-                  @for (side of [row.left, row.right]; track $index) {
-                    <div class="comparison-value" [attr.data-state]="side?.state ?? 'unavailable'">
-                      @if (side; as area) {
-                        <strong>{{ formatPercent(area.positiveProportion) }} comfort</strong>
-                        <span>{{ formatPercent(area.complaintProportion) }} complaint reports · {{ area.labels.join(' · ') }}</span>
-                        <span>{{ area.finding.positiveReviews }} comfort reports · {{ area.finding.complaintReviews }} complaint reports</span>
-                        <span>Complaint severity {{ formatSeverity(area.complaintSeverity) }}</span>
-                        <small>{{ area.relevantReviews }} relevant reports · {{ area.finding.evidenceStrength }} evidence</small>
-                      } @else { <strong>Unavailable</strong><span>No matching evidence</span> }
-                    </div>
-                  }
-                </div></article>
+                <article class="evidence-row">
+                  <div class="row-marker"><h3>{{ row.label }}</h3></div>
+                  <div class="paired-values">
+                    @for (side of [row.left, row.right]; track $index) {
+                      <div class="comparison-value" [attr.data-state]="side?.state ?? 'unavailable'">
+                        @if (side; as area) {
+                          <strong>{{ formatPercent(area.positiveProportion) }} comfort</strong>
+                          <span
+                            >{{ formatPercent(area.complaintProportion) }} complaint reports ·
+                            {{ area.labels.join(' · ') }}</span
+                          >
+                          <span
+                            >{{ area.finding.positiveReviews }} comfort reports ·
+                            {{ area.finding.complaintReviews }} complaint reports</span
+                          >
+                          <span>Complaint severity {{ formatSeverity(area.complaintSeverity) }}</span>
+                          <small
+                            >{{ area.relevantReviews }} relevant reports ·
+                            {{ area.finding.evidenceStrength }} evidence</small
+                          >
+                        } @else { <strong>Unavailable</strong><span>No matching evidence</span> }
+                      </div>
+                    }
+                  </div>
+                </article>
               }
             </div>
           </section>
@@ -217,12 +274,22 @@
 
         @if (comparison.components.left.length || comparison.components.right.length) {
           <section class="comparison-section" aria-labelledby="components-title">
-            <p class="eyebrow">Components</p><h2 id="components-title">Notable component findings</h2>
+            <div class="section-marker">
+              <p class="eyebrow">Components</p>
+              <h2 id="components-title">Notable findings</h2>
+            </div>
             <div class="paired-values component-columns">
               @for (items of [comparison.components.left, comparison.components.right]; track $index) {
                 <div class="component-list">
                   @for (item of items; track item.category + item.finding.id) {
-                    <article><span>{{ item.category }}</span><strong>{{ item.finding.label }}</strong><small>{{ item.finding.reviewCount }} relevant reviews · {{ item.finding.evidenceStrength }} evidence</small></article>
+                    <article>
+                      <span>{{ item.category }}</span>
+                      <strong>{{ item.finding.label }}</strong>
+                      <small
+                        >{{ item.finding.reviewCount }} relevant reviews ·
+                        {{ item.finding.evidenceStrength }} evidence</small
+                      >
+                    </article>
                   }
                 </div>
               }
@@ -231,9 +298,17 @@
         }
 
         <section class="comparison-section comparison-pricing" aria-labelledby="pricing-title">
-          <div class="section-heading">
+          <div class="section-marker pricing-marker">
             <div><p class="eyebrow">Like-for-like offers</p><h2 id="pricing-title">Price comparison</h2></div>
-            <label class="headgear-toggle"><input type="checkbox" aria-label="Include headgear" [checked]="includeHeadgear()" (change)="toggleHeadgear($event)" /><span>Include headgear</span></label>
+            <label class="headgear-toggle">
+              <input
+                type="checkbox"
+                aria-label="Include headgear"
+                [checked]="includeHeadgear()"
+                (change)="toggleHeadgear($event)"
+              />
+              <span>Include headgear</span>
+            </label>
           </div>
           <div class="paired-values">
             @for (side of [comparison.pricing.left, comparison.pricing.right]; track $index) {
@@ -248,8 +323,16 @@
         </section>
 
         <nav class="analysis-links" aria-label="Full mask analyses">
-          <a [routerLink]="['/cpaplibrary/masks', comparison.masks.left.slug]" [attr.aria-label]="'View full analysis for ' + comparison.masks.left.name">View full analysis — {{ comparison.masks.left.name }}</a>
-          <a [routerLink]="['/cpaplibrary/masks', comparison.masks.right.slug]" [attr.aria-label]="'View full analysis for ' + comparison.masks.right.name">View full analysis — {{ comparison.masks.right.name }}</a>
+          <a
+            [routerLink]="['/library/masks', comparison.masks.left.slug]"
+            [attr.aria-label]="'View full analysis for ' + comparison.masks.left.name"
+            >View full analysis — {{ comparison.masks.left.name }}</a
+          >
+          <a
+            [routerLink]="['/library/masks', comparison.masks.right.slug]"
+            [attr.aria-label]="'View full analysis for ' + comparison.masks.right.name"
+            >View full analysis — {{ comparison.masks.right.name }}</a
+          >
         </nav>
       </div>
     }

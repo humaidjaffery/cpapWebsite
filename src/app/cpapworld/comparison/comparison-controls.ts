@@ -1,4 +1,4 @@
-import { Component, inject } from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 import { ComparisonSelectionService } from './comparison-selection.service';
@@ -11,4 +11,5 @@ import { ComparisonSelectionService } from './comparison-selection.service';
 })
 export class ComparisonControls {
   protected readonly selection = inject(ComparisonSelectionService);
+  protected readonly emptySlots = computed(() => Array(2 - this.selection.selected().length));
 }

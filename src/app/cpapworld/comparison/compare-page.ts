@@ -3,7 +3,8 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { catchError, distinctUntilChanged, forkJoin, map, of, switchMap } from 'rxjs';
 
-import { MaskPrices, MaskProfile } from '../mask-data';
+import { WaitlistSignup } from '../../waitlist-signup/waitlist-signup';
+import { MaskPrices, MaskProfile, RetailerPriceOffer } from '../mask-data';
 import { MaskDataService } from '../mask-data.service';
 import {
   buildMaskComparison,
@@ -21,9 +22,16 @@ type LoadedComparison = {
   rightPrices: MaskPrices | null;
 };
 
+type ProductOverview = {
+  rating: number | null;
+  ratingCount: number;
+  offer: RetailerPriceOffer | null;
+  headgearIncluded: boolean;
+};
+
 @Component({
   selector: 'app-compare-page',
-  imports: [RouterLink],
+  imports: [RouterLink, WaitlistSignup],
   templateUrl: './compare-page.html',
   styleUrl: './compare-page.css'
 })
@@ -33,13 +41,16 @@ export class ComparePage {
   protected readonly error = signal('');
   protected readonly model = signal<MaskComparisonModel | null>(null);
   protected readonly includeHeadgear = signal(true);
-  protected readonly selectedCriteria = signal<string[]>([...DEFAULT_COMPARISON_CRITERIA]);
+  protected readonly productOverviews = signal<{
+    left: ProductOverview;
+    right: ProductOverview;
+  } | null>(null);
   protected readonly summaryState = signal<'idle' | 'loading' | 'ready' | 'error'>('idle');
   protected readonly summary = signal<ComparisonSummary | null>(null);
   protected readonly visibleCriteria = computed(() => {
     const model = this.model();
     if (!model) return [];
-    return this.selectedCriteria().flatMap((id) => {
+    return DEFAULT_COMPARISON_CRITERIA.flatMap((id) => {
       const row = model.criteria.find((criterion) => criterion.id === id);
       return row ? [row] : [];
     });
@@ -84,6 +95,10 @@ export class ComparePage {
       .subscribe((loaded) => {
         if (!loaded) return;
         this.loaded = loaded;
+        this.productOverviews.set({
+          left: this.productOverview(loaded.leftProfile, loaded.leftPrices),
+          right: this.productOverview(loaded.rightProfile, loaded.rightPrices)
+        });
         this.rebuildModel();
         this.loading.set(false);
         const model = this.model();
@@ -91,13 +106,6 @@ export class ComparePage {
           this.requestSummary(loaded.leftProfile.slug, loaded.rightProfile.slug);
         }
       });
-  }
-
-  protected selectCriterion(index: number, event: Event): void {
-    const value = (event.target as HTMLSelectElement).value;
-    this.selectedCriteria.update((criteria) =>
-      criteria.map((criterion, criterionIndex) => (criterionIndex === index ? value : criterion))
-    );
   }
 
   protected toggleHeadgear(event: Event): void {
@@ -121,6 +129,10 @@ export class ComparePage {
   }
 
   protected readonly describePriceConfiguration = describePriceConfiguration;
+
+  protected formatRating(value: number | null): string {
+    return value === null ? 'Not rated' : value.toFixed(1);
+  }
 
   private requestSummary(mask1: string, mask2: string): void {
     const requestId = ++this.summaryRequestId;
@@ -159,14 +171,34 @@ export class ComparePage {
     this.loading.set(true);
     this.error.set('');
     this.model.set(null);
+    this.productOverviews.set(null);
     this.loaded = null;
     this.includeHeadgear.set(true);
-    this.selectedCriteria.set([...DEFAULT_COMPARISON_CRITERIA]);
     this.summary.set(null);
     this.summaryState.set('idle');
   }
 
   private validSlug(slug: string): boolean {
     return /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug);
+  }
+
+  private productOverview(profile: MaskProfile, prices: MaskPrices | null): ProductOverview {
+    const availableOffers = [...(prices?.offers ?? [])]
+      .filter((offer) => offer.inStock)
+      .sort(
+        (left, right) =>
+          left.priceCents - right.priceCents || left.retailer.localeCompare(right.retailer)
+      );
+    const offer =
+      availableOffers.find((candidate) => candidate.configuration.headgearIncluded === true) ??
+      availableOffers[0] ??
+      null;
+
+    return {
+      rating: profile.overall.ratingComponent.average ?? null,
+      ratingCount: profile.overall.ratingComponent.reviewCount,
+      offer,
+      headgearIncluded: offer?.configuration.headgearIncluded === true
+    };
   }
 }

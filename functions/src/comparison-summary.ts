@@ -22,7 +22,7 @@ import {
 } from "../../shared/comparison-model";
 
 export { COMPARISON_RULES_VERSION } from "../../shared/comparison-model";
-export const COMPARISON_PROMPT_VERSION = "comparison-summary-v2";
+export const COMPARISON_PROMPT_VERSION = "comparison-summary-v3";
 
 export interface SourceFinding {
   id: string;

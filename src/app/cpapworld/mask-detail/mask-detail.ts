@@ -18,7 +18,6 @@ import {
 import { MaskDataService } from '../mask-data.service';
 import { RetailerProfile, RetailerServiceAspect } from '../retailer-data';
 import { RetailerDataService } from '../retailer-data.service';
-import { CustomMaskPopup } from '../../custom-mask-popup/custom-mask-popup';
 import { WaitlistSignup } from '../../waitlist-signup/waitlist-signup';
 import { ComparisonControls } from '../comparison/comparison-controls';
 import { ComparisonSelectionService } from '../comparison/comparison-selection.service';
@@ -31,7 +30,7 @@ type ReviewEvidence = ScoreEvidence & { aspectId: string; aspectLabel: string };
 
 @Component({
   selector: 'app-mask-detail',
-  imports: [RouterLink, CustomMaskPopup, WaitlistSignup, ComparisonControls, FaceComfortHeatmap],
+  imports: [RouterLink, WaitlistSignup, ComparisonControls, FaceComfortHeatmap],
   templateUrl: './mask-detail.html',
   styleUrl: './mask-detail.css'
 })

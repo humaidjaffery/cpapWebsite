@@ -22,8 +22,15 @@ describe('App', () => {
     expect(compiled.querySelector('router-outlet')).not.toBeNull();
   });
 
-  it('keeps the mask catalog and detail routes reachable', () => {
-    expect(routes.some((route) => route.path === 'cpaplibrary')).toBeTrue();
-    expect(routes.some((route) => route.path === 'cpaplibrary/masks/:maskSlug')).toBeTrue();
+  it('uses the library routes as the canonical mask catalog URLs', () => {
+    expect(routes.some((route) => route.path === 'library' && route.component)).toBeTrue();
+    expect(
+      routes.some((route) => route.path === 'library/masks/:maskSlug' && route.component)
+    ).toBeTrue();
+  });
+
+  it('redirects the legacy catalog URLs to the library', () => {
+    expect(routes.find((route) => route.path === 'cpaplibrary')?.redirectTo).toBe('library');
+    expect(routes.find((route) => route.path === 'cpapworld')?.redirectTo).toBe('library');
   });
 });

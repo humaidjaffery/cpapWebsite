@@ -1,4 +1,4 @@
-import { TestBed } from '@angular/core/testing';
+import { fakeAsync, TestBed, tick } from '@angular/core/testing';
 
 import {
   COMPARISON_STORAGE,
@@ -108,6 +108,18 @@ describe('ComparisonSelectionService', () => {
     expect(selection.selected()).toEqual([MASK_A, MASK_B]);
     expect(selection.warning()).toBe('Only two masks can be compared at a time');
   });
+
+  it('clears comparison warnings after four seconds', fakeAsync(() => {
+    selection.select(MASK_A);
+    selection.select(MASK_B);
+    selection.select(MASK_C);
+
+    tick(3999);
+    expect(selection.warning()).toBe('Only two masks can be compared at a time');
+
+    tick(1);
+    expect(selection.warning()).toBe('');
+  }));
 
   it('blocks masks with fewer than 50 processed reviews', () => {
     selection.select({ ...MASK_A, processedReviews: 49 });

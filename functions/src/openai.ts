@@ -46,6 +46,7 @@ export async function generateComparisonSummary(params: {
         "Mention limited evidence and cross-type uncertainty when supplied.",
         "Refer to masks by their supplied names. Never use Mask 1, Mask 2, first mask, second mask, left mask, or right mask.",
         "Keep every list item short and avoid recommendations or clinical claims.",
+        "Return polished final copy only. Never include drafting notes, self-critique, questions to yourself, placeholders, or alternative wording.",
       ].join(" "),
       input: [
         {
@@ -101,7 +102,8 @@ export async function generateComparisonSummary(params: {
           },
         },
       },
-      max_output_tokens: 700,
+      reasoning: { effort: "low" },
+      max_output_tokens: 1200,
       store: false,
     }),
   });

@@ -11,11 +11,14 @@
 } @else {
   <aside class="comparison-tray" aria-label="Selected masks for comparison">
     @if (selection.warning()) {
-      <p class="comparison-warning" role="status">{{ selection.warning() }}</p>
+      <p class="comparison-warning" role="status">
+        <span class="comparison-warning-icon" aria-hidden="true">!</span>
+        {{ selection.warning() }}
+      </p>
     }
 
     <div class="comparison-tray-content">
-      <strong class="comparison-tray-title">Compare masks</strong>
+      <strong class="comparison-tray-title">Compare</strong>
       <div class="comparison-slots">
         @for (mask of selection.selected(); track mask.slug) {
           <div class="comparison-slot comparison-slot-filled">
@@ -30,7 +33,7 @@
             </button>
           </div>
         }
-        @if (selection.selected().length < 2) {
+        @for (_ of emptySlots(); track $index) {
           <div class="comparison-slot comparison-slot-empty">
             <span>{{ selection.selected().length ? 'Choose one more mask' : 'Choose a mask' }}</span>
           </div>
@@ -38,15 +41,27 @@
       </div>
 
       <div class="comparison-tray-actions">
-        <button type="button" class="comparison-exit" (click)="selection.exit()">Exit</button>
         @if (selection.comparisonParams(); as params) {
           <a
             class="comparison-submit"
             routerLink="/compare"
             [queryParams]="params"
             aria-label="Compare selected masks"
-          >Compare</a>
+          >
+            Compare
+            <span aria-hidden="true">→</span>
+          </a>
         }
+        <button
+          type="button"
+          class="comparison-exit"
+          aria-label="Exit comparison mode"
+          (click)="selection.exit()"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 6l12 12M18 6 6 18" />
+          </svg>
+        </button>
       </div>
     </div>
   </aside>

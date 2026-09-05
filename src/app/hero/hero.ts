@@ -27,8 +27,7 @@ export function cameFromCpapLibrary(referrer: string, currentOrigin: string): bo
     const previousPage = new URL(referrer);
     return (
       previousPage.origin === currentOrigin &&
-      (previousPage.pathname === '/cpaplibrary' ||
-        previousPage.pathname.startsWith('/cpaplibrary/'))
+      (previousPage.pathname === '/library' || previousPage.pathname.startsWith('/library/'))
     );
   } catch {
     return false;

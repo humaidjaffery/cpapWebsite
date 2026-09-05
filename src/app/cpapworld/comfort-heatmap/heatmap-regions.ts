@@ -40,6 +40,9 @@ export interface RegionDefinition {
   widgetTop: number;
   paths: readonly string[];
   featureLines?: readonly string[];
+  gradientRadius?: number;
+  heatScale?: number;
+  activeHeatScale?: number;
 }
 
 export const HEATMAP_REGION_DEFINITIONS: readonly RegionDefinition[] = [
@@ -50,8 +53,11 @@ export const HEATMAP_REGION_DEFINITIONS: readonly RegionDefinition[] = [
     side: 'left',
     widgetTop: 8,
     paths: [
-      'M147 251 C137 151 180 72 280 68 C380 72 423 151 413 251 C398 176 355 128 280 128 C205 128 162 176 147 251 Z'
-    ]
+      'M350 324 C340 260 346 197 378 144 C420 75 494 58 592 58 C690 58 764 75 806 144 C838 197 844 260 834 324 C782 300 700 284 592 284 C484 284 402 300 350 324 Z'
+    ],
+    gradientRadius: 66,
+    heatScale: 0.9,
+    activeHeatScale: 0.94
   },
   {
     id: 'forehead',
@@ -59,7 +65,7 @@ export const HEATMAP_REGION_DEFINITIONS: readonly RegionDefinition[] = [
     bodySiteIds: ['forehead'],
     side: 'right',
     widgetTop: 8,
-    paths: ['M179 159 C207 121 353 121 381 159 L361 235 C322 216 238 216 199 235 Z']
+    paths: ['M389 342 C430 282 754 282 795 342 L766 405 C700 382 484 382 418 405 Z']
   },
   {
     id: 'ears',
@@ -68,8 +74,8 @@ export const HEATMAP_REGION_DEFINITIONS: readonly RegionDefinition[] = [
     side: 'left',
     widgetTop: 24,
     paths: [
-      'M100 300 a31 67 0 1 0 62 0 a31 67 0 1 0 -62 0',
-      'M398 300 a31 67 0 1 0 62 0 a31 67 0 1 0 -62 0'
+      'M326 469 a30 83 0 1 0 60 0 a30 83 0 1 0 -60 0',
+      'M798 469 a30 83 0 1 0 60 0 a30 83 0 1 0 -60 0'
     ]
   },
   {
@@ -79,10 +85,10 @@ export const HEATMAP_REGION_DEFINITIONS: readonly RegionDefinition[] = [
     side: 'right',
     widgetTop: 24,
     paths: [
-      'M166 269 a53 29 0 1 0 106 0 a53 29 0 1 0 -106 0',
-      'M288 269 a53 29 0 1 0 106 0 a53 29 0 1 0 -106 0'
+      'M421 423 C438 384 535 382 559 422 C538 463 444 466 421 423 Z',
+      'M625 422 C649 382 746 384 763 423 C740 466 646 463 625 422 Z'
     ],
-    featureLines: ['M190 268 Q219 250 248 268', 'M312 268 Q341 250 370 268']
+    featureLines: ['M448 422 Q490 397 532 422', 'M652 422 Q694 397 736 422']
   },
   {
     id: 'nose-bridge',
@@ -90,7 +96,7 @@ export const HEATMAP_REGION_DEFINITIONS: readonly RegionDefinition[] = [
     bodySiteIds: ['nose_bridge', 'higher_on_nose'],
     side: 'left',
     widgetTop: 40,
-    paths: ['M255 233 Q280 218 305 233 L314 356 Q280 372 246 356 Z']
+    paths: ['M548 407 Q592 390 636 407 L647 535 Q592 566 537 535 Z']
   },
   {
     id: 'face-cheeks',
@@ -99,9 +105,12 @@ export const HEATMAP_REGION_DEFINITIONS: readonly RegionDefinition[] = [
     side: 'right',
     widgetTop: 40,
     paths: [
-      'M151 302 C176 274 222 278 238 331 C233 404 190 435 163 399 C150 371 146 335 151 302 Z',
-      'M409 302 C384 274 338 278 322 331 C327 404 370 435 397 399 C410 371 414 335 409 302 Z'
-    ]
+      'M392 466 C425 447 486 451 516 480 C530 500 531 526 520 551 C508 581 489 613 462 632 C430 652 397 634 383 602 C369 568 366 511 378 483 C381 475 386 469 392 466 Z',
+      'M792 466 C759 447 698 451 668 480 C654 500 653 526 664 551 C676 581 695 613 722 632 C754 652 787 634 801 602 C815 568 818 511 806 483 C803 475 798 469 792 466 Z'
+    ],
+    gradientRadius: 64,
+    heatScale: 0.88,
+    activeHeatScale: 0.92
   },
   {
     id: 'nose',
@@ -109,7 +118,7 @@ export const HEATMAP_REGION_DEFINITIONS: readonly RegionDefinition[] = [
     bodySiteIds: ['nose'],
     side: 'left',
     widgetTop: 56,
-    paths: ['M246 333 Q280 309 314 333 L328 382 Q280 410 232 382 Z']
+    paths: ['M540 490 Q592 465 644 490 L657 557 Q592 591 527 557 Z']
   },
   {
     id: 'nostrils',
@@ -118,8 +127,8 @@ export const HEATMAP_REGION_DEFINITIONS: readonly RegionDefinition[] = [
     side: 'right',
     widgetTop: 56,
     paths: [
-      'M242 377 a19 13 0 1 0 38 0 a19 13 0 1 0 -38 0',
-      'M280 377 a19 13 0 1 0 38 0 a19 13 0 1 0 -38 0'
+      'M538 556 a23 12 0 1 0 46 0 a23 12 0 1 0 -46 0',
+      'M600 556 a23 12 0 1 0 46 0 a23 12 0 1 0 -46 0'
     ]
   },
   {
@@ -128,8 +137,8 @@ export const HEATMAP_REGION_DEFINITIONS: readonly RegionDefinition[] = [
     bodySiteIds: ['mouth', 'lips', 'upper_lip', 'lower_lip', 'teeth'],
     side: 'left',
     widgetTop: 72,
-    paths: ['M220 431 Q280 397 340 431 Q313 482 280 485 Q247 482 220 431 Z'],
-    featureLines: ['M240 441 Q280 458 320 441']
+    paths: ['M500 619 Q592 583 684 619 Q650 668 592 670 Q534 668 500 619 Z'],
+    featureLines: ['M530 630 Q592 654 654 630']
   },
   {
     id: 'chin',
@@ -137,7 +146,7 @@ export const HEATMAP_REGION_DEFINITIONS: readonly RegionDefinition[] = [
     bodySiteIds: ['chin'],
     side: 'right',
     widgetTop: 72,
-    paths: ['M222 485 Q280 507 338 485 Q326 540 280 548 Q234 540 222 485 Z']
+    paths: ['M500 671 Q592 696 684 671 Q668 750 592 764 Q516 750 500 671 Z']
   },
   {
     id: 'neck',
@@ -146,7 +155,7 @@ export const HEATMAP_REGION_DEFINITIONS: readonly RegionDefinition[] = [
     side: 'left',
     widgetTop: 88,
     paths: [
-      'M214 515 C221 576 202 616 184 660 H376 C358 616 339 576 346 515 C313 548 247 548 214 515 Z'
+      'M430 700 C445 796 416 856 392 912 H792 C768 856 739 796 754 700 C704 758 480 758 430 700 Z'
     ]
   }
 ];

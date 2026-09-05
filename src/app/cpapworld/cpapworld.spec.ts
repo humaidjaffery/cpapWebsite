@@ -195,7 +195,7 @@ describe('CpapWorld', () => {
     expect(card?.textContent).toContain('Cheapest');
     expect(card?.textContent).toContain('$69.00');
     expect(card?.querySelector('.catalog-grade')?.textContent).toContain('A-');
-    expect(card?.getAttribute('href')).toContain('/cpaplibrary/masks/resmed-airfit-p10');
+    expect(card?.getAttribute('href')).toContain('/library/masks/resmed-airfit-p10');
     expect(card?.querySelector('img')?.getAttribute('src')).toBe(
       '/images/masks/resmed-airfit-p10.webp'
     );
@@ -210,22 +210,22 @@ describe('CpapWorld', () => {
     expect(fixture.nativeElement.querySelector('.header-waitlist input')).toBeNull();
   });
 
-  it('selects catalog cards in comparison mode and keeps the tray accessible', () => {
+  it('enters comparison mode from a persistent card control and keeps the tray accessible', () => {
     const element: HTMLElement = fixture.nativeElement;
     const selection = TestBed.inject(ComparisonSelectionService);
-
-    (element.querySelector('button[aria-label="Compare masks"]') as HTMLButtonElement).click();
-    fixture.detectChanges();
-
     const card = element.querySelector('.mask-card-shell');
     const control = card?.querySelector<HTMLButtonElement>('button[aria-label*="Select ResMed"]');
-    expect(card?.classList).toContain('mask-card-selectable');
+
+    expect(selection.active()).toBeFalse();
+    expect(control).toBeTruthy();
     expect(control?.getAttribute('aria-pressed')).toBe('false');
 
     control?.click();
     fixture.detectChanges();
 
+    expect(selection.active()).toBeTrue();
     expect(selection.selected().map((mask) => mask.slug)).toEqual(['resmed-airfit-p10']);
+    expect(card?.classList).toContain('mask-card-selectable');
     expect(card?.classList).toContain('mask-card-selected');
     expect(control?.getAttribute('aria-pressed')).toBe('true');
     expect(element.querySelector('.comparison-tray')?.textContent).toContain('ResMed AirFit P10');
@@ -233,6 +233,17 @@ describe('CpapWorld', () => {
       '/images/masks/resmed-airfit-p10.webp'
     );
     expect(element.querySelector('.comparison-tray [aria-label="Compare selected masks"]')).toBeNull();
+  });
+
+  it('shows two empty comparison slots before masks are selected', () => {
+    const element: HTMLElement = fixture.nativeElement;
+
+    (element.querySelector('button[aria-label="Compare masks"]') as HTMLButtonElement).click();
+    fixture.detectChanges();
+
+    expect(element.querySelectorAll('.comparison-slot').length).toBe(2);
+    expect(element.querySelectorAll('.comparison-slot-empty').length).toBe(2);
+    expect(element.querySelector('app-custom-mask-popup')).toBeNull();
   });
 
   it('filters masks by abbreviation, alias, and mask type', () => {

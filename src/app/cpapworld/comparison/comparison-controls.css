@@ -6,7 +6,7 @@
 .compare-launcher {
   position: fixed;
   right: 24px;
-  bottom: 100px;
+  bottom: 24px;
   display: flex;
   align-items: center;
   gap: 11px;
@@ -61,41 +61,76 @@
 }
 
 .comparison-warning {
-  width: min(960px, 100%);
-  margin: -46px auto 8px;
-  padding: 9px 13px;
+  position: absolute;
+  bottom: calc(100% + 14px);
+  left: 50%;
+  display: flex;
+  width: max-content;
+  max-width: min(520px, calc(100% - 32px));
+  align-items: center;
+  gap: 7px;
+  margin: 0;
+  padding: 7px 11px;
   border: 1px solid #e5b95b;
-  border-radius: 10px;
+  border-radius: 9px;
   background: #fff7df;
+  box-shadow: 0 8px 24px rgba(48, 27, 57, 0.12);
   color: #714d05;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   text-align: center;
+  transform: translateX(-50%);
+  animation: comparison-warning-fade 4s ease-in forwards;
+}
+
+.comparison-warning-icon {
+  display: inline-grid;
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+@keyframes comparison-warning-fade {
+  0%,
+  88% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 .comparison-tray-content {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
-  width: min(1100px, 100%);
+  width: min(1320px, 100%);
   margin: 0 auto;
-  gap: 18px;
+  gap: 22px;
 }
 
 .comparison-tray-title {
   color: #4d176a;
+  font-size: 19px;
   white-space: nowrap;
 }
 
 .comparison-slots {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
+  gap: 12px;
 }
 
 .comparison-slot {
   display: flex;
-  min-height: 52px;
+  min-height: 62px;
   align-items: center;
   gap: 9px;
   padding: 4px 8px;
@@ -109,8 +144,8 @@
 }
 
 .comparison-slot img {
-  width: 44px;
-  height: 44px;
+  width: 53px;
+  height: 53px;
   object-fit: contain;
 }
 
@@ -119,7 +154,7 @@
   flex: 1;
   overflow: hidden;
   color: #38303d;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -135,15 +170,38 @@
 .comparison-exit {
   border: 0;
   background: transparent;
-  color: #6a0dad;
   font: inherit;
   cursor: pointer;
 }
 
 .comparison-slot button {
-  width: 32px;
-  height: 32px;
-  font-size: 22px;
+  display: grid;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  place-items: center;
+  color: #6a0dad;
+  font-size: 26px;
+  line-height: 1;
+}
+
+.comparison-exit {
+  display: grid;
+  width: 50px;
+  min-height: 50px;
+  padding: 0;
+  place-items: center;
+  border-radius: 50%;
+  color: #77717a;
+}
+
+.comparison-exit svg {
+  width: 27px;
+  height: 27px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: 2;
 }
 
 .comparison-tray-actions {
@@ -152,21 +210,23 @@
   gap: 10px;
 }
 
-.comparison-exit,
 .comparison-submit {
-  min-height: 42px;
+  min-height: 50px;
   padding: 0 16px;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 800;
-}
-
-.comparison-submit {
   display: inline-flex;
   align-items: center;
+  gap: 9px;
   background: linear-gradient(135deg, #6a0dad, #8a6313);
   color: #fff;
   text-decoration: none;
+}
+
+.comparison-submit span {
+  font-size: 22px;
+  line-height: 1;
 }
 
 button:focus-visible,
@@ -176,11 +236,6 @@ a:focus-visible {
 }
 
 @media (max-width: 720px) {
-  .compare-launcher {
-    right: 14px;
-    bottom: 14px;
-  }
-
   .comparison-tray {
     padding-inline: 12px;
   }
@@ -190,10 +245,20 @@ a:focus-visible {
     gap: 8px;
   }
 
+  .comparison-exit {
+    width: 43px;
+    min-height: 43px;
+  }
+
+  .comparison-exit svg {
+    width: 24px;
+    height: 24px;
+  }
+
   .comparison-tray-title {
     grid-column: 1;
     grid-row: 1;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .comparison-slots {
@@ -208,29 +273,29 @@ a:focus-visible {
   }
 
   .comparison-slot {
-    min-height: 48px;
+    min-height: 58px;
     padding: 4px;
   }
 
   .comparison-slot img {
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    height: 36px;
   }
 
   .comparison-slot span {
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1.15;
     white-space: normal;
   }
 
   .comparison-slot button {
-    width: 26px;
-    height: 26px;
+    width: 31px;
+    height: 31px;
   }
 
-  .comparison-exit,
   .comparison-submit {
-    min-height: 36px;
+    min-height: 43px;
     padding-inline: 10px;
+    font-size: 14px;
   }
 }
