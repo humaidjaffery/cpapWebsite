@@ -363,21 +363,15 @@
         </div>
       </div>
 
-      @if (showCpapLibraryGuide) {
-        <a
-          class="cpapworld-launcher"
-          routerLink="/library"
-          aria-label="Explore CPAP Library"
-        >
-          <span class="cpapworld-launcher-icon" aria-hidden="true">
-            <img src="/dreamseal_logo.png" alt="" width="42" height="42" />
-          </span>
-          <span class="cpapworld-launcher-copy">
-            <small>CPAP Library</small>
-            <strong>Compare masks using real review evidence</strong>
-          </span>
-          <span class="cpapworld-launcher-arrow" aria-hidden="true">→</span>
-        </a>
-      }
+      <a class="cpapworld-launcher" routerLink="/library" aria-label="Go to CpapLibrary">
+        <span class="cpapworld-launcher-icon" aria-hidden="true">
+          <img src="/cpap-library-launcher.png" alt="" width="42" height="42" />
+        </span>
+        <span class="cpapworld-launcher-copy">
+          <strong>Go to CpapLibrary</strong>
+          <small>compare masks, find the lowest price</small>
+        </span>
+        <span class="cpapworld-launcher-arrow" aria-hidden="true">→</span>
+      </a>
   </body>
 </html>

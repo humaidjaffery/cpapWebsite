@@ -20,20 +20,6 @@ export function createWaitlistRecord(
   };
 }
 
-export function cameFromCpapLibrary(referrer: string, currentOrigin: string): boolean {
-  if (!referrer) return false;
-
-  try {
-    const previousPage = new URL(referrer);
-    return (
-      previousPage.origin === currentOrigin &&
-      (previousPage.pathname === '/library' || previousPage.pathname.startsWith('/library/'))
-    );
-  } catch {
-    return false;
-  }
-}
-
 @Component({
   selector: 'app-hero',
   imports: [FormsModule, RouterLink],
@@ -44,7 +30,6 @@ export function cameFromCpapLibrary(referrer: string, currentOrigin: string): bo
 })
 export class Hero implements AfterViewInit, OnDestroy {
   readonly customMaskImage = randomCustomMaskImage();
-  readonly showCpapLibraryGuide = cameFromCpapLibrary(document.referrer, window.location.origin);
   emailOrPhone: string = '';
   showHeaderInput: boolean = false;
   private db;
