@@ -1,5 +1,5 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA, AfterViewInit, OnDestroy, ViewChild, ElementRef } from '@angular/core';
-import { Router, RouterLink } from '@angular/router';
+import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { getApp, getApps, initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, Timestamp } from 'firebase/firestore';
@@ -22,7 +22,7 @@ export function createWaitlistRecord(
 
 @Component({
   selector: 'app-hero',
-  imports: [FormsModule, RouterLink],
+  imports: [FormsModule],
   templateUrl: './hero.html',
   styleUrl: './hero.css'
   ,

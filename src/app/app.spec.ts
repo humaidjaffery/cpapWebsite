@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { App } from './app';
-import { routes } from './app.routes';
+import { routes, standaloneLibraryUrl } from './app.routes';
 
 describe('App', () => {
   beforeEach(async () => {
@@ -22,15 +22,19 @@ describe('App', () => {
     expect(compiled.querySelector('router-outlet')).not.toBeNull();
   });
 
-  it('uses the library routes as the canonical mask catalog URLs', () => {
-    expect(routes.some((route) => route.path === 'library' && route.component)).toBeTrue();
-    expect(
-      routes.some((route) => route.path === 'library/masks/:maskSlug' && route.component)
-    ).toBeTrue();
+  it('maps legacy library URLs to the standalone site', () => {
+    expect(standaloneLibraryUrl('/library')).toBe('https://thecpaplibrary.com/');
+    expect(standaloneLibraryUrl('/library/retailers')).toBe(
+      'https://thecpaplibrary.com/retailers'
+    );
+    expect(standaloneLibraryUrl('/library/masks/resmed-airfit-p10?source=dreamseal')).toBe(
+      'https://thecpaplibrary.com/masks/resmed-airfit-p10?source=dreamseal'
+    );
   });
 
-  it('redirects the legacy catalog URLs to the library', () => {
-    expect(routes.find((route) => route.path === 'cpaplibrary')?.redirectTo).toBe('library');
-    expect(routes.find((route) => route.path === 'cpapworld')?.redirectTo).toBe('library');
+  it('guards every legacy library route with the external redirect', () => {
+    for (const path of ['guide', 'library', 'library/masks/:maskSlug', 'compare', 'cpaplibrary', 'cpapworld']) {
+      expect(routes.find((route) => route.path === path)?.canActivate?.length).toBe(1);
+    }
   });
 });

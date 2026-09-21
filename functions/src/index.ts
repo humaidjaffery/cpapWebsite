@@ -63,6 +63,8 @@ const GENERIC_USER_PAST_EXPERIENCE =
 const COMPARISON_ORIGINS = new Set([
   "https://dreamseals.com",
   "https://www.dreamseals.com",
+  "https://thecpaplibrary.com",
+  "https://www.thecpaplibrary.com",
   "https://cpapwebsite.web.app",
   "http://localhost:4200",
   "http://127.0.0.1:4200",

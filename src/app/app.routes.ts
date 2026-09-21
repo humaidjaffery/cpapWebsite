@@ -1,48 +1,39 @@
-import { Routes } from '@angular/router';
-import { CpapWorld } from './cpapworld/cpapworld';
-import { MaskDetail } from './cpapworld/mask-detail/mask-detail';
-import { Retailers } from './cpapworld/retailers/retailers';
+import { CanActivateFn, Routes } from '@angular/router';
 import { Hero } from './hero/hero';
 import { Survey } from './survey/survey';
 import { ThankYou } from './thank-you/thank-you';
-import { ComparePage } from './cpapworld/comparison/compare-page';
-import { environment } from '../environments/environment';
 
-const developmentRoutes: Routes = environment.production
-  ? []
-  : [
-      {
-        path: 'development/comfort-heatmap',
-        loadComponent: () =>
-          import('./cpapworld/comfort-heatmap/comfort-heatmap-harness').then(
-            (module) => module.ComfortHeatmapHarness
-          )
-      }
-    ];
+const CPAP_LIBRARY_ORIGIN = 'https://thecpaplibrary.com';
+
+export function standaloneLibraryUrl(legacyUrl: string): string {
+  const url = new URL(legacyUrl, CPAP_LIBRARY_ORIGIN);
+  const standalonePath =
+    url.pathname === '/guide'
+      ? '/'
+      : url.pathname.replace(/^\/(?:library|cpaplibrary|cpapworld)(?=\/|$)/, '') || '/';
+
+  return `${CPAP_LIBRARY_ORIGIN}${standalonePath}${url.search}${url.hash}`;
+}
+
+const redirectToStandaloneLibrary: CanActivateFn = (_route, state) => {
+  window.location.replace(standaloneLibraryUrl(state.url));
+  return false;
+};
 
 export const routes: Routes = [
   { path: '', component: Hero },
-  { path: 'guide', redirectTo: 'library', pathMatch: 'full' },
   { path: 'survey', component: Survey },
   { path: 'thank-you', component: ThankYou },
-  { path: 'library', component: CpapWorld },
-  { path: 'library/retailers', component: Retailers },
-  { path: 'library/masks/:maskSlug', component: MaskDetail },
-  { path: 'compare', component: ComparePage },
-  { path: 'cpaplibrary', redirectTo: 'library', pathMatch: 'full' },
-  { path: 'cpaplibrary/retailers', redirectTo: 'library/retailers', pathMatch: 'full' },
-  {
-    path: 'cpaplibrary/masks/:maskSlug',
-    redirectTo: 'library/masks/:maskSlug',
-    pathMatch: 'full'
-  },
-  { path: 'cpapworld', redirectTo: 'library', pathMatch: 'full' },
-  { path: 'cpapworld/retailers', redirectTo: 'library/retailers', pathMatch: 'full' },
-  {
-    path: 'cpapworld/masks/:maskSlug',
-    redirectTo: 'library/masks/:maskSlug',
-    pathMatch: 'full'
-  },
-  ...developmentRoutes,
+  { path: 'guide', component: Hero, canActivate: [redirectToStandaloneLibrary] },
+  { path: 'library', component: Hero, canActivate: [redirectToStandaloneLibrary] },
+  { path: 'library/retailers', component: Hero, canActivate: [redirectToStandaloneLibrary] },
+  { path: 'library/masks/:maskSlug', component: Hero, canActivate: [redirectToStandaloneLibrary] },
+  { path: 'compare', component: Hero, canActivate: [redirectToStandaloneLibrary] },
+  { path: 'cpaplibrary', component: Hero, canActivate: [redirectToStandaloneLibrary] },
+  { path: 'cpaplibrary/retailers', component: Hero, canActivate: [redirectToStandaloneLibrary] },
+  { path: 'cpaplibrary/masks/:maskSlug', component: Hero, canActivate: [redirectToStandaloneLibrary] },
+  { path: 'cpapworld', component: Hero, canActivate: [redirectToStandaloneLibrary] },
+  { path: 'cpapworld/retailers', component: Hero, canActivate: [redirectToStandaloneLibrary] },
+  { path: 'cpapworld/masks/:maskSlug', component: Hero, canActivate: [redirectToStandaloneLibrary] },
   { path: '**', redirectTo: '' }
 ];
