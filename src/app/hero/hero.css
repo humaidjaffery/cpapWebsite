@@ -1303,6 +1303,7 @@ body {
 }
 
 .waitlist-row {
+  --radius-button: var(--radius-md);
   display: flex;
   gap: 10px;
   height: 52px;
